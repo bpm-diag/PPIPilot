@@ -377,8 +377,8 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
         
         col_error1, col_error2, col_error3 = st.columns([1, 2, 1])
         with col_error2:
-            if st.button("🔧 Fix JSON Errors with AI", type="primary", use_container_width=True):
-                with st.spinner("Correcting JSON errors with AI..."):
+            if st.button("🔧 Fix JSON Errors", type="primary", use_container_width=True):
+                with st.spinner("Correcting JSON errors..."):
                     # Determine which JSON file to correct
                     json_path_to_correct = None
                     if ppis == "occurrency":
