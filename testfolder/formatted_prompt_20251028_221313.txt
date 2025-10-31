@@ -1,10 +1,106 @@
 You are an expert in Process Performance Indicators (PPIs) and JSON correction. Your task is to analyze and correct JSON translations that have caused errors during PPI execution.
 
 ## Context:
-- Original JSON: {0}
-- Execution Errors: {1}
-- Log Activities: {2}
-- Log Attributes: {3}
+- Original JSON: [
+  {
+    "PPIname": "Number of Declaration SUBMITTED by EMPLOYEE made per year",
+    "PPIjson": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "aggregation": "total",
+      "group_by": "year"
+    }
+  },
+  {
+    "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE that are rejected",
+    "PPIjson": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "metric_condition": "> 0",
+      "aggregation": "percentage",
+      "filter": "activity == 'Declaration REJECTED by ADMINISTRATION' or activity == 'Declaration REJECTED by SUPERVISOR' or activity == 'Declaration REJECTED by PRE_APPROVER' or activity == 'Declaration REJECTED by BUDGET OWNER' or activity == 'Declaration REJECTED by MISSING'"
+    }
+  },
+  {
+    "PPIname": "Average number of Declaration SUBMITTED by EMPLOYEE per month",
+    "PPIjson": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "aggregation": "average",
+      "group_by": "month"
+    }
+  },
+  {
+    "PPIname": "Average number of Declaration SUBMITTED by EMPLOYEE in a month",
+    "PPIjson": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "aggregation": "average",
+      "group_by": "month"
+    }
+  },
+  {
+    "PPIname": "The ratio of Declaration SUBMITTED by EMPLOYEE that are not eventually performed",
+    "PPIjson": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "metric_condition": "> 0",
+      "aggregation": "percentage",
+      "filter": "activity != 'Declaration FINAL_APPROVED by SUPERVISOR' and activity != 'Declaration APPROVED by ADMINISTRATION' and activity != 'Payment Handled'"
+    }
+  }
+]
+- Execution Errors: [
+  {
+    "ppi_name": "Number of Declaration SUBMITTED by EMPLOYEE made per year",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: year'",
+    "ppi_json": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "aggregation": "total",
+      "group_by": "year"
+    }
+  },
+  {
+    "ppi_name": "Percentage of Declaration SUBMITTED by EMPLOYEE that are rejected",
+    "error_type": "metric_computation",
+    "error_message": "name 'activity' is not defined",
+    "ppi_json": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "metric_condition": "> 0",
+      "aggregation": "percentage",
+      "filter": "activity == 'Declaration REJECTED by ADMINISTRATION' or activity == 'Declaration REJECTED by SUPERVISOR' or activity == 'Declaration REJECTED by PRE_APPROVER' or activity == 'Declaration REJECTED by BUDGET OWNER' or activity == 'Declaration REJECTED by MISSING'"
+    }
+  },
+  {
+    "ppi_name": "Average number of Declaration SUBMITTED by EMPLOYEE per month",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: month'",
+    "ppi_json": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "aggregation": "average",
+      "group_by": "month"
+    }
+  },
+  {
+    "ppi_name": "Average number of Declaration SUBMITTED by EMPLOYEE in a month",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: month'",
+    "ppi_json": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "aggregation": "average",
+      "group_by": "month"
+    }
+  },
+  {
+    "ppi_name": "The ratio of Declaration SUBMITTED by EMPLOYEE that are not eventually performed",
+    "error_type": "metric_computation",
+    "error_message": "name 'activity' is not defined",
+    "ppi_json": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "metric_condition": "> 0",
+      "aggregation": "percentage",
+      "filter": "activity != 'Declaration FINAL_APPROVED by SUPERVISOR' and activity != 'Declaration APPROVED by ADMINISTRATION' and activity != 'Payment Handled'"
+    }
+  }
+]
+- Log Activities: Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled, Request Payment, Declaration APPROVED by ADMINISTRATION, Declaration APPROVED by BUDGET OWNER, Declaration REJECTED by EMPLOYEE, Declaration REJECTED by ADMINISTRATION, Declaration APPROVED by PRE_APPROVER, Declaration REJECTED by SUPERVISOR, Declaration SAVED by EMPLOYEE, Declaration REJECTED by MISSING, Declaration REJECTED by PRE_APPROVER, Declaration REJECTED by BUDGET OWNER, Declaration FOR_APPROVAL by SUPERVISOR, Declaration FOR_APPROVAL by PRE_APPROVER, Declaration FOR_APPROVAL by ADMINISTRATION
+- Log Attributes: No attributes provided
 
 ## Your Task:
 Fix the JSON by solving the problems identified in the error messages
@@ -13,11 +109,8 @@ Fix the JSON by solving the problems identified in the error messages
 - REMOVE any `group_by` parameter that references a column that doesn't exist
 - REMOVE any `filter` parameter that contains AND/OR conditions or references undefined variables
 - REMOVE any parameter that references columns not available in the log attributes
-- REMOVE any `metric_condition` parameter from time-based PPIs - this field is ONLY valid for count PPIs
-- For count PPIs with `aggregation: "percentage"`, `metric_condition` is REQUIRED (e.g., "> 0")
+- REMOVE any `metric_condition` parameter - this field is NOT valid for time-based PPIs
 - **REPLACE any invalid aggregation value** (like "variance", "sum", "count") with "average"
-- For time-based PPIs: `aggregation` can ONLY be "total", "minimum", "maximum", "average"
-- For count PPIs: `aggregation` can be "total", "minimum", "maximum", "average", or "percentage"
 - Only use activity names that exist in the provided log activities list
 - Only use attribute names that exist in the provided log attributes list
 - PRESERVE the original PPI JSON structures - only REMOVE or FIX problematic parameters
@@ -25,6 +118,7 @@ Fix the JSON by solving the problems identified in the error messages
 - Each PPI should maintain its unique structure and purpose
 - **COMPLETELY REMOVE filter fields that contain AND/OR conditions or undefined variables**
 - **Simple filters are allowed ONLY if they reference a single, valid condition without AND/OR operators**
+- **aggregation MUST be one of: "total", "minimum", "maximum", "average" - NO OTHER VALUES ALLOWED**
 
 ## Focus Areas:
 
@@ -42,12 +136,9 @@ Fix the JSON by solving the problems identified in the error messages
 - **Complex filter expressions with AND/OR operators - REMOVE these entirely**
 - **Undefined variable references - REMOVE the entire parameter field**
 - **Non-existent column references - REMOVE the parameter line**
-- **Invalid aggregation values like "variance", "count" - REPLACE with "average"**
+- **Invalid aggregation values like "variance", "sum", "count" - REPLACE with "average"**
 - **metric_condition in time-based PPIs - REMOVE this field entirely (only valid for count PPIs)**
-- **For count PPIs with aggregation "percentage" - ENSURE metric_condition is present (e.g., "> 0")**
-- **Using "percentage" aggregation in time-based PPIs - REPLACE with "average"**
-- Incorrect aggregation functions for time-based PPIs (use only: average, total, minimum, maximum)
-- Incorrect aggregation functions for count PPIs (use: average, total, minimum, maximum, percentage)
+- Incorrect aggregation functions (use only: average, total, minimum, maximum)
 - Missing required fields like "count", "begin", "end"
 - Incorrect group_by or filter syntax referencing non-existent columns
 - Empty begin/end fields should have proper activity references or be removed
@@ -186,7 +277,6 @@ AFTER (corrected):
     }
 }
 ```
-**NOTE:** For time-based PPIs, `aggregation` can ONLY be: "total", "minimum", "maximum", "average"
 
 **COMPLETE structure for count/occurrence PPIs (all possible fields):**
 ```json
@@ -206,10 +296,7 @@ AFTER (corrected):
 - `filter` and `group_by` are OPTIONAL fields
 - ONLY include `filter` if it's a simple, valid condition without AND/OR operators
 - ONLY include `group_by` if the column exists in the log attributes
-- For **time-based PPIs**: `aggregation` can ONLY be "total", "minimum", "maximum", "average"
-- For **count PPIs**: `aggregation` can be "total", "minimum", "maximum", "average", or "percentage"
-- When `aggregation` is "percentage" (count PPIs only), `metric_condition` is "> 0"
-- `metric_condition` is ONLY valid for count PPIs, NOT for time-based PPIs
+- `aggregation` can ONLY be one of these values: "total", "minimum", "maximum", "average" (no other values like "variance", "sum", etc.)
 - When in doubt, REMOVE the problematic parameter entirely rather than attempting to fix complex logical conditions or non-existent references
 - All fields should be strings (enclosed in double quotes)
 

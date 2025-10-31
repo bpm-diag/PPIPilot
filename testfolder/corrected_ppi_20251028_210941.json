@@ -1,0 +1,171 @@
+[
+    {
+        "PPIname": "Average time from 'Declaration FINAL_APPROVED by SUPERVISOR' to 'Request Payment'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration FINAL_APPROVED by SUPERVISOR'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total time from 'Declaration SUBMITTED by EMPLOYEE' to 'Request Payment'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Minimum time from 'Declaration APPROVED by ADMINISTRATION' to 'Request Payment'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration APPROVED by ADMINISTRATION'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Average time for 'Request Payment' to be completed after 'Declaration APPROVED by BUDGET OWNER'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration APPROVED by BUDGET OWNER'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total resolution time of 'Request Payment'",
+        "PPIjson": {
+            "begin": "activity == 'Request Payment'",
+            "end": "",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Minimum resolution time of 'Request Payment'",
+        "PPIjson": {
+            "begin": "activity == 'Request Payment'",
+            "end": "",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Average waiting time to 'Request Payment' after 'Declaration APPROVED by PRE_APPROVER'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration APPROVED by PRE_APPROVER'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total time it takes 'Request Payment' to be done after 'Declaration REJECTED by EMPLOYEE'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration REJECTED by EMPLOYEE'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Minimum time it takes 'Request Payment' to be done after 'Declaration REJECTED by ADMINISTRATION'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration REJECTED by ADMINISTRATION'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Average time between 'Declaration APPROVED by ADMINISTRATION' and 'Request Payment' across different process variants",
+        "PPIjson": {
+            "begin": "activity == 'Declaration APPROVED by ADMINISTRATION'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total time for 'Request Payment' across all variants where 'Declaration REJECTED by SUPERVISOR' occurs before it",
+        "PPIjson": {
+            "begin": "activity == 'Declaration REJECTED by SUPERVISOR'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Minimum time for 'Request Payment' in variants where 'Declaration REJECTED by BUDGET OWNER' precedes it",
+        "PPIjson": {
+            "begin": "activity == 'Declaration REJECTED by BUDGET OWNER'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Average time to 'Request Payment' grouped by 'org:resource'",
+        "PPIjson": {
+            "begin": "activity == 'Request Payment'",
+            "end": "",
+            "aggregation": "average",
+            "group_by": "org:resource"
+        }
+    },
+    {
+        "PPIname": "Time of 'Request Payment' Cycle Time in the most frequent process variant",
+        "PPIjson": {
+            "begin": "activity == 'Request Payment'",
+            "end": "",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Total time for 'Request Payment' in the variant with the highest performance score",
+        "PPIjson": {
+            "begin": "activity == 'Request Payment'",
+            "end": "",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Minimum time to 'Request Payment' in the variant with the lowest performance score",
+        "PPIjson": {
+            "begin": "activity == 'Request Payment'",
+            "end": "",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Average time from 'Declaration APPROVED by PRE_APPROVER' to 'Request Payment' in variants ending with 'Payment Handled'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration APPROVED by PRE_APPROVER'",
+            "end": "activity == 'Payment Handled'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total time from 'Declaration SUBMITTED by EMPLOYEE' to 'Request Payment' in variants starting with 'Declaration SUBMITTED by EMPLOYEE' and ending with 'Payment Handled'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Payment Handled'",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Minimum time from 'Declaration REJECTED by ADMINISTRATION' to 'Request Payment' in variants involving 'Declaration REJECTED by ADMINISTRATION'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration REJECTED by ADMINISTRATION'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Average time from 'Declaration SAVED by EMPLOYEE' to the next activity in the process, excluding rejections",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Minimum time for 'Request Payment' across different case amounts",
+        "PPIjson": {
+            "begin": "activity == 'Request Payment'",
+            "end": "",
+            "aggregation": "minimum"
+        }
+    }
+]

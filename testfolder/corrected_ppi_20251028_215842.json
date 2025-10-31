@@ -1,0 +1,125 @@
+[
+    {
+        "PPIname": "Average time from Declaration SUBMITTED by EMPLOYEE to Declaration FINAL_APPROVED by SUPERVISOR",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Declaration FINAL_APPROVED by SUPERVISOR'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total time for Declaration SUBMITTED by EMPLOYEE across all process variants",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Average time between Declaration SUBMITTED by EMPLOYEE and Payment Handled",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Payment Handled'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Minimum time from Declaration SUBMITTED by EMPLOYEE to Declaration REJECTED by ADMINISTRATION",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Declaration REJECTED by ADMINISTRATION'",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Maximum time from Declaration SUBMITTED by EMPLOYEE to Request Payment in the most frequent process variant",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "maximum",
+            "filter": "most_frequent_variant == true"
+        }
+    },
+    {
+        "PPIname": "Average time to Declaration FINAL_APPROVED by SUPERVISOR after Declaration SUBMITTED by EMPLOYEE",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Declaration FINAL_APPROVED by SUPERVISOR'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Average waiting time to Declaration APPROVED by ADMINISTRATION after Declaration SUBMITTED by EMPLOYEE",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Declaration APPROVED by ADMINISTRATION'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total time from Declaration SUBMITTED by EMPLOYEE to Declaration APPROVED by BUDGET OWNER in successful cases",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Declaration APPROVED by BUDGET OWNER'",
+            "aggregation": "total",
+            "filter": "case_outcome == 'successful'"
+        }
+    },
+    {
+        "PPIname": "Minimum time to Declaration REJECTED by EMPLOYEE after Declaration SUBMITTED by EMPLOYEE",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Declaration REJECTED by EMPLOYEE'",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Average time it takes from Declaration SUBMITTED by EMPLOYEE to Declaration FOR_APPROVAL by SUPERVISOR",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Declaration FOR_APPROVAL by SUPERVISOR'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total time for Declaration SUBMITTED by EMPLOYEE to reach Declaration REJECTED by PRE_APPROVER stage",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Declaration REJECTED by PRE_APPROVER'",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Average time from Declaration SUBMITTED by EMPLOYEE to Declaration SAVED by EMPLOYEE",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Maximum time from Declaration SUBMITTED by EMPLOYEE to Payment Handled in cases with rejections",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "activity == 'Payment Handled'",
+            "aggregation": "maximum",
+            "filter": "case:rejection == true"
+        }
+    },
+    {
+        "PPIname": "Total resolution time of Declaration SUBMITTED by EMPLOYEE for cases exceeding average time",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Time variance for Declaration SUBMITTED by EMPLOYEE across different organizational resources",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "end": "",
+            "aggregation": "average"
+        }
+    }
+]

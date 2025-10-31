@@ -154,6 +154,18 @@ if st.session_state.file_uploaded:
     with col11:
         act = st.selectbox("Choose an activity:", st.session_state.activities)
     goal = st.text_area("Organizational goal")
+    
+    # Test mode options
+    col_test1, col_test2 = st.columns(2)
+    with col_test1:
+        test_mode = st.checkbox("🧪 1Test Error Correction: Inject PPIs with errors", value=False)
+        if test_mode:
+            st.info("⚠️ Two PPIs with intentional errors will be added to test error correction.")
+    with col_test2:
+        test_retry = st.checkbox("🔄 Test Retry Mechanism: Force 0 PPIs on first attempt", value=False)
+        if test_retry:
+            st.warning("⚠️ First attempt will return 0 PPIs to trigger retry (max 2 retries).")
+    
     col01, col02, col03 = st.columns(3)
     with col02:
         boton = st.button("Send options selected")
@@ -186,12 +198,15 @@ if st.session_state.file_uploaded:
                 st.session_state.corrected_json_path = None
                 
                 # Generate PPIs
+                # Apply test_retry only on first attempt (retry_count == 0)
+                apply_retry_test = test_retry and retry_count == 0
+                
                 if ppis == "both":
                     ls_cat = ["time","occurrency"]
                     for el in ls_cat:
                         cod_json = exec(st.session_state.dataframe,act,st.session_state.varianti, 
                         st.session_state.activities, el, desc, goal, st.session_state.attribute_array,
-                            xes_file.name, st.session_state.client)
+                            xes_file.name, st.session_state.client, inject_test_errors=test_mode, test_retry_mechanism=apply_retry_test)
                         current_directory = os.path.dirname(__file__)
                         current_directory_con_slashes = current_directory.replace("\\", "/")
                         if el=="time":
@@ -201,7 +216,7 @@ if st.session_state.file_uploaded:
                 else:
                     cod_json = exec(st.session_state.dataframe,act,st.session_state.varianti, 
                         st.session_state.activities, ppis, desc, goal, st.session_state.attribute_array,
-                            xes_file.name, st.session_state.client)
+                            xes_file.name, st.session_state.client, inject_test_errors=test_mode, test_retry_mechanism=apply_retry_test)
                     
                     current_directory = os.path.dirname(__file__)
                     current_directory_con_slashes = current_directory.replace("\\", "/")
@@ -288,7 +303,10 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
     
 
     if selector and not timegroup: 
-        
+        # Calculate dynamic height based on actual dataframe size
+        actual_rows = len(st.session_state.df) if st.session_state.df is not None else st.session_state.batch_size
+        calculated_height = int(35.2 * (actual_rows + 1))
+        display_height = min(max(calculated_height, 200), 800)  # Min 200px, Max 800px
 
         edited_df = st.data_editor(
                 st.session_state.df[["Name", 'Metric','Value']],
@@ -298,9 +316,13 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
         disabled=["Name", 'Metric','Value'],
         hide_index=True,
         use_container_width = True,
-            height= int(35.2*(st.session_state.batch_size+1))
+            height=display_height
         )
     elif selector and timegroup and st.session_state.time_grouper:
+        # Calculate dynamic height based on actual dataframe size
+        actual_rows = len(st.session_state.df_gt) if st.session_state.df_gt is not None else st.session_state.batch_size_gt
+        calculated_height = int(35.2 * (actual_rows + 1))
+        display_height = min(max(calculated_height, 200), 800)  # Min 200px, Max 800px
         
         edited_df = st.data_editor(
             st.session_state.df_gt[['Name','Metric', 'Last Interval Value','Group By','agrupation']],
@@ -314,10 +336,14 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
             disabled=["Name", 'Metric','Last Interval Value','Group By', 'Agrupation'],
             hide_index=True,
             use_container_width = True,
-            height= int(35.2*(st.session_state.batch_size_gt+1))
+            height=display_height
             )
         
     elif not selector and timegroup and st.session_state.time_grouper:
+        # Calculate dynamic height based on actual dataframe size
+        actual_rows = len(st.session_state.df_sin_error_gt) if st.session_state.df_sin_error_gt is not None else st.session_state.batch_size_sin_error_gt
+        calculated_height = int(35.2 * (actual_rows + 1))
+        display_height = min(max(calculated_height, 200), 800)  # Min 200px, Max 800px
         
         edited_df = st.data_editor(
             st.session_state.df_sin_error_gt[['Metric', 'Last Interval Value','Group By','agrupation']],
@@ -331,11 +357,16 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
             disabled=["Name", 'Metric','Last Interval Value','Group By', 'Agrupation'],
             hide_index=True,
             use_container_width = True,
-            height= int(35.2*(st.session_state.batch_size_sin_error_gt+1))
+            height=display_height
             )
 
     elif not selector and not timegroup:
-
+        # Calculate dynamic height based on actual dataframe size
+        actual_rows = len(st.session_state.df_sin_error) if st.session_state.df_sin_error is not None else st.session_state.batch_size_sin_error
+        # Use a minimum height and scale up to a reasonable maximum
+        calculated_height = int(35.2 * (actual_rows + 1))
+        display_height = min(max(calculated_height, 200), 800)  # Min 200px, Max 800px
+        
         edited_df= st.data_editor(
             st.session_state.df_sin_error[['Metric', 'Value']],
             column_config={
@@ -344,11 +375,16 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
         disabled=['Metric','Value'],
         hide_index=True,
         use_container_width = True,
-            height= int(35.2*(st.session_state.batch_size_sin_error+1))
+            height=display_height
 
         )
 
     else:
+        # Calculate dynamic height based on actual dataframe size
+        actual_rows = len(st.session_state.df_sin_error) if st.session_state.df_sin_error is not None else st.session_state.batch_size_sin_error
+        # Use a minimum height and scale up to a reasonable maximum
+        calculated_height = int(35.2 * (actual_rows + 1))
+        display_height = min(max(calculated_height, 200), 800)  # Min 200px, Max 800px
         
         edited_df= st.data_editor(
             st.session_state.df_sin_error[['Metric','Value']],
@@ -358,7 +394,7 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
         disabled=['Metric','Value'],
         hide_index=True,
         use_container_width = True,
-            height= int(35.2*(st.session_state.batch_size_sin_error+1))
+            height=display_height
 
         )
     
@@ -378,6 +414,12 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
         col_error1, col_error2, col_error3 = st.columns([1, 2, 1])
         with col_error2:
             if st.button("🔧 Fix JSON Errors", type="primary", use_container_width=True):
+                # Store errors temporarily before clearing
+                errors_to_correct = st.session_state.errors_captured.copy()
+                
+                # Clear errors immediately when button is clicked
+                st.session_state.errors_captured = []
+                
                 with st.spinner("Correcting JSON errors..."):
                     # Determine which JSON file to correct
                     json_path_to_correct = None
@@ -400,7 +442,7 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
                         
                         corrected_path = correct_json_errors(
                             original_json_data,
-                            st.session_state.errors_captured,
+                            errors_to_correct,
                             st.session_state.activities,
                             st.session_state.attribute_array,
                             st.session_state.client
@@ -420,16 +462,19 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
                                     # For both, we would need to correct both files - simplified for now
                                     batch_size_new, df_sin_error_new, df_new, batch_size_sin_error_new, errors_new = pp.exec_final_time(xes_file, corrected_path)
                                 
+                                # Update session state with corrected results
+                                st.session_state.df = df_new
+                                st.session_state.df_sin_error = df_sin_error_new
+                                # Only update errors_captured if there are still errors
+                                st.session_state.errors_captured = errors_new
+                                
                                 if len(errors_new) == 0:
                                     st.success(f"🎉 All errors fixed! Generated {len(df_new)} successful PPIs.")
-                                    # Replace session state with corrected results (don't concatenate to avoid duplicates)
-                                    st.session_state.df = df_new
-                                    st.session_state.df_sin_error = df_sin_error_new
-                                    st.session_state.errors_captured = errors_new
-                                    st.rerun()
                                 else:
                                     st.warning(f"⚠️ {len(errors_new)} errors still remain after correction.")
-                                    st.session_state.errors_captured.extend(errors_new)
+                                
+                                # Rerun to refresh the UI
+                                st.rerun()
                                     
                             except Exception as e:
                                 st.error(f"Error during re-execution: {str(e)}")

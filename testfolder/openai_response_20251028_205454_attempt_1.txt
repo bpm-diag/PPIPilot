@@ -1,0 +1,32 @@
+OpenAI Attempt 1
+Timestamp: 20251028_205454
+Response Length: 793
+==================================================
+RAW OPENAI RESPONSE:
+==================================================
+[
+  {
+    "PPIname": "Average time between 'Declaration APPROVED by ADMINISTRATION' and 'Request Payment' across different case amounts",
+    "PPIjson": {
+      "begin": "activity == 'Declaration APPROVED by ADMINISTRATION'",
+      "end": "activity == 'Request Payment'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Average time from 'Declaration SAVED by EMPLOYEE' to the next activity in the process, excluding rejections",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Minimum time for 'Request Payment' across different case amounts",
+    "PPIjson": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "minimum"
+    }
+  }
+]

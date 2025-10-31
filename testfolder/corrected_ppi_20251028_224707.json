@@ -1,0 +1,122 @@
+[
+    {
+        "PPIname": "Average time from 'SW-AE Assign Reviewers' to 'SW-Reviewer Agreed'",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'SW-Reviewer Agreed'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Maximum time taken for a case to move from 'SW-AE Assign Reviewers' to 'SW-Awaiting EIC Decision'",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'SW-Awaiting EIC Decision'",
+            "aggregation": "maximum"
+        }
+    },
+    {
+        "PPIname": "Average delay in 'SW-AE Assign Reviewers' due to 'Reviewer Invitation Reminder 1'",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'Reviewer Invitation Reminder 1'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Time difference between 'SW-AE Assign Reviewers' and the next activity for cases where 'SW-Reviewer Declined' follows",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'SW-Reviewer Declined'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Shortest time from 'SW-AE Assign Reviewers' to 'SW-Reviewer Agreed' across all variants",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'SW-Reviewer Agreed'",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Longest time from 'SW-AE Assign Reviewers' to 'SW-Reviewer Declined' considering all event log entries",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'SW-Reviewer Declined'",
+            "aggregation": "maximum"
+        }
+    },
+    {
+        "PPIname": "Average completion time for 'SW-AE Assign Reviewers' in cases leading to 'SW-EIC Major Revision'",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'SW-EIC Major Revision'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Median duration for 'SW-AE Assign Reviewers' activity across all cases",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Variance in time for 'SW-AE Assign Reviewers' across different cases",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total duration of 'SW-AE Assign Reviewers' activity in the top 10 longest cases",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Average time from 'SW-AE Assign Reviewers' to 'Reviewer Invitation Reminder 2' in cases requiring multiple reminders",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'Reviewer Invitation Reminder 2'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Time from 'SW-AE Assign Reviewers' to 'Assign a Different Editor' in cases where editor reassignment was necessary",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'Assign a Different Editor'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Duration from 'SW-AE Assign Reviewers' to 'SW-AE Assign Reviewers Challenge Paper' in cases involving challenge papers",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'SW-AE Assign Reviewers Challenge Paper'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Time from 'SW-AE Assign Reviewers' to 'SW-Reviewer Selection is now due' for cases hitting the deadline",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'SW-Reviewer Selection is now due'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Median time from 'SW-AE Assign Reviewers' to 'SW-AE Recommendation overdue' for cases with overdue recommendations",
+        "PPIjson": {
+            "begin": "activity == 'SW-AE Assign Reviewers'",
+            "end": "activity == 'SW-AE Recommendation overdue'",
+            "aggregation": "average"
+        }
+    }
+]

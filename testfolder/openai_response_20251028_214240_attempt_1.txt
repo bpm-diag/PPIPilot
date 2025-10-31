@@ -1,0 +1,24 @@
+OpenAI Attempt 1
+Timestamp: 20251028_214240
+Response Length: 515
+==================================================
+RAW OPENAI RESPONSE:
+==================================================
+[
+  {
+    "PPIname": "Total resolution time of Declaration SUBMITTED by EMPLOYEE for cases exceeding average time",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "total"
+    }
+  },
+  {
+    "PPIname": "Time variance for Declaration SUBMITTED by EMPLOYEE across different organizational resources",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "variance"
+    }
+  }
+]

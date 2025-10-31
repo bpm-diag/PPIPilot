@@ -266,12 +266,82 @@ def modify_file(file_path):
         file.truncate()
 
 
-def exec(dataframe, acti, varianti, activities, category, description, goal, attribute_array, nome_file, client):
+def inject_test_ppis(json_file_path, category):
+    """
+    Injects test PPIs with known errors to test the error correction mechanism
+    
+    Args:
+        json_file_path: Path to the JSON file to modify
+        category: Category of PPIs (time or occurrency)
+    """
+    with open(json_file_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    
+    # Test PPIs with intentional errors
+    test_ppis = []
+    
+    if category == "time":
+        test_ppis = [
+            {
+                "PPIname": "Average time from 'Declaration SAVED by EMPLOYEE' to the next activity in the process, excluding rejections",
+                "PPIjson": {
+                    "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+                    "end": "",
+                    "aggregation": "average",
+                    "filter": "activity != 'Declaration REJECTED by EMPLOYEE' and activity != 'Declaration REJECTED by ADMINISTRATION' and activity != 'Declaration REJECTED by SUPERVISOR' and activity != 'Declaration REJECTED by MISSING' and activity != 'Declaration REJECTED by PRE_APPROVER' and activity != 'Declaration REJECTED by BUDGET OWNER'"
+                }
+            },
+            {
+                "PPIname": "Minimum time for 'Request Payment' across different case amounts",
+                "PPIjson": {
+                    "begin": "activity == 'Request Payment'",
+                    "end": "",
+                    "aggregation": "minimum",
+                    "group_by": "case:amount"
+                }
+            }
+        ]
+    
+    # Add test PPIs to the data
+    data.extend(test_ppis)
+    
+    # Save back to file
+    with open(json_file_path, 'w', encoding='utf-8') as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
+    
+    print(f"\n🧪 TEST MODE: Injected {len(test_ppis)} test PPIs with errors to {json_file_path}")
+    for ppi in test_ppis:
+        print(f"  - {ppi['PPIname'][:80]}...")
+    print()
+
+def clear_all_ppis(json_file_path):
+    """
+    Clears all PPIs from the JSON file to test the retry mechanism for 0 PPIs
+    
+    Args:
+        json_file_path: Path to the JSON file to modify
+    """
+    # Save an empty array to simulate 0 PPIs generated
+    with open(json_file_path, 'w', encoding='utf-8') as file:
+        json.dump([], file, indent=4, ensure_ascii=False)
+    
+    print(f"\n🧪 RETRY TEST MODE: Cleared all PPIs from {json_file_path} to test retry mechanism")
+    print(f"   This will trigger the retry mechanism (max 2 retries)\n")
+
+def exec(dataframe, acti, varianti, activities, category, description, goal, attribute_array, nome_file, client, inject_test_errors=False, test_retry_mechanism=False):
     listaKPI,temp_file_path =findPPI(dataframe,acti,varianti,activities,category,description,goal,nome_file, client)
     _, file_path_input = translatePPI(listaKPI,activities,attribute_array,nome_file,category,client)
     extracted_data = extract_ppi_json(file_path_input,category)
     modify_file(extracted_data)
     clean_data(extracted_data)
+    
+    # Test retry mechanism by clearing all PPIs (only on first attempt)
+    if test_retry_mechanism:
+        clear_all_ppis(extracted_data)
+    # Inject test PPIs if requested
+    elif inject_test_errors:
+        inject_test_ppis(extracted_data, category)
+    
     return extracted_data
 
 def correct_json_errors(original_json, errors_list, activities, attributes, client):
@@ -506,56 +576,9 @@ def correct_json_errors(original_json, errors_list, activities, attributes, clie
             # Additional cleaning for common OpenAI response issues
             print(f"Cleaned response starts with: {repr(cleaned_response[:50])}")
             
-            # Handle the specific error pattern: '\n        "PPIname"'
-            if '"PPIname"' in cleaned_response:
-                print("Found PPIname in response, attempting to reconstruct JSON...")
-                
-                # Try to extract all PPIname/PPIjson pairs and reconstruct proper JSON
-                import re
-                
-                # Look for PPIname patterns
-                ppi_pattern = r'"PPIname"\s*:\s*"([^"]+)"'
-                ppi_names = re.findall(ppi_pattern, cleaned_response)
-                
-                if ppi_names:
-                    print(f"Found {len(ppi_names)} PPI names: {ppi_names[:3]}...")  # Show first 3
-                    
-                    # Try to preserve original JSON structures instead of using identical fallback
-                    reconstructed_json = []
-                    for i, name in enumerate(ppi_names[:len(json_to_correct)]):  # Match problematic PPIs count
-                        # Try to use the original PPI JSON structure if available
-                        if i < len(json_to_correct) and 'PPIjson' in json_to_correct[i]:
-                            original_ppi_json = json_to_correct[i]['PPIjson']
-                            print(f"Using original JSON structure for PPI {i}: {original_ppi_json}")
-                        else:
-                            # Only use fallback if no original structure available
-                            original_ppi_json = {
-                                "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
-                                "aggregation": "average"
-                            }
-                            print(f"Using fallback JSON structure for PPI {i}")
-                        
-                        reconstructed_ppi = {
-                            "PPIname": name,
-                            "PPIjson": original_ppi_json
-                        }
-                        reconstructed_json.append(reconstructed_ppi)
-                    
-                    cleaned_response = json.dumps(reconstructed_json, indent=2)
-                    print(f"Reconstructed JSON with {len(reconstructed_json)} items, preserving original structures")
-                else:
-                    # If no PPInames found, create minimal fallback
-                    print("No PPInames found, creating minimal fallback")
-                    cleaned_response = '[{"PPIname": "Simple PPI", "PPIjson": {"count": "activity == \'Declaration SUBMITTED by EMPLOYEE\'", "aggregation": "average"}}]'
-            
-            elif cleaned_response.strip().startswith('"PPIname"'):
-                # If response starts with "PPIname", it's likely missing the opening bracket
-                print("Detected response starting with PPIname, adding opening brackets")
-                cleaned_response = '[{' + cleaned_response.strip()
-            elif '"PPIname"' in cleaned_response and not cleaned_response.strip().startswith('['):
-                # If PPIname is found but no opening bracket, try to construct proper JSON
-                print("Found PPIname but no opening bracket, attempting to fix")
-                cleaned_response = '[{' + cleaned_response.strip() + '}]'
+            # REMOVED PROBLEMATIC FALLBACK LOGIC THAT WAS OVERWRITING CORRECT OPENAI RESPONSES
+            # The code was reconstructing JSON using original erroneous structures
+            # Now we trust OpenAI's corrected response directly
             
             # Try to fix incomplete JSON by adding missing closing brackets
             open_brackets = cleaned_response.count('[')

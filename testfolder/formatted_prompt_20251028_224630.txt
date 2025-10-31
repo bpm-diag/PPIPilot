@@ -1,10 +1,64 @@
 You are an expert in Process Performance Indicators (PPIs) and JSON correction. Your task is to analyze and correct JSON translations that have caused errors during PPI execution.
 
 ## Context:
-- Original JSON: {0}
-- Execution Errors: {1}
-- Log Activities: {2}
-- Log Attributes: {3}
+- Original JSON: [
+  {
+    "PPIname": "Median duration for 'SW-AE Assign Reviewers' activity across all cases",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "end": "",
+      "aggregation": "median"
+    }
+  },
+  {
+    "PPIname": "Variance in time for 'SW-AE Assign Reviewers' across different cases",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "end": "",
+      "aggregation": "variance"
+    }
+  },
+  {
+    "PPIname": "Total duration of 'SW-AE Assign Reviewers' activity in the top 10 longest cases",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "end": "",
+      "aggregation": "total",
+      "filter": "top 10 longest cases"
+    }
+  }
+]
+- Execution Errors: [
+  {
+    "ppi_name": "Median duration for 'SW-AE Assign Reviewers' activity across all cases",
+    "error_type": "metric_resolution",
+    "error_message": "'end'",
+    "ppi_json": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "ppi_name": "Variance in time for 'SW-AE Assign Reviewers' across different cases",
+    "error_type": "metric_resolution",
+    "error_message": "'end'",
+    "ppi_json": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "ppi_name": "Total duration of 'SW-AE Assign Reviewers' activity in the top 10 longest cases",
+    "error_type": "metric_resolution",
+    "error_message": "'end'",
+    "ppi_json": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "aggregation": "total"
+    }
+  }
+]
+- Log Activities: SW-AE Assign Reviewers, Reviewer Invitation Reminder 1, Manuscript Export Succeeded, SW-Reviewer Agreed, Reviewer Invitation Reminder 2, Co-Author Account Created During Manuscript Submission, SW-Checklist Completed, Plagiarism Originality Report Completed, Original Manuscript Submission Confirmation, SW-Awaiting Checklist Completion, SW-Initial Reviewer Selection, SW-Reviewer Declined, SW-Awaiting EIC Decision, SW-Awaiting AE Assignment, RW-AE Assign Reviewers, RW-Reviewer Agreed, SW-Awaiting AE Recommendation, SW-Reviewer Selection is due in 1 week, SW-Reviewer Unavailable, SW-Reviewer Selection is due in 3 days, SW-EIC Reject, First Look Manuscript Submission Confirmation, Revised Manuscript Submission Confirmation, RW-Initial Reviewer Selection, RW-Awaiting EIC Decision, SW-Checklist Completion is due in three days, SW-EIC Major Revision, Awaiting Assignment to Batch, Plagiarism Percent Match Threshold Exceeded, First Look-Please submit updates, RW-EIC Accept, RSW-AE Assign Reviewers, SW-EIC Reject & Resubmit, First Look-Your updates are due in one week, SW–Major Revision due in 3 days, SW-Checklist Completion now due, SW-EIC Accept, Unassign Editor, SW-Reviewer No Response, Assign a Different Editor, SW–Major Revision due in 1 week, SW–Major Revision due in 2 weeks, SW–Major Revision due in 1 month, SW-Reviewer Selection is now due, SW–Major Revision due in 3 weeks, Awaiting Production Checklist, First Look-Your updates are overdue, SW-Reviewer Selection is 3 days late, SW-AE Assign Reviewers Challenge Paper, RW-Reviewer Selection is due in 1 week, RW-EIC Minor Revision, RSW-Reviewer Agreed, RW-Reviewer Selection is due in 3 days, RW–Major Revision due in 3 weeks, SW-EIC Minor Revision, SW-AE Recommendation overdue, SW-Reviewer Selection is 1 week late, Uninvite a picked person, RSW-EIC Reject, Manuscript is Unsubmitted, SW–Minor Revision due in 1 month, RW-Reviewer Selection is now due, Resubmission Manuscript Submission Confirmation, Unassign Reviewer, RW–Minor Revision due in 3 days, RW–Minor Revision due in 1 month, RSW-Reviewer Declined, RSW-Awaiting EIC Decision, SW–Minor Revision due in 3 days, RW–Minor Revision due in 3 weeks, RW-Reviewer Selection is 3 days late, RSW-Initial Reviewer Selection, SW–Minor Revision due in 3 weeks, RW-EIC Major Revision, RW-Reviewer Selection is 1 week late, RW–Minor Revision due in 1 week, RW–Minor Revision due in 2 weeks, RW–Major Revision due in 1 month, SW–Minor Revision due in 1 week, RW–Major Revision due in 1 week, RW–Major Revision due in 2 weeks, Immediate Reject Decision from the Checklist, Manuscript is Withdrawn, RW-Reviewer Unavailable, RW-Reviewer Declined, RSW-EIC Major Revision, RSW-Reviewer Selection is 1 week late, RW-AE Assign Reviewers Challenge Paper, RSW-EIC Minor Revision, RW-EIC Reject & Resubmit, RW–Major Revision due in 3 days, SW–Minor Revision due in 2 weeks, RSW-Reviewer Selection is due in 1 week
+- Log Attributes: No attributes provided
 
 ## Your Task:
 Fix the JSON by solving the problems identified in the error messages

@@ -1,0 +1,164 @@
+[
+    {
+        "PPIname": "Average duration of 'Accepted + In Progress' before transitioning to 'Completed + Resolved'",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "activity == 'Completed + Resolved'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Median duration of 'Accepted + In Progress' across all cases",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Longest duration of 'Accepted + In Progress' before transitioning to any other activity",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "maximum"
+        }
+    },
+    {
+        "PPIname": "Shortest duration of 'Accepted + In Progress' before transitioning to any other activity",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Average duration of 'Accepted + In Progress' before transitioning to 'Queued + Awaiting Assignment'",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "activity == 'Queued + Awaiting Assignment'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total duration of 'Accepted + In Progress' across all cases",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Average duration difference between 'Accepted + In Progress' and 'Completed + Closed'",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "activity == 'Completed + Closed'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Duration variance of 'Accepted + In Progress' across all cases",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Average duration of 'Accepted + In Progress' for cases that follow the variant ending in 'Completed + Closed'",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "activity == 'Completed + Closed'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Average duration of 'Accepted + In Progress' during specific phases of the event log as described",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total duration of 'Accepted + In Progress' for cases exceeding the average duration of all activities",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Average duration of 'Accepted + In Progress' for cases that transition to 'Accepted + Wait - User'",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "activity == 'Accepted + Wait - User'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Duration comparison of 'Accepted + In Progress' to 'Accepted + Assigned'",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "activity == 'Accepted + Assigned'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Duration comparison of 'Accepted + In Progress' to 'Completed + In Call'",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "activity == 'Completed + In Call'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Longest and shortest duration of 'Accepted + In Progress' in the top 5 most frequent variants",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "maximum"
+        }
+    },
+    {
+        "PPIname": "Average duration of 'Accepted + In Progress' in cases that were resolved within the same day",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "average",
+            "filter": "case:resolutionTime == 0"
+        }
+    },
+    {
+        "PPIname": "Average duration of 'Accepted + In Progress' in cases that took more than one day to resolve",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "average",
+            "filter": "case:resolutionTime > 1"
+        }
+    },
+    {
+        "PPIname": "Duration distribution of 'Accepted + In Progress' across different countries",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Duration comparison of 'Accepted + In Progress' across different organizational groups",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Duration comparison of 'Accepted + In Progress' for cases initiated in different years",
+        "PPIjson": {
+            "begin": "activity == 'Accepted + In Progress'",
+            "end": "",
+            "aggregation": "average"
+        }
+    }
+]

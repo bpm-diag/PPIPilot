@@ -1,0 +1,80 @@
+OpenAI Attempt 1
+Timestamp: 20251028_220253
+Response Length: 2550
+==================================================
+RAW OPENAI RESPONSE:
+==================================================
+[
+  {
+    "PPIname": "Median time for 'Declaration SUBMITTED by EMPLOYEE' across all cases",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Time variance of 'Declaration SUBMITTED by EMPLOYEE' across different organizational resources",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Difference in average time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration APPROVED by ADMINISTRATION' between the fastest and slowest variants",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "activity == 'Declaration APPROVED by ADMINISTRATION'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Average time from 'Declaration SUBMITTED by EMPLOYEE' to the next activity in the process",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Standard deviation of time for 'Declaration SUBMITTED by EMPLOYEE' across all process variants",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Comparison of average time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration FINAL_APPROVED by SUPERVISOR' between cases with and without 'Declaration REJECTED by SUPERVISOR'",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "activity == 'Declaration FINAL_APPROVED by SUPERVISOR'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Median resolution time of 'Declaration SUBMITTED by EMPLOYEE' for cases ending with 'Payment Handled'",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "activity == 'Payment Handled'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Average time from 'Declaration SAVED by EMPLOYEE' to the next activity in the process, excluding rejections",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Minimum time for 'Request Payment' across different case amounts",
+    "PPIjson": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "average"
+    }
+  }
+]

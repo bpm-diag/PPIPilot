@@ -1,10 +1,72 @@
 You are an expert in Process Performance Indicators (PPIs) and JSON correction. Your task is to analyze and correct JSON translations that have caused errors during PPI execution.
 
 ## Context:
-- Original JSON: {0}
-- Execution Errors: {1}
-- Log Activities: {2}
-- Log Attributes: {3}
+- Original JSON: [
+  {
+    "PPIname": "Duration distribution of 'Accepted + In Progress' across different countries",
+    "PPIjson": {
+      "begin": "activity == 'Accepted + In Progress'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:country"
+    }
+  },
+  {
+    "PPIname": "Duration comparison of 'Accepted + In Progress' across different organizational groups",
+    "PPIjson": {
+      "begin": "activity == 'Accepted + In Progress'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:organizationalGroup"
+    }
+  },
+  {
+    "PPIname": "Duration comparison of 'Accepted + In Progress' for cases initiated in different years",
+    "PPIjson": {
+      "begin": "activity == 'Accepted + In Progress'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:year"
+    }
+  }
+]
+- Execution Errors: [
+  {
+    "ppi_name": "Duration distribution of 'Accepted + In Progress' across different countries",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:country'",
+    "ppi_json": {
+      "begin": "activity == 'Accepted + In Progress'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:country"
+    }
+  },
+  {
+    "ppi_name": "Duration comparison of 'Accepted + In Progress' across different organizational groups",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:organizationalGroup'",
+    "ppi_json": {
+      "begin": "activity == 'Accepted + In Progress'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:organizationalGroup"
+    }
+  },
+  {
+    "ppi_name": "Duration comparison of 'Accepted + In Progress' for cases initiated in different years",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:year'",
+    "ppi_json": {
+      "begin": "activity == 'Accepted + In Progress'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:year"
+    }
+  }
+]
+- Log Activities: Accepted + In Progress, Queued + Awaiting Assignment, Completed + Resolved, Completed + Closed, Accepted + Wait - User, Accepted + Assigned, Completed + In Call, Accepted + Wait, Accepted + Wait - Implementation, Accepted + Wait - Vendor, Accepted + Wait - Customer, Unmatched + Unmatched, Completed + Cancelled
+- Log Attributes: No attributes provided
 
 ## Your Task:
 Fix the JSON by solving the problems identified in the error messages

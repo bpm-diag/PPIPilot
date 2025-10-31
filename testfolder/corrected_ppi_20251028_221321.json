@@ -1,0 +1,240 @@
+[
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE that lead to Declaration APPROVED by ADMINISTRATION",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "filter": "activity == 'Declaration APPROVED by ADMINISTRATION'"
+        }
+    },
+    {
+        "PPIname": "Frequency of Declaration SUBMITTED by EMPLOYEE in the event log",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE followed by Declaration FINAL_APPROVED by SUPERVISOR",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "filter": "activity == 'Declaration FINAL_APPROVED by SUPERVISOR'"
+        }
+    },
+    {
+        "PPIname": "Number of Declaration SUBMITTED by EMPLOYEE that are followed by Request Payment",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "total",
+            "filter": "activity == 'Request Payment'"
+        }
+    },
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE that do not lead to Declaration REJECTED by ADMINISTRATION",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "filter": "activity != 'Declaration REJECTED by ADMINISTRATION'"
+        }
+    },
+    {
+        "PPIname": "Frequency of Declaration SUBMITTED by EMPLOYEE leading to Payment Handled",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "total",
+            "filter": "activity == 'Payment Handled'"
+        }
+    },
+    {
+        "PPIname": "Number of Declaration SUBMITTED by EMPLOYEE with amounts above 100 euros",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "total",
+            "filter": "case:amount > 100"
+        }
+    },
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE by STAFF MEMBER",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "group_by": "org:role"
+        }
+    },
+    {
+        "PPIname": "Number of Declaration SUBMITTED by EMPLOYEE grouped by case:DeclarationNumber",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "total",
+            "group_by": "case:DeclarationNumber"
+        }
+    },
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE by worker",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "group_by": "org:resource"
+        }
+    },
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE followed by Declaration REJECTED by EMPLOYEE",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "filter": "activity == 'Declaration REJECTED by EMPLOYEE'"
+        }
+    },
+    {
+        "PPIname": "Number of Declaration SUBMITTED by EMPLOYEE in relation to Declaration APPROVED by ADMINISTRATION",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "total",
+            "filter": "activity == 'Declaration APPROVED by ADMINISTRATION'"
+        }
+    },
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE in the event log",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage"
+        }
+    },
+    {
+        "PPIname": "Number of times Declaration SUBMITTED by EMPLOYEE is performed",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE done after Declaration REJECTED by EMPLOYEE",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "filter": "activity == 'Declaration REJECTED by EMPLOYEE'"
+        }
+    },
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE with an increment in case:Amount",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "filter": "case:amount_increment == true"
+        }
+    },
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE with appeal",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "filter": "case:appeal == true"
+        }
+    },
+    {
+        "PPIname": "Average number of Declaration SUBMITTED by EMPLOYEE that are followed by Declaration FINAL_APPROVED by SUPERVISOR",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "average",
+            "filter": "activity == 'Declaration FINAL_APPROVED by SUPERVISOR'"
+        }
+    },
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE with penalty",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "filter": "case:penalty == true"
+        }
+    },
+    {
+        "PPIname": "Total Declaration SUBMITTED by EMPLOYEE done by STAFF MEMBER",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "total",
+            "group_by": "org:role"
+        }
+    },
+    {
+        "PPIname": "Fraction of Declaration SUBMITTED by EMPLOYEE that are dismissed",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "filter": "case:dismissed == true"
+        }
+    },
+    {
+        "PPIname": "Total Declaration SUBMITTED by EMPLOYEE performed by SYSTEM",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "total",
+            "filter": "org:resource == 'SYSTEM'"
+        }
+    },
+    {
+        "PPIname": "Ratio of Declaration SUBMITTED by EMPLOYEE over Declaration APPROVED by ADMINISTRATION",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "metric_condition": "> 0",
+            "aggregation": "percentage",
+            "filter": "activity == 'Declaration APPROVED by ADMINISTRATION'"
+        }
+    },
+    {
+        "PPIname": "Occasions how often the Declaration SUBMITTED by EMPLOYEE is performed",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Number of Declaration SUBMITTED by EMPLOYEE made per year",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE that are rejected",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "percentage"
+        }
+    },
+    {
+        "PPIname": "Average number of Declaration SUBMITTED by EMPLOYEE per month",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Average number of Declaration SUBMITTED by EMPLOYEE in a month",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "The ratio of Declaration SUBMITTED by EMPLOYEE that are not eventually performed",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "percentage"
+        }
+    }
+]
