@@ -3,7 +3,7 @@ import pandas as pd
 import pm4py
 import openai
 from openai import OpenAI
-from fromLogtoPPI_prompt_pipeline_goal import exec, correct_json_errors
+from fromLogtoPPI_prompt_pipeline_goal import exec, auto_correct_errors_with_retry
 import json
 import os
 from io import BytesIO
@@ -132,12 +132,6 @@ if "fecha_max" not in st.session_state:
 if "errors_captured" not in st.session_state:
     st.session_state["errors_captured"] = []
 
-if "show_error_correction" not in st.session_state:
-    st.session_state["show_error_correction"] = False
-
-if "corrected_json_path" not in st.session_state:
-    st.session_state["corrected_json_path"] = None
-
 with st.expander("Click to complete the form"):
     col0, col1 = st.columns(2)
     with col0:
@@ -150,21 +144,23 @@ with st.expander("Click to complete the form"):
 if st.session_state.file_uploaded:
     col00, col11 = st.columns(2)
     with col00:
-        ppis = st.selectbox('Choose a category', ["time","occurrency","both"],)
+        ppis = st.selectbox('Choose a category', ["time","occurrency"],)
     with col11:
         act = st.selectbox("Choose an activity:", st.session_state.activities)
     goal = st.text_area("Organizational goal")
     
-    # Test mode options
-    col_test1, col_test2 = st.columns(2)
-    with col_test1:
-        test_mode = st.checkbox("🧪 1Test Error Correction: Inject PPIs with errors", value=False)
-        if test_mode:
-            st.info("⚠️ Two PPIs with intentional errors will be added to test error correction.")
-    with col_test2:
-        test_retry = st.checkbox("🔄 Test Retry Mechanism: Force 0 PPIs on first attempt", value=False)
-        if test_retry:
-            st.warning("⚠️ First attempt will return 0 PPIs to trigger retry (max 2 retries).")
+    # Test mode options (hidden)
+    # col_test1, col_test2 = st.columns(2)
+    # with col_test1:
+    #     test_mode = st.checkbox("🧪 1Test Error Correction: Inject PPIs with errors", value=False)
+    #     if test_mode:
+    #         st.info("⚠️ Two PPIs with intentional errors will be added to test error correction.")
+    # with col_test2:
+    #     test_retry = st.checkbox("🔄 Test Retry Mechanism: Force 0 PPIs on first attempt", value=False)
+    #     if test_retry:
+    #         st.warning("⚠️ First attempt will return 0 PPIs to trigger retry (max 2 retries).")
+    test_mode = False  # Default value when hidden
+    test_retry = False  # Default value when hidden
     
     col01, col02, col03 = st.columns(3)
     with col02:
@@ -194,8 +190,6 @@ if st.session_state.file_uploaded:
                 st.session_state.batch_size_gt = 25
                 st.session_state.batch_size_sin_error_gt = 25
                 st.session_state.errors_captured = []
-                st.session_state.show_error_correction = False
-                st.session_state.corrected_json_path = None
                 
                 # Generate PPIs
                 # Apply test_retry only on first attempt (retry_count == 0)
@@ -224,13 +218,27 @@ if st.session_state.file_uploaded:
                     # Construir la ruta completa al archivo JSON
                     st.session_state.file_path = os.path.join(current_directory_con_slashes, cod_json).replace("\\","/")
                 
-                # Execute PPIs and check results
+                # Execute PPIs with automatic error correction
                 if ppis == "occurrency":
-                    st.session_state.batch_size,st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error, st.session_state.errors_captured = pp.exec_final_perc(xes_file,st.session_state.file_path)
+                    st.session_state.batch_size, st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error, st.session_state.errors_captured, iteration_count = auto_correct_errors_with_retry(
+                        xes_file, st.session_state.file_path, ppis, 
+                        st.session_state.activities, st.session_state.attribute_array, st.session_state.client
+                    )
+                    print(f"Completed after {iteration_count} iteration(s)")
                 elif ppis == "time":
-                    st.session_state.batch_size,st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error, st.session_state.errors_captured = pp.exec_final_time(xes_file,st.session_state.file_path)
+                    st.session_state.batch_size, st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error, st.session_state.errors_captured, iteration_count = auto_correct_errors_with_retry(
+                        xes_file, st.session_state.file_path, ppis,
+                        st.session_state.activities, st.session_state.attribute_array, st.session_state.client
+                    )
+                    print(f"Completed after {iteration_count} iteration(s)")
                 else:  # both
-                    st.session_state.batch_size,st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error, st.session_state.errors_captured = pp.exec_final_both(xes_file,st.session_state.file_path_time, st.session_state.file_path_occurrency)
+                    st.session_state.batch_size, st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error, st.session_state.errors_captured, iteration_count = auto_correct_errors_with_retry(
+                        xes_file, None, ppis,
+                        st.session_state.activities, st.session_state.attribute_array, st.session_state.client,
+                        json_path_time=st.session_state.file_path_time,
+                        json_path_occurrency=st.session_state.file_path_occurrency
+                    )
+                    print(f"Completed after {iteration_count} iteration(s)")
                 
                 st.session_state.ejecutado_final = True
                 
@@ -398,95 +406,18 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
 
         )
     
-    # Error correction section
+    # Display remaining errors after automatic correction (if any)
     if len(st.session_state.errors_captured) > 0:
         st.markdown("---")
-        st.subheader("🚨 Errors Detected")
+        st.warning(f"⚠️ {len(st.session_state.errors_captured)} error(s) remain after automatic correction attempts.")
         
-        with st.expander(f"View {len(st.session_state.errors_captured)} Error(s)", expanded=False):
+        with st.expander(f"View {len(st.session_state.errors_captured)} Remaining Error(s)", expanded=False):
             for i, error in enumerate(st.session_state.errors_captured):
                 st.error(f"**Error {i+1}:** {error['ppi_name']}")
                 st.write(f"**Type:** {error['error_type']}")
                 st.write(f"**Message:** {error['error_message']}")
                 st.json(error['ppi_json'])
                 st.write("---")
-        
-        col_error1, col_error2, col_error3 = st.columns([1, 2, 1])
-        with col_error2:
-            if st.button("🔧 Fix JSON Errors", type="primary", use_container_width=True):
-                # Store errors temporarily before clearing
-                errors_to_correct = st.session_state.errors_captured.copy()
-                
-                # Clear errors immediately when button is clicked
-                st.session_state.errors_captured = []
-                
-                with st.spinner("Correcting JSON errors..."):
-                    # Determine which JSON file to correct
-                    json_path_to_correct = None
-                    if ppis == "occurrency":
-                        json_path_to_correct = st.session_state.file_path
-                    elif ppis == "time":
-                        json_path_to_correct = st.session_state.file_path
-                    elif ppis == "both":
-                        # For 'both', we need to handle both files - for now, let's handle the one with more errors
-                        json_path_to_correct = st.session_state.file_path_time if st.session_state.file_path_time else st.session_state.file_path_occurrency
-                    
-                    if json_path_to_correct:
-                        # Read the original JSON data from the file
-                        try:
-                            with open(json_path_to_correct, 'r', encoding='utf-8') as file:
-                                original_json_data = json.load(file)
-                        except Exception as e:
-                            st.error(f"Failed to read original JSON file: {str(e)}")
-                            st.stop()
-                        
-                        corrected_path = correct_json_errors(
-                            original_json_data,
-                            errors_to_correct,
-                            st.session_state.activities,
-                            st.session_state.attribute_array,
-                            st.session_state.client
-                        )
-                        
-                        if corrected_path:
-                            st.session_state.corrected_json_path = corrected_path
-                            st.success("✅ JSON errors corrected! Re-executing with corrected JSON...")
-                            
-                            # Re-execute with corrected JSON
-                            try:
-                                if ppis == "occurrency":
-                                    batch_size_new, df_sin_error_new, df_new, batch_size_sin_error_new, errors_new = pp.exec_final_perc(xes_file, corrected_path)
-                                elif ppis == "time":
-                                    batch_size_new, df_sin_error_new, df_new, batch_size_sin_error_new, errors_new = pp.exec_final_time(xes_file, corrected_path)
-                                elif ppis == "both":
-                                    # For both, we would need to correct both files - simplified for now
-                                    batch_size_new, df_sin_error_new, df_new, batch_size_sin_error_new, errors_new = pp.exec_final_time(xes_file, corrected_path)
-                                
-                                # Update session state with corrected results
-                                st.session_state.df = df_new
-                                st.session_state.df_sin_error = df_sin_error_new
-                                # Only update errors_captured if there are still errors
-                                st.session_state.errors_captured = errors_new
-                                
-                                if len(errors_new) == 0:
-                                    st.success(f"🎉 All errors fixed! Generated {len(df_new)} successful PPIs.")
-                                else:
-                                    st.warning(f"⚠️ {len(errors_new)} errors still remain after correction.")
-                                
-                                # Rerun to refresh the UI
-                                st.rerun()
-                                    
-                            except Exception as e:
-                                st.error(f"Error during re-execution: {str(e)}")
-                                # Show more detailed error information
-                                import traceback
-                                st.code(traceback.format_exc(), language="python")
-                        else:
-                            st.error("❌ Failed to correct JSON errors. Please check the logs.")
-                            st.info("💡 Try running the correction again, or check the console output for detailed error information.")
-                    else:
-                        st.error("❌ No JSON file found to correct.")
-            
             
 
 

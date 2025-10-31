@@ -344,6 +344,120 @@ def exec(dataframe, acti, varianti, activities, category, description, goal, att
     
     return extracted_data
 
+def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, attributes, client, json_path_time=None, json_path_occurrency=None, max_iterations=2):
+    """
+    Automatically corrects JSON errors with a maximum number of iterations.
+    
+    Args:
+        xes_file: The XES file to execute PPIs against
+        json_path: Path to the JSON file with PPIs (for single type)
+        ppis_type: Type of PPIs ('time', 'occurrency', or 'both')
+        activities: List of available activities
+        attributes: List of available attributes
+        client: OpenAI client instance
+        json_path_time: Path to time JSON file (for 'both' type)
+        json_path_occurrency: Path to occurrency JSON file (for 'both' type)
+        max_iterations: Maximum number of correction iterations (default: 2)
+    
+    Returns:
+        Tuple: (batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration_count)
+    """
+    import ppinatjson as pp
+    
+    iteration = 0
+    current_json_path = json_path
+    current_json_path_time = json_path_time
+    current_json_path_occurrency = json_path_occurrency
+    
+    while iteration < max_iterations:
+        print(f"\n{'='*60}")
+        print(f"Iteration {iteration + 1}/{max_iterations}")
+        print(f"{'='*60}\n")
+        
+        # Execute PPIs based on type
+        if ppis_type == "occurrency":
+            batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_perc(xes_file, current_json_path)
+        elif ppis_type == "time":
+            batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_time(xes_file, current_json_path)
+        elif ppis_type == "both":
+            batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_both(xes_file, current_json_path_time, current_json_path_occurrency)
+        else:
+            raise ValueError(f"Invalid ppis_type: {ppis_type}")
+        
+        # Check if there are errors
+        if len(errors_captured) == 0:
+            print(f"✅ No errors found in iteration {iteration + 1}. Returning results.")
+            return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration + 1
+        
+        print(f"⚠️ Found {len(errors_captured)} errors in iteration {iteration + 1}")
+        
+        # If this is the last iteration, return results as-is
+        if iteration == max_iterations - 1:
+            print(f"❌ Reached maximum iterations ({max_iterations}). Returning results with remaining errors.")
+            return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration + 1
+        
+        # Attempt to correct errors
+        print(f"🔧 Attempting to correct errors automatically...")
+        
+        # For 'both' type, we need to correct both files separately
+        if ppis_type == "both":
+            # Separate errors by type
+            time_errors = [e for e in errors_captured if 'begin' in e.get('ppi_json', {}) or 'end' in e.get('ppi_json', {})]
+            occurrency_errors = [e for e in errors_captured if 'count' in e.get('ppi_json', {})]
+            
+            # Correct time errors if any
+            if time_errors and current_json_path_time:
+                try:
+                    with open(current_json_path_time, 'r', encoding='utf-8') as file:
+                        time_json_data = json.load(file)
+                    corrected_time_path = correct_json_errors(time_json_data, time_errors, activities, attributes, client)
+                    if corrected_time_path:
+                        current_json_path_time = corrected_time_path
+                        print(f"✅ Time JSON corrected successfully.")
+                except Exception as e:
+                    print(f"❌ Failed to correct time JSON: {str(e)}")
+            
+            # Correct occurrency errors if any
+            if occurrency_errors and current_json_path_occurrency:
+                try:
+                    with open(current_json_path_occurrency, 'r', encoding='utf-8') as file:
+                        occurrency_json_data = json.load(file)
+                    corrected_occurrency_path = correct_json_errors(occurrency_json_data, occurrency_errors, activities, attributes, client)
+                    if corrected_occurrency_path:
+                        current_json_path_occurrency = corrected_occurrency_path
+                        print(f"✅ Occurrency JSON corrected successfully.")
+                except Exception as e:
+                    print(f"❌ Failed to correct occurrency JSON: {str(e)}")
+        else:
+            # Single type correction
+            try:
+                with open(current_json_path, 'r', encoding='utf-8') as file:
+                    original_json_data = json.load(file)
+            except Exception as e:
+                print(f"❌ Failed to read JSON file: {str(e)}")
+                return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration + 1
+            
+            # Correct the errors
+            corrected_path = correct_json_errors(
+                original_json_data,
+                errors_captured,
+                activities,
+                attributes,
+                client
+            )
+            
+            if corrected_path:
+                print(f"✅ JSON corrected successfully. Proceeding to iteration {iteration + 2}...")
+                current_json_path = corrected_path
+            else:
+                print(f"❌ Failed to correct JSON errors. Returning results with errors.")
+                return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration + 1
+        
+        iteration += 1
+    
+    # This should not be reached, but just in case
+    return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration
+
 def correct_json_errors(original_json, errors_list, activities, attributes, client):
     """
     Corrects JSON errors using OpenAI API
@@ -474,14 +588,14 @@ def correct_json_errors(original_json, errors_list, activities, attributes, clie
         print(f"Formatted prompt preview: {formatted_prompt[:500]}...")
         
         # Save the formatted prompt to a file
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        prompt_filename = f"formatted_prompt_{timestamp}.txt"
-        try:
-            with open(prompt_filename, 'w', encoding='utf-8') as prompt_file:
-                prompt_file.write(formatted_prompt)
-            print(f"Formatted prompt saved to: {prompt_filename}")
-        except Exception as save_error:
-            print(f"Error saving formatted prompt: {save_error}")
+        # timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        # prompt_filename = f"formatted_prompt_{timestamp}.txt"
+        # try:
+        #     with open(prompt_filename, 'w', encoding='utf-8') as prompt_file:
+        #         prompt_file.write(formatted_prompt)
+        #     print(f"Formatted prompt saved to: {prompt_filename}")
+        # except Exception as save_error:
+        #     print(f"Error saving formatted prompt: {save_error}")
         
         # Get correction from OpenAI with retry logic
         print("Sending prompt to OpenAI for JSON correction...")
@@ -496,20 +610,20 @@ def correct_json_errors(original_json, errors_list, activities, attributes, clie
                 print(f"OpenAI attempt {attempt + 1} - raw response (last 200 chars): {repr(corrected_json_str[-200:])}")
                 
                 # Save the raw OpenAI response to a file
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                openai_response_filename = f"openai_response_{timestamp}_attempt_{attempt + 1}.txt"
-                try:
-                    with open(openai_response_filename, 'w', encoding='utf-8') as response_file:
-                        response_file.write(f"OpenAI Attempt {attempt + 1}\n")
-                        response_file.write(f"Timestamp: {timestamp}\n")
-                        response_file.write(f"Response Length: {len(corrected_json_str)}\n")
-                        response_file.write("="*50 + "\n")
-                        response_file.write("RAW OPENAI RESPONSE:\n")
-                        response_file.write("="*50 + "\n")
-                        response_file.write(corrected_json_str)
-                    print(f"OpenAI raw response saved to: {openai_response_filename}")
-                except Exception as save_error:
-                    print(f"Error saving OpenAI response: {save_error}")
+                # timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                # openai_response_filename = f"openai_response_{timestamp}_attempt_{attempt + 1}.txt"
+                # try:
+                #     with open(openai_response_filename, 'w', encoding='utf-8') as response_file:
+                #         response_file.write(f"OpenAI Attempt {attempt + 1}\n")
+                #         response_file.write(f"Timestamp: {timestamp}\n")
+                #         response_file.write(f"Response Length: {len(corrected_json_str)}\n")
+                #         response_file.write("="*50 + "\n")
+                #         response_file.write("RAW OPENAI RESPONSE:\n")
+                #         response_file.write("="*50 + "\n")
+                #         response_file.write(corrected_json_str)
+                #     print(f"OpenAI raw response saved to: {openai_response_filename}")
+                # except Exception as save_error:
+                #     print(f"Error saving OpenAI response: {save_error}")
                 
                 # Quick validation - check if response looks like valid JSON
                 if corrected_json_str.strip().startswith('[') and corrected_json_str.strip().endswith(']'):
@@ -684,11 +798,11 @@ def correct_json_errors(original_json, errors_list, activities, attributes, clie
             temp_file_path = temp_file.name
         
         # Also save to permanent file
-        permanent_file_path = os.path.join(os.getcwd(), corrected_filename)
-        with open(permanent_file_path, 'w', encoding='utf-8') as permanent_file:
-            json.dump(corrected_json, permanent_file, indent=4, ensure_ascii=False)
-        
-        print(f"Corrected JSON saved to: {permanent_file_path}")
+        # permanent_file_path = os.path.join(os.getcwd(), corrected_filename)
+        # with open(permanent_file_path, 'w', encoding='utf-8') as permanent_file:
+        #     json.dump(corrected_json, permanent_file, indent=4, ensure_ascii=False)
+        # 
+        # print(f"Corrected JSON saved to: {permanent_file_path}")
         return temp_file_path
         
     except FileNotFoundError:

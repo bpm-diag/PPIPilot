@@ -465,6 +465,11 @@ def exec_final_time(event_log, json_path, time_group=None):
                     data = add_row_df_no_time(data, ppi['PPIname'], metric, compute_result_value,agrupation)
     df = pd.DataFrame(data)
     df_sin_error = pd.DataFrame(data_sin_error)
+    
+    # Remove duplicates based on 'Metric' column, keeping the first occurrence
+    df = df.drop_duplicates(subset=['Metric'], keep='first')
+    df_sin_error = df_sin_error.drop_duplicates(subset=['Metric'], keep='first')
+    
     num_filas = df.shape[0]
     num_filas_sin_error =df_sin_error.shape[0]
 
@@ -575,7 +580,11 @@ def exec_final_perc(event_log, json_path, time_group=None):
                 
     df = pd.DataFrame(data)
     df_sin_error = pd.DataFrame(data_sin_error)
-
+    
+    # Remove duplicates based on 'Metric' column, keeping the first occurrence
+    df = df.drop_duplicates(subset=['Metric'], keep='first')
+    df_sin_error = df_sin_error.drop_duplicates(subset=['Metric'], keep='first')
+    
     num_filas = df.shape[0]
     num_filas_sin_error =df_sin_error.shape[0]
 
@@ -588,10 +597,16 @@ def exec_final_both(event_log, json_path_time, json_path_occurrency, time_group=
     # Combine errors from both executions
     errors_combined = errors_perc + errors_time
     
-    num_filas_total = num_filas + num_filas2
-    num_filas_sin_error_total = num_filas_sin_error+ num_filas_sin_error2
     df_sin_error_def = pd.concat([df_sin_error, df_sin_error2], axis=0)
     df_def = pd.concat([df,df2], axis=0)
+    
+    # Remove duplicates based on 'Metric' column after concatenation
+    df_sin_error_def = df_sin_error_def.drop_duplicates(subset=['Metric'], keep='first')
+    df_def = df_def.drop_duplicates(subset=['Metric'], keep='first')
+    
+    num_filas_total = df_def.shape[0]
+    num_filas_sin_error_total = df_sin_error_def.shape[0]
+    
     return num_filas_total, df_sin_error_def, df_def, num_filas_sin_error_total, errors_combined
 
 def obtener_ultimo_no_none(lista):
