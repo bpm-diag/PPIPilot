@@ -20,3 +20,10 @@ Thumbs.db
 *.tmp
 *.log
 *.pyc
+
+# Environment variables
+.env
+.env.local
+
+# Docker
+.dockerignore

@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  ppipilot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ppipilot-app
+    ports:
+      - "7777:8501"
+    volumes:
+      # Persist generated files
+      - ./testfolder:/app/testfolder
+      # Persist uploaded data
+      - ./data:/app/data
+      # Optional: mount prompt templates if you want to modify them without rebuilding
+      - ./1_prompt_description_goal:/app/1_prompt_description_goal
+      - ./1_prompt_general:/app/1_prompt_general
+      - ./2_prompt:/app/2_prompt
+      - ./3_prompt_json_correction:/app/3_prompt_json_correction
+    restart: unless-stopped
+    networks:
+      - ppipilot-network
+
+networks:
+  ppipilot-network:
+    driver: bridge
