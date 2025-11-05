@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore")
 # DEBUG/TESTING CONFIGURATION - Imported from interface_2.py
 # ============================================================================
 # These will be set by the calling code
-SAVE_PROMPTS_AND_RESPONSES = True
+SAVE_PROMPTS_AND_RESPONSES = False
 PROMPTS_LOG_FOLDER = "debug_prompts_log"
 # ============================================================================
 

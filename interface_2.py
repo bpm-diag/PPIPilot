@@ -25,7 +25,7 @@ MAX_LEVEL1_ITERATIONS = 2  # Maximum iterations for Level 1 (Re-translation)
 MAX_LEVEL2_ITERATIONS = 2  # Maximum iterations for Level 2 (Error correction)
 
 # DEBUG/TESTING FLAGS
-SAVE_PROMPTS_AND_RESPONSES = True  # Set to False to disable prompt/response logging
+SAVE_PROMPTS_AND_RESPONSES = False  # Set to False to disable prompt/response logging
 PROMPTS_LOG_FOLDER = "debug_prompts_log"  # Folder where to save prompt logs
 # ============================================================================
 
