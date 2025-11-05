@@ -685,6 +685,183 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
     
     return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, total_iterations
 
+def retranslate_ppis_batch(ppi_names_with_errors, activities, attributes, ppi_category, client):
+    """
+    Re-translates multiple PPIs in a single batch request using a specialized prompt
+    
+    Args:
+        ppi_names_with_errors: List of tuples (ppi_name, error_info)
+        activities: List of available activities in the log
+        attributes: List of available attributes in the log
+        ppi_category: Category of the PPIs ('time' or 'occurrency')
+        client: OpenAI client instance
+    
+    Returns:
+        List of re-translated PPIs as dictionaries, or None if failed
+    """
+    print(f"\n🔄 LEVEL 1 FALLBACK: Re-translating {len(ppi_names_with_errors)} PPIs in batch using specialized prompt...")
+    
+    # Determine the prompt file based on category
+    prompt_path = f'3_prompt_retranslation/prompt_retranslation_{ppi_category}_batch.txt'
+    
+    # Check if batch prompt exists, otherwise use single prompt template
+    if not os.path.exists(prompt_path):
+        print(f"⚠️ Batch prompt not found, using adapted single prompt template")
+        prompt_path = f'3_prompt_retranslation/prompt_retranslation_{ppi_category}.txt'
+    
+    try:
+        with open(prompt_path, 'r', encoding='utf-8') as file:
+            prompt_template = file.read()
+        
+        # Format PPI names and errors
+        ppi_list = []
+        for ppi_name, error_info in ppi_names_with_errors:
+            error_message = f"{error_info.get('error_type', 'Unknown')}: {error_info.get('error_message', 'No details')}"
+            ppi_list.append(f"- {ppi_name} (Error: {error_message})")
+        
+        ppi_names_str = '\n'.join(ppi_list)
+        
+        # Format activities and attributes
+        activities_str = ', '.join(activities) if activities else 'No activities provided'
+        attributes_str = ', '.join(attributes) if attributes else 'No attributes provided'
+        
+        # Create batch prompt
+        if 'batch' in prompt_path:
+            # Use batch-specific template
+            formatted_prompt = prompt_template.replace('{0}', ppi_names_str)
+            formatted_prompt = formatted_prompt.replace('{1}', activities_str)
+            formatted_prompt = formatted_prompt.replace('{2}', attributes_str)
+        else:
+            # Adapt single PPI template for batch
+            # The original template expects: {0}=PPI name, {1}=error, {2}=activities, {3}=attributes
+            # We need to adapt it for multiple PPIs
+            
+            # Create a batch-adapted version of the original prompt
+            batch_header = f"""You are an expert in process mining and PPI (Process Performance Indicator) translation.
+
+You need to re-translate the following {len(ppi_names_with_errors)} PPIs that caused errors during execution:
+
+{ppi_names_str}
+
+AVAILABLE ACTIVITIES IN THE LOG:
+{activities_str}
+
+AVAILABLE ATTRIBUTES IN THE LOG:
+{attributes_str}
+
+"""
+            
+            # Extract the critical requirements and instructions from the original template
+            # Look for the section after the placeholders
+            template_lines = prompt_template.split('\n')
+            requirements_section = []
+            capture = False
+            
+            for line in template_lines:
+                # Start capturing after we see "CRITICAL REQUIREMENTS" or similar
+                if 'CRITICAL' in line.upper() or 'REQUIREMENTS' in line.upper():
+                    capture = True
+                if capture:
+                    requirements_section.append(line)
+            
+            # If we found requirements, use them; otherwise use the whole template as reference
+            if requirements_section:
+                requirements_text = '\n'.join(requirements_section)
+            else:
+                # Fallback: extract everything after the first few placeholder lines
+                requirements_text = '\n'.join(template_lines[10:]) if len(template_lines) > 10 else prompt_template
+            
+            # Add batch-specific output instructions
+            batch_output = f"""
+
+Please return a JSON array with ALL {len(ppi_names_with_errors)} re-translated PPIs. 
+
+**IMPORTANT OUTPUT FORMAT:**
+Return ONLY a valid JSON array starting with '[' and ending with ']'.
+Each PPI in the array must have this structure:
+{{
+  "PPIname": "exact name of the PPI from the list above",
+  "PPIjson": {{ ... your translation ... }}
+}}
+
+You must translate ALL {len(ppi_names_with_errors)} PPIs listed above.
+"""
+            
+            # Combine everything
+            formatted_prompt = batch_header + requirements_text + batch_output
+        
+        print(f"Sending batch re-translation request to OpenAI for {len(ppi_names_with_errors)} PPIs...")
+        
+        # Get re-translation from OpenAI
+        max_retries = 2
+        for attempt in range(max_retries):
+            try:
+                response = get_completion(client, formatted_prompt)
+                print(f"Batch re-translation attempt {attempt + 1} - response length: {len(response)}")
+                
+                # Save prompt and response for debugging
+                save_prompt_and_response(formatted_prompt, response, "level1_batch", None, attempt + 1)
+                
+                # Clean the response
+                cleaned_response = response.strip()
+                
+                # Remove markdown formatting if present
+                if '```json' in cleaned_response:
+                    cleaned_response = cleaned_response.split('```json')[1].split('```')[0].strip()
+                elif '```' in cleaned_response:
+                    cleaned_response = cleaned_response.split('```')[1].strip()
+                
+                # Find the JSON array boundaries
+                start_idx = cleaned_response.find('[')
+                end_idx = cleaned_response.rfind(']')
+                
+                if start_idx != -1 and end_idx != -1:
+                    cleaned_response = cleaned_response[start_idx:end_idx + 1]
+                
+                # Parse the JSON array
+                retranslated_ppis = json.loads(cleaned_response)
+                
+                # Validate the structure
+                if isinstance(retranslated_ppis, list) and len(retranslated_ppis) > 0:
+                    valid_ppis = []
+                    for ppi in retranslated_ppis:
+                        if 'PPIname' in ppi and 'PPIjson' in ppi:
+                            valid_ppis.append(ppi)
+                        else:
+                            print(f"⚠️ Skipping invalid PPI structure: {ppi.get('PPIname', 'unknown')}")
+                    
+                    if len(valid_ppis) > 0:
+                        print(f"✅ Successfully re-translated {len(valid_ppis)} PPIs in batch")
+                        return valid_ppis
+                    else:
+                        print(f"⚠️ No valid PPIs in batch response, retrying...")
+                        if attempt < max_retries - 1:
+                            formatted_prompt += "\n\nIMPORTANT: Your previous response had invalid PPI structures. Please return a valid JSON array where each PPI has 'PPIname' and 'PPIjson' fields."
+                else:
+                    print(f"⚠️ Batch response is not a valid array or is empty, retrying...")
+                    if attempt < max_retries - 1:
+                        formatted_prompt += "\n\nIMPORTANT: Your previous response was not a valid JSON array. Please return ONLY a valid JSON array starting with '[' and ending with ']'."
+                    
+            except json.JSONDecodeError as e:
+                print(f"❌ Failed to parse batch re-translated JSON on attempt {attempt + 1}: {e}")
+                if attempt < max_retries - 1:
+                    formatted_prompt += "\n\nIMPORTANT: Your previous response was not valid JSON. Please return ONLY a valid JSON array starting with '[' and ending with ']'."
+            except Exception as e:
+                print(f"❌ Error during batch re-translation attempt {attempt + 1}: {e}")
+                if attempt == max_retries - 1:
+                    return None
+        
+        print(f"❌ Failed to re-translate PPIs in batch after {max_retries} attempts")
+        return None
+        
+    except FileNotFoundError:
+        print(f"❌ Re-translation prompt file not found: {prompt_path}")
+        return None
+    except Exception as e:
+        print(f"❌ Error during batch PPI re-translation: {e}")
+        return None
+
+
 def retranslate_ppi(ppi_name, error_info, activities, attributes, ppi_category, client):
     """
     Re-translates a single PPI that caused errors using a specialized prompt
@@ -865,32 +1042,33 @@ def correct_json_errors(original_json, errors_list, activities, attributes, clie
             else:
                 working_ppis.append(ppi)
         
-        print(f"Re-translating {len(problematic_ppis)} problematic PPIs")
+        print(f"Re-translating {len(problematic_ppis)} problematic PPIs in batch")
         print(f"Keeping {len(working_ppis)} working PPIs unchanged")
         
-        # Re-translate each problematic PPI
-        retranslated_ppis = []
-        failed_ppis = []
-        
+        # Prepare batch data: list of (ppi_name, error_info) tuples
+        ppi_names_with_errors = []
         for ppi in problematic_ppis:
             ppi_name = ppi['PPIname']
             error_info = error_map[ppi_name]
-            
-            retranslated = retranslate_ppi(ppi_name, error_info, activities, attributes, ppi_category, client)
-            
-            if retranslated:
-                retranslated_ppis.append(retranslated)
-            else:
-                failed_ppis.append(ppi)
+            ppi_names_with_errors.append((ppi_name, error_info))
         
-        print(f"\n✅ Successfully re-translated: {len(retranslated_ppis)} PPIs")
-        print(f"❌ Failed to re-translate: {len(failed_ppis)} PPIs")
+        # Re-translate all problematic PPIs in a single batch
+        retranslated_ppis = retranslate_ppis_batch(ppi_names_with_errors, activities, attributes, ppi_category, client)
         
-        # If some PPIs failed re-translation, return None to trigger Level 2
-        if len(failed_ppis) > 0:
-            print(f"\n⚠️ {len(failed_ppis)} PPIs failed re-translation, will trigger Level 2 fallback")
-            # Update the original_json and errors_list to only include failed PPIs
-            # This will be used by Level 2
+        if retranslated_ppis is None or len(retranslated_ppis) == 0:
+            print(f"\n❌ Batch re-translation failed, will trigger Level 2 fallback")
+            return None
+        
+        print(f"\n✅ Successfully re-translated: {len(retranslated_ppis)} PPIs in batch")
+        
+        # Check if all PPIs were re-translated
+        retranslated_names = {ppi['PPIname'] for ppi in retranslated_ppis}
+        expected_names = {ppi['PPIname'] for ppi in problematic_ppis}
+        missing_names = expected_names - retranslated_names
+        
+        if missing_names:
+            print(f"⚠️ {len(missing_names)} PPIs missing from batch response: {missing_names}")
+            print(f"Will trigger Level 2 fallback for missing PPIs")
             return None
         
         # Merge re-translated PPIs with working PPIs

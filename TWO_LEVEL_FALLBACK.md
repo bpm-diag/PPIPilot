@@ -118,8 +118,27 @@ If Level 1 fails to produce a valid PPI, the system falls back to the **error co
 
 ### Key Functions
 
-#### `retranslate_ppi(ppi_name, error_info, activities, attributes, ppi_category, client)`
-Re-translates a single PPI that caused errors.
+#### `retranslate_ppis_batch(ppi_names_with_errors, activities, attributes, ppi_category, client)`
+Re-translates multiple PPIs in a single batch request (NEW - more efficient).
+
+**Parameters:**
+- `ppi_names_with_errors`: List of tuples (ppi_name, error_info) for all problematic PPIs
+- `activities`: Available activities in the log
+- `attributes`: Available attributes in the log
+- `ppi_category`: 'time' or 'occurrency'
+- `client`: OpenAI client
+
+**Returns:** List of re-translated PPIs or None if failed
+
+**Benefits:**
+- 🚀 **Faster:** Single API call instead of N calls
+- 💰 **Cheaper:** 1× cost instead of N× cost
+- 📝 **Simpler logging:** One log file per batch
+
+See `LEVEL1_BATCH_RETRANSLATION.md` for detailed documentation.
+
+#### `retranslate_ppi(ppi_name, error_info, activities, attributes, ppi_category, client)` (Legacy)
+Re-translates a single PPI that caused errors. Kept for backward compatibility but no longer used by default.
 
 **Parameters:**
 - `ppi_name`: Name of the PPI to re-translate
@@ -331,13 +350,16 @@ LEVEL 1 - Iteration 1/2 (Total: 1)
 LEVEL 1 FALLBACK: Re-translating problematic PPIs
 ============================================================
 
-🔄 LEVEL 1 FALLBACK: Re-translating PPI 'Average time by resource'...
-✅ Successfully re-translated PPI 'Average time by resource'
+Re-translating 3 problematic PPIs in batch
+Keeping 8 working PPIs unchanged
 
-✅ Successfully re-translated: 2 PPIs
-❌ Failed to re-translate: 1 PPIs
+🔄 LEVEL 1 FALLBACK: Re-translating 3 PPIs in batch using specialized prompt...
+Sending batch re-translation request to OpenAI for 3 PPIs...
+Batch re-translation attempt 1 - response length: 1234
+📝 Saved prompt and response to: debug_prompts_log/20241105_124500_123456_level1_batch_iter1.txt
+✅ Successfully re-translated 3 PPIs in batch
 
-⚠️ 1 PPIs failed re-translation, will trigger Level 2 fallback
+✅ Successfully re-translated: 3 PPIs in batch
 ✅ JSON corrected with Level 1. Proceeding to next iteration...
 
 ============================================================
