@@ -17,6 +17,12 @@ import tempfile
 
 import ppinatjson as pp
 
+# ============================================================================
+# ERROR CORRECTION CONFIGURATION - Easily modifiable parameters
+# ============================================================================
+MAX_LEVEL1_ITERATIONS = 2  # Maximum iterations for Level 1 (Re-translation)
+MAX_LEVEL2_ITERATIONS = 2  # Maximum iterations for Level 2 (Error correction)
+# ============================================================================
 
 #logger = logging.getLogger(__name__)
 
@@ -222,13 +228,17 @@ if st.session_state.file_uploaded:
                 if ppis == "occurrency":
                     st.session_state.batch_size, st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error, st.session_state.errors_captured, iteration_count = auto_correct_errors_with_retry(
                         xes_file, st.session_state.file_path, ppis, 
-                        st.session_state.activities, st.session_state.attribute_array, st.session_state.client
+                        st.session_state.activities, st.session_state.attribute_array, st.session_state.client,
+                        max_level1_iterations=MAX_LEVEL1_ITERATIONS,
+                        max_level2_iterations=MAX_LEVEL2_ITERATIONS
                     )
                     print(f"Completed after {iteration_count} iteration(s)")
                 elif ppis == "time":
                     st.session_state.batch_size, st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error, st.session_state.errors_captured, iteration_count = auto_correct_errors_with_retry(
                         xes_file, st.session_state.file_path, ppis,
-                        st.session_state.activities, st.session_state.attribute_array, st.session_state.client
+                        st.session_state.activities, st.session_state.attribute_array, st.session_state.client,
+                        max_level1_iterations=MAX_LEVEL1_ITERATIONS,
+                        max_level2_iterations=MAX_LEVEL2_ITERATIONS
                     )
                     print(f"Completed after {iteration_count} iteration(s)")
                 else:  # both
@@ -236,7 +246,9 @@ if st.session_state.file_uploaded:
                         xes_file, None, ppis,
                         st.session_state.activities, st.session_state.attribute_array, st.session_state.client,
                         json_path_time=st.session_state.file_path_time,
-                        json_path_occurrency=st.session_state.file_path_occurrency
+                        json_path_occurrency=st.session_state.file_path_occurrency,
+                        max_level1_iterations=MAX_LEVEL1_ITERATIONS,
+                        max_level2_iterations=MAX_LEVEL2_ITERATIONS
                     )
                     print(f"Completed after {iteration_count} iteration(s)")
                 

@@ -344,9 +344,11 @@ def exec(dataframe, acti, varianti, activities, category, description, goal, att
     
     return extracted_data
 
-def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, attributes, client, json_path_time=None, json_path_occurrency=None, max_iterations=2):
+def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, attributes, client, 
+                                   json_path_time=None, json_path_occurrency=None, 
+                                   max_level1_iterations=2, max_level2_iterations=2):
     """
-    Automatically corrects JSON errors with a maximum number of iterations.
+    Automatically corrects JSON errors with separate iteration limits for Level 1 and Level 2.
     
     Args:
         xes_file: The XES file to execute PPIs against
@@ -357,21 +359,35 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
         client: OpenAI client instance
         json_path_time: Path to time JSON file (for 'both' type)
         json_path_occurrency: Path to occurrency JSON file (for 'both' type)
-        max_iterations: Maximum number of correction iterations (default: 2)
+        max_level1_iterations: Maximum number of Level 1 (re-translation) iterations (default: 2)
+        max_level2_iterations: Maximum number of Level 2 (error correction) iterations (default: 2)
     
     Returns:
-        Tuple: (batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration_count)
+        Tuple: (batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, total_iterations)
     """
     import ppinatjson as pp
     
-    iteration = 0
+    # Configuration parameters - easily modifiable
+    MAX_LEVEL1_ITERATIONS = max_level1_iterations  # Level 1: Re-translation attempts
+    MAX_LEVEL2_ITERATIONS = max_level2_iterations  # Level 2: Error correction attempts
+    
+    print(f"\n{'='*70}")
+    print(f"ERROR CORRECTION CONFIGURATION:")
+    print(f"  - Level 1 (Re-translation) max iterations: {MAX_LEVEL1_ITERATIONS}")
+    print(f"  - Level 2 (Error correction) max iterations: {MAX_LEVEL2_ITERATIONS}")
+    print(f"{'='*70}\n")
+    
     current_json_path = json_path
     current_json_path_time = json_path_time
     current_json_path_occurrency = json_path_occurrency
+    total_iterations = 0
     
-    while iteration < max_iterations:
+    # Phase 1: Level 1 iterations (Re-translation)
+    level1_iteration = 0
+    while level1_iteration < MAX_LEVEL1_ITERATIONS:
+        total_iterations += 1
         print(f"\n{'='*60}")
-        print(f"Iteration {iteration + 1}/{max_iterations}")
+        print(f"LEVEL 1 - Iteration {level1_iteration + 1}/{MAX_LEVEL1_ITERATIONS} (Total: {total_iterations})")
         print(f"{'='*60}\n")
         
         # Execute PPIs based on type
@@ -386,18 +402,15 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
         
         # Check if there are errors
         if len(errors_captured) == 0:
-            print(f"✅ No errors found in iteration {iteration + 1}. Returning results.")
-            return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration + 1
+            print(f"✅ No errors found in Level 1 iteration {level1_iteration + 1}. Returning results.")
+            return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, total_iterations
         
-        print(f"⚠️ Found {len(errors_captured)} errors in iteration {iteration + 1}")
+        print(f"⚠️ Found {len(errors_captured)} errors in Level 1 iteration {level1_iteration + 1}")
         
-        # If this is the last iteration, return results as-is
-        if iteration == max_iterations - 1:
-            print(f"❌ Reached maximum iterations ({max_iterations}). Returning results with remaining errors.")
-            return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration + 1
+        # Attempt Level 1 correction (Re-translation)
+        print(f"🔄 Attempting Level 1 correction (re-translation)...")
         
-        # Attempt to correct errors
-        print(f"🔧 Attempting to correct errors automatically...")
+        correction_successful = False
         
         # For 'both' type, we need to correct both files separately
         if ppis_type == "both":
@@ -410,55 +423,289 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
                 try:
                     with open(current_json_path_time, 'r', encoding='utf-8') as file:
                         time_json_data = json.load(file)
-                    corrected_time_path = correct_json_errors(time_json_data, time_errors, activities, attributes, client)
+                    
+                    corrected_time_path = correct_json_errors(time_json_data, time_errors, activities, attributes, client, use_retranslation=True)
+                    
                     if corrected_time_path:
                         current_json_path_time = corrected_time_path
-                        print(f"✅ Time JSON corrected successfully.")
+                        print(f"✅ Time JSON corrected with Level 1.")
+                        correction_successful = True
                 except Exception as e:
-                    print(f"❌ Failed to correct time JSON: {str(e)}")
+                    print(f"❌ Failed to correct time JSON with Level 1: {str(e)}")
             
             # Correct occurrency errors if any
             if occurrency_errors and current_json_path_occurrency:
                 try:
                     with open(current_json_path_occurrency, 'r', encoding='utf-8') as file:
                         occurrency_json_data = json.load(file)
-                    corrected_occurrency_path = correct_json_errors(occurrency_json_data, occurrency_errors, activities, attributes, client)
+                    
+                    corrected_occurrency_path = correct_json_errors(occurrency_json_data, occurrency_errors, activities, attributes, client, use_retranslation=True)
+                    
                     if corrected_occurrency_path:
                         current_json_path_occurrency = corrected_occurrency_path
-                        print(f"✅ Occurrency JSON corrected successfully.")
+                        print(f"✅ Occurrency JSON corrected with Level 1.")
+                        correction_successful = True
                 except Exception as e:
-                    print(f"❌ Failed to correct occurrency JSON: {str(e)}")
+                    print(f"❌ Failed to correct occurrency JSON with Level 1: {str(e)}")
         else:
-            # Single type correction
+            # Single type correction with Level 1
             try:
                 with open(current_json_path, 'r', encoding='utf-8') as file:
                     original_json_data = json.load(file)
             except Exception as e:
                 print(f"❌ Failed to read JSON file: {str(e)}")
-                return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration + 1
+                break
             
-            # Correct the errors
             corrected_path = correct_json_errors(
                 original_json_data,
                 errors_captured,
                 activities,
                 attributes,
-                client
+                client,
+                use_retranslation=True
             )
             
             if corrected_path:
-                print(f"✅ JSON corrected successfully. Proceeding to iteration {iteration + 2}...")
+                print(f"✅ JSON corrected with Level 1. Proceeding to next iteration...")
                 current_json_path = corrected_path
+                correction_successful = True
             else:
-                print(f"❌ Failed to correct JSON errors. Returning results with errors.")
-                return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration + 1
+                print(f"❌ Level 1 correction failed.")
         
-        iteration += 1
+        # If correction was not successful and this is the last Level 1 iteration, break to Level 2
+        if not correction_successful:
+            print(f"⚠️ Level 1 correction unsuccessful in iteration {level1_iteration + 1}")
+        
+        level1_iteration += 1
     
-    # This should not be reached, but just in case
-    return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, iteration
+    # Check if we still have errors after Level 1
+    print(f"\n{'='*60}")
+    print(f"Level 1 completed after {MAX_LEVEL1_ITERATIONS} iterations")
+    print(f"{'='*60}\n")
+    
+    # Re-execute to check current state
+    if ppis_type == "occurrency":
+        batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_perc(xes_file, current_json_path)
+    elif ppis_type == "time":
+        batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_time(xes_file, current_json_path)
+    elif ppis_type == "both":
+        batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_both(xes_file, current_json_path_time, current_json_path_occurrency)
+    
+    if len(errors_captured) == 0:
+        print(f"✅ All errors resolved after Level 1. Returning results.")
+        return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, total_iterations
+    
+    print(f"⚠️ Still have {len(errors_captured)} errors after Level 1. Proceeding to Level 2...")
+    
+    # Phase 2: Level 2 iterations (Error correction)
+    level2_iteration = 0
+    while level2_iteration < MAX_LEVEL2_ITERATIONS:
+        total_iterations += 1
+        print(f"\n{'='*60}")
+        print(f"LEVEL 2 - Iteration {level2_iteration + 1}/{MAX_LEVEL2_ITERATIONS} (Total: {total_iterations})")
+        print(f"{'='*60}\n")
+        
+        # Execute PPIs based on type
+        if ppis_type == "occurrency":
+            batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_perc(xes_file, current_json_path)
+        elif ppis_type == "time":
+            batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_time(xes_file, current_json_path)
+        elif ppis_type == "both":
+            batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_both(xes_file, current_json_path_time, current_json_path_occurrency)
+        
+        # Check if there are errors
+        if len(errors_captured) == 0:
+            print(f"✅ No errors found in Level 2 iteration {level2_iteration + 1}. Returning results.")
+            return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, total_iterations
+        
+        print(f"⚠️ Found {len(errors_captured)} errors in Level 2 iteration {level2_iteration + 1}")
+        
+        # Attempt Level 2 correction (Error fixing)
+        print(f"🔧 Attempting Level 2 correction (error fixing)...")
+        
+        correction_successful = False
+        
+        # For 'both' type, we need to correct both files separately
+        if ppis_type == "both":
+            # Separate errors by type
+            time_errors = [e for e in errors_captured if 'begin' in e.get('ppi_json', {}) or 'end' in e.get('ppi_json', {})]
+            occurrency_errors = [e for e in errors_captured if 'count' in e.get('ppi_json', {})]
+            
+            # Correct time errors if any
+            if time_errors and current_json_path_time:
+                try:
+                    with open(current_json_path_time, 'r', encoding='utf-8') as file:
+                        time_json_data = json.load(file)
+                    
+                    corrected_time_path = correct_json_errors(time_json_data, time_errors, activities, attributes, client, use_retranslation=False)
+                    
+                    if corrected_time_path:
+                        current_json_path_time = corrected_time_path
+                        print(f"✅ Time JSON corrected with Level 2.")
+                        correction_successful = True
+                except Exception as e:
+                    print(f"❌ Failed to correct time JSON with Level 2: {str(e)}")
+            
+            # Correct occurrency errors if any
+            if occurrency_errors and current_json_path_occurrency:
+                try:
+                    with open(current_json_path_occurrency, 'r', encoding='utf-8') as file:
+                        occurrency_json_data = json.load(file)
+                    
+                    corrected_occurrency_path = correct_json_errors(occurrency_json_data, occurrency_errors, activities, attributes, client, use_retranslation=False)
+                    
+                    if corrected_occurrency_path:
+                        current_json_path_occurrency = corrected_occurrency_path
+                        print(f"✅ Occurrency JSON corrected with Level 2.")
+                        correction_successful = True
+                except Exception as e:
+                    print(f"❌ Failed to correct occurrency JSON with Level 2: {str(e)}")
+        else:
+            # Single type correction with Level 2
+            try:
+                with open(current_json_path, 'r', encoding='utf-8') as file:
+                    original_json_data = json.load(file)
+            except Exception as e:
+                print(f"❌ Failed to read JSON file: {str(e)}")
+                break
+            
+            corrected_path = correct_json_errors(
+                original_json_data,
+                errors_captured,
+                activities,
+                attributes,
+                client,
+                use_retranslation=False
+            )
+            
+            if corrected_path:
+                print(f"✅ JSON corrected with Level 2. Proceeding to next iteration...")
+                current_json_path = corrected_path
+                correction_successful = True
+            else:
+                print(f"❌ Level 2 correction failed.")
+        
+        # If correction was not successful and this is the last Level 2 iteration, break
+        if not correction_successful:
+            print(f"⚠️ Level 2 correction unsuccessful in iteration {level2_iteration + 1}")
+        
+        level2_iteration += 1
+    
+    # Final execution to get final state
+    print(f"\n{'='*60}")
+    print(f"Level 2 completed after {MAX_LEVEL2_ITERATIONS} iterations")
+    print(f"{'='*60}\n")
+    
+    if ppis_type == "occurrency":
+        batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_perc(xes_file, current_json_path)
+    elif ppis_type == "time":
+        batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_time(xes_file, current_json_path)
+    elif ppis_type == "both":
+        batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_both(xes_file, current_json_path_time, current_json_path_occurrency)
+    
+    if len(errors_captured) == 0:
+        print(f"✅ All errors resolved after Level 2. Returning results.")
+    else:
+        print(f"⚠️ {len(errors_captured)} errors remain after all correction attempts.")
+        print(f"Returning results as-is.")
+    
+    return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, total_iterations
 
-def correct_json_errors(original_json, errors_list, activities, attributes, client):
+def retranslate_ppi(ppi_name, error_info, activities, attributes, ppi_category, client):
+    """
+    Re-translates a single PPI that caused errors using a specialized prompt
+    
+    Args:
+        ppi_name: Name of the PPI to re-translate
+        error_info: Dictionary containing error information
+        activities: List of available activities in the log
+        attributes: List of available attributes in the log
+        ppi_category: Category of the PPI ('time' or 'occurrency')
+        client: OpenAI client instance
+    
+    Returns:
+        Re-translated PPI as a dictionary, or None if failed
+    """
+    print(f"\n🔄 LEVEL 1 FALLBACK: Re-translating PPI '{ppi_name}' using specialized prompt...")
+    
+    # Determine the prompt file based on category
+    prompt_path = f'3_prompt_retranslation/prompt_retranslation_{ppi_category}.txt'
+    
+    try:
+        with open(prompt_path, 'r', encoding='utf-8') as file:
+            prompt_template = file.read()
+        
+        # Format error message
+        error_message = f"{error_info.get('error_type', 'Unknown')}: {error_info.get('error_message', 'No details')}"
+        
+        # Format activities and attributes
+        activities_str = ', '.join(activities) if activities else 'No activities provided'
+        attributes_str = ', '.join(attributes) if attributes else 'No attributes provided'
+        
+        # Format the prompt
+        formatted_prompt = prompt_template.replace('{0}', ppi_name)
+        formatted_prompt = formatted_prompt.replace('{1}', error_message)
+        formatted_prompt = formatted_prompt.replace('{2}', activities_str)
+        formatted_prompt = formatted_prompt.replace('{3}', attributes_str)
+        
+        print(f"Sending re-translation request to OpenAI for '{ppi_name}'...")
+        
+        # Get re-translation from OpenAI
+        max_retries = 2
+        for attempt in range(max_retries):
+            try:
+                response = get_completion(client, formatted_prompt)
+                print(f"Re-translation attempt {attempt + 1} - response length: {len(response)}")
+                
+                # Clean the response
+                cleaned_response = response.strip()
+                
+                # Remove markdown formatting if present
+                if '```json' in cleaned_response:
+                    cleaned_response = cleaned_response.split('```json')[1].split('```')[0].strip()
+                elif '```' in cleaned_response:
+                    cleaned_response = cleaned_response.split('```')[1].strip()
+                
+                # Find the JSON object boundaries
+                start_idx = cleaned_response.find('{')
+                end_idx = cleaned_response.rfind('}')
+                
+                if start_idx != -1 and end_idx != -1:
+                    cleaned_response = cleaned_response[start_idx:end_idx + 1]
+                
+                # Parse the JSON
+                retranslated_ppi = json.loads(cleaned_response)
+                
+                # Validate the structure
+                if 'PPIname' in retranslated_ppi and 'PPIjson' in retranslated_ppi:
+                    print(f"✅ Successfully re-translated PPI '{ppi_name}'")
+                    return retranslated_ppi
+                else:
+                    print(f"⚠️ Re-translated PPI missing required fields, retrying...")
+                    if attempt < max_retries - 1:
+                        formatted_prompt += "\n\nIMPORTANT: Your previous response was missing required fields. Please return a valid JSON object with 'PPIname' and 'PPIjson' fields."
+                    
+            except json.JSONDecodeError as e:
+                print(f"❌ Failed to parse re-translated JSON on attempt {attempt + 1}: {e}")
+                if attempt < max_retries - 1:
+                    formatted_prompt += "\n\nIMPORTANT: Your previous response was not valid JSON. Please return ONLY a valid JSON object starting with '{' and ending with '}'."
+            except Exception as e:
+                print(f"❌ Error during re-translation attempt {attempt + 1}: {e}")
+                if attempt == max_retries - 1:
+                    return None
+        
+        print(f"❌ Failed to re-translate PPI '{ppi_name}' after {max_retries} attempts")
+        return None
+        
+    except FileNotFoundError:
+        print(f"❌ Re-translation prompt file not found: {prompt_path}")
+        return None
+    except Exception as e:
+        print(f"❌ Error during PPI re-translation: {e}")
+        return None
+
+
+def correct_json_errors(original_json, errors_list, activities, attributes, client, use_retranslation=False):
     """
     Corrects JSON errors using OpenAI API
     
@@ -468,10 +715,126 @@ def correct_json_errors(original_json, errors_list, activities, attributes, clie
         activities: List of available activities in the log
         attributes: List of available attributes in the log
         client: OpenAI client instance
+        use_retranslation: If True, uses re-translation prompt (Level 1), otherwise uses correction prompt (Level 2)
     
     Returns:
         Path to the corrected JSON file
     """
+    
+    # If using re-translation (Level 1 fallback)
+    if use_retranslation:
+        print("\n" + "="*60)
+        print("LEVEL 1 FALLBACK: Re-translating problematic PPIs")
+        print("="*60 + "\n")
+        
+        # Determine category from the JSON structure
+        ppi_category = None
+        if original_json and len(original_json) > 0:
+            first_ppi = original_json[0]
+            if 'PPIjson' in first_ppi:
+                if 'begin' in first_ppi['PPIjson'] or 'end' in first_ppi['PPIjson']:
+                    ppi_category = 'time'
+                elif 'count' in first_ppi['PPIjson']:
+                    ppi_category = 'occurrency'
+        
+        if not ppi_category:
+            print("❌ Could not determine PPI category, falling back to Level 2")
+            return correct_json_errors(original_json, errors_list, activities, attributes, client, use_retranslation=False)
+        
+        # Clean the JSON data
+        cleaned_json = []
+        for item in original_json:
+            if (not item.get('PPIname', '').strip() or 
+                not item.get('PPIjson') or 
+                not item['PPIjson']):
+                continue
+            
+            cleaned_item = item.copy()
+            cleaned_item['PPIname'] = item['PPIname'].replace("PPIname: ", "")
+            if len(cleaned_item['PPIname']) > 0 and cleaned_item['PPIname'][-1] == ",":
+                cleaned_item['PPIname'] = cleaned_item['PPIname'][:-1]
+            cleaned_item['PPIname'] = cleaned_item['PPIname'].replace('\\', '')
+            
+            if cleaned_item['PPIjson']:
+                cleaned_ppi_json = {}
+                for key, value in cleaned_item['PPIjson'].items():
+                    if isinstance(value, str):
+                        if len(value) > 0 and value[-1] == ",":
+                            value = value[:-1]
+                        value = value.replace('\\', '')
+                        if value.strip() == "":
+                            value = ""
+                    cleaned_ppi_json[key] = value
+                cleaned_item['PPIjson'] = cleaned_ppi_json
+            
+            cleaned_json.append(cleaned_item)
+        
+        original_json = cleaned_json
+        
+        # Create error mapping
+        error_map = {}
+        for error in errors_list:
+            ppi_name = error['ppi_name']
+            if ppi_name not in error_map:
+                error_map[ppi_name] = error
+        
+        # Separate working and problematic PPIs
+        problematic_ppis = []
+        working_ppis = []
+        
+        for ppi in original_json:
+            if ppi['PPIname'] in error_map:
+                problematic_ppis.append(ppi)
+            else:
+                working_ppis.append(ppi)
+        
+        print(f"Re-translating {len(problematic_ppis)} problematic PPIs")
+        print(f"Keeping {len(working_ppis)} working PPIs unchanged")
+        
+        # Re-translate each problematic PPI
+        retranslated_ppis = []
+        failed_ppis = []
+        
+        for ppi in problematic_ppis:
+            ppi_name = ppi['PPIname']
+            error_info = error_map[ppi_name]
+            
+            retranslated = retranslate_ppi(ppi_name, error_info, activities, attributes, ppi_category, client)
+            
+            if retranslated:
+                retranslated_ppis.append(retranslated)
+            else:
+                failed_ppis.append(ppi)
+        
+        print(f"\n✅ Successfully re-translated: {len(retranslated_ppis)} PPIs")
+        print(f"❌ Failed to re-translate: {len(failed_ppis)} PPIs")
+        
+        # If some PPIs failed re-translation, return None to trigger Level 2
+        if len(failed_ppis) > 0:
+            print(f"\n⚠️ {len(failed_ppis)} PPIs failed re-translation, will trigger Level 2 fallback")
+            # Update the original_json and errors_list to only include failed PPIs
+            # This will be used by Level 2
+            return None
+        
+        # Merge re-translated PPIs with working PPIs
+        final_json = working_ppis + retranslated_ppis
+        
+        # Post-process to remove invalid parameters
+        final_json = remove_invalid_parameters(final_json, attributes)
+        
+        # Save to temporary file
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        with tempfile.NamedTemporaryFile(delete=False, suffix=f"_retranslated.json", mode='w+', dir=tempfile.gettempdir()) as temp_file:
+            json.dump(final_json, temp_file, indent=4)
+            temp_file_path = temp_file.name
+        
+        print(f"✅ Re-translated JSON saved with {len(final_json)} total PPIs")
+        return temp_file_path
+    
+    # Original correction logic (Level 2 fallback)
+    print("\n" + "="*60)
+    print("LEVEL 2 FALLBACK: Using error correction prompt")
+    print("="*60 + "\n")
 
     # Clean the JSON data directly (not from file)
     cleaned_json = []

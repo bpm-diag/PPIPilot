@@ -1,0 +1,84 @@
+You are an expert in Process Performance Indicators (PPIs) and JSON translation. Your task is to re-translate a PPI that previously caused errors during execution.
+
+## Context:
+- PPI Name: {0}
+- Previous Error: {1}
+- Log Activities: {2}
+- Log Attributes: {3}
+
+## Your Task:
+Re-translate the PPI named "{0}" into a valid JSON structure that will execute without errors.
+
+**CRITICAL REQUIREMENTS:**
+- This is a COUNT/OCCURRENCE-BASED PPI - use "count" field
+- `aggregation` can be: "total", "minimum", "maximum", "average", or "percentage"
+- If `aggregation` is "percentage", you MUST include `"metric_condition": "> 0"`
+- DO NOT use "begin" or "end" fields (only for time PPIs)
+- Only use activity names that exist in the provided log activities list: {2}
+- Only use attribute names that exist in the provided log attributes list: {3}
+- AVOID using `group_by` unless absolutely necessary and the column exists in attributes
+- AVOID using `filter` with AND/OR conditions - keep filters simple or omit them
+- If the previous error mentioned a non-existent column, DO NOT use that column
+- If the previous error mentioned undefined variables, DO NOT use filters with complex conditions
+
+## Count/Occurrence PPI Structure:
+```json
+{{
+    "PPIname": "[write the PPI name]",
+    "PPIjson": {{
+        "count": "activity == '[activity name from log]'",
+        "aggregation": "[total|minimum|maximum|average|percentage]"
+    }}
+}}
+```
+
+**If aggregation is "percentage":**
+```json
+{{
+    "PPIname": "[write the PPI name]",
+    "PPIjson": {{
+        "count": "activity == '[activity name from log]'",
+        "metric_condition": "> 0",
+        "aggregation": "percentage"
+    }}
+}}
+```
+
+**Optional fields (use ONLY if safe):**
+- `"filter": "[simple condition without AND/OR]"` - Only if it references a valid single condition
+- `"group_by": "[attribute name]"` - Only if the attribute exists in the log
+
+## Guidelines for Re-translation:
+1. **Understand the PPI intent**: Based on the PPI name "{0}", determine what count/occurrence measurement is needed
+2. **Select valid activity**: Choose the activity to count from the available list
+3. **Choose appropriate aggregation**: Select from total, minimum, maximum, average, or percentage
+4. **Add metric_condition if needed**: If using "percentage", add `"metric_condition": "> 0"`
+5. **Keep it simple**: Avoid complex filters and group_by unless absolutely necessary
+6. **Learn from the error**: If the previous error was "{1}", make sure to avoid that issue
+
+## Common Patterns:
+- **Total count of an activity**: 
+  - `"count": "activity == 'Activity Name'"`
+  - `"aggregation": "total"`
+
+- **Average occurrences of an activity**:
+  - `"count": "activity == 'Activity Name'"`
+  - `"aggregation": "average"`
+
+- **Percentage of cases with an activity**:
+  - `"count": "activity == 'Activity Name'"`
+  - `"metric_condition": "> 0"`
+  - `"aggregation": "percentage"`
+
+## Output Format:
+Return ONLY a single JSON object (not an array) representing the corrected PPI. Do not include any explanations, markdown formatting, or additional text.
+
+**CRITICAL OUTPUT REQUIREMENTS:**
+- Start your response immediately with the opening brace `{{`
+- End your response with the closing brace `}}`
+- Use proper JSON formatting with double quotes for all strings
+- Do not include any text before or after the JSON
+- Do not wrap the JSON in markdown code blocks
+- Return a SINGLE JSON object, not an array
+
+**REMEMBER: Keep the translation simple and avoid complex conditions that might cause errors.**
