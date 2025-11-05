@@ -16,8 +16,8 @@ Re-translate the PPI named "{0}" into a valid JSON structure that will execute w
 - DO NOT use "begin" or "end" fields (only for time PPIs)
 - Only use activity names that exist in the provided log activities list: {2}
 - Only use attribute names that exist in the provided log attributes list: {3}
-- AVOID using `group_by` unless absolutely necessary and the column exists in attributes
-- AVOID using `filter` with AND/OR conditions - keep filters simple or omit them
+- Only use `group_by` with attribute names that exist in the provided log attributes list: {3}
+- AVOID using `filter` with AND/OR conditions - keep filters simple
 - If the previous error mentioned a non-existent column, DO NOT use that column
 - If the previous error mentioned undefined variables, DO NOT use filters with complex conditions
 
@@ -27,7 +27,9 @@ Re-translate the PPI named "{0}" into a valid JSON structure that will execute w
     "PPIname": "[write the PPI name]",
     "PPIjson": {{
         "count": "activity == '[activity name from log]'",
-        "aggregation": "[total|minimum|maximum|average|percentage]"
+        "aggregation": "[total|minimum|maximum|average|percentage]",
+        "filter": "[simple condition without AND/OR]" - Only if it references a valid single condition otherwise omit it,
+        "group_by": "[attribute name]" - Only if the attribute exists in the log otherwise omit it
     }}
 }}
 ```
@@ -39,21 +41,20 @@ Re-translate the PPI named "{0}" into a valid JSON structure that will execute w
     "PPIjson": {{
         "count": "activity == '[activity name from log]'",
         "metric_condition": "> 0",
-        "aggregation": "percentage"
+        "aggregation": "percentage",
+        "filter": "[simple condition without AND/OR]" - Only if it references a valid single condition otherwise omit it,
+        "group_by": "[attribute name]" - Only if the attribute exists in the log otherwise omit it
     }}
 }}
 ```
 
-**Optional fields (use ONLY if safe):**
-- `"filter": "[simple condition without AND/OR]"` - Only if it references a valid single condition
-- `"group_by": "[attribute name]"` - Only if the attribute exists in the log
 
 ## Guidelines for Re-translation:
 1. **Understand the PPI intent**: Based on the PPI name "{0}", determine what count/occurrence measurement is needed
 2. **Select valid activity**: Choose the activity to count from the available list
 3. **Choose appropriate aggregation**: Select from total, minimum, maximum, average, or percentage
 4. **Add metric_condition if needed**: If using "percentage", add `"metric_condition": "> 0"`
-5. **Keep it simple**: Avoid complex filters and group_by unless absolutely necessary
+5. **Keep it simple**: Use filter only if it references a valid single condition otherwise omit it, use group_by only if the attribute exists in the log otherwise omit it
 6. **Learn from the error**: If the previous error was "{1}", make sure to avoid that issue
 
 ## Common Patterns:
@@ -80,5 +81,3 @@ Return ONLY a single JSON object (not an array) representing the corrected PPI. 
 - Do not include any text before or after the JSON
 - Do not wrap the JSON in markdown code blocks
 - Return a SINGLE JSON object, not an array
-
-**REMEMBER: Keep the translation simple and avoid complex conditions that might cause errors.**

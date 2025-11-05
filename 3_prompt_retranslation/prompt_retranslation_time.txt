@@ -17,7 +17,7 @@ Re-translate the PPI named "{0}" into a valid JSON structure that will execute w
 - Only use activity names that exist in the provided log activities list: {2}
 - Only use attribute names that exist in the provided log attributes list: {3}
 - Only use `group_by` with attribute names that exist in the provided log attributes list: {3}
-- AVOID using `filter` with AND/OR conditions - keep filters simple or omit them
+- AVOID using `filter` with AND/OR conditions - keep filters simple
 - If the previous error mentioned a non-existent column, DO NOT use that column
 - If the previous error mentioned undefined variables, DO NOT use filters with complex conditions
 
@@ -29,19 +29,18 @@ Re-translate the PPI named "{0}" into a valid JSON structure that will execute w
         "begin": "activity == '[activity name from log]'",
         "end": "activity == '[activity name from log]'",
         "aggregation": "[total|minimum|maximum|average]"
+        "filter": "[simple condition without AND/OR]" - Only if it references a valid single condition otherwise omit it,
+        "group_by": "[attribute name]" - Only if the attribute exists in the log otherwise omit it
     }}
 }}
 ```
 
-**Optional fields (use ONLY if safe):**
-- `"filter": "[simple condition without AND/OR]"` - Only if it references a valid single condition
-- `"group_by": "[attribute name]"` - Only if the attribute exists in the log
 
 ## Guidelines for Re-translation:
 1. **Understand the PPI intent**: Based on the PPI name "{0}", determine what time measurement is needed
 2. **Select valid activities**: Choose "begin" and "end" activities from the available list
 3. **Choose appropriate aggregation**: Select from total, minimum, maximum, or average
-4. **Keep it simple**: Avoid complex filters and group_by unless absolutely necessary
+4. **Keep it simple**: Use filter only if it references a valid single condition otherwise omit it, use group_by only if the attribute exists in the log otherwise omit it
 5. **Learn from the error**: If the previous error was "{1}", make sure to avoid that issue
 
 ## Common Patterns:
