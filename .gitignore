@@ -27,3 +27,6 @@ Thumbs.db
 
 # Docker
 .dockerignore
+
+# Debug/Testing folders
+debug_prompts_log/

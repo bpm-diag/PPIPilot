@@ -3,6 +3,7 @@ import pandas as pd
 import pm4py
 import openai
 from openai import OpenAI
+import fromLogtoPPI_prompt_pipeline_goal as pipeline
 from fromLogtoPPI_prompt_pipeline_goal import exec, auto_correct_errors_with_retry
 import json
 import os
@@ -22,7 +23,15 @@ import ppinatjson as pp
 # ============================================================================
 MAX_LEVEL1_ITERATIONS = 2  # Maximum iterations for Level 1 (Re-translation)
 MAX_LEVEL2_ITERATIONS = 2  # Maximum iterations for Level 2 (Error correction)
+
+# DEBUG/TESTING FLAGS
+SAVE_PROMPTS_AND_RESPONSES = True  # Set to False to disable prompt/response logging
+PROMPTS_LOG_FOLDER = "debug_prompts_log"  # Folder where to save prompt logs
 # ============================================================================
+
+# Set the debug flags in the pipeline module
+pipeline.SAVE_PROMPTS_AND_RESPONSES = SAVE_PROMPTS_AND_RESPONSES
+pipeline.PROMPTS_LOG_FOLDER = PROMPTS_LOG_FOLDER
 
 #logger = logging.getLogger(__name__)
 

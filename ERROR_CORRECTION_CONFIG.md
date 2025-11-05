@@ -10,8 +10,23 @@ To modify the error correction behavior, edit the following parameters at the to
 # ============================================================================
 MAX_LEVEL1_ITERATIONS = 2  # Maximum iterations for Level 1 (Re-translation)
 MAX_LEVEL2_ITERATIONS = 2  # Maximum iterations for Level 2 (Error correction)
+
+# DEBUG/TESTING FLAGS
+SAVE_PROMPTS_AND_RESPONSES = True   # Set to False to disable prompt/response logging
+PROMPTS_LOG_FOLDER = "debug_prompts_log"  # Folder where to save prompt logs
 # ============================================================================
 ```
+
+### Debug Logging (Testing Only)
+
+The `SAVE_PROMPTS_AND_RESPONSES` flag enables saving all prompts and OpenAI responses to files for debugging purposes.
+
+**⚠️ Important:** This is a **testing feature only**. Set to `False` in production to avoid:
+- Filling disk space with log files
+- Performance overhead from file I/O
+- Potential exposure of sensitive data
+
+See `DEBUG_PROMPTS_LOGGING.md` for detailed documentation on this feature.
 
 ## Parameters Explained
 

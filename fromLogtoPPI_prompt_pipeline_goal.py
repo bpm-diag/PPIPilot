@@ -11,6 +11,80 @@ import tempfile
 # Ignore all warnings
 warnings.filterwarnings("ignore")
 
+# ============================================================================
+# DEBUG/TESTING CONFIGURATION - Imported from interface_2.py
+# ============================================================================
+# These will be set by the calling code
+SAVE_PROMPTS_AND_RESPONSES = True
+PROMPTS_LOG_FOLDER = "debug_prompts_log"
+# ============================================================================
+
+def save_prompt_and_response(prompt, response, level, ppi_name=None, iteration=None):
+    """
+    Saves prompt and OpenAI response to a file for debugging purposes.
+    Only active if SAVE_PROMPTS_AND_RESPONSES flag is True.
+    
+    Args:
+        prompt: The prompt sent to OpenAI
+        response: The response received from OpenAI
+        level: "level1" or "level2"
+        ppi_name: Optional PPI name for Level 1
+        iteration: Optional iteration number
+    """
+    if not SAVE_PROMPTS_AND_RESPONSES:
+        return
+    
+    try:
+        # Create log folder if it doesn't exist
+        if not os.path.exists(PROMPTS_LOG_FOLDER):
+            os.makedirs(PROMPTS_LOG_FOLDER)
+        
+        # Generate filename with timestamp
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+        
+        if ppi_name:
+            # Clean PPI name for filename
+            clean_ppi_name = "".join(c if c.isalnum() or c in (' ', '_') else '_' for c in ppi_name)
+            clean_ppi_name = clean_ppi_name.replace(' ', '_')[:50]  # Limit length
+            filename = f"{timestamp}_{level}_{clean_ppi_name}"
+        else:
+            filename = f"{timestamp}_{level}"
+        
+        if iteration is not None:
+            filename += f"_iter{iteration}"
+        
+        filename += ".txt"
+        
+        filepath = os.path.join(PROMPTS_LOG_FOLDER, filename)
+        
+        # Write prompt and response to file
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write("="*80 + "\n")
+            f.write(f"TIMESTAMP: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"LEVEL: {level.upper()}\n")
+            if ppi_name:
+                f.write(f"PPI NAME: {ppi_name}\n")
+            if iteration is not None:
+                f.write(f"ITERATION: {iteration}\n")
+            f.write("="*80 + "\n\n")
+            
+            f.write("="*80 + "\n")
+            f.write("PROMPT SENT TO OPENAI:\n")
+            f.write("="*80 + "\n")
+            f.write(prompt)
+            f.write("\n\n")
+            
+            f.write("="*80 + "\n")
+            f.write("RESPONSE FROM OPENAI:\n")
+            f.write("="*80 + "\n")
+            f.write(response)
+            f.write("\n")
+        
+        print(f"📝 Saved prompt and response to: {filepath}")
+        
+    except Exception as e:
+        print(f"⚠️ Failed to save prompt/response log: {e}")
+
 
 
 def remove_invalid_parameters(json_data, valid_attributes):
@@ -657,6 +731,9 @@ def retranslate_ppi(ppi_name, error_info, activities, attributes, ppi_category, 
                 response = get_completion(client, formatted_prompt)
                 print(f"Re-translation attempt {attempt + 1} - response length: {len(response)}")
                 
+                # Save prompt and response for debugging
+                save_prompt_and_response(formatted_prompt, response, "level1", ppi_name, attempt + 1)
+                
                 # Clean the response
                 cleaned_response = response.strip()
                 
@@ -972,21 +1049,8 @@ def correct_json_errors(original_json, errors_list, activities, attributes, clie
                 print(f"OpenAI attempt {attempt + 1} - raw response (first 500 chars): {repr(corrected_json_str[:500])}")
                 print(f"OpenAI attempt {attempt + 1} - raw response (last 200 chars): {repr(corrected_json_str[-200:])}")
                 
-                # Save the raw OpenAI response to a file
-                # timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                # openai_response_filename = f"openai_response_{timestamp}_attempt_{attempt + 1}.txt"
-                # try:
-                #     with open(openai_response_filename, 'w', encoding='utf-8') as response_file:
-                #         response_file.write(f"OpenAI Attempt {attempt + 1}\n")
-                #         response_file.write(f"Timestamp: {timestamp}\n")
-                #         response_file.write(f"Response Length: {len(corrected_json_str)}\n")
-                #         response_file.write("="*50 + "\n")
-                #         response_file.write("RAW OPENAI RESPONSE:\n")
-                #         response_file.write("="*50 + "\n")
-                #         response_file.write(corrected_json_str)
-                #     print(f"OpenAI raw response saved to: {openai_response_filename}")
-                # except Exception as save_error:
-                #     print(f"Error saving OpenAI response: {save_error}")
+                # Save prompt and response for debugging
+                save_prompt_and_response(formatted_prompt, corrected_json_str, "level2", None, attempt + 1)
                 
                 # Quick validation - check if response looks like valid JSON
                 if corrected_json_str.strip().startswith('[') and corrected_json_str.strip().endswith(']'):
