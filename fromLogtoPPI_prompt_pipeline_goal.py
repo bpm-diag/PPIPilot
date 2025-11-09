@@ -440,6 +440,7 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
         Tuple: (batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, total_iterations)
     """
     import ppinatjson as pp
+    import pandas as pd
     
     # Configuration parameters - easily modifiable
     MAX_LEVEL1_ITERATIONS = max_level1_iterations  # Level 1: Re-translation attempts
@@ -455,6 +456,28 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
     current_json_path_time = json_path_time
     current_json_path_occurrency = json_path_occurrency
     total_iterations = 0
+    
+    # Accumulate valid PPIs across all iterations
+    accumulated_df_sin_error = None
+    accumulated_df = None
+    
+    def accumulate_valid_ppis(current_df_sin_error, current_df, accumulated_df_sin_error, accumulated_df):
+        """Helper function to accumulate valid PPIs from current execution"""
+        if current_df_sin_error is not None and len(current_df_sin_error) > 0:
+            if accumulated_df_sin_error is None:
+                accumulated_df_sin_error = current_df_sin_error.copy()
+            else:
+                # Merge avoiding duplicates based on PPI name
+                accumulated_df_sin_error = pd.concat([accumulated_df_sin_error, current_df_sin_error]).drop_duplicates(subset=['Name'], keep='last').reset_index(drop=True)
+        
+        if current_df is not None and len(current_df) > 0:
+            if accumulated_df is None:
+                accumulated_df = current_df.copy()
+            else:
+                # Merge avoiding duplicates based on PPI name
+                accumulated_df = pd.concat([accumulated_df, current_df]).drop_duplicates(subset=['Name'], keep='last').reset_index(drop=True)
+        
+        return accumulated_df_sin_error, accumulated_df
     
     # Phase 1: Level 1 iterations (Re-translation)
     level1_iteration = 0
@@ -474,10 +497,15 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
         else:
             raise ValueError(f"Invalid ppis_type: {ppis_type}")
         
+        # Accumulate valid PPIs from this execution
+        accumulated_df_sin_error, accumulated_df = accumulate_valid_ppis(df_sin_error, df, accumulated_df_sin_error, accumulated_df)
+        valid_count = len(accumulated_df_sin_error) if accumulated_df_sin_error is not None else 0
+        print(f"📊 Accumulated {valid_count} valid PPIs so far")
+        
         # Check if there are errors
         if len(errors_captured) == 0:
-            print(f"✅ No errors found in Level 1 iteration {level1_iteration + 1}. Returning results.")
-            return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, total_iterations
+            print(f"✅ No errors found in Level 1 iteration {level1_iteration + 1}. Returning accumulated results.")
+            return batch_size, accumulated_df_sin_error, accumulated_df, batch_size_sin_error, errors_captured, total_iterations
         
         print(f"⚠️ Found {len(errors_captured)} errors in Level 1 iteration {level1_iteration + 1}")
         
@@ -565,9 +593,14 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
     elif ppis_type == "both":
         batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_both(xes_file, current_json_path_time, current_json_path_occurrency)
     
+    # Accumulate valid PPIs from this check
+    accumulated_df_sin_error, accumulated_df = accumulate_valid_ppis(df_sin_error, df, accumulated_df_sin_error, accumulated_df)
+    valid_count = len(accumulated_df_sin_error) if accumulated_df_sin_error is not None else 0
+    print(f"📊 Accumulated {valid_count} valid PPIs after Level 1")
+    
     if len(errors_captured) == 0:
-        print(f"✅ All errors resolved after Level 1. Returning results.")
-        return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, total_iterations
+        print(f"✅ All errors resolved after Level 1. Returning accumulated results.")
+        return batch_size, accumulated_df_sin_error, accumulated_df, batch_size_sin_error, errors_captured, total_iterations
     
     print(f"⚠️ Still have {len(errors_captured)} errors after Level 1. Proceeding to Level 2...")
     
@@ -587,10 +620,15 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
         elif ppis_type == "both":
             batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_both(xes_file, current_json_path_time, current_json_path_occurrency)
         
+        # Accumulate valid PPIs from this execution
+        accumulated_df_sin_error, accumulated_df = accumulate_valid_ppis(df_sin_error, df, accumulated_df_sin_error, accumulated_df)
+        valid_count = len(accumulated_df_sin_error) if accumulated_df_sin_error is not None else 0
+        print(f"📊 Accumulated {valid_count} valid PPIs so far")
+        
         # Check if there are errors
         if len(errors_captured) == 0:
-            print(f"✅ No errors found in Level 2 iteration {level2_iteration + 1}. Returning results.")
-            return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, total_iterations
+            print(f"✅ No errors found in Level 2 iteration {level2_iteration + 1}. Returning accumulated results.")
+            return batch_size, accumulated_df_sin_error, accumulated_df, batch_size_sin_error, errors_captured, total_iterations
         
         print(f"⚠️ Found {len(errors_captured)} errors in Level 2 iteration {level2_iteration + 1}")
         
@@ -677,13 +715,17 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
     elif ppis_type == "both":
         batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_both(xes_file, current_json_path_time, current_json_path_occurrency)
     
+    # Accumulate valid PPIs from final execution
+    accumulated_df_sin_error, accumulated_df = accumulate_valid_ppis(df_sin_error, df, accumulated_df_sin_error, accumulated_df)
+    final_valid_count = len(accumulated_df_sin_error) if accumulated_df_sin_error is not None else 0
+    
     if len(errors_captured) == 0:
-        print(f"✅ All errors resolved after Level 2. Returning results.")
+        print(f"✅ All errors resolved after Level 2. Returning {final_valid_count} accumulated valid PPIs.")
     else:
         print(f"⚠️ {len(errors_captured)} errors remain after all correction attempts.")
-        print(f"Returning results as-is.")
+        print(f"📊 Returning {final_valid_count} accumulated valid PPIs (errors excluded).")
     
-    return batch_size, df_sin_error, df, batch_size_sin_error, errors_captured, total_iterations
+    return batch_size, accumulated_df_sin_error, accumulated_df, batch_size_sin_error, errors_captured, total_iterations
 
 def retranslate_ppis_batch(ppi_names_with_errors, activities, attributes, ppi_category, client):
     """

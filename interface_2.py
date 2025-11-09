@@ -279,9 +279,9 @@ if st.session_state.file_uploaded:
         
         # Show appropriate message after completion
         if st.session_state.df_sin_error is not None and len(st.session_state.df_sin_error) > 0:
-            st.success(f"✅ PPI generation completed! Generated {len(st.session_state.df_sin_error)} valid PPIs.")
+            st.success(f"✅ Analysis completed! Generated {len(st.session_state.df_sin_error)} PPIs.")
         else:
-            st.warning(f"⚠️ PPI generation completed but no valid PPIs were generated after {max_retries + 1} attempts.")
+            st.warning(f"⚠️ Analysis completed but no PPIs were generated. Please try with different parameters.")
 
 if st.session_state.file_path is not None or st.session_state.file_path_time is not None and st.session_state.file_path_occurrency is not None:
         
@@ -427,18 +427,6 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
 
         )
     
-    # Display remaining errors after automatic correction (if any)
-    if len(st.session_state.errors_captured) > 0:
-        st.markdown("---")
-        st.warning(f"⚠️ {len(st.session_state.errors_captured)} error(s) remain after automatic correction attempts.")
-        
-        with st.expander(f"View {len(st.session_state.errors_captured)} Remaining Error(s)", expanded=False):
-            for i, error in enumerate(st.session_state.errors_captured):
-                st.error(f"**Error {i+1}:** {error['ppi_name']}")
-                st.write(f"**Type:** {error['error_type']}")
-                st.write(f"**Message:** {error['error_message']}")
-                st.json(error['ppi_json'])
-                st.write("---")
-            
+    # Errors are handled internally - users only see the valid PPIs generated
 
 
