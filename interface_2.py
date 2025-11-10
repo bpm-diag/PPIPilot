@@ -298,8 +298,8 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
                 'Month':'M',  # Month end frequency
                 'Year': 'Y',  # Year end frequency
                 'Hourly': 'H',  # Hourly frequency
-                'Minutely': 'T',  # Minutely frequency
-                'Secondly':'S',  # Secondly frequency
+                # 'Minutely': 'T',  # Minutely frequency
+                # 'Secondly':'S',  # Secondly frequency
             }
 
             # Crear el selector de period aliases con Streamlit
