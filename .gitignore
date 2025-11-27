@@ -30,3 +30,5 @@ Thumbs.db
 
 # Debug/Testing folders
 debug_prompts_log/
+second_evaluation/qualitative_assessment/_demo_videos
+second_evaluation/qualitative_assessment/_event_logs
