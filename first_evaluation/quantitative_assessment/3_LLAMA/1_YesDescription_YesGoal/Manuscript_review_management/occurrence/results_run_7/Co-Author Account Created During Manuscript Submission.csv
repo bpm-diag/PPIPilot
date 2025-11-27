@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': 'activity == Co-Author Account Created During Manuscript Submission', 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'activity == RW-Awaiting EIC Decision'}",,

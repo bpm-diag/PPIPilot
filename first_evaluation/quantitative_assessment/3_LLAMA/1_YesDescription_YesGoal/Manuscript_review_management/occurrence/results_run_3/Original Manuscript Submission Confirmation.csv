@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': ""activity == 'Original Manuscript Submission Confirmation' and following_activity == 'SW-Reviewer Agreed'"", 'metric_condition': '> 3', 'aggregation': 'total', 'filter': ""activity_count['Reminder'] > 3""}",,

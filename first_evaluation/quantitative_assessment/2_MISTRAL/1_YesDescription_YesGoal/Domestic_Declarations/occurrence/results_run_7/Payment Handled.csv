@@ -1,0 +1,18 @@
+Name,Metric,Value,Agrupation
+,ERROR: computing metric {},,
+Percentage of Payment Handled that are preceded by Request Payment,Percentage of 'Payment Handled' out of all 'Request Payment',1.0,
+Number of Payment Handled events in the event log,Number of 'Payment Handled' activities,10044,
+Percentage of Payment Handled out of all Declaration SUBMITTED by EMPLOYEE events,Percentage of 'Payment Handled' out of all 'Declaration SUBMITTED by EMPLOYEE',0.97,
+Number of Payment Handled events grouped by case:BudgetNumber,Number of 'Payment Handled' activities grouped by the last value of case:BudgetNumber,budget 86566:10044,"{""budget 86566"":10044}"
+Number of Payment Handled events made per year,"ERROR: computing metric {'count': ""activity == 'Payment Handled'"", 'aggregation': 'total', 'group_by': 'year'}",,
+Percentage of Payment Handled events that are preceded by Declaration FINAL_APPROVED by SUPERVISOR,Percentage of 'Payment Handled' out of all 'Declaration FINAL_APPROVED by SUPERVISOR',1.0,
+Number of Payment Handled events in relation to Declaration SUBMITTED by EMPLOYEE events,Number of 'Payment Handled' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs,10043,
+Percentage of Payment Handled events in variants where Declaration REJECTED by PRE_APPROVER occurs,Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER',0.89,
+Number of Payment Handled events with amounts above 100 euros,Number of 'Payment Handled' activities > 100 where ma is the last value of case:Amount,2304,
+Percentage of Payment Handled events followed by no further activities,Percentage of 'Payment Handled' out of all cases where 'Payment Handled' does not happen,0.96,
+Percentage of Payment Handled events with preceding Declaration APPROVED by ADMINISTRATION,Percentage of 'Payment Handled' out of all 'Declaration APPROVED by ADMINISTRATION',0.99,
+Number of times Payment Handled is performed in the entire event log,Number of 'Payment Handled' activities,10044,
+Percentage of Payment Handled events in variants involving Declaration REJECTED by ADMINISTRATION,Percentage of 'Payment Handled' out of all 'Declaration REJECTED by ADMINISTRATION',0.75,
+Number of Payment Handled events following Declaration REJECTED by PRE_APPROVER,Number of 'Payment Handled' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs,72,
+Percentage of Payment Handled events in variants where Declaration SAVED by EMPLOYEE occurs,Percentage of 'Payment Handled' out of all 'Declaration SAVED by EMPLOYEE',0.01,
+Number of Payment Handled events in variants with rejection steps,Number of 'Payment Handled' activities for cases where activity 'Declaration REJECTED by EMPLOYEE' occurs,927,

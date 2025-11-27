@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': 'activity == SW-Reviewer Declined', 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'performer == Manuscript Export Succeeded'}",,

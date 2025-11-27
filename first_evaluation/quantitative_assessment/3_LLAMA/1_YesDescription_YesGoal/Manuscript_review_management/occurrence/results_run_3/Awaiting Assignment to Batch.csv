@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': 'activity == Awaiting Assignment to Batch', 'metric_condition': '> 0 && activity == RW-Initial Reviewer Selection', 'aggregation': 'ratio', 'filter': 'activity == SW-AE Assign Reviewers'}",,

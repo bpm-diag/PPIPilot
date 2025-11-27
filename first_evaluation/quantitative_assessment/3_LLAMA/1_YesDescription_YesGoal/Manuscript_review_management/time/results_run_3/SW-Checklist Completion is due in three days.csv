@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'begin': '', 'end': ""activity == 'SW-Checklist Completion is due in three days'"", 'aggregation': 'variance', 'filter': ""activity == 'Original Manuscript Submission Confirmation'""}",,

@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': ""activity == 'Accepted + Wait'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""product == 'incident and problem management system' and preceding_activity == 'Queued + Awaiting Assignment'""}",,

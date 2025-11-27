@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait - Customer',,

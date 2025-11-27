@@ -1,0 +1,39 @@
+Name,Metric,Value,Agrupation
+,ERROR: computing metric {},,
+1) Number of Request Payment,Number of 'Request Payment' activities,10040,
+2) Frequency of Request Payment,Percentage of 'Request Payment' out of all cases,0.96,
+3) Percentage of Request Payment out of all Declaration SUBMITTED by EMPLOYEE,Percentage of 'Request Payment' out of all 'Declaration SUBMITTED by EMPLOYEE',0.97,
+4) Number of Request Payment that are preceded by Declaration FINAL_APPROVED by SUPERVISOR,Number of 'Request Payment' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs,10038,
+5) Percentage of Request Payment from all Payment Handled,Percentage of 'Request Payment' out of all 'Payment Handled',1.0,
+6) Percentage of Request Payment that are not delayed,Percentage of 'Request Payment' out of all cases,0.96,
+7) Number of Request Payment with amounts above 100 euros,Number of 'Request Payment' activities > 100 where ma is the last value of case:Amount,2303,
+8) Percentage of Request Payment by SYSTEM,"ERROR: computing metric {'count': ""activity == 'Request Payment'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'org:role == SYSTEM'}",,
+9) Frequency of Request Payment in relation to Declaration FINAL_APPROVED by SUPERVISOR,Percentage of 'Request Payment' out of all 'Declaration FINAL_APPROVED by SUPERVISOR',1.0,
+10) Percentage of Request Payment that are followed by Payment Handled,Percentage of 'Request Payment' out of all 'Payment Handled',1.0,
+11) Number of Request Payment in the variant with the highest frequency,Number of 'Request Payment' activities grouped by the last value of org:role,ADMINISTRATION:0,"{""ADMINISTRATION"":0,""EMPLOYEE"":1,""MISSING"":3,""SUPERVISOR"":0,""UNDEFINED"":10036}"
+11) Number of Request Payment in the variant with the highest frequency,Number of 'Request Payment' activities grouped by the last value of org:role,EMPLOYEE:1,"{""ADMINISTRATION"":0,""EMPLOYEE"":1,""MISSING"":3,""SUPERVISOR"":0,""UNDEFINED"":10036}"
+11) Number of Request Payment in the variant with the highest frequency,Number of 'Request Payment' activities grouped by the last value of org:role,MISSING:3,"{""ADMINISTRATION"":0,""EMPLOYEE"":1,""MISSING"":3,""SUPERVISOR"":0,""UNDEFINED"":10036}"
+11) Number of Request Payment in the variant with the highest frequency,Number of 'Request Payment' activities grouped by the last value of org:role,SUPERVISOR:0,"{""ADMINISTRATION"":0,""EMPLOYEE"":1,""MISSING"":3,""SUPERVISOR"":0,""UNDEFINED"":10036}"
+11) Number of Request Payment in the variant with the highest frequency,Number of 'Request Payment' activities grouped by the last value of org:role,UNDEFINED:10036,"{""ADMINISTRATION"":0,""EMPLOYEE"":1,""MISSING"":3,""SUPERVISOR"":0,""UNDEFINED"":10036}"
+12) Average number of Request Payment per month,"ERROR: computing metric {'count': ""activity == 'Request Payment'"", 'aggregation': 'average', 'group_by': 'month'}",,
+13) Percentage of Request Payment that are not associated with any rejected declaration,Percentage of 'Request Payment' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen,0.96,
+14) Frequency of Request Payment in the shortest variant,"ERROR: computing metric {'count': ""activity == 'Request Payment'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'group_by': 'month'}",,
+15) Percentage of Request Payment with amounts above the average amount,"ERROR: computing metric {'count': ""activity == 'Request Payment'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'case:Amount > average(case:Amount)'}",,
+16) Number of times Request Payment occurs after Declaration FINAL_APPROVED by SUPERVISOR,Number of 'Request Payment' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs,10038,
+17) Percentage of Request Payment in the variants that include Declaration APPROVED by ADMINISTRATION,Percentage of 'Request Payment' out of all 'Declaration APPROVED by ADMINISTRATION',0.99,
+18) Average number of Request Payment in the variants that include Declaration REJECTED by PRE_APPROVER,the average of the number of times `ACTIVITY` == 'Request Payment' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Declaration REJECTED by PRE_APPROVER',0.89,
+19) Frequency of Request Payment in the variants that include Declaration REJECTED by ADMINISTRATION,Percentage of 'Request Payment' out of all 'Declaration REJECTED by ADMINISTRATION',0.75,
+20) Percentage of Request Payment with the shortest processing time,Percentage of 'Request Payment' out of all cases,0.96,
+21) Ratio of Request Payment to Declaration SUBMITTED by EMPLOYEE,Percentage of 'Request Payment' out of all 'Declaration SUBMITTED by EMPLOYEE',0.97,
+22) Frequency of Request Payment in relation to the number of cases with Declaration REJECTED by PRE_APPROVER,Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER',0.89,
+23) Percentage of Request Payment with a lower amount than the average amount,"ERROR: computing metric {'count': ""activity == 'Request Payment'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'case:Amount < average(case:Amount)'}",,
+24) Total Request Payment performed by SYSTEM,"ERROR: computing metric {'count': ""activity == 'Request Payment'"", 'aggregation': 'total', 'filter': 'org:role == SYSTEM'}",,
+25) Fraction of Request Payment that are delayed,Percentage of 'Request Payment' out of all cases,0.96,
+26) Percentage of Request Payment by SYSTEM in comparison to other resources,"ERROR: computing metric {'count': ""activity == 'Request Payment'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'org:role != SYSTEM'}",,
+27) Frequency of Request Payment in the longest variant,"ERROR: computing metric {'count': ""activity == 'Request Payment'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'group_by': 'month'}",,
+28) Total Request Payment in the variants with the highest frequency,Number of 'Request Payment' activities grouped by the last value of org:role,ADMINISTRATION:0,"{""ADMINISTRATION"":0,""EMPLOYEE"":1,""MISSING"":3,""SUPERVISOR"":0,""UNDEFINED"":10036}"
+28) Total Request Payment in the variants with the highest frequency,Number of 'Request Payment' activities grouped by the last value of org:role,EMPLOYEE:1,"{""ADMINISTRATION"":0,""EMPLOYEE"":1,""MISSING"":3,""SUPERVISOR"":0,""UNDEFINED"":10036}"
+28) Total Request Payment in the variants with the highest frequency,Number of 'Request Payment' activities grouped by the last value of org:role,MISSING:3,"{""ADMINISTRATION"":0,""EMPLOYEE"":1,""MISSING"":3,""SUPERVISOR"":0,""UNDEFINED"":10036}"
+28) Total Request Payment in the variants with the highest frequency,Number of 'Request Payment' activities grouped by the last value of org:role,SUPERVISOR:0,"{""ADMINISTRATION"":0,""EMPLOYEE"":1,""MISSING"":3,""SUPERVISOR"":0,""UNDEFINED"":10036}"
+28) Total Request Payment in the variants with the highest frequency,Number of 'Request Payment' activities grouped by the last value of org:role,UNDEFINED:10036,"{""ADMINISTRATION"":0,""EMPLOYEE"":1,""MISSING"":3,""SUPERVISOR"":0,""UNDEFINED"":10036}"
+29) Average number of Request Payment per year,"ERROR: computing metric {'count': ""activity == 'Request Payment'"", 'aggregation': 'average', 'group_by': 'year'}",,

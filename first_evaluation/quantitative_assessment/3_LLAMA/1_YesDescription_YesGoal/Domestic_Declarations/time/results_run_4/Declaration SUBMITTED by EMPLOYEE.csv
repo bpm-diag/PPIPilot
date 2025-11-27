@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and the end of case grouped by the last value of case:BudgetNumber filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Declaration APPROVED by PRE_APPROVER',budget 86566:11 days 23:10:20.642643,"{""budget 86566"":1033820642}"

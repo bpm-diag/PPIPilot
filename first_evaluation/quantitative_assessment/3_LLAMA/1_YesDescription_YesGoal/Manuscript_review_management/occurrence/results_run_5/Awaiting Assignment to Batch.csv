@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': 'activity == Awaiting Assignment to Batch', 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'activity != SW-Major Revision due in 1 month and activity != SW-Major Revision due in 3 weeks'}",,

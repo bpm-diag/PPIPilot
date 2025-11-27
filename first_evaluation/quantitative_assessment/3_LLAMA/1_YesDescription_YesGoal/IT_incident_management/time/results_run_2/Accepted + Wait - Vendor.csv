@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'begin': ""activity == 'Accepted + Wait - Vendor'"", 'end': ""activity == 'Accepted + Wait - Vendor'"", 'aggregation': 'total', 'group_by': 'concept:name'}",,

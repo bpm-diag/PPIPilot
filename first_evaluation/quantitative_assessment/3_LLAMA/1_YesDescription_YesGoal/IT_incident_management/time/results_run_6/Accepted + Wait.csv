@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'begin': ""activity == 'Queued + Awaiting Assignment'"", 'end': ""activity == 'Completed + In Call'"", 'aggregation': 'total', 'filter': ""organization involved == 'VINST' and preceding_activity == 'Accepted + Wait'""}",,

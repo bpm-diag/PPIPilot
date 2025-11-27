@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'begin': ""activity == 'SW-Awaiting AE Recommendation'"", 'end': '', 'aggregation': 'average', 'group_by': 'case:concept:name'}",,

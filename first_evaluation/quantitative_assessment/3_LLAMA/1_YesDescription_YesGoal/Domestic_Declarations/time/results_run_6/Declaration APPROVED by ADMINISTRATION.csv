@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'begin': ""activity == 'Declaration APPROVED by ADMINISTRATION'"", 'end': ""activity == 'Declaration FINAL_APPROVED by SUPERVISOR'"", 'aggregation': 'average', 'metric_condition': ""> average time between 'Declaration SUBMITTED by EMPLOYEE' and '""}",,

@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': 'activity == Awaiting Assignment to Batch', 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'preceding_activity == SW-Awaiting EIC Decision'}",,

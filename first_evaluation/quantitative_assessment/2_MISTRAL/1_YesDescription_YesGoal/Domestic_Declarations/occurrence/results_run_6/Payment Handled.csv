@@ -1,0 +1,22 @@
+Name,Metric,Value,Agrupation
+,ERROR: computing metric {},,
+Percentage of 'Payment Handled' out of all activities,Percentage of 'Payment Handled' out of all cases where '' does not happen,0.96,
+Frequency of 'Payment Handled',Frequency of activity 'Payment Handled',10044,
+Percentage of 'Payment Handled' that are preceded by 'Request Payment',Percentage of 'Payment Handled' out of all 'Request Payment',1.0,
+Percentage of 'Payment Handled' that are not preceded by 'Declaration REJECTED by PRE_APPROVER',Percentage of 'Payment Handled' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen,0.96,
+Frequency of 'Payment Handled' compared to 'Declaration REJECTED by PRE_APPROVER',Frequency of activity 'Payment Handled' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs,72,
+Percentage of 'Payment Handled' that follow 'Request Payment' compared to those that follow 'Declaration REJECTED by PRE_APPROVER',Percentage of 'Payment Handled' out of all 'Request Payment',1.0,
+Frequency of 'Payment Handled' in cases where 'Declaration REJECTED by PRE_APPROVER' occurs,Frequency of activity 'Payment Handled' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs,72,
+Percentage of 'Payment Handled' that occur after 'Declaration FINAL_APPROVED by SUPERVISOR',Percentage of 'Payment Handled' out of all 'Declaration FINAL_APPROVED by SUPERVISOR',1.0,
+Frequency of 'Payment Handled' compared to 'Declaration SUBMITTED by EMPLOYEE',Frequency of activity 'Payment Handled' for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs,10043,
+Percentage of 'Payment Handled' that follow 'Declaration FINAL_APPROVED by SUPERVISOR' compared to those that follow 'Declaration APPROVED by ADMINISTRATION',Percentage of 'Payment Handled' out of all 'Declaration FINAL_APPROVED by SUPERVISOR',1.0,
+Frequency of 'Payment Handled' in process variants that include 'Declaration FOR_APPROVAL by SUPERVISOR',Frequency of activity '{}' grouped by the last value of case:id filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by SUPERVISOR',declaration 89887:0,"{""declaration 89887"":0}"
+Percentage of 'Payment Handled' in process variants that include 'Declaration FOR_APPROVAL by PRE_APPROVER',Percentage of 'Payment Handled' out of all cases,declaration 96530:0.0,"{""declaration 96530"":0.0}"
+Frequency of 'Payment Handled' in process variants that include 'Declaration FOR_APPROVAL by ADMINISTRATION',Frequency of activity '{}' grouped by the last value of case:id filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by ADMINISTRATION',declaration 108210:1,"{""declaration 108210"":1}"
+Frequency of 'Payment Handled' compared to 'Declaration REJECTED by BUDGET OWNER',Frequency of activity 'Payment Handled' for cases where activity 'Declaration REJECTED by BUDGET OWNER' occurs,44,
+Percentage of 'Payment Handled' that are preceded by 'Declaration APPROVED by ADMINISTRATION',Percentage of 'Payment Handled' out of all 'Declaration APPROVED by ADMINISTRATION',0.99,
+Frequency of 'Payment Handled' compared to 'Declaration APPROVED by SUPERVISOR',Frequency of activity 'Payment Handled' for cases where activity 'Declaration APPROVED by SUPERVISOR' occurs,,
+Percentage of 'Payment Handled' that are preceded by 'Declaration APPROVED by PRE_APPROVER',Percentage of 'Payment Handled' out of all 'Declaration APPROVED by PRE_APPROVER',0.99,
+Frequency of 'Payment Handled' compared to 'Declaration REJECTED by SUPERVISOR',Frequency of activity 'Payment Handled' for cases where activity 'Declaration REJECTED by SUPERVISOR' occurs,205,
+Percentage of 'Payment Handled' that are preceded by 'Declaration REJECTED by ADMINISTRATION',Percentage of 'Payment Handled' out of all 'Declaration REJECTED by ADMINISTRATION',0.75,
+Frequency of 'Payment Handled' compared to 'Declaration REJECTED by EMPLOYEE',Frequency of activity 'Payment Handled' for cases where activity 'Declaration REJECTED by EMPLOYEE' occurs,927,

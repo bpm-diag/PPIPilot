@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'begin': ""activity == 'Queued + Awaiting Assignment'"", 'end': ""activity == 'Accepted + In Progress'"", 'aggregation': 'average', 'metric_condition': '> 0', 'filter': '', 'group_by': 'activity == Accepted + In Progress, concept:name, impact, org:group, org:resource, org:role, organization country, organization involved, product, resource country, time:timestamp'}",,

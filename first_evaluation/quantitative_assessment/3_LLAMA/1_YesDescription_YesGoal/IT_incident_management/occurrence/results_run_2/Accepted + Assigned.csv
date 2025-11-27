@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': 'activity == Accepted + Assigned', 'aggregation': 'total', 'filter': 'activity == Completed + In Call'}",,

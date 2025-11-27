@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,the average of the number of times `ACTIVITY` == 'Declaration REJECTED by BUDGET OWNER' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Request Payment',0.0,

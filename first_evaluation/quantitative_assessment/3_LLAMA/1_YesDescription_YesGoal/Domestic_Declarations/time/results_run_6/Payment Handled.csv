@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'begin': ""activity == 'Declaration SUBMITTED by EMPLOYEE'"", 'end': ""activity == 'Payment Handled'"", 'aggregation': 'average', 'filter': ""activity == 'Declaration APPROVED by ADMINISTRATION' AND activity == 'Declaration APPROVED by BUDGET OWNER' AND activity == 'Declaration FINAL_APPROVED by SUPERVISOR' AND activity == 'Request Payment'""}",,

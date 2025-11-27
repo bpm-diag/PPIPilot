@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'begin': ""activity == 'Declaration FINAL_APPROVED by SUPERVISOR'"", 'end': ""activity == 'Request Payment'"", 'aggregation': 'average', 'filter': 'activity =='}",,

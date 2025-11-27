@@ -1,0 +1,3 @@
+Name,Metric,Value,Agrupation
+,ERROR: computing metric {},,
+ppi_name,"ERROR: computing metric {'begin': ""activity == ' + begin + '"", 'end': ""activity == ' + end + '"", 'aggregation': 'aggregation', 'group_by': 'concept:name', 'filter': 'filter'}",,

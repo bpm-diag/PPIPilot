@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'begin': ""activity == ' + begin + '"", 'end': ""activity == ' + end + '"", 'metric_condition': 'metric_condition', 'aggregation': 'aggregation', 'filter': 'filter', 'group_by': 'group_by'}",,

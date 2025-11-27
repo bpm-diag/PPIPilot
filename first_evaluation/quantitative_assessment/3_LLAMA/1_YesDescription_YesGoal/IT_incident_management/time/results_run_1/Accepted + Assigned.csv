@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'begin': ""activity == 'Accepted + Assigned'"", 'end': ""activity == 'Completed + Closed'"", 'aggregation': '', 'filter': ""case:priority == 'Medium'""}",,

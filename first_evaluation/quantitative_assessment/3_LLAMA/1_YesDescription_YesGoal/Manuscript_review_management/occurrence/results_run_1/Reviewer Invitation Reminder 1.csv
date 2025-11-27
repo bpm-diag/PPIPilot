@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': ""activity == 'Reviewer Invitation Reminder 1'"", 'aggregation': 'total', 'filter': ""following_activity != 'SW-Reviewer Agreed'"", 'group_by': 'concept:name'}",,

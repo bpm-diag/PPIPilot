@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': 'activity == Declaration REJECTED by SUPERVISOR', 'aggregation': 'total', 'filter': 'activity == Declaration SUBMITTED by EMPLOYEE && activity == Declaration APPROVED by PRE_APPROVER && activity == Declaration FINAL_APPROVED by SUPERVISOR'}",,

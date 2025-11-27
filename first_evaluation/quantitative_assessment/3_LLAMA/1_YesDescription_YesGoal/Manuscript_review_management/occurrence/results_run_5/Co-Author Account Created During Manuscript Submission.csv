@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': 'activity == Co-Author Account Created During Manuscript Submission', 'aggregation': 'average', 'filter': 'activity != Reviewer Invitation Reminder 2'}",,

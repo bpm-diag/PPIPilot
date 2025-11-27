@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,the average of the function base != 0 where base is the number of times `ACTIVITY` == 'Unmatched + Unmatched' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Completed + Resolved',0.0,

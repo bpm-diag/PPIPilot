@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': 'activity == Declaration APPROVED by PRE_APPROVER', 'aggregation': 'total', 'filter': 'case:Amount > 100 and activity == Declaration FINAL_APPROVED by SUPERVISOR'}",,

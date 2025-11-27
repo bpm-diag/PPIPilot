@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'begin': ""activity == 'SW-Initial Reviewer Selection'"", 'end': ""activity == 'SW-Initial Reviewer Selection'"", 'aggregation': 'average', 'filter': ""case:variant includes 'SW-Reviewer Agreed'""}",,

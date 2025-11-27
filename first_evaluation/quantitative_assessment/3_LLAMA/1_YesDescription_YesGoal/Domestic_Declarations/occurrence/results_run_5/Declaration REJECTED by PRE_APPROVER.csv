@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': ""activity == 'Declaration REJECTED by PRE_APPROVER'"", 'filter': ""activity == 'Declaration FOR_APPROVAL by PRE_APPROVER'""}",,

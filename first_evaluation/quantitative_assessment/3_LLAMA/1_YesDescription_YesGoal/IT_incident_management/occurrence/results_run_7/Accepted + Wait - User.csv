@@ -1,0 +1,2 @@
+Name,Metric,Value,Agrupation
+,"ERROR: computing metric {'count': ""activity == 'Accepted + Wait - User'"", 'aggregation': 'average', 'group_by': 'month', 'filter': ""organization involved == 'VINST'""}",,
