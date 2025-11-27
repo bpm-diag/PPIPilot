@@ -1,0 +1,32 @@
+OpenAI Attempt 1
+Timestamp: 20251028_224339
+Response Length: 712
+==================================================
+RAW OPENAI RESPONSE:
+==================================================
+[
+  {
+    "PPIname": "Duration distribution of 'Accepted + In Progress' across different countries",
+    "PPIjson": {
+      "begin": "activity == 'Accepted + In Progress'",
+      "end": "",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Duration comparison of 'Accepted + In Progress' across different organizational groups",
+    "PPIjson": {
+      "begin": "activity == 'Accepted + In Progress'",
+      "end": "",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Duration comparison of 'Accepted + In Progress' for cases initiated in different years",
+    "PPIjson": {
+      "begin": "activity == 'Accepted + In Progress'",
+      "end": "",
+      "aggregation": "average"
+    }
+  }
+]

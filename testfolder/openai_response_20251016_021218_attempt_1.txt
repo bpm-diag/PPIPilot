@@ -1,0 +1,17 @@
+OpenAI Attempt 1
+Timestamp: 20251016_021218
+Response Length: 415
+==================================================
+RAW OPENAI RESPONSE:
+==================================================
+[
+  {
+    "PPIname": "Average time for a declaration to move from 'Declaration SAVED by EMPLOYEE' to being either approved or rejected by any role",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average",
+      "filter": "activity == 'Declaration APPROVED by ADMINISTRATION' or activity == 'Declaration REJECTED by ADMINISTRATION'"
+    }
+  }
+]

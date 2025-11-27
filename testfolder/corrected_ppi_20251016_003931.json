@@ -1,0 +1,37 @@
+[
+    {
+        "PPIname": "Average time from 'Declaration SAVED by EMPLOYEE' to 'Declaration SUBMITTED by EMPLOYEE'",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total time spent on 'Declaration SAVED by EMPLOYEE' across all cases",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Average time between 'Declaration SAVED by EMPLOYEE' and 'Declaration REJECTED by EMPLOYEE'",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Time difference between the earliest and latest 'Declaration SAVED by EMPLOYEE' in a single case",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Average time to move from 'Declaration SAVED by EMPLOYEE' to 'Declaration APPROVED by ADMINISTRATION'",
+        "PPIjson": {
+            "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "average"
+        }
+    }
+]

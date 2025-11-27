@@ -1,0 +1,221 @@
+You are an expert in Process Performance Indicators (PPIs) and JSON correction. Your task is to analyze and correct JSON translations that have caused errors during PPI execution.
+
+## Context:
+- Original JSON: [
+  {
+    "PPIname": "Total resolution time of Declaration SUBMITTED by EMPLOYEE for cases exceeding average time",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "total",
+      "metric_condition": "> average_time"
+    }
+  },
+  {
+    "PPIname": "Time variance for Declaration SUBMITTED by EMPLOYEE across different organizational resources",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "variance",
+      "group_by": "organizational_resource"
+    }
+  }
+]
+- Execution Errors: [
+  {
+    "ppi_name": "Total resolution time of Declaration SUBMITTED by EMPLOYEE for cases exceeding average time",
+    "error_type": "metric_computation",
+    "error_message": "name 'average_time' is not defined",
+    "ppi_json": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "total",
+      "metric_condition": "> average_time"
+    }
+  },
+  {
+    "ppi_name": "Time variance for Declaration SUBMITTED by EMPLOYEE across different organizational resources",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: organizational_resource'",
+    "ppi_json": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "variance",
+      "group_by": "organizational_resource"
+    }
+  },
+  {
+    "ppi_name": "Time variance for Declaration SUBMITTED by EMPLOYEE across different organizational resources",
+    "error_type": "metric_computation",
+    "error_message": "ERROR: A value in the measure wasn't correctly defined",
+    "ppi_json": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "variance"
+    }
+  }
+]
+- Log Activities: Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled, Request Payment, Declaration APPROVED by ADMINISTRATION, Declaration APPROVED by BUDGET OWNER, Declaration REJECTED by EMPLOYEE, Declaration REJECTED by ADMINISTRATION, Declaration APPROVED by PRE_APPROVER, Declaration REJECTED by SUPERVISOR, Declaration SAVED by EMPLOYEE, Declaration REJECTED by MISSING, Declaration REJECTED by PRE_APPROVER, Declaration REJECTED by BUDGET OWNER, Declaration FOR_APPROVAL by SUPERVISOR, Declaration FOR_APPROVAL by PRE_APPROVER, Declaration FOR_APPROVAL by ADMINISTRATION
+- Log Attributes: No attributes provided
+
+## Your Task:
+Fix the JSON by solving the problems identified in the error messages
+
+**CRITICAL REQUIREMENTS:**
+- REMOVE any `group_by` parameter that references a column that doesn't exist
+- REMOVE any `filter` parameter that contains AND/OR conditions or references undefined variables
+- REMOVE any parameter that references columns not available in the log attributes
+- Only use activity names that exist in the provided log activities list
+- Only use attribute names that exist in the provided log attributes list
+- PRESERVE the original PPI JSON structures - only REMOVE problematic parameters
+- Do NOT change activity names or aggregation types
+- Each PPI should maintain its unique structure and purpose
+- **COMPLETELY REMOVE filter fields that contain AND/OR conditions or undefined variables**
+- **Simple filters are allowed ONLY if they reference a single, valid condition without AND/OR operators**
+
+## Focus Areas:
+
+1. **Syntax Issues**: Fix any JSON formatting problems, missing quotes, brackets, or commas
+2. **Field Validation**: Ensure all required fields are present and correctly formatted
+3. **Activity Names**: Verify activity names match those available in the log
+4. **Attribute Names**: Ensure attribute references are valid and exist in the log
+5. **Logical Expressions**: REMOVE complex filter conditions with AND/OR operators
+6. **Variable References**: REMOVE parameters that reference undefined variables
+7. **Data Types**: Ensure values have correct data types (strings, numbers, booleans)
+
+## Common Error Patterns to Fix:
+- Missing or incorrect quotes around strings
+- Invalid activity names that don't exist in the provided log activities
+- **Complex filter expressions with AND/OR operators - REMOVE these entirely**
+- **Undefined variable references - REMOVE the entire parameter field**
+- **Non-existent column references - REMOVE the parameter line**
+- Incorrect aggregation functions (use only: average, total, minimum, maximum)
+- Missing required fields like "count", "begin", "end"
+- Invalid metric_condition expressions
+- Incorrect group_by or filter syntax referencing non-existent columns
+- Empty begin/end fields should have proper activity references or be removed
+- Escaped quotes (\\) should be removed
+
+## GENERAL ERROR FIXING RULES:
+
+Based on any errors provided, you MUST apply these general rules:
+
+1. **For any "Column not found" errors:**
+   - ERROR PATTERN: 'Column not found: [column_name]' or 'KeyError: [column_name]'
+   - FIX: Remove the entire line that references the non-existent column (e.g., `"group_by": "[column_name]"`, `"filter": "[condition with column_name]"`)
+
+2. **For any "name '[variable]' is not defined" errors:**
+   - ERROR PATTERN: "name '[variable_name]' is not defined"
+   - FIX: Remove the entire parameter that uses the undefined variable (e.g., remove `"filter"` field if it references undefined variables)
+
+3. **For any invalid attribute/column references:**
+   - ERROR PATTERN: References to columns not in the available attributes list
+   - FIX: Remove the entire parameter line that references the invalid attribute
+
+4. **For any AND/OR logical operator errors:**
+   - ERROR PATTERN: Complex filter conditions with AND/OR that cause parsing errors
+   - FIX: Remove the entire `"filter"` field to avoid logical operator issues
+
+5. **For any syntax or parsing errors:**
+   - ERROR PATTERN: JSON formatting issues, malformed expressions
+   - FIX: Correct the syntax while maintaining the original structure and intent
+
+6. **For any aggregation function errors:**
+   - ERROR PATTERN: Invalid aggregation methods
+   - FIX: Use only valid aggregation functions: average, total, minimum, maximum
+
+## Output Format:
+Return ONLY the corrected JSON array in the exact same structure as the input, with all errors fixed. Do not include any explanations, markdown formatting, or additional text.
+
+**CRITICAL OUTPUT REQUIREMENTS:**
+- Start your response immediately with the opening bracket `[`
+- End your response with the closing bracket `]`
+- Use proper JSON formatting with double quotes for all strings
+- Do not include any text before or after the JSON
+- Do not wrap the JSON in markdown code blocks
+- **REMOVE entire parameter fields when they contain errors rather than trying to fix complex conditions**
+- Maintain proper JSON structure and indentation
+
+## CORRECTION EXAMPLES:
+
+**Example 1 - Removing undefined variable filter:**
+BEFORE (with error):
+```json
+{
+  "PPIname": "Average time from activity A to next activity",
+  "PPIjson": {
+    "begin": "activity == 'Activity A'",
+    "end": "",
+    "aggregation": "average",
+    "filter": "activity != 'Rejected Activity' and activity != 'Failed Activity'"
+  }
+}
+```
+
+AFTER (corrected):
+```json
+{
+  "PPIname": "Average time from activity A to next activity",
+  "PPIjson": {
+    "begin": "activity == 'Activity A'",
+    "end": "",
+    "aggregation": "average"
+  }
+}
+```
+
+**Example 2 - Removing non-existent column reference:**
+BEFORE (with error):
+```json
+{
+  "PPIname": "Count by resource type",
+  "PPIjson": {
+    "count": "case:id",
+    "aggregation": "total",
+    "group_by": "case:resource"
+  }
+}
+```
+
+AFTER (corrected):
+```json
+{
+  "PPIname": "Count by resource type",
+  "PPIjson": {
+    "count": "case:id",
+    "aggregation": "total"
+  }
+}
+```
+
+## Template Structures (WITHOUT problematic parameters):
+
+**For time-based PPIs:**
+```json
+[
+  {
+    "PPIname": "[PPI name]",
+    "PPIjson": {
+      "begin": "[begin condition]",
+      "end": "[end condition]",
+      "aggregation": "[aggregation method]"
+    }
+  }
+]
+```
+
+**For count/occurrence PPIs:**
+```json
+[
+  {
+    "PPIname": "[PPI name]",
+    "PPIjson": {
+      "count": "[count field]",
+      "metric_condition": "[condition]",
+      "aggregation": "[aggregation method]"
+    }
+  }
+]
+```
+
+**REMEMBER: When in doubt, REMOVE the problematic parameter entirely rather than attempting to fix complex logical conditions or non-existent references.**

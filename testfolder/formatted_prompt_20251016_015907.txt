@@ -1,0 +1,33 @@
+You are an expert in Process Performance Indicators (PPIs) and JSON correction. Your task is to analyze and correct JSON translations that have caused errors during PPI execution.
+
+## Context:
+- Problematic PPIs JSON (only PPIs with errors): [
+  {
+    "PPIname": "Average time for a declaration to move from 'Declaration SAVED by EMPLOYEE' to being either approved or rejected by any role",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average",
+      "filter": "activity == 'Declaration APPROVED by ADMINISTRATION' or activity == 'Declaration REJECTED by ADMINISTRATION'"
+    }
+  }
+]
+- Execution Errors: [
+  {
+    "ppi_name": "Average time for a declaration to move from 'Declaration SAVED by EMPLOYEE' to being either approved or rejected by any role",
+    "error_type": "metric_computation",
+    "error_message": "name 'activity' is not defined",
+    "ppi_json": {
+      "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average",
+      "filter": "activity == 'Declaration APPROVED by ADMINISTRATION' or activity == 'Declaration REJECTED by ADMINISTRATION'"
+    }
+  }
+]
+- Log Activities: Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled, Request Payment, Declaration APPROVED by ADMINISTRATION, Declaration APPROVED by BUDGET OWNER, Declaration REJECTED by EMPLOYEE, Declaration REJECTED by ADMINISTRATION, Declaration APPROVED by PRE_APPROVER, Declaration REJECTED by SUPERVISOR, Declaration SAVED by EMPLOYEE, Declaration REJECTED by MISSING, Declaration REJECTED by PRE_APPROVER, Declaration REJECTED by BUDGET OWNER, Declaration FOR_APPROVAL by SUPERVISOR, Declaration FOR_APPROVAL by PRE_APPROVER, Declaration FOR_APPROVAL by ADMINISTRATION
+- Log Attributes: No attributes provided
+
+Note: You are receiving only the PPIs that have errors. Working PPIs are kept separate and will be merged back automatically.
+
+I want remove from JSON:             "group_by": "case:resource" or             "group_by": "case:amount"

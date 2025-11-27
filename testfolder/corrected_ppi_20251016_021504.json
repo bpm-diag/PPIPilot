@@ -1,0 +1,123 @@
+[
+    {
+        "PPIname": "Average time from 'Declaration SAVED by EMPLOYEE' to 'Declaration SUBMITTED by EMPLOYEE'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total time for 'Declaration SAVED by EMPLOYEE' to transition to any subsequent activity",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Minimum time from 'Declaration SAVED by EMPLOYEE' to 'Declaration APPROVED by ADMINISTRATION'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "activity == 'Declaration APPROVED by ADMINISTRATION'",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Average time it takes from 'Declaration SAVED by EMPLOYEE' to 'Declaration FINAL_APPROVED by SUPERVISOR'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "activity == 'Declaration FINAL_APPROVED by SUPERVISOR'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total resolution time of 'Declaration SAVED by EMPLOYEE' considering all its occurrences in the event log",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Minimum resolution time of 'Declaration SAVED by EMPLOYEE' across all cases",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Average time between 'Declaration SAVED by EMPLOYEE' and the next activity in the process",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total time from 'Declaration SAVED by EMPLOYEE' to 'Payment Handled' across all variants where applicable",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "activity == 'Payment Handled'",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Minimum time it takes from 'Declaration SAVED by EMPLOYEE' to 'Request Payment' in the process flow",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "activity == 'Request Payment'",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Average duration of 'Declaration SAVED by EMPLOYEE' in comparison to 'Declaration SUBMITTED by EMPLOYEE'",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Total duration of 'Declaration SAVED by EMPLOYEE' across all instances in the domestic declaration process",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLEE'",
+            "end": "",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Average time from 'Declaration SAVED by EMPLOYEE' to the end of the process across all variants",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "",
+            "aggregation": "average"
+        }
+    },
+    {
+        "PPIname": "Minimum time from 'Declaration SAVED by EMPLOYEE' to 'Declaration REJECTED by ADMINISTRATION' in cases where this path is followed",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "activity == 'Declaration REJECTED by ADMINISTRATION'",
+            "aggregation": "minimum"
+        }
+    },
+    {
+        "PPIname": "Total time it takes for 'Declaration SAVED by EMPLOYEE' to transition to 'Declaration APPROVED by BUDGET OWNER' in applicable cases",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "activity == 'Declaration APPROVED by BUDGET OWNER'",
+            "aggregation": "total"
+        }
+    },
+    {
+        "PPIname": "Average time for a declaration to move from 'Declaration SAVED by EMPLOYEE' to being either approved or rejected by any role",
+        "PPIjson": {
+            "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+            "end": "",
+            "aggregation": "average",
+            "filter": "activity == 'Declaration APPROVED by ADMINISTRATION' or activity == 'Declaration REJECTED by ADMINISTRATION'"
+        }
+    }
+]

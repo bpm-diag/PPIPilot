@@ -1,0 +1,152 @@
+You are an expert in Process Performance Indicators (PPIs) and JSON correction. Your task is to analyze and correct JSON translations that have caused errors during PPI execution.
+
+## Context:
+- Original JSON: [
+  {
+    "PPIname": "Average time from 'Declaration SAVED by EMPLOYEE' to the next activity in the process, excluding rejections",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average",
+      "filter": "activity != 'Declaration REJECTED by EMPLOYEE' and activity != 'Declaration REJECTED by ADMINISTRATION' and activity != 'Declaration REJECTED by SUPERVISOR' and activity != 'Declaration REJECTED by MISSING' and activity != 'Declaration REJECTED by PRE_APPROVER' and activity != 'Declaration REJECTED by BUDGET OWNER'"
+    }
+  }
+]
+- Execution Errors: [
+  {
+    "ppi_name": "Average time from 'Declaration SAVED by EMPLOYEE' to the next activity in the process, excluding rejections",
+    "error_type": "metric_computation",
+    "error_message": "name 'activity' is not defined",
+    "ppi_json": {
+      "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average",
+      "filter": "activity != 'Declaration REJECTED by EMPLOYEE' and activity != 'Declaration REJECTED by ADMINISTRATION' and activity != 'Declaration REJECTED by SUPERVISOR' and activity != 'Declaration REJECTED by MISSING' and activity != 'Declaration REJECTED by PRE_APPROVER' and activity != 'Declaration REJECTED by BUDGET OWNER'"
+    }
+  }
+]
+- Log Activities: Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled, Request Payment, Declaration APPROVED by ADMINISTRATION, Declaration APPROVED by BUDGET OWNER, Declaration REJECTED by EMPLOYEE, Declaration REJECTED by ADMINISTRATION, Declaration APPROVED by PRE_APPROVER, Declaration REJECTED by SUPERVISOR, Declaration SAVED by EMPLOYEE, Declaration REJECTED by MISSING, Declaration REJECTED by PRE_APPROVER, Declaration REJECTED by BUDGET OWNER, Declaration FOR_APPROVAL by SUPERVISOR, Declaration FOR_APPROVAL by PRE_APPROVER, Declaration FOR_APPROVAL by ADMINISTRATION
+- Log Attributes: No attributes provided
+
+## Your Task:
+Fix the JSON by solving the problem in the erorr error_message
+
+**CRITICAL REQUIREMENTS:**
+- REMOVE any `group_by` parameter that references a column that doesn't exist
+- REMOVE any `filter` parameter that references a column that doesn't exist  
+- Only use activity names that exist in the log: Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled, Request Payment, Declaration APPROVED by ADMINISTRATION, Declaration APPROVED by BUDGET OWNER, Declaration REJECTED by EMPLOYEE, Declaration REJECTED by ADMINISTRATION, Declaration APPROVED by PRE_APPROVER, Declaration REJECTED by SUPERVISOR, Declaration SAVED by EMPLOYEE, Declaration REJECTED by MISSING, Declaration REJECTED by PRE_APPROVER, Declaration REJECTED by BUDGET OWNER, Declaration FOR_APPROVAL by SUPERVISOR, Declaration FOR_APPROVAL by PRE_APPROVER, Declaration FOR_APPROVAL by ADMINISTRATION
+- Only use attribute names that exist in the log: No attributes provided
+- PRESERVE the original PPI JSON structures - only REMOVE problematic parameters
+- Do NOT change activity names or aggregation types
+- Each PPI should maintain its unique structure and purpose
+- OR is not supported so don't use OR condition
+- AND is not supported so don't use AND condition
+
+Focus on:
+
+1. **Syntax Issues**: Fix any JSON formatting problems, missing quotes, brackets, or commas
+2. **Field Validation**: Ensure all required fields are present and correctly formatted
+3. **Activity Names**: Verify activity names match those available in the log
+4. **Attribute Names**: Ensure attribute references are valid
+5. **Logical Expressions**: Fix filter conditions and metric expressions
+6. **Data Types**: Ensure values have correct data types (strings, numbers, booleans)
+
+## Common Error Patterns to Fix:
+- Missing or incorrect quotes around strings
+- Invalid activity names that don't exist in the log (use only activities from: Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled, Request Payment, Declaration APPROVED by ADMINISTRATION, Declaration APPROVED by BUDGET OWNER, Declaration REJECTED by EMPLOYEE, Declaration REJECTED by ADMINISTRATION, Declaration APPROVED by PRE_APPROVER, Declaration REJECTED by SUPERVISOR, Declaration SAVED by EMPLOYEE, Declaration REJECTED by MISSING, Declaration REJECTED by PRE_APPROVER, Declaration REJECTED by BUDGET OWNER, Declaration FOR_APPROVAL by SUPERVISOR, Declaration FOR_APPROVAL by PRE_APPROVER, Declaration FOR_APPROVAL by ADMINISTRATION)
+- Malformed filter expressions
+- Incorrect aggregation functions (use: average, total, minimum, maximum)
+- Missing required fields like "count", "begin", "end"
+- Invalid metric_condition expressions
+- Incorrect group_by or filter syntax
+- Invalid attribute names (use only attributes from: No attributes provided)
+- Empty begin/end fields should have proper activity references or be removed
+- Escaped quotes (\\) should be removed
+- Non-existent columns like 'quickest_approval_variant', 'case:org:resource', 'case:outcome'
+
+## Output Format:
+Return ONLY the corrected JSON array in the exact same structure as the input, with all errors fixed. Do not include any explanations, markdown formatting, or additional text.
+
+**CRITICAL REQUIREMENTS:**
+- Start your response immediately with the opening bracket `[`
+- End your response with the closing bracket `]`
+- Use proper JSON formatting with double quotes for all strings
+- Do not include any text before or after the JSON
+- Do not wrap the JSON in markdown code blocks
+- Remove parameter line from the JSON if no valid column exists, for example with the error: KeyError: 'Column not found: case:resource', you can simply remove the line
+
+
+## SPECIFIC FIXES REQUIRED FOR YOUR INPUT:
+
+Based on the errors provided, you MUST make these exact changes:
+
+1. **For "Average time for 'Request Payment' across different organizational resources":**
+   - ERROR: 'Column not found: case:resource'
+   - FIX: Remove the entire line `"group_by": "case:resource"`
+
+2. **For "Minimum time for 'Request Payment' across different case amounts":**
+   - ERROR: 'Column not found: case:amount'  
+   - FIX: Remove the entire line `"group_by": "case:amount"`
+
+**EXAMPLE OF REQUIRED FIX:**
+
+BEFORE (with error):
+```json
+{
+  "PPIname": "Average time for 'Request Payment' across different organizational resources",
+  "PPIjson": {
+    "begin": "activity == 'Request Payment'",
+    "end": "",
+    "aggregation": "average",
+    "group_by": "case:resource"
+  }
+}
+```
+
+AFTER (corrected):
+```json
+{
+  "PPIname": "Average time for 'Request Payment' across different organizational resources", 
+  "PPIjson": {
+    "begin": "activity == 'Request Payment'",
+    "end": "",
+    "aggregation": "average"
+  }
+}
+```
+
+**CRITICAL: You MUST remove any line that references a non-existent column. Do NOT keep invalid parameters.**
+
+
+
+ 
+Example structure for PPIs refering to time:
+[
+    {{
+        "PPIname": "[write the PPI name]",
+        "PPIjson": {{
+            "begin": "[write the begin field]",
+            "end": "[write the end field]",
+            "aggregation": "[write the aggregation field]",
+            "filter": "[write the filter field]",
+            "group_by": "[write the group_by field]",
+        }}
+    }}
+]
+
+
+Example structure for PPIs refering to occurency and percentage:
+[
+    {{
+        "PPIname": "Corrected PPI Name",
+        "PPIjson": {{
+            "count": "[write the count field]",
+            "metric_condition": "[write the metric_condition field]",
+            "aggregation": "[write the aggregation field]",
+            "filter": "[write the filter field]",
+            "group_by": "[write the group_by field]",
+        }}
+    }}
+]
+
+

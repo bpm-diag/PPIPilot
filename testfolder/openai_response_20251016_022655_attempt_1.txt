@@ -1,0 +1,17 @@
+OpenAI Attempt 1
+Timestamp: 20251016_022655
+Response Length: 606
+==================================================
+RAW OPENAI RESPONSE:
+==================================================
+[
+  {
+    "PPIname": "Average time from 'Declaration SAVED by EMPLOYEE' to the next activity in the process, excluding rejections",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SAVED by EMPLOYEE'",
+      "end": "",
+      "aggregation": "average",
+      "filter": "activity != 'Declaration REJECTED by EMPLOYEE' and activity != 'Declaration REJECTED by ADMINISTRATION' and activity != 'Declaration REJECTED by SUPERVISOR' and activity != 'Declaration REJECTED by MISSING' and activity != 'Declaration REJECTED by PRE_APPROVER' and activity != 'Declaration REJECTED by BUDGET OWNER'"
+    }
+  }
+]

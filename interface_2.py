@@ -3,7 +3,8 @@ import pandas as pd
 import pm4py
 import openai
 from openai import OpenAI
-from fromLogtoPPI_prompt_pipeline_goal import exec
+import fromLogtoPPI_prompt_pipeline_goal as pipeline
+from fromLogtoPPI_prompt_pipeline_goal import exec, auto_correct_errors_with_retry
 import json
 import os
 from io import BytesIO
@@ -17,6 +18,20 @@ import tempfile
 
 import ppinatjson as pp
 
+# ============================================================================
+# ERROR CORRECTION CONFIGURATION - Easily modifiable parameters
+# ============================================================================
+MAX_LEVEL1_ITERATIONS = 2  # Maximum iterations for Level 1 (Re-translation)
+MAX_LEVEL2_ITERATIONS = 2  # Maximum iterations for Level 2 (Error correction)
+
+# DEBUG/TESTING FLAGS
+SAVE_PROMPTS_AND_RESPONSES = False  # Set to False to disable prompt/response logging
+PROMPTS_LOG_FOLDER = "debug_prompts_log"  # Folder where to save prompt logs
+# ============================================================================
+
+# Set the debug flags in the pipeline module
+pipeline.SAVE_PROMPTS_AND_RESPONSES = SAVE_PROMPTS_AND_RESPONSES
+pipeline.PROMPTS_LOG_FOLDER = PROMPTS_LOG_FOLDER
 
 #logger = logging.getLogger(__name__)
 
@@ -129,6 +144,9 @@ if "fecha_min" not in st.session_state:
 if "fecha_max" not in st.session_state:
     st.session_state['fecha_max'] = None
 
+if "errors_captured" not in st.session_state:
+    st.session_state["errors_captured"] = []
+
 with st.expander("Click to complete the form"):
     col0, col1 = st.columns(2)
     with col0:
@@ -141,58 +159,131 @@ with st.expander("Click to complete the form"):
 if st.session_state.file_uploaded:
     col00, col11 = st.columns(2)
     with col00:
-        ppis = st.selectbox('Choose a category', ["time","occurrency","both"],)
+        ppis = st.selectbox('Choose a category', ["time","occurrency"],)
     with col11:
         act = st.selectbox("Choose an activity:", st.session_state.activities)
     goal = st.text_area("Organizational goal")
+    
+    # Test mode options (hidden)
+    # col_test1, col_test2 = st.columns(2)
+    # with col_test1:
+    #     test_mode = st.checkbox("🧪 1Test Error Correction: Inject PPIs with errors", value=False)
+    #     if test_mode:
+    #         st.info("⚠️ Two PPIs with intentional errors will be added to test error correction.")
+    # with col_test2:
+    #     test_retry = st.checkbox("🔄 Test Retry Mechanism: Force 0 PPIs on first attempt", value=False)
+    #     if test_retry:
+    #         st.warning("⚠️ First attempt will return 0 PPIs to trigger retry (max 2 retries).")
+    test_mode = False  # Default value when hidden
+    test_retry = False  # Default value when hidden
+    
     col01, col02, col03 = st.columns(3)
     with col02:
         boton = st.button("Send options selected")
     
     if boton:
+        max_retries = 2  # Maximum number of retry attempts
+        retry_count = 0
+        successful_generation = False
         
-        if ppis == "both":
-            ls_cat = ["time","occurrency"]
-            for el in ls_cat:
-                cod_json = exec(st.session_state.dataframe,act,st.session_state.varianti, 
-                st.session_state.activities, el, desc, goal, st.session_state.attribute_array,
-                    xes_file.name, st.session_state.client)
-                current_directory = os.path.dirname(__file__)
-                current_directory_con_slashes = current_directory.replace("\\", "/")
-                if el=="time":
-                    st.session_state.file_path_time = os.path.join(current_directory_con_slashes, cod_json).replace("\\","/")
-                else: 
-                    st.session_state.file_path_occurrency = os.path.join(current_directory_con_slashes, cod_json).replace("\\","/")
+        while retry_count <= max_retries and not successful_generation:
+            # Show progress indicator
+            retry_message = f"Generating PPIs... (Attempt {retry_count + 1}/{max_retries + 1})" if retry_count > 0 else "Generating PPIs..."
+            with st.spinner(retry_message):
+                # Clear previous results when new options are selected
+                st.session_state.ejecutado_final = False
+                st.session_state.time_grouper = False
+                st.session_state.file_path = None
+                st.session_state.file_path_time = None
+                st.session_state.file_path_occurrency = None
+                st.session_state.df = None
+                st.session_state.df_sin_error = None
+                st.session_state.df_gt = None
+                st.session_state.df_sin_error_gt = None
+                st.session_state.batch_size = 25
+                st.session_state.batch_size_sin_error = 25
+                st.session_state.batch_size_gt = 25
+                st.session_state.batch_size_sin_error_gt = 25
+                st.session_state.errors_captured = []
+                
+                # Generate PPIs
+                # Apply test_retry only on first attempt (retry_count == 0)
+                apply_retry_test = test_retry and retry_count == 0
+                
+                if ppis == "both":
+                    ls_cat = ["time","occurrency"]
+                    for el in ls_cat:
+                        cod_json = exec(st.session_state.dataframe,act,st.session_state.varianti, 
+                        st.session_state.activities, el, desc, goal, st.session_state.attribute_array,
+                            xes_file.name, st.session_state.client, inject_test_errors=test_mode, test_retry_mechanism=apply_retry_test)
+                        current_directory = os.path.dirname(__file__)
+                        current_directory_con_slashes = current_directory.replace("\\", "/")
+                        if el=="time":
+                            st.session_state.file_path_time = os.path.join(current_directory_con_slashes, cod_json).replace("\\","/")
+                        else: 
+                            st.session_state.file_path_occurrency = os.path.join(current_directory_con_slashes, cod_json).replace("\\","/")
+                else:
+                    cod_json = exec(st.session_state.dataframe,act,st.session_state.varianti, 
+                        st.session_state.activities, ppis, desc, goal, st.session_state.attribute_array,
+                            xes_file.name, st.session_state.client, inject_test_errors=test_mode, test_retry_mechanism=apply_retry_test)
+                    
+                    current_directory = os.path.dirname(__file__)
+                    current_directory_con_slashes = current_directory.replace("\\", "/")
+                
+                    # Construir la ruta completa al archivo JSON
+                    st.session_state.file_path = os.path.join(current_directory_con_slashes, cod_json).replace("\\","/")
+                
+                # Execute PPIs with automatic error correction
+                if ppis == "occurrency":
+                    st.session_state.batch_size, st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error, st.session_state.errors_captured, iteration_count = auto_correct_errors_with_retry(
+                        xes_file, st.session_state.file_path, ppis, 
+                        st.session_state.activities, st.session_state.attribute_array, st.session_state.client,
+                        max_level1_iterations=MAX_LEVEL1_ITERATIONS,
+                        max_level2_iterations=MAX_LEVEL2_ITERATIONS
+                    )
+                    print(f"Completed after {iteration_count} iteration(s)")
+                elif ppis == "time":
+                    st.session_state.batch_size, st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error, st.session_state.errors_captured, iteration_count = auto_correct_errors_with_retry(
+                        xes_file, st.session_state.file_path, ppis,
+                        st.session_state.activities, st.session_state.attribute_array, st.session_state.client,
+                        max_level1_iterations=MAX_LEVEL1_ITERATIONS,
+                        max_level2_iterations=MAX_LEVEL2_ITERATIONS
+                    )
+                    print(f"Completed after {iteration_count} iteration(s)")
+                else:  # both
+                    st.session_state.batch_size, st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error, st.session_state.errors_captured, iteration_count = auto_correct_errors_with_retry(
+                        xes_file, None, ppis,
+                        st.session_state.activities, st.session_state.attribute_array, st.session_state.client,
+                        json_path_time=st.session_state.file_path_time,
+                        json_path_occurrency=st.session_state.file_path_occurrency,
+                        max_level1_iterations=MAX_LEVEL1_ITERATIONS,
+                        max_level2_iterations=MAX_LEVEL2_ITERATIONS
+                    )
+                    print(f"Completed after {iteration_count} iteration(s)")
+                
+                st.session_state.ejecutado_final = True
+                
+                # Check if we have valid PPIs in the results table
+                valid_ppi_count = len(st.session_state.df_sin_error) if st.session_state.df_sin_error is not None else 0
+                
+                if valid_ppi_count > 0:
+                    successful_generation = True
+                    print(f"✅ Success! Generated {valid_ppi_count} valid PPIs on attempt {retry_count + 1}")
+                else:
+                    if retry_count < max_retries:
+                        print(f"⚠️ No valid PPIs in results table on attempt {retry_count + 1}. Retrying...")
+                        retry_count += 1
+                    else:
+                        print(f"❌ Failed to generate valid PPIs after {max_retries + 1} attempts.")
+                        successful_generation = True  # Exit loop even if unsuccessful
         
+        # Show appropriate message after completion
+        if st.session_state.df_sin_error is not None and len(st.session_state.df_sin_error) > 0:
+            st.success(f"✅ Analysis completed! Generated {len(st.session_state.df_sin_error)} PPIs.")
         else:
-            cod_json = exec(st.session_state.dataframe,act,st.session_state.varianti, 
-                st.session_state.activities, ppis, desc, goal, st.session_state.attribute_array,
-                    xes_file.name, st.session_state.client)
-            
-            
-            current_directory = os.path.dirname(__file__)
-            current_directory_con_slashes = current_directory.replace("\\", "/")
-        
-            # Construir la ruta completa al archivo JSON
-            st.session_state.file_path = os.path.join(current_directory_con_slashes, cod_json).replace("\\","/")
-            #st.write("File_path", st.session_state.file_path)
+            st.warning(f"⚠️ Analysis completed but no PPIs were generated. Please try with different parameters.")
 
 if st.session_state.file_path is not None or st.session_state.file_path_time is not None and st.session_state.file_path_occurrency is not None:
-    if not st.session_state.ejecutado_final:
-        if ppis == "occurrency":
-
-            st.session_state.batch_size,st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error = pp.exec_final_perc(xes_file,st.session_state.file_path)
-        
-        elif ppis == "time":
-
-            st.session_state.batch_size,st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error = pp.exec_final_time(xes_file,st.session_state.file_path)
-        
-        else:
-            
-            st.session_state.batch_size,st.session_state.df_sin_error, st.session_state.df, st.session_state.batch_size_sin_error = pp.exec_final_both(xes_file,st.session_state.file_path_time, st.session_state.file_path_occurrency)
-        
-
-        st.session_state.ejecutado_final = True
         
 
     columna1, columna2 = st.columns(2)
@@ -207,8 +298,8 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
                 'Month':'M',  # Month end frequency
                 'Year': 'Y',  # Year end frequency
                 'Hourly': 'H',  # Hourly frequency
-                'Minutely': 'T',  # Minutely frequency
-                'Secondly':'S',  # Secondly frequency
+                # 'Minutely': 'T',  # Minutely frequency
+                # 'Secondly':'S',  # Secondly frequency
             }
 
             # Crear el selector de period aliases con Streamlit
@@ -227,21 +318,24 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
             st.session_state.time_grouper = True
             if ppis == "both":
 
-                st.session_state.batch_size_gt,st.session_state.df_sin_error_gt, st.session_state.df_gt, st.session_state.batch_size_sin_error_gt = pp.exec_final_both(xes_file,st.session_state.file_path_time, st.session_state.file_path_occurrency, time_group=str(number)+selected_alias)
+                st.session_state.batch_size_gt,st.session_state.df_sin_error_gt, st.session_state.df_gt, st.session_state.batch_size_sin_error_gt, _ = pp.exec_final_both(xes_file,st.session_state.file_path_time, st.session_state.file_path_occurrency, time_group=str(number)+selected_alias)
 
             elif ppis=="time":
 
-                st.session_state.batch_size_gt,st.session_state.df_sin_error_gt, st.session_state.df_gt, st.session_state.batch_size_sin_error_gt = pp.exec_final_time(xes_file,st.session_state.file_path, time_group=str(number)+selected_alias)
+                st.session_state.batch_size_gt,st.session_state.df_sin_error_gt, st.session_state.df_gt, st.session_state.batch_size_sin_error_gt, _ = pp.exec_final_time(xes_file,st.session_state.file_path, time_group=str(number)+selected_alias)
 
             elif ppis == "occurrency":
 
-                st.session_state.batch_size_gt,st.session_state.df_sin_error_gt, st.session_state.df_gt, st.session_state.batch_size_sin_error_gt = pp.exec_final_perc(xes_file,st.session_state.file_path, time_group=str(number)+selected_alias)
+                st.session_state.batch_size_gt,st.session_state.df_sin_error_gt, st.session_state.df_gt, st.session_state.batch_size_sin_error_gt, _ = pp.exec_final_perc(xes_file,st.session_state.file_path, time_group=str(number)+selected_alias)
             
 
     
 
     if selector and not timegroup: 
-        
+        # Calculate dynamic height based on actual dataframe size
+        actual_rows = len(st.session_state.df) if st.session_state.df is not None else st.session_state.batch_size
+        calculated_height = int(35.2 * (actual_rows + 1))
+        display_height = min(max(calculated_height, 200), 800)  # Min 200px, Max 800px
 
         edited_df = st.data_editor(
                 st.session_state.df[["Name", 'Metric','Value']],
@@ -251,9 +345,13 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
         disabled=["Name", 'Metric','Value'],
         hide_index=True,
         use_container_width = True,
-            height= int(35.2*(st.session_state.batch_size+1))
+            height=display_height
         )
     elif selector and timegroup and st.session_state.time_grouper:
+        # Calculate dynamic height based on actual dataframe size
+        actual_rows = len(st.session_state.df_gt) if st.session_state.df_gt is not None else st.session_state.batch_size_gt
+        calculated_height = int(35.2 * (actual_rows + 1))
+        display_height = min(max(calculated_height, 200), 800)  # Min 200px, Max 800px
         
         edited_df = st.data_editor(
             st.session_state.df_gt[['Name','Metric', 'Last Interval Value','Group By','agrupation']],
@@ -267,10 +365,14 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
             disabled=["Name", 'Metric','Last Interval Value','Group By', 'Agrupation'],
             hide_index=True,
             use_container_width = True,
-            height= int(35.2*(st.session_state.batch_size_gt+1))
+            height=display_height
             )
         
     elif not selector and timegroup and st.session_state.time_grouper:
+        # Calculate dynamic height based on actual dataframe size
+        actual_rows = len(st.session_state.df_sin_error_gt) if st.session_state.df_sin_error_gt is not None else st.session_state.batch_size_sin_error_gt
+        calculated_height = int(35.2 * (actual_rows + 1))
+        display_height = min(max(calculated_height, 200), 800)  # Min 200px, Max 800px
         
         edited_df = st.data_editor(
             st.session_state.df_sin_error_gt[['Metric', 'Last Interval Value','Group By','agrupation']],
@@ -284,11 +386,16 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
             disabled=["Name", 'Metric','Last Interval Value','Group By', 'Agrupation'],
             hide_index=True,
             use_container_width = True,
-            height= int(35.2*(st.session_state.batch_size_sin_error_gt+1))
+            height=display_height
             )
 
     elif not selector and not timegroup:
-
+        # Calculate dynamic height based on actual dataframe size
+        actual_rows = len(st.session_state.df_sin_error) if st.session_state.df_sin_error is not None else st.session_state.batch_size_sin_error
+        # Use a minimum height and scale up to a reasonable maximum
+        calculated_height = int(35.2 * (actual_rows + 1))
+        display_height = min(max(calculated_height, 200), 800)  # Min 200px, Max 800px
+        
         edited_df= st.data_editor(
             st.session_state.df_sin_error[['Metric', 'Value']],
             column_config={
@@ -297,11 +404,16 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
         disabled=['Metric','Value'],
         hide_index=True,
         use_container_width = True,
-            height= int(35.2*(st.session_state.batch_size_sin_error+1))
+            height=display_height
 
         )
 
     else:
+        # Calculate dynamic height based on actual dataframe size
+        actual_rows = len(st.session_state.df_sin_error) if st.session_state.df_sin_error is not None else st.session_state.batch_size_sin_error
+        # Use a minimum height and scale up to a reasonable maximum
+        calculated_height = int(35.2 * (actual_rows + 1))
+        display_height = min(max(calculated_height, 200), 800)  # Min 200px, Max 800px
         
         edited_df= st.data_editor(
             st.session_state.df_sin_error[['Metric','Value']],
@@ -311,10 +423,10 @@ if st.session_state.file_path is not None or st.session_state.file_path_time is 
         disabled=['Metric','Value'],
         hide_index=True,
         use_container_width = True,
-            height= int(35.2*(st.session_state.batch_size_sin_error+1))
+            height=display_height
 
         )
-            
-            
+    
+    # Errors are handled internally - users only see the valid PPIs generated
 
 

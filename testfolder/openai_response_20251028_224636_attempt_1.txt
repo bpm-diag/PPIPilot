@@ -1,0 +1,29 @@
+OpenAI Attempt 1
+Timestamp: 20251028_224636
+Response Length: 628
+==================================================
+RAW OPENAI RESPONSE:
+==================================================
+[
+  {
+    "PPIname": "Median duration for 'SW-AE Assign Reviewers' activity across all cases",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Variance in time for 'SW-AE Assign Reviewers' across different cases",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Total duration of 'SW-AE Assign Reviewers' activity in the top 10 longest cases",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "aggregation": "total"
+    }
+  }
+]

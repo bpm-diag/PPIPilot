@@ -1,0 +1,43 @@
+OpenAI Attempt 1
+Timestamp: 20251028_221321
+Response Length: 1071
+==================================================
+RAW OPENAI RESPONSE:
+==================================================
+[
+  {
+    "PPIname": "Number of Declaration SUBMITTED by EMPLOYEE made per year",
+    "PPIjson": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "aggregation": "total"
+    }
+  },
+  {
+    "PPIname": "Percentage of Declaration SUBMITTED by EMPLOYEE that are rejected",
+    "PPIjson": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "aggregation": "percentage"
+    }
+  },
+  {
+    "PPIname": "Average number of Declaration SUBMITTED by EMPLOYEE per month",
+    "PPIjson": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Average number of Declaration SUBMITTED by EMPLOYEE in a month",
+    "PPIjson": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "The ratio of Declaration SUBMITTED by EMPLOYEE that are not eventually performed",
+    "PPIjson": {
+      "count": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "aggregation": "percentage"
+    }
+  }
+]

@@ -1,0 +1,53 @@
+================================================================================
+TIMESTAMP: 2024-11-05 11:30:45
+LEVEL: LEVEL1
+PPI NAME: Average time by resource
+ITERATION: 1
+================================================================================
+
+================================================================================
+PROMPT SENT TO OPENAI:
+================================================================================
+You are an expert in process mining and PPI (Process Performance Indicator) translation.
+
+A PPI named "{0}" has caused an error during execution:
+ERROR: {1}
+
+Your task is to re-translate this PPI into a valid JSON structure that will execute successfully.
+
+AVAILABLE ACTIVITIES IN THE LOG:
+{2}
+
+AVAILABLE ATTRIBUTES IN THE LOG:
+{3}
+
+CRITICAL REQUIREMENTS:
+1. Only use group_by with attribute names that exist in the provided log attributes list
+2. AVOID using filter parameters unless absolutely necessary
+3. Use simple, straightforward conditions
+4. Prefer "average" as aggregation when in doubt
+5. Do not use complex AND/OR conditions in filters
+
+Please return ONLY a valid JSON object with this structure:
+{
+  "PPIname": "name of the PPI",
+  "PPIjson": {
+    "begin": "activity condition for start",
+    "end": "activity condition for end",
+    "aggregation": "average"
+  }
+}
+
+Remember: Keep the translation simple and avoid the error that occurred previously.
+
+================================================================================
+RESPONSE FROM OPENAI:
+================================================================================
+{
+  "PPIname": "Average time by resource",
+  "PPIjson": {
+    "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+    "end": "activity == 'Declaration APPROVED by ADMINISTRATION'",
+    "aggregation": "average"
+  }
+}

@@ -1,0 +1,69 @@
+OpenAI Attempt 1
+Timestamp: 20251028_224607
+Response Length: 2186
+==================================================
+RAW OPENAI RESPONSE:
+==================================================
+[
+  {
+    "PPIname": "Median duration for 'SW-AE Assign Reviewers' activity across all cases",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Variance in time for 'SW-AE Assign Reviewers' across different cases",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Total duration of 'SW-AE Assign Reviewers' activity in the top 10 longest cases",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "aggregation": "total"
+    }
+  },
+  {
+    "PPIname": "Average time from 'SW-AE Assign Reviewers' to 'Reviewer Invitation Reminder 2' in cases requiring multiple reminders",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "end": "activity == 'Reviewer Invitation Reminder 2'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Time from 'SW-AE Assign Reviewers' to 'Assign a Different Editor' in cases where editor reassignment was necessary",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "end": "activity == 'Assign a Different Editor'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Duration from 'SW-AE Assign Reviewers' to 'SW-AE Assign Reviewers Challenge Paper' in cases involving challenge papers",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "end": "activity == 'SW-AE Assign Reviewers Challenge Paper'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Time from 'SW-AE Assign Reviewers' to 'SW-Reviewer Selection is now due' for cases hitting the deadline",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "end": "activity == 'SW-Reviewer Selection is now due'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Median time from 'SW-AE Assign Reviewers' to 'SW-AE Recommendation overdue' for cases with overdue recommendations",
+    "PPIjson": {
+      "begin": "activity == 'SW-AE Assign Reviewers'",
+      "end": "activity == 'SW-AE Recommendation overdue'",
+      "aggregation": "average"
+    }
+  }
+]

@@ -1,0 +1,351 @@
+You are an expert in Process Performance Indicators (PPIs) and JSON correction. Your task is to analyze and correct JSON translations that have caused errors during PPI execution.
+
+## Context:
+- Original JSON: [
+  {
+    "PPIname": "Average time from 'Declaration FINAL_APPROVED by SUPERVISOR' to 'Request Payment'",
+    "PPIjson": {
+      "begin": "activity == 'Declaration FINAL_APPROVED by SUPERVISOR'",
+      "end": "activity == 'Request Payment'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Total time from 'Declaration SUBMITTED by EMPLOYEE' to 'Request Payment'",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "activity == 'Request Payment'",
+      "aggregation": "total"
+    }
+  },
+  {
+    "PPIname": "Minimum time from 'Declaration APPROVED by ADMINISTRATION' to 'Request Payment'",
+    "PPIjson": {
+      "begin": "activity == 'Declaration APPROVED by ADMINISTRATION'",
+      "end": "activity == 'Request Payment'",
+      "aggregation": "minimum"
+    }
+  },
+  {
+    "PPIname": "Average time for 'Request Payment' to be completed after 'Declaration APPROVED by BUDGET OWNER'",
+    "PPIjson": {
+      "begin": "activity == 'Declaration APPROVED by BUDGET OWNER'",
+      "end": "activity == 'Request Payment'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Total resolution time of 'Request Payment'",
+    "PPIjson": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "total"
+    }
+  },
+  {
+    "PPIname": "Minimum resolution time of 'Request Payment'",
+    "PPIjson": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "minimum"
+    }
+  },
+  {
+    "PPIname": "Average waiting time to the 'Request Payment' after 'Declaration APPROVED by PRE_APPROVER'",
+    "PPIjson": {
+      "begin": "activity == 'Declaration APPROVED by PRE_APPROVER'",
+      "end": "activity == 'Request Payment'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Total time it takes 'Request Payment' to be done after 'Declaration REJECTED by EMPLOYEE'",
+    "PPIjson": {
+      "begin": "activity == 'Declaration REJECTED by EMPLOYEE'",
+      "end": "activity == 'Request Payment'",
+      "aggregation": "total"
+    }
+  },
+  {
+    "PPIname": "Minimum time it takes 'Request Payment' to be done after 'Declaration REJECTED by ADMINISTRATION'",
+    "PPIjson": {
+      "begin": "activity == 'Declaration REJECTED by ADMINISTRATION'",
+      "end": "activity == 'Request Payment'",
+      "aggregation": "minimum"
+    }
+  },
+  {
+    "PPIname": "Average time it takes 'Request Payment' after the execution of 'Declaration FOR_APPROVAL by SUPERVISOR'",
+    "PPIjson": {
+      "begin": "activity == 'Declaration FOR_APPROVAL by SUPERVISOR'",
+      "end": "activity == 'Request Payment'",
+      "aggregation": "average"
+    }
+  },
+  {
+    "PPIname": "Total time for 'Request Payment' considering all variants leading to it",
+    "PPIjson": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "total"
+    }
+  },
+  {
+    "PPIname": "Average time for 'Request Payment' across different organizational resources",
+    "PPIjson": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:resource"
+    }
+  },
+  {
+    "PPIname": "Minimum time for 'Request Payment' across different case amounts",
+    "PPIjson": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "minimum",
+      "group_by": "case:amount"
+    }
+  },
+  {
+    "PPIname": "Total time from 'Declaration SUBMITTED by EMPLOYEE' to 'Request Payment' for the most frequent variant",
+    "PPIjson": {
+      "begin": "activity == 'Declaration SUBMITTED by EMPLOYEE'",
+      "end": "activity == 'Request Payment'",
+      "aggregation": "total",
+      "filter": "variant == 'most frequent'"
+    }
+  },
+  {
+    "PPIname": "Average time from 'Declaration APPROVED by ADMINISTRATION' to 'Request Payment' for the variant with the highest performance",
+    "PPIjson": {
+      "begin": "activity == 'Declaration APPROVED by ADMINISTRATION'",
+      "end": "activity == 'Request Payment'",
+      "aggregation": "average",
+      "filter": "performance == 'highest'"
+    }
+  },
+  {
+    "PPIname": "Total time for 'Request Payment' in the context of domestic declaration log aiming to reduce process time",
+    "PPIjson": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "total",
+      "filter": "context == 'domestic declaration'"
+    }
+  }
+]
+- Execution Errors: [
+  {
+    "ppi_name": "Average time for 'Request Payment' across different organizational resources",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:resource'",
+    "ppi_json": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:resource"
+    }
+  },
+  {
+    "ppi_name": "Minimum time for 'Request Payment' across different case amounts",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:amount'",
+    "ppi_json": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "minimum",
+      "group_by": "case:amount"
+    }
+  },
+  {
+    "ppi_name": "Average time for 'Request Payment' across different organizational resources",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:resource'",
+    "ppi_json": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:resource"
+    }
+  },
+  {
+    "ppi_name": "Minimum time for 'Request Payment' across different case amounts",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:amount'",
+    "ppi_json": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "minimum",
+      "group_by": "case:amount"
+    }
+  },
+  {
+    "ppi_name": "Average time for 'Request Payment' across different organizational resources",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:resource'",
+    "ppi_json": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:resource"
+    }
+  },
+  {
+    "ppi_name": "Minimum time for 'Request Payment' across different case amounts",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:amount'",
+    "ppi_json": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "minimum",
+      "group_by": "case:amount"
+    }
+  },
+  {
+    "ppi_name": "Average time for 'Request Payment' across different organizational resources",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:resource'",
+    "ppi_json": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:resource"
+    }
+  },
+  {
+    "ppi_name": "Minimum time for 'Request Payment' across different case amounts",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:amount'",
+    "ppi_json": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "minimum",
+      "group_by": "case:amount"
+    }
+  },
+  {
+    "ppi_name": "Average time for 'Request Payment' across different organizational resources",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:resource'",
+    "ppi_json": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:resource"
+    }
+  },
+  {
+    "ppi_name": "Minimum time for 'Request Payment' across different case amounts",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:amount'",
+    "ppi_json": {
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "minimum",
+      "group_by": "case:amount"
+    }
+  }
+]
+- Log Activities: Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled, Request Payment, Declaration APPROVED by ADMINISTRATION, Declaration APPROVED by BUDGET OWNER, Declaration REJECTED by EMPLOYEE, Declaration REJECTED by ADMINISTRATION, Declaration APPROVED by PRE_APPROVER, Declaration REJECTED by SUPERVISOR, Declaration SAVED by EMPLOYEE, Declaration REJECTED by MISSING, Declaration REJECTED by PRE_APPROVER, Declaration REJECTED by BUDGET OWNER, Declaration FOR_APPROVAL by SUPERVISOR, Declaration FOR_APPROVAL by PRE_APPROVER, Declaration FOR_APPROVAL by ADMINISTRATION
+- Log Attributes: No attributes provided
+
+## Your Task:
+Analyze the provided JSON and errors, then generate a corrected JSON that will execute successfully. 
+
+**CRITICAL REQUIREMENTS:**
+- Only use activity names that exist in the log: Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled, Request Payment, Declaration APPROVED by ADMINISTRATION, Declaration APPROVED by BUDGET OWNER, Declaration REJECTED by EMPLOYEE, Declaration REJECTED by ADMINISTRATION, Declaration APPROVED by PRE_APPROVER, Declaration REJECTED by SUPERVISOR, Declaration SAVED by EMPLOYEE, Declaration REJECTED by MISSING, Declaration REJECTED by PRE_APPROVER, Declaration REJECTED by BUDGET OWNER, Declaration FOR_APPROVAL by SUPERVISOR, Declaration FOR_APPROVAL by PRE_APPROVER, Declaration FOR_APPROVAL by ADMINISTRATION
+- Only use attribute names that exist in the log: No attributes provided
+- PRESERVE the original PPI JSON structures as much as possible - only fix syntax and validation errors
+- Do NOT change the logic or intent of each PPI, only fix technical errors
+- Each PPI should maintain its unique structure and purpose
+
+Focus on:
+
+1. **Syntax Issues**: Fix any JSON formatting problems, missing quotes, brackets, or commas
+2. **Field Validation**: Ensure all required fields are present and correctly formatted
+3. **Activity Names**: Verify activity names match those available in the log
+4. **Attribute Names**: Ensure attribute references are valid
+5. **Logical Expressions**: Fix filter conditions and metric expressions
+6. **Data Types**: Ensure values have correct data types (strings, numbers, booleans)
+
+## Common Error Patterns to Fix:
+- Missing or incorrect quotes around strings
+- Invalid activity names that don't exist in the log (use only activities from: Declaration SUBMITTED by EMPLOYEE, Declaration FINAL_APPROVED by SUPERVISOR, Payment Handled, Request Payment, Declaration APPROVED by ADMINISTRATION, Declaration APPROVED by BUDGET OWNER, Declaration REJECTED by EMPLOYEE, Declaration REJECTED by ADMINISTRATION, Declaration APPROVED by PRE_APPROVER, Declaration REJECTED by SUPERVISOR, Declaration SAVED by EMPLOYEE, Declaration REJECTED by MISSING, Declaration REJECTED by PRE_APPROVER, Declaration REJECTED by BUDGET OWNER, Declaration FOR_APPROVAL by SUPERVISOR, Declaration FOR_APPROVAL by PRE_APPROVER, Declaration FOR_APPROVAL by ADMINISTRATION)
+- Malformed filter expressions
+- Incorrect aggregation functions (use: average, total, minimum, maximum)
+- Missing required fields like "count", "begin", "end"
+- Invalid metric_condition expressions
+- Incorrect group_by or filter syntax
+- Invalid attribute names (use only attributes from: No attributes provided)
+- Empty begin/end fields should have proper activity references or be removed
+- Escaped quotes (\\) should be removed
+- Non-existent columns like 'quickest_approval_variant', 'case:org:resource', 'case:outcome'
+
+## Output Format:
+Return ONLY the corrected JSON array in the exact same structure as the input, with all errors fixed. Do not include any explanations, markdown formatting, or additional text.
+
+**CRITICAL REQUIREMENTS:**
+- Start your response immediately with the opening bracket `[`
+- End your response with the closing bracket `]`
+- Use proper JSON formatting with double quotes for all strings
+- Do not include any text before or after the JSON
+- Do not wrap the JSON in markdown code blocks
+- Remove parameter line from the JSON if no valid column exists, for example with the error: KeyError: 'Column not found: case:resource', you can simply remove the line
+
+
+I give you an example, with:
+
+ {{
+    "ppi_name": "Average time for 'Request Payment' across different organizational resources",
+    "error_type": "metric_computation",
+    "error_message": "'Column not found: case:resource'",
+    "ppi_json": {{
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "average",
+      "group_by": "case:resource"
+    }}
+ }},
+
+ I want the jso to remove the error line so to became:
+  {{
+    "ppi_name": "Average time for 'Request Payment' across different organizational resources",
+    "ppi_json": {{
+      "begin": "activity == 'Request Payment'",
+      "end": "",
+      "aggregation": "average",
+    }}
+ }},
+
+
+
+Example structure for PPIs refering to time:
+[
+    {{
+        "PPIname": "[write the PPI name]",
+        "PPIjson": {{
+            "begin": "[write the begin field]",
+            "end": "[write the end field]",
+            "aggregation": "[write the aggregation field]",
+            "filter": "[write the filter field]",
+            "group_by": "[write the group_by field]",
+        }}
+    }}
+]
+
+
+Example structure for PPIs refering to occurency and percentage:
+[
+    {{
+        "PPIname": "Corrected PPI Name",
+        "PPIjson": {{
+            "count": "[write the count field]",
+            "metric_condition": "[write the metric_condition field]",
+            "aggregation": "[write the aggregation field]",
+            "filter": "[write the filter field]",
+            "group_by": "[write the group_by field]",
+        }}
+    }}
+]

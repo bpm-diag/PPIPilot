@@ -18,6 +18,20 @@ from datetime import timedelta
 import tempfile
 import os
 
+def format_time_duration(seconds):
+    """Convert seconds to human-readable time format"""
+    if seconds < 60:
+        return f"{seconds:.2f} seconds"
+    elif seconds < 3600:  # Less than 1 hour
+        minutes = seconds / 60
+        return f"{minutes:.2f} minutes"
+    elif seconds < 86400:  # Less than 1 day
+        hours = seconds / 3600
+        return f"{hours:.2f} hours"
+    else:  # 1 day or more
+        days = seconds / 86400
+        return f"{days:.2f} days"
+
 logger = logging.getLogger(__name__)
 
 
@@ -173,6 +187,14 @@ class PPINatJson:
 
     def _transform_condition(self, cond): 
         #st.write("Ha entrado en transform_condition")
+        
+        # Handle complex conditions with OR operators
+        if " or " in cond.lower():
+            # Replace 'activity' with the actual column name in the entire expression
+            transformed_cond = cond.replace("activity", f"`{self.activity_column}`")
+            return transformed_cond
+        
+        # Handle simple conditions
         left, op, right = self._separate_logical_expression(cond)
         #st.write("Left", left)
         #st.write("op", op)
@@ -224,15 +246,26 @@ class PPINatJson:
 
 def process_json(ppi, ppinat, verbose=False, time=None):
     result={}
+    error_info = None
+    
     if verbose:
         st.write(f"\n{ppi}")
 
     try:
         metric = ppinat.resolve(ppi["PPIjson"])
-
         result['metric'] = metric
-    except:
-        logger.exception(f"ERROR: processing metric {ppi['PPIjson']} ")
+    except Exception as e:
+        error_msg = f"ERROR: processing metric {ppi['PPIjson']} - {str(e)}"
+        logger.exception(error_msg)
+        error_info = {
+            'ppi_name': ppi.get('PPIname', 'Unknown'),
+            'ppi_json': ppi['PPIjson'],
+            'error_type': 'metric_resolution',
+            'error_message': str(e),
+            'full_error': error_msg
+        }
+        result['error'] = error_info
+        return result
 
     if verbose:        
         st.write(f"{metric}")
@@ -240,14 +273,19 @@ def process_json(ppi, ppinat, verbose=False, time=None):
             st.write(f"Time group: {time}")
 
     try:
-
-        compute_result =ppinat.compute(metric, time_grouper=time)
-
+        compute_result = ppinat.compute(metric, time_grouper=time)
         result['compute_result'] = compute_result
-
     except Exception as e:
-        logger.exception(f"ERROR: computing metric {ppi['PPIjson']}")
-        result = f"ERROR: computing metric {ppi['PPIjson']}"
+        error_msg = f"ERROR: computing metric {ppi['PPIjson']} - {str(e)}"
+        logger.exception(error_msg)
+        error_info = {
+            'ppi_name': ppi.get('PPIname', 'Unknown'),
+            'ppi_json': ppi['PPIjson'],
+            'error_type': 'metric_computation',
+            'error_message': str(e),
+            'full_error': error_msg
+        }
+        result['error'] = error_info
     
     return result
 
@@ -301,13 +339,25 @@ def calc_agrupation_time(dicc,agrupation,el=None):
                 aux.append(col_value)
                 if pd.isna(col_value):
                     col_value=timedelta(days=0)
-                agrupation.append(col_value.total_seconds())
+                    agrupation.append(col_value.total_seconds())
+                # Check if col_value is a large numeric value (likely nanoseconds)
+                elif isinstance(col_value, (int, float)) and col_value > 1e6:
+                    # Convert from nanoseconds to seconds
+                    agrupation.append(col_value / 1e9)
+                else:
+                    agrupation.append(col_value.total_seconds())
     else:
         for col_name, col_value in dicc.items():
             aux.append(col_value)
             if pd.isna(col_value):
                 col_value = timedelta(days=0)
-            agrupation.append(col_value.total_seconds())
+                agrupation.append(col_value.total_seconds())
+            # Check if col_value is a large numeric value (likely nanoseconds)
+            elif isinstance(col_value, (int, float)) and col_value > 1e6:
+                # Convert from nanoseconds to seconds
+                agrupation.append(col_value / 1e9)
+            else:
+                agrupation.append(col_value.total_seconds())
 
     return agrupation,aux
 
@@ -318,6 +368,7 @@ def exec_final_time(event_log, json_path, time_group=None):
 
     data=[]
     data_sin_error = []
+    errors_captured = []
 
     with open(json_path, "r") as ppis_file:
         ppis = json.load(ppis_file)
@@ -325,6 +376,12 @@ def exec_final_time(event_log, json_path, time_group=None):
     for ppi in ppis:
 
         metric_result = process_json(ppi, ppinat,time = time_group)
+        
+        # Check for errors first
+        if isinstance(metric_result, dict) and 'error' in metric_result:
+            errors_captured.append(metric_result['error'])
+            continue
+            
         if metric_result is not None:  # Verificar si se obtuvo un resultado
             row_added = False
             if  isinstance(metric_result, dict) and 'metric' in metric_result:
@@ -350,17 +407,25 @@ def exec_final_time(event_log, json_path, time_group=None):
                                 data, data_sin_error=actualizacion_segun_last_valid_value(data,data_sin_error, ppi['PPIname'], metric, el, ls_def, agrupation,aux )
                                 
                         else:
-                            
                             agrupation,aux_2 = calc_agrupation_time(metric_result['compute_result'], agrupation)
                             agrupation = list(agrupation)
                             data, data_sin_error=actualizacion_segun_last_valid_value(data,data_sin_error, ppi['PPIname'], metric, '', '', agrupation,aux_2 )
 
                     else:
-
                         agrupation = metric_result['compute_result'].to_json()
                         for col_name, col_value in metric_result['compute_result'].items():
-                                data = add_row_df_no_time(data, ppi['PPIname'], metric, f"{col_name}:{col_value}",agrupation)
-                                data_sin_error = add_row_df_no_time(data_sin_error, ppi['PPIname'], metric, f"{col_name}:{col_value}",agrupation)
+                                # Handle different types of values for proper time formatting
+                                if isinstance(col_value, timedelta):
+                                    seconds = col_value.total_seconds()
+                                    display_value = format_time_duration(seconds)
+                                elif isinstance(col_value, (int, float)) and col_value > 1e6:
+                                    # Large numeric value, likely nanoseconds - convert to seconds then format
+                                    seconds = col_value / 1e9
+                                    display_value = format_time_duration(seconds)
+                                else:
+                                    display_value = col_value
+                                data = add_row_df_no_time(data, ppi['PPIname'], metric, f"{col_name}:{display_value}",agrupation)
+                                data_sin_error = add_row_df_no_time(data_sin_error, ppi['PPIname'], metric, f"{col_name}:{display_value}",agrupation)
                                   
                             
                 else:
@@ -370,17 +435,45 @@ def exec_final_time(event_log, json_path, time_group=None):
                 agrupation =''
             if row_added==False: 
                 if not pd.isna(compute_result_value):
-                    data = add_row_df_no_time(data, ppi['PPIname'], metric, compute_result_value,agrupation)
-                    data_sin_error = add_row_df_no_time(data_sin_error, ppi['PPIname'], metric, compute_result_value,agrupation)
+                    # Handle timedelta objects - convert to human-readable time format
+                    if isinstance(compute_result_value, timedelta):
+                        seconds = compute_result_value.total_seconds()
+                        display_value = format_time_duration(seconds)
+                    # Handle other types of compute_result_value
+                    elif hasattr(compute_result_value, 'iloc') or hasattr(compute_result_value, '__iter__'):
+                        # If it's a pandas Series or iterable, get the first value
+                        try:
+                            if hasattr(compute_result_value, 'iloc'):
+                                actual_value = compute_result_value.iloc[0] if len(compute_result_value) > 0 else compute_result_value
+                            else:
+                                actual_value = next(iter(compute_result_value)) if compute_result_value else compute_result_value
+                            # If extracted value is also a timedelta, convert to human-readable format
+                            if isinstance(actual_value, timedelta):
+                                seconds = actual_value.total_seconds()
+                                display_value = format_time_duration(seconds)
+                            else:
+                                display_value = actual_value
+                        except:
+                            display_value = compute_result_value
+                    else:
+                        display_value = compute_result_value
+                    
+                    data = add_row_df_no_time(data, ppi['PPIname'], metric, display_value,agrupation)
+                    data_sin_error = add_row_df_no_time(data_sin_error, ppi['PPIname'], metric, display_value,agrupation)
                     
                 else:
                     data = add_row_df_no_time(data, ppi['PPIname'], metric, compute_result_value,agrupation)
     df = pd.DataFrame(data)
     df_sin_error = pd.DataFrame(data_sin_error)
+    
+    # Remove duplicates based on 'Metric' column, keeping the first occurrence
+    df = df.drop_duplicates(subset=['Metric'], keep='first')
+    df_sin_error = df_sin_error.drop_duplicates(subset=['Metric'], keep='first')
+    
     num_filas = df.shape[0]
     num_filas_sin_error =df_sin_error.shape[0]
 
-    return num_filas, df_sin_error, df, num_filas_sin_error
+    return num_filas, df_sin_error, df, num_filas_sin_error, errors_captured
 
 def exec_final_perc(event_log, json_path, time_group=None):
 
@@ -389,15 +482,20 @@ def exec_final_perc(event_log, json_path, time_group=None):
 
     data=[]
     data_sin_error = []
+    errors_captured = []
 
     with open(json_path, "r") as ppis_file:
         ppis = json.load(ppis_file)
 
     for ppi in ppis:
 
-
-
         metric_result = process_json(ppi, ppinat,time = time_group)
+        
+        # Check for errors first
+        if isinstance(metric_result, dict) and 'error' in metric_result:
+            errors_captured.append(metric_result['error'])
+            continue
+            
         #st.write("Metric_result", metric_result)
         if metric_result is not None:  # Verificar si se obtuvo un resultado
             row_added = False
@@ -482,20 +580,34 @@ def exec_final_perc(event_log, json_path, time_group=None):
                 
     df = pd.DataFrame(data)
     df_sin_error = pd.DataFrame(data_sin_error)
-
+    
+    # Remove duplicates based on 'Metric' column, keeping the first occurrence
+    df = df.drop_duplicates(subset=['Metric'], keep='first')
+    df_sin_error = df_sin_error.drop_duplicates(subset=['Metric'], keep='first')
+    
     num_filas = df.shape[0]
     num_filas_sin_error =df_sin_error.shape[0]
 
-    return num_filas, df_sin_error, df, num_filas_sin_error
+    return num_filas, df_sin_error, df, num_filas_sin_error, errors_captured
 
 def exec_final_both(event_log, json_path_time, json_path_occurrency, time_group=None):
-    num_filas, df_sin_error, df, num_filas_sin_error = exec_final_perc(event_log, json_path_occurrency, time_group)
-    num_filas2, df_sin_error2, df2, num_filas_sin_error2 = exec_final_time(event_log, json_path_time, time_group)
-    num_filas_total = num_filas + num_filas2
-    num_filas_sin_error_total = num_filas_sin_error+ num_filas_sin_error2
+    num_filas, df_sin_error, df, num_filas_sin_error, errors_perc = exec_final_perc(event_log, json_path_occurrency, time_group)
+    num_filas2, df_sin_error2, df2, num_filas_sin_error2, errors_time = exec_final_time(event_log, json_path_time, time_group)
+    
+    # Combine errors from both executions
+    errors_combined = errors_perc + errors_time
+    
     df_sin_error_def = pd.concat([df_sin_error, df_sin_error2], axis=0)
     df_def = pd.concat([df,df2], axis=0)
-    return num_filas_total, df_sin_error_def, df_def, num_filas_sin_error_total
+    
+    # Remove duplicates based on 'Metric' column after concatenation
+    df_sin_error_def = df_sin_error_def.drop_duplicates(subset=['Metric'], keep='first')
+    df_def = df_def.drop_duplicates(subset=['Metric'], keep='first')
+    
+    num_filas_total = df_def.shape[0]
+    num_filas_sin_error_total = df_sin_error_def.shape[0]
+    
+    return num_filas_total, df_sin_error_def, df_def, num_filas_sin_error_total, errors_combined
 
 def obtener_ultimo_no_none(lista):
     res = None
