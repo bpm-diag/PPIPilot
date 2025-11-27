@@ -21,8 +21,8 @@ import ppinatjson as pp
 # ============================================================================
 # ERROR CORRECTION CONFIGURATION - Easily modifiable parameters
 # ============================================================================
-MAX_LEVEL1_ITERATIONS = 2  # Maximum iterations for Level 1 (Re-translation)
-MAX_LEVEL2_ITERATIONS = 2  # Maximum iterations for Level 2 (Error correction)
+MAX_LEVEL1_ITERATIONS = 1  # Maximum iterations for Level 1 (Re-translation)
+# MAX_LEVEL2_ITERATIONS = 0  
 
 # DEBUG/TESTING FLAGS
 SAVE_PROMPTS_AND_RESPONSES = False  # Set to False to disable prompt/response logging
@@ -239,7 +239,7 @@ if st.session_state.file_uploaded:
                         xes_file, st.session_state.file_path, ppis, 
                         st.session_state.activities, st.session_state.attribute_array, st.session_state.client,
                         max_level1_iterations=MAX_LEVEL1_ITERATIONS,
-                        max_level2_iterations=MAX_LEVEL2_ITERATIONS
+                        # max_level2_iterations=MAX_LEVEL2_ITERATIONS
                     )
                     print(f"Completed after {iteration_count} iteration(s)")
                 elif ppis == "time":
@@ -247,7 +247,7 @@ if st.session_state.file_uploaded:
                         xes_file, st.session_state.file_path, ppis,
                         st.session_state.activities, st.session_state.attribute_array, st.session_state.client,
                         max_level1_iterations=MAX_LEVEL1_ITERATIONS,
-                        max_level2_iterations=MAX_LEVEL2_ITERATIONS
+                        # max_level2_iterations=MAX_LEVEL2_ITERATIONS
                     )
                     print(f"Completed after {iteration_count} iteration(s)")
                 else:  # both
@@ -257,7 +257,7 @@ if st.session_state.file_uploaded:
                         json_path_time=st.session_state.file_path_time,
                         json_path_occurrency=st.session_state.file_path_occurrency,
                         max_level1_iterations=MAX_LEVEL1_ITERATIONS,
-                        max_level2_iterations=MAX_LEVEL2_ITERATIONS
+                        # max_level2_iterations=MAX_LEVEL2_ITERATIONS
                     )
                     print(f"Completed after {iteration_count} iteration(s)")
                 

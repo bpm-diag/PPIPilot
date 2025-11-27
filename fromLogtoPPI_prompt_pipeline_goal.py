@@ -420,7 +420,7 @@ def exec(dataframe, acti, varianti, activities, category, description, goal, att
 
 def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, attributes, client, 
                                    json_path_time=None, json_path_occurrency=None, 
-                                   max_level1_iterations=2, max_level2_iterations=2):
+                                   max_level1_iterations=1):  #max_level2_iterations=0
     """
     Automatically corrects JSON errors with separate iteration limits for Level 1 and Level 2.
     
@@ -444,12 +444,12 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
     
     # Configuration parameters - easily modifiable
     MAX_LEVEL1_ITERATIONS = max_level1_iterations  # Level 1: Re-translation attempts
-    MAX_LEVEL2_ITERATIONS = max_level2_iterations  # Level 2: Error correction attempts
+    # MAX_LEVEL2_ITERATIONS = max_level2_iterations  # Level 2: 
     
     print(f"\n{'='*70}")
     print(f"ERROR CORRECTION CONFIGURATION:")
     print(f"  - Level 1 (Re-translation) max iterations: {MAX_LEVEL1_ITERATIONS}")
-    print(f"  - Level 2 (Error correction) max iterations: {MAX_LEVEL2_ITERATIONS}")
+    # print(f"  - Level 2 (Error correction) max iterations: {MAX_LEVEL2_ITERATIONS}")
     print(f"{'='*70}\n")
     
     current_json_path = json_path
@@ -604,6 +604,7 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
     
     print(f"⚠️ Still have {len(errors_captured)} errors after Level 1. Proceeding to Level 2...")
     
+    '''
     # Phase 2: Level 2 iterations (Error correction)
     level2_iteration = 0
     while level2_iteration < MAX_LEVEL2_ITERATIONS:
@@ -707,7 +708,9 @@ def auto_correct_errors_with_retry(xes_file, json_path, ppis_type, activities, a
     print(f"\n{'='*60}")
     print(f"Level 2 completed after {MAX_LEVEL2_ITERATIONS} iterations")
     print(f"{'='*60}\n")
-    
+    '''
+
+
     if ppis_type == "occurrency":
         batch_size, df_sin_error, df, batch_size_sin_error, errors_captured = pp.exec_final_perc(xes_file, current_json_path)
     elif ppis_type == "time":
