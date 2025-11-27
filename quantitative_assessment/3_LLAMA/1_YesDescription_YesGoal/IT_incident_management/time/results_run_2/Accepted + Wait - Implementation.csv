@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,the maximum of the duration between the first time instant when `ACTIVITY` == 'Accepted + Wait - Implementation' and the last time instant when <ppinot4py.model.states.RuntimeState object at 0x0000024B73620C90> - AppliesTo.PROCESS filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Queued + Awaiting Assignment',470 days 11:44:00,

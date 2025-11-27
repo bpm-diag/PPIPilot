@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': 'activity == Plagiarism Originality Report Completed', 'aggregation': 'total', 'filter': 'performer == SYSTEM && activity == Original Manuscript Submission Confirmation'}",,

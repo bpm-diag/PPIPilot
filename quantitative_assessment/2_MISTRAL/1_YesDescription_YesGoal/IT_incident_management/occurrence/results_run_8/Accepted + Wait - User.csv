@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,the average of the function base != 1 where base is the number of times `ACTIVITY` == 'Accepted + Wait - User' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` != 'Accepted + Wait - User',0.77,

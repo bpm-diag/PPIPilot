@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'begin': ""activity == 'SW-Awaiting AE Assignment'"", 'end': ""activity == 'SW-Reviewer Agreed'"", 'aggregation': 'average', 'filter': ""concept:name == 'SW-EIC Reject'"", 'group_by': 'concept:name'}",,

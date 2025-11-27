@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,the average of the number of times `ACTIVITY` == 'Queued + Awaiting Assignment' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Accepted + Assigned',3.09,

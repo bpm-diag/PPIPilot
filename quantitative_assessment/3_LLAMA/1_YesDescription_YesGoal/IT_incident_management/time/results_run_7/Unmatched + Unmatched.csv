@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'begin': 'value.get(begin)', 'end': 'value.get(end)', 'aggregation': 'value.get(aggregation)', 'metric_condition': 'value.get(metric_condition)', 'filter': 'value.get(filter)', 'group_by': 'value.get(group_by)'}",,

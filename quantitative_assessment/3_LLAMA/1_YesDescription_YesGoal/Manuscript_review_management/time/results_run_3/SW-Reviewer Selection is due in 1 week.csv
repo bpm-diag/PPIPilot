@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'begin': ""activity == 'SW-Awaiting Checklist Completion'"", 'end': ""activity == 'SW-Reviewer Selection is due in 1 week'"", 'aggregation': 'total', 'group_by': 'concept:name'}",,

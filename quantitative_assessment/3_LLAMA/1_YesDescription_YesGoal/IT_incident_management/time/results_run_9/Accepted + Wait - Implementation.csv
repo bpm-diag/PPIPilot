@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'begin': ""activity == 'Accepted + Wait - Implementation'"", 'end': ""activity == 'Completed + In Call'"", 'filter': ""activity == 'Queued + Awaiting Assignment'""}",,

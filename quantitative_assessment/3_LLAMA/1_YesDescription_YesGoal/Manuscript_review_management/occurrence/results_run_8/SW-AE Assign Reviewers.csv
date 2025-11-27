@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': ""activity == 'SW-AE Assign Reviewers'"", 'aggregation': 'total', 'filter': ""activity == 'SW-Reviewer Invitation' AND concept:name == 'SW-AE Assign Reviewers'""}",,

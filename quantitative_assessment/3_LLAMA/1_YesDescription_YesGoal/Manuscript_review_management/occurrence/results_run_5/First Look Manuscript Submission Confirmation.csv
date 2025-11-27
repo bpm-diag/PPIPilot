@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': 'activity == First Look Manuscript Submission Confirmation', 'aggregation': 'average', 'filter': 'activity == SW-EIC Major Revision', 'group_by': 'month'}",,

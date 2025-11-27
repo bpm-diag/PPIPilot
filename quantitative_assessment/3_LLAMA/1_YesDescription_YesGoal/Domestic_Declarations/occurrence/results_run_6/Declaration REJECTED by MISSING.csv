@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': 'activity == Declaration REJECTED by MISSING', 'aggregation': 'total', 'filter': 'preceding_activity == Declaration APPROVED by ADMINISTRATION'}",,

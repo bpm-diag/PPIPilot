@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,the average of the number of times `ACTIVITY` == 'SW-EIC Accept' filtered by the function ma == 'Paper type' where ma is the last value of code,,

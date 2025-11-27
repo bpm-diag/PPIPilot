@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'begin': '', 'end': ""activity == 'SW-Reviewer Agreed'"", 'aggregation': 'total', 'filter': ""activity == 'SW-EIC Reject & Resubmit'""}",,

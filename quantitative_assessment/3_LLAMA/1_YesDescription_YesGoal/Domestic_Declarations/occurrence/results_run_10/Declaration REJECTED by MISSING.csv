@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': 'activity == Declaration REJECTED by MISSING', 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'year == 2017 and activity == Declaration SUBMITTED by EMPLOYEE'}",,

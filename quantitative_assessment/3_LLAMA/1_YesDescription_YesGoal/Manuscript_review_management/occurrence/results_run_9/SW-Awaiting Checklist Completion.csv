@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': ""activity == 'SW-Awaiting Checklist Completion'"", 'aggregation': 'total', 'group_by': 'month'}",,

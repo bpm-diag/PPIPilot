@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': 'activity == First Look Manuscript Submission Confirmation', 'filter': 'case:status == success', 'aggregation': 'total'}",,

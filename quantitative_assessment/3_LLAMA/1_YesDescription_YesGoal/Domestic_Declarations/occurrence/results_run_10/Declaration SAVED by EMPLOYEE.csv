@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': '[activity name]', 'metric_condition': '[metric condition]', 'aggregation': '[aggregation function]', 'filter': '[filter condition]', 'group_by': '[group by condition]'}",,

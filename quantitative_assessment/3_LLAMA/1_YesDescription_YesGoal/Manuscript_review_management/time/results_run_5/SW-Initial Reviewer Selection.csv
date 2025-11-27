@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'begin': ""activity == 'SW-Initial Reviewer Selection'"", 'filter': ""activity == 'Original Manuscript Submission Confirmation' || activity == 'Revised Manuscript Submission Confirmation' || activity == 'SW-Reviewer Agreed'"", 'aggregation': 'total', 'group_by': 'activity'}",,

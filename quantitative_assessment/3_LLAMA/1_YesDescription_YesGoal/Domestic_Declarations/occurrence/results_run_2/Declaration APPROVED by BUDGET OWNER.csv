@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': 'activity == Declaration APPROVED by BUDGET OWNER', 'aggregation': 'average', 'filter': 'activity == Declaration FINAL_APPROVED by SUPERVISOR', 'group_by': 'month'}",,

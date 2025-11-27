@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': 'activity == Plagiarism Originality Report Completed', 'aggregation': 'average', 'group_by': 'month', 'filter': 'activity == RW-Reviewer Selection is due in 1 week'}",,

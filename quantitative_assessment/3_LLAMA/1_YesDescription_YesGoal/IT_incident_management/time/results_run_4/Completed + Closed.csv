@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,the average of the function base > 0 where base is the duration between the first time instant when `ACTIVITY` == 'Completed + Resolved' and the last time instant when `ACTIVITY` == 'Completed + Closed',0.7378872120730738,

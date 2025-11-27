@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'begin': ""factivity == '{parts[0].strip()}'"", 'end': ""factivity == '{parts[1].strip()}'"", 'aggregation': 'average'}",,

@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'begin': ""activity == 'Declaration FINAL_APPROVED by SUPERVISOR'"", 'end': '', 'aggregation': 'total', 'group_by': 'concept:name'}",,

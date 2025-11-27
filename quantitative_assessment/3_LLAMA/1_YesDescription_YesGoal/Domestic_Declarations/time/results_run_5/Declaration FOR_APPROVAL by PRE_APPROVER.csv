@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,the sum of the duration between the first time instant when <ppinot4py.model.states.RuntimeState object at 0x00000207C2B3A890> - AppliesTo.PROCESS and the last time instant when <ppinot4py.model.states.RuntimeState object at 0x00000207C2B3A8D0> - AppliesTo.PROCESS,"121020 days, 1:56:20",

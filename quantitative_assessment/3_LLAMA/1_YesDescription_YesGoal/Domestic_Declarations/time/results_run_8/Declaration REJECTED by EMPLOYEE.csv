@@ -1,3 +1,0 @@
-Name,Metric,Value,Agrupation
-,ERROR: computing metric {},,
-ppi,"ERROR: computing metric {'begin': ""factivity == '{begin}'"", 'end': ""factivity == '{end}' if end else "", 'aggregation': 'aggregation', 'filter': 'filter_', 'group_by': 'group_by'}",,

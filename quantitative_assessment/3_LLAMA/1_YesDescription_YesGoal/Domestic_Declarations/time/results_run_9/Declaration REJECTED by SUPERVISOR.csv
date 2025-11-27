@@ -1,6 +1,0 @@
-Name,Metric,Value,Agrupation
-,ERROR: computing metric {},,
-1) Average time between 'Declaration REJECTED by SUPERVISOR' and 'Declaration REJECTED by EMPLOYEE',The average of the duration between activity 'Declaration REJECTED by SUPERVISOR' and activity 'Declaration REJECTED by EMPLOYEE',5 days 06:45:06.858696,
-5) Time between the 'Declaration REJECTED by SUPERVISOR' and the 'Declaration FINAL_APPROVED by SUPERVISOR',The average of the duration between activity 'Declaration REJECTED by SUPERVISOR' and activity 'Declaration FINAL_APPROVED by SUPERVISOR',10 days 06:19:45.681373,
-8) Minimun time for 'Declaration REJECTED by SUPERVISOR',The minimum of the duration between activity Declaration REJECTED by SUPERVISOR and the end of the case,0 days 00:00:00,
-26) Total time for 'Declaration REJECTED by SUPERVISOR',The sum of the duration between activity Declaration REJECTED by SUPERVISOR and the end of the case,4186 days 08:24:43,

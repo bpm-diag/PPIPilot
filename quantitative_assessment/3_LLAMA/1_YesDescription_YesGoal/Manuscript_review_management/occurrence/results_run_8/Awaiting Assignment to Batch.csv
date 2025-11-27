@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': 'activity == Awaiting Assignment to Batch', 'aggregation': 'total', 'filter': 'activity == First Look Manuscript Submission Confirmation'}",,

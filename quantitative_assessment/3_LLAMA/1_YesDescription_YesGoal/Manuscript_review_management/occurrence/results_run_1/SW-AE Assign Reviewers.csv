@@ -1,2 +1,0 @@
-Name,Metric,Value,Agrupation
-,"ERROR: computing metric {'count': 'activity == SW-AE Assign Reviewers', 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'activity == AW-Awaiting AE Assignment'}",,

@@ -1,8 +1,0 @@
-Name,Metric,Value,Agrupation
-,ERROR: computing metric {},,
-Percentage of 'SW-Awaiting EIC Decision' that are preceded by 'SW-Reviewer Agreed',Percentage of 'SW-Awaiting EIC Decision' out of all cases,0.63,
-Number of 'SW-Awaiting EIC Decision' that are followed by 'SW-Reviewer Agreed',Number of 'SW-Reviewer Agreed' activities,110.0,
-Percentage of 'SW-Awaiting EIC Decision' with 'SW-EIC Major Revision',Percentage of 'SW-Awaiting EIC Decision' out of all cases,0.63,
-Percentage of 'SW-Awaiting EIC Decision' that are not followed by 'SW-EIC Reject',Percentage of 'SW-Awaiting EIC Decision' out of all cases,0.63,
-Frequency of 'SW-Awaiting EIC Decision' compared to 'SW-Awaiting AE Assignment',the average of the number of times `ACTIVITY` == 'SW-Awaiting EIC Decision' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment',0.61,
-Percentage of 'SW-Reviewer Agreed' that leads to 'SW-Awaiting EIC Decision',Percentage of 'SW-Reviewer Agreed' out of all cases,0.49,
