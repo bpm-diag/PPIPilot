@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Checklist Completed' before 'SW-Awaiting AE Assignment';Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-Awaiting AE Assignment' occurs;57;
+Percentage of manuscripts with 'SW-Checklist Completed' that lead to 'SW-EIC Reject';Percentage of 'SW-Checklist Completed' out of all 'SW-EIC Reject';0.97;
+Frequency of 'SW-Checklist Completed' in manuscripts that require major revision compared to those that don't;Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-EIC Major Revision' occurs;14;
+Number of 'SW-Checklist Completed' activities followed by 'SW-Reviewer Agreed';Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-Reviewer Agreed' occurs;44;
+Percentage of 'SW-Checklist Completed' activities out of all checklist-related activities;Percentage of 'SW-Checklist Completed' out of all 'SW-Checklist Completed';1.0;
+Frequency of 'SW-Checklist Completed' in manuscripts that successfully pass the review process;Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-EIC Accept' occurs;3;
+Percentage of 'SW-Checklist Completed' followed by any reviewer assignment activity;Percentage of 'SW-Checklist Completed' out of all 'SW-AE Assign Reviewers';0.96;
+Number of 'SW-Checklist Completed' per manuscript;Frequency of activity '{}' grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":1,""DRSW4"":0,""DRW3"":1,""DSW3"":21,""DSW4"":32,""MSC4"":21,""RJR3"":1,""SW1"":1,""SW12"":2,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of 'SW-Checklist Completed' in manuscripts that exceed the plagiarism threshold;Percentage of 'SW-Checklist Completed' out of all 'Plagiarism Percent Match Threshold Exceeded';0.91;
+Frequency of 'SW-Checklist Completed' followed by 'Manuscript Export Succeeded';Frequency of activity 'SW-Checklist Completed' for cases where activity 'Manuscript Export Succeeded' occurs;82;
+Percentage of 'SW-Checklist Completed' activities that occur after 'Plagiarism Originality Report Completed';Percentage of 'SW-Checklist Completed' out of all 'Plagiarism Originality Report Completed';0.91;
+Number of 'SW-Checklist Completed' in relation to 'Original Manuscript Submission Confirmation';Frequency of activity 'SW-Checklist Completed' for cases where activity 'Original Manuscript Submission Confirmation' occurs;82;
+Percentage of 'SW-Checklist Completed' in manuscripts that undergo minor revision;Percentage of 'SW-Checklist Completed' out of all 'SW-EIC Minor Revision';1.0;
+Frequency of 'SW-Checklist Completed' before 'SW-AE Assign Reviewers';Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-AE Assign Reviewers' occurs;44;
+Percentage of 'SW-Checklist Completed' in the most frequent process variant;Percentage of 'SW-Checklist Completed' out of all 'SW-Checklist Completed';1.0;
+Number of 'SW-Checklist Completed' activities in manuscripts that are eventually accepted;Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-EIC Accept' occurs;3;
+Percentage of 'SW-Checklist Completed' followed by 'SW-Awaiting EIC Decision';Percentage of 'SW-Checklist Completed' out of all 'SW-Awaiting EIC Decision';0.97;
+Frequency of 'SW-Checklist Completed' in manuscripts that are withdrawn or unsubmitted;Frequency of activity 'SW-Checklist Completed' for cases where activity 'Manuscript is Withdrawn' occurs;1;
+Percentage of 'SW-Checklist Completed' in relation to all activities performed in the review process;Percentage of 'SW-Checklist Completed' out of all 'SW-Checklist Completed';1.0;

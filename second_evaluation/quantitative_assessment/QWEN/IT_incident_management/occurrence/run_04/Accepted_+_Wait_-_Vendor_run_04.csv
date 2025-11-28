@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Vendor' out of all activity executions in the event log;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' occurrences across all cases;Number of 'Accepted + Wait - Vendor' activities;299.0;
+Percentage of process variants that include 'Accepted + Wait - Vendor';Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' followed by 'Completed + Resolved';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + Resolved' occurs;299.0;
+Percentage of 'Accepted + Wait - Vendor' that occur after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Vendor' out of all 'Queued + Awaiting Assignment';0.04;
+Frequency of 'Accepted + Wait - Vendor' in variants that eventually lead to 'Completed + Closed';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + Closed' occurs;294.0;
+Percentage of 'Accepted + Wait - Vendor' relative to the frequency of 'Accepted + Wait - User';Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait - User';0.04;
+Frequency of 'Accepted + Wait - Vendor' compared to 'Accepted + Wait - Implementation';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Accepted + Wait - Implementation' occurs;32.0;
+Percentage of cases containing 'Accepted + Wait - Vendor' that do not contain 'Completed + In Call';Percentage of 'Accepted + Wait - Vendor' out of all cases where 'Completed + In Call' does not happen;0.03;
+Frequency of 'Accepted + Wait - Vendor' in high-duration variants (performance > 1,000,000);Number of 'Accepted + Wait - Vendor' activities;299.0;
+Percentage of 'Accepted + Wait - Vendor' occurrences that are directly preceded by 'Accepted + In Progress';Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + In Progress';0.03;
+Percentage of variants where 'Accepted + Wait - Vendor' appears only once;the average of the function base == 1 where base is the number of times `ACTIVITY` == 'Accepted + Wait - Vendor';0.03;
+Frequency of transitions from 'Accepted + Wait - Vendor' to 'Completed + Resolved' versus transitions from 'Accepted + Wait - User' to 'Completed + Resolved';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + Resolved' occurs;299.0;
+Percentage of total waiting-related activities ('Accepted + Wait - Vendor', 'Accepted + Wait - User', 'Accepted + Wait - Implementation', 'Accepted + Wait') accounted for by 'Accepted + Wait - Vendor';Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' in variants that do not include any re-queuing (i.e., no repeated 'Queued + Awaiting Assignment');Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Queued + Awaiting Assignment' does not occur;299.0;
+Percentage of 'Accepted + Wait - Vendor' events occurring in the first half of their respective case lifecycles;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' in cases that never execute 'Completed + In Call';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + In Call' does not occur;299.0;
+Ratio of variants containing 'Accepted + Wait - Vendor' to variants containing 'Completed + In Call';Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + In Call';0.0;
+Percentage of 'Accepted + Wait - Vendor' that appear in the most frequent 10% of all variants;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' in cases originating from the USA, Brazil, and France;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Vendor'"", 'aggregation': 'total', 'filter': ""organization country in ['USA', 'Brazil', 'France']""}""";;

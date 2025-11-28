@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Plagiarism Originality Report Completed that are followed by SW-Checklist Completed;Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-Checklist Completed';0.99;
+Percentage of Plagiarism Originality Report Completed that are followed by Plagiarism Percent Match Threshold Exceeded;Percentage of 'Plagiarism Originality Report Completed' out of all 'Plagiarism Percent Match Threshold Exceeded';1.0;
+Number of Plagiarism Originality Report Completed per case;Number of 'Plagiarism Originality Report Completed' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":1,""DRSW4"":2,""DRW3"":1,""DSW3"":22,""DSW4"":33,""MSC4"":23,""RJR3"":2,""SW1"":1,""SW12"":2,""SYS1"":1,""SYS11"":2,""SYS2"":0,""SYS5"":1}"
+Percentage of cases where Plagiarism Originality Report Completed occurs before SW-Awaiting AE Assignment;Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-Awaiting AE Assignment';0.98;
+Percentage of Plagiarism Originality Report Completed that occur in variants with immediate SW-EIC Reject;Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-EIC Reject';0.97;
+Percentage of Plagiarism Originality Report Completed that occur in variants with multiple revision cycles;Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-EIC Major Revision';0.93;
+Frequency of Plagiarism Originality Report Completed compared to SW-Checklist Completed;Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-Checklist Completed';0.99;
+Percentage of Plagiarism Originality Report Completed that lead to manuscript rejection;Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-EIC Reject';0.97;
+Percentage of Plagiarism Originality Report Completed that occur after Manuscript Export Succeeded;Percentage of 'Plagiarism Originality Report Completed' out of all 'Manuscript Export Succeeded';0.97;
+Number of Plagiarism Originality Report Completed relative to Original Manuscript Submission Confirmation;Percentage of 'Plagiarism Originality Report Completed' out of all 'Original Manuscript Submission Confirmation';0.98;
+Percentage of Plagiarism Originality Report Completed that are preceded by Manuscript Export Succeeded;Percentage of 'Plagiarism Originality Report Completed' out of all 'Manuscript Export Succeeded';0.97;
+Percentage of Plagiarism Originality Report Completed in variants with Co-Author Account Created During Manuscript Submission;Percentage of 'Plagiarism Originality Report Completed' out of all 'Co-Author Account Created During Manuscript Submission';0.96;
+Frequency of Plagiarism Originality Report Completed compared to Plagiarism Percent Match Threshold Exceeded;Percentage of 'Plagiarism Originality Report Completed' out of all 'Plagiarism Percent Match Threshold Exceeded';1.0;
+Percentage of Plagiarism Originality Report Completed that occur before SW-Initial Reviewer Selection;Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-Initial Reviewer Selection';0.97;
+Percentage of Plagiarism Originality Report Completed in successful publication variants;Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-EIC Accept';0.67;
+Percentage of Plagiarism Originality Report Completed that are followed by SW-Checklist Completion is due in three days;Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-Checklist Completion is due in three days';0.97;
+Percentage of cases where Plagiarism Originality Report Completed is the final quality check before reviewer assignment;Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-Initial Reviewer Selection';0.97;
+Frequency of Plagiarism Originality Report Completed in first-look manuscript submissions;Percentage of 'Plagiarism Originality Report Completed' out of all 'First Look Manuscript Submission Confirmation';0.92;
+Percentage of Plagiarism Originality Report Completed that trigger additional plagiarism checks;Percentage of 'Plagiarism Originality Report Completed' out of all 'Plagiarism Percent Match Threshold Exceeded';1.0;
+Number of Plagiarism Originality Report Completed per month;Number of 'Plagiarism Originality Report Completed' activities;92;

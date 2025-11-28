@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of Original Manuscript Submission Confirmation leading to Manuscript Export Succeeded;Frequency of activity 'Original Manuscript Submission Confirmation' for cases where activity 'Manuscript Export Succeeded' occurs;86.0;
+Percentage of Original Manuscript Submission Confirmation out of all activities;Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.92;
+Number of Original Manuscript Submission Confirmation followed by SW-Awaiting Checklist Completion;Frequency of activity 'Original Manuscript Submission Confirmation' for cases where activity 'SW-Awaiting Checklist Completion' occurs;85.0;
+Percentage of Original Manuscript Submission Confirmation that lead to a SW-EIC Reject decision;Percentage of 'Original Manuscript Submission Confirmation' out of all 'SW-EIC Reject';0.97;
+Frequency of Original Manuscript Submission Confirmation in relation to SW-Reviewer Agreed;Frequency of activity 'Original Manuscript Submission Confirmation' for cases where activity 'SW-Reviewer Agreed' occurs;44.0;
+Percentage of processes starting with Original Manuscript Submission Confirmation that reach SW-Awaiting EIC Decision;Percentage of 'Original Manuscript Submission Confirmation' out of all 'SW-Awaiting EIC Decision';0.97;
+Percentage of Original Manuscript Submission Confirmation followed by Plagiarism Originality Report Completed;Percentage of 'Original Manuscript Submission Confirmation' out of all 'Plagiarism Originality Report Completed';0.94;
+Frequency of Original Manuscript Submission Confirmation leading to Revised Manuscript Submission Confirmation;Frequency of activity 'Original Manuscript Submission Confirmation' for cases where activity 'Revised Manuscript Submission Confirmation' occurs;21.0;
+Percentage of Original Manuscript Submission Confirmation in processes that require major revision (SW-EIC Major Revision);Percentage of 'Original Manuscript Submission Confirmation' out of all 'SW-EIC Major Revision';0.93;
+Number of Original Manuscript Submission Confirmation followed by Co-Author Account Created During Manuscript Submission;Frequency of activity 'Original Manuscript Submission Confirmation' for cases where activity 'Co-Author Account Created During Manuscript Submission' occurs;50.0;
+Percentage of Original Manuscript Submission Confirmation in variants leading to manuscript acceptance (RW-EIC Accept);Percentage of 'Original Manuscript Submission Confirmation' out of all 'RW-EIC Accept';0.86;
+Frequency of Original Manuscript Submission Confirmation in the most common process variant;Frequency of activity 'Original Manuscript Submission Confirmation';86.0;
+Percentage of Original Manuscript Submission Confirmation that are part of processes ending in SW-Reviewer Agreed without subsequent SW-Reviewer Declined;Percentage of 'Original Manuscript Submission Confirmation' out of all 'SW-Reviewer Agreed';0.96;
+Number of Original Manuscript Submission Confirmation followed directly by SW-AE Assign Reviewers;Frequency of activity 'Original Manuscript Submission Confirmation' for cases where activity 'SW-AE Assign Reviewers' occurs;44.0;
+Number of Original Manuscript Submission Confirmation activities per year;Number of 'Original Manuscript Submission Confirmation' activities;91.0;

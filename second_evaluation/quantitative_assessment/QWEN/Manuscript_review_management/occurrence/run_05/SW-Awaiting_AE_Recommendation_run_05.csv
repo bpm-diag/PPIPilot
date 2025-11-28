@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Recommendation in the entire event log;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Frequency of SW-Awaiting AE Recommendation occurrences across all cases;Number of 'SW-Awaiting AE Recommendation' activities;37.0;
+Percentage of variants that include SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Number of times SW-Awaiting AE Recommendation is directly preceded by SW-Reviewer Agreed;Number of 'SW-Awaiting AE Recommendation' activities;37.0;
+Percentage of SW-Awaiting AE Recommendation that is followed by SW-Awaiting EIC Decision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Awaiting EIC Decision';0.59;
+Frequency of SW-Awaiting AE Recommendation relative to SW-Reviewer Agreed;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer Agreed' occurs;25.0;
+Number of variants where SW-Reviewer Agreed leads to SW-Awaiting AE Recommendation;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer Agreed' occurs;25.0;
+Percentage of cases containing SW-Reviewer Agreed that eventually reach SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Percentage of SW-Awaiting AE Recommendation occurrences that occur after at least one SW-Reviewer Agreed and before any editorial decision (e.g., SW-EIC Accept, SW-EIC Reject, SW-EIC Major Revision);Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Number of times SW-Awaiting AE Recommendation appears in long-running variants (performance > 1,000,000 seconds);Number of 'SW-Awaiting AE Recommendation' activities;37.0;
+Percentage of SW-Awaiting AE Recommendation events that are part of revision cycles involving RW-Initial Reviewer Selection;Percentage of 'SW-Awaiting AE Recommendation' out of all 'RW-Initial Reviewer Selection';0.42;
+Ratio of SW-Awaiting AE Recommendation to SW-Reviewer No Response in the same case trajectory;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer No Response' occurs;4.0;
+Percentage of SW-Awaiting AE Recommendation out of all AE-related waiting states (e.g., SW-Awaiting AE Assignment, SW-AE Recommendation overdue);"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-Awaiting AE Recommendation', 'SW-Awaiting AE Assignment', 'SW-AE Recommendation overdue']""}""";;
+Frequency of SW-Awaiting AE Recommendation compared to other post-reviewer-agreement activities such as SW-Awaiting EIC Decision or SW-EIC Reject;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'aggregation': 'total', 'filter': ""activity in ['SW-Awaiting AE Recommendation', 'SW-Awaiting EIC Decision', 'SW-EIC Reject']""}""";;
+Frequency of SW-Awaiting AE Recommendation in cases that ultimately result in acceptance (e.g., ending with RW-EIC Accept or SW-EIC Accept);"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'aggregation': 'total', 'filter': ""activity in ['SW-Awaiting AE Recommendation', 'RW-EIC Accept', 'SW-EIC Accept']""}""";;

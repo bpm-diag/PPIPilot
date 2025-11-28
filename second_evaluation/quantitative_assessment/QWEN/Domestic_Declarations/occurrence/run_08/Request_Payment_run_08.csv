@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of Request Payment following Declaration FINAL_APPROVED by SUPERVISOR without intermediate rejections;Percentage of 'Request Payment' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Percentage of Request Payment out of all occurrences of Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Request Payment' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Number of Request Payment activities that are preceded by Declaration APPROVED by PRE_APPROVER and not followed by any rejection;Number of 'Request Payment' activities for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;660.0;
+Percentage of Request Payment in variants that do not contain Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Frequency of Request Payment in the top three most common process variants;Percentage of 'Request Payment' out of all cases;0.96;
+Percentage of Request Payment with case:Amount above 100 euros;Percentage of 'Request Payment' out of all cases;1.0;
+Ratio of Request Payment to Declaration SUBMITTED by EMPLOYEE across all cases;Percentage of 'Request Payment' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Percentage of Request Payment that occur within two months after the initial Declaration SUBMITTED by EMPLOYEE (based on timestamp inference from case progression);Percentage of 'Request Payment' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Number of Request Payment activities grouped by case:BudgetNumber;Number of 'Request Payment' activities;10040.0;
+Percentage of Request Payment that directly follow Declaration FINAL_APPROVED by SUPERVISOR without any intervening rejection or resubmission loop;Percentage of 'Request Payment' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Frequency of Request Payment in cases that passed through Declaration APPROVED by PRE_APPROVER versus those that bypassed it;Percentage of 'Request Payment' out of all 'Declaration APPROVED by PRE_APPROVER';0.99;
+Percentage of Request Payment in variants where Declaration REJECTED by PRE_APPROVER never occurred;Percentage of 'Request Payment' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Percentage of Request Payment that are part of successful end-to-end reimbursements (i.e., followed by Payment Handled) without prior rejections by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Ratio of Request Payment occurrences to total activity executions in the log;Percentage of 'Request Payment' out of all cases;0.96;
+Frequency of Request Payment in variants that include exactly one approval step (e.g., only Declaration FINAL_APPROVED by SUPERVISOR) versus multiple approval steps;Percentage of 'Request Payment' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Percentage of Request Payment that are not preceded by any Declaration REJECTED by PRE_APPROVER in the same case;Percentage of 'Request Payment' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Number of Request Payment activities that occur after a resubmission loop triggered by Declaration REJECTED by PRE_APPROVER;Number of 'Request Payment' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;72.0;
+Percentage of Request Payment that occur in cases without any rejection activity (e.g., Declaration REJECTED by PRE_APPROVER, Declaration REJECTED by ADMINISTRATION, etc.);Percentage of 'Request Payment' out of all cases;0.96;
+Number of Request Payment activities per year (2017 vs 2018) to assess temporal trends;Number of 'Request Payment' activities;10040.0;
+Percentage of Request Payment that occur in cases originating from departments active in 2017 versus university-wide cases in 2018;Percentage of 'Request Payment' out of all cases;0.96;

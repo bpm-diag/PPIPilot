@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration REJECTED by MISSING';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by MISSING';16.97 days;
+Total time from 'Declaration REJECTED by MISSING' to 'Request Payment';The sum of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Request Payment';751.34 days;
+Minimum time from 'Declaration REJECTED by MISSING' to 'Declaration SUBMITTED by EMPLOYEE';The minimum of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Declaration SUBMITTED by EMPLOYEE';3.05 minutes;
+Average time between 'Declaration REJECTED by MISSING' and 'Declaration FINAL_APPROVED by SUPERVISOR';The average of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';9.61 days;
+Total resolution time of 'Declaration REJECTED by MISSING';The sum of the duration between activity Declaration REJECTED by MISSING and the end of the case;955.89 days;
+Average waiting time to the 'Declaration REJECTED by MISSING' after 'Declaration SUBMITTED by EMPLOYEE';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by MISSING';16.97 days;
+Minimum resolution time of 'Declaration REJECTED by MISSING';The minimum of the duration between activity Declaration REJECTED by MISSING and the end of the case;0.00 seconds;
+Total time it takes 'Declaration REJECTED by MISSING' to be followed by 'Declaration SUBMITTED by EMPLOYEE';The sum of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Declaration SUBMITTED by EMPLOYEE';533.23 days;
+Average time it takes from 'Declaration REJECTED by MISSING' to the next activity in the process;The average of the duration between activity Declaration REJECTED by MISSING and the end of the case;10.99 days;
+Time until 'Declaration REJECTED by MISSING' from the start of the case;The sum of the duration between the start of the case and activity 'Declaration REJECTED by MISSING';1476.80 days;
+Average time for a case to be resolved after 'Declaration REJECTED by MISSING';The average of the duration between activity Declaration REJECTED by MISSING and the end of the case;10.99 days;
+Minimum time it takes from 'Declaration REJECTED by MISSING' to 'Declaration FINAL_APPROVED by SUPERVISOR';The minimum of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';3.08 minutes;
+Total time for all activities to be completed after 'Declaration REJECTED by MISSING';The sum of the duration between activity Declaration REJECTED by MISSING and the end of the case;955.89 days;
+Time from 'Declaration REJECTED by MISSING' to 'Payment Handled';The sum of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Payment Handled';954.88 days;
+Average time to resolve cases with 'Declaration REJECTED by MISSING' compared to cases without this activity;The average of the duration between activity 'Declaration REJECTED by MISSING' and the end of case where activity 'Declaration REJECTED by MISSING does not occur;10.99 days;

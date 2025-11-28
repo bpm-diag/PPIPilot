@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Awaiting AE Assignment' followed by 'SW-EIC Reject';Frequency of activity 'SW-Awaiting AE Assignment' for cases where activity 'SW-EIC Reject' occurs;27.0;
+Percentage of manuscripts that proceed from 'SW-Awaiting AE Assignment' to 'SW-Reviewer Agreed';Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Agreed';0.52;
+Frequency of 'SW-Awaiting AE Assignment' as a precursor to 'SW-EIC Major Revision';Frequency of activity 'SW-Awaiting AE Assignment' for cases where activity 'SW-EIC Major Revision' occurs;4.0;
+Percentage of 'SW-Awaiting AE Assignment' occurrences out of all activities in the review process;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Number of times 'SW-Awaiting AE Assignment' occurs before 'Original Manuscript Submission Confirmation';Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'Original Manuscript Submission Confirmation' occurs;58.0;
+Percentage of 'SW-Awaiting AE Assignment' leading to 'SW-AE Assign Reviewers';Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-AE Assign Reviewers';0.5;
+Frequency of 'SW-Awaiting AE Assignment' followed by 'Reviewer Invitation Reminder 1';Frequency of activity 'SW-Awaiting AE Assignment' for cases where activity 'Reviewer Invitation Reminder 1' occurs;22.0;
+Percentage of 'SW-Awaiting AE Assignment' in relation to 'Manuscript Export Succeeded';Percentage of 'SW-Awaiting AE Assignment' out of all 'Manuscript Export Succeeded';0.64;
+Number of 'SW-Awaiting AE Assignment' activities that precede 'Plagiarism Originality Report Completed';Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'Plagiarism Originality Report Completed' occurs;57.0;
+Percentage of 'SW-Awaiting AE Assignment' followed by 'SW-Checklist Completed';Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Frequency of 'SW-Awaiting AE Assignment' leading to a decision ('SW-EIC Accept', 'SW-EIC Major Revision', 'SW-EIC Minor Revision', 'SW-EIC Reject');Frequency of activity 'SW-Awaiting AE Assignment' for cases where activity 'SW-EIC Accept' occurs;3.0;
+Percentage of 'SW-Awaiting AE Assignment' that result in 'SW-Reviewer Agreed' within the same variant;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Agreed';0.52;
+Number of 'SW-Awaiting AE Assignment' activities that are followed by any form of manuscript submission confirmation ('Original Manuscript Submission Confirmation', 'Revised Manuscript Submission Confirmation', 'Resubmission Manuscript Submission Confirmation');Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'Original Manuscript Submission Confirmation' occurs;58.0;
+Percentage of 'SW-Awaiting AE Assignment' that lead to 'Awaiting Assignment to Batch';Percentage of 'SW-Awaiting AE Assignment' out of all 'Awaiting Assignment to Batch';0.35;
+Frequency of 'SW-Awaiting AE Assignment' in the most common process variants;Frequency of activity 'SW-Awaiting AE Assignment';57.0;
+Percentage of 'SW-Awaiting AE Assignment' followed by 'SW-Reviewer Declined';Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Declined';0.55;
+Number of 'SW-Awaiting AE Assignment' activities that precede 'SW-AE Assign Reviewers Challenge Paper';Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-AE Assign Reviewers Challenge Paper' occurs;2.0;
+Percentage of 'SW-Awaiting AE Assignment' leading to 'SW-Reviewer Selection is now due';Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Selection is now due';0.5;
+Frequency of 'SW-Awaiting AE Assignment' in relation to 'SW-Reviewer Selection is due in 1 week';Frequency of activity 'SW-Awaiting AE Assignment' for cases where activity 'SW-Reviewer Selection is due in 1 week' occurs;24.0;
+Percentage of 'SW-Awaiting AE Assignment' followed by 'SW-Reviewer Selection is due in 3 days';Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Selection is due in 3 days';0.5;

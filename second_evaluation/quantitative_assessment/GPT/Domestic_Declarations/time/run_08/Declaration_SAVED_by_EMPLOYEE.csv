@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Average time from Declaration SAVED by EMPLOYEE to Declaration SUBMITTED by EMPLOYEE;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration SUBMITTED by EMPLOYEE';;
+Total time reduction of Declaration SAVED by EMPLOYEE across all process variants;The sum of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;20.09 days;
+Average time for Declaration SAVED by EMPLOYEE in the context of domestic declarations;The average of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;3.57 hours;
+Minimun time from Declaration SAVED by EMPLOYEE to Declaration APPROVED by ADMINISTRATION;The minimum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration APPROVED by ADMINISTRATION';;
+Average time from Declaration SAVED by EMPLOYEE to Request Payment in rejected claims;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Request Payment';;
+Total time for Declaration SAVED by EMPLOYEE in the process of travel expense claims;The sum of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;20.09 days;
+Average time to complete Declaration SAVED by EMPLOYEE before reaching Declaration FINAL_APPROVED by SUPERVISOR;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';;
+Minimun resolution time of Declaration SAVED by EMPLOYEE in the context of pre-paid travel costs;The minimum of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;0.00 seconds;
+Total time it takes from Declaration SAVED by EMPLOYEE to Payment Handled;The sum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Payment Handled';20.09 days;
+Average time from Declaration SAVED by EMPLOYEE to Declaration REJECTED by ADMINISTRATION;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration REJECTED by ADMINISTRATION';;
+Total time for Declaration SAVED by EMPLOYEE across different departments from 2017 to 2018;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and the end of case grouped by the last value of org:resource;STAFF MEMBER:0.00 seconds;"{""STAFF MEMBER"":0,""SYSTEM"":1735613000}"

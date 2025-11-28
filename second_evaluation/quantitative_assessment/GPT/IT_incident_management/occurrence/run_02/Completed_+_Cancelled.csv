@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Completed + Cancelled' compared to 'Completed + Resolved';Percentage of 'Completed + Cancelled' out of all 'Completed + Resolved';0.0;
+Percentage of cases involving 'Completed + Cancelled' out of all cases;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Frequency of 'Completed + Cancelled' following 'Accepted + In Progress';Frequency of activity 'Completed + Cancelled' for cases where activity 'Accepted + In Progress' occurs;1;
+Percentage of 'Completed + Cancelled' activities by country;Percentage of 'Completed + Cancelled' out of all cases;0:0.0;"{""0"":0.0,""SE"":0.0,""au"":0.0,""be"":0.0,""br"":0.0,""ca"":0.0,""cl"":0.0,""cn"":0.0,""de"":0.0,""fr"":0.0,""gb"":0.0,""in"":0.0,""jp"":0.0,""kr"":0.0,""my"":0.0,""nl"":0.0,""pe"":0.0,""pl"":0.0005675369,""ru"":0.0,""se"":0.0,""th"":0.0,""tr"":0.0,""us"":0.0}"
+Percentage of 'Completed + Cancelled' activities that occur after 'Queued + Awaiting Assignment';Percentage of 'Completed + Cancelled' out of all 'Queued + Awaiting Assignment';0.0;
+Ratio of 'Completed + Cancelled' over 'Completed + Closed';Percentage of 'Completed + Cancelled' out of all 'Completed + Closed';0.0;
+Frequency of 'Completed + Cancelled' in cases with 'High' impact versus 'Low' impact;Frequency of activity 'Completed + Cancelled';1;
+Percentage of 'Completed + Cancelled' by resource compared to 'Completed + In Call' by the same resource;Percentage of 'Completed + Cancelled' out of all 'Completed + In Call';0.0;
+Number of 'Completed + Cancelled' activities that precede 'Accepted + Wait - User';Number of 'Completed + Cancelled' activities for cases where activity 'Accepted + Wait - User' occurs;1;
+Percentage of 'Completed + Cancelled' in the most frequent process variant;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Frequency of 'Completed + Cancelled' in cases involving product PROD582;Frequency of activity 'Completed + Cancelled';0;
+Percentage of 'Completed + Cancelled' activities out of all activities in the event log;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Number of 'Completed + Cancelled' activities that are followed by 'Completed + Resolved';Number of 'Completed + Cancelled' activities for cases where activity 'Completed + Resolved' occurs;0;
+Ratio of 'Completed + Cancelled' activities in cases from France compared to cases from Brazil;Percentage of 'Completed + Cancelled' out of all cases;;
+Percentage of 'Completed + Cancelled' activities in cases handled by 'Anne Claire' compared to those handled by 'Frederic';Percentage of 'Completed + Cancelled' out of all cases;;
+Frequency of 'Completed + Cancelled' in cases with 'Medium' impact;Frequency of activity 'Completed + Cancelled';0;
+Percentage of 'Completed + Cancelled' activities that involve product PROD321;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Ratio of 'Completed + Cancelled' over 'Accepted + In Progress' in terms of frequency within the same case;Percentage of 'Completed + Cancelled' out of all 'Accepted + In Progress';0.0;
+Number of 'Completed + Cancelled' activities per month;Number of 'Completed + Cancelled' activities;1;
+Number of 'Completed + Cancelled' activities in the first quarter of the year compared to the fourth quarter;Number of 'Completed + Cancelled' activities;1;

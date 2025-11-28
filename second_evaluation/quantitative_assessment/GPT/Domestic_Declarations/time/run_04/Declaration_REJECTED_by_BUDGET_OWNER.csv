@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+;ERROR: computing metric {};;
+Average time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration REJECTED by BUDGET OWNER';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by BUDGET OWNER';4.02 days;
+Average time from 'Declaration APPROVED by ADMINISTRATION' to 'Declaration REJECTED by BUDGET OWNER';The average of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Declaration REJECTED by BUDGET OWNER';1.77 days;
+Total resolution time of 'Declaration REJECTED by BUDGET OWNER';The sum of the duration between activity Declaration REJECTED by BUDGET OWNER and the end of the case;975.53 days;
+Minimun time from 'Declaration APPROVED by BUDGET OWNER' to 'Declaration REJECTED by BUDGET OWNER';The minimum of the duration between activity 'Declaration APPROVED by BUDGET OWNER' and activity 'Declaration REJECTED by BUDGET OWNER';1.71 days;
+Time until 'Declaration REJECTED by BUDGET OWNER' from 'Declaration SUBMITTED by EMPLOYEE';The sum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by BUDGET OWNER';232.95 days;
+Total time it takes 'Declaration REJECTED by BUDGET OWNER' to be done after 'Declaration FOR_APPROVAL by BUDGET OWNER';The sum of the duration between activity 'Declaration FOR_APPROVAL by BUDGET OWNER' and activity 'Declaration REJECTED by BUDGET OWNER';;
+Average time it takes from 'Declaration REJECTED by BUDGET OWNER' to 'Request Payment';The average of the duration between activity 'Declaration REJECTED by BUDGET OWNER' and activity 'Request Payment';14.87 days;
+Total time from 'Declaration REJECTED by BUDGET OWNER' to 'Declaration SUBMITTED by EMPLOYEE' in cases of re-submission;The sum of the duration between activity 'Declaration REJECTED by BUDGET OWNER' and activity 'Declaration SUBMITTED by EMPLOYEE';488.56 days;
+Minimun resolution time of 'Declaration REJECTED by BUDGET OWNER' in the process;The minimum of the duration between activity Declaration REJECTED by BUDGET OWNER and the end of the case;47.33 minutes;
+Average time from 'Declaration REJECTED by BUDGET OWNER' to 'Declaration FINAL_APPROVED by SUPERVISOR';The average of the duration between activity 'Declaration REJECTED by BUDGET OWNER' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';12.29 days;
+Total time for 'Declaration REJECTED by BUDGET OWNER' in cases leading to 'Payment Handled';The sum of the duration between activity 'Declaration REJECTED by BUDGET OWNER' and activity 'Payment Handled';797.04 days;
+Elapsed time between 'Declaration REJECTED by BUDGET OWNER' and next 'Declaration APPROVED by BUDGET OWNER';The average of the duration between activity 'Declaration REJECTED by BUDGET OWNER' and activity 'Declaration APPROVED by BUDGET OWNER';12.41 days;
+Time from 'Declaration REJECTED by BUDGET OWNER' to 'Declaration REJECTED by EMPLOYEE';The sum of the duration between activity 'Declaration REJECTED by BUDGET OWNER' and activity 'Declaration REJECTED by EMPLOYEE';283.95 days;
+Average time for 'Declaration REJECTED by BUDGET OWNER' to be followed by a 'Declaration FOR_APPROVAL by SUPERVISOR';The average of the duration between activity 'Declaration REJECTED by BUDGET OWNER' and activity 'Declaration FOR_APPROVAL by SUPERVISOR';;

@@ -1,0 +1,22 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-AE Assign Reviewers' to 'SW-EIC Reject';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Reject';76.11 days;
+Total time from 'Original Manuscript Submission Confirmation' to 'SW-EIC Reject';The sum of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-EIC Reject';917.59 days;
+Minimum time from 'SW-Reviewer Agreed' to 'SW-EIC Reject';The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';45.69 days;
+Average time for 'SW-EIC Reject';The average of the duration between activity SW-EIC Reject and the end of the case;1.42 minutes;
+Total resolution time of 'SW-EIC Reject';The sum of the duration between activity SW-EIC Reject and the end of the case;48.42 minutes;
+Minimum resolution time of 'SW-EIC Reject';The minimum of the duration between activity SW-EIC Reject and the end of the case;0.00 seconds;
+Total time it takes 'SW-Checklist Completed' before 'SW-EIC Reject';The sum of the duration between activity 'SW-Checklist Completed' and activity 'SW-EIC Reject';839.35 days;
+Average waiting time to the 'SW-EIC Reject';The average of the duration between the start of the case and activity 'SW-EIC Reject';28.46 days;
+Total waiting time to the 'SW-EIC Reject';The sum of the duration between the start of the case and activity 'SW-EIC Reject';967.56 days;
+Minimum waiting time to the 'SW-EIC Reject';The minimum of the duration between the start of the case and activity 'SW-EIC Reject';3.47 hours;
+Average time from 'SW-Awaiting AE Assignment' to 'SW-EIC Reject';The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Reject';19.06 days;
+Total time from 'SW-Awaiting Checklist Completion' to 'SW-EIC Reject';The sum of the duration between activity 'SW-Awaiting Checklist Completion' and activity 'SW-EIC Reject';913.70 days;
+Minimum time from 'SW-Reviewer Selection is now due' to 'SW-EIC Reject';The minimum of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-EIC Reject';;
+Average time it takes the 'SW-EIC Reject' to be done after 'SW-Awaiting EIC Decision';The average of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Reject';17.41 hours;
+Total time it takes the 'SW-EIC Reject' to be done after 'SW-Awaiting EIC Decision';The sum of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Reject';11.61 days;
+Minimum time it takes the 'SW-EIC Reject' to be done after 'SW-Awaiting EIC Decision';The minimum of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Reject';8.33 minutes;
+'SW-EIC Reject' Cycle Time;The sum of the duration between activity 'SW-EIC Reject' and activity 'SW-EIC Reject';0.00 seconds;
+Average time from 'SW-Reviewer Agreed' to 'SW-EIC Reject' in cases where 'SW-EIC Major Revision' occurred;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';;
+Total time from 'SW-Reviewer Agreed' to 'SW-EIC Reject' in cases with 'SW-EIC Major Revision';The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';;
+Minimum time from 'SW-Reviewer Agreed' to 'SW-EIC Reject' in cases with 'SW-EIC Major Revision';The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';;
+Average time between 'SW-AE Assign Reviewers' and 'SW-EIC Reject' grouped by 'case:concept:name';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Reject';76.11 days;

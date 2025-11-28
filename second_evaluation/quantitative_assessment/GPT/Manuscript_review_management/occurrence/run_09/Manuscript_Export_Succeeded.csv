@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Manuscript Export Succeeded' followed by 'Plagiarism Originality Report Completed';Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'Plagiarism Originality Report Completed' occurs;86;
+Percentage of manuscripts that have 'Manuscript Export Succeeded' before 'SW-Checklist Completed';Percentage of 'Manuscript Export Succeeded' out of all 'SW-Checklist Completed';1.0;
+Number of 'Manuscript Export Succeeded' activities per manuscript case;Number of 'Manuscript Export Succeeded' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":1,""DRSW4"":0,""DRW3"":1,""DSW3"":24,""DSW4"":33,""MSC4"":70,""RJR3"":2,""SW1"":1,""SW12"":2,""SYS1"":1,""SYS11"":1,""SYS2"":1,""SYS5"":3}"
+Percentage of 'Manuscript Export Succeeded' out of all export activities;Percentage of 'Manuscript Export Succeeded' out of all cases where 'Manuscript Export Succeeded' does not happen;0.96;
+Frequency of 'Manuscript Export Succeeded' in relation to 'Original Manuscript Submission Confirmation';Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'Original Manuscript Submission Confirmation' occurs;86;
+Percentage of 'Manuscript Export Succeeded' followed by 'SW-Awaiting AE Assignment';Percentage of 'Manuscript Export Succeeded' out of all 'SW-Awaiting AE Assignment';1.0;
+Number of times 'Manuscript Export Succeeded' occurs before 'Reviewer Invitation Reminder 1';Number of 'Manuscript Export Succeeded' activities for cases where activity 'Reviewer Invitation Reminder 1' occurs;81;
+Percentage of 'Manuscript Export Succeeded' activities that lead to 'SW-EIC Major Revision';Percentage of 'Manuscript Export Succeeded' out of all 'SW-EIC Major Revision';1.0;
+Frequency of 'Manuscript Export Succeeded' in manuscripts that require major revision versus minor revision;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'RW-EIC Major Revision' occurs;3;
+Percentage of 'Manuscript Export Succeeded' in manuscripts that are eventually accepted ('RW-EIC Accept');Percentage of 'Manuscript Export Succeeded' out of all 'RW-EIC Accept';1.0;
+Percentage of 'Manuscript Export Succeeded' followed by any reviewer agreement ('SW-Reviewer Agreed' or 'RW-Reviewer Agreed');Percentage of 'Manuscript Export Succeeded' out of all 'SW-Reviewer Agreed';0.98;
+Frequency of 'Manuscript Export Succeeded' in manuscripts that exceed the Plagiarism Percent Match Threshold;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'Plagiarism Percent Match Threshold Exceeded' occurs;21;
+Percentage of 'Manuscript Export Succeeded' in the process variants with the highest frequency;Percentage of 'Manuscript Export Succeeded' out of all cases where 'Manuscript Export Succeeded' does not happen;0.96;
+Number of 'Manuscript Export Succeeded' activities that are followed by 'First Look-Please submit updates';Number of 'Manuscript Export Succeeded' activities for cases where activity 'First Look-Please submit updates' occurs;69;
+Percentage of 'Manuscript Export Succeeded' in manuscripts that are withdrawn ('Manuscript is Withdrawn');Percentage of 'Manuscript Export Succeeded' out of all 'Manuscript is Withdrawn';1.0;
+Frequency of 'Manuscript Export Succeeded' followed by 'Awaiting Assignment to Batch';Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'Awaiting Assignment to Batch' occurs;26;
+Percentage of 'Manuscript Export Succeeded' in relation to all activities performed in the review process;Percentage of 'Manuscript Export Succeeded' out of all cases where 'Manuscript Export Succeeded' does not happen;0.96;
+Number of 'Manuscript Export Succeeded' activities that precede 'SW-AE Assign Reviewers';Number of 'Manuscript Export Succeeded' activities for cases where activity 'SW-AE Assign Reviewers' occurs;84;
+Frequency of 'Manuscript Export Succeeded' in manuscripts that go through more than one round of revision;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'SW-EIC Major Revision' occurs;15;
+Number of 'Manuscript Export Succeeded' activities per month;Number of 'Manuscript Export Succeeded' activities;141;

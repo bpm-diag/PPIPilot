@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Completed + In Call' compared to 'Accepted + In Progress';Percentage of 'Completed + In Call' out of all 'Accepted + In Progress';0.27;
+Percentage of cases including 'Completed + In Call' that also include 'Accepted + Wait - User';Percentage of 'Completed + In Call' out of all 'Accepted + Wait - User';0.04;
+Frequency of transitions from 'Accepted + In Progress' to 'Completed + In Call';Frequency of activity 'Completed + In Call' for cases where activity 'Accepted + In Progress' occurs;2018;
+Percentage of 'Completed + In Call' activities followed by 'Completed + Resolved';Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Frequency of 'Completed + In Call' in cases with performance above average;Frequency of activity 'Completed + In Call';2018;
+Number of 'Completed + In Call' activities that lead to a 'High' impact;Number of 'Completed + In Call' activities == 'High' where ma is the last value of impact;8;
+Percentage of 'Completed + In Call' activities within cases that were resolved within the same day;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' in relation to 'Completed + Closed';Frequency of activity 'Completed + In Call' for cases where activity 'Completed + Closed' occurs;134;
+Percentage of 'Completed + In Call' activities initiated by 'Anne Claire';Percentage of 'Completed + In Call' out of all cases;;
+Percentage of 'Completed + In Call' activities in cases with 'Medium' product impact;Percentage of 'Completed + In Call' out of all cases;0.19;
+Frequency of 'Completed + In Call' as the final activity before case closure;Frequency of activity 'Completed + In Call' for cases where activity 'Completed + Closed' occurs;134;
+Percentage of 'Completed + In Call' activities in cases exceeding 1000 euros in cost;Percentage of 'Completed + In Call' out of all cases;0.27;
+Number of 'Completed + In Call' activities grouped by 'organization country';Number of 'Completed + In Call' activities grouped by the last value of organization country;0:1;"{""0"":1,""SE"":1,""au"":3,""be"":78,""br"":54,""ca"":16,""cl"":0,""cn"":2,""de"":0,""fr"":16,""gb"":2,""in"":12,""jp"":0,""kr"":0,""my"":6,""nl"":0,""pe"":0,""pl"":838,""ru"":7,""se"":669,""th"":5,""tr"":0,""us"":308}"
+Percentage of 'Completed + In Call' activities that occur after 'Queued + Awaiting Assignment';Percentage of 'Completed + In Call' out of all 'Queued + Awaiting Assignment';0.01;
+Frequency of 'Completed + In Call' in the top 5 most common process variants;Frequency of activity 'Completed + In Call';2018;
+Percentage of 'Completed + In Call' activities in cases with a duration longer than the average case duration;Percentage of 'Completed + In Call' out of all cases;0.27;
+Percentage of 'Completed + In Call' out of all completed activities;Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Percentage of 'Completed + In Call' activities by 'France' compared to 'Brazil';Percentage of 'Completed + In Call' out of all cases;;
+Number of 'Completed + In Call' activities followed by 'Completed + Resolved' within 24 hours;Number of 'Completed + In Call' activities for cases where activity 'Completed + Resolved' occurs;135;
+Number of 'Completed + In Call' activities per month;Number of 'Completed + In Call' activities;2018;

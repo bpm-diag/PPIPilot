@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Average time from 'Request Payment' to 'Payment Handled';The average of the duration between activity 'Request Payment' and activity 'Payment Handled';3.57 days;
+Total time from 'Declaration FINAL_APPROVED by SUPERVISOR' to 'Payment Handled';The sum of the duration between activity 'Declaration FINAL_APPROVED by SUPERVISOR' and activity 'Payment Handled';69495.06 days;
+Minimum time from 'Request Payment' to 'Payment Handled';The minimum of the duration between activity 'Request Payment' and activity 'Payment Handled';2.32 hours;
+Average time for 'Payment Handled' after 'Declaration APPROVED by ADMINISTRATION';The average of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Payment Handled';9.54 days;
+Total resolution time of 'Payment Handled';The sum of the duration between activity Payment Handled and the end of the case;1.63 days;
+Minimum resolution time of 'Payment Handled';The minimum of the duration between activity Payment Handled and the end of the case;0.00 seconds;
+Average time for 'Payment Handled' grouped by 'org:resource';The average of the duration between activity 'Payment Handled' and the end of case grouped by the last value of org:resource;STAFF MEMBER:1.63 days;"{""STAFF MEMBER"":140424000,""SYSTEM"":0}"
+Total time for 'Payment Handled' grouped by 'case:BudgetNumber';The average of the duration between activity 'Payment Handled' and the end of case grouped by the last value of case:BudgetNumber;budget 86566:1.63 days;"{""budget 86566"":140424000}"
+Average waiting time to 'Payment Handled' after 'Declaration APPROVED by BUDGET OWNER';The average of the duration between activity 'Declaration APPROVED by BUDGET OWNER' and activity 'Payment Handled';9.65 days;
+Total waiting time to 'Payment Handled' after 'Declaration APPROVED by PRE_APPROVER';The sum of the duration between activity 'Declaration APPROVED by PRE_APPROVER' and activity 'Payment Handled';6589.72 days;
+Minimum waiting time to 'Payment Handled' after 'Declaration SUBMITTED by EMPLOYEE';The minimum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Payment Handled';1.06 days;
+Average time it takes 'Payment Handled' to be done after 'Declaration FINAL_APPROVED by SUPERVISOR';The average of the duration between activity 'Declaration FINAL_APPROVED by SUPERVISOR' and activity 'Payment Handled';6.92 days;
+Total time it takes 'Payment Handled' to be done after 'Request Payment';The sum of the duration between activity 'Request Payment' and activity 'Payment Handled';35878.19 days;
+Minimum time it takes 'Payment Handled' to be done after 'Declaration APPROVED by ADMINISTRATION';The minimum of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Payment Handled';1.06 days;
+Average time from 'Declaration REJECTED by PRE_APPROVER' to 'Payment Handled' to understand the impact of rejections on payment processing time;The average of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Payment Handled';21.18 days;
+Total time from 'Declaration SUBMITTED by EMPLOYEE' to 'Payment Handled' to measure the end-to-end process duration;The sum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Payment Handled';116674.72 days;
+Average time between 'Declaration APPROVED by ADMINISTRATION' and 'Payment Handled' to evaluate administrative processing efficiency;The average of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Payment Handled';9.54 days;
+Total time between 'Declaration APPROVED by BUDGET OWNER' and 'Payment Handled' to assess budget approval impact on payment timeline;The sum of the duration between activity 'Declaration APPROVED by BUDGET OWNER' and activity 'Payment Handled';27003.57 days;

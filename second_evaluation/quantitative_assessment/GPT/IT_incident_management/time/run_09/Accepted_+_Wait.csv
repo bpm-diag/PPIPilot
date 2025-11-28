@@ -1,0 +1,14 @@
+Name;Metric;Value;Agrupation
+Average time from 'Accepted + Wait' to 'Completed + In Call';The average of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';6.89 days;
+Average resolution time of 'Accepted + Wait' when followed by 'Accepted + In Progress';The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + In Progress';15.69 days;
+Total time for 'Accepted + Wait' in cases leading to 'Completed + Resolved';The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + Resolved';16689.05 days;
+Minimum time to 'Accepted + Wait' grouped by 'country';The average of the duration between activity 'Accepted + Wait' and the end of case grouped by the last value of resource country;0:3.82 hours;"{""0"":13735000,""Australia"":null,""Belgium"":355164000,""Brazil"":82721000,""Canada"":null,""China"":1468000,""France"":1550508000,""INDIA"":1586000,""Japan"":81000,""Korea"":null,""MALAYSIA"":null,""POLAND"":12000,""RUSSIAN FEDERATION"":null,""Sweden"":189000,""THAILAND"":null,""USA"":425903000,""United Kingdom"":null}"
+Average waiting time to the 'Accepted + Wait' after 'Queued + Awaiting Assignment';The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait';9.81 days;
+Total time it takes 'Accepted + Wait' to be done before 'Accepted + Assigned';The sum of the duration between activity 'Accepted + Wait' and activity 'Accepted + Assigned';3604.10 days;
+Average time for 'Accepted + Wait' in incidents resolved within the same day;The average of the duration between activity Accepted + Wait and the end of the case;19.23 days;
+Total time for 'Accepted + Wait' across all variants leading to 'Completed + Closed';The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + Closed';20975.19 days;
+Average time from 'Accepted + Wait' to 'Accepted + Wait - User' in high frequency variants;The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait - User';7.88 days;
+Minimum time between 'Accepted + Wait' and 'Completed + In Call' across all cases;The minimum of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';12.00 seconds;
+'Accepted + Wait' Cycle Time in the path to 'Completed + Resolved';The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + Resolved';16689.05 days;
+Average time it takes 'Accepted + Wait' after the execution of 'Accepted + In Progress' in the most common process variants;The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait';7.99 days;
+Total resolution time of 'Accepted + Wait' when it directly precedes 'Completed + Closed';The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + Closed';20975.19 days;

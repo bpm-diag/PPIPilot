@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Average resolution time of 'Unmatched + Unmatched' cases;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Average duration from 'Unmatched + Unmatched' to the next activity;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total duration of 'Unmatched + Unmatched' activities in the event log;The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Average waiting time before 'Unmatched + Unmatched' is resolved;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Longest duration from 'Unmatched + Unmatched' to 'Completed + Resolved';The maximum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';13.03 days;
+Shortest duration from 'Unmatched + Unmatched' to any activity;The minimum of the duration between activity Unmatched + Unmatched and the end of the case;7.36 days;
+Average duration from 'Unmatched + Unmatched' to 'Completed + Closed' across all cases;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Closed';10.10 days;
+Total duration of 'Unmatched + Unmatched' before transitioning to any 'Accepted' state;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Assigned';48.87 minutes;
+Average time it takes for 'Unmatched + Unmatched' to transition to any 'Completed' state;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';2.63 days;
+Time until first occurrence of 'Unmatched + Unmatched' after 'Accepted + In Progress';The average of the duration between activity 'Accepted + In Progress' and activity 'Unmatched + Unmatched';3.42 days;
+Cycle time of cases involving 'Unmatched + Unmatched';The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Average duration from 'Unmatched + Unmatched' to 'Accepted + Wait - User';The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Wait - User';11.89 hours;
+Minimum resolution time of 'Unmatched + Unmatched' across variants;The minimum of the duration between activity Unmatched + Unmatched and the end of the case;7.36 days;
+Maximum time gap between 'Unmatched + Unmatched' and any 'Completed' activity;The maximum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';13.03 days;
+Average handling time of 'Unmatched + Unmatched' before transitioning to 'Accepted + Assigned';The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Assigned';24.43 minutes;
+Duration from 'Unmatched + Unmatched' to 'Completed + In Call' in the most frequent variant;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + In Call';;
+Median duration from 'Unmatched + Unmatched' to 'Completed + In Call';The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + In Call';;
+Duration variance of 'Unmatched + Unmatched' compared to 'Accepted + In Progress';The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';4.75 hours;
+Distribution of 'Unmatched + Unmatched' durations across different organizations;The average of the duration between activity 'Unmatched + Unmatched' and the end of case grouped by the last value of organization involved;Org line A2:NaT;"{""Org line A2"":null,""Org line B"":null,""Org line C"":4361889000,""Org line D"":null,""Org line E"":null,""Org line F"":null,""Org line G1"":null,""Org line G2"":null,""Org line G3"":null,""Org line G4"":null,""Org line H"":null,""Org line V1"":null,""Org line V10"":null,""Org line V11"":null,""Org line V2"":null,""Org line V3"":null,""Org line V5"":null,""Org line V7"":null,""Org line V7n"":null,""Org line V8"":null,""Org line V9"":null,""Other"":null}"

@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Checklist Completed' before 'SW-Awaiting AE Assignment';Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-Awaiting AE Assignment' occurs;57.0;
+Percentage of manuscripts with 'SW-Checklist Completed' out of all manuscripts processed;Percentage of 'SW-Checklist Completed' out of all cases where '' does not happen;0.88;
+Number of 'SW-Checklist Completed' that are followed by 'SW-AE Assign Reviewers';Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-AE Assign Reviewers' occurs;44.0;
+Percentage of 'SW-Checklist Completed' in manuscripts that require major revision compared to those that are accepted ('SW-EIC Major Revision' vs 'SW-EIC Accept');Percentage of 'SW-Checklist Completed' out of all 'SW-EIC Major Revision';0.93;
+Frequency of 'SW-Checklist Completed' in the variant leading to 'SW-EIC Reject';Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-EIC Reject' occurs;33.0;
+Percentage of 'SW-Checklist Completed' followed by 'Manuscript Export Succeeded' within the same case;Percentage of 'SW-Checklist Completed' out of all 'Manuscript Export Succeeded';0.92;
+Percentage of 'SW-Checklist Completed' that lead to a 'SW-Reviewer Agreed' status, indicating successful reviewer assignment;Percentage of 'SW-Checklist Completed' out of all 'SW-Reviewer Agreed';0.96;
+Frequency of 'SW-Checklist Completed' in manuscripts that exceed the Plagiarism Percent Match Threshold;Frequency of activity 'SW-Checklist Completed' for cases where activity 'Plagiarism Percent Match Threshold Exceeded' occurs;20.0;
+Percentage of 'SW-Checklist Completed' in manuscripts that eventually get 'SW-EIC Accept' status, indicating successful publication;Percentage of 'SW-Checklist Completed' out of all 'SW-EIC Accept';1.0;
+Number of 'SW-Checklist Completed' followed by 'Reviewer Invitation Reminder 1', indicating delays in reviewer response;Frequency of activity 'SW-Checklist Completed' for cases where activity 'Reviewer Invitation Reminder 1' occurs;41.0;
+Percentage of 'SW-Checklist Completed' for manuscripts that require 'SW-EIC Major Revision' versus 'SW-EIC Minor Revision';Percentage of 'SW-Checklist Completed' out of all 'SW-EIC Major Revision';0.93;
+Frequency of 'SW-Checklist Completed' in the most common process variant;Frequency of activity 'SW-Checklist Completed' for cases where activity '' does not occur;82.0;
+Percentage of 'SW-Checklist Completed' in manuscripts that are withdrawn ('Manuscript is Withdrawn') after checklist completion;Percentage of 'SW-Checklist Completed' out of all 'Manuscript is Withdrawn';0.5;
+Number of 'SW-Checklist Completed' that precede 'SW-Awaiting EIC Decision', indicating readiness for editorial decision;Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-Awaiting EIC Decision' occurs;57.0;
+Percentage of 'SW-Checklist Completed' in manuscripts that go through the 'First Look Manuscript Submission Confirmation' stage;Percentage of 'SW-Checklist Completed' out of all 'First Look Manuscript Submission Confirmation';0.88;
+Percentage of 'SW-Checklist Completed' in manuscripts that do not proceed to 'Manuscript Export Succeeded', indicating potential issues in the submission process;Percentage of 'SW-Checklist Completed' out of all cases where 'Manuscript Export Succeeded' does not happen;0.88;
+Frequency of 'SW-Checklist Completed' followed by any activity related to revision ('SW–Major Revision due in 1 week', 'SW–Minor Revision due in 1 month', etc.);Number of 'SW-Checklist Completed' activities;87.0;
+Number of 'SW-Checklist Completed' per month to track seasonal variations in submission volume;Number of 'SW-Checklist Completed' activities;87.0;

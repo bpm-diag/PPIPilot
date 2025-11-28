@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-AE Assign Reviewers' compared to 'SW-Reviewer Agreed';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Percentage of manuscripts that proceed to 'SW-Reviewer Agreed' after 'SW-AE Assign Reviewers';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Number of times 'SW-AE Assign Reviewers' occurs before 'Reviewer Invitation Reminder 1';Number of 'SW-AE Assign Reviewers' activities for cases where activity 'Reviewer Invitation Reminder 1' occurs;137.0;
+Percentage of 'SW-AE Assign Reviewers' followed by 'SW-Reviewer Declined';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Declined';0.97;
+Frequency of 'SW-AE Assign Reviewers' in the most common variant paths;Frequency of activity 'SW-AE Assign Reviewers';46.0;
+Percentage of 'SW-AE Assign Reviewers' out of all activities in the review process;Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;
+Number of 'SW-AE Assign Reviewers' activities that lead to 'SW-EIC Major Revision';Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-EIC Major Revision' occurs;51.0;
+Percentage of 'SW-AE Assign Reviewers' followed by 'Unassign Editor';Percentage of 'SW-AE Assign Reviewers' out of all 'Unassign Editor';0.64;
+Frequency of 'SW-AE Assign Reviewers' in manuscripts that undergo 'SW-EIC Reject';Frequency of activity 'SW-AE Assign Reviewers' for cases where activity 'SW-EIC Reject' occurs;9.0;
+Percentage of 'SW-AE Assign Reviewers' leading to a decision without 'SW-Reviewer No Response';Percentage of 'SW-AE Assign Reviewers' out of all cases where 'SW-Reviewer No Response' does not happen;0.49;
+Number of 'SW-AE Assign Reviewers' activities per variant where 'Manuscript Export Succeeded' occurs;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'Manuscript Export Succeeded' occurs;140.0;
+Percentage of 'SW-AE Assign Reviewers' in relation to 'SW-Awaiting AE Assignment';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Awaiting AE Assignment';0.4;
+Frequency of 'SW-AE Assign Reviewers' before 'SW-Awaiting EIC Decision';Frequency of activity 'SW-AE Assign Reviewers' for cases where activity 'SW-Awaiting EIC Decision' occurs;45.0;
+Percentage of 'SW-AE Assign Reviewers' activities that are part of a variant ending in 'RW-EIC Accept';Percentage of 'SW-AE Assign Reviewers' out of all 'RW-EIC Accept';0.82;
+Number of 'SW-AE Assign Reviewers' activities followed by 'Reviewer Invitation Reminder 2';Number of 'SW-AE Assign Reviewers' activities for cases where activity 'Reviewer Invitation Reminder 2' occurs;119.0;
+Percentage of 'SW-AE Assign Reviewers' in variants leading to 'SW-EIC Minor Revision';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-EIC Minor Revision';0.71;
+Frequency of 'SW-AE Assign Reviewers' in relation to all reviewer-related activities;Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;
+Number of 'SW-AE Assign Reviewers' activities that precede 'First Look Manuscript Submission Confirmation';Number of 'SW-AE Assign Reviewers' activities for cases where activity 'First Look Manuscript Submission Confirmation' occurs;63.0;
+Percentage of 'SW-AE Assign Reviewers' in the process before 'Awaiting Assignment to Batch';Percentage of 'SW-AE Assign Reviewers' out of all 'Awaiting Assignment to Batch';0.73;
+Percentage of 'SW-AE Assign Reviewers' followed by any form of revision request ('SW–Major Revision due in 1 week', 'RW–Minor Revision due in 3 days', etc.);Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;

@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from 'First Look-Your updates are overdue' to 'Awaiting Assignment to Batch';The average of the duration between activity 'First Look-Your updates are overdue' and activity 'Awaiting Assignment to Batch';91.55 days;
+Total time for 'Awaiting Assignment to Batch' to occur after 'First Look Manuscript Submission Confirmation';The sum of the duration between activity 'First Look Manuscript Submission Confirmation' and activity 'Awaiting Assignment to Batch';1908.57 days;
+Minimum time between 'Revised Manuscript Submission Confirmation' and 'Awaiting Assignment to Batch';The minimum of the duration between activity 'Revised Manuscript Submission Confirmation' and activity 'Awaiting Assignment to Batch';59.06 days;
+Average time it takes from 'SW-Reviewer Agreed' to 'Awaiting Assignment to Batch';The average of the duration between activity 'SW-Reviewer Agreed' and activity 'Awaiting Assignment to Batch';316.17 days;
+Total resolution time of 'Awaiting Assignment to Batch';The sum of the duration between activity Awaiting Assignment to Batch and the end of the case;131.49 days;
+Average waiting time to 'Awaiting Assignment to Batch' after 'Manuscript Export Succeeded';The average of the duration between activity 'Manuscript Export Succeeded' and activity 'Awaiting Assignment to Batch';258.74 days;
+Minimum time it takes 'Awaiting Assignment to Batch' after 'SW-EIC Accept';The minimum of the duration between activity 'SW-EIC Accept' and activity 'Awaiting Assignment to Batch';17.56 days;
+Time of 'Awaiting Assignment to Batch';The sum of the duration between activity Awaiting Assignment to Batch and the end of the case;131.49 days;
+'Awaiting Assignment to Batch' Cycle Time;The sum of the duration between activity 'Awaiting Assignment to Batch' and activity 'Awaiting Assignment to Batch';0.00 seconds;
+Total time since 'SW-AE Assign Reviewers' and 'Awaiting Assignment to Batch' are performed;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'Awaiting Assignment to Batch';5627.24 days;
+Minimum resolution time of 'Awaiting Assignment to Batch' following 'SW-EIC Major Revision';The minimum of the duration between activity 'SW-EIC Major Revision' and activity 'Awaiting Assignment to Batch';79.03 days;
+Average time to 'Awaiting Assignment to Batch' since 'SW-Reviewer Agreed';The average of the duration between activity 'SW-Reviewer Agreed' and activity 'Awaiting Assignment to Batch';316.17 days;
+Total time it takes from 'SW-AE Assign Reviewers' to 'Awaiting Assignment to Batch';The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'Awaiting Assignment to Batch';5627.24 days;
+Minimum waiting time to 'Awaiting Assignment to Batch' after 'First Look-Please submit updates';The minimum of the duration between activity 'First Look-Please submit updates' and activity 'Awaiting Assignment to Batch';15.61 days;
+Average time for 'Awaiting Assignment to Batch' grouped by 'case:concept:name';The average of the duration between activity Awaiting Assignment to Batch and the end of the case;5.06 days;

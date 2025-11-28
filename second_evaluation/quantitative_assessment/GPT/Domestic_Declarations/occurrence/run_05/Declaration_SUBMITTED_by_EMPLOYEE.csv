@@ -1,0 +1,15 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration SUBMITTED by EMPLOYEE' leading to 'Declaration APPROVED by ADMINISTRATION';Frequency of activity 'Declaration SUBMITTED by EMPLOYEE' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;7983.0;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' followed by 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Number of 'Declaration SUBMITTED by EMPLOYEE' with amounts above 100 euros;Number of 'Declaration SUBMITTED by EMPLOYEE' activities > 100 where ma is the last value of case:Amount;2777.0;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' that result in 'Request Payment';Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Request Payment';1.0;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' followed by 'Payment Handled';Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Payment Handled';1.0;
+Number of 'Declaration SUBMITTED by EMPLOYEE' that are not followed by 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration SUBMITTED by EMPLOYEE' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' does not occur;11531.0;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' in relation to all activities in the event log;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases where '' does not happen;0.99;
+Frequency of 'Declaration SUBMITTED by EMPLOYEE' leading to a process variant involving 'Declaration APPROVED by BUDGET OWNER';Frequency of activity 'Declaration SUBMITTED by EMPLOYEE' for cases where activity 'Declaration APPROVED by BUDGET OWNER' occurs;2807.0;
+Number of 'Declaration SUBMITTED by EMPLOYEE' followed by 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Declaration SUBMITTED by EMPLOYEE' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;11191.0;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' that are part of a process ending in 'Payment Handled' without 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Payment Handled';1.0;
+Frequency of 'Declaration SUBMITTED by EMPLOYEE' in processes that require director approval;Frequency of activity 'Declaration SUBMITTED by EMPLOYEE' for cases where activity 'Director Approval' occurs;;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' in processes that involve domestic declarations;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Domestic Declaration';;
+Number of 'Declaration SUBMITTED by EMPLOYEE' in processes that were completed within two months after the trip;Number of 'Declaration SUBMITTED by EMPLOYEE' activities;11531.0;
+Frequency of 'Declaration SUBMITTED by EMPLOYEE' per year;Number of 'Declaration SUBMITTED by EMPLOYEE' activities;11531.0;

@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Initial Reviewer Selection out of all activity executions in the event log;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Frequency of SW-Initial Reviewer Selection across all cases;Number of 'SW-Initial Reviewer Selection' activities;65.0;
+Percentage of variants that include SW-Initial Reviewer Selection as a step in the process flow;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Number of times SW-Initial Reviewer Selection is immediately followed by SW-Reviewer Selection is due in 1 week;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Reviewer Selection is due in 1 week' occurs;44.0;
+Percentage of SW-Initial Reviewer Selection occurrences that are eventually followed by SW-Reviewer Agreed;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Agreed';0.98;
+Frequency of SW-Initial Reviewer Selection relative to SW-Awaiting AE Assignment;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Awaiting AE Assignment' occurs;39.0;
+Percentage of cases where SW-Initial Reviewer Selection occurs but no SW-Reviewer Agreed is ever recorded;Percentage of 'SW-Initial Reviewer Selection' out of all cases where 'SW-Reviewer Agreed' does not happen;0.65;
+Percentage of SW-Initial Reviewer Selection that precedes any reviewer-related reminder (e.g., Reviewer Invitation Reminder 1 or 2);Percentage of 'SW-Initial Reviewer Selection' out of all 'Reviewer Invitation Reminder 1';0.89;
+Ratio of SW-Initial Reviewer Selection to SW-AE Assign Reviewers across the entire log;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-AE Assign Reviewers' occurs;45.0;
+Percentage of SW-Initial Reviewer Selection activities that occur before Plagiarism Originality Report Completed;Percentage of 'SW-Initial Reviewer Selection' out of all 'Plagiarism Originality Report Completed';0.65;
+Frequency of SW-Initial Reviewer Selection in variants that ultimately lead to SW-EIC Accept versus those leading to rejection outcomes;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-EIC Accept' occurs;6.0;
+Percentage of SW-Initial Reviewer Selection activities that are part of cycles involving repeated SW-AE Assign Reviewers;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-AE Assign Reviewers';0.98;
+Number of distinct cases in which SW-Initial Reviewer Selection appears exactly once;Number of 'SW-Initial Reviewer Selection' activities;65.0;
+Percentage of SW-Initial Reviewer Selection occurrences that are followed within 7 days by any reviewer response activity (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, or SW-Reviewer No Response);Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Agreed';0.98;
+Number of SW-Initial Reviewer Selection events per month to assess temporal distribution;"ERROR: computing metric {'count': activity == 'SW-Initial Reviewer Selection'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

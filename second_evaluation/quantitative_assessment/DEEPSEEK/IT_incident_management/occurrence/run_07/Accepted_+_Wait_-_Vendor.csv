@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Accepted + Wait - Vendor out of all Accepted + Wait activities;Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait';0.05;
+Number of Accepted + Wait - Vendor;Number of 'Accepted + Wait - Vendor' activities;299;
+Percentage of Accepted + Wait - Vendor before Completed + Resolved;Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + Resolved';0.04;
+Number of Accepted + Wait - Vendor that are preceded by Accepted + In Progress;Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Accepted + In Progress' occurs;298;
+Percentage of Accepted + Wait - Vendor that occur in variants with high frequency;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Percentage of Accepted + Wait - Vendor from all wait-type activities;Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait';0.05;
+Number of Accepted + Wait - Vendor with Medium impact;Number of 'Accepted + Wait - Vendor' activities == 'Medium' where ma is the last value of impact;176;
+Percentage of Accepted + Wait - Vendor by Frederic resource;Percentage of 'Accepted + Wait - Vendor' out of all cases;;
+Number of Accepted + Wait - Vendor grouped by country;Number of 'Accepted + Wait - Vendor' activities grouped by the last value of resource country;0:290;"{""0"":290,""Australia"":0,""Belgium"":1,""Brazil"":1,""Canada"":0,""China"":0,""France"":0,""INDIA"":0,""Japan"":0,""Korea"":0,""MALAYSIA"":0,""POLAND"":2,""RUSSIAN FEDERATION"":0,""Sweden"":5,""THAILAND"":0,""USA"":0,""United Kingdom"":0}"
+Percentage of Accepted + Wait - Vendor followed by Completed + Resolved;Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + Resolved';0.04;
+Average number of Accepted + Wait - Vendor per case;the average of the number of times `ACTIVITY` == 'Accepted + Wait - Vendor';0.04;
+Percentage of Accepted + Wait - Vendor in variants containing Completed + In Call;Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + In Call';0.0;
+Number of Accepted + Wait - Vendor relative to Accepted + Wait - User;Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Accepted + Wait - User' occurs;138;
+Frequency of Accepted + Wait - Vendor in problem management process;Percentage of 'Accepted + Wait - Vendor' out of all cases;;
+Percentage of cases containing Accepted + Wait - Vendor that eventually reach Completed + Closed;Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + Closed';0.04;
+Ratio of Accepted + Wait - Vendor over Accepted + Wait - Implementation;Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Accepted + Wait - Implementation' occurs;32;
+Percentage of Accepted + Wait - Vendor occurring in Brazilian cases;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.0;
+Number of Accepted + Wait - Vendor performed by Anne Claire;Number of 'Accepted + Wait - Vendor' activities == 'Anne Claire' where ma is the last value of org:resource;;
+Percentage of Accepted + Wait - Vendor activities that are immediately followed by another wait activity;Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait';0.05;
+Frequency of Accepted + Wait - Vendor in variants with performance above 500000;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;

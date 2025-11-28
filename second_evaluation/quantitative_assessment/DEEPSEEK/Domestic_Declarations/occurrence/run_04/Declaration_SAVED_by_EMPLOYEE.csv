@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration SAVED by EMPLOYEE out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Number of Declaration SAVED by EMPLOYEE;Number of 'Declaration SAVED by EMPLOYEE' activities;135;
+Percentage of Declaration SAVED by EMPLOYEE that are not followed by Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases where 'Declaration SUBMITTED by EMPLOYEE' does not happen;0.01;
+Percentage of Declaration SAVED by EMPLOYEE from all Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of Declaration SAVED by EMPLOYEE with amounts above 100 euros;Number of 'Declaration SAVED by EMPLOYEE' activities > 100 where ma is the last value of case:Amount;0;
+Percentage of Declaration SAVED by EMPLOYEE by STAFF MEMBER;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;;
+Number of Declaration SAVED by EMPLOYEE grouped by org:resource;Number of 'Declaration SAVED by EMPLOYEE' activities grouped by the last value of org:resource;STAFF MEMBER:134;"{""STAFF MEMBER"":134,""SYSTEM"":1}"
+Percentage of Declaration SAVED by EMPLOYEE that are eventually rejected;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration REJECTED by EMPLOYEE';0.0;
+Percentage of Declaration SAVED by EMPLOYEE in variants containing Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Ratio of Declaration SAVED by EMPLOYEE over Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of Declaration SAVED by EMPLOYEE that are followed by Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of Declaration SAVED by EMPLOYEE that are followed by Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.0;
+Average number of Declaration SAVED by EMPLOYEE per case;the average of the number of times `ACTIVITY` == 'Declaration SAVED by EMPLOYEE';0.01;
+Percentage of cases containing Declaration SAVED by EMPLOYEE that result in Payment Handled;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Payment Handled';0.0;
+Frequency of Declaration SAVED by EMPLOYEE preceding Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of Declaration SAVED by EMPLOYEE in domestic travel declarations;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;0.01;
+Number of Declaration SAVED by EMPLOYEE that are preceded by Declaration REJECTED by ADMINISTRATION;Number of 'Declaration SAVED by EMPLOYEE' activities for cases where activity 'Declaration REJECTED by ADMINISTRATION' occurs;0;
+Percentage of Declaration SAVED by EMPLOYEE occurring within two months of trip completion;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;0.01;
+Ratio of Declaration SAVED by EMPLOYEE to Declaration APPROVED by ADMINISTRATION in reimbursement claims;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Number of Declaration SAVED by EMPLOYEE made per year;Number of 'Declaration SAVED by EMPLOYEE' activities;135;

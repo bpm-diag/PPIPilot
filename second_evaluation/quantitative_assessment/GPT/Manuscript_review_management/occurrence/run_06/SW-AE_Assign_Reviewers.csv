@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-AE Assign Reviewers' compared to 'SW-Reviewer Agreed';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Percentage of manuscripts that proceed to 'SW-Reviewer Agreed' after 'SW-AE Assign Reviewers';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Number of 'SW-AE Assign Reviewers' activities per case;Number of 'SW-AE Assign Reviewers' activities;143.0;
+Percentage of 'SW-AE Assign Reviewers' followed by 'Reviewer Invitation Reminder 1';Percentage of 'SW-AE Assign Reviewers' out of all 'Reviewer Invitation Reminder 1';0.89;
+Frequency of 'SW-AE Assign Reviewers' in the most common process variant;Frequency of activity 'SW-AE Assign Reviewers';46.0;
+Percentage of cases with 'SW-AE Assign Reviewers' leading to 'SW-EIC Major Revision';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-EIC Major Revision';1.0;
+Number of 'SW-AE Assign Reviewers' activities that precede any 'SW-Reviewer Declined';Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-Reviewer Declined' occurs;100.0;
+Percentage of 'SW-AE Assign Reviewers' followed by 'SW-Reviewer Selection is now due';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Selection is now due';0.92;
+Frequency of 'SW-AE Assign Reviewers' in cases that result in 'RW-EIC Accept';Frequency of activity 'SW-AE Assign Reviewers' for cases where activity 'RW-EIC Accept' occurs;18.0;
+Percentage of 'SW-AE Assign Reviewers' in relation to all activities in the event log;Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;
+Number of 'SW-AE Assign Reviewers' activities followed by 'Unassign Editor';Number of 'SW-AE Assign Reviewers' activities for cases where activity 'Unassign Editor' occurs;20.0;
+Percentage of 'SW-AE Assign Reviewers' leading to a 'SW-EIC Reject';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-EIC Reject';0.26;
+Percentage of 'SW-AE Assign Reviewers' followed by 'Assign a Different Editor';Percentage of 'SW-AE Assign Reviewers' out of all 'Assign a Different Editor';0.64;
+Number of 'SW-AE Assign Reviewers' activities in cases with 'Manuscript Export Succeeded';Number of 'SW-AE Assign Reviewers' activities for cases where activity 'Manuscript Export Succeeded' occurs;140.0;
+Frequency of 'SW-AE Assign Reviewers' in cases requiring 'SW–Major Revision due in 1 week';Number of 'SW-AE Assign Reviewers' activities;143.0;

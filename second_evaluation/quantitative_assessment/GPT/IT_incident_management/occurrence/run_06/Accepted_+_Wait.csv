@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Wait' leading to 'Completed + In Call';Frequency of activity 'Accepted + Wait' for cases where activity 'Completed + In Call' occurs;79.0;
+Percentage of cases involving 'Accepted + Wait' that also involve 'Accepted + In Progress';Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Frequency of 'Accepted + Wait' followed by 'Completed + Resolved';Frequency of activity 'Accepted + Wait' for cases where activity 'Completed + Resolved' occurs;1064.0;
+Percentage of 'Accepted + Wait' in relation to all activities in the event log;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Number of 'Accepted + Wait' activities that precede 'Accepted + Assigned';Frequency of activity 'Accepted + Wait' for cases where activity 'Accepted + Assigned' occurs;567.0;
+Percentage of 'Accepted + Wait' activities that lead to a resolution without entering 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait' out of all cases where 'Queued + Awaiting Assignment' does not happen;0.15;
+Frequency of 'Accepted + Wait' as a direct precursor to 'Completed + Closed';Frequency of activity 'Accepted + Wait' for cases where activity 'Completed + Closed' occurs;1050.0;
+Percentage of 'Accepted + Wait' followed by any activity other than 'Accepted + Wait - User';Percentage of 'Accepted + Wait' out of all cases where 'Accepted + Wait - User' does not happen;0.15;
+Number of transitions from 'Accepted + Wait' to 'Accepted + Wait - Implementation' compared to transitions to 'Accepted + Wait - Vendor';Frequency of activity 'Accepted + Wait' for cases where activity 'Accepted + Wait - Implementation' occurs;116.0;
+Percentage of 'Accepted + Wait' activities that occur after 'Queued + Awaiting Assignment' and lead to 'Completed + Resolved';Percentage of 'Accepted + Wait' out of all 'Completed + Resolved';0.19;
+Percentage of 'Accepted + Wait' activities that are part of the top 5 most frequent variants;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Number of 'Accepted + Wait' activities that are followed by 'Completed + In Call', considering the goal to understand the impact of 'Completed + In Call';Frequency of activity 'Accepted + Wait' for cases where activity 'Completed + In Call' occurs;79.0;
+Percentage of 'Accepted + Wait' activities that occur in cases originating from France, considering the description of the event log;Percentage of 'Accepted + Wait' out of all cases;;
+Frequency of 'Accepted + Wait' in relation to 'Accepted + In Progress' in the most frequent variant paths;Frequency of activity 'Accepted + Wait';1115.0;
+Percentage of 'Accepted + Wait' activities that lead to a change in the case status from 'In Progress' to 'Resolved';Percentage of 'Accepted + Wait' out of all cases;0.15;
+Number of 'Accepted + Wait' activities that are immediately followed by any 'Completed' status activity;Frequency of activity 'Accepted + Wait' for cases where activity 'Completed + Resolved' occurs;1064.0;
+Percentage of 'Accepted + Wait' activities that result in a case being reopened after being marked as 'Completed + Closed';Percentage of 'Accepted + Wait' out of all cases;0.15;
+Frequency of 'Accepted + Wait' in cases that have a duration in the top quartile of all case durations;Frequency of activity 'Accepted + Wait';1115.0;
+Percentage of 'Accepted + Wait' activities that are part of cases involving multiple countries, reflecting the global nature of the event log;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Frequency of 'Accepted + Wait' in cases with performance above the median performance of all variants;Number of 'Accepted + Wait' activities;1461.0;

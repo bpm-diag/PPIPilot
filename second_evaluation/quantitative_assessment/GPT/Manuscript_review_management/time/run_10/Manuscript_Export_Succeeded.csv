@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from Manuscript Export Succeeded to SW-Reviewer Agreed;The average of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Reviewer Agreed';29.26 days;
+Total time from Manuscript Export Succeeded to SW-Awaiting AE Recommendation;The sum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Awaiting AE Recommendation';1943.85 days;
+Minimum time from Manuscript Export Succeeded to Plagiarism Originality Report Completed;The minimum of the duration between activity 'Manuscript Export Succeeded' and activity 'Plagiarism Originality Report Completed';9.03 minutes;
+Average time for Manuscript Export Succeeded to be completed after Original Manuscript Submission Confirmation;The average of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'Manuscript Export Succeeded';74.66 days;
+Total resolution time of Manuscript Export Succeeded;The sum of the duration between activity Manuscript Export Succeeded and the end of the case;9239.42 days;
+Average time it takes from Manuscript Export Succeeded to SW-Checklist Completed;The average of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Checklist Completed';4.48 days;
+Minimum time it takes from Manuscript Export Succeeded to the first Reviewer Invitation Reminder 1;The minimum of the duration between activity 'Manuscript Export Succeeded' and activity 'Reviewer Invitation Reminder 1';5.01 days;
+Total time between Manuscript Export Succeeded and SW-AE Assign Reviewers;The sum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-AE Assign Reviewers';1235.27 days;
+Average waiting time to Manuscript Export Succeeded after SW-Awaiting Checklist Completion;The average of the duration between activity 'SW-Awaiting Checklist Completion' and activity 'Manuscript Export Succeeded';75.49 days;
+Minimum resolution time of Manuscript Export Succeeded;The minimum of the duration between activity Manuscript Export Succeeded and the end of the case;3.24 hours;
+Average time from Manuscript Export Succeeded to Revised Manuscript Submission Confirmation in the case of major revisions;The average of the duration between activity 'Manuscript Export Succeeded' and activity 'Revised Manuscript Submission Confirmation';174.19 days;
+Total time from Manuscript Export Succeeded to First Look Manuscript Submission Confirmation in the case of minor revisions;The sum of the duration between activity 'Manuscript Export Succeeded' and activity 'First Look Manuscript Submission Confirmation';4459.78 days;
+Average time for Manuscript Export Succeeded before SW-AE Assign Reviewers Challenge Paper;The average of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-AE Assign Reviewers Challenge Paper';9.29 days;
+Total time it takes Manuscript Export Succeeded to reach SW-EIC Decision stage;The sum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Awaiting EIC Decision';3857.75 days;
+Minimum time between Manuscript Export Succeeded and SW-Awaiting EIC Decision;The minimum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Awaiting EIC Decision';2.03 days;

@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting EIC Decision occurrences out of all activity executions in the event log;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Frequency of SW-Awaiting EIC Decision across all cases;Number of 'SW-Awaiting EIC Decision' activities;60.0;
+Percentage of variants that include SW-Awaiting EIC Decision followed by SW-EIC Accept;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Percentage of variants that include SW-Awaiting EIC Decision followed by SW-EIC Reject;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Reject';0.47;
+Percentage of variants that include SW-Awaiting EIC Decision followed by SW-EIC Major Revision;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Major Revision';1.0;
+Percentage of variants that include SW-Awaiting EIC Decision followed by SW-EIC Minor Revision;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Minor Revision';0.86;
+Percentage of SW-Awaiting EIC Decision occurrences that are immediately preceded by SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Awaiting AE Recommendation';0.97;
+Percentage of SW-Awaiting EIC Decision occurrences that are immediately preceded by SW-Reviewer Agreed;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Agreed';0.98;
+Frequency of SW-Awaiting EIC Decision in cases where SW-Reviewer Agreed appears at least once;Number of 'SW-Awaiting EIC Decision' activities for cases where activity 'SW-Reviewer Agreed' occurs;45.0;
+Percentage of cases containing SW-Reviewer Agreed that eventually reach SW-Awaiting EIC Decision;Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Ratio of SW-Awaiting EIC Decision occurrences to SW-Reviewer Agreed occurrences;the average of the number of times `ACTIVITY` == 'SW-Awaiting EIC Decision' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Reviewer Agreed';0.98;
+Percentage of SW-Awaiting EIC Decision activities that occur after at least three reviewer-related activities (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, SW-Reviewer No Response);Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Agreed';0.98;
+Frequency of SW-Awaiting EIC Decision in variants with performance duration above the median variant duration;Number of 'SW-Awaiting EIC Decision' activities;60.0;
+Percentage of SW-Awaiting EIC Decision occurrences that lead to a final decision (SW-EIC Accept, SW-EIC Reject, SW-EIC Major Revision, or SW-EIC Minor Revision) within 7 days;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Percentage of all EIC-decision-related waiting states (including RW-Awaiting EIC Decision and RSW-Awaiting EIC Decision) that correspond specifically to SW-Awaiting EIC Decision;Percentage of 'SW-Awaiting EIC Decision' out of all 'RW-Awaiting EIC Decision';0.88;

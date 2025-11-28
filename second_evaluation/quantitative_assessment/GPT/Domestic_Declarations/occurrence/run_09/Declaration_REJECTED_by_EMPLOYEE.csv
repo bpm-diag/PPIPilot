@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by EMPLOYEE' followed by 'Declaration SUBMITTED by EMPLOYEE';Frequency of activity 'Declaration REJECTED by EMPLOYEE' for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;1212;
+Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Number of 'Declaration REJECTED by EMPLOYEE' that are preceded by 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration REJECTED by EMPLOYEE' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;86;
+Frequency of 'Declaration REJECTED by EMPLOYEE' in relation to 'Declaration APPROVED by ADMINISTRATION';Frequency of activity 'Declaration REJECTED by EMPLOYEE' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;880;
+Percentage of 'Declaration REJECTED by EMPLOYEE' followed by 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration APPROVED by ADMINISTRATION';0.11;
+Number of 'Declaration REJECTED by EMPLOYEE' with amounts above 100 euros;Number of 'Declaration REJECTED by EMPLOYEE' activities > 100 where ma is the last value of case:Amount;433;
+Percentage of 'Declaration REJECTED by EMPLOYEE' by 'org:resource';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;STAFF MEMBER:0.63;"{""STAFF MEMBER"":0.6258205689,""SYSTEM"":0.0922035248}"
+Number of 'Declaration REJECTED by EMPLOYEE' grouped by 'case:BudgetNumber';Number of 'Declaration REJECTED by EMPLOYEE' activities;1365;
+Percentage of 'Declaration REJECTED by EMPLOYEE' by worker;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;STAFF MEMBER:0.63;"{""STAFF MEMBER"":0.6258205689,""SYSTEM"":0.0922035248}"
+Percentage of 'Declaration REJECTED by EMPLOYEE' that are not followed by 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases where 'Declaration SUBMITTED by EMPLOYEE' does not happen;0.12;
+Number of 'Declaration REJECTED by EMPLOYEE' in relation to 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Declaration REJECTED by EMPLOYEE' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;1047;
+Frequency of 'Declaration REJECTED by EMPLOYEE' as a part of the process variants leading to 'Payment Handled';Frequency of activity 'Declaration REJECTED by EMPLOYEE' for cases where activity 'Payment Handled' occurs;927;
+Percentage of cases with 'Declaration REJECTED by EMPLOYEE' leading to a re-submission within the same process variant;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Number of times 'Declaration REJECTED by EMPLOYEE' occurs before 'Request Payment';Number of 'Declaration REJECTED by EMPLOYEE' activities for cases where activity 'Request Payment' occurs;1047;
+Percentage of 'Declaration REJECTED by EMPLOYEE' in cases exceeding the average processing time;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Frequency of 'Declaration REJECTED by EMPLOYEE' in cases with 'Declaration REJECTED by PRE_APPROVER';Frequency of activity 'Declaration REJECTED by EMPLOYEE' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;81;
+Percentage reduction in 'Declaration REJECTED by EMPLOYEE' as a result of interventions aimed at reducing 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' from all rejections;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by EMPLOYEE';1.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' out of all rejections by 'org:resource';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;STAFF MEMBER:1.0;"{""STAFF MEMBER"":1.0,""SYSTEM"":1.0}"
+Frequency of 'Declaration REJECTED by EMPLOYEE' made per year;Number of 'Declaration REJECTED by EMPLOYEE' activities;1365;

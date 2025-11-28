@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of Manuscript Export Succeeded before Plagiarism Originality Report Completed;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'Plagiarism Originality Report Completed' occurs;86;
+Number of Manuscript Export Succeeded occurrences;Number of 'Manuscript Export Succeeded' activities;141;
+Percentage of Manuscript Export Succeeded out of all Original Manuscript Submission Confirmation;Percentage of 'Manuscript Export Succeeded' out of all 'Original Manuscript Submission Confirmation';1.0;
+Number of Manuscript Export Succeeded that are preceded by SW-Awaiting Checklist Completion;Number of 'Manuscript Export Succeeded' activities for cases where activity 'SW-Awaiting Checklist Completion' occurs;134;
+Percentage of Manuscript Export Succeeded that lead to SW-AE Assign Reviewers;Percentage of 'Manuscript Export Succeeded' out of all 'SW-AE Assign Reviewers';0.98;
+Percentage of Manuscript Export Succeeded from all SW-EIC Reject;Percentage of 'Manuscript Export Succeeded' out of all 'SW-EIC Reject';0.97;
+Frequency of Manuscript Export Succeeded followed by Revised Manuscript Submission Confirmation;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'Revised Manuscript Submission Confirmation' occurs;24;
+Percentage of Manuscript Export Succeeded by sender;Percentage of 'Manuscript Export Succeeded' out of all cases;catarci@diag.uniroma1.it:1.0;"{""catarci@diag.uniroma1.it"":1.0,""clcabanban@ched.gov.ph"":1.0,""gleb@intentionalinsights.org"":1.0,""marrella@diag.uniroma1.it"":0.75,""onbehalfof@manuscriptcentral.com"":0.9651162791}"
+Percentage of Manuscript Export Succeeded that are followed by First Look-Please submit updates;Percentage of 'Manuscript Export Succeeded' out of all 'First Look-Please submit updates';1.0;
+Ratio of Manuscript Export Succeeded over SW-Reviewer Agreed;Percentage of 'Manuscript Export Succeeded' out of all 'SW-Reviewer Agreed';0.98;
+Occasions how often Manuscript Export Succeeded is performed in relation to SW-AE Assign Reviewers Challenge Paper;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'SW-AE Assign Reviewers Challenge Paper' occurs;3;
+Number of Manuscript Export Succeeded grouped by case:concept:name;Number of 'Manuscript Export Succeeded' activities;141;
+Frequency of Manuscript Export Succeeded per year;Frequency of activity 'Manuscript Export Succeeded';89;
+Average number of Manuscript Export Succeeded in a month;the average of the number of times `ACTIVITY` == 'Manuscript Export Succeeded';1.52;
+Total Manuscript Export Succeeded done by onbehalfof@manuscriptcentral.com;Number of 'Manuscript Export Succeeded' activities;141;

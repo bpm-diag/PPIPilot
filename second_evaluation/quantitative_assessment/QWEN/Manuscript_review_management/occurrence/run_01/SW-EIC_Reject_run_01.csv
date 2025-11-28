@@ -1,0 +1,2 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-EIC Reject out of all decision activities (e.g., SW-EIC Accept, SW-EIC Major Revision, SW-EIC Minor Revision, SW-EIC Reject & Resubmit);"ERROR: computing metric {'count': activity == 'SW-EIC Reject'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-EIC Accept', 'SW-EIC Major Revision', 'SW-EIC Minor Revision', 'SW-EIC Reject & Resubmit', 'SW-EIC Reject']""}""";;

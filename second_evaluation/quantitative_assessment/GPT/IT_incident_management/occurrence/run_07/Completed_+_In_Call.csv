@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Completed + In Call' compared to 'Completed + Resolved';Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Percentage of cases including 'Completed + In Call' before 'Completed + Closed';Percentage of 'Completed + In Call' out of all 'Completed + Closed';0.02;
+Number of 'Completed + In Call' activities followed by 'Accepted + In Progress';Number of 'Completed + In Call' activities for cases where activity 'Accepted + In Progress' occurs;2018;
+Frequency of 'Completed + In Call' in the most common variant paths;Frequency of activity 'Completed + In Call';2018;
+Percentage of 'Completed + In Call' activities by country;Percentage of 'Completed + In Call' out of all cases;0:0.04;"{""0"":0.0384615385,""SE"":0.0163934426,""au"":0.12,""be"":0.1618257261,""br"":0.1736334405,""ca"":0.2424242424,""cl"":0.0,""cn"":0.0198019802,""de"":0.0,""fr"":0.0517799353,""gb"":0.0909090909,""in"":0.0243902439,""jp"":0.0,""kr"":0.0,""my"":0.2307692308,""nl"":0.0,""pe"":0.0,""pl"":0.4755959137,""ru"":0.1555555556,""se"":0.2311679337,""th"":0.8333333333,""tr"":0.0,""us"":0.3948717949}"
+Percentage of 'Completed + In Call' activities that lead to a case being closed within 7 days;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' in cases with performance above average;Frequency of activity 'Completed + In Call';2018;
+Percentage of 'Completed + In Call' followed by 'Accepted + Wait - User';Percentage of 'Completed + In Call' out of all 'Accepted + Wait - User';0.04;
+Number of 'Completed + In Call' activities preceded by 'Accepted + In Progress' without any 'Queued + Awaiting Assignment' in between;Number of 'Completed + In Call' activities for cases where activity 'Accepted + In Progress' occurs;2018;
+Percentage of 'Completed + In Call' in cases that involve more than 3 different resources;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' in cases originating from France compared to Brazil;Frequency of activity 'Completed + In Call';;
+Percentage of 'Completed + In Call' activities in cases that were resolved within the same day;Percentage of 'Completed + In Call' out of all cases;0.27;
+Number of 'Completed + In Call' activities that occur after 'Accepted + Wait - Vendor';Number of 'Completed + In Call' activities for cases where activity 'Accepted + Wait - Vendor' occurs;1;
+Percentage of 'Completed + In Call' in the total activities performed by the top 5 resources;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' in variants with performance below the median;Frequency of activity 'Completed + In Call';2018;
+Percentage of 'Completed + In Call' followed by any 'Completed' activity within 24 hours;Percentage of 'Completed + In Call' out of all cases;0.27;
+Number of 'Completed + In Call' activities in cases with more than 5 activities;Number of 'Completed + In Call' activities;2018;
+Percentage of 'Completed + In Call' in cases that were reopened after closure;Percentage of 'Completed + In Call' out of all cases;0.27;
+Percentage of 'Completed + In Call' out of all 'Completed' activities;Percentage of 'Completed + In Call' out of all cases;0.27;
+Number of 'Completed + In Call' activities grouped by month;Number of 'Completed + In Call' activities;2018;

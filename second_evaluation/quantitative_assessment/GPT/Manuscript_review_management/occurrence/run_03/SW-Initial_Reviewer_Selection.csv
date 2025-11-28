@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Initial Reviewer Selection' followed by 'SW-Reviewer Agreed';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-Reviewer Agreed' occurs;45.0;
+Percentage of manuscripts that proceed to 'SW-Reviewer Agreed' after 'SW-Initial Reviewer Selection';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Agreed';0.98;
+Number of 'SW-Initial Reviewer Selection' activities that lead to a 'SW-EIC Major Revision' decision;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-EIC Major Revision' occurs;14.0;
+Frequency of 'SW-Initial Reviewer Selection' in relation to 'SW-AE Assign Reviewers';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-AE Assign Reviewers' occurs;45.0;
+Percentage of 'SW-Initial Reviewer Selection' activities that are not followed by 'Reviewer Invitation Reminder 1';Percentage of 'SW-Initial Reviewer Selection' out of all cases where 'Reviewer Invitation Reminder 1' does not happen;0.65;
+Ratio of 'SW-Initial Reviewer Selection' to 'SW-Reviewer Declined';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-Reviewer Declined' occurs;28.0;
+Number of 'SW-Initial Reviewer Selection' activities per variant;Number of 'SW-Initial Reviewer Selection' activities;65.0;
+Percentage of 'SW-Initial Reviewer Selection' leading to 'SW-Awaiting EIC Decision';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Awaiting EIC Decision';0.98;
+Frequency of 'SW-Initial Reviewer Selection' followed by 'SW-Reviewer Selection is due in 1 week';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-Reviewer Selection is due in 1 week' occurs;42.0;
+Percentage of 'SW-Initial Reviewer Selection' activities that precede any form of manuscript submission confirmation;Percentage of 'SW-Initial Reviewer Selection' out of all 'Original Manuscript Submission Confirmation';0.69;
+Number of 'SW-Initial Reviewer Selection' activities that occur before 'SW-Checklist Completed';Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Checklist Completed' occurs;63.0;
+Percentage of 'SW-Initial Reviewer Selection' followed by 'SW-AE Assign Reviewers' within the same case;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-AE Assign Reviewers';0.98;
+Frequency of 'SW-Initial Reviewer Selection' in manuscripts that eventually get accepted ('SW-EIC Accept');Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-EIC Accept' occurs;3.0;
+Ratio of 'SW-Initial Reviewer Selection' over 'SW-Reviewer No Response';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-Reviewer No Response' occurs;5.0;
+Number of 'SW-Initial Reviewer Selection' activities that lead to a 'SW-EIC Reject & Resubmit' decision;"ERROR: computing metric {'count': activity == 'SW-EIC Reject & Resubmit'"", 'aggregation': 'total'}""";;

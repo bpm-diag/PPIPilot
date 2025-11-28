@@ -1,0 +1,8 @@
+Name;Metric;Value;Agrupation;
+Minimum time between Accepted + In Progress and Completed + Closed;The minimum of the duration between activity 'Accepted + In Progress' and activity 'Completed + Closed';1.58 minutes;
+Total time from Accepted + In Progress to Completed + Closed;The sum of the duration between activity 'Accepted + In Progress' and activity 'Completed + Closed';89557.52 days;
+Total resolution time of Completed + Closed;The sum of the duration between the start of the case and activity 'Completed + Closed';89695.10 days;
+Minimum waiting time to the Completed + Closed;The minimum of the duration between the start of the case and activity 'Completed + Closed';1.58 minutes;
+Minimum time it takes Completed + Closed after the execution of Completed + Resolved;The minimum of the duration between activity 'Completed + Resolved' and activity 'Completed + Closed';1.00 seconds;
+Minimum time it takes the Completed + Closed to be done;The minimum of the duration between activity Completed + Closed and the end of the case;0.00 seconds;
+Average time it takes the Completed + Closed to be done;The average of the duration between activity Completed + Closed and the end of the case;10.44 hours;

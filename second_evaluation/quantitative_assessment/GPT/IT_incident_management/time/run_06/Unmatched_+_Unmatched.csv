@@ -1,0 +1,15 @@
+Name;Metric;Value;Agrupation
+Average resolution time following 'Unmatched + Unmatched' activity;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total time spent in 'Unmatched + Unmatched' before transitioning to any 'Accepted + In Progress' activity;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';23.76 hours;
+Average delay time caused by 'Unmatched + Unmatched' in the entire incident resolution process;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total resolution time of incidents involving 'Unmatched + Unmatched';The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Minimum time from 'Unmatched + Unmatched' to 'Completed + Resolved';The minimum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';4.32 minutes;
+Average time from 'Unmatched + Unmatched' to the next activity in the most frequent variant;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total time from 'Unmatched + Unmatched' to 'Completed + Closed' across all cases;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Closed';50.48 days;
+Minimum resolution time of incidents starting with 'Unmatched + Unmatched';The minimum of the duration between activity Unmatched + Unmatched and the end of the case;7.36 days;
+Average time between 'Unmatched + Unmatched' and 'Accepted + Wait - User';The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Wait - User';11.89 hours;
+Average time from 'Unmatched + Unmatched' to 'Accepted + Assigned';The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Assigned';24.43 minutes;
+Cycle time of 'Unmatched + Unmatched' in the context of the VINST system;The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Average time from 'Unmatched + Unmatched' to 'Accepted + Wait - Implementation';The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Wait - Implementation';;
+Total time from 'Unmatched + Unmatched' to 'Accepted + Wait - Vendor' in all variants;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Wait - Vendor';;
+Total time in 'Unmatched + Unmatched' for incidents exceeding average resolution time;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Unmatched + Unmatched';0.00 seconds;

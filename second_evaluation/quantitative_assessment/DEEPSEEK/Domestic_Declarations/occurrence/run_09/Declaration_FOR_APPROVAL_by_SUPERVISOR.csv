@@ -1,0 +1,26 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR that are followed by Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR that are followed by Declaration REJECTED by SUPERVISOR;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by SUPERVISOR';0.0;
+Number of Declaration FOR_APPROVAL by SUPERVISOR;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities;1.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR that are not dismissed;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases where 'Declaration REJECTED by SUPERVISOR' does not happen;0.0;
+Number of Declaration FOR_APPROVAL by SUPERVISOR that are preceded by Declaration APPROVED by ADMINISTRATION;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;0.0;
+Number of Declaration FOR_APPROVAL by SUPERVISOR that are preceded by Declaration APPROVED by BUDGET OWNER;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities for cases where activity 'Declaration APPROVED by BUDGET OWNER' occurs;0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR from all Declaration FOR_APPROVAL by ADMINISTRATION;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration FOR_APPROVAL by ADMINISTRATION';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR by STAFF MEMBER;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;;
+Number of Declaration FOR_APPROVAL by SUPERVISOR grouped by case:BudgetNumber;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities;1.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR that are rejected;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by SUPERVISOR';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR with amounts above 100 euros;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;0.0;
+Ratio of Declaration FOR_APPROVAL by SUPERVISOR over Declaration FOR_APPROVAL by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration FOR_APPROVAL by PRE_APPROVER';0.0;
+Total Declaration FOR_APPROVAL by SUPERVISOR performed by STAFF MEMBER;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities == 'STAFF MEMBER' where ma is the last value of org:role;;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR in variants containing Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of cases where Declaration FOR_APPROVAL by SUPERVISOR occurs after Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of Declaration FOR_APPROVAL by SUPERVISOR in variants with budget owner and supervisor as same person;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities == 'BUDGET OWNER' where ma is the last value of org:role;;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR that lead to payment within two months;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Payment Handled';0.0;
+Frequency of Declaration FOR_APPROVAL by SUPERVISOR in domestic trip declarations;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR that are eventually followed by Payment Handled;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Payment Handled';0.0;
+Number of Declaration FOR_APPROVAL by SUPERVISOR in pre-paid travel cost processes;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities for cases where activity 'Request Payment' occurs;0.0;
+Ratio of Declaration FOR_APPROVAL by SUPERVISOR to Declaration APPROVED by BUDGET OWNER in same cases;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration APPROVED by BUDGET OWNER';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR that occur without prior Declaration FOR_APPROVAL by ADMINISTRATION;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases where 'Declaration FOR_APPROVAL by ADMINISTRATION' does not happen;0.0;
+Number of Declaration FOR_APPROVAL by SUPERVISOR made per year;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities;1.0;
+Average number of Declaration FOR_APPROVAL by SUPERVISOR in a month;the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by SUPERVISOR';0.0;

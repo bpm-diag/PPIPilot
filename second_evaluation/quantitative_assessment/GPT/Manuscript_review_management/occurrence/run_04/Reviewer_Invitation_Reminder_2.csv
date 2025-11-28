@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Reviewer Invitation Reminder 2' sent after 'Reviewer Invitation Reminder 1';Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'Reviewer Invitation Reminder 1' occurs;41.0;
+Percentage of manuscripts that received a 'Reviewer Invitation Reminder 2' out of all manuscripts;Percentage of 'Reviewer Invitation Reminder 2' out of all cases where '' does not happen;0.44;
+Number of 'Reviewer Invitation Reminder 2' that led to 'SW-Reviewer Agreed';Number of 'Reviewer Invitation Reminder 2' activities for cases where activity 'SW-Reviewer Agreed' occurs;62.0;
+Percentage of 'Reviewer Invitation Reminder 2' followed by 'Assign a Different Editor';Percentage of 'Reviewer Invitation Reminder 2' out of all 'Assign a Different Editor';0.64;
+Frequency of 'Reviewer Invitation Reminder 2' in relation to 'SW-AE Assign Reviewers';Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'SW-AE Assign Reviewers' occurs;36.0;
+Percentage of 'Reviewer Invitation Reminder 2' in manuscripts that required a 'SW-EIC Major Revision';Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-EIC Major Revision';0.8;
+Number of 'Reviewer Invitation Reminder 2' sent per manuscript;Number of 'Reviewer Invitation Reminder 2' activities for cases where activity '' does not occur;71.0;
+Percentage of 'Reviewer Invitation Reminder 2' followed by 'Unassign Editor';Percentage of 'Reviewer Invitation Reminder 2' out of all 'Unassign Editor';0.64;
+Frequency of 'Reviewer Invitation Reminder 2' in manuscripts that went through 'RW-Initial Reviewer Selection';Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'RW-Initial Reviewer Selection' occurs;17.0;
+Percentage of 'Reviewer Invitation Reminder 2' in relation to the total number of reminders sent;Percentage of 'Reviewer Invitation Reminder 2' out of all 'Reviewer Invitation Reminder 1';0.87;
+Number of 'Reviewer Invitation Reminder 2' in manuscripts that ended with 'RW-EIC Accept';Number of 'Reviewer Invitation Reminder 2' activities for cases where activity 'RW-EIC Accept' occurs;32.0;
+Percentage of 'Reviewer Invitation Reminder 2' in manuscripts that exceeded 'Plagiarism Percent Match Threshold Exceeded';Percentage of 'Reviewer Invitation Reminder 2' out of all 'Plagiarism Percent Match Threshold Exceeded';0.55;
+Frequency of 'Reviewer Invitation Reminder 2' in relation to 'Reviewer Invitation Reminder 1';Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'Reviewer Invitation Reminder 1' occurs;41.0;
+Percentage of manuscripts that received both 'Reviewer Invitation Reminder 1' and 'Reviewer Invitation Reminder 2';Percentage of 'Reviewer Invitation Reminder 2' out of all 'Reviewer Invitation Reminder 1';0.87;
+Number of 'Reviewer Invitation Reminder 2' followed by a 'SW-Reviewer Declined';Number of 'Reviewer Invitation Reminder 2' activities for cases where activity 'SW-Reviewer Declined' occurs;48.0;
+Percentage of 'Reviewer Invitation Reminder 2' in the variant leading to 'SW-EIC Major Revision' compared to other variants;Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-EIC Major Revision';0.8;
+Frequency of 'Reviewer Invitation Reminder 2' in manuscripts that required more than one round of review;Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'SW-EIC Major Revision' occurs;12.0;
+Percentage of 'Reviewer Invitation Reminder 2' in manuscripts that were eventually accepted ('RW-EIC Accept') vs. those that were rejected ('RSW-EIC Reject');Percentage of 'Reviewer Invitation Reminder 2' out of all 'RW-EIC Accept';0.73;

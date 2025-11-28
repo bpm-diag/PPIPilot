@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average resolution time following 'Completed + In Call';The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Average duration from 'Completed + In Call' to 'Completed + Resolved';The average of the duration between activity 'Completed + In Call' and activity 'Completed + Resolved';9.07 days;
+Total duration of 'Completed + In Call' activities in the log;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Maximum time to reach 'Completed + In Call' from case start;the maximum of the duration between the first time instant when <ppinot4py.model.states.RuntimeState object at 0x000001A843391A50> - AppliesTo.PROCESS and the last time instant when `ACTIVITY` == 'Completed + In Call';212.93 days;
+Minimum duration between 'Completed + In Call' and any subsequent activity;The minimum of the duration between activity Completed + In Call and the end of the case;0.00 seconds;
+Average duration from 'Completed + In Call' to case closure;The average of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';12.45 days;
+Earliest occurrence of 'Completed + In Call' in a case lifecycle;The minimum of the duration between activity Completed + In Call and the end of the case;0.00 seconds;
+Latest occurrence of 'Completed + In Call' before case closure;The maximum of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';120.68 days;
+Total active time of cases involving 'Completed + In Call';The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Average lead time for cases with 'Completed + In Call' as the final activity before resolution;The average of the duration between activity 'Completed + In Call' and activity 'Completed + Resolved';9.07 days;
+Longest uninterrupted 'Completed + In Call' activity in a single case;the maximum of the duration between the first time instant when `ACTIVITY` == 'Completed + In Call' and the last time instant when <ppinot4py.model.states.RuntimeState object at 0x000001A843391A90> - AppliesTo.PROCESS;120.68 days;
+Shortest time from case start to 'Completed + In Call';The minimum of the duration between the start of the case and activity 'Completed + In Call';0.00 seconds;
+Average delay time before starting 'Completed + In Call' after 'Accepted + Assigned';The average of the duration between activity 'Accepted + Assigned' and activity 'Completed + In Call';30.00 seconds;
+Median duration from 'Accepted + In Progress' to 'Completed + In Call';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';8.65 hours;
+Total number of cases involving 'Completed + In Call' with a resolution time above average;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Duration variance of 'Completed + In Call' across all cases;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Average time from 'Completed + In Call' to 'Completed + Closed' compared to 'Completed + Resolved' to 'Completed + Closed';The average of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';12.45 days;
+Distribution of 'Completed + In Call' duration across different organization countries;The average of the duration between activity 'Completed + In Call' and the end of case grouped by the last value of organization country;0:8.46 days;"{""0"":730980000,""SE"":656483000,""au"":0,""be"":2320899000,""br"":4401500000,""ca"":619330000,""cl"":null,""cn"":10426828000,""de"":null,""fr"":4903990000,""gb"":0,""in"":12076891000,""jp"":null,""kr"":null,""my"":0,""nl"":null,""pe"":null,""pl"":74175693000,""ru"":0,""se"":23059073000,""th"":0,""tr"":null,""us"":11259757000}"
+Comparison of average duration from 'Accepted + In Progress' to 'Completed + In Call' against 'Queued + Awaiting Assignment' to 'Completed + In Call';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';8.65 hours;
+Time gap analysis between 'Completed + In Call' and 'Accepted + Wait - User';The average of the duration between activity 'Completed + In Call' and activity 'Accepted + Wait - User';8.52 days;

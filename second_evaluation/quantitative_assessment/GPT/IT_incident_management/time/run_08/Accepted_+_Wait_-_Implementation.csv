@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average resolution time following 'Accepted + Wait - Implementation';The average of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Resolved';14.00 days;
+Average time from 'Accepted + Wait - Implementation' to 'Completed + Resolved';The average of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Resolved';14.00 days;
+Average time from 'Accepted + Wait - Implementation' to 'Completed + In Call';The average of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + In Call';2.16 days;
+Total time spent in 'Accepted + Wait - Implementation' across all cases;The sum of the duration between activity Accepted + Wait - Implementation and the end of the case;7158.68 days;
+Average delay caused by 'Accepted + Wait - Implementation' in the process flow;The average of the duration between activity Accepted + Wait - Implementation and the end of the case;17.33 days;
+Difference in average time between 'Accepted + Wait - Implementation' and 'Accepted + In Progress' for completing subsequent activities;The average of the duration between activity 'Accepted + Wait - Implementation' and activity 'Accepted + In Progress';13.94 days;
+Total resolution time of cases involving 'Accepted + Wait - Implementation';The sum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Resolved';5640.86 days;
+Average time to resolve a case after 'Accepted + Wait - Implementation';The average of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Resolved';14.00 days;
+Minimum time from 'Accepted + Wait - Implementation' to any completion activity;The minimum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Closed';6.67 minutes;
+Average time from 'Accepted + Wait - Implementation' to 'Completed + Closed';The average of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Closed';17.95 days;
+Total time from 'Accepted + Wait - Implementation' to 'Completed + Resolved' across all variants;The sum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Resolved';5640.86 days;
+Difference in total time to complete a case with 'Accepted + Wait - Implementation' versus without;The sum of the duration between activity Accepted + Wait - Implementation and the end of the case;7158.68 days;
+Average time from 'Accepted + Wait - Implementation' to the next activity in the most frequent variant;The average of the duration between activity Accepted + Wait - Implementation and the end of the case;17.33 days;
+Total time spent in 'Accepted + Wait - Implementation' for cases that also include 'Completed + In Call';The sum of the duration between activity 'Accepted + Wait - Implementation' and the end of case where activity 'Completed + In Call occurs;111.35 days;
+Minimum resolution time of cases involving 'Accepted + Wait - Implementation' before reaching 'Completed + Closed';The minimum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Closed';3.93 hours;

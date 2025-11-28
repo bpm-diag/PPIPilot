@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.27;
+Number of 'Declaration APPROVED by BUDGET OWNER' that are followed by 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;2811;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' with amounts above 100 euros;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;0.31;
+Frequency of 'Declaration APPROVED by BUDGET OWNER' in relation to total declarations processed;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases where '' does not happen;0.27;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' followed by 'Request Payment';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Request Payment';0.28;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' by 'STAFF MEMBER';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;STAFF MEMBER:0.02;"{""STAFF MEMBER"":0.0196936543,""SYSTEM"":0.2786020114}"
+Frequency of 'Declaration APPROVED by BUDGET OWNER' in successful claim processes (ending with 'Payment Handled');Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Payment Handled';0.28;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' in processes that required director approval;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration APPROVED by PRE_APPROVER';0.0;
+Number of 'Declaration APPROVED by BUDGET OWNER' in processes with 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' in claims filed within two months after the trip;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;0.27;
+Frequency of 'Declaration APPROVED by BUDGET OWNER' in claims involving pre-paid travel costs;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;0.27;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' in claims that were eventually paid;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Payment Handled';0.28;
+Number of 'Declaration APPROVED by BUDGET OWNER' in relation to 'Declaration APPROVED by ADMINISTRATION';Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;2820;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' in claims that did not require 'Declaration APPROVED by PRE_APPROVER';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases where 'Declaration APPROVED by PRE_APPROVER' does not happen;0.27;
+Frequency of 'Declaration APPROVED by BUDGET OWNER' in variants leading to 'Payment Handled' without 'Declaration REJECTED by EMPLOYEE';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Payment Handled';0.28;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' in claims with domestic declarations;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;0.27;
+Number of 'Declaration APPROVED by BUDGET OWNER' in claims that involved both 'Declaration APPROVED by ADMINISTRATION' and 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;2820;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' in claims that were processed in less than the average processing time;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;0.27;
+Frequency of 'Declaration APPROVED by BUDGET OWNER' in claims that exceeded the budget;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;0.27;
+Number of 'Declaration APPROVED by BUDGET OWNER' per year;Number of 'Declaration APPROVED by BUDGET OWNER' activities;2820;

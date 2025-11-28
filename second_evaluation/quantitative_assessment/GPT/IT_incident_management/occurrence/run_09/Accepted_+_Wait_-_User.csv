@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Wait - User' leading to 'Completed + In Call';Frequency of activity 'Accepted + Wait - User' for cases where activity 'Completed + In Call' occurs;112;
+Percentage of cases involving 'Accepted + Wait - User' out of all cases;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Number of 'Accepted + Wait - User' activities followed by 'Completed + Resolved';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + Resolved' occurs;3816;
+Percentage of 'Accepted + Wait - User' activities that precede 'Accepted + In Progress';Percentage of 'Accepted + Wait - User' out of all 'Accepted + In Progress';0.33;
+Frequency of 'Accepted + Wait - User' in relation to 'Queued + Awaiting Assignment';Frequency of activity 'Accepted + Wait - User' for cases where activity 'Queued + Awaiting Assignment' occurs;2129;
+Percentage of 'Accepted + Wait - User' followed by 'Accepted + Assigned';Percentage of 'Accepted + Wait - User' out of all 'Accepted + Assigned';0.6;
+Number of 'Accepted + Wait - User' activities that lead to a case closure ('Completed + Closed');Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + Closed' occurs;3759;
+Percentage of 'Accepted + Wait - User' activities out of all 'Accepted + Wait' variants;Percentage of 'Accepted + Wait - User' out of all 'Accepted + Wait';0.51;
+Percentage of 'Accepted + Wait - User' activities by country;Percentage of 'Accepted + Wait - User' out of all cases;0:0.12;"{""0"":0.1153846154,""SE"":0.131147541,""au"":0.24,""be"":0.3506224066,""br"":0.270096463,""ca"":0.1818181818,""cl"":0.0,""cn"":0.4455445545,""de"":1.0,""fr"":0.355987055,""gb"":0.2272727273,""in"":0.6321138211,""jp"":0.4666666667,""kr"":0.5384615385,""my"":0.1538461538,""nl"":0.4482758621,""pe"":0.0,""pl"":0.3632236095,""ru"":0.1777777778,""se"":0.2778161714,""th"":0.1666666667,""tr"":0.0,""us"":0.2756410256}"
+Percentage of 'Accepted + Wait - User' activities that are not followed by 'Completed + Cancelled';Percentage of 'Accepted + Wait - User' out of all cases where 'Completed + Cancelled' does not happen;0.33;
+Number of 'Accepted + Wait - User' activities that occur before 'Queued + Awaiting Assignment';Number of 'Accepted + Wait - User' activities for cases where activity 'Queued + Awaiting Assignment' occurs;3467;
+Percentage of 'Accepted + Wait - User' in cases that involve 'Accepted + In Progress' more than twice;the average of the function base > 2 where base is the number of times `ACTIVITY` == 'Accepted + Wait - User' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Accepted + In Progress';0.04;
+Frequency of transitions from 'Accepted + Wait - User' to 'Accepted + Wait - Implementation';Frequency of activity 'Accepted + Wait - User' for cases where activity 'Accepted + Wait - Implementation' occurs;203;
+Percentage of 'Accepted + Wait - User' activities in cases that also involve 'Accepted + Wait - Vendor';Percentage of 'Accepted + Wait - User' out of all 'Accepted + Wait - Vendor';0.43;
+Number of 'Accepted + Wait - User' activities in cases marked as high priority;Number of 'Accepted + Wait - User' activities == 'high' where ma is the last value of impact;;
+Percentage of 'Accepted + Wait - User' activities in the context of the VINST system's incident and problem management process;Percentage of 'Accepted + Wait - User' out of all cases;;
+Frequency of 'Accepted + Wait - User' in cases with performance above average;Number of 'Accepted + Wait - User' activities == 'high' where ma is the last value of impact;;
+Frequency of 'Accepted + Wait - User' in high-performance cases (top 10% performance);Number of 'Accepted + Wait - User' activities == 'high' where ma is the last value of impact;;
+Percentage of 'Accepted + Wait - User' followed by any 'Completed +' activity;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Number of 'Accepted + Wait - User' activities per month;Number of 'Accepted + Wait - User' activities;3883;

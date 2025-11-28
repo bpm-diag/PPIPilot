@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Average time for Declaration SAVED by EMPLOYEE;The average of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;3.57 hours;
+Total time for Declaration SAVED by EMPLOYEE;The sum of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;20.09 days;
+Minimum time for Declaration SAVED by EMPLOYEE;The minimum of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;0.00 seconds;
+Time of Declaration SAVED by EMPLOYEE;The average of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;3.57 hours;
+Declaration SAVED by EMPLOYEE Cycle Time;The average of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;3.57 hours;
+Elapsed time between Declaration SAVED by EMPLOYEE and Declaration SUBMITTED by EMPLOYEE in variants where no intermediate rejections occur;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration SUBMITTED by EMPLOYEE';;
+Average time it takes Declaration SUBMITTED by EMPLOYEE after the execution of Declaration SAVED by EMPLOYEE;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration SUBMITTED by EMPLOYEE';;
+Total waiting time to Declaration SUBMITTED by EMPLOYEE following Declaration SAVED by EMPLOYEE;The sum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration SUBMITTED by EMPLOYEE';;
+Average time from Declaration SAVED by EMPLOYEE to Payment Handled in complete end-to-end variants starting with Declaration SAVED by EMPLOYEE;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Payment Handled';20.09 days;
+Minimum time from Declaration SAVED by EMPLOYEE to Request Payment in successful reimbursement paths;The minimum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Request Payment';17.03 days;
+Time from Declaration SAVED by EMPLOYEE to Declaration FINAL_APPROVED by SUPERVISOR in variants that proceed directly to approval without rejections;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';;
+Average duration of Declaration SAVED by EMPLOYEE compared to the average duration of Declaration SUBMITTED by EMPLOYEE;The average of the duration between activity Declaration SUBMITTED by EMPLOYEE and the end of the case;11.67 days;
+Total time for Declaration SAVED by EMPLOYEE versus total time for Declaration APPROVED by ADMINISTRATION in the same cases;The sum of the duration between activity Declaration APPROVED by ADMINISTRATION and the end of the case;76387.38 days;
+Minimum time for Declaration SAVED by EMPLOYEE relative to minimum time for Request Payment in completed reimbursement cases;The minimum of the duration between activity Request Payment and the end of the case;2.32 hours;
+Cycle Time of Declaration SAVED by EMPLOYEE in variants that end with Payment Handled versus variants that end in rejection;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Payment Handled';20.09 days;
+Time of Declaration SAVED by EMPLOYEE in 2017 versus Time of Declaration SAVED by EMPLOYEE in 2018, based on the two-year event log scope;"ERROR: computing metric {'begin': activity == 'Declaration SAVED by EMPLOYEE'"", 'end': '', 'aggregation': 'average', 'group_by': 'time:timestamp'}""";;

@@ -1,0 +1,15 @@
+Name;Metric;Value;Agrupation
+Average resolution time following 'Completed + In Call';The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Average duration from 'Completed + In Call' to 'Completed + Resolved';The average of the duration between activity 'Completed + In Call' and activity 'Completed + Resolved';9.07 days;
+Total duration of 'Completed + In Call' activities in the event log;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Average lead time before 'Completed + In Call' occurs after 'Accepted + Assigned';The average of the duration between activity 'Accepted + Assigned' and activity 'Completed + In Call';30.00 seconds;
+Longest duration from 'Completed + In Call' to any subsequent activity;the maximum of the duration between the first time instant when `ACTIVITY` == 'Completed + In Call' and the last time instant when <ppinot4py.model.states.RuntimeState object at 0x000001E27CECF0A0> - AppliesTo.PROCESS;120.68 days;
+Shortest duration from any activity to 'Completed + In Call';The minimum of the duration between the start of the case and activity 'Completed + In Call';0.00 seconds;
+Average duration from 'Completed + In Call' to 'Completed + Closed';The average of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';12.45 days;
+Median duration from 'Accepted + In Progress' to 'Completed + In Call';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';8.65 hours;
+Difference in average duration between 'Completed + In Call' and 'Accepted + Wait - User';The average of the duration between activity 'Completed + In Call' and activity 'Accepted + Wait - User';8.52 days;
+Total count of 'Completed + In Call' activities preceding 'Completed + Resolved';The sum of the duration between activity 'Completed + In Call' and activity 'Completed + Resolved';1223.78 days;
+Comparison of average duration from 'Accepted + In Progress' to 'Completed + In Call' versus 'Accepted + In Progress' to 'Completed + Resolved';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';8.65 hours;
+Duration variance of 'Completed + In Call' across different cases;The sum of the duration between activity 'Completed + In Call' and activity 'Completed + In Call';0.00 seconds;
+Earliest occurrence of 'Completed + In Call' after case initiation;The minimum of the duration between activity Completed + In Call and the end of the case;0.00 seconds;
+Latest occurrence of 'Completed + In Call' before case closure;the maximum of the duration between the first time instant when `ACTIVITY` == 'Completed + In Call' and the last time instant when <ppinot4py.model.states.RuntimeState object at 0x000001E27CECF0A0> - AppliesTo.PROCESS;120.68 days;

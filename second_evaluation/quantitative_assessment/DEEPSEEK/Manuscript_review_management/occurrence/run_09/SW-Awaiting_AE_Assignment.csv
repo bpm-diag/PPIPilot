@@ -1,0 +1,41 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Assignment that are followed by SW-Initial Reviewer Selection;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Initial Reviewer Selection';0.6;
+Number of SW-Awaiting AE Assignment;Number of 'SW-Awaiting AE Assignment' activities;58;
+Percentage of SW-Awaiting AE Assignment out of all SW-Checklist Completed;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Number of SW-Awaiting AE Assignment that are preceded by SW-Checklist Completed;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Checklist Completed' occurs;58;
+Percentage of SW-Awaiting AE Assignment that are not dismissed;Percentage of 'SW-Awaiting AE Assignment' out of all cases where 'Manuscript is Withdrawn' does not happen;0.61;
+Percentage of SW-Awaiting AE Assignment from all SW-Awaiting Checklist Completion;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Awaiting Checklist Completion';0.67;
+Number of SW-Awaiting AE Assignment with amounts above 100 euros;Number of 'SW-Awaiting AE Assignment' activities;58;
+Percentage of SW-Awaiting AE Assignment by worker;Percentage of 'SW-Awaiting AE Assignment' out of all cases;ADMIN:0.5;"{""ADMIN"":0.5,""AUTHOR"":0.0,""EIC"":1.0,""SYSTEM"":0.6279069767}"
+Percentage of SW-Awaiting AE Assignment followed by SW-EIC Reject;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Reject';0.79;
+Percentage of SW-Awaiting AE Assignment that are rejected;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Reject';0.79;
+Number of SW-Awaiting AE Assignment in relation to SW-EIC Reject;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-EIC Reject' occurs;28;
+Percentage of SW-Awaiting AE Assignment;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Number of times SW-Awaiting AE Assignment is performed;Number of 'SW-Awaiting AE Assignment' activities;58;
+Percentage of SW-Awaiting AE Assignment done after Plagiarism Originality Report Completed;Percentage of 'SW-Awaiting AE Assignment' out of all 'Plagiarism Originality Report Completed';0.63;
+Average number of SW-Awaiting AE Assignment;the average of the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment';0.62;
+Percentage of SW-Awaiting AE Assignment with an increment;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Percentage of SW-Awaiting AE Assignment with appeal;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Average number of SW-Awaiting AE Assignment that are followed by SW-Initial Reviewer Selection;the average of the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Initial Reviewer Selection';0.6;
+Percentage of SW-Awaiting AE Assignment with penalty;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Fraction of SW-Awaiting AE Assignment that are dismissed;Percentage of 'SW-Awaiting AE Assignment' out of all 'Manuscript is Withdrawn';0.0;
+Ratio of SW-Awaiting AE Assignment over SW-Checklist Completed;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Occasions how often the SW-Awaiting AE Assignment is performed;Number of 'SW-Awaiting AE Assignment' activities;58;
+The ratio of SW-Awaiting AE Assignment that are not eventually performed;Percentage of 'SW-Awaiting AE Assignment' out of all cases where 'SW-Initial Reviewer Selection' does not happen;0.61;
+Percentage of variants containing SW-Awaiting AE Assignment;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment in process variants;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Percentage of SW-Awaiting AE Assignment leading to SW-EIC Reject versus SW-Initial Reviewer Selection;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Reject';0.79;
+Number of SW-Awaiting AE Assignment compared to SW-Reviewer Agreed;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Reviewer Agreed' occurs;24;
+Percentage of SW-Awaiting AE Assignment occurring after Plagiarism Percent Match Threshold Exceeded;Percentage of 'SW-Awaiting AE Assignment' out of all 'Plagiarism Percent Match Threshold Exceeded';0.64;
+Average performance time from SW-Awaiting AE Assignment to next activity in variants;the average of the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment';0.62;
+Percentage of SW-Awaiting AE Assignment in rigorous assessment pathways;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Number of SW-Awaiting AE Assignment relative to Manuscript Export Succeeded;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'Manuscript Export Succeeded' occurs;58;
+Percentage of SW-Awaiting AE Assignment preceding quality assurance activities;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment in systematic review procedures;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Ratio of SW-Awaiting AE Assignment to SW-Awaiting EIC Decision;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Awaiting EIC Decision';0.59;
+Number of SW-Awaiting AE Assignment grouped by case:concept:name;Number of 'SW-Awaiting AE Assignment' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":18,""DSW4"":26,""MSC4"":8,""RJR3"":0,""SW1"":0,""SW12"":3,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Number of SW-Awaiting AE Assignment made per year;Number of 'SW-Awaiting AE Assignment' activities;58;
+Average number of SW-Awaiting AE Assignment in a month;the average of the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment';0.62;
+Percentage of SW-Awaiting AE Assignment by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Assignment'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;
+Total SW-Awaiting AE Assignment done by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Assignment'"", 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;
+Total SW-Awaiting AE Assignment performed by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Assignment'"", 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;

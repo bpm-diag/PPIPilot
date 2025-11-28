@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Assigned' leading to 'Completed + In Call';Frequency of activity 'Accepted + Assigned' for cases where activity 'Completed + In Call' occurs;35;
+Percentage of 'Accepted + Assigned' out of all 'Accepted + In Progress' activities;Percentage of 'Accepted + Assigned' out of all 'Accepted + In Progress';0.24;
+Number of 'Accepted + Assigned' activities that are followed by 'Completed + Resolved';Number of 'Accepted + Assigned' activities for cases where activity 'Completed + Resolved' occurs;3116;
+Percentage of 'Accepted + Assigned' activities that lead to a case closure ('Completed + Closed');Percentage of 'Accepted + Assigned' out of all 'Completed + Closed';0.32;
+Frequency of 'Accepted + Assigned' in relation to 'Queued + Awaiting Assignment';Frequency of activity 'Accepted + Assigned' for cases where activity 'Queued + Awaiting Assignment' occurs;1717;
+Percentage of 'Accepted + Assigned' activities that precede 'Accepted + Wait - User';Percentage of 'Accepted + Assigned' out of all 'Accepted + Wait - User';0.44;
+Number of 'Accepted + Assigned' activities within the most frequent process variant;Number of 'Accepted + Assigned' activities;3121;
+Percentage of cases involving 'Accepted + Assigned' that are resolved within the target resolution time;Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' by country;Frequency of activity '{}' grouped by the last value of organization country;0:5;"{""0"":5,""SE"":3,""au"":12,""be"":152,""br"":68,""ca"":39,""cl"":2,""cn"":34,""de"":2,""fr"":105,""gb"":5,""in"":235,""jp"":8,""kr"":24,""my"":0,""nl"":34,""pe"":0,""pl"":529,""ru"":17,""se"":426,""th"":0,""tr"":0,""us"":129}"
+Percentage of 'Accepted + Assigned' activities followed by 'Accepted + Wait - Implementation';Percentage of 'Accepted + Assigned' out of all 'Accepted + Wait - Implementation';0.47;
+Number of 'Accepted + Assigned' activities that occur before 'Accepted + Wait - Vendor';Number of 'Accepted + Assigned' activities for cases where activity 'Accepted + Wait - Vendor' occurs;197;
+Percentage of 'Accepted + Assigned' activities in cases with performance above average;Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' in cases marked as high priority;Frequency of activity 'Accepted + Assigned';1829;
+Percentage of 'Accepted + Assigned' activities that are part of cases with an escalation;Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Number of 'Accepted + Assigned' activities that lead directly to 'Completed + Cancelled';Number of 'Accepted + Assigned' activities for cases where activity 'Completed + Cancelled' occurs;0;
+Percentage of 'Accepted + Assigned' activities in the context of the VINST system's incident and problem management process;Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' in relation to 'Completed + In Call' considering their impact on case resolution time;Frequency of activity 'Accepted + Assigned' for cases where activity 'Completed + In Call' occurs;35;
+Number of 'Accepted + Assigned' activities in cases that required vendor involvement ('Accepted + Wait - Vendor');Number of 'Accepted + Assigned' activities for cases where activity 'Accepted + Wait - Vendor' occurs;197;
+Percentage of 'Accepted + Assigned' activities in cases that involved customer waiting time ('Accepted + Wait - Customer');Percentage of 'Accepted + Assigned' out of all 'Accepted + Wait - Customer';0.44;
+Percentage of 'Accepted + Assigned' activities that are followed by any completion activity ('Completed + Resolved', 'Completed + Closed', 'Completed + Cancelled');Percentage of 'Accepted + Assigned' out of all 'Completed + Resolved';0.32;

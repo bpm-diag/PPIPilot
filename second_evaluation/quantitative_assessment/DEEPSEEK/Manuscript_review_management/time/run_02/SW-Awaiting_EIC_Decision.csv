@@ -1,0 +1,51 @@
+Name;Metric;Value;Agrupation
+Average time from SW-Reviewer Agreed to SW-Awaiting EIC Decision;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Average time between SW-Awaiting EIC Decision and SW-EIC Major Revision;The average of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Major Revision';9.85 days;
+Average time until SW-Awaiting EIC Decision is performed;The average of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';68.65 days;
+Average time to SW-Awaiting EIC Decision grouped by sender;The average of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';catarci@diag.uniroma1.it:NaT;"{""catarci@diag.uniroma1.it"":null,""clcabanban@ched.gov.ph"":null,""gleb@intentionalinsights.org"":7899351000,""marrella@diag.uniroma1.it"":5670921000,""onbehalfof@manuscriptcentral.com"":5910243981}"
+Average time for SW-Awaiting EIC Decision;The average of the duration between activity SW-Awaiting EIC Decision and the end of the case;86.77 days;
+Average time since the SW-Reviewer Agreed and SW-Awaiting EIC Decision are performed;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Average waiting time to the SW-Awaiting EIC Decision;The average of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';68.65 days;
+Average time it takes SW-Awaiting EIC Decision after the execution of SW-Reviewer Agreed;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Average time it takes the SW-Awaiting EIC Decision to be done;The average of the duration between activity SW-Awaiting EIC Decision and the end of the case;86.77 days;
+Total time from SW-Reviewer Agreed to SW-Awaiting EIC Decision;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';3223.18 days;
+Total time between SW-Awaiting EIC Decision and SW-EIC Major Revision;The sum of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Major Revision';147.75 days;
+Total time until SW-Awaiting EIC Decision is performed;The sum of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';4050.64 days;
+Total time to SW-Awaiting EIC Decision grouped by sender;The sum of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';catarci@diag.uniroma1.it:NaT;"{""catarci@diag.uniroma1.it"":null,""clcabanban@ched.gov.ph"":null,""gleb@intentionalinsights.org"":7899351000,""marrella@diag.uniroma1.it"":17012763000,""onbehalfof@manuscriptcentral.com"":325063419000}"
+Total time for SW-Awaiting EIC Decision;The sum of the duration between activity SW-Awaiting EIC Decision and the end of the case;5119.61 days;
+Total time since the SW-Reviewer Agreed and SW-Awaiting EIC Decision are performed;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';3223.18 days;
+Total waiting time to the SW-Awaiting EIC Decision;The sum of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';4050.64 days;
+Total time it takes SW-Awaiting EIC Decision after the execution of SW-Reviewer Agreed;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';3223.18 days;
+Total time it takes the SW-Awaiting EIC Decision to be done;The sum of the duration between activity SW-Awaiting EIC Decision and the end of the case;5119.61 days;
+Total resolution time of SW-Awaiting EIC Decision;The sum of the duration between activity SW-Awaiting EIC Decision and the end of the case;5119.61 days;
+Minimum time between SW-Awaiting EIC Decision and SW-EIC Major Revision;The minimum of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Major Revision';53.00 seconds;
+Minimum time until SW-Awaiting EIC Decision is performed;The minimum of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';2.04 days;
+Minimum time to SW-Awaiting EIC Decision grouped by sender;The minimum of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';catarci@diag.uniroma1.it:NaT;"{""catarci@diag.uniroma1.it"":null,""clcabanban@ched.gov.ph"":null,""gleb@intentionalinsights.org"":7899351000,""marrella@diag.uniroma1.it"":506740000,""onbehalfof@manuscriptcentral.com"":176157000}"
+Minimum time for SW-Awaiting EIC Decision;The minimum of the duration between activity SW-Awaiting EIC Decision and the end of the case;2.25 minutes;
+Minimum time since the SW-Reviewer Agreed and SW-Awaiting EIC Decision are performed;The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';41.78 days;
+Minimum waiting time to the SW-Awaiting EIC Decision;The minimum of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';2.04 days;
+Minimum time it takes SW-Awaiting EIC Decision after the execution of SW-Reviewer Agreed;The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';41.78 days;
+Minimum time it takes the SW-Awaiting EIC Decision to be done;The minimum of the duration between activity SW-Awaiting EIC Decision and the end of the case;2.25 minutes;
+Minimum resolution time of SW-Awaiting EIC Decision;The minimum of the duration between activity SW-Awaiting EIC Decision and the end of the case;2.25 minutes;
+Minimum time from SW-Reviewer Agreed to SW-Awaiting EIC Decision;The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';41.78 days;
+Percentage of time spent in SW-Awaiting EIC Decision;The average of the duration between activity SW-Awaiting EIC Decision and the end of the case;86.77 days;
+The time between the SW-Reviewer Agreed and the SW-Awaiting EIC Decision;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Elapsed time between SW-Awaiting EIC Decision and SW-EIC Major Revision;The average of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Major Revision';9.85 days;
+Time until SW-Awaiting EIC Decision;The average of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';68.65 days;
+Time from SW-Reviewer Agreed to SW-Awaiting EIC Decision;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Time to SW-Awaiting EIC Decision since the SW-Reviewer Agreed;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Time of SW-Awaiting EIC Decision;The average of the duration between activity SW-Awaiting EIC Decision and the end of the case;86.77 days;
+SW-Awaiting EIC Decision Cycle Time;The average of the duration between activity SW-Awaiting EIC Decision and the end of the case;86.77 days;
+Average time difference between SW-Awaiting EIC Decision and SW-Awaiting AE Recommendation;The average of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-Awaiting AE Recommendation';1.03 days;
+Average time ratio between SW-Awaiting EIC Decision and SW-Awaiting Checklist Completion;The average of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-Awaiting Checklist Completion';;
+Time variance of SW-Awaiting EIC Decision across different process variants;The average of the duration between activity SW-Awaiting EIC Decision and the end of the case;86.77 days;
+Average time from SW-Awaiting AE Recommendation to SW-Awaiting EIC Decision in variants with SW-EIC Major Revision outcome;The average of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-Awaiting EIC Decision';5.37 days;
+Time correlation between SW-Awaiting EIC Decision duration and total manuscript review process duration;The average of the duration between activity SW-Awaiting EIC Decision and the end of the case;86.77 days;
+Average time impact of SW-Reviewer Agreed delays on SW-Awaiting EIC Decision duration;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Time difference between SW-Awaiting EIC Decision in first-time submissions versus revised manuscripts;The average of the duration between activity SW-Awaiting EIC Decision and the end of the case;86.77 days;
+Average time from last reviewer assignment to SW-Awaiting EIC Decision;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting EIC Decision';74.31 days;
+Time distribution of SW-Awaiting EIC Decision across different EIC decision types;The average of the duration between activity SW-Awaiting EIC Decision and the end of the case;86.77 days;
+Average time between SW-Awaiting EIC Decision and subsequent manuscript export activities;The average of the duration between activity 'SW-Awaiting EIC Decision' and activity 'Manuscript Export Succeeded';209.56 days;
+Time impact of multiple SW-Reviewer Agreed events on SW-Awaiting EIC Decision duration;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Average time from final SW-Reviewer Agreed to SW-Awaiting EIC Decision in complex review processes;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Time comparison between SW-Awaiting EIC Decision and RW-Awaiting EIC Decision in the same case;The average of the duration between activity 'SW-Awaiting EIC Decision' and activity 'RW-Awaiting EIC Decision';130.50 days;

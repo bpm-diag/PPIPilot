@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Initial Reviewer Selection' followed by 'Reviewer Invitation Reminder 1';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'Reviewer Invitation Reminder 1' occurs;42;
+Percentage of manuscripts that proceed to 'SW-Reviewer Agreed' after 'SW-Initial Reviewer Selection';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Agreed';0.98;
+Number of 'SW-Initial Reviewer Selection' activities that lead to 'SW-AE Assign Reviewers';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-AE Assign Reviewers' occurs;45;
+Percentage of 'SW-Initial Reviewer Selection' out of all selection activities;Percentage of 'SW-Initial Reviewer Selection' out of all cases where '' does not happen;0.65;
+Frequency of 'SW-Initial Reviewer Selection' in the most common process variant;Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity '' does not occur;60;
+Percentage of 'SW-Initial Reviewer Selection' followed by 'SW-Reviewer Declined';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Declined';0.97;
+Number of 'SW-Initial Reviewer Selection' activities per manuscript;Frequency of activity '{}' grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":18,""DSW4"":16,""MSC4"":21,""RJR3"":1,""SW1"":1,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of 'SW-Initial Reviewer Selection' that result in 'SW-EIC Major Revision' decisions;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Major Revision';0.93;
+Frequency of 'SW-Initial Reviewer Selection' leading to 'SW-Reviewer Unavailable';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-Reviewer Unavailable' occurs;23;
+Number of 'SW-Initial Reviewer Selection' followed by 'SW-Reviewer Selection is due in 1 week';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-Reviewer Selection is due in 1 week' occurs;42;
+Percentage of 'SW-Initial Reviewer Selection' that precede any 'SW-AE Assign Reviewers' activity;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-AE Assign Reviewers';0.98;
+Frequency of 'SW-Initial Reviewer Selection' in manuscripts that are accepted ('SW-EIC Accept');Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-EIC Accept' occurs;3;
+Number of 'SW-Initial Reviewer Selection' activities that are followed by a 'Manuscript Export Succeeded' event;Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'Manuscript Export Succeeded' occurs;59;
+Percentage of 'SW-Initial Reviewer Selection' activities that do not lead to a 'Reviewer Invitation Reminder 1' within a specified timeframe;Percentage of 'SW-Initial Reviewer Selection' out of all cases where 'Reviewer Invitation Reminder 1' does not happen;0.65;
+Frequency of 'SW-Initial Reviewer Selection' in relation to 'SW-Reviewer No Response';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-Reviewer No Response' occurs;5;
+Percentage of 'SW-Initial Reviewer Selection' followed by 'SW-Awaiting AE Recommendation';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Awaiting AE Recommendation';1.0;
+Number of 'SW-Initial Reviewer Selection' activities that occur before 'SW-Checklist Completed';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-Checklist Completed' occurs;58;
+Percentage of 'SW-Initial Reviewer Selection' activities in the variant leading to 'SW-EIC Major Revision' compared to those leading to 'SW-EIC Accept';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Major Revision';0.93;
+Percentage of 'SW-Initial Reviewer Selection' in processes that exceed the average review time;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Percentage of 'SW-Initial Reviewer Selection' in manuscripts that are rejected ('SW-EIC Reject & Resubmit', 'SW-EIC Reject');Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;

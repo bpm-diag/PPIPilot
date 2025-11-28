@@ -1,0 +1,14 @@
+Name;Metric;Value;Agrupation
+Average resolution time of Unmatched + Unmatched incidents;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total duration of Unmatched + Unmatched incidents within the event log;The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Total time from Unmatched + Unmatched to Accepted + In Progress;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';23.76 hours;
+Average duration of Unmatched + Unmatched incidents compared to Accepted + Wait - User incidents;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Wait - User';11.89 hours;
+Total duration of Unmatched + Unmatched incidents compared to Completed + Resolved incidents;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';13.13 days;
+Minimum duration of Unmatched + Unmatched incidents compared to Accepted + Wait - Vendor incidents;The minimum of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Wait - Vendor';;
+Average time it takes from Unmatched + Unmatched to reach Completed + Closed status;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Closed';10.10 days;
+Total time it takes from Unmatched + Unmatched to reach Completed + In Call status;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + In Call';;
+Cycle time of Unmatched + Unmatched incidents in the context of VINST system operations;The sum of the duration between activity Unmatched + Unmatched and the end of the case;;
+Average waiting time for Unmatched + Unmatched incidents before transitioning to any other activity;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total resolution time of incidents starting with Unmatched + Unmatched and ending with Completed + Closed;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Closed';50.48 days;
+Minimum time it takes for an incident to move from Unmatched + Unmatched to Accepted + Assigned;The minimum of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Assigned';11.97 minutes;
+Average duration of Unmatched + Unmatched incidents before transitioning to Accepted + Wait - Customer;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Wait - Customer';;

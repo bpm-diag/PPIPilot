@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of Declaration SUBMITTED by EMPLOYEE followed by Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Percentage of Declaration SUBMITTED by EMPLOYEE that lead to Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Frequency of Declaration SUBMITTED by EMPLOYEE in variants containing Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Frequency of Declaration SUBMITTED by EMPLOYEE that are immediately followed by Declaration APPROVED by ADMINISTRATION;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration APPROVED by ADMINISTRATION';1.0;
+Frequency of Declaration SUBMITTED by EMPLOYEE with amounts above 100 euros;Number of 'Declaration SUBMITTED by EMPLOYEE' activities > 100 where ma is the last value of case:Amount;2777;
+Percentage of Declaration SUBMITTED by EMPLOYEE handled by different departments;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;ADMINISTRATION:1.0;"{""ADMINISTRATION"":1.0,""EMPLOYEE"":0.6794258373,""MISSING"":1.0,""SUPERVISOR"":1.0,""UNDEFINED"":0.9999004282}"
+Percentage of Declaration SUBMITTED by EMPLOYEE that are eventually paid;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Payment Handled';1.0;
+Frequency of Declaration SUBMITTED by EMPLOYEE in shortest variant paths;Number of 'Declaration SUBMITTED by EMPLOYEE' activities;11531;
+Percentage of Declaration SUBMITTED by EMPLOYEE that require budget owner approval;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Frequency of Declaration SUBMITTED by EMPLOYEE that are domestic travel claims;Number of 'Declaration SUBMITTED by EMPLOYEE' activities;11531;
+Percentage of Declaration SUBMITTED by EMPLOYEE that are finalized within two months;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Percentage of Declaration SUBMITTED by EMPLOYEE that are pre-paid travel costs;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Frequency of Declaration SUBMITTED by EMPLOYEE by STAFF MEMBER vs SYSTEM;Number of 'Declaration SUBMITTED by EMPLOYEE' activities grouped by the last value of org:resource;STAFF MEMBER:370;"{""STAFF MEMBER"":370,""SYSTEM"":11161}"
+Percentage of Declaration SUBMITTED by EMPLOYEE that are eventually rejected;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Percentage of Declaration SUBMITTED by EMPLOYEE that are re-submissions after rejection;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by EMPLOYEE';1.0;
+Percentage of Declaration SUBMITTED by EMPLOYEE that bypass pre-approval steps;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Frequency of Declaration SUBMITTED by EMPLOYEE in variants with multiple rejections;Number of 'Declaration SUBMITTED by EMPLOYEE' activities;11531;
+Percentage of Declaration SUBMITTED by EMPLOYEE that follow approval by same budget owner and supervisor;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Frequency of Declaration SUBMITTED by EMPLOYEE per year;Number of 'Declaration SUBMITTED by EMPLOYEE' activities;11531;
+Frequency of Declaration SUBMITTED by EMPLOYEE in 2017 vs 2018;Number of 'Declaration SUBMITTED by EMPLOYEE' activities;11531;

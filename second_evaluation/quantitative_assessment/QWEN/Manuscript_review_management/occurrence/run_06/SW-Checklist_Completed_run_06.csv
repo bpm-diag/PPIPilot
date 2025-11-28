@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Checklist Completed out of all activity executions in the event log;Percentage of 'SW-Checklist Completed' out of all cases;0.88;
+Number of times SW-Checklist Completed occurs in the entire event log;Number of 'SW-Checklist Completed' activities;87.0;
+Percentage of SW-Checklist Completed that are immediately followed by SW-Awaiting AE Assignment;Percentage of 'SW-Checklist Completed' out of all 'SW-Awaiting AE Assignment';1.0;
+Frequency of SW-Checklist Completed in variants that eventually lead to SW-EIC Reject;Percentage of 'SW-Checklist Completed' out of all 'SW-EIC Reject';0.97;
+Percentage of SW-Checklist Completed occurring after Plagiarism Originality Report Completed;Percentage of 'SW-Checklist Completed' out of all 'Plagiarism Originality Report Completed';0.91;
+Number of SW-Checklist Completed activities that appear in process variants with performance duration above the median;Number of 'SW-Checklist Completed' activities;87.0;
+Percentage of SW-Checklist Completed that occur without a preceding SW-Checklist Completion is due in three days or SW-Checklist Completion now due;Percentage of 'SW-Checklist Completed' out of all cases where 'SW-Checklist Completion is due in three days' does not happen;0.88;
+Frequency of SW-Checklist Completed compared to the frequency of SW-Awaiting Checklist Completion;Percentage of 'SW-Checklist Completed' out of all 'SW-Awaiting Checklist Completion';0.96;
+Percentage of process variants containing SW-Checklist Completed that proceed to reviewer assignment (e.g., SW-AE Assign Reviewers);Percentage of 'SW-Checklist Completed' out of all 'SW-AE Assign Reviewers';0.96;
+Number of SW-Checklist Completed activities that are part of variants ending in an acceptance decision (e.g., RW-EIC Accept or SW-EIC Accept);Number of 'SW-Checklist Completed' activities for cases where activity 'SW-EIC Accept' occurs;5.0;
+Percentage of SW-Checklist Completed that directly follow Original Manuscript Submission Confirmation;Percentage of 'SW-Checklist Completed' out of all 'Original Manuscript Submission Confirmation';0.95;
+Frequency of SW-Checklist Completed in cases where Co-Author Account Created During Manuscript Submission also occurs;Percentage of 'SW-Checklist Completed' out of all 'Co-Author Account Created During Manuscript Submission';0.98;
+Percentage of SW-Checklist Completed occurring before any reviewer-related activity (e.g., SW-Reviewer Agreed, SW-Reviewer Declined);Percentage of 'SW-Checklist Completed' out of all cases where 'SW-Reviewer Agreed' does not happen;0.88;
+Percentage of SW-Checklist Completed that are followed within 24 hours by SW-Awaiting AE Assignment;Percentage of 'SW-Checklist Completed' out of all 'SW-Awaiting AE Assignment';1.0;
+Ratio of SW-Checklist Completed to Immediate Reject Decision from the Checklist across all cases;Percentage of 'SW-Checklist Completed' out of all 'Immediate Reject Decision from the Checklist';0.0;
+Percentage of variants containing SW-Checklist Completed that include at least one reminder activity (e.g., Reviewer Invitation Reminder 1);Percentage of 'SW-Checklist Completed' out of all 'Reviewer Invitation Reminder 1';0.87;
+Frequency of SW-Checklist Completed in comparison to Plagiarism Originality Report Completed;Percentage of 'SW-Checklist Completed' out of all 'Plagiarism Originality Report Completed';0.91;
+Percentage of SW-Checklist Completed that occur in the initial phase of the review process (before any AE or EIC decision-related activity);Percentage of 'SW-Checklist Completed' out of all cases where 'SW-Awaiting EIC Decision' does not happen;0.88;
+Number of SW-Checklist Completed activities performed by SYSTEM as performer;Number of 'SW-Checklist Completed' activities == 'SYSTEM' where ma is the last value of performer;81.0;
+Number of SW-Checklist Completed events grouped by case:concept:name to identify repeated checklist completions per manuscript;"ERROR: computing metric {'count': activity == 'SW-Checklist Completed'"", 'aggregation': 'total', 'group_by': 'concept:name'}""";;

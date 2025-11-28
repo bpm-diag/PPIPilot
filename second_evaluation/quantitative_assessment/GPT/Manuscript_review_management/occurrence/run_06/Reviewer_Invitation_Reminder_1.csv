@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of \Reviewer Invitation Reminder 1\ sent before \SW-Reviewer Agreed\;Frequency of activity 'Reviewer Invitation Reminder 1' for cases where activity 'SW-Reviewer Agreed' occurs;43;
+Percentage of manuscripts that received a \Reviewer Invitation Reminder 1\ and led to \SW-Reviewer Agreed\;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Agreed';0.93;
+Number of \Reviewer Invitation Reminder 1\ followed by \SW-Reviewer Declined\;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-Reviewer Declined' occurs;82;
+Percentage of \Reviewer Invitation Reminder 1\ out of all reminder activities;Percentage of 'Reviewer Invitation Reminder 1' out of all cases where 'Reviewer Invitation Reminder 1' does not happen;0.51;
+Frequency of \Reviewer Invitation Reminder 1\ in the most common variant paths;Frequency of activity 'Reviewer Invitation Reminder 1';47;
+Percentage of \Reviewer Invitation Reminder 1\ that precede \Assign a Different Editor\;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Assign a Different Editor';0.73;
+Number of \Reviewer Invitation Reminder 1\ sent per manuscript;Number of 'Reviewer Invitation Reminder 1' activities grouped by the last value of code;AER0:2;"{""AER0"":2,""CHK4"":0,""DRSW4"":5,""DRW3"":5,""DSW3"":28,""DSW4"":20,""MSC4"":55,""RJR3"":1,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":2}"
+Percentage of \Reviewer Invitation Reminder 1\ followed by \Reviewer Invitation Reminder 2\;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 2';1.0;
+Frequency of \Reviewer Invitation Reminder 1\ in relation to total activities in the review process;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Percentage of \Reviewer Invitation Reminder 1\ in manuscripts that require major revision (\SW-EIC Major Revision\);Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-EIC Major Revision';0.87;
+Number of \Reviewer Invitation Reminder 1\ in manuscripts that were accepted (\RW-EIC Accept\);Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'RW-EIC Accept' occurs;57;
+Percentage of \Reviewer Invitation Reminder 1\ in manuscripts that were rejected (\SW-EIC Reject\);Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-EIC Reject';0.26;
+Frequency of \Reviewer Invitation Reminder 1\ in relation to \SW-AE Assign Reviewers\;Frequency of activity 'Reviewer Invitation Reminder 1' for cases where activity 'SW-AE Assign Reviewers' occurs;42;
+Percentage of \Reviewer Invitation Reminder 1\ leading to a change in reviewer (\Unassign Reviewer\ followed by \SW-AE Assign Reviewers\);Percentage of 'Reviewer Invitation Reminder 1' out of all 'Unassign Reviewer';1.0;
+Number of \Reviewer Invitation Reminder 1\ followed by \Manuscript Export Succeeded\;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'Manuscript Export Succeeded' occurs;111;

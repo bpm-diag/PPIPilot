@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average resolution time following 'Completed + In Call';The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Average duration from 'Completed + In Call' to 'Completed + Resolved';The average of the duration between activity 'Completed + In Call' and activity 'Completed + Resolved';9.07 days;
+Total duration of 'Completed + In Call' activities in cases with 'Accepted + Wait - User' preceding it;The sum of the duration between activity 'Completed + In Call' and the end of case where activity 'Accepted + Wait - User occurs;1028.99 days;
+Longest duration from 'Completed + In Call' to case closure;The maximum of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';120.68 days;
+Shortest duration from 'Completed + In Call' to 'Completed + Closed';The minimum of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';15.00 seconds;
+Average duration of 'Completed + In Call' in cases with high impact;The average of the duration between activity Completed + In Call and the end of the case;52.86 minutes;
+Total duration of 'Completed + In Call' activities across all cases;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Earliest occurrence of 'Completed + In Call' after case start;The minimum of the duration between activity Completed + In Call and the end of the case;0.00 seconds;
+Latest occurrence of 'Completed + In Call' before case closure;the maximum of the duration between the first time instant when `ACTIVITY` == 'Completed + In Call' and the last time instant when <ppinot4py.model.states.RuntimeState object at 0x000001A843391A90> - AppliesTo.PROCESS;120.68 days;
+Average duration from 'Completed + In Call' to the next activity;The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Duration from 'Completed + In Call' to 'Completed + Closed' in the fastest resolved cases;The minimum of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';15.00 seconds;
+Duration from 'Completed + In Call' to 'Completed + Closed' in the slowest resolved cases;The maximum of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';120.68 days;
+Average time between 'Completed + In Call' and 'Accepted + Assigned' in the process flow;The average of the duration between activity 'Completed + In Call' and activity 'Accepted + Assigned';7.99 days;
+Comparison of average duration of 'Completed + In Call' in cases with 'Medium' impact versus 'High' impact;The average of the duration between activity Completed + In Call and the end of the case;5.60 hours;
+Average duration of 'Completed + In Call' in cases ending with 'Completed + Cancelled';The average of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Total duration of 'Completed + In Call' activities in cases exceeding average case duration;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Average lead time to 'Completed + In Call' from case initiation;The average of the duration between the start of the case and activity 'Completed + In Call';8.64 hours;
+Median duration from 'Accepted + In Progress' to 'Completed + In Call';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';8.65 hours;
+Duration variance of 'Completed + In Call' across different organization countries;The average of the duration between activity 'Completed + In Call' and the end of case grouped by the last value of organization country;0:8.46 days;"{""0"":730980000,""SE"":656483000,""au"":0,""be"":2320899000,""br"":4401500000,""ca"":619330000,""cl"":null,""cn"":10426828000,""de"":null,""fr"":4903990000,""gb"":0,""in"":12076891000,""jp"":null,""kr"":null,""my"":0,""nl"":null,""pe"":null,""pl"":74175693000,""ru"":0,""se"":23059073000,""th"":0,""tr"":null,""us"":11259757000}"
+Total count of 'Completed + In Call' activities preceding 'Completed + Resolved';The sum of the duration between activity 'Completed + In Call' and activity 'Completed + Resolved';1223.78 days;

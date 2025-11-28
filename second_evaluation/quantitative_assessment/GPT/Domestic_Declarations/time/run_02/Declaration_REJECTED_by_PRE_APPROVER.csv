@@ -1,0 +1,15 @@
+Name;Metric;Value;Agrupation
+;ERROR: computing metric {};;
+Average time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration REJECTED by PRE_APPROVER';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by PRE_APPROVER';2.90 days;
+Average time from 'Declaration REJECTED by PRE_APPROVER' to 'Declaration SUBMITTED by EMPLOYEE';The average of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Declaration SUBMITTED by EMPLOYEE';10.25 days;
+Total time spent on cases involving 'Declaration REJECTED by PRE_APPROVER';The sum of the duration between activity Declaration REJECTED by PRE_APPROVER and the end of the case;1572.82 days;
+Average resolution time for cases with 'Declaration REJECTED by PRE_APPROVER';The average of the duration between activity Declaration REJECTED by PRE_APPROVER and the end of the case;19.42 days;
+Minimum time from 'Declaration REJECTED by PRE_APPROVER' to 'Declaration APPROVED by ADMINISTRATION';The minimum of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Declaration APPROVED by ADMINISTRATION';71.95 days;
+Average time from 'Declaration REJECTED by PRE_APPROVER' to 'Declaration REJECTED by EMPLOYEE';The average of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Declaration REJECTED by EMPLOYEE';2.11 days;
+Total resolution time of cases with 'Declaration REJECTED by PRE_APPROVER' leading to 'Declaration APPROVED by PRE_APPROVER';The sum of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Declaration APPROVED by PRE_APPROVER';302.21 days;
+Minimum time from 'Declaration REJECTED by PRE_APPROVER' to 'Declaration FINAL_APPROVED by SUPERVISOR';The minimum of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';1.23 hours;
+Average time from 'Declaration REJECTED by PRE_APPROVER' to 'Request Payment';The average of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Request Payment';17.33 days;
+Total time from 'Declaration REJECTED by PRE_APPROVER' to 'Payment Handled';The sum of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Payment Handled';1524.93 days;
+Total time it takes 'Declaration REJECTED by PRE_APPROVER' after 'Declaration REJECTED by EMPLOYEE';The sum of the duration between activity 'Declaration REJECTED by EMPLOYEE' and activity 'Declaration REJECTED by PRE_APPROVER';48.88 days;
+Minimum resolution time of cases with 'Declaration REJECTED by PRE_APPROVER' before 'Declaration SUBMITTED by EMPLOYEE';The minimum of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Declaration SUBMITTED by EMPLOYEE';6.23 minutes;
+Minimum time it takes for a case to be finalized after 'Declaration REJECTED by PRE_APPROVER';The minimum of the duration between activity Declaration REJECTED by PRE_APPROVER and the end of the case;3.98 minutes;

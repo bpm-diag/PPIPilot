@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Reviewer Invitation Reminder 2' out of all activity executions in the event log;Percentage of 'Reviewer Invitation Reminder 2' out of all cases;0.44;
+Number of times 'Reviewer Invitation Reminder 2' occurs in the entire event log;Number of 'Reviewer Invitation Reminder 2' activities;71.0;
+Percentage of process variants that contain 'Reviewer Invitation Reminder 2';Percentage of 'Reviewer Invitation Reminder 2' out of all cases;0.44;
+Frequency of 'Reviewer Invitation Reminder 2' immediately following 'Reviewer Invitation Reminder 1';Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'Reviewer Invitation Reminder 1' occurs;41.0;
+Percentage of 'Reviewer Invitation Reminder 2' that are followed by 'SW-Reviewer Agreed';Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-Reviewer Agreed';0.8;
+Percentage of 'Reviewer Invitation Reminder 2' that are followed by 'SW-Reviewer Declined';Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-Reviewer Declined';0.9;
+Percentage of 'Reviewer Invitation Reminder 2' that are followed by 'SW-Reviewer No Response';Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-Reviewer No Response';1.0;
+Number of 'Reviewer Invitation Reminder 2' occurrences per case (manuscript submission);the average of the number of times `ACTIVITY` == 'Reviewer Invitation Reminder 2';0.76;
+Percentage of cases where 'Reviewer Invitation Reminder 2' appears at least once;Percentage of 'Reviewer Invitation Reminder 2' out of all cases;0.44;
+Ratio of 'Reviewer Invitation Reminder 2' to 'Reviewer Invitation Reminder 1' across the entire log;Percentage of 'Reviewer Invitation Reminder 2' out of all 'Reviewer Invitation Reminder 1';0.87;
+Frequency of 'Reviewer Invitation Reminder 2' occurring after 'SW-Reviewer Selection is 3 days late';Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'SW-Reviewer Selection is 3 days late' occurs;8.0;
+Percentage of 'Reviewer Invitation Reminder 2' that occur in variants leading to 'SW-EIC Accept';Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-EIC Accept';0.0;
+Percentage of 'Reviewer Invitation Reminder 2' that occur in variants leading to 'SW-EIC Reject';Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-EIC Reject';0.21;
+Number of 'Reviewer Invitation Reminder 2' events that precede a change in editor assignment (e.g., 'Assign a Different Editor' or 'Unassign Editor');Number of 'Reviewer Invitation Reminder 2' activities for cases where activity 'Assign a Different Editor' occurs;14.0;
+Percentage of 'Reviewer Invitation Reminder 2' that are part of prolonged reviewer selection cycles (defined as variants containing more than three reviewer-related activities after initial assignment);Percentage of 'Reviewer Invitation Reminder 2' out of all cases;0.44;
+Frequency of 'Reviewer Invitation Reminder 2' in cases that eventually result in 'SW-Reviewer Agreed' within 7 days;Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'SW-Reviewer Agreed' occurs;37.0;
+Percentage of 'Reviewer Invitation Reminder 2' that do not lead to any subsequent reviewer response ('SW-Reviewer Agreed', 'SW-Reviewer Declined', or 'SW-Reviewer No Response') within 14 days;Percentage of 'Reviewer Invitation Reminder 2' out of all cases where 'SW-Reviewer Agreed' does not happen;0.44;
+Ratio of 'Reviewer Invitation Reminder 2' occurrences in major revision tracks versus minor revision or rejection tracks;Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-EIC Major Revision';0.8;
+Number of distinct cases in which 'Reviewer Invitation Reminder 2' appears more than once;Number of 'Reviewer Invitation Reminder 2' activities;71.0;
+Percentage of 'Reviewer Invitation Reminder 2' that occur after at least two instances of 'SW-AE Assign Reviewers';Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-AE Assign Reviewers';0.78;

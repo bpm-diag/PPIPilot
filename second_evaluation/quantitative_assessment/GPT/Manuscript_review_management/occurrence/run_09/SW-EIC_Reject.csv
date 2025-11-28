@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-EIC Reject' following 'SW-Awaiting EIC Decision';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-Awaiting EIC Decision' occurs;16.0;
+Percentage of manuscripts that undergo 'SW-EIC Reject' out of all manuscripts processed;Percentage of 'SW-EIC Reject' out of all cases where '' does not happen;0.37;
+Percentage of 'SW-EIC Reject' decisions that are followed by a 'Resubmission Manuscript Submission Confirmation';Percentage of 'SW-EIC Reject' out of all 'Resubmission Manuscript Submission Confirmation';0.0;
+Frequency of 'SW-EIC Reject' compared to 'SW-EIC Accept';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-EIC Accept' occurs;0.0;
+Percentage of 'SW-EIC Reject' in relation to 'SW-EIC Major Revision' decisions;Percentage of 'SW-EIC Reject' out of all 'SW-EIC Major Revision';0.0;
+Number of 'SW-EIC Reject' decisions preceded by 'SW-Reviewer Agreed';Number of 'SW-EIC Reject' activities for cases where activity 'SW-Reviewer Agreed' occurs;10.0;
+Percentage of 'SW-EIC Reject' decisions that lead to 'Manuscript is Withdrawn';Percentage of 'SW-EIC Reject' out of all 'Manuscript is Withdrawn';0.0;
+Frequency of 'SW-EIC Reject' for manuscripts that exceeded the 'Plagiarism Percent Match Threshold Exceeded';Frequency of activity 'SW-EIC Reject' for cases where activity 'Plagiarism Percent Match Threshold Exceeded' occurs;8.0;
+Ratio of 'SW-EIC Reject' over 'SW-AE Assign Reviewers' to measure the efficiency of reviewer assignments;Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-AE Assign Reviewers' occurs;9.0;
+Number of 'SW-EIC Reject' decisions followed by 'Immediate Reject Decision from the Checklist';Number of 'SW-EIC Reject' activities for cases where activity 'Immediate Reject Decision from the Checklist' occurs;0.0;
+Percentage of 'SW-EIC Reject' for manuscripts with 'SW-Reviewer No Response';Percentage of 'SW-EIC Reject' out of all 'SW-Reviewer No Response';0.2;
+Percentage of 'SW-EIC Reject' decisions in relation to all final decisions made by the EIC;Percentage of 'SW-EIC Reject' out of all 'SW-EIC Reject';1.0;
+Number of 'SW-EIC Reject' decisions per year;Number of 'SW-EIC Reject' activities;34.0;
+Frequency of 'SW-EIC Reject' after 'SW–Major Revision due in 1 week' to evaluate the impact of major revisions on final decisions;Number of 'SW-EIC Reject' activities;34.0;
+Percentage of 'SW-EIC Reject' decisions by month to identify peak rejection periods;Percentage of 'SW-EIC Reject' out of all cases;0.37;

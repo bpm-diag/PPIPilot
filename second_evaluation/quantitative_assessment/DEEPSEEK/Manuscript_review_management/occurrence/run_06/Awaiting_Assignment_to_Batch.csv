@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of cases that eventually reach Awaiting Assignment to Batch;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Percentage of Awaiting Assignment to Batch activities that follow First Look Manuscript Submission Confirmation;Percentage of 'Awaiting Assignment to Batch' out of all 'First Look Manuscript Submission Confirmation';0.96;
+Number of Awaiting Assignment to Batch activities per case;Number of 'Awaiting Assignment to Batch' activities grouped by the last value of code;AER0:0;"{""AER0"":0,""CHK4"":0,""DRSW4"":0,""DRW3"":0,""DSW3"":1,""DSW4"":1,""MSC4"":23,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of Awaiting Assignment to Batch activities that occur after RW-EIC Accept;Percentage of 'Awaiting Assignment to Batch' out of all 'RW-EIC Accept';0.95;
+Frequency of Awaiting Assignment to Batch compared to SW-EIC Reject;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'SW-EIC Reject' occurs;1;
+Percentage of cases with Awaiting Assignment to Batch that started with Original Manuscript Submission Confirmation;Percentage of 'Awaiting Assignment to Batch' out of all 'Original Manuscript Submission Confirmation';0.28;
+Number of times Awaiting Assignment to Batch is preceded by Manuscript Export Succeeded;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Manuscript Export Succeeded' occurs;26;
+Percentage of Awaiting Assignment to Batch activities in variants that include First Look-Please submit updates;Percentage of 'Awaiting Assignment to Batch' out of all 'First Look-Please submit updates';1.0;
+Ratio of Awaiting Assignment to Batch to First Look Manuscript Submission Confirmation;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look Manuscript Submission Confirmation' occurs;24;
+Frequency of Awaiting Assignment to Batch in successful review processes ending with RW-EIC Accept;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'RW-EIC Accept' occurs;21;
+Percentage of Awaiting Assignment to Batch activities that occur in variants with major revisions;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Major Revision';0.87;
+Number of Awaiting Assignment to Batch activities relative to Manuscript Export Succeeded;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Manuscript Export Succeeded' occurs;26;
+Percentage of review processes that complete with Awaiting Assignment to Batch;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Frequency of Awaiting Assignment to Batch compared to other final-stage activities;Number of 'Awaiting Assignment to Batch' activities;26;
+Percentage of cases with multiple Manuscript Export Succeeded before Awaiting Assignment to Batch;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Number of days between First Look Manuscript Submission Confirmation and Awaiting Assignment to Batch;the average of the number of times `ACTIVITY` == 'Awaiting Assignment to Batch' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'First Look Manuscript Submission Confirmation';0.96;
+Percentage of Awaiting Assignment to Batch activities that follow overdue first look updates;Percentage of 'Awaiting Assignment to Batch' out of all 'First Look-Your updates are overdue';0.91;
+Frequency of Awaiting Assignment to Batch in processes with co-author account creation;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Co-Author Account Created During Manuscript Submission' occurs;17;
+Ratio of Awaiting Assignment to Batch to all manuscript submission confirmation types;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Original Manuscript Submission Confirmation' occurs;24;
+Frequency of Awaiting Assignment to Batch in each process variant;Number of 'Awaiting Assignment to Batch' activities grouped by the last value of code;AER0:0;"{""AER0"":0,""CHK4"":0,""DRSW4"":0,""DRW3"":0,""DSW3"":1,""DSW4"":1,""MSC4"":23,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"

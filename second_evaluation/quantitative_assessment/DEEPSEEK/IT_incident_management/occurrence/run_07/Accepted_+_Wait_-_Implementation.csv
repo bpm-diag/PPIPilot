@@ -1,0 +1,36 @@
+Name;Metric;Value;Agrupation
+Percentage of Accepted + Wait - Implementation before Completed + Resolved;Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + Resolved';0.07;
+Number of Accepted + Wait - Implementation;Number of 'Accepted + Wait - Implementation' activities;473;
+Percentage of Accepted + Wait - Implementation out of all Accepted + Wait activities;Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + Wait';0.1;
+Number of Accepted + Wait - Implementation that are preceded by Accepted + In Progress;Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Accepted + In Progress' occurs;472;
+Percentage of Accepted + Wait - Implementation that occur in variants ending with Completed + Closed;Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + Closed';0.07;
+Percentage of Accepted + Wait - Implementation from all wait state activities;Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + Wait';0.1;
+Number of Accepted + Wait - Implementation with impact level 'High';Number of 'Accepted + Wait - Implementation' activities == 'High' where ma is the last value of impact;33;
+Percentage of Accepted + Wait - Implementation by resource Anne Claire;Percentage of 'Accepted + Wait - Implementation' out of all cases;;
+Number of Accepted + Wait - Implementation grouped by country;Number of 'Accepted + Wait - Implementation' activities grouped by the last value of resource country;0:428;"{""0"":428,""Australia"":0,""Belgium"":5,""Brazil"":0,""Canada"":0,""China"":1,""France"":1,""INDIA"":6,""Japan"":0,""Korea"":0,""MALAYSIA"":0,""POLAND"":21,""RUSSIAN FEDERATION"":0,""Sweden"":9,""THAILAND"":0,""USA"":2,""United Kingdom"":0}"
+Percentage of Accepted + Wait - Implementation by worker Frederic;Percentage of 'Accepted + Wait - Implementation' out of all cases;;
+Percentage of Accepted + Wait - Implementation followed by Completed + Resolved;Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + Resolved';0.07;
+Percentage of Accepted + Wait - Implementation that are eventually cancelled;Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + Cancelled';0.0;
+Number of Accepted + Wait - Implementation in relation to Accepted + Wait - User;Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Accepted + Wait - User' occurs;244;
+Percentage of Accepted + Wait - Implementation;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Number of times Accepted + Wait - Implementation is performed;Number of 'Accepted + Wait - Implementation' activities;473;
+Percentage of Accepted + Wait - Implementation done after Queued + Awaiting Assignment;Percentage of 'Accepted + Wait - Implementation' out of all 'Queued + Awaiting Assignment';0.08;
+Average number of Accepted + Wait - Implementation per case;the average of the number of times `ACTIVITY` == 'Accepted + Wait - Implementation';0.06;
+Percentage of Accepted + Wait - Implementation cases that exceed average performance time;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Percentage of Accepted + Wait - Implementation with product PROD582;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.0;
+Average number of Accepted + Wait - Implementation that are followed by Completed + Resolved;the average of the number of times `ACTIVITY` == 'Accepted + Wait - Implementation' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Completed + Resolved';0.08;
+Percentage of Accepted + Wait - Implementation occurring in Brazil;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.0;
+Total Accepted + Wait - Implementation done by resource Lierson;Number of 'Accepted + Wait - Implementation' activities == 'Lierson' where ma is the last value of org:resource;0;
+Fraction of Accepted + Wait - Implementation that lead to resolution;Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + Resolved';0.07;
+Total Accepted + Wait - Implementation performed by organization V30;Number of 'Accepted + Wait - Implementation' activities == 'V30' where ma is the last value of organization involved;;
+Ratio of Accepted + Wait - Implementation over Accepted + Wait - Vendor;Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + Wait - Vendor';0.09;
+Occasions how often the Accepted + Wait - Implementation is performed in variants with multiple wait states;Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Accepted + Wait' occurs;138;
+The ratio of Accepted + Wait - Implementation that are not followed by Completed + Resolved;Percentage of 'Accepted + Wait - Implementation' out of all cases where 'Completed + Resolved' does not happen;0.05;
+Percentage of Accepted + Wait - Implementation occurring in variants with frequency above 100;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Number of Accepted + Wait - Implementation compared to Completed + In Call in incident management;Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Completed + In Call' occurs;20;
+Percentage of Accepted + Wait - Implementation that transition directly to resolution activities;Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + Resolved';0.07;
+Frequency of Accepted + Wait - Implementation in high-impact incidents;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.11;
+Percentage of Accepted + Wait - Implementation that occur after multiple Queued + Awaiting Assignment activities;Percentage of 'Accepted + Wait - Implementation' out of all 'Queued + Awaiting Assignment';0.08;
+Number of Accepted + Wait - Implementation in variants with performance time above 1 million seconds;Number of 'Accepted + Wait - Implementation' activities;473;
+Number of Accepted + Wait - Implementation made per year;Number of 'Accepted + Wait - Implementation' activities;473;
+Average number of Accepted + Wait - Implementation in a month;the average of the number of times `ACTIVITY` == 'Accepted + Wait - Implementation';0.06;

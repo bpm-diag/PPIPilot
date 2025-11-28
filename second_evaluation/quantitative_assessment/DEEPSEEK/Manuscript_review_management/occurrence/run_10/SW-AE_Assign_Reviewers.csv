@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-AE Assign Reviewers that are followed by SW-Reviewer Agreed;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Number of SW-AE Assign Reviewers per case;Number of 'SW-AE Assign Reviewers' activities grouped by the last value of code;AER0:4;"{""AER0"":4,""CHK4"":0,""DRSW4"":0,""DRW3"":4,""DSW3"":49,""DSW4"":21,""MSC4"":61,""RJR3"":2,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":2}"
+Percentage of SW-AE Assign Reviewers that are preceded by SW-Reviewer Selection is due in 3 days;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Selection is due in 3 days';0.96;
+Number of SW-AE Assign Reviewers in variants containing SW-Reviewer Agreed;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-Reviewer Agreed' occurs;141;
+Percentage of SW-AE Assign Reviewers out of all SW-Initial Reviewer Selection;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Initial Reviewer Selection';0.75;
+Frequency of SW-AE Assign Reviewers compared to SW-Reviewer Declined;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Declined';0.97;
+Percentage of cases where SW-AE Assign Reviewers leads to SW-Awaiting EIC Decision;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Awaiting EIC Decision';0.76;
+Number of SW-AE Assign Reviewers before first SW-Reviewer Agreed;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-Reviewer Agreed' occurs;141;
+Percentage of SW-AE Assign Reviewers followed by Reviewer Invitation Reminder 1;Percentage of 'SW-AE Assign Reviewers' out of all 'Reviewer Invitation Reminder 1';0.89;
+Ratio of SW-AE Assign Reviewers to SW-Reviewer Agreed in successful review processes;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Percentage of SW-AE Assign Reviewers that occur after SW-Reviewer Selection is now due;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Selection is now due';0.92;
+Number of SW-AE Assign Reviewers in variants with SW-EIC Accept outcome;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-EIC Accept' occurs;0;
+Percentage of SW-AE Assign Reviewers followed by SW-Reviewer Unavailable;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Unavailable';1.0;
+Frequency of SW-AE Assign Reviewers compared to RW-AE Assign Reviewers;Percentage of 'SW-AE Assign Reviewers' out of all 'RW-AE Assign Reviewers';0.95;
+Percentage of SW-AE Assign Reviewers that result in at least one SW-Reviewer Agreed;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Number of consecutive SW-AE Assign Reviewers without successful reviewer assignment;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-Reviewer Agreed' does not occur;143;
+Percentage of SW-AE Assign Reviewers preceded by SW-Reviewer Selection is due in 1 week;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Selection is due in 1 week';0.79;
+Average number of SW-AE Assign Reviewers per manuscript review process;the average of the number of times `ACTIVITY` == 'SW-AE Assign Reviewers' grouped by the last value of code;AER0:4.0;"{""AER0"":4.0,""CHK4"":0.0,""DRSW4"":0.0,""DRW3"":4.0,""DSW3"":2.2272727273,""DSW4"":0.6363636364,""MSC4"":2.5416666667,""RJR3"":2.0,""SW1"":0.0,""SW12"":0.0,""SYS1"":0.0,""SYS11"":0.0,""SYS2"":0.0,""SYS5"":2.0}"
+Percentage of SW-AE Assign Reviewers followed by Assign a Different Editor;Percentage of 'SW-AE Assign Reviewers' out of all 'Assign a Different Editor';0.64;
+Frequency of SW-AE Assign Reviewers in variants with immediate rejection after checklist;Percentage of 'SW-AE Assign Reviewers' out of all 'Immediate Reject Decision from the Checklist';0.0;

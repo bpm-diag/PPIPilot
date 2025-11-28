@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+;ERROR: computing metric {};;
+Average time from 'Declaration FOR_APPROVAL by PRE_APPROVER' to 'Declaration APPROVED by PRE_APPROVER';The average of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Declaration APPROVED by PRE_APPROVER';;
+Average time from 'Declaration FOR_APPROVAL by PRE_APPROVER' to 'Declaration REJECTED by PRE_APPROVER';The average of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Declaration REJECTED by PRE_APPROVER';;
+Total time for 'Declaration FOR_APPROVAL by PRE_APPROVER' to reach 'Payment Handled';The sum of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Payment Handled';;
+Minimum time from 'Declaration FOR_APPROVAL by PRE_APPROVER' to 'Declaration FINAL_APPROVED by SUPERVISOR';The minimum of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';;
+Minimum time for 'Declaration FOR_APPROVAL by PRE_APPROVER' to be followed by 'Declaration REJECTED by PRE_APPROVER';The minimum of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Declaration REJECTED by PRE_APPROVER';;
+Total time it takes 'Declaration FOR_APPROVAL by PRE_APPROVER' after 'Declaration SUBMITTED by EMPLOYEE';The sum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration FOR_APPROVAL by PRE_APPROVER';2.83 minutes;
+Elapsed time between 'Declaration FOR_APPROVAL by PRE_APPROVER' and 'Declaration APPROVED by ADMINISTRATION';The average of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Declaration APPROVED by ADMINISTRATION';;
+Time until 'Declaration FOR_APPROVAL by PRE_APPROVER' in the process flow leading to 'Payment Handled';The average of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Payment Handled';;
+Time from 'Declaration FOR_APPROVAL by PRE_APPROVER' to 'Declaration APPROVED by BUDGET OWNER';The average of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Declaration APPROVED by BUDGET OWNER';;
+Time of 'Declaration FOR_APPROVAL by PRE_APPROVER' in cases ending with 'Declaration REJECTED by PRE_APPROVER';The sum of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Declaration REJECTED by PRE_APPROVER';;

@@ -1,0 +1,30 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Reviewer Declined' compared to 'SW-Reviewer Agreed';Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Percentage of manuscripts that proceed to 'SW-Awaiting EIC Decision' after a 'SW-Reviewer Declined';Percentage of 'SW-Reviewer Declined' out of all 'SW-Awaiting EIC Decision';0.49;
+Number of 'SW-Reviewer Declined' occurrences before 'SW-AE Assign Reviewers';Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-AE Assign Reviewers' occurs;59;
+Percentage of 'SW-Reviewer Declined' out of all reviewer-related activities;Percentage of 'SW-Reviewer Declined' out of all cases where 'SW-Reviewer Declined' does not happen;0.31;
+Frequency of 'SW-Reviewer Declined' leading to 'SW-EIC Major Revision';Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Major Revision';0.8;
+Percentage of 'SW-Reviewer Declined' followed by 'Reviewer Invitation Reminder 1';Percentage of 'SW-Reviewer Declined' out of all 'Reviewer Invitation Reminder 1';0.62;
+Number of 'SW-Reviewer Declined' in relation to 'SW-Reviewer Unavailable';Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-Reviewer Unavailable' occurs;45;
+Percentage of 'SW-Reviewer Declined' by performer;Percentage of 'SW-Reviewer Declined' out of all cases;ADMIN:0.5;"{""ADMIN"":0.5,""AUTHOR"":0.0,""EIC"":0.0,""SYSTEM"":0.3139534884}"
+Percentage of 'SW-Reviewer Declined' that are followed by 'SW-AE Assign Reviewers';Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Number of 'SW-Reviewer Declined' in manuscripts that require major revisions;Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-EIC Major Revision' occurs;29;
+Percentage of 'SW-Reviewer Declined' in the review process;Percentage of 'SW-Reviewer Declined' out of all cases where 'SW-Reviewer Declined' does not happen;0.31;
+Frequency of 'SW-Reviewer Declined' in the event log;Frequency of activity 'SW-Reviewer Declined';29;
+Percentage of 'SW-Reviewer Declined' done after 'SW-Reviewer Selection is due in 3 days';Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Selection is due in 3 days';0.54;
+Percentage of 'SW-Reviewer Declined' with subsequent 'SW-Reviewer Agreed';Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Percentage of 'SW-Reviewer Declined' leading to a change in the review process outcome;Percentage of 'SW-Reviewer Declined' out of all cases where 'SW-Reviewer Declined' does not happen;0.31;
+Average number of 'SW-Reviewer Declined' that are followed by 'SW-AE Assign Reviewers Challenge Paper';the average of the number of times `ACTIVITY` == 'SW-Reviewer Declined' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-AE Assign Reviewers Challenge Paper';1.67;
+Percentage of 'SW-Reviewer Declined' in manuscripts that are eventually accepted;Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Accept';0.0;
+Fraction of 'SW-Reviewer Declined' that are followed by manuscript withdrawal;Percentage of 'SW-Reviewer Declined' out of all 'Manuscript is Withdrawn';0.0;
+Ratio of 'SW-Reviewer Declined' over 'SW-Reviewer Agreed';Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Occasions how often 'SW-Reviewer Declined' is performed before 'SW-AE Recommendation overdue';Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-AE Recommendation overdue' occurs;2;
+The ratio of 'SW-Reviewer Declined' in manuscripts that undergo multiple rounds of revision;Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Major Revision';0.8;
+Total 'SW-Reviewer Declined' done by SYSTEM;Number of 'SW-Reviewer Declined' activities == 'SYSTEM' where ma is the last value of performer;59;
+Total 'SW-Reviewer Declined' performed by SYSTEM;Number of 'SW-Reviewer Declined' activities == 'SYSTEM' where ma is the last value of performer;59;
+Number of 'SW-Reviewer Declined' grouped by 'case:concept:name';Number of 'SW-Reviewer Declined' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":11,""DSW4"":13,""MSC4"":34,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Average number of 'SW-Reviewer Declined' per manuscript;the average of the number of times `ACTIVITY` == 'SW-Reviewer Declined' grouped by the last value of code;AER0:1.0;"{""AER0"":1.0,""CHK4"":0.0,""DRSW4"":0.0,""DRW3"":1.0,""DSW3"":0.5,""DSW4"":0.3939393939,""MSC4"":1.4166666667,""RJR3"":0.0,""SW1"":0.0,""SW12"":0.0,""SYS1"":0.0,""SYS11"":0.0,""SYS2"":0.0,""SYS5"":1.0}"
+Percentage of 'SW-Reviewer Declined' by month;Percentage of 'SW-Reviewer Declined' out of all cases;0.31;
+Number of 'SW-Reviewer Declined' made per year;Number of 'SW-Reviewer Declined' activities;61;
+Average number of 'SW-Reviewer Declined' in a month;the average of the number of times `ACTIVITY` == 'SW-Reviewer Declined';0.66;
+Percentage of 'SW-Reviewer Declined' that lead to 'SW-EIC Reject & Resubmit';"ERROR: computing metric {'count': activity == 'SW-Reviewer Declined'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity == 'SW-EIC Reject & Resubmit'""}""";;

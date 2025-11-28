@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration SUBMITTED by EMPLOYEE that are eventually followed by Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Frequency of Declaration SUBMITTED by EMPLOYEE in variants that include Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Percentage of Declaration SUBMITTED by EMPLOYEE out of all activity executions in the event log;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Number of Declaration SUBMITTED by EMPLOYEE that are directly followed by Declaration APPROVED by PRE_APPROVER;Number of 'Declaration SUBMITTED by EMPLOYEE' activities for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;762.0;
+Percentage of Declaration SUBMITTED by EMPLOYEE that lead to a successful Payment Handled without any rejection;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Payment Handled';1.0;
+Frequency of Declaration SUBMITTED by EMPLOYEE in the top 3 most frequent process variants;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Percentage of Declaration SUBMITTED by EMPLOYEE that are re-submitted after any type of rejection;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Number of Declaration SUBMITTED by EMPLOYEE that occur in cases with total Amount above 100 euros;Number of 'Declaration SUBMITTED by EMPLOYEE' activities > 100 where ma is the last value of case:Amount;2777.0;
+Percentage of Declaration SUBMITTED by EMPLOYEE that are not followed by any approval activity within the same case;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Frequency of Declaration SUBMITTED by EMPLOYEE compared to the frequency of Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Percentage of Declaration SUBMITTED by EMPLOYEE that are part of variants containing at least one rejection step;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Percentage of Declaration SUBMITTED by EMPLOYEE that are immediately followed by Declaration FOR_APPROVAL by PRE_APPROVER;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration FOR_APPROVAL by PRE_APPROVER';1.0;
+Frequency of Declaration SUBMITTED by EMPLOYEE in variants where Declaration APPROVED by PRE_APPROVER appears before Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration APPROVED by PRE_APPROVER';1.0;
+Percentage of Declaration SUBMITTED by EMPLOYEE that result in a completed payment (i.e., followed by Payment Handled) without looping;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Payment Handled';1.0;
+Ratio of Declaration SUBMITTED by EMPLOYEE to Declaration REJECTED by PRE_APPROVER across all cases;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Percentage of Declaration SUBMITTED by EMPLOYEE that belong to cases eventually rejected by PRE_APPROVER at any point;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Number of Declaration SUBMITTED by EMPLOYEE that are followed by more than one approval step before final approval;Number of 'Declaration SUBMITTED by EMPLOYEE' activities;11531.0;
+Percentage of Declaration SUBMITTED by EMPLOYEE in variants that skip the PRE_APPROVER role entirely;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Frequency of Declaration SUBMITTED by EMPLOYEE that initiate a variant ending in Declaration REJECTED by PRE_APPROVER without subsequent resubmission;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Number of Declaration SUBMITTED by EMPLOYEE per year (2017 vs 2018);"ERROR: computing metric {'count': activity == 'Declaration SUBMITTED by EMPLOYEE'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of cases that eventually reach Awaiting Assignment to Batch;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Frequency of Awaiting Assignment to Batch in each process variant;Number of 'Awaiting Assignment to Batch' activities grouped by the last value of code;AER0:0;"{""AER0"":0,""CHK4"":0,""DRSW4"":0,""DRW3"":0,""DSW3"":1,""DSW4"":1,""MSC4"":23,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of Awaiting Assignment to Batch that occur after First Look Manuscript Submission Confirmation;Percentage of 'Awaiting Assignment to Batch' out of all 'First Look Manuscript Submission Confirmation';0.96;
+Percentage of Awaiting Assignment to Batch that are followed by Manuscript Export Succeeded;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Frequency of Awaiting Assignment to Batch compared to SW-EIC Accept;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'SW-EIC Accept' occurs;3;
+Percentage of cases with Awaiting Assignment to Batch that started as Original Manuscript Submission Confirmation;Percentage of 'Awaiting Assignment to Batch' out of all 'Original Manuscript Submission Confirmation';0.28;
+Number of Awaiting Assignment to Batch activities in variants containing RW-EIC Accept;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'RW-EIC Accept' occurs;21;
+Percentage of Awaiting Assignment to Batch that occur in revised manuscript workflows;Percentage of 'Awaiting Assignment to Batch' out of all 'Revised Manuscript Submission Confirmation';0.88;
+Frequency of Awaiting Assignment to Batch in successful review processes;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'SW-EIC Accept' occurs;3;
+Percentage of Awaiting Assignment to Batch that occur after First Look-Please submit updates;Percentage of 'Awaiting Assignment to Batch' out of all 'First Look-Please submit updates';1.0;
+Number of days between Revised Manuscript Submission Confirmation and Awaiting Assignment to Batch;the average of the number of times `ACTIVITY` == 'Awaiting Assignment to Batch' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Revised Manuscript Submission Confirmation';0.88;
+Percentage of cases with Awaiting Assignment to Batch that had SW-Reviewer Agreed;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Reviewer Agreed';0.39;
+Frequency of Awaiting Assignment to Batch compared to Manuscript Export Succeeded;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Manuscript Export Succeeded' occurs;26;
+Percentage of Awaiting Assignment to Batch activities in the final stage of the review process;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Accept';1.0;
+Percentage of cases with Awaiting Assignment to Batch that underwent major revision;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Major Revision';0.87;
+Average number of activities between RW-EIC Accept and Awaiting Assignment to Batch;the average of the number of times `ACTIVITY` == 'Awaiting Assignment to Batch' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'RW-EIC Accept';0.95;
+Percentage of Awaiting Assignment to Batch that occur in challenge paper reviews;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-AE Assign Reviewers Challenge Paper';0.33;
+Frequency of Awaiting Assignment to Batch in variants with multiple reviewer assignments;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'SW-Reviewer Agreed' occurs;18;
+Number of Awaiting Assignment to Batch activities per case;Number of 'Awaiting Assignment to Batch' activities grouped by the last value of code;AER0:0;"{""AER0"":0,""CHK4"":0,""DRSW4"":0,""DRW3"":0,""DSW3"":1,""DSW4"":1,""MSC4"":23,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Number of Awaiting Assignment to Batch activities per month;"ERROR: computing metric {'count': activity == 'Awaiting Assignment to Batch'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

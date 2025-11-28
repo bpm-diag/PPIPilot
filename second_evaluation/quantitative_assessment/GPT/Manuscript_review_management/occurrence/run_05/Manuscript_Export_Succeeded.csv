@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Manuscript Export Succeeded' followed by 'Plagiarism Originality Report Completed';Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'Plagiarism Originality Report Completed' occurs;86;
+Percentage of 'Manuscript Export Succeeded' out of all manuscript processing activities;Percentage of 'Manuscript Export Succeeded' out of all cases where '' does not happen;0.96;
+Number of 'Manuscript Export Succeeded' that precede 'SW-AE Assign Reviewers';Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'SW-AE Assign Reviewers' occurs;45;
+Percentage of manuscripts that proceed to 'SW-Reviewer Agreed' after 'Manuscript Export Succeeded';Percentage of 'Manuscript Export Succeeded' out of all 'SW-Reviewer Agreed';0.98;
+Frequency of 'Manuscript Export Succeeded' in the most common process variant;Frequency of activity 'Manuscript Export Succeeded' for cases where activity '' does not occur;89;
+Percentage of 'Manuscript Export Succeeded' activities followed by 'Revised Manuscript Submission Confirmation';Percentage of 'Manuscript Export Succeeded' out of all 'Revised Manuscript Submission Confirmation';1.0;
+Number of 'Manuscript Export Succeeded' per case;Frequency of activity '{}' grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":1,""DRSW4"":0,""DRW3"":1,""DSW3"":22,""DSW4"":32,""MSC4"":24,""RJR3"":1,""SW1"":1,""SW12"":2,""SYS1"":1,""SYS11"":1,""SYS2"":1,""SYS5"":1}"
+Frequency of 'Manuscript Export Succeeded' as the first activity in a case;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'Manuscript Export Succeeded' occurs;89;
+Percentage of cases with 'Manuscript Export Succeeded' that lead to 'SW-EIC Major Revision';Percentage of 'Manuscript Export Succeeded' out of all 'SW-EIC Major Revision';1.0;
+Number of 'Manuscript Export Succeeded' activities followed by 'First Look-Please submit updates';Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'First Look-Please submit updates' occurs;23;
+Percentage of 'Manuscript Export Succeeded' in cases that are eventually accepted ('RW-EIC Accept');Percentage of 'Manuscript Export Succeeded' out of all 'RW-EIC Accept';1.0;
+Frequency of 'Manuscript Export Succeeded' in cases that exceed a certain review time threshold;Frequency of activity 'Manuscript Export Succeeded';89;
+Percentage of 'Manuscript Export Succeeded' in cases that lead to 'SW-EIC Reject';Percentage of 'Manuscript Export Succeeded' out of all 'SW-EIC Reject';0.97;
+Number of 'Manuscript Export Succeeded' activities that are followed by any reviewer assignment activity;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'SW-AE Assign Reviewers' occurs;45;
+Frequency of 'Manuscript Export Succeeded' in relation to total activities performed by the most active sender;Percentage of 'Manuscript Export Succeeded' out of all cases;catarci@diag.uniroma1.it:1.0;"{""catarci@diag.uniroma1.it"":1.0,""clcabanban@ched.gov.ph"":1.0,""gleb@intentionalinsights.org"":1.0,""marrella@diag.uniroma1.it"":0.75,""onbehalfof@manuscriptcentral.com"":0.9651162791}"

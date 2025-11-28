@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Queued + Awaiting Assignment' leading directly to 'Accepted + In Progress';Frequency of activity 'Queued + Awaiting Assignment' for cases where activity 'Accepted + In Progress' occurs;4505.0;
+Percentage of cases where 'Queued + Awaiting Assignment' is followed by 'Completed + In Call' within the same case;Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Number of times 'Queued + Awaiting Assignment' occurs before 'Completed + Resolved';Number of 'Queued + Awaiting Assignment' activities for cases where activity 'Completed + Resolved' occurs;10761.0;
+Percentage of 'Queued + Awaiting Assignment' out of all 'Accepted + Wait - User';Percentage of 'Queued + Awaiting Assignment' out of all 'Accepted + Wait - User';0.85;
+Frequency of 'Queued + Awaiting Assignment' transitions to 'Accepted + In Progress' compared to transitions to 'Accepted + Wait';Frequency of activity 'Queued + Awaiting Assignment' for cases where activity 'Accepted + In Progress' occurs;4505.0;
+Percentage of 'Queued + Awaiting Assignment' followed by any activity other than 'Accepted + In Progress';Percentage of 'Queued + Awaiting Assignment' out of all cases where 'Accepted + In Progress' does not happen;0.6;
+Number of 'Queued + Awaiting Assignment' activities that precede 'Completed + Closed';Number of 'Queued + Awaiting Assignment' activities for cases where activity 'Completed + Closed' occurs;10675.0;
+Percentage of 'Queued + Awaiting Assignment' in cases that involve 'Completed + In Call';Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Frequency of 'Queued + Awaiting Assignment' in relation to total activities in the event log;Frequency of activity 'Queued + Awaiting Assignment';4511.0;
+Percentage of 'Queued + Awaiting Assignment' followed by 'Completed + Resolved' out of all occurrences of 'Completed + Resolved';Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + Resolved';0.8;
+Number of 'Queued + Awaiting Assignment' activities that are not followed by 'Completed + Cancelled';Number of 'Queued + Awaiting Assignment' activities for cases where activity 'Completed + Cancelled' does not occur;10767.0;
+Frequency of 'Queued + Awaiting Assignment' leading to 'Accepted + Assigned' compared to leading to 'Accepted + Wait - Vendor';Frequency of activity 'Queued + Awaiting Assignment' for cases where activity 'Accepted + Assigned' occurs;1717.0;
+Percentage of 'Queued + Awaiting Assignment' as the first activity in a case;Percentage of 'Queued + Awaiting Assignment' out of all 'Queued + Awaiting Assignment';1.0;
+Number of times 'Queued + Awaiting Assignment' is immediately followed by 'Accepted + Wait - Implementation';Number of 'Queued + Awaiting Assignment' activities for cases where activity 'Accepted + Wait - Implementation' occurs;1243.0;
+Percentage of cases where 'Queued + Awaiting Assignment' directly precedes 'Completed + In Call', indicating a potential area for process improvement in relation to the goal of understanding the impact of 'Completed + In Call' activity;Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;

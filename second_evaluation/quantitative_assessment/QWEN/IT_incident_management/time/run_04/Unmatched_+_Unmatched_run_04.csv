@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Average time for Unmatched + Unmatched;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total time for Unmatched + Unmatched;The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Minimum time for Unmatched + Unmatched;The minimum of the duration between activity Unmatched + Unmatched and the end of the case;7.36 days;
+Time of Unmatched + Unmatched;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Unmatched + Unmatched Cycle Time;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Average time between Unmatched + Unmatched and Accepted + In Progress;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';4.75 hours;
+Minimum time between Unmatched + Unmatched and Completed + Resolved;The minimum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';4.32 minutes;
+Average time it takes Unmatched + Unmatched after the execution of Completed + In Call;The average of the duration between activity 'Completed + In Call' and activity 'Unmatched + Unmatched';;
+Total time it takes Unmatched + Unmatched after the execution of Completed + In Call;The sum of the duration between activity 'Completed + In Call' and activity 'Unmatched + Unmatched';;
+Minimum time it takes Unmatched + Unmatched after the execution of Completed + In Call;The minimum of the duration between activity 'Completed + In Call' and activity 'Unmatched + Unmatched';;
+Average time from Unmatched + Unmatched to Completed + Closed in variants containing Completed + In Call;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Closed';;
+Total time from Unmatched + Unmatched to Completed + Closed in variants containing Completed + In Call;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Closed';;
+Minimum time from Unmatched + Unmatched to Completed + Closed in variants containing Completed + In Call;The minimum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Closed';;
+Average time for Unmatched + Unmatched in cases that eventually reach Completed + In Call;The average of the duration between activity 'Unmatched + Unmatched' and the end of case where activity 'Completed + In Call occurs;;
+Total time for Unmatched + Unmatched in cases that eventually reach Completed + In Call;The sum of the duration between activity 'Unmatched + Unmatched' and the end of case where activity 'Completed + In Call occurs;;
+Minimum time for Unmatched + Unmatched in cases that eventually reach Completed + In Call;The minimum of the duration between activity Unmatched + Unmatched and the end of the case;;

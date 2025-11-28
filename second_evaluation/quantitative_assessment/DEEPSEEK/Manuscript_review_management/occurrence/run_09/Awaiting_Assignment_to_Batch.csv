@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of cases that eventually reach Awaiting Assignment to Batch;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Percentage of Awaiting Assignment to Batch that occur after First Look Manuscript Submission Confirmation;Percentage of 'Awaiting Assignment to Batch' out of all 'First Look Manuscript Submission Confirmation';0.96;
+Number of Awaiting Assignment to Batch activities per case;Number of 'Awaiting Assignment to Batch' activities grouped by the last value of code;AER0:0;"{""AER0"":0,""CHK4"":0,""DRSW4"":0,""DRW3"":0,""DSW3"":1,""DSW4"":1,""MSC4"":23,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of Awaiting Assignment to Batch that are followed by Manuscript Export Succeeded;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Frequency of Awaiting Assignment to Batch compared to SW-EIC Accept;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'SW-EIC Accept' occurs;3;
+Percentage of cases with RW-EIC Accept that contain Awaiting Assignment to Batch;Percentage of 'Awaiting Assignment to Batch' out of all 'RW-EIC Accept';0.95;
+Number of Awaiting Assignment to Batch activities in variants ending with manuscript acceptance;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'RW-EIC Accept' occurs;21;
+Percentage of Awaiting Assignment to Batch that occur in major revision workflows;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Major Revision';0.87;
+Frequency of Awaiting Assignment to Batch in relation to First Look-Please submit updates;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look-Please submit updates' occurs;23;
+Percentage of Awaiting Assignment to Batch activities that occur within production-ready manuscripts;Percentage of 'Awaiting Assignment to Batch' out of all 'Awaiting Production Checklist';0.92;
+Number of Awaiting Assignment to Batch activities that follow successful First Look updates;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look Manuscript Submission Confirmation' occurs;24;
+Percentage of manuscripts reaching Awaiting Assignment to Batch out of all submitted manuscripts;Percentage of 'Awaiting Assignment to Batch' out of all 'Original Manuscript Submission Confirmation';0.28;
+Frequency of Awaiting Assignment to Batch compared to manuscript withdrawal activities;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Manuscript is Withdrawn' occurs;0;
+Percentage of Awaiting Assignment to Batch activities in variants with multiple revision cycles;Percentage of 'Awaiting Assignment to Batch' out of all 'Revised Manuscript Submission Confirmation';0.88;
+Number of days from manuscript submission to Awaiting Assignment to Batch;the average of the number of times `ACTIVITY` == 'Awaiting Assignment to Batch' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Original Manuscript Submission Confirmation';0.28;
+Percentage of Awaiting Assignment to Batch activities that occur after RW-EIC Accept decisions;Percentage of 'Awaiting Assignment to Batch' out of all 'RW-EIC Accept';0.95;
+Frequency of Awaiting Assignment to Batch in relation to final manuscript export activities;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Manuscript Export Succeeded' occurs;26;
+Percentage of accepted manuscripts that successfully reach Awaiting Assignment to Batch;Percentage of 'Awaiting Assignment to Batch' out of all 'RW-EIC Accept';0.95;
+Frequency of Awaiting Assignment to Batch in each process variant;Number of 'Awaiting Assignment to Batch' activities grouped by the last value of code;AER0:0;"{""AER0"":0,""CHK4"":0,""DRSW4"":0,""DRW3"":0,""DSW3"":1,""DSW4"":1,""MSC4"":23,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Number of Awaiting Assignment to Batch activities per month in the review process;"ERROR: computing metric {'count': activity == 'Awaiting Assignment to Batch'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

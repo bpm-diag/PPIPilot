@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.27;
+Number of 'Declaration APPROVED by BUDGET OWNER' that are followed by 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;2811;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' from all approval activities;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration APPROVED by ADMINISTRATION';0.35;
+Number of 'Declaration APPROVED by BUDGET OWNER' with amounts above 100 euros;Number of 'Declaration APPROVED by BUDGET OWNER' activities > 100 where ma is the last value of case:Amount;722;
+Number of 'Declaration APPROVED by BUDGET OWNER' grouped by 'case:BudgetNumber';Number of 'Declaration APPROVED by BUDGET OWNER' activities;2820;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' followed by 'Request Payment';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Request Payment';0.28;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' that lead to a payment without rejection;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases where 'Declaration REJECTED by SUPERVISOR' does not happen;0.27;
+Number of times 'Declaration APPROVED by BUDGET OWNER' is performed in relation to 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0;
+Average number of 'Declaration APPROVED by BUDGET OWNER' that are followed by 'Payment Handled';the average of the number of times `ACTIVITY` == 'Declaration APPROVED by BUDGET OWNER' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Payment Handled';0.28;
+Total 'Declaration APPROVED by BUDGET OWNER' done by 'SYSTEM';Number of 'Declaration APPROVED by BUDGET OWNER' activities == 'SYSTEM' where ma is the last value of org:resource;2811;
+Ratio of 'Declaration APPROVED by BUDGET OWNER' over 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Occasions how often the 'Declaration APPROVED by BUDGET OWNER' is performed in successful variants;Frequency of activity 'Declaration APPROVED by BUDGET OWNER' for cases where activity 'Declaration REJECTED by SUPERVISOR' does not occur;2807;
+The ratio of 'Declaration APPROVED by BUDGET OWNER' that are not eventually followed by 'Declaration REJECTED by SUPERVISOR';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases where 'Declaration REJECTED by SUPERVISOR' does not happen;0.27;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' by 'STAFF MEMBER';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;ADMINISTRATION:0.0;"{""ADMINISTRATION"":0.0,""EMPLOYEE"":0.019138756,""MISSING"":0.0,""SUPERVISOR"":0.25,""UNDEFINED"":0.2786020114}"
+Number of 'Declaration APPROVED by BUDGET OWNER' made per year;Number of 'Declaration APPROVED by BUDGET OWNER' activities;2820;

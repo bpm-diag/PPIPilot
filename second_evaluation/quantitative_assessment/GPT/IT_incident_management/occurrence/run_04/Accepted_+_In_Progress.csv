@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + In Progress' leading directly to 'Completed + In Call';Frequency of activity 'Accepted + In Progress' for cases where activity 'Completed + In Call' occurs;2018.0;
+Percentage of 'Accepted + In Progress' activities followed by 'Completed + Resolved';Percentage of 'Accepted + In Progress' out of all 'Completed + Resolved';1.0;
+Number of 'Accepted + In Progress' activities that precede 'Queued + Awaiting Assignment';Number of 'Accepted + In Progress' activities for cases where activity 'Queued + Awaiting Assignment' occurs;19365.0;
+Percentage of 'Accepted + In Progress' out of all 'Completed + Closed' activities;Percentage of 'Accepted + In Progress' out of all 'Completed + Closed';1.0;
+Frequency of 'Accepted + In Progress' in relation to 'Accepted + Wait - User';Frequency of activity 'Accepted + In Progress' for cases where activity 'Accepted + Wait - User' occurs;2486.0;
+Percentage of 'Accepted + In Progress' followed by 'Accepted + Assigned';Percentage of 'Accepted + In Progress' out of all 'Accepted + Assigned';1.0;
+Number of 'Accepted + In Progress' activities within the most frequent process variant;Number of 'Accepted + In Progress' activities for cases where activity 'most frequent process variant' occurs;;
+Percentage of 'Accepted + In Progress' activities that lead to a 'Completed + In Call' without being preceded by 'Queued + Awaiting Assignment';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Frequency of 'Accepted + In Progress' as a starting activity in a case;Frequency of activity 'Accepted + In Progress' for cases where activity 'starting activity' occurs;;
+Percentage of cases starting with 'Accepted + In Progress' that end with 'Completed + Closed';Percentage of 'Accepted + In Progress' out of all 'Completed + Closed';1.0;
+Number of 'Accepted + In Progress' activities followed by 'Accepted + Wait - Implementation';Number of 'Accepted + In Progress' activities for cases where activity 'Accepted + Wait - Implementation' occurs;2465.0;
+Percentage of 'Accepted + In Progress' followed by any activity other than 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all cases where 'Completed + In Call' does not happen;1.0;
+Frequency of 'Accepted + In Progress' in cases with a 'High' impact;Frequency of activity 'Accepted + In Progress';261.0;
+Percentage of 'Accepted + In Progress' activities in cases involving 'PROD582';Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Number of 'Accepted + In Progress' activities performed by the top 5 resources;Number of 'Accepted + In Progress' activities == 'top 5 resources' where ma is the last value of org:resource;;
+Percentage of 'Accepted + In Progress' activities that occur after 'Queued + Awaiting Assignment' and lead to 'Completed + Resolved';Percentage of 'Accepted + In Progress' out of all 'Completed + Resolved';1.0;
+Frequency of 'Accepted + In Progress' in the top 3 most common variants;Frequency of activity 'Accepted + In Progress' for cases where activity 'top 3 most common variants' occurs;;
+Percentage of 'Accepted + In Progress' activities that are part of cases exceeding average case duration;Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Number of 'Accepted + In Progress' activities in cases with 'Medium' impact but not leading to 'Completed + In Call';Number of 'Accepted + In Progress' activities == 'Medium' where ma is the last value of impact;12145.0;
+Percentage of 'Accepted + In Progress' activities that are immediately followed by 'Completed + Resolved' in cases from 'France';Percentage of 'Accepted + In Progress' out of all cases;;

@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Awaiting AE Recommendation' following 'SW-Reviewer Agreed';Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'SW-Reviewer Agreed' occurs;24;
+Percentage of manuscripts entering 'SW-Awaiting AE Recommendation' after 'SW-Reviewer Agreed' out of all instances of 'SW-Reviewer Agreed';Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Number of times 'SW-Awaiting AE Recommendation' leads to 'SW-EIC Major Revision';Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'SW-EIC Major Revision' occurs;6;
+Percentage of 'SW-Awaiting AE Recommendation' leading to 'SW-EIC Accept' compared to 'SW-EIC Reject';Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Accept';1.0;
+Frequency of 'SW-Awaiting AE Recommendation' in the most common process variant;Frequency of activity 'SW-Awaiting AE Recommendation';36;
+Percentage of 'SW-Awaiting AE Recommendation' occurrences that are followed by any decision ('SW-EIC Accept', 'SW-EIC Major Revision', 'SW-EIC Minor Revision', 'SW-EIC Reject');Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Accept';1.0;
+Number of 'SW-Awaiting AE Recommendation' per case;Frequency of activity '{}' grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":11,""DSW4"":11,""MSC4"":11,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of cases with 'SW-Awaiting AE Recommendation' that also include 'Reviewer Invitation Reminder 1';Percentage of 'SW-Awaiting AE Recommendation' out of all 'Reviewer Invitation Reminder 1';0.47;
+Frequency of 'SW-Awaiting AE Recommendation' in relation to 'Original Manuscript Submission Confirmation';Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'Original Manuscript Submission Confirmation' occurs;36;
+Percentage of 'SW-Awaiting AE Recommendation' followed by 'SW-EIC Major Revision' in the process;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Major Revision';0.4;
+Number of 'SW-Awaiting AE Recommendation' occurrences before 'SW-EIC Decision' stages;Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'SW-Awaiting EIC Decision' occurs;35;
+Frequency of 'SW-Awaiting AE Recommendation' as a precursor to 'Manuscript Export Succeeded';Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'Manuscript Export Succeeded' occurs;36;
+Percentage of 'SW-Awaiting AE Recommendation' followed by 'Awaiting Assignment to Batch' compared to those leading directly to 'Manuscript Export Succeeded';Percentage of 'SW-Awaiting AE Recommendation' out of all 'Awaiting Assignment to Batch';0.46;
+Number of 'SW-Awaiting AE Recommendation' that precede any form of 'Reviewer Invitation Reminder' (1 or 2);Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'Reviewer Invitation Reminder 1' occurs;22;
+Percentage of 'SW-Awaiting AE Recommendation' in manuscripts that exceed the Plagiarism Percent Match Threshold;Percentage of 'SW-Awaiting AE Recommendation' out of all 'Plagiarism Percent Match Threshold Exceeded';0.45;
+Percentage of 'SW-Awaiting AE Recommendation' leading to 'Unassign Editor' or 'Assign a Different Editor' actions;Percentage of 'SW-Awaiting AE Recommendation' out of all 'Unassign Editor';0.18;
+Number of 'SW-Awaiting AE Recommendation' followed by 'SW-Reviewer Selection is now due';Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'SW-Reviewer Selection is now due' occurs;4;
+Percentage of 'SW-Awaiting AE Recommendation' in the longest variant of the process;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Percentage of 'SW-Awaiting AE Recommendation' leading to a revision cycle ('SW–Major Revision due in 1 month', 'SW–Major Revision due in 3 weeks', 'SW–Major Revision due in 2 weeks', 'SW–Major Revision due in 1 week');Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Frequency of 'SW-Awaiting AE Recommendation' in manuscripts requiring 'SW–Major Revision due in 1 month' compared to 'SW–Minor Revision due in 1 month';Number of 'SW-Awaiting AE Recommendation' activities;37;

@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-AE Assign Reviewers' to 'SW-Reviewer Agreed';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Average time from 'Original Manuscript Submission Confirmation' to 'SW-AE Assign Reviewers';The average of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-AE Assign Reviewers';28.20 days;
+Total time for all instances of 'SW-AE Assign Reviewers' in the event log;The sum of the duration between activity SW-AE Assign Reviewers and the end of the case;7892.24 days;
+Average time between 'SW-AE Assign Reviewers' and 'SW-Awaiting EIC Decision';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting EIC Decision';74.31 days;
+Total resolution time of 'SW-AE Assign Reviewers' for manuscripts that undergo 'SW-EIC Major Revision';The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Major Revision';1314.01 days;
+Minimum time from 'SW-AE Assign Reviewers' to the first 'Reviewer Invitation Reminder 1';The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'Reviewer Invitation Reminder 1';2.26 days;
+Average time it takes from 'SW-AE Assign Reviewers' to 'SW-Reviewer Declined';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Declined';15.42 days;
+Total time from 'SW-AE Assign Reviewers' to 'SW-Awaiting AE Recommendation';The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting AE Recommendation';1626.58 days;
+Minimum time it takes from 'SW-AE Assign Reviewers' to 'SW-Reviewer Agreed' across all cases;The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';44.00 seconds;
+Average time from 'SW-AE Assign Reviewers' to 'SW-Reviewer Selection is now due';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Selection is now due';4.74 days;
+Average time for 'SW-AE Assign Reviewers' to lead to a decision ('SW-EIC Accept' or 'SW-EIC Reject');The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Accept';76.11 days;
+Total time for 'SW-AE Assign Reviewers' until 'Revised Manuscript Submission Confirmation' in cases of major revision;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'Revised Manuscript Submission Confirmation';2828.85 days;
+Total time from 'SW-AE Assign Reviewers' to 'Manuscript Export Succeeded' for accepted manuscripts;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'Manuscript Export Succeeded';;
+Minimum resolution time of 'SW-AE Assign Reviewers' for cases leading to 'SW-EIC Minor Revision';The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Minor Revision';36.21 days;
+Average time from 'SW-AE Assign Reviewers' to 'SW-Reviewer Unavailable' and subsequent reassignment;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Unavailable';10.26 days;

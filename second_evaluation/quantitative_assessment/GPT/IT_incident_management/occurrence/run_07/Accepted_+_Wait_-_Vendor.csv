@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Wait - Vendor' leading to 'Completed + In Call';Frequency of activity 'Accepted + Wait - Vendor' for cases where activity 'Completed + In Call' occurs;1;
+Percentage of cases involving 'Accepted + Wait - Vendor' out of all cases;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Number of 'Accepted + Wait - Vendor' activities followed by 'Completed + Resolved';Frequency of activity 'Accepted + Wait - Vendor' for cases where activity 'Completed + Resolved' occurs;249;
+Percentage of 'Accepted + Wait - Vendor' activities that precede 'Accepted + In Progress';Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + In Progress';0.03;
+Frequency of 'Accepted + Wait - Vendor' in relation to 'Accepted + Wait - User';Frequency of activity 'Accepted + Wait - Vendor' for cases where activity 'Accepted + Wait - User' occurs;106;
+Percentage of 'Accepted + Wait - Vendor' followed by 'Completed + Closed';Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + Closed';0.04;
+Number of 'Accepted + Wait - Vendor' activities that lead to a change in the case status;Frequency of activity 'Accepted + Wait - Vendor';249;
+Percentage of 'Accepted + Wait - Vendor' activities by country;Percentage of 'Accepted + Wait - Vendor' out of all cases;0:0.0;"{""0"":0.0,""SE"":0.0163934426,""au"":0.04,""be"":0.0477178423,""br"":0.1189710611,""ca"":0.0303030303,""cl"":0.0,""cn"":0.0099009901,""de"":0.0,""fr"":0.0258899676,""gb"":0.0,""in"":0.0386178862,""jp"":0.0,""kr"":0.0153846154,""my"":0.0,""nl"":0.0344827586,""pe"":0.0,""pl"":0.0039727582,""ru"":0.0222222222,""se"":0.0449205252,""th"":0.0,""tr"":0.0,""us"":0.0205128205}"
+Frequency of 'Accepted + Wait - Vendor' in the most common process variants;Frequency of activity 'Accepted + Wait - Vendor';249;
+Percentage of 'Accepted + Wait - Vendor' activities that occur without subsequent 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Vendor' out of all cases where 'Queued + Awaiting Assignment' does not happen;0.03;
+Number of 'Accepted + Wait - Vendor' activities that are part of cases exceeding average resolution time;Frequency of activity 'Accepted + Wait - Vendor';249;
+Percentage of 'Accepted + Wait - Vendor' activities followed by any 'Completed +' activity;Percentage of 'Accepted + Wait - Vendor' out of all 'Completed +';;
+Frequency of 'Accepted + Wait - Vendor' in cases with performance above the median;Frequency of activity 'Accepted + Wait - Vendor';249;
+Percentage of 'Accepted + Wait - Vendor' activities in cases initiated by 'V30' group resources;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.0;
+Number of 'Accepted + Wait - Vendor' activities that precede 'Accepted + Assigned';Frequency of activity 'Accepted + Wait - Vendor' for cases where activity 'Accepted + Assigned' occurs;83;
+Percentage of 'Accepted + Wait - Vendor' in cases that involve 'Accepted + Wait - Implementation';Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait - Implementation';0.06;
+Frequency of 'Accepted + Wait - Vendor' in cases that result in 'Completed + Cancelled';Frequency of activity 'Accepted + Wait - Vendor' for cases where activity 'Completed + Cancelled' occurs;0;
+Percentage of 'Accepted + Wait - Vendor' activities in the top 10 longest cases;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Number of 'Accepted + Wait - Vendor' activities followed by 'Accepted + Wait - Customer';Frequency of activity 'Accepted + Wait - Vendor' for cases where activity 'Accepted + Wait - Customer' occurs;4;
+Percentage of 'Accepted + Wait - Vendor' in cases with amounts above 100 euros;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;

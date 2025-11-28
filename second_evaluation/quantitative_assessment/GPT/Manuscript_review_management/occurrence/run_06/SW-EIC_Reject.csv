@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-EIC Reject' compared to 'SW-Reviewer Agreed';Percentage of 'SW-EIC Reject' out of all 'SW-Reviewer Agreed';0.22;
+Percentage of manuscripts leading to 'SW-EIC Reject' after 'SW-Awaiting EIC Decision';Percentage of 'SW-EIC Reject' out of all 'SW-Awaiting EIC Decision';0.27;
+Percentage of 'SW-EIC Reject' out of all decisions made by the EIC;Percentage of 'SW-EIC Reject' out of all cases;1.0;
+Frequency of 'SW-EIC Reject' following 'SW-Awaiting AE Recommendation';Percentage of 'SW-EIC Reject' out of all 'SW-Awaiting AE Recommendation';0.31;
+Ratio of 'SW-EIC Reject' over 'SW-EIC Accept';Percentage of 'SW-EIC Reject' out of all 'SW-EIC Accept';0.0;
+Percentage of 'SW-EIC Reject' that precede a resubmission;Percentage of 'SW-EIC Reject' out of all 'Resubmission Manuscript Submission Confirmation';0.0;
+Number of 'SW-EIC Reject' in relation to 'SW-EIC Major Revision';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-EIC Major Revision' occurs;0.0;
+Frequency of 'SW-EIC Reject' after 'Reviewer Invitation Reminder 2';Percentage of 'SW-EIC Reject' out of all 'Reviewer Invitation Reminder 2';0.17;
+Percentage of 'SW-EIC Reject' for manuscripts with 'Plagiarism Originality Report Completed';Percentage of 'SW-EIC Reject' out of all 'Plagiarism Originality Report Completed';0.37;
+Average number of days between 'SW-Awaiting AE Recommendation' and 'SW-EIC Reject';Percentage of 'SW-EIC Reject' out of all 'SW-Awaiting AE Recommendation';0.31;
+Percentage of 'SW-EIC Reject' followed by 'Manuscript is Withdrawn';Percentage of 'SW-EIC Reject' out of all 'Manuscript is Withdrawn';0.0;
+Ratio of 'SW-EIC Reject' over 'SW-EIC Minor Revision';Percentage of 'SW-EIC Reject' out of all 'SW-EIC Minor Revision';0.0;
+Frequency of 'SW-EIC Reject' in manuscripts with more than one 'SW-AE Assign Reviewers';Percentage of 'SW-EIC Reject' out of all 'SW-AE Assign Reviewers';0.2;
+Percentage of 'SW-EIC Reject' in the total number of reviewed manuscripts;Percentage of 'SW-EIC Reject' out of all 'SW-Reviewer Agreed';0.22;
+Number of 'SW-EIC Reject' occurrences per year;Number of 'SW-EIC Reject' activities;34.0;

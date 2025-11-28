@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Reviewer Agreed out of all reviewer response activities (SW-Reviewer Agreed, SW-Reviewer Declined, SW-Reviewer Unavailable, SW-Reviewer No Response);Percentage of 'SW-Reviewer Agreed' out of all 'SW-Reviewer Declined';1.0;
+Percentage of cases with at least one SW-Reviewer Agreed;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Number of SW-Reviewer Agreed that are preceded by SW-AE Assign Reviewers;Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-AE Assign Reviewers' occurs;107.0;
+Percentage of SW-Reviewer Agreed that occur after Reviewer Invitation Reminder 1;Percentage of 'SW-Reviewer Agreed' out of all 'Reviewer Invitation Reminder 1';0.91;
+Frequency of SW-Reviewer Agreed in variants with SW-EIC Accept versus variants with SW-EIC Reject;Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Accept';0.0;
+Percentage of SW-Reviewer Agreed followed by SW-Awaiting EIC Decision;Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Number of SW-Reviewer Agreed relative to SW-AE Assign Reviewers;Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-AE Assign Reviewers' occurs;107.0;
+Percentage of SW-Reviewer Agreed in first review round versus subsequent review rounds;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Average number of SW-Reviewer Agreed per manuscript submission;the average of the number of times `ACTIVITY` == 'SW-Reviewer Agreed';1.18;
+Percentage of SW-Reviewer Agreed that occur after multiple SW-AE Assign Reviewers;Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers';0.98;
+Frequency of SW-Reviewer Agreed in variants with major revisions versus minor revisions;Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Major Revision';0.93;
+Number of SW-Reviewer Agreed relative to SW-Initial Reviewer Selection;Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-Initial Reviewer Selection' occurs;108.0;
+Percentage of SW-Reviewer Agreed that lead to completed review process;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Ratio of SW-Reviewer Agreed to SW-Reviewer Declined;Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-Reviewer Declined' occurs;74.0;
+Percentage of SW-Reviewer Agreed occurring after deadline reminders (SW-Reviewer Selection is due in 1 week, SW-Reviewer Selection is due in 3 days, SW-Reviewer Selection is now due);Percentage of 'SW-Reviewer Agreed' out of all 'SW-Reviewer Selection is due in 1 week';0.79;
+Number of SW-Reviewer Agreed in successful manuscript acceptance pathways;Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-EIC Accept' occurs;0.0;
+Percentage of SW-Reviewer Agreed that result in timely review completion;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Frequency of SW-Reviewer Agreed in challenge paper assignments versus regular assignments;Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers Challenge Paper';1.0;
+Percentage of SW-Reviewer Agreed relative to total reviewer invitation activities;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Number of SW-Reviewer Agreed per case;Number of 'SW-Reviewer Agreed' activities;110.0;

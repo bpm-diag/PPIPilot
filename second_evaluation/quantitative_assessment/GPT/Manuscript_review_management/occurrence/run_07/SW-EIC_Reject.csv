@@ -1,0 +1,23 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-EIC Reject' following 'SW-Awaiting EIC Decision';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-Awaiting EIC Decision' occurs;16.0;
+Percentage of manuscripts that undergo 'SW-EIC Reject' out of all manuscripts;Percentage of 'SW-EIC Reject' out of all 'Original Manuscript Submission Confirmation';0.38;
+Percentage of 'SW-EIC Reject' that are followed by 'Resubmission Manuscript Submission Confirmation';Percentage of 'SW-EIC Reject' out of all 'Resubmission Manuscript Submission Confirmation';0.0;
+Frequency of 'SW-EIC Reject' compared to 'SW-EIC Accept';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-EIC Accept' occurs;0.0;
+Percentage of 'SW-EIC Reject' in relation to 'SW-EIC Major Revision';Percentage of 'SW-EIC Reject' out of all 'SW-EIC Major Revision';0.0;
+Number of 'SW-EIC Reject' preceded by 'SW-Awaiting AE Recommendation';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-Awaiting AE Recommendation' occurs;11.0;
+Frequency of 'SW-EIC Reject' for manuscripts with 'Plagiarism Originality Report Completed';Frequency of activity 'SW-EIC Reject' for cases where activity 'Plagiarism Originality Report Completed' occurs;33.0;
+Percentage of 'SW-EIC Reject' followed by 'Manuscript is Withdrawn';Percentage of 'SW-EIC Reject' out of all 'Manuscript is Withdrawn';0.0;
+Percentage of 'SW-EIC Reject' that lead to 'First Look Manuscript Submission Confirmation';Percentage of 'SW-EIC Reject' out of all 'First Look Manuscript Submission Confirmation';0.0;
+Frequency of 'SW-EIC Reject' after 'Reviewer Invitation Reminder 2';Frequency of activity 'SW-EIC Reject' for cases where activity 'Reviewer Invitation Reminder 2' occurs;7.0;
+Percentage of 'SW-EIC Reject' for manuscripts that exceeded 'Plagiarism Percent Match Threshold Exceeded';Percentage of 'SW-EIC Reject' out of all 'Plagiarism Percent Match Threshold Exceeded';0.36;
+Number of 'SW-EIC Reject' in manuscripts with 'SW-Reviewer No Response';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-Reviewer No Response' occurs;1.0;
+Frequency of 'SW-EIC Reject' following 'SW-Reviewer Agreed';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-Reviewer Agreed' occurs;10.0;
+Percentage of 'SW-EIC Reject' before 'SW-AE Assign Reviewers';Percentage of 'SW-EIC Reject' out of all 'SW-AE Assign Reviewers';0.2;
+Number of 'SW-EIC Reject' in relation to 'SW-Reviewer Declined';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-Reviewer Declined' occurs;6.0;
+Percentage of 'SW-EIC Reject' by performer (SYSTEM);Percentage of 'SW-EIC Reject' out of all cases;0.38;
+Percentage of 'SW-EIC Reject' for manuscripts that have 'SW-Checklist Completed';Percentage of 'SW-EIC Reject' out of all 'SW-Checklist Completed';0.4;
+Percentage of 'SW-EIC Reject' out of all decisions made by EIC;Percentage of 'SW-EIC Reject' out of all 'SW-EIC Reject';1.0;
+Percentage of 'SW-EIC Reject' in the total review process cycle;Percentage of 'SW-EIC Reject' out of all 'SW-EIC Reject';1.0;
+Frequency of 'SW-EIC Reject' in manuscripts with multiple rounds of review ('SW-AE Assign Reviewers' -> 'SW-Reviewer Agreed' -> 'SW-AE Assign Reviewers');Number of 'SW-EIC Reject' activities for cases where activity 'SW-AE Assign Reviewers' occurs;9.0;
+Number of 'SW-EIC Reject' occurrences per year;Number of 'SW-EIC Reject' activities;34.0;
+Number of 'SW-EIC Reject' occurrences grouped by month;Number of 'SW-EIC Reject' activities;34.0;

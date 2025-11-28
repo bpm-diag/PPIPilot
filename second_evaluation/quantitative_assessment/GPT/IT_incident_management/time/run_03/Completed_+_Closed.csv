@@ -1,0 +1,25 @@
+Name;Metric;Value;Agrupation
+Average resolution time from 'Accepted + In Progress' to 'Completed + Closed';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + Closed';16.07 days;
+Total resolution time from 'Queued + Awaiting Assignment' to 'Completed + Closed';The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + Closed';76520.54 days;
+Average time difference between 'Completed + In Call' and 'Completed + Closed';The average of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';12.45 days;
+Total time from 'Accepted + Wait - User' occurrence to 'Completed + Closed';The sum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Closed';42485.44 days;
+Minimum time from 'Accepted + Assigned' to 'Completed + Closed';The minimum of the duration between activity 'Accepted + Assigned' and activity 'Completed + Closed';38.00 seconds;
+Average resolution time of 'Completed + Closed' for cases with 'High' impact;The average of the duration between activity Completed + Closed and the end of the case;9.12 hours;
+Total resolution time of 'Completed + Closed' for cases with 'Medium' impact;The sum of the duration between activity Completed + Closed and the end of the case;664.84 days;
+Minimum resolution time of 'Completed + Closed' for cases with 'Low' impact;The minimum of the duration between activity Completed + Closed and the end of the case;0.00 seconds;
+Average time from 'Completed + Resolved' to 'Completed + Closed';The average of the duration between activity 'Completed + Resolved' and activity 'Completed + Closed';6.21 days;
+Total time from first 'Accepted + In Progress' occurrence to 'Completed + Closed';The sum of the duration between activity 'Accepted + In Progress' and activity 'Completed + Closed';89557.52 days;
+Elapsed time between 'Accepted + Wait - Vendor' and 'Completed + Closed';The sum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Closed';4412.05 days;
+Time from 'Accepted + Wait - Implementation' to 'Completed + Closed';The sum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Closed';7091.69 days;
+'Completed + Closed' cycle time in comparison to 'Completed + In Call' cycle time;The sum of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';1668.82 days;
+Average time from 'Accepted + Wait - Customer' to 'Completed + Closed';The average of the duration between activity 'Accepted + Wait - Customer' and activity 'Completed + Closed';16.58 days;
+Total time from 'Unmatched + Unmatched' to 'Completed + Closed';The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Closed';50.48 days;
+Average time it takes to reach 'Completed + Closed' after 'Completed + Resolved';The average of the duration between activity 'Completed + Resolved' and activity 'Completed + Closed';6.21 days;
+Total time it takes to reach 'Completed + Closed' from 'Accepted + Wait';The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + Closed';20975.19 days;
+Minimum time it takes to reach 'Completed + Closed' from 'Accepted + Wait - User';The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Closed';15.00 seconds;
+'Completed + Closed' cycle time for cases originating from 'France';The sum of the duration between activity Completed + Closed and the end of the case;;
+'Completed + Closed' cycle time for cases originating from 'Brazil';The sum of the duration between activity Completed + Closed and the end of the case;;
+'Completed + Closed' cycle time for cases originating from 'USA';The sum of the duration between activity Completed + Closed and the end of the case;;
+Average resolution time of 'Completed + Closed' in the VINST system;The average of the duration between activity Completed + Closed and the end of the case;;
+Total resolution time of 'Completed + Closed' in the VINST system;The sum of the duration between activity Completed + Closed and the end of the case;;
+Minimum resolution time of 'Completed + Closed' in the VINST system;The minimum of the duration between activity Completed + Closed and the end of the case;;

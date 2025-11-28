@@ -1,0 +1,18 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration APPROVED by PRE_APPROVER' followed by 'Declaration FINAL_APPROVED by SUPERVISOR';Frequency of activity 'Declaration APPROVED by PRE_APPROVER' for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;663;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all approval activities;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';1.0;
+Number of 'Declaration APPROVED by PRE_APPROVER' that lead to 'Request Payment';Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Request Payment' occurs;679;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' in cases with amounts above 100 euros;Number of 'Declaration APPROVED by PRE_APPROVER' activities > 100 where ma is the last value of case:Amount;139;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' followed by 'Payment Handled';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Payment Handled';0.07;
+Ratio of 'Declaration APPROVED by PRE_APPROVER' over 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.83;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' by STAFF MEMBER;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;STAFF MEMBER:0.01;"{""STAFF MEMBER"":0.0131291028,""SYSTEM"":0.0657174151}"
+Frequency of 'Declaration APPROVED by PRE_APPROVER' in successful claims (ending with 'Payment Handled');Frequency of activity 'Declaration APPROVED by PRE_APPROVER' for cases where activity 'Payment Handled' occurs;660;
+Number of 'Declaration APPROVED by PRE_APPROVER' in claims that were initially rejected by any role;Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Declaration REJECTED by EMPLOYEE' occurs;90;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' in the total number of declarations submitted by EMPLOYEE;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.06;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' followed by any rejection activity;Frequency of activity 'Declaration APPROVED by PRE_APPROVER' for cases where activity 'Declaration REJECTED by EMPLOYEE' occurs;80;
+Ratio of 'Declaration APPROVED by PRE_APPROVER' over 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.06;
+Number of 'Declaration APPROVED by PRE_APPROVER' in claims requiring director approval;Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Declaration FOR_APPROVAL by SUPERVISOR' occurs;0;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' in claims without prior permission for domestic trips;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' in claims filed after the trip compared to those filed before the trip;Frequency of activity 'Declaration APPROVED by PRE_APPROVER';666;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' in claims with a performance above the average;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Number of 'Declaration APPROVED by PRE_APPROVER' per year;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685;

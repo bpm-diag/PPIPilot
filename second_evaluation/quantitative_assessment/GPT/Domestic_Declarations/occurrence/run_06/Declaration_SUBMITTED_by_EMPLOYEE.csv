@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration SUBMITTED by EMPLOYEE that lead to Declaration APPROVED by ADMINISTRATION;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration APPROVED by ADMINISTRATION';1.0;
+Frequency of Declaration SUBMITTED by EMPLOYEE followed by Declaration REJECTED by PRE_APPROVER;Number of 'Declaration SUBMITTED by EMPLOYEE' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;163;
+Percentage of Declaration SUBMITTED by EMPLOYEE out of all activities in the event log;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;0.99;
+Number of Declaration SUBMITTED by EMPLOYEE that are followed by Request Payment;Number of 'Declaration SUBMITTED by EMPLOYEE' activities for cases where activity 'Request Payment' occurs;11157;
+Percentage of Declaration SUBMITTED by EMPLOYEE with amounts above 100 euros;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;1.0;
+Percentage of Declaration SUBMITTED by EMPLOYEE followed by Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Number of Declaration SUBMITTED by EMPLOYEE that lead to a payment being handled;Number of 'Declaration SUBMITTED by EMPLOYEE' activities for cases where activity 'Payment Handled' occurs;11162;
+Percentage of Declaration SUBMITTED by EMPLOYEE that are not dismissed;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.99;
+Frequency of Declaration SUBMITTED by EMPLOYEE grouped by org:resource;Number of 'Declaration SUBMITTED by EMPLOYEE' activities grouped by the last value of org:resource;STAFF MEMBER:370;"{""STAFF MEMBER"":370,""SYSTEM"":11161}"
+Percentage of Declaration SUBMITTED by EMPLOYEE by STAFF MEMBER;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;STAFF MEMBER:0.71;"{""STAFF MEMBER"":0.7067833698,""SYSTEM"":0.9999004282}"
+Ratio of Declaration SUBMITTED by EMPLOYEE over Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Percentage of Declaration SUBMITTED by EMPLOYEE with an increment in case:Amount from submission to payment;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;1.0;
+Frequency of Declaration SUBMITTED by EMPLOYEE in relation to Declaration APPROVED by ADMINISTRATION;Frequency of activity 'Declaration SUBMITTED by EMPLOYEE' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;7983;
+Percentage of Declaration SUBMITTED by EMPLOYEE that lead to Declaration REJECTED by PRE_APPROVER, aiming to reduce this outcome;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Frequency of Declaration SUBMITTED by EMPLOYEE per year;Number of 'Declaration SUBMITTED by EMPLOYEE' activities;11531;

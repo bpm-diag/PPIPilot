@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of \Declaration FOR_APPROVAL by ADMINISTRATION\ followed by \Declaration APPROVED by ADMINISTRATION\;Frequency of activity 'Declaration FOR_APPROVAL by ADMINISTRATION' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;1.0;
+Percentage of \Declaration FOR_APPROVAL by ADMINISTRATION\ leading to \Declaration REJECTED by PRE_APPROVER\;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of \Declaration FOR_APPROVAL by ADMINISTRATION\ with amounts above 100 euros;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities > 100 where ma is the last value of case:Amount;1.0;
+Percentage of \Declaration FOR_APPROVAL by ADMINISTRATION\ by \STAFF MEMBER\;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;;
+Percentage of \Declaration FOR_APPROVAL by ADMINISTRATION\ that are not dismissed;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases where 'Declaration REJECTED by ADMINISTRATION' does not happen;0.0;
+Number of \Declaration FOR_APPROVAL by ADMINISTRATION\ followed by \Declaration APPROVED by BUDGET OWNER\;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities for cases where activity 'Declaration APPROVED by BUDGET OWNER' occurs;1.0;
+Percentage of \Declaration FOR_APPROVAL by ADMINISTRATION\ out of all \Declaration SUBMITTED by EMPLOYEE\;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Frequency of \Declaration FOR_APPROVAL by ADMINISTRATION\ in relation to \Declaration FINAL_APPROVED by SUPERVISOR\;Frequency of activity 'Declaration FOR_APPROVAL by ADMINISTRATION' for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;1.0;
+Number of \Declaration FOR_APPROVAL by ADMINISTRATION\ that lead to a payment being requested and paid;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities for cases where activity 'Payment Handled' occurs;1.0;
+Percentage of \Declaration FOR_APPROVAL by ADMINISTRATION\ followed by \Request Payment\;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Request Payment';0.0;
+Frequency of \Declaration FOR_APPROVAL by ADMINISTRATION\ in variants leading to \Payment Handled\;Frequency of activity 'Declaration FOR_APPROVAL by ADMINISTRATION' for cases where activity 'Payment Handled' occurs;1.0;
+Percentage of \Declaration FOR_APPROVAL by ADMINISTRATION\ in cases where the director also needs to approve the request;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;;
+Number of \Declaration FOR_APPROVAL by ADMINISTRATION\ in cases without prior permission needed for domestic trips;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities;1.0;
+Percentage of \Declaration FOR_APPROVAL by ADMINISTRATION\ leading to \Declaration REJECTED by ADMINISTRATION\;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration REJECTED by ADMINISTRATION';0.0;
+Frequency of \Declaration FOR_APPROVAL by ADMINISTRATION\ per month;"ERROR: computing metric {'count': activity == 'Declaration FOR_APPROVAL by ADMINISTRATION'"", 'metric_condition': '> 0', 'aggregation': 'total', 'group_by': 'month'}""";;

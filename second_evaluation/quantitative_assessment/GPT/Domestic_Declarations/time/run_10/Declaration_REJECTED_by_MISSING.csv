@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration REJECTED by MISSING';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by MISSING';16.97 days;
+Total time from 'Declaration FINAL_APPROVED by SUPERVISOR' to 'Declaration REJECTED by MISSING';The sum of the duration between activity 'Declaration FINAL_APPROVED by SUPERVISOR' and activity 'Declaration REJECTED by MISSING';1018.49 days;
+Minimum time from 'Declaration REJECTED by MISSING' to 'Request Payment';The minimum of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Request Payment';1.75 hours;
+Average time for 'Declaration REJECTED by MISSING' to be resolved;The average of the duration between activity Declaration REJECTED by MISSING and the end of the case;10.99 days;
+Total resolution time of 'Declaration REJECTED by MISSING';The sum of the duration between activity Declaration REJECTED by MISSING and the end of the case;955.89 days;
+Minimum resolution time of 'Declaration REJECTED by MISSING';The minimum of the duration between activity Declaration REJECTED by MISSING and the end of the case;0.00 seconds;
+Average time it takes 'Declaration REJECTED by MISSING' after 'Declaration SUBMITTED by EMPLOYEE';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by MISSING';16.97 days;
+Total time it takes 'Declaration REJECTED by MISSING' after 'Declaration SUBMITTED by EMPLOYEE';The sum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by MISSING';1476.80 days;
+Minimum time it takes 'Declaration REJECTED by MISSING' after 'Declaration SUBMITTED by EMPLOYEE';The minimum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by MISSING';19.10 minutes;
+Average waiting time to the 'Declaration REJECTED by MISSING';The average of the duration between the start of the case and activity 'Declaration REJECTED by MISSING';16.97 days;
+Total waiting time to the 'Declaration REJECTED by MISSING';The sum of the duration between the start of the case and activity 'Declaration REJECTED by MISSING';1476.80 days;
+Minimum waiting time to the 'Declaration REJECTED by MISSING';The minimum of the duration between the start of the case and activity 'Declaration REJECTED by MISSING';19.10 minutes;
+Time until 'Declaration REJECTED by MISSING' from 'Declaration SUBMITTED by EMPLOYEE';The sum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by MISSING';1476.80 days;
+Time from 'Declaration REJECTED by MISSING' to 'Request Payment';The sum of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Request Payment';751.34 days;
+'Declaration REJECTED by MISSING' Cycle Time;The sum of the duration between activity Declaration REJECTED by MISSING and the end of the case;955.89 days;
+Average time between 'Declaration REJECTED by MISSING' and 'Payment Handled';The average of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Payment Handled';16.75 days;
+Total time between 'Declaration REJECTED by MISSING' and 'Payment Handled';The sum of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Payment Handled';954.88 days;
+Minimum time between 'Declaration REJECTED by MISSING' and 'Payment Handled';The minimum of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Payment Handled';2.21 days;
+Average time from 'Declaration REJECTED by MISSING' to next 'Declaration SUBMITTED by EMPLOYEE';The average of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Declaration SUBMITTED by EMPLOYEE';9.19 days;
+Total time from 'Declaration REJECTED by MISSING' to next 'Declaration SUBMITTED by EMPLOYEE';The sum of the duration between activity 'Declaration REJECTED by MISSING' and activity 'Declaration SUBMITTED by EMPLOYEE';533.23 days;

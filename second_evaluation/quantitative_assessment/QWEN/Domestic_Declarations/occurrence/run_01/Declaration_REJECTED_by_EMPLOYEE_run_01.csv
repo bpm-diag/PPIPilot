@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Declaration REJECTED by EMPLOYEE' out of all activity executions in the event log;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Number of times 'Declaration REJECTED by EMPLOYEE' occurs after 'Declaration REJECTED by ADMINISTRATION';Number of 'Declaration REJECTED by EMPLOYEE' activities for cases where activity 'Declaration REJECTED by ADMINISTRATION' occurs;974.0;
+Percentage of process variants containing 'Declaration REJECTED by EMPLOYEE' that eventually lead to 'Payment Handled';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Payment Handled';0.09;
+Frequency of 'Declaration REJECTED by EMPLOYEE' following 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration REJECTED by EMPLOYEE' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;86.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' that are immediately followed by 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Number of cases where 'Declaration REJECTED by EMPLOYEE' appears more than once in the same case;Number of 'Declaration REJECTED by EMPLOYEE' activities;1365.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' occurring in variants that also contain 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Frequency of 'Declaration REJECTED by EMPLOYEE' in cases with total amount above 100 euros;Number of 'Declaration REJECTED by EMPLOYEE' activities > 100 where ma is the last value of case:Amount;433.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' that occur within rework loops involving at least one rejection by a role other than the employee;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Ratio of 'Declaration REJECTED by EMPLOYEE' to 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Number of 'Declaration REJECTED by EMPLOYEE' events that precede a subsequent approval path ending in 'Payment Handled';Number of 'Declaration REJECTED by EMPLOYEE' activities for cases where activity 'Payment Handled' occurs;1047.0;
+Percentage of variants starting with 'Declaration SUBMITTED by EMPLOYEE' and containing 'Declaration REJECTED by PRE_APPROVER' that also include 'Declaration REJECTED by EMPLOYEE';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Frequency of 'Declaration REJECTED by EMPLOYEE' in variants that originate from a rejection by 'PRE_APPROVER', 'ADMINISTRATION', 'SUPERVISOR', or 'BUDGET OWNER';Number of 'Declaration REJECTED by EMPLOYEE' activities;1365.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' that directly follow a rejection by 'PRE_APPROVER', compared to those following rejections by other roles;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Percentage of cases containing 'Declaration REJECTED by PRE_APPROVER' that result in 'Declaration REJECTED by EMPLOYEE' within the same variant;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Average number of 'Declaration REJECTED by EMPLOYEE' occurrences per case in variants that include any form of rejection;the average of the number of times `ACTIVITY` == 'Declaration REJECTED by EMPLOYEE';0.13;
+Ratio of 'Declaration REJECTED by EMPLOYEE' to total rejection activities (including all 'Declaration REJECTED by ...' activities);Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Percentage of 'Declaration REJECTED by EMPLOYEE' that occur in domestic declaration reimbursement processes (inferred from presence of 'Request Payment' without prior approval steps);Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Request Payment';0.09;
+Number of 'Declaration REJECTED by EMPLOYEE' events that are not followed by any further activity in the case;Number of 'Declaration REJECTED by EMPLOYEE' activities;1365.0;
+Number of 'Declaration REJECTED by EMPLOYEE' events per year (2017 vs 2018);Number of 'Declaration REJECTED by EMPLOYEE' activities;1365.0;

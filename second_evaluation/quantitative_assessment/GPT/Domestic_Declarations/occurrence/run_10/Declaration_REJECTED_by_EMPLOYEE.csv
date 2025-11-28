@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by EMPLOYEE' followed by 'Declaration SUBMITTED by EMPLOYEE';Frequency of activity 'Declaration REJECTED by EMPLOYEE' for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;1212.0;
+Number of 'Declaration REJECTED by EMPLOYEE' that are preceded by 'Declaration APPROVED by ADMINISTRATION';Number of 'Declaration REJECTED by EMPLOYEE' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;1009.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' that lead to 'Request Payment';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Request Payment';0.09;
+Frequency of 'Declaration REJECTED by EMPLOYEE' in variants where 'Declaration REJECTED by PRE_APPROVER' occurs;Frequency of activity 'Declaration REJECTED by EMPLOYEE' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;81.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Number of 'Declaration REJECTED by EMPLOYEE' with amounts above 100 euros;Number of 'Declaration REJECTED by EMPLOYEE' activities > 100 where ma is the last value of case:Amount;433.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' by 'STAFF MEMBER';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;;
+Number of 'Declaration REJECTED by EMPLOYEE' grouped by 'case:BudgetNumber';Number of 'Declaration REJECTED by EMPLOYEE' activities;1365.0;
+Frequency of 'Declaration REJECTED by EMPLOYEE' in relation to total events in the log;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Percentage of 'Declaration REJECTED by EMPLOYEE' followed by 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration APPROVED by ADMINISTRATION';0.11;
+Percentage of 'Declaration REJECTED by EMPLOYEE' that are not eventually followed by 'Payment Handled';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases where 'Payment Handled' does not happen;0.12;
+Percentage of 'Declaration REJECTED by EMPLOYEE' out of all rejections;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by EMPLOYEE';1.0;
+Frequency of 'Declaration REJECTED by EMPLOYEE' in cases exceeding the average processing time;Number of 'Declaration REJECTED by EMPLOYEE' activities;1365.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' by year;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Number of times 'Declaration REJECTED by EMPLOYEE' is performed per month;Number of 'Declaration REJECTED by EMPLOYEE' activities;1365.0;

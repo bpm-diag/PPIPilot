@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Assignment in the entire event log;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment occurrences across all cases;Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of variants that include SW-Awaiting AE Assignment immediately after SW-Checklist Completed;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Number of times SW-Awaiting AE Assignment is followed by SW-Initial Reviewer Selection;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Initial Reviewer Selection' occurs;36.0;
+Percentage of SW-Awaiting AE Assignment occurrences that eventually lead to SW-EIC Reject;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Reject';0.79;
+Frequency of SW-Awaiting AE Assignment compared to SW-Awaiting EIC Decision;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Awaiting EIC Decision' occurs;35.0;
+Percentage of cases where SW-Awaiting AE Assignment appears without being preceded by SW-Checklist Completed;Percentage of 'SW-Awaiting AE Assignment' out of all cases where 'SW-Checklist Completed' does not happen;0.61;
+Number of variants in which SW-Awaiting AE Assignment occurs exactly once;the sum of the function base == 1 where base is the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment';56.0;
+Percentage of SW-Awaiting AE Assignment events that are part of the top 5 most frequent process variants;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment relative to Original Manuscript Submission Confirmation;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'Original Manuscript Submission Confirmation' occurs;58.0;
+Percentage of cases transitioning from SW-Awaiting AE Assignment to SW-AE Assign Reviewers within 7 days;the average of the function base < 7 where base is the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-AE Assign Reviewers';1.0;
+Number of SW-Awaiting AE Assignment instances that occur before any reviewer-related activity (e.g., SW-Reviewer Agreed, SW-Reviewer Declined);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Reviewer Agreed' does not occur;58.0;
+Percentage of SW-Awaiting AE Assignment occurrences that are not followed by any AE assignment activity within 30 days;the average of the function base > 30 where base is the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` != 'SW-AE Assign Reviewers';0.0;
+Frequency of SW-Awaiting AE Assignment in rejected manuscripts (those ending with SW-EIC Reject or SW-EIC Reject & Resubmit);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-EIC Reject' occurs;28.0;
+Percentage of SW-Awaiting AE Assignment events that appear in variants with performance duration above the median variant duration;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;

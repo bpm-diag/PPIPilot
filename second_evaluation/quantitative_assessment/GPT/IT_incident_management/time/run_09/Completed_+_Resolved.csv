@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average resolution time for 'Completed + Resolved' activities;The average of the duration between activity Completed + Resolved and the end of the case;6.12 days;
+Average time difference between 'Accepted + In Progress' and 'Completed + Resolved';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + Resolved';11.02 days;
+Total resolution time for all 'Completed + Resolved' activities;The sum of the duration between activity Completed + Resolved and the end of the case;34669.87 days;
+Average time from 'Completed + In Call' to 'Completed + Resolved';The average of the duration between activity 'Completed + In Call' and activity 'Completed + Resolved';9.07 days;
+Total time from 'Accepted + In Progress' to 'Completed + Resolved' across all cases;The sum of the duration between activity 'Accepted + In Progress' and activity 'Completed + Resolved';62203.30 days;
+Minimum resolution time for 'Completed + Resolved';The minimum of the duration between activity Completed + Resolved and the end of the case;0.00 seconds;
+Average time from 'Completed + Resolved' to 'Completed + Closed';The average of the duration between activity 'Completed + Resolved' and activity 'Completed + Closed';6.21 days;
+Total time from 'Completed + Resolved' to 'Completed + Closed' across all cases;The sum of the duration between activity 'Completed + Resolved' and activity 'Completed + Closed';34641.53 days;
+Minimum time from 'Completed + In Call' to 'Completed + Resolved';The minimum of the duration between activity 'Completed + In Call' and activity 'Completed + Resolved';7.00 seconds;
+Average time between 'Completed + Resolved' and the next activity;The average of the duration between activity Completed + Resolved and the end of the case;6.12 days;
+Total time between 'Completed + Resolved' and 'Completed + Closed' for all cases;The sum of the duration between activity 'Completed + Resolved' and activity 'Completed + Closed';34641.53 days;
+Average time from 'Accepted + Wait - User' to 'Completed + Resolved';The average of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Resolved';13.27 days;
+Total time from 'Accepted + Wait - User' to 'Completed + Resolved' across all cases;The sum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Resolved';32278.15 days;
+Minimum time from 'Accepted + Wait - User' to 'Completed + Resolved';The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Resolved';1.00 seconds;
+Average time from 'Completed + Resolved' to the end of the process;The average of the duration between activity Completed + Resolved and the end of the case;6.12 days;
+Total time from 'Completed + Resolved' to the end of the process across all cases;The sum of the duration between activity Completed + Resolved and the end of the case;34669.87 days;
+Minimum time from 'Completed + Resolved' to the end of the process;The minimum of the duration between activity Completed + Resolved and the end of the case;0.00 seconds;
+Average time from start of the process to 'Completed + Resolved';The average of the duration between the start of the case and activity 'Completed + Resolved';11.04 days;
+Total time from start of the process to 'Completed + Resolved' across all cases;The sum of the duration between the start of the case and activity 'Completed + Resolved';62533.72 days;
+Minimum time from start of the process to 'Completed + Resolved';The minimum of the duration between the start of the case and activity 'Completed + Resolved';7.00 seconds;

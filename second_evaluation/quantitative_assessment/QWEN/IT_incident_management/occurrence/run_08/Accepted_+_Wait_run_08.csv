@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait' out of all activity executions in the event log;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Frequency of 'Accepted + Wait' occurrences across all cases;Number of 'Accepted + Wait' activities;1461;
+Percentage of process variants that include 'Accepted + Wait' compared to variants containing 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Number of times 'Accepted + Wait' directly precedes 'Completed + Resolved';Number of 'Accepted + Wait' activities;1461;
+Percentage of 'Accepted + Wait' that appears before 'Completed + In Call' in any variant;Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Frequency of 'Accepted + Wait' in variants where 'Completed + In Call' is absent;Number of 'Accepted + Wait' activities for cases where activity 'Completed + In Call' does not occur;1461;
+Ratio of 'Accepted + Wait' occurrences to 'Accepted + Wait - User' occurrences;the average of the number of times `ACTIVITY` == 'Accepted + Wait';0.19;
+Percentage of total case duration attributable to waiting periods initiated by 'Accepted + Wait' (based on VINST incident management context);Percentage of 'Accepted + Wait' out of all cases;0.15;
+Number of variants in which 'Accepted + Wait' is followed by 'Completed + Closed' without intermediate 'Completed + In Call';Number of 'Accepted + Wait' activities;1461;
+Percentage of cases containing 'Accepted + Wait' that never reach 'Completed + In Call';Percentage of 'Accepted + Wait' out of all cases where 'Completed + In Call' does not happen;0.15;
+Frequency of 'Accepted + Wait' appearing after 'Queued + Awaiting Assignment' in high-frequency variants;Number of 'Accepted + Wait' activities;1461;
+Percentage of 'Accepted + Wait' executions relative to all 'Accepted +' prefixed activities;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Number of times 'Accepted + Wait' occurs in the same case as 'Completed + In Call', regardless of order;Number of 'Accepted + Wait' activities for cases where activity 'Completed + In Call' occurs;89;
+Percentage of variants starting with 'Accepted + In Progress' that eventually include 'Accepted + Wait' but exclude 'Completed + In Call';Percentage of 'Accepted + Wait' out of all cases where 'Completed + In Call' does not happen;0.15;
+Frequency of 'Accepted + Wait' in cases originating from France versus other countries (leveraging org:group and country columns from VINST log);Number of 'Accepted + Wait' activities grouped by the last value of organization country;0:1;"{""0"":1,""SE"":3,""au"":2,""be"":110,""br"":101,""ca"":3,""cl"":0,""cn"":60,""de"":1,""fr"":55,""gb"":8,""in"":216,""jp"":7,""kr"":9,""my"":1,""nl"":65,""pe"":0,""pl"":362,""ru"":20,""se"":336,""th"":0,""tr"":0,""us"":101}"

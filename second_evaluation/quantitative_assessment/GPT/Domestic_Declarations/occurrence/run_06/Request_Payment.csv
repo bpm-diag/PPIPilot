@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Request Payment' out of all 'Payment Handled';Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Number of 'Request Payment' that are preceded by 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Request Payment' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;10038.0;
+Frequency of 'Request Payment' in relation to total events in the event log;Percentage of 'Request Payment' out of all cases;0.96;
+Percentage of 'Request Payment' followed by 'Payment Handled';Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Number of 'Request Payment' with amounts above 100 euros;Number of 'Request Payment' activities > 100 where ma is the last value of case:Amount;2303.0;
+Percentage of 'Request Payment' by 'SYSTEM';Percentage of 'Request Payment' out of all cases;1.0;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' followed by a new 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Frequency of 'Declaration REJECTED by PRE_APPROVER' leading to 'Request Payment';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Request Payment';0.01;
+Percentage of 'Request Payment' in processes with 'Declaration APPROVED by ADMINISTRATION' but without 'Declaration APPROVED by BUDGET OWNER';Percentage of 'Request Payment' out of all 'Declaration APPROVED by ADMINISTRATION';0.99;
+Total 'Request Payment' done by 'SYSTEM';Number of 'Request Payment' activities == 'SYSTEM' where ma is the last value of org:resource;10036.0;
+Ratio of 'Request Payment' over 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Request Payment' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Occasions how often 'Request Payment' is performed after 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Request Payment' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;10038.0;
+The ratio of 'Request Payment' that are not eventually followed by 'Payment Handled';Percentage of 'Request Payment' out of all cases where 'Payment Handled' does not happen;0.96;
+Number of 'Request Payment' made per year;Number of 'Request Payment' activities;10040.0;
+Average number of 'Request Payment' in a month;the average of the number of times `ACTIVITY` == 'Request Payment';0.96;

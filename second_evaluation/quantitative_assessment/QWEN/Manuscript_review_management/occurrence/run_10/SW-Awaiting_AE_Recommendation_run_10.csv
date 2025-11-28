@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Recommendation out of all activity executions in the event log;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Number of times SW-Awaiting AE Recommendation occurs in the entire event log;Number of 'SW-Awaiting AE Recommendation' activities;37.0;
+Percentage of process variants that contain SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Frequency of SW-Awaiting AE Recommendation being directly preceded by SW-Reviewer Agreed;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Percentage of SW-Awaiting AE Recommendation occurrences that are followed by SW-Awaiting EIC Decision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Awaiting EIC Decision';0.59;
+Ratio of SW-Awaiting AE Recommendation to SW-Awaiting Checklist Completion across all cases;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Awaiting Checklist Completion';0.42;
+Number of SW-Awaiting AE Recommendation events that occur after at least one instance of SW-Reviewer Agreed in the same case;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer Agreed' occurs;25.0;
+Percentage of cases where SW-Awaiting AE Recommendation appears but SW-Reviewer Agreed never occurred;Percentage of 'SW-Awaiting AE Recommendation' out of all cases where 'SW-Reviewer Agreed' does not happen;0.39;
+Frequency of SW-Awaiting AE Recommendation in variants that ultimately lead to SW-EIC Accept versus those leading to rejection or revision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Accept';1.0;
+Number of process instances where SW-Awaiting AE Recommendation is skipped entirely despite prior SW-Reviewer Agreed events;Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-Awaiting AE Recommendation' does not occur;110.0;
+Percentage of SW-Awaiting AE Recommendation events that occur within 7 days after the last SW-Reviewer Agreed in the same case;the average of the function base < 604800 where base is the number of times `ACTIVITY` == 'SW-Awaiting AE Recommendation' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Reviewer Agreed';1.0;
+Ratio of SW-Awaiting AE Recommendation to SW-AE Assign Reviewers across all completed review cycles;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-AE Assign Reviewers';0.5;
+Frequency of SW-Awaiting AE Recommendation appearing in long-running variants (performance > 1,000,000 seconds) compared to short-running ones;the average of the function base > 1000000 where base is the number of times `ACTIVITY` == 'SW-Awaiting AE Recommendation';0.0;
+Percentage of SW-Awaiting AE Recommendation that directly follows a sequence containing at least two distinct reviewer responses (e.g., SW-Reviewer Agreed and SW-Reviewer Declined);Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Percentage of SW-Awaiting AE Recommendation occurrences relative to the total number of reviewer-related activities (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, SW-Reviewer No Response);Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;

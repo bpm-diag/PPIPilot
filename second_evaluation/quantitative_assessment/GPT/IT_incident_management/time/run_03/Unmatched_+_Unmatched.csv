@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Average resolution time of 'Unmatched + Unmatched' cases;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total duration of 'Unmatched + Unmatched' activities in the event log;The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Median duration of 'Unmatched + Unmatched' before transitioning to any 'Accepted + In Progress' activity;The minimum of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';47.00 seconds;
+Average duration from 'Unmatched + Unmatched' to 'Completed + Resolved';The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';2.63 days;
+Total time spent in 'Unmatched + Unmatched' activities across all cases;The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Longest duration of a single 'Unmatched + Unmatched' activity;the maximum of the duration between the first time instant when `ACTIVITY` == 'Unmatched + Unmatched' and the last time instant when <ppinot4py.model.states.RuntimeState object at 0x000001A843391A90> - AppliesTo.PROCESS;20.42 days;
+Shortest duration of a single 'Unmatched + Unmatched' activity;The minimum of the duration between activity Unmatched + Unmatched and the end of the case;7.36 days;
+Average duration of 'Unmatched + Unmatched' activities during the resolution of incidents;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';2.63 days;
+Distribution of 'Unmatched + Unmatched' durations across different organization countries;The average of the duration between activity 'Unmatched + Unmatched' and the end of case grouped by the last value of organization country;0:NaT;"{""0"":null,""SE"":null,""au"":null,""be"":null,""br"":null,""ca"":null,""cl"":null,""cn"":null,""de"":null,""fr"":null,""gb"":null,""in"":null,""jp"":null,""kr"":null,""my"":null,""nl"":null,""pe"":null,""pl"":null,""ru"":null,""se"":872377800,""th"":null,""tr"":null,""us"":null}"
+Time from the first 'Unmatched + Unmatched' occurrence to the last 'Unmatched + Unmatched' in the log;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Unmatched + Unmatched';0.00 seconds;
+Average time from 'Unmatched + Unmatched' to the next activity in the most frequent process variant;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total duration of 'Unmatched + Unmatched' activities in cases involving 'PROD582';The sum of the duration between activity Unmatched + Unmatched and the end of the case;;
+Average duration of 'Unmatched + Unmatched' activities in cases resolved within the same day;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Comparison of average duration between 'Unmatched + Unmatched' and 'Accepted + Wait - User' activities;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + Wait - User';11.89 hours;
+Duration of 'Unmatched + Unmatched' activities before transitioning to 'Queued + Awaiting Assignment';The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Queued + Awaiting Assignment';;
+Time until resolution from the point of 'Unmatched + Unmatched' in cases with 'Completed + In Call';The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + In Call';;
+Average duration of 'Unmatched + Unmatched' activities in cases exceeding the average resolution time;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total cumulative duration of 'Unmatched + Unmatched' activities in the event log;The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Average lead time from 'Unmatched + Unmatched' to case closure;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Closed';10.10 days;

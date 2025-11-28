@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time for Completed + In Call;The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Total time for Completed + In Call;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Minimum time for Completed + In Call;The minimum of the duration between activity Completed + In Call and the end of the case;0.00 seconds;
+Time of Completed + In Call;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Completed + In Call Cycle Time;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Average time from Accepted + In Progress to Completed + In Call;The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';8.65 hours;
+Total time from Accepted + In Progress to Completed + In Call;The sum of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';726.71 days;
+Minimum time from Accepted + In Progress to Completed + In Call;The minimum of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';4.00 seconds;
+Average time between consecutive occurrences of Completed + In Call within the same case;The average of the duration between activity 'Completed + In Call' and activity 'Completed + In Call';0.00 seconds;
+Total duration of all instances of Completed + In Call across variants that include it;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Average duration of Completed + In Call compared to the average duration of Completed + Resolved;The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Average duration of Completed + In Call compared to the average duration of Completed + Closed;The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Minimum duration of Completed + In Call in variants where it is immediately followed by Completed + Resolved;The minimum of the duration between activity 'Completed + In Call' and activity 'Completed + Resolved';7.00 seconds;
+Total time spent in Completed + In Call across all cases that transition directly to Completed + Resolved;The sum of the duration between activity 'Completed + In Call' and activity 'Completed + Resolved';1223.78 days;
+Average time from Completed + In Call to Completed + Closed in variants containing both activities;The average of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';12.45 days;
+Elapsed time between Completed + In Call and the next occurrence of Accepted + In Progress in looping variants;The average of the duration between activity 'Completed + In Call' and activity 'Accepted + In Progress';7.30 days;
+Average duration of Completed + In Call in variants that do not include any waiting activity (e.g., Accepted + Wait - User, Accepted + Wait - Vendor);The average of the duration between activity 'Completed + In Call' and the end of case where activity 'Accepted + Wait - User does not occur;19.91 hours;
+Minimum time for Completed + In Call in high-frequency variants (frequency > 100);The minimum of the duration between activity Completed + In Call and the end of the case;0.00 seconds;
+Total time of Completed + In Call grouped by country;The average of the duration between activity 'Completed + In Call' and the end of case grouped by the last value of organization country;0:8.46 days;"{""0"":730980000,""SE"":656483000,""au"":0,""be"":2320899000,""br"":4401500000,""ca"":619330000,""cl"":null,""cn"":10426828000,""de"":null,""fr"":4903990000,""gb"":0,""in"":12076891000,""jp"":null,""kr"":null,""my"":0,""nl"":null,""pe"":null,""pl"":74175693000,""ru"":0,""se"":23059073000,""th"":0,""tr"":null,""us"":11259757000}"
+Average time it takes Completed + In Call to be executed after the first occurrence of Accepted + In Progress in the case;The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';8.65 hours;

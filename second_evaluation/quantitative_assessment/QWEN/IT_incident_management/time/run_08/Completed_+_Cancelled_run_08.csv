@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Average time for Completed + Cancelled;The average of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Total time for Completed + Cancelled;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Minimum time for Completed + Cancelled;The minimum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Time of Completed + Cancelled;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Completed + Cancelled Cycle Time;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Average time between Completed + Cancelled and Completed + Closed;The average of the duration between activity 'Completed + Cancelled' and activity 'Completed + Closed';;
+Total time from Completed + Cancelled to Accepted + In Progress;The sum of the duration between activity 'Completed + Cancelled' and activity 'Accepted + In Progress';;
+Minimum time it takes Completed + Cancelled after the execution of Queued + Awaiting Assignment;The minimum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + Cancelled';;
+Average time it takes Completed + Cancelled after the execution of Accepted + Wait - User;The average of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Cancelled';8.65 hours;
+Total time until Completed + Cancelled is performed in variants that include Accepted + Wait - Vendor;The sum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Cancelled';;
+Minimum time for Completed + Cancelled in process variants ending with Completed + Cancelled;The minimum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Average time for Completed + Cancelled compared to the average time for Completed + Resolved in identical variant structures;The average of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Total time for Completed + Cancelled in variants where Accepted + Wait - Implementation precedes it;The sum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Cancelled';;
+Minimum time between Accepted + Assigned and Completed + Cancelled across all variants containing both activities;The minimum of the duration between activity 'Accepted + Assigned' and activity 'Completed + Cancelled';;
+Time from Queued + Awaiting Assignment to Completed + Cancelled in variants that do not contain Completed + Closed;The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + Cancelled';;
+Completed + Cancelled Cycle Time in cases originating from Brazil versus USA;The average of the duration between activity 'Completed + Cancelled' and the end of case grouped by the last value of organization country;0:NaT;"{""0"":null,""SE"":null,""au"":null,""be"":null,""br"":null,""ca"":null,""cl"":null,""cn"":null,""de"":null,""fr"":null,""gb"":null,""in"":null,""jp"":null,""kr"":null,""my"":null,""nl"":null,""pe"":null,""pl"":0,""ru"":null,""se"":null,""th"":null,""tr"":null,""us"":null}"
+Average time it takes Completed + Cancelled after the execution of Unmatched + Unmatched;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Cancelled';;
+Total time for Completed + Cancelled in variants that also include Completed + In Call;The sum of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Minimum time for Completed + Cancelled when it directly follows Accepted + In Progress without intermediate wait states;The minimum of the duration between activity 'Accepted + In Progress' and activity 'Completed + Cancelled';8.66 hours;

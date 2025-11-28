@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-AE Assign Reviewers' followed by 'SW-Reviewer Agreed';Frequency of activity 'SW-AE Assign Reviewers' for cases where activity 'SW-Reviewer Agreed' occurs;45;
+Percentage of manuscripts that have 'SW-AE Assign Reviewers' before 'Original Manuscript Submission Confirmation';Percentage of 'SW-AE Assign Reviewers' out of all 'Original Manuscript Submission Confirmation';0.51;
+Number of 'SW-AE Assign Reviewers' activities per case;Number of 'SW-AE Assign Reviewers' activities grouped by the last value of code;AER0:4;"{""AER0"":4,""CHK4"":0,""DRSW4"":0,""DRW3"":4,""DSW3"":49,""DSW4"":21,""MSC4"":61,""RJR3"":2,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":2}"
+Frequency of 'SW-AE Assign Reviewers' leading to 'SW-EIC Major Revision' decisions;Frequency of activity 'SW-AE Assign Reviewers' for cases where activity 'SW-EIC Major Revision' occurs;15;
+Percentage of 'SW-AE Assign Reviewers' followed by 'Reviewer Invitation Reminder 1';Percentage of 'SW-AE Assign Reviewers' out of all 'Reviewer Invitation Reminder 1';0.89;
+Number of 'SW-AE Assign Reviewers' activities that precede 'SW-Reviewer Declined';Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-Reviewer Declined' occurs;100;
+Percentage of 'SW-AE Assign Reviewers' in relation to 'SW-Awaiting AE Assignment';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Awaiting AE Assignment';0.4;
+Frequency of 'SW-AE Assign Reviewers' in the most common process variant;Frequency of activity 'SW-AE Assign Reviewers';46;
+Percentage of 'SW-AE Assign Reviewers' activities that lead to a manuscript being accepted ('RW-EIC Accept');Percentage of 'SW-AE Assign Reviewers' out of all 'RW-EIC Accept';0.82;
+Number of 'SW-AE Assign Reviewers' activities followed by 'Unassign Editor';Number of 'SW-AE Assign Reviewers' activities for cases where activity 'Unassign Editor' occurs;20;
+Frequency of 'SW-AE Assign Reviewers' in manuscripts that exceed the Plagiarism Percent Match Threshold;Frequency of activity 'SW-AE Assign Reviewers' for cases where activity 'Plagiarism Percent Match Threshold Exceeded' occurs;13;
+Percentage of 'SW-AE Assign Reviewers' followed by 'SW-Reviewer Selection is now due';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Selection is now due';0.92;
+Number of 'SW-AE Assign Reviewers' activities that are followed by 'SW-AE Assign Reviewers' again (reassignments);Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-AE Assign Reviewers' occurs;143;
+Percentage of 'SW-AE Assign Reviewers' that lead to 'SW-Reviewer No Response';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer No Response';1.0;
+Frequency of 'SW-AE Assign Reviewers' in relation to the total number of activities in the longest process variant;Frequency of activity 'SW-AE Assign Reviewers';46;
+Percentage of 'SW-AE Assign Reviewers' followed by 'SW-Awaiting EIC Decision';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Awaiting EIC Decision';0.76;
+Number of 'SW-AE Assign Reviewers' activities that occur after 'SW-Reviewer Selection is due in 3 days';Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-Reviewer Selection is due in 3 days' occurs;73;
+Percentage of 'SW-AE Assign Reviewers' activities that result in a 'SW-EIC Reject' decision;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-EIC Reject';0.26;
+Percentage of 'SW-AE Assign Reviewers' out of all reviewer assignment activities;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-AE Assign Reviewers';1.0;
+Percentage of 'SW-AE Assign Reviewers' followed by any activity related to major revision ('SW–Major Revision due in 1 week', 'SW–Major Revision due in 2 weeks', etc.);Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;

@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + In Call' out of all activity executions in the event log;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' occurrences across all cases;Number of 'Completed + In Call' activities;2018.0;
+Percentage of process variants that include 'Completed + In Call';Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' directly following 'Accepted + In Progress';Number of 'Completed + In Call' activities;2018.0;
+Percentage of 'Completed + In Call' that appear as terminal activities in a case (i.e., not followed by any other activity);Percentage of 'Completed + In Call' out of all cases;0.27;
+Ratio of 'Completed + In Call' to 'Completed + Resolved' in the entire event log;Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Number of cases where 'Completed + In Call' occurs more than once;Number of 'Completed + In Call' activities;2018.0;
+Percentage of 'Completed + In Call' that are part of short-duration variants (performance < 50,000 time units);the average of the function base < 50000 where base is the number of times `ACTIVITY` == 'Completed + In Call';1.0;
+Frequency of transitions from 'Completed + In Call' to 'Accepted + In Progress';Number of 'Completed + In Call' activities;2018.0;
+Percentage of 'Completed + In Call' occurring before 'Completed + Resolved' or 'Completed + Closed';Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Number of variants where 'Completed + In Call' appears without being followed by resolution or closure activities;Number of 'Completed + In Call' activities;2018.0;
+Percentage of 'Completed + In Call' relative to the total number of 'Completed + *' activities;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' in comparison to 'Completed + Cancelled';Number of 'Completed + In Call' activities for cases where activity 'Completed + Cancelled' occurs;1.0;
+Percentage of cases containing 'Completed + In Call' that do not reach 'Completed + Closed';Percentage of 'Completed + In Call' out of all cases where 'Completed + Closed' does not happen;0.27;
+Average number of 'Completed + In Call' per case among cases that include this activity;the average of the number of times `ACTIVITY` == 'Completed + In Call';0.27;
+Percentage of 'Completed + In Call' executed by resources in specific countries (e.g., France, Brazil, USA);Percentage of 'Completed + In Call' out of all cases;0.67;
+Frequency of 'Completed + In Call' appearing as the final activity in a variant;Number of 'Completed + In Call' activities;2018.0;
+Ratio of variants ending with 'Completed + In Call' versus those ending with 'Completed + Closed';Percentage of 'Completed + In Call' out of all 'Completed + Closed';0.02;
+Percentage of 'Completed + In Call' that occur within the first three activities of a case;Percentage of 'Completed + In Call' out of all cases;0.27;
+Number of times 'Completed + In Call' interrupts a waiting state (e.g., follows 'Accepted + Wait - User', 'Accepted + Wait - Vendor', or 'Accepted + Wait - Implementation');Number of 'Completed + In Call' activities;2018.0;

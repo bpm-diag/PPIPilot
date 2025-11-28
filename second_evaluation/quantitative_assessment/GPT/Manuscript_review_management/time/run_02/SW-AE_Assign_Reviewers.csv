@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-AE Assign Reviewers' to 'SW-Reviewer Agreed';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Total time for all instances of 'SW-AE Assign Reviewers' to be completed;The sum of the duration between activity SW-AE Assign Reviewers and the end of the case;7892.24 days;
+Minimum time it takes from 'SW-AE Assign Reviewers' to 'SW-Reviewer Agreed';The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';44.00 seconds;
+Average time between 'SW-AE Assign Reviewers' and 'SW-Awaiting EIC Decision';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting EIC Decision';74.31 days;
+Total resolution time of 'SW-AE Assign Reviewers' in the review process;The sum of the duration between activity SW-AE Assign Reviewers and the end of the case;7892.24 days;
+Average time it takes from 'Original Manuscript Submission Confirmation' to 'SW-AE Assign Reviewers';The average of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-AE Assign Reviewers';28.20 days;
+Minimum time from 'SW-AE Assign Reviewers' to the next activity in the process;The minimum of the duration between activity SW-AE Assign Reviewers and the end of the case;44.39 days;
+Average time for 'SW-AE Assign Reviewers' grouped by manuscript;The average of the duration between activity 'SW-AE Assign Reviewers' and the end of case grouped by the last value of code;AER0:101.36 days;"{""AER0"":8757398000,""CHK4"":null,""DRSW4"":null,""DRW3"":15204555000,""DSW3"":5786062750,""DSW4"":6575683222,""MSC4"":27046473117,""RJR3"":17980014000,""SW1"":null,""SW12"":null,""SYS1"":null,""SYS11"":null,""SYS2"":null,""SYS5"":28399597000}"
+Total time it takes 'SW-AE Assign Reviewers' after 'SW-Reviewer Selection is due in 3 days';The sum of the duration between activity 'SW-Reviewer Selection is due in 3 days' and activity 'SW-AE Assign Reviewers';445.66 days;
+Minimum resolution time of 'SW-AE Assign Reviewers' in the context of the entire review process;The minimum of the duration between activity SW-AE Assign Reviewers and the end of the case;44.39 days;
+Average waiting time to 'SW-AE Assign Reviewers' after 'SW-Initial Reviewer Selection';The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-AE Assign Reviewers';22.06 days;
+Total time from 'SW-AE Assign Reviewers' to 'Reviewer Invitation Reminder 1';The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'Reviewer Invitation Reminder 1';2743.88 days;
+Average time from 'SW-AE Assign Reviewers' to 'SW-Reviewer Declined';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Declined';15.42 days;
+Minimum time it takes from 'SW-AE Assign Reviewers' to 'SW-Awaiting AE Recommendation';The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting AE Recommendation';35.83 days;
+Total time for 'SW-AE Assign Reviewers' to lead to a decision ('SW-EIC Accept', 'SW-EIC Major Revision', 'SW-EIC Minor Revision', 'SW-EIC Reject');The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Accept';;
+Average time for 'SW-AE Assign Reviewers' to result in 'SW-Reviewer Agreed' across all cases;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Total time it takes from 'SW-AE Assign Reviewers' to 'SW-AE Recommendation overdue';The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-AE Recommendation overdue';287.19 days;
+Minimum time for 'SW-AE Assign Reviewers' to 'SW-Reviewer Selection is now due';The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Selection is now due';13.22 hours;
+Average time from 'SW-AE Assign Reviewers' to 'SW-AE Assign Reviewers Challenge Paper';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-AE Assign Reviewers Challenge Paper';20.55 hours;
+Total time from 'SW-AE Assign Reviewers' to 'SW-Awaiting AE Assignment';The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting AE Assignment';;

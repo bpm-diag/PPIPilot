@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-Initial Reviewer Selection' to 'SW-Reviewer Agreed';The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Agreed';22.93 days;
+Average time from 'SW-Initial Reviewer Selection' to 'SW-AE Assign Reviewers';The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-AE Assign Reviewers';22.06 days;
+Total time for 'SW-Initial Reviewer Selection' to lead to 'SW-Awaiting EIC Decision';The sum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Awaiting EIC Decision';3667.51 days;
+Minimum time from 'SW-Initial Reviewer Selection' to 'Reviewer Invitation Reminder 1';The minimum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'Reviewer Invitation Reminder 1';2.70 days;
+Average time it takes from 'SW-Initial Reviewer Selection' to 'SW-Reviewer Declined';The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Declined';20.27 days;
+Total resolution time of 'SW-Initial Reviewer Selection' until 'SW-EIC Major Revision';The sum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-EIC Major Revision';1337.10 days;
+Minimum time for 'SW-Initial Reviewer Selection' to result in 'SW-Reviewer Agreed';The minimum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Agreed';14.41 hours;
+Average waiting time to the 'SW-Reviewer Agreed' after 'SW-Initial Reviewer Selection';The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Agreed';22.93 days;
+Total time it takes 'SW-Initial Reviewer Selection' to be followed by 'SW-AE Assign Reviewers';The sum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-AE Assign Reviewers';992.65 days;
+Average time for 'SW-Initial Reviewer Selection' to influence 'SW-Awaiting AE Recommendation';The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Awaiting AE Recommendation';51.70 days;
+Elapsed time between 'SW-Initial Reviewer Selection' and 'SW-Reviewer Selection is due in 1 week';The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Selection is due in 1 week';2.90 days;
+'SW-Initial Reviewer Selection' Cycle Time until 'SW-Reviewer Selection is now due';The sum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Selection is now due';144.90 days;
+Minimum resolution time of 'SW-Initial Reviewer Selection' before 'SW-Reviewer No Response';The minimum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer No Response';12.85 days;
+Average time from 'SW-Initial Reviewer Selection' to 'SW-Reviewer Unavailable';The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Unavailable';15.64 days;
+Total time from 'SW-Initial Reviewer Selection' to 'SW-AE Assign Reviewers Challenge Paper';The sum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-AE Assign Reviewers Challenge Paper';20.47 days;

@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.27;
+Number of 'Declaration APPROVED by BUDGET OWNER' that are followed by 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;2811.0;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' with amounts above 100 euros;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;0.31;
+Number of 'Declaration APPROVED by BUDGET OWNER' preceded by 'Declaration APPROVED by ADMINISTRATION';Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;2820.0;
+Frequency of 'Declaration APPROVED by BUDGET OWNER' in the most common process variant;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;0.27;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' in cases where the next activity is 'Request Payment';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Request Payment';0.28;
+Number of 'Declaration APPROVED by BUDGET OWNER' in relation to 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0.0;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' by 'STAFF MEMBER';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' that lead to 'Payment Handled';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Payment Handled';0.28;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' in cases that were finalized within two months after the trip;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;0.27;
+Number of 'Declaration APPROVED by BUDGET OWNER' grouped by 'case:BudgetNumber';Number of 'Declaration APPROVED by BUDGET OWNER' activities;2820.0;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' in cases without 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.27;
+Total 'Declaration APPROVED by BUDGET OWNER' done by 'SYSTEM';Number of 'Declaration APPROVED by BUDGET OWNER' activities == 'SYSTEM' where ma is the last value of org:resource;2811.0;
+Ratio of 'Declaration APPROVED by BUDGET OWNER' over 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration APPROVED by ADMINISTRATION';0.35;
+Occasions how often the 'Declaration APPROVED by BUDGET OWNER' is performed in the top 3 most frequent process variants;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;0.27;
+Percentage of 'Declaration APPROVED by BUDGET OWNER' from all approval activities;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Number of 'Declaration APPROVED by BUDGET OWNER' made per year;Number of 'Declaration APPROVED by BUDGET OWNER' activities;2820.0;
+Average number of 'Declaration APPROVED by BUDGET OWNER' in a month;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by BUDGET OWNER';0.27;
+Frequency of 'Declaration APPROVED by BUDGET OWNER' in cases with a budget above the average case amount;Number of 'Declaration APPROVED by BUDGET OWNER' activities;2820.0;

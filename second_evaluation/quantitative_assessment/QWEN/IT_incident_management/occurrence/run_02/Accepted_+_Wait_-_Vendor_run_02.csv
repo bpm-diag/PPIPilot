@@ -1,0 +1,23 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Vendor' out of all activity executions in the event log;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' occurrences across all cases;Number of 'Accepted + Wait - Vendor' activities;299;
+Percentage of process variants containing 'Accepted + Wait - Vendor' relative to the total number of variants;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of transitions from 'Accepted + In Progress' to 'Accepted + Wait - Vendor';Number of 'Accepted + Wait - Vendor' activities;299;
+Percentage of 'Accepted + Wait - Vendor' that are followed by 'Completed + Resolved';Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' appearing after 'Queued + Awaiting Assignment' in the same case;Number of 'Accepted + Wait - Vendor' activities;299;
+Percentage of cases where 'Accepted + Wait - Vendor' occurs at least once among all cases that reach 'Completed + Resolved';Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + Resolved';0.04;
+Ratio of the frequency of 'Accepted + Wait - Vendor' to the frequency of 'Accepted + Wait - User';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Accepted + Wait - User' occurs;138;
+Percentage of 'Accepted + Wait - Vendor' occurrences in variants with total performance duration above the median variant duration;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' in cases that eventually include 'Completed + In Call';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + In Call' occurs;1;
+Percentage of 'Accepted + Wait - Vendor' that directly precede 'Completed + Resolved' without intermediate activities;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' grouped by country of execution;Number of 'Accepted + Wait - Vendor' activities grouped by the last value of resource country;0:290;"{""0"":290,""Australia"":0,""Belgium"":1,""Brazil"":1,""Canada"":0,""China"":0,""France"":0,""INDIA"":0,""Japan"":0,""Korea"":0,""MALAYSIA"":0,""POLAND"":2,""RUSSIAN FEDERATION"":0,""Sweden"":5,""THAILAND"":0,""USA"":0,""United Kingdom"":0}"
+Percentage of variants containing both 'Accepted + Wait - Vendor' and 'Completed + In Call' out of all variants containing 'Completed + In Call';Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + In Call';0.0;
+Ratio of the number of times 'Accepted + Wait - Vendor' appears to the number of times 'Accepted + Wait - Implementation' appears;Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Accepted + Wait - Implementation' occurs;32;
+Average number of occurrences of 'Accepted + Wait - Vendor' per case in which it appears;the average of the number of times `ACTIVITY` == 'Accepted + Wait - Vendor';0.04;
+Percentage of 'Accepted + Wait - Vendor' activities that occur in the top 10% longest-running cases;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' in variants that include more than three distinct waiting states (e.g., 'Accepted + Wait - User', 'Accepted + Wait', etc.);Number of 'Accepted + Wait - Vendor' activities;299;
+Percentage of cases transitioning from 'Accepted + Wait - Vendor' to 'Completed + Closed' without returning to 'Accepted + In Progress';Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Fraction of all 'Accepted + Wait - Vendor' instances that appear in variants with frequency less than 25;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Total number of 'Accepted + Wait - Vendor' executions performed by resources located in Brazil, USA, and France respectively;Number of 'Accepted + Wait - Vendor' activities == 'Brazil' where ma is the last value of resource country;1;
+Total number of 'Accepted + Wait - Vendor' executions performed by resources located in Brazil, USA, and France respectively;Number of 'Accepted + Wait - Vendor' activities == 'USA' where ma is the last value of resource country;0;
+Total number of 'Accepted + Wait - Vendor' executions performed by resources located in Brazil, USA, and France respectively;Number of 'Accepted + Wait - Vendor' activities == 'France' where ma is the last value of resource country;0;

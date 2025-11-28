@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Average time from 'Accepted + Wait - User' to 'Completed + In Call';The average of the duration between activity 'Accepted + Wait - User' and activity 'Completed + In Call';8.15 days;
+Average resolution time of 'Accepted + Wait - User' before transitioning to 'Accepted + In Progress';The average of the duration between activity 'Accepted + Wait - User' and activity 'Accepted + In Progress';13.66 days;
+Total time spent in 'Accepted + Wait - User' across all cases;The sum of the duration between activity Accepted + Wait - User and the end of the case;43386.02 days;
+Average time it takes to transition from 'Accepted + Wait - User' to any subsequent activity;The average of the duration between activity Accepted + Wait - User and the end of the case;17.39 days;
+Total time from 'Accepted + Wait - User' to 'Completed + Resolved';The sum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Resolved';32278.15 days;
+Minimum time it takes to resolve an incident after 'Accepted + Wait - User';The minimum of the duration between activity Accepted + Wait - User and the end of the case;0.00 seconds;
+Average time between 'Accepted + Wait - User' and 'Completed + Closed';The average of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Closed';17.84 days;
+Total resolution time of incidents involving 'Accepted + Wait - User';The sum of the duration between activity Accepted + Wait - User and the end of the case;43386.02 days;
+Minimum time from 'Accepted + Wait - User' to 'Queued + Awaiting Assignment';The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Queued + Awaiting Assignment';1.00 seconds;
+Average time it takes to move from 'Accepted + Wait - User' to 'Accepted + Assigned';The average of the duration between activity 'Accepted + Wait - User' and activity 'Accepted + Assigned';10.78 days;
+Total time it takes for 'Accepted + Wait - User' to be followed by 'Completed + In Call';The sum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + In Call';513.40 days;
+Total duration of 'Accepted + Wait - User' in incidents leading to 'Completed + In Call';The sum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + In Call';513.40 days;
+Minimum duration of 'Accepted + Wait - User' before transitioning to any 'Completed' status;The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Completed';;
+Average time from 'Accepted + Wait - User' to the next activity in the most frequent variant;The average of the duration between activity Accepted + Wait - User and the end of the case;17.39 days;
+Total time from 'Accepted + Wait - User' to 'Completed + Resolved' in the variant with the highest performance;The sum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Resolved';32278.15 days;
+Average duration of 'Accepted + Wait - User' in incidents resolved within the same day;The average of the duration between activity Accepted + Wait - User and the end of the case;17.39 days;
+Total duration of 'Accepted + Wait - User' in incidents that required vendor intervention before resolution;The sum of the duration between activity Accepted + Wait - User and the end of the case;;
+Minimum time from 'Accepted + Wait - User' to 'Accepted + Wait - Implementation' in complex incidents;The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Accepted + Wait - Implementation';;
+Average time from 'Accepted + Wait - User' to 'Accepted + In Progress' in incidents with medium impact;The average of the duration between activity 'Accepted + Wait - User' and activity 'Accepted + In Progress';;

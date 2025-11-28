@@ -1,0 +1,13 @@
+Name;Metric;Value;Agrupation
+Average time from Declaration SAVED by EMPLOYEE to Declaration SUBMITTED by EMPLOYEE;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration SUBMITTED by EMPLOYEE';;
+Total time spent on Declaration SAVED by EMPLOYEE before Declaration APPROVED by ADMINISTRATION;The sum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration APPROVED by ADMINISTRATION';;
+Minimum time from Declaration SAVED by EMPLOYEE to Request Payment;The minimum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Request Payment';17.03 days;
+Average time for Declaration SAVED by EMPLOYEE to be followed by any approval activity;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration APPROVED by ADMINISTRATION';;
+Total resolution time of Declaration SAVED by EMPLOYEE in cases where Declaration FINAL_APPROVED by SUPERVISOR follows;The sum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';;
+Average waiting time to Declaration SAVED by EMPLOYEE after Declaration REJECTED by EMPLOYEE;The average of the duration between activity 'Declaration REJECTED by EMPLOYEE' and activity 'Declaration SAVED by EMPLOYEE';;
+Total time it takes from Declaration SAVED by EMPLOYEE to Payment Handled;The sum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Payment Handled';20.09 days;
+Minimum time it takes for Declaration SAVED by EMPLOYEE to be followed by Declaration FOR_APPROVAL by SUPERVISOR;The minimum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration FOR_APPROVAL by SUPERVISOR';;
+Minimum resolution time of Declaration SAVED by EMPLOYEE in successful payment processes;The minimum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Payment Handled';20.09 days;
+Total time from Declaration SAVED by EMPLOYEE to the next activity in the most frequent variant;The sum of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;20.09 days;
+Total time for Declaration SAVED by EMPLOYEE across all variants;The sum of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;20.09 days;
+Average time it takes Declaration SAVED by EMPLOYEE to be followed by Request Payment in the process flow;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Request Payment';17.03 days;

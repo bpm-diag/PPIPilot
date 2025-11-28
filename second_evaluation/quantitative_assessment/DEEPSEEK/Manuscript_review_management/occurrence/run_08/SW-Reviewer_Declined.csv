@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of cases with at least one SW-Reviewer Declined;Percentage of 'SW-Reviewer Declined' out of all cases;0.31;
+Number of SW-Reviewer Declined that are preceded by SW-AE Assign Reviewers;Number of 'SW-Reviewer Declined' activities;61;
+Percentage of SW-Reviewer Declined that occur after multiple SW-AE Assign Reviewers;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Number of SW-Reviewer Declined in relation to SW-Reviewer Agreed;Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-Reviewer Agreed' occurs;61;
+Percentage of SW-Reviewer Declined that receive Reviewer Invitation Reminder 1;Percentage of 'SW-Reviewer Declined' out of all 'Reviewer Invitation Reminder 1';0.62;
+Number of SW-Reviewer Declined followed by additional SW-AE Assign Reviewers;Number of 'SW-Reviewer Declined' activities;61;
+Number of SW-Reviewer Declined that occur after SW-Reviewer Selection is due in 3 days;Number of 'SW-Reviewer Declined' activities;61;
+Percentage of SW-Reviewer Declined that are followed by Assign a Different Editor;Percentage of 'SW-Reviewer Declined' out of all cases;0.31;
+Number of SW-Reviewer Declined in variants that lead to SW-EIC Reject;Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-EIC Reject' occurs;13;
+Percentage of SW-Reviewer Declined in manuscripts that eventually get SW-EIC Major Revision;Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Major Revision';0.8;
+Number of SW-Reviewer Declined that occur before SW-Reviewer Selection is now due;Number of 'SW-Reviewer Declined' activities;61;
+Percentage of SW-Reviewer Declined that receive Reviewer Invitation Reminder 2;Percentage of 'SW-Reviewer Declined' out of all 'Reviewer Invitation Reminder 2';0.63;
+Number of SW-Reviewer Declined in relation to total reviewer invitations sent;Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-AE Assign Reviewers' occurs;59;
+Average number of SW-Reviewer Declined per manuscript submission;the average of the number of times `ACTIVITY` == 'SW-Reviewer Declined';0.66;
+Percentage of SW-Reviewer Declined that occur after SW-Reviewer Selection is 3 days late;Percentage of 'SW-Reviewer Declined' out of all cases;0.31;
+Number of SW-Reviewer Declined that are followed by Unassign Editor;Number of 'SW-Reviewer Declined' activities;61;
+Percentage of SW-Reviewer Declined out of all reviewer response activities (SW-Reviewer Agreed + SW-Reviewer Declined + SW-Reviewer Unavailable + SW-Reviewer No Response);Percentage of 'SW-Reviewer Declined' out of all cases;0.31;
+Number of SW-Reviewer Declined per case;the average of the number of times `ACTIVITY` == 'SW-Reviewer Declined';0.66;
+Percentage of SW-Reviewer Declined in high-performance variants versus low-performance variants;Percentage of 'SW-Reviewer Declined' out of all cases;ADMIN:0.5;"{""ADMIN"":0.5,""AUTHOR"":0.0,""EIC"":0.0,""SYSTEM"":0.3139534884}"
+Percentage of SW-Reviewer Declined in the first review round versus second review round;Percentage of 'SW-Reviewer Declined' out of all cases;0.31;

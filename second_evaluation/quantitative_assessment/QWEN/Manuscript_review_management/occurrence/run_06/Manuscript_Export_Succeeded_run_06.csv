@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Manuscript Export Succeeded out of all activity executions in the event log;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Frequency of Manuscript Export Succeeded occurrences across all cases;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of variants in which Manuscript Export Succeeded appears at least once;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of times Manuscript Export Succeeded is directly followed by Plagiarism Originality Report Completed;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that occur before SW-Reviewer Agreed in the same case;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Ratio of Manuscript Export Succeeded to Original Manuscript Submission Confirmation;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that are part of variants ending with SW-EIC Accept;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of Manuscript Export Succeeded events that occur more than once in the same case;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that precede any reviewer-related activity (e.g., SW-AE Assign Reviewers, SW-Reviewer Agreed);Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Frequency of Manuscript Export Succeeded in variants that include SW-Reviewer Agreed compared to variants that do not;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of cases where Manuscript Export Succeeded occurs before SW-Awaiting Checklist Completion versus after;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of Manuscript Export Succeeded events per distinct case;the average of the number of times `ACTIVITY` == 'Manuscript Export Succeeded';1.52;
+Percentage of Manuscript Export Succeeded that are followed within 24 hours by Plagiarism Originality Report Completed;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Ratio of Manuscript Export Succeeded to Revised Manuscript Submission Confirmation;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that appear in the initial phase of the process (before any AE or EIC decision activity);Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Frequency of Manuscript Export Succeeded in cases that eventually reach First Look Manuscript Submission Confirmation;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that occur in cases also containing SW-Reviewer Agreed;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of variants in which Manuscript Export Succeeded appears exactly once;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that are succeeded by any “due in” or “overdue” activity (e.g., SW–Major Revision due in 1 week);Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Ratio of Manuscript Export Succeeded occurrences to total number of system-generated activities in the log;Number of 'Manuscript Export Succeeded' activities;141.0;

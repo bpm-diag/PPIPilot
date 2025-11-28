@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of SW-EIC Reject occurring as the terminal activity in process variants;Frequency of activity 'SW-EIC Reject';34.0;
+Percentage of process variants ending with SW-EIC Reject compared to total number of variants;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Number of times SW-EIC Reject directly follows SW-Awaiting EIC Decision;Number of 'SW-EIC Reject' activities for cases where activity 'SW-Awaiting EIC Decision' occurs;16.0;
+Percentage of SW-EIC Reject cases that originated from manuscripts where SW-Reviewer Agreed occurred at least once;Percentage of 'SW-EIC Reject' out of all 'SW-Reviewer Agreed';0.22;
+Frequency of SW-EIC Reject in comparison to the frequency of SW-EIC Accept;Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-EIC Accept' occurs;0.0;
+Percentage of SW-EIC Reject among all activities performed by SYSTEM in the EIC decision phase;Percentage of 'SW-EIC Reject' out of all cases;0.38;
+Number of SW-EIC Reject instances that occur without any prior SW-Reviewer Agreed activity in the same case;Number of 'SW-EIC Reject' activities for cases where activity 'SW-Reviewer Agreed' does not occur;34.0;
+Percentage of SW-EIC Reject cases that include a Plagiarism Originality Report Completed activity earlier in the trace;Percentage of 'SW-EIC Reject' out of all 'Plagiarism Originality Report Completed';0.37;
+Percentage of SW-EIC Reject that occurs within 7 days after SW-Awaiting EIC Decision;Percentage of 'SW-EIC Reject' out of all 'SW-Awaiting EIC Decision';0.27;
+Number of SW-EIC Reject decisions following traces where SW-Checklist Completed was recorded;Number of 'SW-EIC Reject' activities for cases where activity 'SW-Checklist Completed' occurs;33.0;
+Frequency of SW-EIC Reject relative to the total number of SW-* prefixed activities in the log;Frequency of activity 'SW-EIC Reject';34.0;
+Ratio of SW-EIC Reject to SW-EIC Reject & Resubmit across the entire event log;Number of 'SW-EIC Reject' activities;34.0;
+Frequency of SW-EIC Reject appearing in variants that contain more than three reviewer-related activities (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, SW-Reviewer No Response);Number of 'SW-EIC Reject' activities;34.0;
+Percentage of SW-EIC Reject in cases where the initial activity was SW-Awaiting Checklist Completion versus Original Manuscript Submission Confirmation;Percentage of 'SW-EIC Reject' out of all 'SW-Awaiting Checklist Completion';0.39;
+Percentage of SW-EIC Reject out of all final editorial decisions (e.g., SW-EIC Accept, SW-EIC Major Revision, SW-EIC Minor Revision, SW-EIC Reject & Resubmit);"ERROR: computing metric {'count': activity == 'SW-EIC Reject'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-EIC Accept', 'SW-EIC Major Revision', 'SW-EIC Minor Revision', 'SW-EIC Reject & Resubmit', 'SW-EIC Reject']""}""";;

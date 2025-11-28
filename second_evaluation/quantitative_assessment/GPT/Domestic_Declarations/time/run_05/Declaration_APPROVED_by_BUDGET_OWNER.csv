@@ -1,0 +1,14 @@
+Name;Metric;Value;Agrupation
+;ERROR: computing metric {};;
+Average time from 'Declaration APPROVED by ADMINISTRATION' to 'Declaration APPROVED by BUDGET OWNER';The average of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Declaration APPROVED by BUDGET OWNER';2.20 days;
+Average time from 'Declaration APPROVED by BUDGET OWNER' to 'Declaration FINAL_APPROVED by SUPERVISOR';The average of the duration between activity 'Declaration APPROVED by BUDGET OWNER' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';3.01 days;
+Total time spent on 'Declaration APPROVED by BUDGET OWNER' across all cases;The sum of the duration between activity Declaration APPROVED by BUDGET OWNER and the end of the case;27251.08 days;
+Average resolution time of 'Declaration APPROVED by BUDGET OWNER';The average of the duration between activity Declaration APPROVED by BUDGET OWNER and the end of the case;9.71 days;
+Minimum time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration APPROVED by BUDGET OWNER';The minimum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration APPROVED by BUDGET OWNER';1.12 minutes;
+Total resolution time from 'Declaration APPROVED by BUDGET OWNER' to 'Request Payment';The sum of the duration between activity 'Declaration APPROVED by BUDGET OWNER' and activity 'Request Payment';17201.95 days;
+Average waiting time to 'Declaration APPROVED by BUDGET OWNER' after 'Declaration SUBMITTED by EMPLOYEE';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration APPROVED by BUDGET OWNER';4.51 days;
+Total time from 'Declaration APPROVED by BUDGET OWNER' to 'Payment Handled';The sum of the duration between activity 'Declaration APPROVED by BUDGET OWNER' and activity 'Payment Handled';27003.57 days;
+Minimum resolution time of 'Declaration APPROVED by BUDGET OWNER' in cases where the next activity is 'Declaration FINAL_APPROVED by SUPERVISOR';The minimum of the duration between activity 'Declaration APPROVED by BUDGET OWNER' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';27.00 seconds;
+Average time between 'Declaration APPROVED by BUDGET OWNER' and 'Declaration REJECTED by PRE_APPROVER' in the process variants where both occur;The average of the duration between activity 'Declaration APPROVED by BUDGET OWNER' and activity 'Declaration REJECTED by PRE_APPROVER';;
+Average time for 'Declaration APPROVED by BUDGET OWNER' in cases where 'Declaration REJECTED by PRE_APPROVER' occurs before approval;The average of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Declaration APPROVED by BUDGET OWNER';;
+Average time from 'Declaration APPROVED by BUDGET OWNER' to 'Payment Handled' in the most frequent process variant;The average of the duration between activity 'Declaration APPROVED by BUDGET OWNER' and activity 'Payment Handled';9.65 days;

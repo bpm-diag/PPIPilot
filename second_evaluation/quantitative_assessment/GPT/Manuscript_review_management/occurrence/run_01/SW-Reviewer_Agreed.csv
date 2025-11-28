@@ -1,0 +1,18 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Reviewer Agreed' in relation to 'SW-AE Assign Reviewers';Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers';0.98;
+Percentage of manuscripts that proceed to 'SW-Awaiting EIC Decision' after a 'SW-Reviewer Agreed';Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Number of 'SW-Reviewer Agreed' occurrences per case;Number of 'SW-Reviewer Agreed' activities grouped by the last value of code;AER0:2;"{""AER0"":2,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":37,""DSW4"":26,""MSC4"":40,""RJR3"":2,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":2}"
+Frequency of 'SW-Reviewer Agreed' followed by 'Reviewer Invitation Reminder 1';Percentage of 'SW-Reviewer Agreed' out of all 'Reviewer Invitation Reminder 1';0.91;
+Percentage of 'SW-Reviewer Agreed' out of all review-related activities;Percentage of 'SW-Reviewer Agreed' out of all cases where 'SW-Reviewer Agreed' does not happen;0.49;
+Number of 'SW-Reviewer Agreed' preceding 'SW-Reviewer Declined';Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-Reviewer Declined' occurs;29;
+Percentage of cases with 'SW-Reviewer Agreed' that lead to 'SW-EIC Major Revision';Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Major Revision';0.93;
+Frequency of 'SW-Reviewer Agreed' in the most common process variant;Frequency of activity 'SW-Reviewer Agreed';46;
+Percentage of 'SW-Reviewer Agreed' activities by performer;Percentage of 'SW-Reviewer Agreed' out of all cases;ADMIN:0.5;"{""ADMIN"":0.5,""AUTHOR"":0.5,""EIC"":0.0,""SYSTEM"":0.5}"
+Percentage of 'SW-Reviewer Agreed' followed by 'SW-Awaiting AE Recommendation';Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting AE Recommendation';0.67;
+Frequency of 'SW-Reviewer Agreed' in cases that result in 'SW-EIC Accept';Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-EIC Accept' occurs;0;
+Percentage of 'SW-Reviewer Agreed' in cases with 'Manuscript Export Succeeded';Percentage of 'SW-Reviewer Agreed' out of all 'Manuscript Export Succeeded';0.51;
+Number of 'SW-Reviewer Agreed' in relation to 'SW-Reviewer No Response';Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-Reviewer No Response' occurs;5;
+Percentage of 'SW-Reviewer Agreed' from all activities in the review process;Percentage of 'SW-Reviewer Agreed' out of all cases where 'SW-Reviewer Agreed' does not happen;0.49;
+Frequency of 'SW-Reviewer Agreed' before 'SW-AE Assign Reviewers Challenge Paper';Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-AE Assign Reviewers Challenge Paper' occurs;3;
+Percentage of 'SW-Reviewer Agreed' in successful manuscript submissions (leading to 'SW-EIC Accept' or 'RW-EIC Accept');Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Accept';0.0;
+Number of 'SW-Reviewer Agreed' activities grouped by month;Number of 'SW-Reviewer Agreed' activities;110;

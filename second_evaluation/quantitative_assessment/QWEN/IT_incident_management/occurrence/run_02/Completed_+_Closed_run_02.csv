@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Closed' occurrences out of all activity executions in the event log;Percentage of 'Completed + Closed' out of all cases;0.74;
+Frequency of 'Completed + Closed' as the final activity in process variants ending with resolution or closure;Frequency of activity 'Completed + Closed';5574;
+Percentage of process variants containing 'Completed + In Call' that eventually lead to 'Completed + Closed';Percentage of 'Completed + In Call' out of all 'Completed + Closed';0.02;
+Number of times 'Completed + Closed' directly follows 'Completed + Resolved' across all cases;Number of 'Completed + Closed' activities for cases where activity 'Completed + Resolved' occurs;5704;
+Percentage of 'Completed + Closed' executions that occur without any preceding 'Completed + In Call' activity;Percentage of 'Completed + Closed' out of all cases where 'Completed + In Call' does not happen;0.74;
+Frequency of 'Completed + Closed' in variants where 'Accepted + Wait - User' appears at least once;Frequency of activity 'Completed + Closed' for cases where activity 'Accepted + Wait - User' occurs;2382;
+Percentage of total cases ending with 'Completed + Closed' compared to those ending with 'Completed + Cancelled';Percentage of 'Completed + Closed' out of all 'Completed + Cancelled';0.0;
+Number of process variants in which 'Completed + Closed' appears exactly once and as the terminal activity;Number of 'Completed + Closed' activities;5704;
+Percentage of 'Completed + Closed' activities occurring within 24 hours after 'Completed + In Call' when both are present in the same case;Percentage of 'Completed + Closed' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Closed' in cases that never include 'Unmatched + Unmatched';Frequency of activity 'Completed + Closed' for cases where activity 'Unmatched + Unmatched' does not occur;5574;
+Percentage of variants containing 'Completed + Closed' that have a total performance duration above the median variant duration;Percentage of 'Completed + Closed' out of all cases;0.74;
+Number of 'Completed + Closed' events grouped by country of execution;Number of 'Completed + Closed' activities grouped by the last value of organization country;0:22;"{""0"":22,""SE"":61,""au"":22,""be"":420,""br"":269,""ca"":49,""cl"":3,""cn"":100,""de"":2,""fr"":297,""gb"":21,""in"":494,""jp"":15,""kr"":62,""my"":20,""nl"":59,""pe"":2,""pl"":1032,""ru"":38,""se"":2228,""th"":1,""tr"":1,""us"":486}"
+Percentage of 'Completed + Closed' activities that are preceded by at least one waiting state (e.g., 'Accepted + Wait', 'Accepted + Wait - User', 'Accepted + Wait - Vendor', or 'Accepted + Wait - Implementation');Percentage of 'Completed + Closed' out of all 'Accepted + Wait';0.94;
+Ratio of the frequency of 'Completed + Closed' to the frequency of 'Completed + In Call' across the entire log;Percentage of 'Completed + Closed' out of all 'Completed + In Call';0.07;
+Percentage of cases where 'Completed + Closed' occurs without any intermediate queuing activity ('Queued + Awaiting Assignment') after initial acceptance;Percentage of 'Completed + Closed' out of all cases where 'Queued + Awaiting Assignment' does not happen;0.74;
+Frequency of 'Completed + Closed' in variants that include more than three transitions through 'Accepted + In Progress';Frequency of activity 'Completed + Closed' for cases where activity 'Accepted + In Progress' occurs;5573;
+Percentage of 'Completed + Closed' executions performed by resources in the 'V30' group compared to other resource groups;Percentage of 'Completed + Closed' out of all cases;1.0;
+Percentage of 'Completed + Closed' activities that conclude a case originally starting with 'Queued + Awaiting Assignment';Percentage of 'Completed + Closed' out of all 'Queued + Awaiting Assignment';0.99;
+Fraction of all resolved cases (ending in either 'Completed + Resolved' or 'Completed + Closed') that proceed to 'Completed + Closed';Percentage of 'Completed + Closed' out of all 'Completed + Resolved';0.98;
+Number of years in which 'Completed + Closed' was recorded, and its annual frequency trend from 2010 to 2012;Number of 'Completed + Closed' activities;5704;

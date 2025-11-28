@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time from SW-AE Assign Reviewers to SW-Reviewer Declined;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Declined';15.42 days;
+Average time between SW-Reviewer Declined and subsequent SW-AE Assign Reviewers;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-AE Assign Reviewers';17.09 days;
+Average time until SW-Reviewer Declined is performed after initial reviewer invitation;The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Declined';20.27 days;
+Average time for SW-Reviewer Declined compared to SW-Reviewer Agreed;The average of the duration between activity 'SW-Reviewer Declined' and the end of case where activity 'SW-Reviewer Agreed occurs;193.60 days;
+Average waiting time to SW-Reviewer Declined after Reviewer Invitation Reminder 1;The average of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Declined';18.38 days;
+Average time it takes SW-Reviewer Declined after the execution of SW-Reviewer Selection is due in 3 days;The average of the duration between activity 'SW-Reviewer Selection is due in 3 days' and activity 'SW-Reviewer Declined';15.56 days;
+Minimum time between SW-AE Assign Reviewers and SW-Reviewer Declined;The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Declined';17.42 minutes;
+Minimum time until SW-Reviewer Declined is performed in review process variants;The minimum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Declined';2.50 hours;
+Time between SW-Reviewer Selection is due in 1 week and SW-Reviewer Declined;The average of the duration between activity 'SW-Reviewer Selection is due in 1 week' and activity 'SW-Reviewer Declined';19.09 days;
+Time from Reviewer Invitation Reminder 2 to SW-Reviewer Declined;The average of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-Reviewer Declined';21.48 days;
+Time to SW-Reviewer Declined since SW-Initial Reviewer Selection;The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Declined';20.27 days;
+SW-Reviewer Declined Cycle Time compared to SW-Reviewer Agreed Cycle Time;The average of the duration between activity 'SW-Reviewer Declined' and the end of case where activity 'SW-Reviewer Agreed occurs;193.60 days;
+Average time between SW-Reviewer Declined and Assign a Different Editor;The average of the duration between activity 'SW-Reviewer Declined' and activity 'Assign a Different Editor';165.85 days;
+Total time from SW-Reviewer Selection is now due to SW-Reviewer Declined;The sum of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-Reviewer Declined';71.83 days;
+Average time for SW-Reviewer Declined in variants with multiple decline occurrences;The average of the duration between activity SW-Reviewer Declined and the end of the case;193.60 days;
+Time between consecutive SW-Reviewer Declined activities in the same case;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Declined';9.12 days;
+Average time from SW-Reviewer Unavailable to SW-Reviewer Declined;The average of the duration between activity 'SW-Reviewer Unavailable' and activity 'SW-Reviewer Declined';19.97 days;
+Time until SW-Reviewer Declined compared to SW-Reviewer No Response;The average of the duration between activity 'SW-Reviewer Declined' and the end of case where activity 'SW-Reviewer No Response occurs;238.33 days;
+Average time between SW-Reviewer Declined and Unassign Editor;The average of the duration between activity 'SW-Reviewer Declined' and activity 'Unassign Editor';165.85 days;
+Time from SW-Reviewer Selection is 3 days late to SW-Reviewer Declined;The average of the duration between activity 'SW-Reviewer Selection is 3 days late' and activity 'SW-Reviewer Declined';23.51 days;

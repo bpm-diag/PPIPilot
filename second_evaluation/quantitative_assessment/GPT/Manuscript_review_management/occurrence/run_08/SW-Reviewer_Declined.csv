@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Reviewer Declined' compared to 'SW-Reviewer Agreed';Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Percentage of manuscripts that proceed to 'SW-Awaiting EIC Decision' after a 'SW-Reviewer Declined';Percentage of 'SW-Reviewer Declined' out of all 'SW-Awaiting EIC Decision';0.49;
+Number of 'SW-Reviewer Declined' occurrences before 'SW-AE Assign Reviewers';Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-AE Assign Reviewers' occurs;59.0;
+Percentage of 'SW-Reviewer Declined' out of all review-related activities;Percentage of 'SW-Reviewer Declined' out of all cases where 'SW-Reviewer Declined' does not happen;0.31;
+Frequency of 'SW-Reviewer Declined' in relation to the total number of review rounds;Percentage of 'SW-Reviewer Declined' out of all 'Review Round';;
+Percentage of 'SW-Reviewer Declined' followed by 'Reviewer Invitation Reminder 1';Percentage of 'SW-Reviewer Declined' out of all 'Reviewer Invitation Reminder 1';0.62;
+Number of 'SW-Reviewer Declined' that lead to 'SW-EIC Major Revision' decisions;Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-EIC Major Revision' occurs;29.0;
+Frequency of 'SW-Reviewer Declined' before 'SW-Reviewer Selection is now due';Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-Reviewer Selection is now due' occurs;15.0;
+Percentage of 'SW-Reviewer Declined' in the context of 'SW-AE Assign Reviewers' activity chains;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Number of 'SW-Reviewer Declined' followed by 'Assign a Different Editor';Number of 'SW-Reviewer Declined' activities for cases where activity 'Assign a Different Editor' occurs;4.0;
+Percentage of 'SW-Reviewer Declined' in manuscripts that eventually get 'SW-EIC Accept';Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Accept';0.0;
+Frequency of 'SW-Reviewer Declined' in relation to 'SW-Reviewer No Response';Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer No Response';0.8;
+Percentage of 'SW-Reviewer Declined' followed by 'SW-AE Assign Reviewers' in the review process;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Number of 'SW-Reviewer Declined' occurrences per manuscript submission cycle;Number of 'SW-Reviewer Declined' activities for cases where activity 'Manuscript Submission' occurs;;
+Percentage of 'SW-Reviewer Declined' in manuscripts that undergo 'SW–Major Revision due in 1 week';Percentage of 'SW-Reviewer Declined' out of all cases;0.31;

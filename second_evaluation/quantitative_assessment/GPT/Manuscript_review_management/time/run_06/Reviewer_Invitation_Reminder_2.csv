@@ -1,0 +1,18 @@
+Name;Metric;Value;Agrupation
+Average time from 'Reviewer Invitation Reminder 2' to 'SW-Reviewer Agreed';The average of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-Reviewer Agreed';15.82 days;
+Total time from 'Reviewer Invitation Reminder 2' to 'SW-AE Assign Reviewers';The sum of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-AE Assign Reviewers';408.35 days;
+Minimum time from 'Reviewer Invitation Reminder 2' to 'SW-AE Assign Reviewers';The minimum of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-AE Assign Reviewers';1.93 hours;
+Average time between 'Reviewer Invitation Reminder 2' and 'SW-Reviewer Declined';The average of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-Reviewer Declined';21.48 days;
+Total resolution time of 'Reviewer Invitation Reminder 2' until 'SW-AE Assign Reviewers';The sum of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-AE Assign Reviewers';408.35 days;
+Minimum resolution time of 'Reviewer Invitation Reminder 2';The minimum of the duration between activity Reviewer Invitation Reminder 2 and the end of the case;30.97 days;
+Time until 'Reviewer Invitation Reminder 2' from 'SW-AE Assign Reviewers';The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'Reviewer Invitation Reminder 2';1721.80 days;
+Average time it takes 'Reviewer Invitation Reminder 2' after 'SW-Reviewer Selection is 3 days late';The average of the duration between activity 'SW-Reviewer Selection is 3 days late' and activity 'Reviewer Invitation Reminder 2';113.09 days;
+Total time it takes 'Reviewer Invitation Reminder 2' to be done after 'SW-Reviewer Selection is now due';The sum of the duration between activity 'SW-Reviewer Selection is now due' and activity 'Reviewer Invitation Reminder 2';759.04 days;
+Minimum time it takes 'Reviewer Invitation Reminder 2' after 'Assign a Different Editor';The minimum of the duration between activity 'Assign a Different Editor' and activity 'Reviewer Invitation Reminder 2';6.64 days;
+Average time for 'Reviewer Invitation Reminder 2' to lead to 'SW-Reviewer Agreed';The average of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-Reviewer Agreed';15.82 days;
+Total time for 'Reviewer Invitation Reminder 2' until 'SW-Awaiting EIC Decision';The sum of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-Awaiting EIC Decision';2335.96 days;
+'Reviewer Invitation Reminder 2' Cycle Time in the context of the review process;The sum of the duration between activity Reviewer Invitation Reminder 2 and the end of the case;6078.07 days;
+Time from 'Reviewer Invitation Reminder 2' to 'SW-Awaiting AE Recommendation';The sum of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-Awaiting AE Recommendation';1309.35 days;
+Average waiting time to the 'Reviewer Invitation Reminder 2' after 'SW-AE Assign Reviewers';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'Reviewer Invitation Reminder 2';47.83 days;
+Minimum time for 'Reviewer Invitation Reminder 2' after 'SW-Reviewer Selection is 1 week late';The minimum of the duration between activity 'SW-Reviewer Selection is 1 week late' and activity 'Reviewer Invitation Reminder 2';41.92 days;
+Total time from 'Reviewer Invitation Reminder 2' to 'SW-EIC Major Revision' in cases leading to major revisions;The sum of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-EIC Major Revision';962.57 days;

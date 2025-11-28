@@ -1,0 +1,41 @@
+Name;Metric;Value;Agrupation
+Percentage of Payment Handled that are preceded by Request Payment;Percentage of 'Payment Handled' out of all 'Request Payment';1.0;
+Number of Payment Handled;Number of 'Payment Handled' activities;10044;
+Percentage of Payment Handled out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Payment Handled' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Number of Payment Handled that are preceded by Declaration FINAL_APPROVED by SUPERVISOR;Number of 'Payment Handled' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;10042;
+Percentage of Payment Handled that are not dismissed;Percentage of 'Payment Handled' out of all cases where 'Declaration REJECTED by ADMINISTRATION' does not happen;0.96;
+Percentage of Payment Handled from all Declaration APPROVED by ADMINISTRATION;Percentage of 'Payment Handled' out of all 'Declaration APPROVED by ADMINISTRATION';0.99;
+Number of Payment Handled with amounts above 100 euros;Number of 'Payment Handled' activities > 100 where ma is the last value of case:Amount;2304;
+Percentage of Payment Handled by STAFF MEMBER;Percentage of 'Payment Handled' out of all cases;;
+Number of Payment Handled grouped by org:resource;Number of 'Payment Handled' activities grouped by the last value of org:resource;STAFF MEMBER:1;"{""STAFF MEMBER"":1,""SYSTEM"":10043}"
+Percentage of Payment Handled by worker;Percentage of 'Payment Handled' out of all cases;STAFF MEMBER:0.0;"{""STAFF MEMBER"":0.0021881838,""SYSTEM"":1.0}"
+Percentage of Payment Handled followed by Declaration SUBMITTED by EMPLOYEE;Percentage of 'Payment Handled' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Percentage of Payment Handled that are rejected;Percentage of 'Payment Handled' out of all 'Declaration REJECTED by ADMINISTRATION';0.75;
+Number of Payment Handled in relation to Declaration REJECTED by PRE_APPROVER;Number of 'Payment Handled' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;72;
+Percentage of Payment Handled;Percentage of 'Payment Handled' out of all cases;0.96;
+Number of times Payment Handled is performed;Number of 'Payment Handled' activities;10044;
+Percentage of Payment Handled done after Request Payment;Percentage of 'Payment Handled' out of all 'Request Payment';1.0;
+Average number of Payment Handled per case;the average of the number of times `ACTIVITY` == 'Payment Handled';0.96;
+Percentage of Payment Handled with an increment;Percentage of 'Payment Handled' out of all cases;1.0;
+Percentage of Payment Handled with appeal;Percentage of 'Payment Handled' out of all 'Declaration REJECTED by EMPLOYEE';0.76;
+Average number of Payment Handled that are followed by Declaration SAVED by EMPLOYEE;the average of the number of times `ACTIVITY` == 'Payment Handled' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Declaration SAVED by EMPLOYEE';0.01;
+Percentage of Payment Handled with penalty;Percentage of 'Payment Handled' out of all cases;;
+Total Payment Handled done by SYSTEM;Number of 'Payment Handled' activities == 'SYSTEM' where ma is the last value of org:resource;10043;
+Fraction of Payment Handled that are dismissed;Percentage of 'Payment Handled' out of all 'Declaration REJECTED by ADMINISTRATION';0.75;
+Total Payment Handled performed by ADMINISTRATION;Number of 'Payment Handled' activities == 'ADMINISTRATION' where ma is the last value of org:role;0;
+Ratio of Payment Handled over Declaration REJECTED by PRE_APPROVER;Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Occasions how often the Payment Handled is performed;Number of 'Payment Handled' activities;10044;
+The ratio of Payment Handled that are not eventually performed;Percentage of 'Payment Handled' out of all cases where 'Payment Handled' does not happen;0.96;
+Percentage of variants containing Payment Handled that also contain Declaration REJECTED by PRE_APPROVER;Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Frequency of Payment Handled in variants without Declaration REJECTED by PRE_APPROVER;Percentage of 'Payment Handled' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Percentage of Payment Handled cases that never experienced Declaration REJECTED by PRE_APPROVER;Percentage of 'Payment Handled' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Average performance time of variants containing Payment Handled versus variants containing Declaration REJECTED by PRE_APPROVER;the average of the number of times `ACTIVITY` == 'Payment Handled' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Declaration REJECTED by PRE_APPROVER';0.89;
+Number of Payment Handled occurring after multiple Declaration SUBMITTED by EMPLOYEE due to rejections;Number of 'Payment Handled' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;10043;
+Percentage of Payment Handled following Declaration REJECTED by PRE_APPROVER in the same case;Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Frequency of Payment Handled compared to Declaration REJECTED by PRE_APPROVER across all variants;Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Ratio of Payment Handled to Declaration REJECTED by PRE_APPROVER in domestic trip declarations;Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Percentage of Payment Handled where budget owner and supervisor are the same person;Percentage of 'Payment Handled' out of all cases;;
+Number of Payment Handled for travel costs actually paid versus reimbursed costs;Number of 'Payment Handled' activities > 0 where ma is the last value of case:Amount;10044;
+Percentage of Payment Handled within two months after the trip;Percentage of 'Payment Handled' out of all cases;0.96;
+Number of Payment Handled made per year;Number of 'Payment Handled' activities;10044;
+Average number of Payment Handled in a month;the average of the number of times `ACTIVITY` == 'Payment Handled';0.96;

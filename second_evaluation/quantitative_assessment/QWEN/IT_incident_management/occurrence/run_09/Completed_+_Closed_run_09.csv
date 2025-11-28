@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Completed + Closed out of all activity executions in the event log;Percentage of 'Completed + Closed' out of all cases;0.74;
+Frequency of Completed + Closed occurrences across all cases;Number of 'Completed + Closed' activities;5704;
+Percentage of process variants that end with Completed + Closed;Percentage of 'Completed + Closed' out of all cases;0.74;
+Frequency of Completed + Closed immediately following Completed + Resolved;Number of 'Completed + Closed' activities;5704;
+Percentage of Completed + Closed that occur without any preceding 'Accepted + Wait - User' activity;Percentage of 'Completed + Closed' out of all cases where 'Accepted + Wait - User' does not happen;0.74;
+Frequency of Completed + Closed in variants that include 'Completed + In Call';Number of 'Completed + Closed' activities for cases where activity 'Completed + In Call' occurs;141;
+Percentage of Completed + Closed among all terminal activities (i.e., compared to Completed + Resolved, Completed + Cancelled, and Completed + In Call);Percentage of 'Completed + Closed' out of all cases;0.74;
+Frequency of Completed + Closed in cases where 'Completed + In Call' appears earlier in the trace;Number of 'Completed + Closed' activities for cases where activity 'Completed + In Call' occurs;141;
+Percentage of variants containing 'Completed + In Call' that eventually lead to Completed + Closed;Percentage of 'Completed + Closed' out of all 'Completed + In Call';0.07;
+Percentage of Completed + Closed that follow a path including at least one queuing activity ('Queued + Awaiting Assignment');Percentage of 'Completed + Closed' out of all 'Queued + Awaiting Assignment';0.99;
+Frequency of Completed + Closed in traces that never contain 'Unmatched + Unmatched';Number of 'Completed + Closed' activities for cases where activity 'Unmatched + Unmatched' does not occur;5704;
+Percentage of Completed + Closed relative to the total number of 'Completed + Resolved' executions;Percentage of 'Completed + Closed' out of all 'Completed + Resolved';0.98;
+Frequency of direct transitions from Completed + Resolved to Completed + Closed across all variants;Number of 'Completed + Closed' activities;5704;
+Percentage of all cases that reach Completed + Closed within 7 days after 'Completed + In Call';Percentage of 'Completed + Closed' out of all 'Completed + In Call';0.07;
+Frequency of Completed + Closed grouped by country to identify regional closure patterns;Number of 'Completed + Closed' activities grouped by the last value of organization country;0:22;"{""0"":22,""SE"":61,""au"":22,""be"":420,""br"":269,""ca"":49,""cl"":3,""cn"":100,""de"":2,""fr"":297,""gb"":21,""in"":494,""jp"":15,""kr"":62,""my"":20,""nl"":59,""pe"":2,""pl"":1032,""ru"":38,""se"":2228,""th"":1,""tr"":1,""us"":486}"
+Percentage of Completed + Closed that occur in the most frequent variant (Accepted + In Progress → Accepted + In Progress → Completed + Resolved → Completed + Closed);Percentage of 'Completed + Closed' out of all cases;0.74;
+Frequency of Completed + Closed in variants with performance duration below the median cycle time;Number of 'Completed + Closed' activities;5704;
+Percentage of Completed + Closed that are part of traces also containing 'Accepted + Assigned';Percentage of 'Completed + Closed' out of all 'Accepted + Assigned';0.99;
+Frequency of Completed + Closed following any wait-state activity (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', 'Accepted + Wait - Implementation', or 'Accepted + Wait');Number of 'Completed + Closed' activities for cases where activity 'Accepted + Wait - User' occurs;2487;
+Frequency of Completed + Closed per year to assess temporal trends in incident closure;"ERROR: computing metric {'count': activity == 'Completed + Closed'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of SW-EIC Reject as the terminal activity in process variants;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Percentage of SW-EIC Reject that directly follows SW-Awaiting EIC Decision;Percentage of 'SW-EIC Reject' out of all 'SW-Awaiting EIC Decision';0.27;
+Number of SW-EIC Reject occurrences across all cases in the event log;Number of 'SW-EIC Reject' activities;34.0;
+Percentage of SW-EIC Reject relative to the total number of all activity executions in the log;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Frequency of SW-EIC Reject in variants that include SW-Reviewer Agreed at least once;Percentage of 'SW-EIC Reject' out of all 'SW-Reviewer Agreed';0.22;
+Percentage of SW-EIC Reject in variants that never include SW-Reviewer Agreed;Percentage of 'SW-EIC Reject' out of all cases where 'SW-Reviewer Agreed' does not happen;0.37;
+Ratio of SW-EIC Reject to SW-EIC Accept in the entire event log;Percentage of 'SW-EIC Reject' out of all 'SW-EIC Accept';0.0;
+Number of SW-EIC Reject events that occur without any prior reviewer agreement (i.e., no SW-Reviewer Agreed in the case trace);Number of 'SW-EIC Reject' activities for cases where activity 'SW-Reviewer Agreed' does not occur;34.0;
+Percentage of cases ending in SW-EIC Reject where the manuscript underwent initial plagiarism screening (Plagiarism Originality Report Completed occurred);Percentage of 'SW-EIC Reject' out of all 'Plagiarism Originality Report Completed';0.37;
+Frequency of SW-EIC Reject in variants that include more than three reviewer assignment attempts (e.g., multiple SW-AE Assign Reviewers or SW-Reviewer Declined);Percentage of 'SW-EIC Reject' out of all 'SW-AE Assign Reviewers';0.2;
+Percentage of SW-EIC Reject that occurs within 30 days of Original Manuscript Submission Confirmation;the average of the function base <= 30 where base is the number of times `ACTIVITY` == 'SW-EIC Reject' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Original Manuscript Submission Confirmation';1.0;
+Number of SW-EIC Reject decisions preceded by SW-AE Recommendation overdue;Number of 'SW-EIC Reject' activities for cases where activity 'SW-AE Recommendation overdue' occurs;1.0;
+Percentage of SW-EIC Reject in cases that passed the checklist phase (i.e., SW-Checklist Completed occurred before SW-Awaiting AE Assignment);Percentage of 'SW-EIC Reject' out of all 'SW-Checklist Completed';0.4;
+Percentage of SW-EIC Reject out of all final editorial decisions (e.g., SW-EIC Accept, SW-EIC Major Revision, SW-EIC Minor Revision, SW-EIC Reject & Resubmit);"ERROR: computing metric {'count': activity == 'SW-EIC Reject'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-EIC Accept', 'SW-EIC Major Revision', 'SW-EIC Minor Revision', 'SW-EIC Reject & Resubmit', 'SW-EIC Reject']""}""";;
+Percentage of SW-EIC Reject among all rejection-related outcomes (including SW-EIC Reject & Resubmit and Immediate Reject Decision from the Checklist);"ERROR: computing metric {'count': activity == 'SW-EIC Reject'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-EIC Reject', 'SW-EIC Reject & Resubmit', 'Immediate Reject Decision from the Checklist']""}""";;

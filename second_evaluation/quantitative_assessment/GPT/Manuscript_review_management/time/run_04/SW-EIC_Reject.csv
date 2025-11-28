@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-AE Assign Reviewers' to 'SW-EIC Reject';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Reject';76.11 days;
+Total time from 'Original Manuscript Submission Confirmation' to 'SW-EIC Reject';The sum of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-EIC Reject';917.59 days;
+Minimum time from 'SW-Reviewer Agreed' to 'SW-EIC Reject';The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';45.69 days;
+Average time for 'SW-EIC Reject' to occur after 'Reviewer Invitation Reminder 2';The average of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-EIC Reject';64.76 days;
+Total resolution time of 'SW-EIC Reject';The sum of the duration between activity SW-EIC Reject and the end of the case;48.42 minutes;
+Average waiting time to the 'SW-EIC Reject' after 'SW-Awaiting AE Recommendation';The average of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-EIC Reject';4.82 days;
+Minimum resolution time of 'SW-EIC Reject' from 'SW-Awaiting EIC Decision';The minimum of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Reject';8.33 minutes;
+Average time it takes 'SW-EIC Reject' after the execution of 'SW-Reviewer Selection is now due';The average of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-EIC Reject';;
+Total time it takes 'SW-EIC Reject' to be done after 'SW-Reviewer Declined';The sum of the duration between activity 'SW-Reviewer Declined' and activity 'SW-EIC Reject';500.33 days;
+Minimum time it takes 'SW-EIC Reject' after 'SW-Reviewer Unavailable';The minimum of the duration between activity 'SW-Reviewer Unavailable' and activity 'SW-EIC Reject';43.71 days;
+Average time for 'SW-EIC Reject' after 'SW-AE Assign Reviewers Challenge Paper';The average of the duration between activity 'SW-AE Assign Reviewers Challenge Paper' and activity 'SW-EIC Reject';95.01 days;
+Total time for 'SW-EIC Reject' after 'SW-Reviewer Selection is 3 days late';The sum of the duration between activity 'SW-Reviewer Selection is 3 days late' and activity 'SW-EIC Reject';;
+Average time between 'SW-EIC Reject' and 'SW-EIC Major Revision';The average of the duration between activity 'SW-EIC Reject' and activity 'SW-EIC Major Revision';;
+Total time between 'SW-EIC Reject' and 'SW-EIC Accept';The sum of the duration between activity 'SW-EIC Reject' and activity 'SW-EIC Accept';;
+Minimum time between 'SW-EIC Reject' and 'SW-AE Recommendation overdue';The minimum of the duration between activity 'SW-EIC Reject' and activity 'SW-AE Recommendation overdue';;

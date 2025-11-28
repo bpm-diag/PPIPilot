@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'SW-Reviewer Agreed' activities out of all review-related activities;Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers';0.98;
+Frequency of 'SW-Reviewer Agreed' following 'SW-AE Assign Reviewers';Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-AE Assign Reviewers' occurs;45;
+Percentage of manuscripts that proceed to 'SW-Awaiting EIC Decision' after a 'SW-Reviewer Agreed';Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Percentage of 'SW-Reviewer Agreed' activities that lead to 'SW-EIC Major Revision' decisions;Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Major Revision';0.93;
+Frequency of 'SW-Reviewer Agreed' in relation to 'SW-Reviewer Declined';Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-Reviewer Declined' occurs;29;
+Percentage of 'SW-Reviewer Agreed' activities by each performer;Percentage of 'SW-Reviewer Agreed' out of all cases;ADMIN:0.5;"{""ADMIN"":0.5,""AUTHOR"":0.5,""EIC"":0.0,""SYSTEM"":0.5}"
+Percentage of 'SW-Reviewer Agreed' out of all activities in the event log;Percentage of 'SW-Reviewer Agreed' out of all cases where '' does not happen;0.49;
+Frequency of 'SW-Reviewer Agreed' preceding 'Reviewer Invitation Reminder 1';Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'Reviewer Invitation Reminder 1' occurs;43;
+Percentage of manuscripts with at least one 'SW-Reviewer Agreed' that result in 'SW-EIC Accept';Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Accept';0.0;
+Number of 'SW-Reviewer Agreed' activities followed by 'SW-Awaiting AE Recommendation';Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-Awaiting AE Recommendation' occurs;55;
+Percentage of 'SW-Reviewer Agreed' activities that occur after 'SW-AE Assign Reviewers' and before 'SW-Awaiting EIC Decision';Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers';0.98;
+Frequency of 'SW-Reviewer Agreed' in the most common process variant;Frequency of activity 'SW-Reviewer Agreed' for cases where activity '' does not occur;46;
+Percentage of 'SW-Reviewer Agreed' activities in manuscripts that undergo major revisions compared to those that are accepted without major revisions;Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Major Revision';0.93;
+Percentage of 'SW-Reviewer Agreed' activities that are followed by a 'SW-EIC Major Revision' decision within the same review round;Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Major Revision';0.93;
+Frequency of 'SW-Reviewer Agreed' in manuscripts that exceed the average review time;Frequency of activity 'SW-Reviewer Agreed';46;
+Percentage of 'SW-Reviewer Agreed' activities that lead to a decision without requiring further reviewer agreement;Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Accept';0.0;
+Number of 'SW-Reviewer Agreed' activities per manuscript;Number of 'SW-Reviewer Agreed' activities;110;
+Number of 'SW-Reviewer Agreed' activities in relation to the total number of review rounds per manuscript;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Number of 'SW-Reviewer Agreed' activities per case:concept:name indicating the involvement in multiple review cycles;Number of 'SW-Reviewer Agreed' activities;110;
+Number of 'SW-Reviewer Agreed' activities grouped by month;Number of 'SW-Reviewer Agreed' activities;110;

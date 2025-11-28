@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Reviewer Selection is due in 1 week' followed by 'SW-AE Assign Reviewers';Frequency of activity 'SW-Reviewer Selection is due in 1 week' for cases where activity 'SW-AE Assign Reviewers' occurs;33.0;
+Percentage of 'SW-Reviewer Selection is due in 1 week' occurrences out of all review process activities;Percentage of 'SW-Reviewer Selection is due in 1 week' out of all cases;0.45;
+Number of 'SW-Reviewer Selection is due in 1 week' that lead to 'SW-Reviewer Agreed';Frequency of activity 'SW-Reviewer Selection is due in 1 week' for cases where activity 'SW-Reviewer Agreed' occurs;33.0;
+Percentage of 'SW-Reviewer Selection is due in 1 week' followed by 'Reviewer Invitation Reminder 1';Percentage of 'SW-Reviewer Selection is due in 1 week' out of all 'Reviewer Invitation Reminder 1';0.66;
+Frequency of 'SW-Reviewer Selection is due in 1 week' in relation to 'SW-Reviewer Selection is due in 3 days';Frequency of activity 'SW-Reviewer Selection is due in 1 week' for cases where activity 'SW-Reviewer Selection is due in 3 days' occurs;24.0;
+Percentage of 'SW-Reviewer Selection is due in 1 week' that are not followed by 'SW-Reviewer Declined';Percentage of 'SW-Reviewer Selection is due in 1 week' out of all cases where 'SW-Reviewer Declined' does not happen;0.45;
+Percentage of 'SW-Reviewer Selection is due in 1 week' followed by any activity by 'SYSTEM';Percentage of 'SW-Reviewer Selection is due in 1 week' out of all cases;0.45;
+Frequency of 'SW-Reviewer Selection is due in 1 week' in manuscripts leading to 'SW-EIC Major Revision';Frequency of activity 'SW-Reviewer Selection is due in 1 week' for cases where activity 'SW-EIC Major Revision' occurs;8.0;
+Percentage of 'SW-Reviewer Selection is due in 1 week' in manuscripts that were accepted ('RW-EIC Accept') vs. those that were rejected ('SW-EIC Reject & Resubmit', 'SW-EIC Reject');Percentage of 'SW-Reviewer Selection is due in 1 week' out of all 'RW-EIC Accept';0.5;
+Number of 'SW-Reviewer Selection is due in 1 week' preceding 'SW-Reviewer Agreed' within the same variant;Frequency of activity 'SW-Reviewer Selection is due in 1 week' for cases where activity 'SW-Reviewer Agreed' occurs;33.0;
+Percentage of 'SW-Reviewer Selection is due in 1 week' in the total number of activities before 'SW-Awaiting EIC Decision';Percentage of 'SW-Reviewer Selection is due in 1 week' out of all 'SW-Awaiting EIC Decision';0.68;
+Frequency of 'SW-Reviewer Selection is due in 1 week' in relation to the total number of review cycles per manuscript;Frequency of activity 'SW-Reviewer Selection is due in 1 week';42.0;
+Percentage of 'SW-Reviewer Selection is due in 1 week' followed by 'SW-Reviewer Unavailable' or 'SW-Reviewer No Response';Percentage of 'SW-Reviewer Selection is due in 1 week' out of all 'SW-Reviewer Unavailable';0.75;
+Number of 'SW-Reviewer Selection is due in 1 week' in manuscripts that undergo major revisions ('SW-EIC Major Revision', 'RW-EIC Major Revision');Frequency of activity 'SW-Reviewer Selection is due in 1 week' for cases where activity 'SW-EIC Major Revision' occurs;8.0;
+Number of 'SW-Reviewer Selection is due in 1 week' activities per case;Number of 'SW-Reviewer Selection is due in 1 week' activities;43.0;

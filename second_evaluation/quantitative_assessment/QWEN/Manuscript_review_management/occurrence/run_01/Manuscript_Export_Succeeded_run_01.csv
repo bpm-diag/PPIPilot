@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of Manuscript Export Succeeded out of all activity executions in the event log;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Frequency of Manuscript Export Succeeded occurrences across all cases;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of variants in which Manuscript Export Succeeded appears at least once;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of times Manuscript Export Succeeded is directly followed by Plagiarism Originality Report Completed;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that occur before SW-Reviewer Agreed in the same case;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Frequency of Manuscript Export Succeeded appearing more than once in the same case;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that are followed by any revision-related activity (e.g., SW–Major Revision due in 1 week, RW-EIC Major Revision);Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of Manuscript Export Succeeded events that occur after a resubmission (e.g., following Revised Manuscript Submission Confirmation or Resubmission Manuscript Submission Confirmation);Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that occur in cases eventually leading to SW-EIC Accept or RW-EIC Accept;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Frequency of Manuscript Export Succeeded in cases where SW-Reviewer Agreed occurs at least once;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that are not followed by any reviewer assignment activity (e.g., SW-AE Assign Reviewers, RW-AE Assign Reviewers);Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Ratio of Manuscript Export Succeeded to Original Manuscript Submission Confirmation;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that occur within 24 hours of Original Manuscript Submission Confirmation;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of variants where Manuscript Export Succeeded appears multiple times;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that precede a final decision (e.g., SW-EIC Reject, SW-EIC Accept, RW-EIC Accept) without any intervening revision cycle;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;

@@ -1,0 +1,31 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Assignment that are followed by SW-Initial Reviewer Selection;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Initial Reviewer Selection';0.6;
+Number of SW-Awaiting AE Assignment;Number of 'SW-Awaiting AE Assignment' activities;58;
+Percentage of SW-Awaiting AE Assignment out of all SW-Checklist Completed;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Number of SW-Awaiting AE Assignment that are preceded by SW-Checklist Completed;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Checklist Completed' occurs;58;
+Percentage of SW-Awaiting AE Assignment that are not dismissed;Percentage of 'SW-Awaiting AE Assignment' out of all cases where 'SW-EIC Reject' does not happen;0.61;
+Percentage of SW-Awaiting AE Assignment from all SW-Awaiting Checklist Completion;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Awaiting Checklist Completion';0.67;
+Number of SW-Awaiting AE Assignment grouped by sender;Number of 'SW-Awaiting AE Assignment' activities grouped by the last value of sender;catarci@diag.uniroma1.it:2;"{""catarci@diag.uniroma1.it"":2,""clcabanban@ched.gov.ph"":0,""gleb@intentionalinsights.org"":0,""marrella@diag.uniroma1.it"":2,""onbehalfof@manuscriptcentral.com"":54}"
+Percentage of SW-Awaiting AE Assignment that are rejected;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Reject';0.79;
+Ratio of SW-Awaiting AE Assignment over SW-EIC Reject;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Reject';0.79;
+Frequency of SW-Awaiting AE Assignment occurring in variants with SW-EIC Reject;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Reject';0.79;
+Percentage of SW-Awaiting AE Assignment leading to SW-Initial Reviewer Selection;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Initial Reviewer Selection';0.6;
+Number of SW-Awaiting AE Assignment in variants with immediate rejection after checklist;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'Immediate Reject Decision from the Checklist' occurs;0;
+Percentage of SW-Awaiting AE Assignment followed by SW-AE Assign Reviewers;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-AE Assign Reviewers';0.5;
+Frequency of SW-Awaiting AE Assignment in complex review process variants;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-AE Assign Reviewers';0.5;
+Percentage of SW-Awaiting AE Assignment that transition to reviewer assignment phase;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-AE Assign Reviewers';0.5;
+Number of SW-Awaiting AE Assignment preceding major revision decisions;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-EIC Major Revision' occurs;4;
+Ratio of SW-Awaiting AE Assignment to SW-Awaiting EIC Decision;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Awaiting EIC Decision';0.59;
+Percentage of SW-Awaiting AE Assignment in rigorous assessment pathways;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Frequency of SW-Awaiting AE Assignment in systematic quality assurance procedures;Percentage of 'SW-Awaiting AE Assignment' out of all 'Plagiarism Originality Report Completed';0.63;
+Percentage of SW-Awaiting AE Assignment that impact reviewer agreement rates;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Agreed';0.52;
+Number of SW-Awaiting AE Assignment in manuscripts requiring multiple reviewer invitations;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'Reviewer Invitation Reminder 1' occurs;22;
+Percentage of SW-Awaiting AE Assignment leading to successful reviewer engagement;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Agreed';0.52;
+Frequency of SW-Awaiting AE Assignment in pathways with reviewer declination patterns;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Declined';0.55;
+Ratio of SW-Awaiting AE Assignment to SW-Reviewer Agreed across variants;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Agreed';0.52;
+Percentage of SW-Awaiting AE Assignment in scientific paper evaluation workflows;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Number of SW-Awaiting AE Assignment affecting manuscript assessment methodologies;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-EIC Major Revision' occurs;4;
+Number of SW-Awaiting AE Assignment made per year;Number of 'SW-Awaiting AE Assignment' activities;58;
+Average number of SW-Awaiting AE Assignment in a month;the average of the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment';0.62;
+Percentage of SW-Awaiting AE Assignment by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Assignment'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;
+Total SW-Awaiting AE Assignment performed by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Assignment'"", 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;

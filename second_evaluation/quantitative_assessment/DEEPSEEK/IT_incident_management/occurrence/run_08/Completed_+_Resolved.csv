@@ -1,0 +1,26 @@
+Name;Metric;Value;Agrupation
+Percentage of cases that contain Completed + Resolved;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of Completed + Resolved in the event log;Number of 'Completed + Resolved' activities;6108;
+Number of Completed + Resolved that are preceded by Accepted + In Progress;Number of 'Completed + Resolved' activities for cases where activity 'Accepted + In Progress' occurs;6087;
+Percentage of Completed + Resolved that occur in variants with Accepted + Wait - User;Percentage of 'Completed + Resolved' out of all 'Accepted + Wait - User';0.98;
+Percentage of Completed + Resolved from all activities with Medium impact;Percentage of 'Completed + Resolved' out of all cases;0.81;
+Number of Completed + Resolved grouped by country;Number of 'Completed + Resolved' activities grouped by the last value of organization country;0:33;"{""0"":33,""SE"":62,""au"":23,""be"":435,""br"":278,""ca"":52,""cl"":3,""cn"":106,""de"":3,""fr"":314,""gb"":21,""in"":541,""jp"":16,""kr"":67,""my"":20,""nl"":66,""pe"":2,""pl"":1104,""ru"":38,""se"":2414,""th"":1,""tr"":1,""us"":508}"
+Percentage of Completed + Resolved by resource Frederic;Percentage of 'Completed + Resolved' out of all cases;;
+Percentage of Completed + Resolved followed by Completed + Closed;Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Percentage of cases where Completed + Resolved is the final activity before case closure;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Average number of Completed + Resolved per case;the average of the number of times `ACTIVITY` == 'Completed + Resolved';0.81;
+Percentage of Completed + Resolved in variants with multiple Queued + Awaiting Assignment activities;Percentage of 'Completed + Resolved' out of all 'Queued + Awaiting Assignment';1.0;
+Frequency of Completed + Resolved in high-performance variants (>1000000 performance units);Number of 'Completed + Resolved' activities;6108;
+Ratio of Completed + Resolved over Completed + In Call;the average of the number of times `ACTIVITY` == 'Completed + Resolved' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Completed + In Call';0.08;
+Percentage of Completed + Resolved that occur after Accepted + Wait - Implementation;Percentage of 'Completed + Resolved' out of all 'Accepted + Wait - Implementation';0.98;
+Number of Completed + Resolved in variants with frequency greater than 100;Number of 'Completed + Resolved' activities;6108;
+Percentage of Completed + Resolved in problem management processes;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of Completed + Resolved by organization V30;Number of 'Completed + Resolved' activities == 'V30' where ma is the last value of organization involved;;
+Percentage of Completed + Resolved that are immediately followed by Completed + Closed;Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Average performance time of variants containing Completed + Resolved;the average of the number of times `ACTIVITY` == 'Completed + Resolved';0.81;
+Percentage of Completed + Resolved in variants with Accepted + Assigned;Percentage of 'Completed + Resolved' out of all 'Accepted + Assigned';1.0;
+Number of Completed + Resolved preceded by multiple Accepted + In Progress activities;Number of 'Completed + Resolved' activities for cases where activity 'Accepted + In Progress' occurs;6087;
+Ratio of Completed + Resolved to Queued + Awaiting Assignment in each case;the average of the number of times `ACTIVITY` == 'Completed + Resolved' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Queued + Awaiting Assignment';1.09;
+Percentage of Completed + Resolved that occur in variants with long cycle times (>500000 performance units);Percentage of 'Completed + Resolved' out of all cases;0.75;
+Percentage of Completed + Resolved out of all completion activities;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Number of Completed + Resolved made per year;Number of 'Completed + Resolved' activities;6108;

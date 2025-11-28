@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time for Accepted + Wait - Customer;The average of the duration between activity Accepted + Wait - Customer and the end of the case;16.29 days;
+Total time for Accepted + Wait - Customer;The sum of the duration between activity Accepted + Wait - Customer and the end of the case;1400.53 days;
+Minimum time for Accepted + Wait - Customer;The minimum of the duration between activity Accepted + Wait - Customer and the end of the case;9.00 hours;
+Time of Accepted + Wait - Customer;The average of the duration between activity Accepted + Wait - Customer and the end of the case;16.29 days;
+Accepted + Wait - Customer Cycle Time;The average of the duration between activity Accepted + Wait - Customer and the end of the case;16.29 days;
+Average time from Accepted + In Progress to Accepted + Wait - Customer;The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait - Customer';8.60 days;
+Total time from Accepted + In Progress to Accepted + Wait - Customer;The sum of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait - Customer';739.43 days;
+Minimum time from Accepted + In Progress to Accepted + Wait - Customer;The minimum of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait - Customer';7.00 seconds;
+Average time between Accepted + Wait - Customer and Completed + Resolved;The average of the duration between activity 'Accepted + Wait - Customer' and activity 'Completed + Resolved';11.11 days;
+Total time between Accepted + Wait - Customer and Completed + Resolved;The sum of the duration between activity 'Accepted + Wait - Customer' and activity 'Completed + Resolved';955.89 days;
+Minimum time between Accepted + Wait - Customer and Completed + Resolved;The minimum of the duration between activity 'Accepted + Wait - Customer' and activity 'Completed + Resolved';1.27 minutes;
+Average time for Accepted + Wait - Customer compared to Accepted + Wait - User;The average of the duration between activity 'Accepted + Wait - Customer' and activity 'Accepted + Wait - User';6.91 days;
+Average time for Accepted + Wait - Customer compared to Accepted + Wait - Vendor;The average of the duration between activity 'Accepted + Wait - Customer' and activity 'Accepted + Wait - Vendor';3.65 days;
+Average time for Accepted + Wait - Customer compared to Accepted + Wait - Implementation;The average of the duration between activity 'Accepted + Wait - Customer' and activity 'Accepted + Wait - Implementation';7.09 days;
+Average time for Accepted + Wait - Customer in variants that include Completed + In Call versus variants that do not include Completed + In Call;The average of the duration between activity 'Accepted + Wait - Customer' and the end of case where activity 'Completed + In Call occurs;10.72 days;
+Total time for Accepted + Wait - Customer in cases where Completed + In Call occurs before Accepted + Wait - Customer;The sum of the duration between activity 'Accepted + Wait - Customer' and the end of case where activity 'Completed + In Call occurs;10.72 days;
+Minimum time for Accepted + Wait - Customer in cases where Completed + In Call occurs after Accepted + Wait - Customer;The minimum of the duration between activity Accepted + Wait - Customer and the end of the case;10.72 days;
+Elapsed time between Queued + Awaiting Assignment and Accepted + Wait - Customer;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait - Customer';9.76 days;
+Time from Accepted + Assigned to Accepted + Wait - Customer;The average of the duration between activity 'Accepted + Assigned' and activity 'Accepted + Wait - Customer';11.87 days;
+Average time it takes Accepted + Wait - Customer to be followed by Completed + Resolved in variants containing Completed + In Call;The average of the duration between activity 'Accepted + Wait - Customer' and activity 'Completed + Resolved';10.72 days;

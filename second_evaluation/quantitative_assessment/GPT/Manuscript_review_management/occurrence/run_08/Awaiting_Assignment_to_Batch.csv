@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of \Awaiting Assignment to Batch\ compared to \SW-Reviewer Agreed\;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Reviewer Agreed';0.39;
+Percentage of manuscripts that reach \Awaiting Assignment to Batch\ after \SW-EIC Accept\;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Accept';1.0;
+Number of times \Awaiting Assignment to Batch\ occurs after \First Look-Your updates are overdue\;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look-Your updates are overdue' occurs;10.0;
+Percentage of \Awaiting Assignment to Batch\ occurrences out of all activities in the review process;Percentage of 'Awaiting Assignment to Batch' out of all cases where '' does not happen;0.28;
+Frequency of \Awaiting Assignment to Batch\ as a concluding activity in a variant;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Manuscript Export Succeeded' occurs;26.0;
+Ratio of \Awaiting Assignment to Batch\ occurrences to \Manuscript Export Succeeded\ occurrences;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Number of \Awaiting Assignment to Batch\ occurrences preceded by \First Look Manuscript Submission Confirmation\;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look Manuscript Submission Confirmation' occurs;24.0;
+Percentage of \Awaiting Assignment to Batch\ occurrences that lead to \Manuscript Export Succeeded\;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Frequency of \Awaiting Assignment to Batch\ in relation to the total number of cases in the event log;Percentage of 'Awaiting Assignment to Batch' out of all cases where '' does not happen;0.28;
+Percentage of cases involving \SW-Reviewer Agreed\ that eventually reach \Awaiting Assignment to Batch\;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Reviewer Agreed';0.39;
+Number of variants that include \Awaiting Assignment to Batch\ as part of the process;Number of 'Awaiting Assignment to Batch' activities for cases where activity '' does not occur;26.0;
+Percentage of \Awaiting Assignment to Batch\ occurrences following \First Look-Please submit updates\;Percentage of 'Awaiting Assignment to Batch' out of all 'First Look-Please submit updates';1.0;
+Ratio of \Awaiting Assignment to Batch\ to \SW-AE Assign Reviewers\ in terms of frequency;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-AE Assign Reviewers';0.41;
+Frequency of \Awaiting Assignment to Batch\ as the final activity before manuscript acceptance;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Manuscript Export Succeeded' occurs;26.0;
+Percentage of \Awaiting Assignment to Batch\ occurrences that are followed by a successful manuscript export;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;

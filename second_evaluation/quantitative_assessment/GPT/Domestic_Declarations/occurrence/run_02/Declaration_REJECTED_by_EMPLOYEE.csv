@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by EMPLOYEE' compared to 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Number of 'Declaration REJECTED by EMPLOYEE' that are followed by 'Declaration SUBMITTED by EMPLOYEE';Number of 'Declaration REJECTED by EMPLOYEE' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;1365;
+Percentage of 'Declaration REJECTED by EMPLOYEE' with amounts above 100 euros;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.16;
+Frequency of 'Declaration REJECTED by EMPLOYEE' in relation to 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Number of 'Declaration REJECTED by EMPLOYEE' per department to identify departments with higher rejection rates;Number of 'Declaration REJECTED by EMPLOYEE' activities grouped by the last value of org:role;ADMINISTRATION:0;"{""ADMINISTRATION"":0,""EMPLOYEE"":317,""MISSING"":1,""SUPERVISOR"":1,""UNDEFINED"":1046}"
+Percentage of 'Declaration REJECTED by EMPLOYEE' that lead to a 'Request Payment';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Request Payment';0.09;
+Frequency of 'Declaration REJECTED by EMPLOYEE' followed by 'Declaration APPROVED by ADMINISTRATION';Frequency of activity 'Declaration REJECTED by EMPLOYEE' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;880;
+Number of 'Declaration REJECTED by EMPLOYEE' cases that result in no further action;Number of 'Declaration REJECTED by EMPLOYEE' activities for cases where activity 'No further action' occurs;;
+Frequency of 'Declaration REJECTED by EMPLOYEE' before and after 'Declaration APPROVED by PRE_APPROVER';Frequency of activity 'Declaration REJECTED by EMPLOYEE' for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;80;
+Percentage of 'Declaration REJECTED by EMPLOYEE' that are not followed by any further activity;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'No further activity';;
+Number of 'Declaration REJECTED by EMPLOYEE' that are preceded by 'Declaration REJECTED by ADMINISTRATION';Number of 'Declaration REJECTED by EMPLOYEE' activities for cases where activity 'Declaration REJECTED by ADMINISTRATION' occurs;974;
+Percentage of 'Declaration REJECTED by EMPLOYEE' out of all rejections;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by EMPLOYEE';1.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' cases that are eventually approved after re-submission;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Declaration REJECTED by EMPLOYEE';0.76;
+Percentage decrease in 'Declaration REJECTED by EMPLOYEE' after implementing process improvements;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Percentage of 'Declaration REJECTED by EMPLOYEE' by month to identify peak rejection periods;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;

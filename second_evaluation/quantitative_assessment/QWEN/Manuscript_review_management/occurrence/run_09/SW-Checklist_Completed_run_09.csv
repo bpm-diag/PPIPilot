@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Checklist Completed out of all activity executions in the event log;Percentage of 'SW-Checklist Completed' out of all cases;0.88;
+Number of times SW-Checklist Completed occurs across all cases;Number of 'SW-Checklist Completed' activities;87.0;
+Percentage of variants in which SW-Checklist Completed appears;Percentage of 'SW-Checklist Completed' out of all cases;0.88;
+Percentage of SW-Checklist Completed that are immediately followed by SW-Awaiting AE Assignment;Percentage of 'SW-Checklist Completed' out of all 'SW-Awaiting AE Assignment';1.0;
+Frequency of SW-Checklist Completed occurring after Plagiarism Originality Report Completed;Percentage of 'SW-Checklist Completed' out of all 'Plagiarism Originality Report Completed';0.91;
+Percentage of SW-Checklist Completed that occur without a preceding SW-Checklist Completion is due in three days;Percentage of 'SW-Checklist Completed' out of all cases where 'SW-Checklist Completion is due in three days' does not happen;0.88;
+Ratio of SW-Checklist Completed to SW-Awaiting Checklist Completion occurrences;Percentage of 'SW-Checklist Completed' out of all 'SW-Awaiting Checklist Completion';0.96;
+Number of SW-Checklist Completed activities that lead to eventual rejection (e.g., followed by SW-EIC Reject or SW-EIC Reject & Resubmit in the same variant);Number of 'SW-Checklist Completed' activities for cases where activity 'SW-EIC Reject' occurs;33.0;
+Percentage of SW-Checklist Completed that are part of variants ending in acceptance (e.g., followed by RW-EIC Accept or SW-EIC Accept);Percentage of 'SW-Checklist Completed' out of all 'SW-EIC Accept';1.0;
+Frequency of SW-Checklist Completed appearing in variants with more than one revision cycle;Percentage of 'SW-Checklist Completed' out of all cases;0.88;
+Percentage of SW-Checklist Completed executed within 24 hours of Original Manuscript Submission Confirmation;Percentage of 'SW-Checklist Completed' out of all 'Original Manuscript Submission Confirmation';0.95;
+Number of variants where SW-Checklist Completed is directly preceded by Co-Author Account Created During Manuscript Submission;Number of 'SW-Checklist Completed' activities for cases where activity 'Co-Author Account Created During Manuscript Submission' occurs;52.0;
+Percentage of SW-Checklist Completed that occur in cases also containing Immediate Reject Decision from the Checklist;Percentage of 'SW-Checklist Completed' out of all 'Immediate Reject Decision from the Checklist';0.0;
+Frequency of SW-Checklist Completed relative to Manuscript Export Succeeded in the same case;Percentage of 'SW-Checklist Completed' out of all 'Manuscript Export Succeeded';0.92;
+Percentage of SW-Checklist Completed that are not followed by any reviewer-related activity (e.g., SW-AE Assign Reviewers, SW-Reviewer Agreed) within 30 days;Percentage of 'SW-Checklist Completed' out of all cases where 'SW-AE Assign Reviewers' does not happen;0.88;

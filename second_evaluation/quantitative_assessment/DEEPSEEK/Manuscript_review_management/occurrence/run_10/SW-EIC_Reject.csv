@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-EIC Reject cases out of all cases;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Number of SW-EIC Reject activities;Number of 'SW-EIC Reject' activities;34.0;
+Percentage of SW-EIC Reject that occur after SW-Awaiting AE Assignment;Percentage of 'SW-EIC Reject' out of all 'SW-Awaiting AE Assignment';0.47;
+Number of SW-EIC Reject that are preceded by SW-Checklist Completed;Number of 'SW-EIC Reject' activities for cases where activity 'SW-Checklist Completed' occurs;33.0;
+Percentage of SW-EIC Reject cases that follow SW-Awaiting Checklist Completion;Percentage of 'SW-EIC Reject' out of all 'SW-Awaiting Checklist Completion';0.39;
+Frequency of SW-EIC Reject in variants with SW-Checklist Completion is due in three days;Percentage of 'SW-EIC Reject' out of all 'SW-Checklist Completion is due in three days';0.29;
+Percentage of SW-EIC Reject compared to SW-EIC Major Revision;Percentage of 'SW-EIC Reject' out of all 'SW-EIC Major Revision';0.0;
+Number of SW-EIC Reject versus SW-EIC Accept;Number of 'SW-EIC Reject' activities for cases where activity 'SW-EIC Accept' occurs;0.0;
+Percentage of SW-EIC Reject after immediate checklist completion;Percentage of 'SW-EIC Reject' out of all 'SW-Checklist Completed';0.4;
+Frequency of SW-EIC Reject in short review processes;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Ratio of SW-EIC Reject to SW-EIC Minor Revision;Number of 'SW-EIC Reject' activities for cases where activity 'SW-EIC Minor Revision' occurs;0.0;
+Percentage of SW-EIC Reject in manuscripts without plagiarism threshold exceedance;Percentage of 'SW-EIC Reject' out of all cases where 'Plagiarism Percent Match Threshold Exceeded' does not happen;0.37;
+Number of SW-EIC Reject occurring before any reviewer assignment;Number of 'SW-EIC Reject' activities for cases where activity 'SW-AE Assign Reviewers' does not occur;34.0;
+Percentage of SW-EIC Reject compared to all EIC decision activities;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Frequency of SW-EIC Reject in variants with minimal reviewer interaction;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Percentage of SW-EIC Reject following only checklist activities;Percentage of 'SW-EIC Reject' out of all 'SW-Checklist Completed';0.4;
+Number of SW-EIC Reject relative to Original Manuscript Submission Confirmation;Number of 'SW-EIC Reject' activities for cases where activity 'Original Manuscript Submission Confirmation' occurs;33.0;
+Percentage of SW-EIC Reject in early process termination variants;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Frequency of SW-EIC Reject versus manuscript withdrawal;Percentage of 'SW-EIC Reject' out of all 'Manuscript is Withdrawn';0.0;
+Percentage of SW-EIC Reject in cases with no reviewer agreement;Percentage of 'SW-EIC Reject' out of all cases where 'SW-Reviewer Agreed' does not happen;0.37;

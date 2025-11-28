@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration SAVED by EMPLOYEE' before 'Declaration SUBMITTED by EMPLOYEE';Frequency of activity 'Declaration SAVED by EMPLOYEE' for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;0;
+Percentage of 'Declaration SAVED by EMPLOYEE' out of all activities;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;0.01;
+Number of 'Declaration SAVED by EMPLOYEE' that are followed by 'Declaration SUBMITTED by EMPLOYEE';Frequency of activity 'Declaration SAVED by EMPLOYEE' for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;0;
+Percentage of 'Declaration SAVED by EMPLOYEE' from all 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Frequency of 'Declaration SAVED by EMPLOYEE' in relation to 'Declaration REJECTED by PRE_APPROVER';Frequency of activity 'Declaration SAVED by EMPLOYEE' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0;
+Number of 'Declaration SAVED by EMPLOYEE' grouped by 'org:resource';Frequency of activity '{}' grouped by the last value of org:resource;STAFF MEMBER:134;"{""STAFF MEMBER"":134,""SYSTEM"":1}"
+Percentage of 'Declaration SAVED by EMPLOYEE' by worker;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;STAFF MEMBER:0.29;"{""STAFF MEMBER"":0.2932166302,""SYSTEM"":0.0000995718}"
+Percentage of 'Declaration SAVED by EMPLOYEE' that lead to a 'Request Payment';Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Request Payment';0.0;
+Total 'Declaration SAVED by EMPLOYEE' performed by 'STAFF MEMBER';Frequency of activity 'Declaration SAVED by EMPLOYEE';;
+Ratio of 'Declaration SAVED by EMPLOYEE' over 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Frequency of 'Declaration SAVED by EMPLOYEE' in cases where the next activity is 'Declaration REJECTED by PRE_APPROVER';Frequency of activity 'Declaration SAVED by EMPLOYEE' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0;
+Number of 'Declaration SAVED by EMPLOYEE' in relation to 'Declaration APPROVED by ADMINISTRATION';Frequency of activity 'Declaration SAVED by EMPLOYEE' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;0;
+Occasions how often the 'Declaration SAVED by EMPLOYEE' is performed before any approval activity;Number of 'Declaration SAVED by EMPLOYEE' activities;135;
+Percentage of 'Declaration SAVED by EMPLOYEE' in cases leading to 'Payment Handled' without 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.01;
+Number of 'Declaration SAVED by EMPLOYEE' made per year;Number of 'Declaration SAVED by EMPLOYEE' activities;135;

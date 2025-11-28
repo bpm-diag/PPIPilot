@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Awaiting AE Recommendation' followed by 'SW-EIC Major Revision';Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'SW-EIC Major Revision' occurs;6.0;
+Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Number of 'SW-Awaiting AE Recommendation' that are preceded by 'Reviewer Invitation Reminder 2';Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'Reviewer Invitation Reminder 2' occurs;22.0;
+Percentage of 'SW-Awaiting AE Recommendation' from all 'SW-AE Assign Reviewers';Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-AE Assign Reviewers';0.5;
+Frequency of 'SW-Awaiting AE Recommendation' in relation to 'SW-Reviewer Declined';Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'SW-Reviewer Declined' occurs;17.0;
+Percentage of 'SW-Awaiting AE Recommendation' followed by 'SW-EIC Accept';Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Accept';1.0;
+Frequency of 'SW-Awaiting AE Recommendation' in the most common process variant;Frequency of activity 'SW-Awaiting AE Recommendation';36.0;
+Percentage of 'SW-Awaiting AE Recommendation' that lead to a manuscript revision ('SW-EIC Major Revision', 'SW-EIC Minor Revision');Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Major Revision';0.4;
+Percentage of 'SW-Awaiting AE Recommendation' that are followed by 'Manuscript Export Succeeded';Percentage of 'SW-Awaiting AE Recommendation' out of all 'Manuscript Export Succeeded';0.4;
+Frequency of 'SW-Awaiting AE Recommendation' in cases where 'Plagiarism Originality Report Completed' occurs;Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'Plagiarism Originality Report Completed' occurs;35.0;
+Percentage of 'SW-Awaiting AE Recommendation' in relation to all activities in the review process;Percentage of 'SW-Awaiting AE Recommendation' out of all 'all activities in the review process';;
+Number of 'SW-Awaiting AE Recommendation' that are followed by 'First Look-Please submit updates';Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'First Look-Please submit updates' occurs;12.0;
+Percentage of 'SW-Awaiting AE Recommendation' followed by 'Awaiting Assignment to Batch';Percentage of 'SW-Awaiting AE Recommendation' out of all 'Awaiting Assignment to Batch';0.46;
+Frequency of 'SW-Awaiting AE Recommendation' before 'SW-Reviewer Agreed';Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'SW-Reviewer Agreed' occurs;24.0;
+Percentage of 'SW-Awaiting AE Recommendation' in manuscripts that exceed the Plagiarism Percent Match Threshold;Percentage of 'SW-Awaiting AE Recommendation' out of all 'Plagiarism Percent Match Threshold Exceeded';0.45;
+Number of 'SW-Awaiting AE Recommendation' followed by 'SW-EIC Reject';Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-EIC Reject' occurs;11.0;
+Percentage of 'SW-Awaiting AE Recommendation' in the variant leading to 'RW-EIC Accept';Percentage of 'SW-Awaiting AE Recommendation' out of all 'RW-EIC Accept';0.41;
+Percentage of 'SW-Awaiting AE Recommendation' by month;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Number of times 'SW-Awaiting AE Recommendation' is performed per year;Number of 'SW-Awaiting AE Recommendation' activities;37.0;
+Number of 'SW-Awaiting AE Recommendation' grouped by 'case:concept:name';"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'aggregation': 'total', 'group_by': 'concept:name'}""";;

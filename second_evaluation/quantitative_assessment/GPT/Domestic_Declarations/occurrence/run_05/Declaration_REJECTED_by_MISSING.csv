@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by MISSING' compared to 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Frequency of 'Declaration REJECTED by MISSING' followed by 'Request Payment';Frequency of activity 'Declaration REJECTED by MISSING' for cases where activity 'Request Payment' occurs;60.0;
+Number of 'Declaration REJECTED by MISSING' that lead to a 'Payment Handled';Frequency of activity 'Declaration REJECTED by MISSING' for cases where activity 'Payment Handled' occurs;57.0;
+Percentage of 'Declaration REJECTED by MISSING' by 'STAFF MEMBER';Percentage of 'Declaration REJECTED by MISSING' out of all cases;;
+Frequency of 'Declaration REJECTED by MISSING' in cases with amounts above 100 euros;Frequency of activity 'Declaration REJECTED by MISSING';32.0;
+Percentage of 'Declaration REJECTED by MISSING' that are not followed by 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration REJECTED by MISSING' out of all cases where 'Declaration APPROVED by ADMINISTRATION' does not happen;0.01;
+Frequency of 'Declaration REJECTED by MISSING' in relation to 'Declaration REJECTED by PRE_APPROVER';Frequency of activity 'Declaration REJECTED by MISSING' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;4.0;
+Percentage of 'Declaration REJECTED by MISSING' followed by 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Number of 'Declaration REJECTED by MISSING' grouped by 'case:BudgetNumber';Frequency of activity 'Declaration REJECTED by MISSING';87.0;
+Frequency of 'Declaration REJECTED by MISSING' in the most common process variant;Frequency of activity 'Declaration REJECTED by MISSING';87.0;
+Percentage of 'Declaration REJECTED by MISSING' in cases that are eventually paid;Percentage of 'Declaration REJECTED by MISSING' out of all 'Payment Handled';0.01;
+Number of times 'Declaration REJECTED by MISSING' is performed by 'SYSTEM';Frequency of activity 'Declaration REJECTED by MISSING';57.0;
+Percentage of 'Declaration REJECTED by MISSING' that lead to a new submission within 30 days;Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Percentage of 'Declaration REJECTED by MISSING' out of all rejections;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration REJECTED by MISSING';1.0;
+Percentage of 'Declaration REJECTED by MISSING' in relation to total declarations processed;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Percentage of 'Declaration REJECTED by MISSING' with an increment in 'case:Amount';Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Percentage of 'Declaration REJECTED by MISSING' occurrences per month;Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Number of 'Declaration REJECTED by MISSING' made per year;Number of 'Declaration REJECTED by MISSING' activities;91.0;

@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-AE Assign Reviewers' compared to 'Reviewer Invitation Reminder 1';Percentage of 'SW-AE Assign Reviewers' out of all 'Reviewer Invitation Reminder 1';0.89;
+Percentage of manuscripts that proceed to 'SW-Reviewer Agreed' after 'SW-AE Assign Reviewers';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Number of 'SW-AE Assign Reviewers' activities per case;Number of 'SW-AE Assign Reviewers' activities;143;
+Frequency of 'SW-AE Assign Reviewers' followed by 'SW-Reviewer Declined';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Declined';0.97;
+Percentage of 'SW-AE Assign Reviewers' out of all review-related activities;Percentage of 'SW-AE Assign Reviewers' out of all cases where 'SW-AE Assign Reviewers' does not happen;0.49;
+Average number of 'SW-AE Assign Reviewers' before a 'SW-EIC Major Revision' decision;the average of the number of times `ACTIVITY` == 'SW-AE Assign Reviewers' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-EIC Major Revision';3.4;
+Percentage of cases with 'SW-AE Assign Reviewers' leading to 'SW-Awaiting EIC Decision';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Awaiting EIC Decision';0.76;
+Number of 'SW-AE Assign Reviewers' activities that precede 'Reviewer Invitation Reminder 2';Number of 'SW-AE Assign Reviewers' activities for cases where activity 'Reviewer Invitation Reminder 2' occurs;119;
+Frequency of 'SW-AE Assign Reviewers' in the most common process variant;Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;
+Percentage of 'SW-AE Assign Reviewers' followed by any activity within 3 days;Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;
+Ratio of 'SW-AE Assign Reviewers' to 'SW-Reviewer Agreed' in completed reviews;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Total 'SW-AE Assign Reviewers' performed by each sender;Number of 'SW-AE Assign Reviewers' activities grouped by the last value of sender;catarci@diag.uniroma1.it:0;"{""catarci@diag.uniroma1.it"":0,""clcabanban@ched.gov.ph"":0,""gleb@intentionalinsights.org"":2,""marrella@diag.uniroma1.it"":6,""onbehalfof@manuscriptcentral.com"":135}"
+Percentage of 'SW-AE Assign Reviewers' in cases that result in 'SW-EIC Accept';Percentage of 'SW-AE Assign Reviewers' out of all 'SW-EIC Accept';0.0;
+Frequency of 'SW-AE Assign Reviewers' in cases with 'Plagiarism Originality Report Completed';Percentage of 'SW-AE Assign Reviewers' out of all 'Plagiarism Originality Report Completed';0.49;
+Number of 'SW-AE Assign Reviewers' activities in cases that exceed average review time;Number of 'SW-AE Assign Reviewers' activities;143;

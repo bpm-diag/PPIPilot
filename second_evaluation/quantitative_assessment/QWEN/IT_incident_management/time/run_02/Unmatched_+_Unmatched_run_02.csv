@@ -1,0 +1,27 @@
+Name;Metric;Value;Agrupation
+Average time for Unmatched + Unmatched;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total time for Unmatched + Unmatched;The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Minimum time for Unmatched + Unmatched;The minimum of the duration between activity Unmatched + Unmatched and the end of the case;7.36 days;
+Time of Unmatched + Unmatched;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Unmatched + Unmatched Cycle Time;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Average time between Unmatched + Unmatched and Accepted + In Progress;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';4.75 hours;
+Total time between Unmatched + Unmatched and Accepted + In Progress;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';23.76 hours;
+Minimum time between Unmatched + Unmatched and Accepted + In Progress;The minimum of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';47.00 seconds;
+Time between Unmatched + Unmatched and Accepted + In Progress;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';4.75 hours;
+Average time it takes Unmatched + Unmatched after the execution of Queued + Awaiting Assignment;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Unmatched + Unmatched';5.54 days;
+Total time it takes Unmatched + Unmatched after the execution of Queued + Awaiting Assignment;The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Unmatched + Unmatched';11.09 days;
+Minimum time it takes Unmatched + Unmatched after the execution of Queued + Awaiting Assignment;The minimum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Unmatched + Unmatched';4.92 days;
+Average time for Unmatched + Unmatched in variants that eventually reach Completed + In Call;The average of the duration between activity 'Unmatched + Unmatched' and the end of case where activity 'Completed + In Call occurs;;
+Total time for Unmatched + Unmatched in variants that eventually reach Completed + In Call;The sum of the duration between activity 'Unmatched + Unmatched' and the end of case where activity 'Completed + In Call occurs;;
+Minimum time for Unmatched + Unmatched in variants that eventually reach Completed + In Call;The minimum of the duration between activity Unmatched + Unmatched and the end of the case;;
+Average time from Unmatched + Unmatched to Completed + Resolved;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';2.63 days;
+Total time from Unmatched + Unmatched to Completed + Resolved;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';13.13 days;
+Minimum time from Unmatched + Unmatched to Completed + Resolved;The minimum of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';4.32 minutes;
+Time from Unmatched + Unmatched to Completed + Resolved;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Completed + Resolved';2.63 days;
+Average waiting time to the Unmatched + Unmatched;The average of the duration between the start of the case and activity 'Unmatched + Unmatched';3.42 days;
+Total waiting time to the Unmatched + Unmatched;The sum of the duration between the start of the case and activity 'Unmatched + Unmatched';17.11 days;
+Minimum waiting time to the Unmatched + Unmatched;The minimum of the duration between the start of the case and activity 'Unmatched + Unmatched';23.25 minutes;
+Average time until Unmatched + Unmatched is performed;The average of the duration between the start of the case and activity 'Unmatched + Unmatched';3.42 days;
+Total time until Unmatched + Unmatched is performed;The sum of the duration between the start of the case and activity 'Unmatched + Unmatched';17.11 days;
+Minimum time until Unmatched + Unmatched is performed;The minimum of the duration between the start of the case and activity 'Unmatched + Unmatched';23.25 minutes;
+Time until Unmatched + Unmatched;The average of the duration between the start of the case and activity 'Unmatched + Unmatched';3.42 days;

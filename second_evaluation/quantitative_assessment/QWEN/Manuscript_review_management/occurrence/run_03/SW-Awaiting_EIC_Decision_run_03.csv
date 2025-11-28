@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting EIC Decision occurrences out of all activity executions in the event log;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Frequency of SW-Awaiting EIC Decision appearing immediately after SW-Awaiting AE Recommendation;Frequency of activity 'SW-Awaiting EIC Decision';59.0;
+Percentage of process variants that include SW-Awaiting EIC Decision followed by SW-EIC Accept;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Percentage of SW-Awaiting EIC Decision occurrences that are preceded by SW-Reviewer Agreed;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Agreed';0.98;
+Frequency of SW-Awaiting EIC Decision in cases where SW-Reviewer Agreed occurred at least once;Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'SW-Reviewer Agreed' occurs;45.0;
+Percentage of variants containing SW-Awaiting EIC Decision that ultimately lead to an acceptance (e.g., SW-EIC Accept or RW-EIC Accept);Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Number of SW-Awaiting EIC Decision events that occur without any prior SW-Reviewer Agreed activity in the same case;Number of 'SW-Awaiting EIC Decision' activities for cases where activity 'SW-Reviewer Agreed' does not occur;60.0;
+Percentage of SW-Awaiting EIC Decision occurrences relative to the total number of SW-Awaiting AE Recommendation executions;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Awaiting AE Recommendation';0.97;
+Frequency of SW-Awaiting EIC Decision appearing in the longest-running variants (top 10% by duration);Frequency of activity 'SW-Awaiting EIC Decision';59.0;
+Percentage of cases where SW-Awaiting EIC Decision is followed by a revision decision (SW-EIC Major Revision, SW-EIC Minor Revision, or SW-EIC Reject & Resubmit);Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Major Revision';1.0;
+Percentage of SW-Awaiting EIC Decision instances that occur in variants also containing multiple reviewer invitation reminders (Reviewer Invitation Reminder 1 or 2);Percentage of 'SW-Awaiting EIC Decision' out of all 'Reviewer Invitation Reminder 1';0.89;
+Frequency of SW-Awaiting EIC Decision in cases that started with Immediate Reject Decision from the Checklist versus those that did not;Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'Immediate Reject Decision from the Checklist' occurs;0.0;
+Ratio of SW-Awaiting EIC Decision occurrences to SW-Awaiting AE Assignment occurrences across the entire log;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Awaiting AE Assignment';0.61;
+Percentage of SW-Awaiting EIC Decision events that are part of variants including at least one instance of Assign a Different Editor;Percentage of 'SW-Awaiting EIC Decision' out of all 'Assign a Different Editor';0.73;
+Number of times SW-Awaiting EIC Decision appears more than once in the same case;Number of 'SW-Awaiting EIC Decision' activities;60.0;
+Percentage of SW-Awaiting EIC Decision occurrences that are eventually followed by Manuscript Export Succeeded (indicating progression toward publication);Percentage of 'SW-Awaiting EIC Decision' out of all 'Manuscript Export Succeeded';0.65;
+Frequency of SW-Awaiting EIC Decision in variants that include Co-Author Account Created During Manuscript Submission;Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'Co-Author Account Created During Manuscript Submission' occurs;38.0;
+Percentage of SW-Awaiting EIC Decision events occurring after three or more distinct reviewer-related activities (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, SW-Reviewer No Response);Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Agreed';0.98;
+Number of times SW-Awaiting EIC Decision is directly followed by SW-EIC Reject & Resubmit;"ERROR: computing metric {'count': activity == 'SW-EIC Reject & Resubmit'"", 'aggregation': 'total', 'filter': ""preceding_activity == 'SW-Awaiting EIC Decision'""}""";;
+Number of SW-Awaiting EIC Decision events per month to identify temporal patterns in editorial decision latency;"ERROR: computing metric {'count': activity == 'SW-Awaiting EIC Decision'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

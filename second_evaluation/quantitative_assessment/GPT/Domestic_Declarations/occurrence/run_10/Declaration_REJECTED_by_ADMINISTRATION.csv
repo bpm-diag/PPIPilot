@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by ADMINISTRATION' compared to 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Declaration APPROVED by ADMINISTRATION';0.08;
+Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all rejection activities;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all cases where 'Declaration REJECTED by ADMINISTRATION' does not happen;0.08;
+Number of 'Declaration REJECTED by ADMINISTRATION' that are followed by 'Declaration SUBMITTED by EMPLOYEE';Number of 'Declaration REJECTED by ADMINISTRATION' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;952;
+Percentage of 'Declaration REJECTED by ADMINISTRATION' in cases with amounts above 100 euros;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all cases;0.12;
+Frequency of 'Declaration REJECTED by ADMINISTRATION' by each 'org:resource';Frequency of activity '{}' grouped by the last value of org:resource;STAFF MEMBER:210;"{""STAFF MEMBER"":210,""SYSTEM"":636}"
+Percentage of 'Declaration REJECTED by ADMINISTRATION' out of total declarations processed;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all cases where 'Declaration REJECTED by ADMINISTRATION' does not happen;0.08;
+Percentage of 'Declaration REJECTED by ADMINISTRATION' followed by 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Frequency of 'Declaration REJECTED by ADMINISTRATION' in the most common process variant;Frequency of activity 'Declaration REJECTED by ADMINISTRATION' for cases where activity 'Declaration REJECTED by ADMINISTRATION' does not occur;846;
+Percentage of 'Declaration REJECTED by ADMINISTRATION' in cases that required director approval;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all cases;;
+Number of 'Declaration REJECTED by ADMINISTRATION' in relation to 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Declaration REJECTED by ADMINISTRATION' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;721;
+Percentage of 'Declaration REJECTED by ADMINISTRATION' that lead to an appeal;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Appeal Submitted';;
+Frequency of 'Declaration REJECTED by ADMINISTRATION' in cases that were eventually paid;Frequency of activity 'Declaration REJECTED by ADMINISTRATION' for cases where activity 'Payment Handled' occurs;636;
+Percentage of 'Declaration REJECTED by ADMINISTRATION' in the first quarter of the year compared to the rest of the year;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all cases;0.08;
+Number of 'Declaration REJECTED by ADMINISTRATION' in cases with 'case:Amount' below the average case amount;Number of 'Declaration REJECTED by ADMINISTRATION' activities < 5000 where ma is the last value of case:Amount;952;
+Number of 'Declaration REJECTED by ADMINISTRATION' per month;Number of 'Declaration REJECTED by ADMINISTRATION' activities;952;

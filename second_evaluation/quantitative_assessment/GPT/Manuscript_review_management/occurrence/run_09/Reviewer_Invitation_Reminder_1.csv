@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Reviewer Invitation Reminder 1' followed by 'SW-Reviewer Agreed';Frequency of activity 'Reviewer Invitation Reminder 1' for cases where activity 'SW-Reviewer Agreed' occurs;43.0;
+Number of 'Reviewer Invitation Reminder 1' that are preceded by 'SW-AE Assign Reviewers';Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-AE Assign Reviewers' occurs;105.0;
+Percentage of 'Reviewer Invitation Reminder 1' in relation to the total number of activities in the review process;Percentage of 'Reviewer Invitation Reminder 1' out of all cases where '' does not happen;0.51;
+Frequency of 'Reviewer Invitation Reminder 1' in the variant leading to 'SW-EIC Major Revision';Frequency of activity 'Reviewer Invitation Reminder 1' for cases where activity 'SW-EIC Major Revision' occurs;13.0;
+Percentage of cases where 'Reviewer Invitation Reminder 1' leads to a 'SW-Reviewer Declined';Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Declined';1.0;
+Number of 'Reviewer Invitation Reminder 1' in the most frequent process variant;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity '' does not occur;118.0;
+Percentage of 'Reviewer Invitation Reminder 1' followed by 'Reviewer Invitation Reminder 2';Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 2';1.0;
+Frequency of 'Reviewer Invitation Reminder 1' in cases that result in 'RW-EIC Accept';Frequency of activity 'Reviewer Invitation Reminder 1' for cases where activity 'RW-EIC Accept' occurs;18.0;
+Percentage of 'Reviewer Invitation Reminder 1' that precede any 'SW-AE Assign Reviewers' activity;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-AE Assign Reviewers';0.91;
+Frequency of 'Reviewer Invitation Reminder 1' in the variant leading to 'SW-EIC Reject';Frequency of activity 'Reviewer Invitation Reminder 1' for cases where activity 'SW-EIC Reject' occurs;9.0;
+Percentage of 'Reviewer Invitation Reminder 1' followed by 'Assign a Different Editor';Percentage of 'Reviewer Invitation Reminder 1' out of all 'Assign a Different Editor';0.73;
+Number of 'Reviewer Invitation Reminder 1' in relation to 'Reviewer Invitation Reminder 2';Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'Reviewer Invitation Reminder 2' occurs;109.0;
+Percentage of 'Reviewer Invitation Reminder 1' out of all reminder activities;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 1';1.0;
+Percentage of 'Reviewer Invitation Reminder 1' in relation to all communication activities with reviewers;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 1';1.0;
+Number of 'Reviewer Invitation Reminder 1' grouped by month;Number of 'Reviewer Invitation Reminder 1' activities;118.0;

@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time from SW-AE Assign Reviewers to SW-Reviewer Declined;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Declined';15.42 days;
+Average time between SW-Reviewer Declined and subsequent SW-AE Assign Reviewers;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-AE Assign Reviewers';17.09 days;
+Average time until SW-Reviewer Declined is performed after SW-Reviewer Selection is due in 1 week;The average of the duration between activity 'SW-Reviewer Selection is due in 1 week' and activity 'SW-Reviewer Declined';19.09 days;
+Average time for SW-Reviewer Declined compared to SW-Reviewer Agreed;The average of the duration between activity 'SW-Reviewer Declined' and the end of case where activity 'SW-Reviewer Agreed occurs;193.60 days;
+Average time from SW-Reviewer Declined to Reviewer Invitation Reminder 1;The average of the duration between activity 'SW-Reviewer Declined' and activity 'Reviewer Invitation Reminder 1';86.90 days;
+Total time between initial SW-AE Assign Reviewers and first SW-Reviewer Declined in a case;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Declined';431.76 days;
+Minimum time from Reviewer Invitation Reminder 1 to SW-Reviewer Declined;The minimum of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Declined';3.85 minutes;
+Average time from SW-Reviewer Selection is due in 3 days to SW-Reviewer Declined;The average of the duration between activity 'SW-Reviewer Selection is due in 3 days' and activity 'SW-Reviewer Declined';15.56 days;
+Total time spent in sequences containing multiple SW-Reviewer Declined activities;The sum of the duration between activity SW-Reviewer Declined and the end of the case;5614.29 days;
+Average time between consecutive SW-Reviewer Declined activities in the same case;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Declined';9.12 days;
+Time from SW-Reviewer Declined to Assign a Different Editor;The average of the duration between activity 'SW-Reviewer Declined' and activity 'Assign a Different Editor';165.85 days;
+Average duration of review process segments containing SW-Reviewer Declined compared to segments containing SW-Reviewer Agreed;The average of the duration between activity 'SW-Reviewer Declined' and the end of case where activity 'SW-Reviewer Agreed occurs;193.60 days;
+Time between SW-Reviewer Declined and Unassign Editor;The average of the duration between activity 'SW-Reviewer Declined' and activity 'Unassign Editor';165.85 days;
+Average time from SW-Reviewer Selection is now due to SW-Reviewer Declined;The average of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-Reviewer Declined';14.37 days;
+Total time impact of SW-Reviewer Declined on overall manuscript review timeline;The sum of the duration between activity SW-Reviewer Declined and the end of the case;5614.29 days;
+Time from SW-Reviewer Declined to Reviewer Invitation Reminder 2;The average of the duration between activity 'SW-Reviewer Declined' and activity 'Reviewer Invitation Reminder 2';65.11 days;
+Average time between SW-Reviewer Declined and SW-Reviewer Selection is 3 days late;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Selection is 3 days late';3.36 days;
+Time from SW-Reviewer Declined to SW-Awaiting EIC Decision in variant pathways;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Awaiting EIC Decision';72.36 days;
+Average duration of reviewer assignment phase when SW-Reviewer Declined occurs versus when it doesn't occur;The average of the duration between activity SW-Reviewer Declined and the end of the case;193.60 days;
+Time between SW-Reviewer Declined and subsequent SW-Reviewer Unavailable in the same case;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Unavailable';12.68 days;

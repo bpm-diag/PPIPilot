@@ -1,0 +1,18 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by BUDGET OWNER' compared to 'Declaration APPROVED by BUDGET OWNER';Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'Declaration APPROVED by BUDGET OWNER';0.01;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all declarations handled by BUDGET OWNER;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all cases;;
+Number of 'Declaration REJECTED by BUDGET OWNER' that are followed by 'Declaration SUBMITTED by EMPLOYEE';Number of 'Declaration REJECTED by BUDGET OWNER' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;59;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' that lead to a 'Request Payment';Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'Request Payment';0.0;
+Frequency of 'Declaration REJECTED by BUDGET OWNER' in cases with amounts above 100 euros;Number of 'Declaration REJECTED by BUDGET OWNER' activities > 100 where ma is the last value of case:Amount;9;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' by each STAFF MEMBER;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all cases;STAFF MEMBER:0.03;"{""STAFF MEMBER"":0.0306345733,""SYSTEM"":0.004381161}"
+Percentage of 'Declaration REJECTED by BUDGET OWNER' that are eventually approved after being resubmitted;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'Declaration APPROVED by BUDGET OWNER';0.01;
+Frequency of 'Declaration REJECTED by BUDGET OWNER' in the most common process variant;Frequency of activity 'Declaration REJECTED by BUDGET OWNER';58;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' in relation to the total number of declarations processed in the event log;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'total number of declarations processed';;
+Number of 'Declaration REJECTED by BUDGET OWNER' followed by 'Declaration APPROVED by ADMINISTRATION';Number of 'Declaration REJECTED by BUDGET OWNER' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;59;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' that result in an appeal;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'appeal';;
+Frequency of 'Declaration REJECTED by BUDGET OWNER' in cases that exceed the two-month submission period for travel reimbursements;Number of 'Declaration REJECTED by BUDGET OWNER' activities;59;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' in cases involving domestic declarations versus pre-paid travel costs;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'domestic declarations';;
+Number of 'Declaration REJECTED by BUDGET OWNER' that are not followed by any further action;Number of 'Declaration REJECTED by BUDGET OWNER' activities for cases where activity 'any further action' does not occur;59;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' in the first submission attempt versus subsequent attempts;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'first submission attempt';;
+Frequency of 'Declaration REJECTED by BUDGET OWNER' in relation to 'Declaration REJECTED by PRE_APPROVER';Frequency of activity 'Declaration REJECTED by BUDGET OWNER' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0;
+Number of 'Declaration REJECTED by BUDGET OWNER' per month;Number of 'Declaration REJECTED by BUDGET OWNER' activities;59;

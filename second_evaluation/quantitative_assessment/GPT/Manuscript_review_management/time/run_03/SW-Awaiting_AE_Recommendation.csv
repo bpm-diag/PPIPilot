@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-Reviewer Agreed' to 'SW-Awaiting AE Recommendation';The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';67.41 days;
+Total time from 'SW-AE Assign Reviewers' to 'SW-Awaiting AE Recommendation';The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting AE Recommendation';1626.58 days;
+Minimum time from 'SW-Reviewer Selection is now due' to 'SW-Awaiting AE Recommendation';The minimum of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-Awaiting AE Recommendation';45.21 days;
+Average time for 'SW-Awaiting AE Recommendation' to be completed after 'SW-Reviewer Agreed';The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';67.41 days;
+Total resolution time of 'SW-Awaiting AE Recommendation';The sum of the duration between activity SW-Awaiting AE Recommendation and the end of the case;2310.65 days;
+Average waiting time to 'SW-Awaiting AE Recommendation' after 'SW-Reviewer Agreed';The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';67.41 days;
+Minimum resolution time of 'SW-Awaiting AE Recommendation' following 'SW-Reviewer Agreed';The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';34.84 days;
+Average time it takes 'SW-Awaiting AE Recommendation' after 'SW-Reviewer Selection is 3 days late';The average of the duration between activity 'SW-Reviewer Selection is 3 days late' and activity 'SW-Awaiting AE Recommendation';65.62 days;
+Total time it takes 'SW-Awaiting AE Recommendation' to be done after 'SW-Reviewer Agreed';The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';1617.84 days;
+Minimum time for 'SW-Awaiting AE Recommendation' after 'SW-Reviewer Agreed';The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';34.84 days;
+Time of 'SW-Awaiting AE Recommendation';The sum of the duration between activity SW-Awaiting AE Recommendation and the end of the case;2310.65 days;
+'SW-Awaiting AE Recommendation' Cycle Time;The sum of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-Awaiting AE Recommendation';2.63 days;
+Average time between 'SW-Reviewer Agreed' and the next occurrence of 'SW-Awaiting AE Recommendation';The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';67.41 days;
+Total time for 'SW-Awaiting AE Recommendation' after all 'SW-Reviewer Agreed' activities in a case are completed;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';1617.84 days;
+Average time for 'SW-Awaiting AE Recommendation' grouped by 'case:concept:name';The average of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-Awaiting AE Recommendation';1.75 hours;

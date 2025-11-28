@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Reviewer Invitation Reminder 2 out of all activity executions in the event log;Percentage of 'Reviewer Invitation Reminder 2' out of all cases;0.44;
+Frequency of Reviewer Invitation Reminder 2 occurrences across all cases;Number of 'Reviewer Invitation Reminder 2' activities;71.0;
+Percentage of variants in which Reviewer Invitation Reminder 2 appears at least once;Percentage of 'Reviewer Invitation Reminder 2' out of all cases;0.44;
+Frequency of Reviewer Invitation Reminder 2 followed by SW-Reviewer Agreed;Number of 'Reviewer Invitation Reminder 2' activities for cases where activity 'SW-Reviewer Agreed' occurs;62.0;
+Percentage of Reviewer Invitation Reminder 2 that are preceded by Reviewer Invitation Reminder 1;Percentage of 'Reviewer Invitation Reminder 2' out of all 'Reviewer Invitation Reminder 1';0.87;
+Frequency of Reviewer Invitation Reminder 2 occurring after SW-AE Assign Reviewers;Number of 'Reviewer Invitation Reminder 2' activities for cases where activity 'SW-AE Assign Reviewers' occurs;61.0;
+Percentage of Reviewer Invitation Reminder 2 that lead to SW-Reviewer Agreed within the same case;Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-Reviewer Agreed';0.8;
+Frequency of Reviewer Invitation Reminder 2 in variants that eventually result in SW-EIC Accept;Number of 'Reviewer Invitation Reminder 2' activities for cases where activity 'SW-EIC Accept' occurs;0.0;
+Percentage of Reviewer Invitation Reminder 2 relative to the total number of SW-AE Assign Reviewers executions;Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-AE Assign Reviewers';0.78;
+Frequency of Reviewer Invitation Reminder 2 in cases where SW-Reviewer No Response occurs later;Number of 'Reviewer Invitation Reminder 2' activities for cases where activity 'SW-Reviewer No Response' occurs;18.0;
+Percentage of cases containing Reviewer Invitation Reminder 2 that also contain SW-Reviewer Declined;Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-Reviewer Declined';0.9;
+Percentage of Reviewer Invitation Reminder 2 occurring more than once in the same case;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Reviewer Invitation Reminder 2';0.17;
+Frequency of Reviewer Invitation Reminder 2 in variants with performance duration above the median;Number of 'Reviewer Invitation Reminder 2' activities;71.0;
+Percentage of Reviewer Invitation Reminder 2 that occur after a reviewer has already declined (SW-Reviewer Declined);Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-Reviewer Declined';0.9;
+Frequency of Reviewer Invitation Reminder 2 immediately followed by another reminder or assignment activity;Number of 'Reviewer Invitation Reminder 2' activities;71.0;
+Percentage of Reviewer Invitation Reminder 2 in the context of challenge papers (e.g., cases containing SW-AE Assign Reviewers Challenge Paper);Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-AE Assign Reviewers Challenge Paper';0.67;
+Frequency of Reviewer Invitation Reminder 2 in cases that undergo multiple revision cycles (e.g., containing both SW–Major Revision due in ... and RW–Major Revision due in ...);Number of 'Reviewer Invitation Reminder 2' activities;71.0;
+Percentage of Reviewer Invitation Reminder 2 relative to all reviewer-related reminder activities (including Reviewer Invitation Reminder 1);Percentage of 'Reviewer Invitation Reminder 2' out of all 'Reviewer Invitation Reminder 1';0.87;
+Frequency of Reviewer Invitation Reminder 2 in cases that ultimately end with SW-EIC Reject & Resubmit or SW-EIC Major Revision;Number of 'Reviewer Invitation Reminder 2' activities;71.0;
+Frequency of Reviewer Invitation Reminder 2 grouped by case:concept:name;"ERROR: computing metric {'count': activity == 'Reviewer Invitation Reminder 2'"", 'aggregation': 'average', 'group_by': 'concept:name'}""";;

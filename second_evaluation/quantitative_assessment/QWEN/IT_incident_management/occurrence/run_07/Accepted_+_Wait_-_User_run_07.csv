@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - User' out of all activity executions in the event log;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' across all cases;Number of 'Accepted + Wait - User' activities;3883;
+Percentage of process variants that include 'Accepted + Wait - User';Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' followed by 'Completed + Resolved';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + Resolved' occurs;3816;
+Percentage of 'Accepted + Wait - User' that occurs after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - User' out of all 'Queued + Awaiting Assignment';0.47;
+Frequency of 'Accepted + Wait - User' in variants that end with 'Completed + Closed';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + Closed' occurs;3759;
+Percentage of 'Accepted + Wait - User' compared to the frequency of 'Accepted + Wait - Implementation';Percentage of 'Accepted + Wait - User' out of all 'Accepted + Wait - Implementation';0.49;
+Percentage of 'Accepted + Wait - User' compared to the frequency of 'Accepted + Wait - Vendor';Percentage of 'Accepted + Wait - User' out of all 'Accepted + Wait - Vendor';0.43;
+Frequency of 'Accepted + Wait - User' in variants where 'Completed + In Call' does not occur;Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + In Call' does not occur;3883;
+Percentage of variants containing both 'Accepted + Wait - User' and 'Completed + In Call';Percentage of 'Accepted + Wait - User' out of all 'Completed + In Call';0.06;
+Frequency of 'Accepted + Wait - User' occurring before 'Completed + In Call';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + In Call' occurs;161;
+Percentage of 'Accepted + Wait - User' in high-performance variants (performance < median variant duration);Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Percentage of cases where 'Accepted + Wait - User' appears more than once;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Accepted + Wait - User';0.1;
+Ratio of variants containing 'Accepted + Wait - User' to total number of variants;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' grouped by country;Number of 'Accepted + Wait - User' activities grouped by the last value of organization country;0:3;"{""0"":3,""SE"":10,""au"":6,""be"":255,""br"":107,""ca"":15,""cl"":0,""cn"":77,""de"":8,""fr"":154,""gb"":10,""in"":579,""jp"":7,""kr"":47,""my"":5,""nl"":52,""pe"":0,""pl"":1087,""ru"":11,""se"":1175,""th"":1,""tr"":0,""us"":274}"
+Percentage of 'Accepted + Wait - User' executed by resource group 'V30';Percentage of 'Accepted + Wait - User' out of all cases;0.0;
+Frequency of transitions from 'Accepted + In Progress' directly to 'Accepted + Wait - User';Number of 'Accepted + Wait - User' activities for cases where activity 'Accepted + In Progress' occurs;3874;
+Percentage of 'Accepted + Wait - User' that is eventually followed by 'Completed + Resolved' within the same case;Percentage of 'Accepted + Wait - User' out of all 'Completed + Resolved';0.43;
+Frequency of 'Accepted + Wait - User' in variants with more than five activity steps;Number of 'Accepted + Wait - User' activities;3883;
+Frequency of 'Accepted + Wait - User' per year based on timestamp;Number of 'Accepted + Wait - User' activities;3883;

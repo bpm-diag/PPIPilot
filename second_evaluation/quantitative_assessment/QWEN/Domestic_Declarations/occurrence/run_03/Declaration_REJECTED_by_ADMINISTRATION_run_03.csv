@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration REJECTED by ADMINISTRATION out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.08;
+Frequency of Declaration REJECTED by ADMINISTRATION followed by Declaration REJECTED by EMPLOYEE;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Declaration REJECTED by EMPLOYEE';0.69;
+Percentage of cases where Declaration REJECTED by ADMINISTRATION occurs in variants that eventually lead to Payment Handled;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Payment Handled';0.06;
+Frequency of Declaration REJECTED by ADMINISTRATION compared to Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of Declaration REJECTED by ADMINISTRATION that are part of re-submission loops (i.e., followed later in the same case by another Declaration SUBMITTED by EMPLOYEE);Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.08;
+Frequency of variants starting with Declaration SUBMITTED by EMPLOYEE and immediately followed by Declaration REJECTED by ADMINISTRATION;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.08;
+Ratio of Declaration REJECTED by ADMINISTRATION to Declaration APPROVED by ADMINISTRATION;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Declaration APPROVED by ADMINISTRATION';0.08;
+Number of Declaration REJECTED by ADMINISTRATION events grouped by case:BudgetNumber;Number of 'Declaration REJECTED by ADMINISTRATION' activities;952.0;
+Percentage of cases containing Declaration REJECTED by ADMINISTRATION that result in eventual Payment Handled versus those that terminate without payment;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Payment Handled';0.06;
+Frequency of Declaration REJECTED by ADMINISTRATION in variants with more than one rejection cycle;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all cases;0.08;
+Number of Declaration REJECTED by ADMINISTRATION events with case:Amount above 100 euros;Number of 'Declaration REJECTED by ADMINISTRATION' activities > 100 where ma is the last value of case:Amount;327.0;
+Percentage of Declaration REJECTED by ADMINISTRATION that are not followed by any further activity in the case;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all cases;0.08;
+Frequency of Declaration REJECTED by ADMINISTRATION relative to the total number of activities in the log;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all cases;0.08;
+Percentage of variants containing Declaration REJECTED by ADMINISTRATION that also contain Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of times Declaration REJECTED by ADMINISTRATION appears as the second activity in a case;Number of 'Declaration REJECTED by ADMINISTRATION' activities;952.0;
+Ratio of cases with Declaration REJECTED by ADMINISTRATION that succeed on resubmission versus those that fail repeatedly;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.08;
+Number of Declaration REJECTED by ADMINISTRATION events per year;Number of 'Declaration REJECTED by ADMINISTRATION' activities;952.0;
+Percentage of Declaration REJECTED by ADMINISTRATION among all rejection activities (including Declaration REJECTED by SUPERVISOR, Declaration REJECTED by PRE_APPROVER, Declaration REJECTED by BUDGET OWNER, and Declaration REJECTED by MISSING);Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all cases;0.08;
+Percentage of Declaration REJECTED by ADMINISTRATION that occur before any approval step (e.g., before Declaration APPROVED by ADMINISTRATION or Declaration APPROVED by PRE_APPROVER);Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all cases;0.08;
+Percentage of Declaration REJECTED by ADMINISTRATION occurring in 2017 versus 2018;Percentage of 'Declaration REJECTED by ADMINISTRATION' out of all cases;0.08;

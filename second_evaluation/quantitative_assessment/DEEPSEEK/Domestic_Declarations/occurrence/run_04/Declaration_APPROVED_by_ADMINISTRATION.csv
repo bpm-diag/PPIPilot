@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration APPROVED by ADMINISTRATION that are followed by Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.79;
+Percentage of Declaration APPROVED by ADMINISTRATION that are followed by Declaration REJECTED by SUPERVISOR;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by SUPERVISOR';0.78;
+Percentage of Declaration APPROVED by ADMINISTRATION that are followed by Declaration REJECTED by BUDGET OWNER;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by BUDGET OWNER';1.0;
+Number of Declaration APPROVED by ADMINISTRATION that are preceded by Declaration SUBMITTED by EMPLOYEE;Number of 'Declaration APPROVED by ADMINISTRATION' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;8202.0;
+Percentage of Declaration APPROVED by ADMINISTRATION out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.77;
+Percentage of Declaration APPROVED by ADMINISTRATION that eventually lead to Payment Handled;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Payment Handled';0.79;
+Percentage of Declaration APPROVED by ADMINISTRATION in variants containing Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by PRE_APPROVER';0.02;
+Frequency of Declaration APPROVED by ADMINISTRATION occurring after Declaration REJECTED by ADMINISTRATION;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by ADMINISTRATION';0.77;
+Percentage of Declaration APPROVED by ADMINISTRATION that are followed by Declaration APPROVED by BUDGET OWNER;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Number of Declaration APPROVED by ADMINISTRATION with case:Amount above 100 euros;Number of 'Declaration APPROVED by ADMINISTRATION' activities > 100 where ma is the last value of case:Amount;1907.0;
+Percentage of Declaration APPROVED by ADMINISTRATION performed by SYSTEM;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases;0.79;
+Average number of Declaration APPROVED by ADMINISTRATION per case;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by ADMINISTRATION';0.78;
+Percentage of Declaration APPROVED by ADMINISTRATION in cases with multiple Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.77;
+Ratio of Declaration APPROVED by ADMINISTRATION over Declaration REJECTED by ADMINISTRATION;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by ADMINISTRATION';0.77;
+Percentage of Declaration APPROVED by ADMINISTRATION that occur in domestic travel declarations;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases;0.76;
+Percentage of Declaration APPROVED by ADMINISTRATION that bypass Declaration FOR_APPROVAL by ADMINISTRATION;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases where 'Declaration FOR_APPROVAL by ADMINISTRATION' does not happen;0.76;
+Number of Declaration APPROVED by ADMINISTRATION that are followed by Declaration REJECTED by EMPLOYEE;Number of 'Declaration APPROVED by ADMINISTRATION' activities for cases where activity 'Declaration REJECTED by EMPLOYEE' occurs;1098.0;
+Percentage of Declaration APPROVED by ADMINISTRATION in budget owner approval required cases;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases;0.76;
+Frequency of Declaration APPROVED by ADMINISTRATION in pre-paid travel cost declarations;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases;0.76;
+Frequency of Declaration APPROVED by ADMINISTRATION in 2017 vs 2018;Number of 'Declaration APPROVED by ADMINISTRATION' activities;8202.0;

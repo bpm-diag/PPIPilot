@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Implementation' out of all activity executions in the event log;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Frequency of 'Accepted + Wait - Implementation' occurrences across all cases;Number of 'Accepted + Wait - Implementation' activities;473.0;
+Percentage of process variants containing 'Accepted + Wait - Implementation' relative to total number of variants;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Number of times 'Accepted + Wait - Implementation' is directly followed by 'Completed + Resolved';Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Completed + Resolved' occurs;462.0;
+Percentage of 'Accepted + Wait - Implementation' that occur after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Implementation' out of all 'Queued + Awaiting Assignment';0.08;
+Frequency of 'Accepted + Wait - Implementation' in variants that also include 'Completed + In Call';Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Completed + In Call' occurs;20.0;
+Percentage of 'Accepted + Wait - Implementation' executions compared to the frequency of 'Accepted + Wait - User';Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + Wait - User';0.08;
+Number of process instances where 'Accepted + Wait - Implementation' appears before 'Completed + Closed';Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Completed + Closed' occurs;454.0;
+Percentage of variants containing 'Accepted + Wait - Implementation' that have a performance duration above the median variant duration;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Frequency of 'Accepted + Wait - Implementation' in cases that do not contain 'Completed + In Call';Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Completed + In Call' does not occur;473.0;
+Percentage of 'Accepted + Wait - Implementation' relative to all 'Accepted + Wait' type activities (including 'Accepted + Wait - User', 'Accepted + Wait - Vendor', and 'Accepted + Wait');Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + Wait';0.1;
+Number of times 'Accepted + Wait - Implementation' occurs as the last waiting activity before resolution;Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Completed + Resolved' occurs;462.0;
+Percentage of cases with 'Accepted + Wait - Implementation' that eventually reach 'Completed + Resolved' without intermediate reassignments;Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + Resolved';0.07;
+Frequency of direct transitions from 'Accepted + In Progress' to 'Accepted + Wait - Implementation';Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Accepted + In Progress' occurs;472.0;
+Percentage of 'Accepted + Wait - Implementation' occurrences in high-duration variants (performance > 1,000,000 time units) compared to its overall frequency;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;

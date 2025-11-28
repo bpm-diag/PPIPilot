@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-Awaiting Checklist Completion' to 'SW-Checklist Completed';The average of the duration between activity 'SW-Awaiting Checklist Completion' and activity 'SW-Checklist Completed';4.40 days;
+Total time for 'SW-Checklist Completed' across all cases;The sum of the duration between activity SW-Checklist Completed and the end of the case;8900.60 days;
+Average time between 'SW-Checklist Completed' and 'SW-Awaiting AE Assignment';The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-Awaiting AE Assignment';8.38 minutes;
+Minimum time it takes from 'Plagiarism Originality Report Completed' to 'SW-Checklist Completed';The minimum of the duration between activity 'Plagiarism Originality Report Completed' and activity 'SW-Checklist Completed';1.77 minutes;
+Total resolution time of 'SW-Checklist Completed' in the review process;The sum of the duration between activity SW-Checklist Completed and the end of the case;8900.60 days;
+Average time it takes 'SW-Checklist Completed' after the execution of 'Original Manuscript Submission Confirmation';The average of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-Checklist Completed';4.45 days;
+Total time from 'SW-Checklist Completed' to 'SW-AE Assign Reviewers';The sum of the duration between activity 'SW-Checklist Completed' and activity 'SW-AE Assign Reviewers';1004.59 days;
+Average waiting time to the 'SW-Reviewer Agreed' after 'SW-Checklist Completed';The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-Reviewer Agreed';23.60 days;
+Minimum time for 'SW-Checklist Completed' across different manuscript cases;The minimum of the duration between activity SW-Checklist Completed and the end of the case;0.00 seconds;
+Average time for 'SW-Checklist Completed' grouped by 'performer';The average of the duration between activity 'SW-Checklist Completed' and the end of case grouped by the last value of performer;ADMIN:215.34 days;"{""ADMIN"":18605024666,""AUTHOR"":18581415000,""EIC"":29912000,""SYSTEM"":9020591792}"
+Total time it takes the 'SW-Checklist Completed' to be done before 'SW-Awaiting AE Recommendation';The sum of the duration between activity 'SW-Checklist Completed' and activity 'SW-Awaiting AE Recommendation';1889.35 days;
+Elapsed time between 'SW-Checklist Completed' and 'SW-AE Assign Reviewers';The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-AE Assign Reviewers';22.83 days;
+Time of 'SW-Checklist Completed' in relation to the total review cycle time;The sum of the duration between activity SW-Checklist Completed and the end of the case;8900.60 days;
+'SW-Checklist Completed' Cycle Time in the context of the ACM journal review process;The sum of the duration between activity SW-Checklist Completed and the end of the case;8900.60 days;
+Average time from 'SW-Checklist Completed' to 'SW-Awaiting EIC Decision';The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-Awaiting EIC Decision';63.93 days;
+Minimum resolution time of 'SW-Checklist Completed' before 'SW-Reviewer Agreed';The minimum of the duration between activity 'SW-Checklist Completed' and activity 'SW-Reviewer Agreed';14.41 hours;
+Total time since 'SW-Awaiting Checklist Completion' and 'SW-Checklist Completed' are performed;The sum of the duration between activity 'SW-Awaiting Checklist Completion' and activity 'SW-Checklist Completed';360.71 days;
+Average time to 'SW-Checklist Completed' from the start of the manuscript review process;The average of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-Checklist Completed';4.45 days;

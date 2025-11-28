@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by SUPERVISOR' compared to 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Declaration APPROVED by ADMINISTRATION';0.03;
+Percentage of 'Declaration REJECTED by SUPERVISOR' out of all rejection activities;Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Declaration REJECTED by ADMINISTRATION';0.03;
+Number of 'Declaration REJECTED by SUPERVISOR' that are followed by 'Declaration SUBMITTED by EMPLOYEE';Number of 'Declaration REJECTED by SUPERVISOR' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;293;
+Percentage of 'Declaration REJECTED by SUPERVISOR' from all supervisor-related activities;Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.02;
+Frequency of 'Declaration REJECTED by SUPERVISOR' in cases with amounts above 100 euros;Number of 'Declaration REJECTED by SUPERVISOR' activities > 100 where ma is the last value of case:Amount;80;
+Percentage of 'Declaration REJECTED by SUPERVISOR' by each 'org:resource';Percentage of 'Declaration REJECTED by SUPERVISOR' out of all cases;STAFF MEMBER:0.17;"{""STAFF MEMBER"":0.1684901532,""SYSTEM"":0.0203126556}"
+Percentage of 'Declaration REJECTED by SUPERVISOR' that lead to a 'Request Payment';Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Request Payment';0.02;
+Frequency of 'Declaration REJECTED by SUPERVISOR' in the most common process variant;Frequency of activity 'Declaration REJECTED by SUPERVISOR';281;
+Percentage of 'Declaration REJECTED by SUPERVISOR' in cases that were eventually paid;Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Payment Handled';0.02;
+Number of 'Declaration REJECTED by SUPERVISOR' in relation to 'Declaration APPROVED by BUDGET OWNER';Number of 'Declaration REJECTED by SUPERVISOR' activities for cases where activity 'Declaration APPROVED by BUDGET OWNER' occurs;89;
+Percentage of 'Declaration REJECTED by SUPERVISOR' followed by 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Frequency of 'Declaration REJECTED by SUPERVISOR' in cases that exceed the average processing time;Frequency of activity 'Declaration REJECTED by SUPERVISOR';281;
+Percentage of 'Declaration REJECTED by SUPERVISOR' in cases with a declaration number ending in an odd number;Percentage of 'Declaration REJECTED by SUPERVISOR' out of all cases;0.03;
+Number of 'Declaration REJECTED by SUPERVISOR' in cases without a prior 'Declaration SAVED by EMPLOYEE';Number of 'Declaration REJECTED by SUPERVISOR' activities for cases where activity 'Declaration SAVED by EMPLOYEE' does not occur;293;
+Percentage of 'Declaration REJECTED by SUPERVISOR' in the total number of declarations submitted by employees;Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Declaration SUBMITTED by EMPLOYEE';0.03;
+Frequency of 'Declaration REJECTED by SUPERVISOR' before 'Declaration APPROVED by PRE_APPROVER';Number of 'Declaration REJECTED by SUPERVISOR' activities for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;13;
+Percentage of 'Declaration REJECTED by SUPERVISOR' in cases that required director approval;Percentage of 'Declaration REJECTED by SUPERVISOR' out of all cases;;
+Number of 'Declaration REJECTED by SUPERVISOR' in relation to 'Declaration REJECTED by ADMINISTRATION';Number of 'Declaration REJECTED by SUPERVISOR' activities for cases where activity 'Declaration REJECTED by ADMINISTRATION' occurs;30;
+Frequency of 'Declaration REJECTED by SUPERVISOR' in cases that were submitted after a 'Declaration REJECTED by EMPLOYEE';Number of 'Declaration REJECTED by SUPERVISOR' activities for cases where activity 'Declaration REJECTED by EMPLOYEE' occurs;289;
+Number of 'Declaration REJECTED by SUPERVISOR' per month;Number of 'Declaration REJECTED by SUPERVISOR' activities;293;

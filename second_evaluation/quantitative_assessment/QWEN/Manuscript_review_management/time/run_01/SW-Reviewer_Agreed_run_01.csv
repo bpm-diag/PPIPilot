@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time from SW-Reviewer Agreed to SW-Awaiting EIC Decision;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Total time between SW-Reviewer Agreed and SW-Awaiting AE Recommendation;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';1617.84 days;
+Minimum time it takes SW-Reviewer Agreed after the execution of SW-AE Assign Reviewers;The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';44.00 seconds;
+Average waiting time to the SW-Reviewer Agreed following SW-Reviewer Selection is now due;The average of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-Reviewer Agreed';24.95 days;
+Total resolution time of SW-Reviewer Agreed when preceded by Reviewer Invitation Reminder 2;The sum of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-Reviewer Agreed';395.45 days;
+Time from SW-Reviewer Agreed to SW-EIC Accept in variants that lead to acceptance;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Accept';;
+Elapsed time between SW-Reviewer Agreed and the subsequent SW-Reviewer Declined within the same case;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Reviewer Declined';332.89 days;
+Minimum time between SW-Reviewer Agreed and Manuscript Export Succeeded in revision cycles;The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'Manuscript Export Succeeded';25.43 days;
+Time of SW-Reviewer Agreed relative to the start of the SW-Initial Reviewer Selection phase;The sum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Agreed';1032.04 days;
+Total time from SW-AE Assign Reviewers to SW-Reviewer Agreed in cases with no prior reviewer declines;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';783.82 days;
+Average time it takes SW-Reviewer Agreed after the execution of Reviewer Invitation Reminder 1;The average of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Agreed';13.34 days;
+Time from SW-Reviewer Agreed to SW-EIC Major Revision in high-duration variants;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Major Revision';1189.41 days;
+Elapsed time between SW-Reviewer Agreed and the next occurrence of SW-AE Assign Reviewers in complex assignment loops;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-AE Assign Reviewers';560.07 days;
+Total time until SW-Reviewer Agreed is performed after SW-Reviewer Selection is 3 days late;The sum of the duration between activity 'SW-Reviewer Selection is 3 days late' and activity 'SW-Reviewer Agreed';284.08 days;
+Minimum time for SW-Reviewer Agreed in variants that include Co-Author Account Created During Manuscript Submission;The minimum of the duration between activity 'Co-Author Account Created During Manuscript Submission' and activity 'SW-Reviewer Agreed';5.20 days;
+Average time between SW-Reviewer Agreed and Revised Manuscript Submission Confirmation in multi-round review paths;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'Revised Manuscript Submission Confirmation';170.36 days;
+Time from SW-Reviewer Agreed to First Look Manuscript Submission Confirmation in accepted manuscripts;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'First Look Manuscript Submission Confirmation';4193.74 days;
+Total waiting time to the SW-Reviewer Agreed following SW-Reviewer Unavailable events;The sum of the duration between activity 'SW-Reviewer Unavailable' and activity 'SW-Reviewer Agreed';341.59 days;
+Time of SW-Reviewer Agreed compared to the duration of RW-Reviewer Agreed in revision rounds;The sum of the duration between activity 'RW-Reviewer Agreed' and activity 'SW-Reviewer Agreed';;
+Average time for SW-Reviewer Agreed grouped by case:concept:name in variants containing multiple reviewer agreements;"ERROR: computing metric {'begin': activity == 'SW-Reviewer Agreed'"", 'end': '', 'aggregation': 'average', 'group_by': 'concept:name'}""";;

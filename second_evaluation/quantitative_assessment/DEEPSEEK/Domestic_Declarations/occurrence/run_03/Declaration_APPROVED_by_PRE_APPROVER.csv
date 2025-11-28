@@ -1,0 +1,41 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration APPROVED by PRE_APPROVER before Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.07;
+Number of Declaration APPROVED by PRE_APPROVER;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685;
+Percentage of Declaration APPROVED by PRE_APPROVER out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.06;
+Number of Declaration APPROVED by PRE_APPROVER that are preceded by Declaration SUBMITTED by EMPLOYEE;Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;685;
+Percentage of Declaration APPROVED by PRE_APPROVER that are not dismissed;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.06;
+Percentage of Declaration APPROVED by PRE_APPROVER from all Declaration FOR_APPROVAL by PRE_APPROVER;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration FOR_APPROVAL by PRE_APPROVER';0.0;
+Number of Declaration APPROVED by PRE_APPROVER with amounts above 100 euros;Number of 'Declaration APPROVED by PRE_APPROVER' activities > 100 where ma is the last value of case:Amount;139;
+Percentage of Declaration APPROVED by PRE_APPROVER by STAFF MEMBER;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;;
+Number of Declaration APPROVED by PRE_APPROVER grouped by org:resource;Number of 'Declaration APPROVED by PRE_APPROVER' activities grouped by the last value of org:resource;STAFF MEMBER:6;"{""STAFF MEMBER"":6,""SYSTEM"":679}"
+Percentage of Declaration APPROVED by PRE_APPROVER by worker;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;STAFF MEMBER:0.01;"{""STAFF MEMBER"":0.0131291028,""SYSTEM"":0.0657174151}"
+Percentage of Declaration APPROVED by PRE_APPROVER followed by Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.07;
+Percentage of Declaration APPROVED by PRE_APPROVER that are rejected;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.83;
+Number of Declaration APPROVED by PRE_APPROVER in relation to Declaration REJECTED by PRE_APPROVER;Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;69;
+Percentage of Declaration APPROVED by PRE_APPROVER;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Number of times Declaration APPROVED by PRE_APPROVER is performed;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685;
+Percentage of Declaration APPROVED by PRE_APPROVER done after Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.06;
+Average number of Declaration APPROVED by PRE_APPROVER;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by PRE_APPROVER';0.07;
+Percentage of Declaration APPROVED by PRE_APPROVER with an increment;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Percentage of Declaration APPROVED by PRE_APPROVER with appeal;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Average number of Declaration APPROVED by PRE_APPROVER that are followed by Declaration FINAL_APPROVED by SUPERVISOR;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by PRE_APPROVER' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Declaration FINAL_APPROVED by SUPERVISOR';0.07;
+Percentage of Declaration APPROVED by PRE_APPROVER with penalty;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Total Declaration APPROVED by PRE_APPROVER done by STAFF MEMBER;Number of 'Declaration APPROVED by PRE_APPROVER' activities == 'STAFF MEMBER' where ma is the last value of org:role;;
+Fraction of Declaration APPROVED by PRE_APPROVER that are dismissed;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.83;
+Total Declaration APPROVED by PRE_APPROVER performed by STAFF MEMBER;Number of 'Declaration APPROVED by PRE_APPROVER' activities == 'STAFF MEMBER' where ma is the last value of org:role;;
+Ratio of Declaration APPROVED by PRE_APPROVER over Declaration REJECTED by PRE_APPROVER;Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;69;
+Occasions how often the Declaration APPROVED by PRE_APPROVER is performed;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685;
+The ratio of Declaration APPROVED by PRE_APPROVER that are not eventually performed;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685;
+Frequency of variants containing Declaration APPROVED by PRE_APPROVER and Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.07;
+Percentage of cases where Declaration APPROVED by PRE_APPROVER leads to Payment Handled;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Payment Handled';0.07;
+Performance time of variants containing Declaration APPROVED by PRE_APPROVER;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by PRE_APPROVER';0.07;
+Percentage of Declaration APPROVED by PRE_APPROVER that occur in domestic trip declarations;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Number of Declaration APPROVED by PRE_APPROVER in pre-paid travel cost processes;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685;
+Percentage of Declaration APPROVED by PRE_APPROVER that prevent Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.06;
+Frequency of Declaration APPROVED by PRE_APPROVER in reimbursement claim processes;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685;
+Percentage of Declaration APPROVED by PRE_APPROVER where budget owner and supervisor are different persons;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Number of Declaration APPROVED by PRE_APPROVER in cases requiring director approval;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685;
+Percentage of Declaration APPROVED by PRE_APPROVER that successfully complete without additional approval cycles;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Number of Declaration APPROVED by PRE_APPROVER made per year;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685;
+Average number of Declaration APPROVED by PRE_APPROVER in a month;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by PRE_APPROVER';0.07;
+Ratio of Declaration APPROVED by PRE_APPROVER to Declaration REJECTED by PRE_APPROVER in 2017 vs 2018;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;

@@ -1,0 +1,14 @@
+Name;Metric;Value;Agrupation
+Number of Manuscript Export Succeeded occurrences;Frequency of activity 'Manuscript Export Succeeded';89;
+Percentage of Manuscript Export Succeeded out of all Original Manuscript Submission Confirmation;Percentage of 'Manuscript Export Succeeded' out of all 'Original Manuscript Submission Confirmation';1.0;
+Number of Manuscript Export Succeeded that are preceded by SW-Awaiting Checklist Completion;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'SW-Awaiting Checklist Completion' occurs;85;
+Percentage of Manuscript Export Succeeded that lead to SW-AE Assign Reviewers;Percentage of 'Manuscript Export Succeeded' out of all 'SW-AE Assign Reviewers';0.98;
+Number of Manuscript Export Succeeded followed by Revised Manuscript Submission Confirmation;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'Revised Manuscript Submission Confirmation' occurs;24;
+Percentage of Manuscript Export Succeeded by sender;Percentage of 'Manuscript Export Succeeded' out of all cases;catarci@diag.uniroma1.it:1.0;"{""catarci@diag.uniroma1.it"":1.0,""clcabanban@ched.gov.ph"":1.0,""gleb@intentionalinsights.org"":1.0,""marrella@diag.uniroma1.it"":0.75,""onbehalfof@manuscriptcentral.com"":0.9651162791}"
+Percentage of Manuscript Export Succeeded in the event log;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of times Manuscript Export Succeeded is performed in the review process;Frequency of activity 'Manuscript Export Succeeded';89;
+Number of Manuscript Export Succeeded grouped by case:concept:name;Number of 'Manuscript Export Succeeded' activities;141;
+Number of Manuscript Export Succeeded made per year;Number of 'Manuscript Export Succeeded' activities;141;
+Average number of Manuscript Export Succeeded per case;the average of the number of times `ACTIVITY` == 'Manuscript Export Succeeded';1.52;
+Total Manuscript Export Succeeded done by onbehalfof@manuscriptcentral.com;Number of 'Manuscript Export Succeeded' activities;141;
+Total Manuscript Export Succeeded performed by onbehalfof@manuscriptcentral.com;Number of 'Manuscript Export Succeeded' activities;141;

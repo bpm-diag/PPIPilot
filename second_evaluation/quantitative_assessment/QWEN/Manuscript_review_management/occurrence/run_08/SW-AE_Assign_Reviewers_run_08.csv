@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-AE Assign Reviewers that are followed by SW-Reviewer Agreed;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Frequency of SW-AE Assign Reviewers in variants that eventually lead to SW-EIC Accept;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-EIC Accept';0.0;
+Number of SW-AE Assign Reviewers that are preceded by SW-Initial Reviewer Selection;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-Initial Reviewer Selection' occurs;141.0;
+Percentage of SW-AE Assign Reviewers that occur in cases where SW-Reviewer Declined appears at least once;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Declined';0.97;
+Frequency of SW-AE Assign Reviewers in the top 5 most frequent process variants;Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;
+Percentage of SW-AE Assign Reviewers that are not followed by any reviewer response (i.e., followed only by SW-Reviewer No Response or timeouts);Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer No Response';1.0;
+Ratio of SW-AE Assign Reviewers to SW-Reviewer Agreed across the entire event log;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Number of SW-AE Assign Reviewers per case, averaged over all cases containing this activity;the average of the number of times `ACTIVITY` == 'SW-AE Assign Reviewers';1.54;
+Frequency of SW-AE Assign Reviewers compared to the frequency of SW-Awaiting AE Assignment;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Awaiting AE Assignment';0.4;
+Percentage of SW-AE Assign Reviewers that are repeated more than three times within the same case;the average of the function base > 3 where base is the number of times `ACTIVITY` == 'SW-AE Assign Reviewers';0.16;
+Fraction of SW-AE Assign Reviewers that directly precede a successful reviewer agreement (SW-Reviewer Agreed) without intermediate declines or unavailability events;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Percentage of SW-AE Assign Reviewers occurring in cases that include at least one instance of Assign a Different Editor;Percentage of 'SW-AE Assign Reviewers' out of all 'Assign a Different Editor';0.64;
+Percentage of SW-AE Assign Reviewers out of all reviewer assignment-related activities (including RW-AE Assign Reviewers and RSW-AE Assign Reviewers);"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-AE Assign Reviewers', 'RW-AE Assign Reviewers', 'RSW-AE Assign Reviewers']""}""";;
+Percentage of SW-AE Assign Reviewers that occur after a reviewer reminder (Reviewer Invitation Reminder 1 or Reviewer Invitation Reminder 2);"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['Reviewer Invitation Reminder 1', 'Reviewer Invitation Reminder 2']""}""";;
+Percentage of SW-AE Assign Reviewers that appear in variants ending with a rejection (SW-EIC Reject, SW-EIC Reject & Resubmit);"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-EIC Reject', 'SW-EIC Reject & Resubmit']""}""";;

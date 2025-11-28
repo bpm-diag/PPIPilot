@@ -1,0 +1,30 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration APPROVED by ADMINISTRATION before Request Payment;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Request Payment';0.79;
+Number of Declaration APPROVED by ADMINISTRATION;Number of 'Declaration APPROVED by ADMINISTRATION' activities;8202;
+Percentage of Declaration APPROVED by ADMINISTRATION out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.77;
+Number of Declaration APPROVED by ADMINISTRATION that are preceded by Declaration SUBMITTED by EMPLOYEE;Number of 'Declaration APPROVED by ADMINISTRATION' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;8202;
+Percentage of Declaration APPROVED by ADMINISTRATION that lead to Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.79;
+Percentage of Declaration APPROVED by ADMINISTRATION from all Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.79;
+Number of Declaration APPROVED by ADMINISTRATION with amounts above 100 euros;Number of 'Declaration APPROVED by ADMINISTRATION' activities > 100 where ma is the last value of case:Amount;1907;
+Percentage of Declaration APPROVED by ADMINISTRATION by STAFF MEMBER;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases;STAFF MEMBER:0.14;"{""STAFF MEMBER"":0.1356673961,""SYSTEM"":0.7887085532}"
+Number of Declaration APPROVED by ADMINISTRATION grouped by case:BudgetNumber;Number of 'Declaration APPROVED by ADMINISTRATION' activities;8202;
+Percentage of Declaration APPROVED by ADMINISTRATION by worker;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases;STAFF MEMBER:0.14;"{""STAFF MEMBER"":0.1356673961,""SYSTEM"":0.7887085532}"
+Percentage of Declaration APPROVED by ADMINISTRATION followed by Request Payment;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Request Payment';0.79;
+Percentage of Declaration APPROVED by ADMINISTRATION that are followed by Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by PRE_APPROVER';0.02;
+Number of Declaration APPROVED by ADMINISTRATION in relation to Declaration REJECTED by PRE_APPROVER;Number of 'Declaration APPROVED by ADMINISTRATION' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;2;
+Percentage of Declaration APPROVED by ADMINISTRATION;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases;0.76;
+Number of times Declaration APPROVED by ADMINISTRATION is performed;Number of 'Declaration APPROVED by ADMINISTRATION' activities;8202;
+Percentage of Declaration APPROVED by ADMINISTRATION done after Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.77;
+Percentage of Declaration APPROVED by ADMINISTRATION with an increment in case:Amount;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases;0.79;
+Percentage of Declaration APPROVED by ADMINISTRATION leading to a payment without rejection;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Payment Handled';0.79;
+Average number of Declaration APPROVED by ADMINISTRATION that are followed by Declaration FINAL_APPROVED by SUPERVISOR;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by ADMINISTRATION' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Declaration FINAL_APPROVED by SUPERVISOR';0.81;
+Percentage of Declaration APPROVED by ADMINISTRATION with penalty;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by ADMINISTRATION';0.77;
+Total Declaration APPROVED by ADMINISTRATION done by STAFF MEMBER;Number of 'Declaration APPROVED by ADMINISTRATION' activities grouped by the last value of org:resource;STAFF MEMBER:64;"{""STAFF MEMBER"":64,""SYSTEM"":8138}"
+Fraction of Declaration APPROVED by ADMINISTRATION that are dismissed;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by ADMINISTRATION';0.77;
+Total Declaration APPROVED by ADMINISTRATION performed by SYSTEM;Number of 'Declaration APPROVED by ADMINISTRATION' activities == 'SYSTEM' where ma is the last value of org:resource;8138;
+Ratio of Declaration APPROVED by ADMINISTRATION over Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.77;
+Occasions how often the Declaration APPROVED by ADMINISTRATION is performed;Number of 'Declaration APPROVED by ADMINISTRATION' activities;8202;
+The ratio of Declaration APPROVED by ADMINISTRATION that lead to successful payment without prior rejection;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Payment Handled';0.79;
+Number of Declaration APPROVED by ADMINISTRATION made per year;Number of 'Declaration APPROVED by ADMINISTRATION' activities;8202;
+Average number of Declaration APPROVED by ADMINISTRATION per month;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by ADMINISTRATION';0.78;
+Average number of Declaration APPROVED by ADMINISTRATION in a month;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by ADMINISTRATION';0.78;

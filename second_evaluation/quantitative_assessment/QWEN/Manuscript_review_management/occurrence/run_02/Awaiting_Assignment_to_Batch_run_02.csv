@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Awaiting Assignment to Batch' occurrences out of all activity executions in the event log;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Number of times 'Awaiting Assignment to Batch' appears in the event log;Number of 'Awaiting Assignment to Batch' activities;26.0;
+Percentage of process variants that include 'Awaiting Assignment to Batch';Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Frequency of 'Awaiting Assignment to Batch' following 'First Look Manuscript Submission Confirmation';Percentage of 'Awaiting Assignment to Batch' out of all 'First Look Manuscript Submission Confirmation';0.96;
+Percentage of 'Awaiting Assignment to Batch' that occur after a manuscript has been accepted (e.g., preceded by 'RW-EIC Accept');Percentage of 'Awaiting Assignment to Batch' out of all 'RW-EIC Accept';0.95;
+Ratio of 'Awaiting Assignment to Batch' occurrences to 'Manuscript Export Succeeded' occurrences;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Number of cases where 'Awaiting Assignment to Batch' is directly preceded by 'First Look Manuscript Submission Confirmation';Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look Manuscript Submission Confirmation' occurs;24.0;
+Percentage of 'Awaiting Assignment to Batch' activities that appear in variants ending with production-related steps versus those ending in rejection or withdrawal;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Frequency of 'Awaiting Assignment to Batch' in comparison to other post-acceptance activities such as 'First Look-Please submit updates';Percentage of 'Awaiting Assignment to Batch' out of all 'First Look-Please submit updates';1.0;
+Percentage of all accepted manuscripts (those containing 'RW-EIC Accept' or 'SW-EIC Accept') that eventually reach 'Awaiting Assignment to Batch';Percentage of 'Awaiting Assignment to Batch' out of all 'RW-EIC Accept';0.95;
+Number of distinct process variants that contain 'Awaiting Assignment to Batch';Number of 'Awaiting Assignment to Batch' activities;26.0;
+Percentage of 'Awaiting Assignment to Batch' that are followed by another 'Manuscript Export Succeeded' within the same case;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Frequency of 'Awaiting Assignment to Batch' relative to the total number of cases in the log;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Percentage of cases containing 'Awaiting Assignment to Batch' that originate from a revision cycle (i.e., include 'Revised Manuscript Submission Confirmation');Percentage of 'Awaiting Assignment to Batch' out of all 'Revised Manuscript Submission Confirmation';0.88;
+Ratio of 'Awaiting Assignment to Batch' occurrences to the total number of 'First Look Manuscript Submission Confirmation' events;Percentage of 'Awaiting Assignment to Batch' out of all 'First Look Manuscript Submission Confirmation';0.96;

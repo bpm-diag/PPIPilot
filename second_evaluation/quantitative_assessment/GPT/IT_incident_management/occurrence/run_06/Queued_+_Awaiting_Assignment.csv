@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Queued + Awaiting Assignment' leading directly to 'Accepted + In Progress';Frequency of activity 'Queued + Awaiting Assignment' for cases where activity 'Accepted + In Progress' occurs;4505.0;
+Percentage of cases where 'Queued + Awaiting Assignment' is followed by 'Completed + In Call' compared to all instances of 'Completed + In Call';Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Number of times 'Queued + Awaiting Assignment' occurs before 'Completed + Resolved';Number of 'Queued + Awaiting Assignment' activities for cases where activity 'Completed + Resolved' occurs;10761.0;
+Percentage of 'Queued + Awaiting Assignment' out of all activities in the VINST system;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;
+Frequency of 'Queued + Awaiting Assignment' as the initial activity in a case;Frequency of activity 'Queued + Awaiting Assignment';4511.0;
+Percentage of 'Queued + Awaiting Assignment' followed by 'Accepted + Wait - User' out of all 'Accepted + Wait - User' occurrences;Percentage of 'Queued + Awaiting Assignment' out of all 'Accepted + Wait - User';0.85;
+Number of 'Queued + Awaiting Assignment' activities that precede 'Completed + Closed';Number of 'Queued + Awaiting Assignment' activities for cases where activity 'Completed + Closed' occurs;10675.0;
+Frequency of 'Queued + Awaiting Assignment' in cases that involve 'Completed + In Call', reflecting the impact of this activity;Frequency of activity 'Queued + Awaiting Assignment' for cases where activity 'Completed + In Call' occurs;64.0;
+Number of variants involving 'Queued + Awaiting Assignment' that result in 'Completed + In Call', indicating the process efficiency;Number of 'Queued + Awaiting Assignment' activities for cases where activity 'Completed + In Call' occurs;182.0;
+Percentage of 'Queued + Awaiting Assignment' followed by 'Accepted + Assigned' to evaluate direct assignment efficiency;Percentage of 'Queued + Awaiting Assignment' out of all 'Accepted + Assigned';0.94;
+Frequency of 'Queued + Awaiting Assignment' in high-performance cases (top 10% based on performance metric);Frequency of activity 'Queued + Awaiting Assignment';4511.0;
+Percentage of 'Queued + Awaiting Assignment' in cases that exceed the average case duration, indicating potential bottlenecks;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;
+Number of 'Queued + Awaiting Assignment' occurrences in cases with international resources, reflecting global operation dynamics;Number of 'Queued + Awaiting Assignment' activities != '' where ma is the last value of resource country;10767.0;
+Percentage of cases where 'Queued + Awaiting Assignment' directly precedes any 'Accepted' activity variant;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;
+Percentage of 'Queued + Awaiting Assignment' activities that lead to a resolution ('Completed + Resolved' or 'Completed + Closed') without reassignment;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;

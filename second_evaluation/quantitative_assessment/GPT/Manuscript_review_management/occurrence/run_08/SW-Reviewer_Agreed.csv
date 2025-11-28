@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Reviewer Agreed' compared to 'SW-AE Assign Reviewers';Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers';0.98;
+Percentage of manuscripts that proceed to 'SW-Awaiting EIC Decision' after 'SW-Reviewer Agreed';Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Percentage of 'SW-Reviewer Agreed' activities followed by 'Reviewer Invitation Reminder 1';Percentage of 'SW-Reviewer Agreed' out of all 'Reviewer Invitation Reminder 1';0.91;
+Frequency of 'SW-Reviewer Agreed' in relation to total activities in the event log;Percentage of 'SW-Reviewer Agreed' out of all cases where '' does not happen;0.49;
+Number of 'SW-Reviewer Agreed' that lead to 'SW-EIC Major Revision';Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-EIC Major Revision' occurs;32.0;
+Percentage of 'SW-Reviewer Agreed' followed by 'SW-AE Assign Reviewers';Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers';0.98;
+Percentage of 'SW-Reviewer Agreed' in manuscripts that are accepted ('RW-EIC Accept') after revision;Percentage of 'SW-Reviewer Agreed' out of all 'RW-EIC Accept';0.77;
+Percentage of 'SW-Reviewer Agreed' activities that occur after 'SW-Reviewer Declined';Percentage of 'SW-Reviewer Agreed' out of all 'SW-Reviewer Declined';1.0;
+Frequency of 'SW-Reviewer Agreed' in relation to 'SW-Reviewer Declined';Percentage of 'SW-Reviewer Agreed' out of all 'SW-Reviewer Declined';1.0;
+Percentage of 'SW-Reviewer Agreed' in the context of the ACM journal review process;Percentage of 'SW-Reviewer Agreed' out of all cases where '' does not happen;0.49;
+Number of 'SW-Reviewer Agreed' preceding 'SW-Awaiting AE Recommendation';Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-Awaiting AE Recommendation' occurs;55.0;
+Frequency of 'SW-Reviewer Agreed' before and after major revision rounds ('SW-EIC Major Revision', 'RW-EIC Major Revision');Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-EIC Major Revision' occurs;32.0;
+Percentage of 'SW-Reviewer Agreed' leading to a decision ('SW-Awaiting EIC Decision', 'RW-Awaiting EIC Decision');Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Number of 'SW-Reviewer Agreed' for manuscripts that required 'Plagiarism Originality Report Completed';Number of 'SW-Reviewer Agreed' activities for cases where activity 'Plagiarism Originality Report Completed' occurs;105.0;
+Percentage of 'SW-Reviewer Agreed' for manuscripts with 'Manuscript Export Succeeded';Percentage of 'SW-Reviewer Agreed' out of all 'Manuscript Export Succeeded';0.51;
+Number of 'SW-Reviewer Agreed' occurrences in the most frequent process variant;Number of 'SW-Reviewer Agreed' activities;110.0;
+Frequency of 'SW-Reviewer Agreed' in manuscripts that undergo 'SW-EIC Reject & Resubmit';Number of 'SW-Reviewer Agreed' activities;110.0;
+Number of 'SW-Reviewer Agreed' per variant, highlighting the variant with the highest frequency;the maximum of the number of times `ACTIVITY` == 'SW-Reviewer Agreed';5.0;

@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + In Call' out of all activity executions in the event log;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' occurrences across all cases;Number of 'Completed + In Call' activities;2018.0;
+Percentage of process variants that include 'Completed + In Call';Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' as the final activity in a case;Number of 'Completed + In Call' activities;2018.0;
+Percentage of 'Accepted + In Progress' directly followed by 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Frequency of 'Completed + In Call' that are not followed by any other activity;Number of 'Completed + In Call' activities;2018.0;
+Percentage of 'Completed + In Call' occurring before 'Completed + Resolved';Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Frequency of cases where 'Completed + In Call' appears more than once;Number of 'Completed + In Call' activities;2018.0;
+Percentage of 'Completed + In Call' executions relative to the total executions of 'Completed + Resolved';Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Frequency of 'Completed + In Call' in variants with performance duration below the median;Number of 'Completed + In Call' activities;2018.0;
+Percentage of 'Completed + In Call' that occur without any preceding 'Queued + Awaiting Assignment';Percentage of 'Completed + In Call' out of all cases where 'Queued + Awaiting Assignment' does not happen;0.27;
+Frequency of 'Completed + In Call' appearing immediately after a second consecutive 'Accepted + In Progress';Number of 'Completed + In Call' activities;2018.0;
+Percentage of all 'Completed + In Call' activities that belong to the top 5 most frequent variants;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' in cases that do not reach 'Completed + Closed';Number of 'Completed + In Call' activities for cases where activity 'Completed + Closed' does not occur;2018.0;
+Percentage of variants starting with 'Accepted + In Progress' that transition directly to 'Completed + In Call' without intermediate waiting states;Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Frequency of 'Completed + In Call' compared to the combined frequency of all 'Completed + Cancelled' and 'Completed + Closed' activities;Number of 'Completed + In Call' activities for cases where activity 'Completed + Cancelled' occurs;1.0;
+Percentage of 'Completed + In Call' activities that occur in cases with only two distinct activities;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' as the sole completion-type activity in a case;Number of 'Completed + In Call' activities;2018.0;
+Percentage of 'Completed + In Call' executions that happen within the first 24 hours of case initiation;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' in variants that do not contain any 'Accepted + Wait' subtypes;Number of 'Completed + In Call' activities for cases where activity 'Accepted + Wait' does not occur;2018.0;

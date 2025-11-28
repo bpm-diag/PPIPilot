@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Assigned' out of all activity executions in the event log;Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' occurrences across all cases;Number of 'Accepted + Assigned' activities;3121;
+Percentage of process variants that include 'Accepted + Assigned';Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' directly followed by 'Accepted + In Progress';Number of 'Accepted + Assigned' activities for cases where activity 'Accepted + In Progress' occurs;3117;
+Percentage of 'Accepted + Assigned' that occur before 'Completed + Resolved';Percentage of 'Accepted + Assigned' out of all 'Completed + Resolved';0.32;
+Frequency of 'Accepted + Assigned' in variants that eventually lead to 'Completed + Closed';Number of 'Accepted + Assigned' activities for cases where activity 'Completed + Closed' occurs;3089;
+Percentage of 'Accepted + Assigned' relative to the frequency of 'Accepted + In Progress';Percentage of 'Accepted + Assigned' out of all 'Accepted + In Progress';0.24;
+Frequency of 'Accepted + Assigned' in variants that also contain 'Completed + In Call';Number of 'Accepted + Assigned' activities for cases where activity 'Completed + In Call' occurs;62;
+Percentage of cases where 'Accepted + Assigned' appears at least once among all cases containing 'Completed + In Call';Percentage of 'Accepted + Assigned' out of all 'Completed + In Call';0.02;
+Frequency of 'Accepted + Assigned' occurring after 'Queued + Awaiting Assignment';Number of 'Accepted + Assigned' activities for cases where activity 'Queued + Awaiting Assignment' occurs;2981;
+Percentage of 'Accepted + Assigned' that are part of high-performance variants (performance > 1,000,000);Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' grouped by country of execution;Number of 'Accepted + Assigned' activities grouped by the last value of organization country;0:6;"{""0"":6,""SE"":3,""au"":17,""be"":256,""br"":112,""ca"":51,""cl"":2,""cn"":56,""de"":9,""fr"":265,""gb"":9,""in"":482,""jp"":8,""kr"":32,""my"":0,""nl"":52,""pe"":0,""pl"":896,""ru"":19,""se"":660,""th"":0,""tr"":0,""us"":186}"
+Frequency of 'Accepted + Assigned' in cases that do not contain any 'Accepted + Wait' sub-type activities;Number of 'Accepted + Assigned' activities for cases where activity 'Accepted + Wait' does not occur;3121;
+Percentage of variants containing 'Accepted + Assigned' that result in a resolution path ending with 'Completed + Closed' versus those ending with 'Completed + Cancelled';Percentage of 'Accepted + Assigned' out of all 'Completed + Closed';0.32;
+Frequency of 'Accepted + Assigned' appearing more than once in the same case;Number of 'Accepted + Assigned' activities;3121;
+Percentage of 'Accepted + Assigned' that immediately precede a waiting state (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', 'Accepted + Wait - Implementation', or 'Accepted + Wait');Percentage of 'Accepted + Assigned' out of all 'Accepted + Wait';0.51;
+Frequency of 'Accepted + Assigned' in the top 5 most frequent process variants;Number of 'Accepted + Assigned' activities;3121;
+Percentage of total activity transitions from 'Accepted + Assigned' to 'Accepted + In Progress' compared to all outgoing transitions from 'Accepted + Assigned';Percentage of 'Accepted + Assigned' out of all 'Accepted + In Progress';0.24;
+Frequency of 'Accepted + Assigned' in cases where 'Completed + In Call' appears earlier in the trace;Number of 'Accepted + Assigned' activities for cases where activity 'Completed + In Call' occurs;62;
+Percentage of 'Accepted + Assigned' executed by resource group V30 compared to other groups;Percentage of 'Accepted + Assigned' out of all cases;0.22;

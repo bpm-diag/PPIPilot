@@ -1,0 +1,15 @@
+Name;Metric;Value;Agrupation
+Total time spent in 'Accepted + Wait - Vendor' before moving to 'Accepted + In Progress';The sum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Accepted + In Progress';1993.71 days;
+Average time difference between 'Accepted + Wait - Vendor' and 'Accepted + Wait - User';The average of the duration between activity 'Accepted + Wait - Vendor' and activity 'Accepted + Wait - User';11.55 days;
+Total duration of 'Accepted + Wait - Vendor' in cases leading to 'Completed + Resolved';The sum of the duration between activity 'Accepted + Wait - Vendor' and the end of case where activity 'Completed + Resolved occurs;4435.95 days;
+Minimum time spent in 'Accepted + Wait - Vendor' across all cases;The minimum of the duration between activity Accepted + Wait - Vendor and the end of the case;1.23 minutes;
+Total time from 'Accepted + Wait - Vendor' to 'Completed + Closed' in the most frequent process variant;The sum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Closed';4412.05 days;
+Average duration of 'Accepted + Wait - Vendor' in cases that exceed the average case duration;The average of the duration between activity Accepted + Wait - Vendor and the end of the case;17.82 days;
+Longest time spent in 'Accepted + Wait - Vendor' before any subsequent activity;the maximum of the duration between the first time instant when `ACTIVITY` == 'Accepted + Wait - Vendor' and the last time instant when <ppinot4py.model.states.RuntimeState object at 0x000001A843391A90> - AppliesTo.PROCESS;364.39 days;
+Shortest time from 'Accepted + Wait - Vendor' to any 'Completed' activity;The minimum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Resolved';1.20 minutes;
+Average time from 'Accepted + Wait - Vendor' to 'Queued + Awaiting Assignment';The average of the duration between activity 'Accepted + Wait - Vendor' and activity 'Queued + Awaiting Assignment';11.55 days;
+Total time from 'Accepted + Wait - Vendor' to 'Accepted + Assigned' across all cases;The sum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Accepted + Assigned';390.13 days;
+Average time from 'Accepted + Wait - Vendor' to 'Accepted + Wait - Customer' and its impact on case duration;The average of the duration between activity 'Accepted + Wait - Vendor' and activity 'Accepted + Wait - Customer';3.83 days;
+Duration of 'Accepted + Wait - Vendor' in cases with above-average performance in reaching 'Completed + In Call';The average of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + In Call';;
+Average resolution time of 'Accepted + Wait - Vendor' cases;The average of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Resolved';13.14 days;
+Average time from 'Accepted + Wait - Vendor' to 'Completed + Resolved' compared to 'Accepted + Wait - User' to 'Completed + Resolved';The average of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Resolved';13.14 days;

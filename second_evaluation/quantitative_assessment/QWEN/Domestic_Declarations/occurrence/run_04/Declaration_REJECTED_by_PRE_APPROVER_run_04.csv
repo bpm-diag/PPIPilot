@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration REJECTED by PRE_APPROVER out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Number of Declaration REJECTED by PRE_APPROVER that are immediately preceded by Declaration APPROVED by PRE_APPROVER;Number of 'Declaration REJECTED by PRE_APPROVER' activities;86.0;
+Percentage of cases containing Declaration REJECTED by PRE_APPROVER that eventually lead to Payment Handled;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Payment Handled';0.01;
+Frequency of the variant starting with Declaration SUBMITTED by EMPLOYEE and containing Declaration REJECTED by PRE_APPROVER, compared to the total number of variants;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Percentage of Declaration REJECTED by PRE_APPROVER followed by Declaration REJECTED by EMPLOYEE;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration REJECTED by EMPLOYEE';0.07;
+Percentage of Declaration REJECTED by PRE_APPROVER relative to the total occurrences of all rejection activities (e.g., Declaration REJECTED by ADMINISTRATION, Declaration REJECTED by SUPERVISOR, etc.);Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Ratio of Declaration REJECTED by PRE_APPROVER to Declaration APPROVED by PRE_APPROVER;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';0.1;
+Percentage of Declaration REJECTED by PRE_APPROVER that reoccur in the same case after resubmission;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of Declaration REJECTED by PRE_APPROVER with case:Amount above 100 euros;Number of 'Declaration REJECTED by PRE_APPROVER' activities > 100 where ma is the last value of case:Amount;22.0;
+Percentage of Declaration REJECTED by PRE_APPROVER that appear in variants involving more than one resubmission cycle;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of Declaration REJECTED by PRE_APPROVER that are not followed by any further approval activity within the same case;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Number of Declaration REJECTED by PRE_APPROVER occurring as the final activity in a case;Number of 'Declaration REJECTED by PRE_APPROVER' activities;86.0;
+Percentage of Declaration REJECTED by PRE_APPROVER relative to the total number of all activity executions in the log;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Number of Declaration REJECTED by PRE_APPROVER occurring in 2017 versus 2018;Number of 'Declaration REJECTED by PRE_APPROVER' activities;86.0;
+Frequency of Declaration REJECTED by PRE_APPROVER in cases that originate from departments active only in 2017 versus those active in 2018;the average of the number of times `ACTIVITY` == 'Declaration REJECTED by PRE_APPROVER';0.01;

@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by PRE_APPROVER' compared to 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' followed by 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Number of 'Declaration REJECTED by PRE_APPROVER' that lead to 'Declaration APPROVED by ADMINISTRATION';Number of 'Declaration REJECTED by PRE_APPROVER' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;2.0;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all rejections;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.01;
+Frequency of 'Declaration REJECTED by PRE_APPROVER' in relation to total declarations processed;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases where '' does not happen;0.01;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' followed by 'Declaration REJECTED by EMPLOYEE';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration REJECTED by EMPLOYEE';0.07;
+Number of 'Declaration REJECTED by PRE_APPROVER' with amounts above 100 euros;Number of 'Declaration REJECTED by PRE_APPROVER' activities > 100 where ma is the last value of case:Amount;22.0;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' by 'STAFF MEMBER';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;;
+Ratio of 'Declaration REJECTED by PRE_APPROVER' over 'Declaration FINAL_APPROVED by SUPERVISOR';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.01;
+Number of times 'Declaration REJECTED by PRE_APPROVER' occurs in the most frequent process variant;Number of 'Declaration REJECTED by PRE_APPROVER' activities for cases where activity '' does not occur;86.0;
+Frequency of 'Declaration REJECTED by PRE_APPROVER' in cases with 'Request Payment' activity;Frequency of activity 'Declaration REJECTED by PRE_APPROVER' for cases where activity 'Request Payment' occurs;72.0;
+Percentage decrease in 'Declaration REJECTED by PRE_APPROVER' after introducing a pre-approval guideline adjustment;the average of the function base < 0 where base is the number of times `ACTIVITY` == 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' that are eventually approved;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.01;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' in the first quarter of the year compared to the rest of the year;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Frequency of 'Declaration REJECTED by PRE_APPROVER' per month;Number of 'Declaration REJECTED by PRE_APPROVER' activities;86.0;

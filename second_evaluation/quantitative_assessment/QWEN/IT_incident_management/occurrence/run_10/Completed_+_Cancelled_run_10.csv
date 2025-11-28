@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Cancelled' out of all activity executions in the event log;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Frequency of 'Completed + Cancelled' occurrences across all cases;Number of 'Completed + Cancelled' activities;1.0;
+Percentage of process variants that end with 'Completed + Cancelled';Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Number of times 'Completed + Cancelled' directly follows 'Accepted + In Progress';Number of 'Completed + Cancelled' activities;1.0;
+Percentage of 'Completed + Cancelled' that occur without any preceding 'Queued + Awaiting Assignment' activity;Percentage of 'Completed + Cancelled' out of all cases where 'Queued + Awaiting Assignment' does not happen;0.0;
+Frequency of 'Completed + Cancelled' compared to the frequency of 'Completed + Resolved';Number of 'Completed + Cancelled' activities for cases where activity 'Completed + Resolved' occurs;0.0;
+Percentage of cases containing 'Completed + Cancelled' that never reach 'Completed + Closed';Percentage of 'Completed + Cancelled' out of all cases where 'Completed + Closed' does not happen;0.0;
+Number of process variants where 'Completed + Cancelled' appears as a terminal activity;Number of 'Completed + Cancelled' activities;1.0;
+Percentage of 'Completed + Cancelled' events occurring in cases that also include 'Completed + In Call';Percentage of 'Completed + Cancelled' out of all 'Completed + In Call';0.0;
+Frequency of 'Completed + Cancelled' relative to the total number of completed-type activities (e.g., 'Completed + Resolved', 'Completed + Closed', 'Completed + In Call');Number of 'Completed + Cancelled' activities for cases where activity 'Completed + Resolved' occurs;0.0;
+Percentage of cases that transition from 'Accepted + Wait - User' to 'Completed + Cancelled';Percentage of 'Completed + Cancelled' out of all 'Accepted + Wait - User';0.0;
+Percentage of 'Completed + Cancelled' among all cancellation-related outcomes, considering the VINST system’s incident resolution semantics;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Frequency of direct transitions from 'Completed + In Call' to 'Completed + Cancelled';Number of 'Completed + Cancelled' activities for cases where activity 'Completed + In Call' occurs;1.0;
+Percentage of process variants containing 'Completed + In Call' that eventually result in 'Completed + Cancelled';Percentage of 'Completed + Cancelled' out of all 'Completed + In Call';0.0;
+Ratio of 'Completed + Cancelled' to 'Completed + Closed' across all variants;Number of 'Completed + Cancelled' activities for cases where activity 'Completed + Closed' occurs;0.0;
+Number of cases where 'Completed + Cancelled' occurs after at least one 'Accepted + Wait - Customer' activity;Number of 'Completed + Cancelled' activities for cases where activity 'Accepted + Wait - Customer' occurs;0.0;
+Percentage of 'Completed + Cancelled' events that appear in variants with performance duration below the median cycle time;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Frequency of 'Completed + Cancelled' in comparison to 'Unmatched + Unmatched';Number of 'Completed + Cancelled' activities for cases where activity 'Unmatched + Unmatched' occurs;0.0;
+Percentage of cases starting with 'Queued + Awaiting Assignment' that terminate with 'Completed + Cancelled';Percentage of 'Completed + Cancelled' out of all 'Queued + Awaiting Assignment';0.0;
+Number of 'Completed + Cancelled' occurrences per year to identify temporal trends;"ERROR: computing metric {'count': activity == 'Completed + Cancelled'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

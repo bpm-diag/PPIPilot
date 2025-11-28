@@ -1,0 +1,26 @@
+Name;Metric;Value;Agrupation
+Percentage of Request Payment that occur in variants containing Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Frequency of Request Payment following Declaration FINAL_APPROVED by SUPERVISOR without any prior rejection;Percentage of 'Request Payment' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Percentage of Request Payment out of all activity executions in the log;Percentage of 'Request Payment' out of all cases;0.96;
+Number of Request Payment activities that are preceded by Declaration APPROVED by PRE_APPROVER;Number of 'Request Payment' activities for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;660.0;
+Percentage of Request Payment that are not dismissed (i.e., lead to Payment Handled);Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Percentage of Request Payment from all instances of Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Request Payment' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Number of Request Payment with case:Amount above 100 euros;Number of 'Request Payment' activities > 100 where ma is the last value of case:Amount;2303.0;
+Percentage of Request Payment that occur in variants where Declaration REJECTED by PRE_APPROVER appears at least once;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Frequency of Request Payment in successful end-to-end variants (ending with Payment Handled) versus variants ending in rejection;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Percentage of Request Payment that follow a re-submission after Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Percentage of Request Payment followed by Payment Handled;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Percentage of Request Payment that originate from cases previously rejected by any actor, specifically including Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Ratio of Request Payment occurrences to Declaration SUBMITTED by EMPLOYEE occurrences;Percentage of 'Request Payment' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Percentage of Request Payment in the most frequent variant (Declaration SUBMITTED by EMPLOYEE → Declaration APPROVED by ADMINISTRATION → Declaration FINAL_APPROVED by SUPERVISOR → Request Payment → Payment Handled);Percentage of 'Request Payment' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Number of Request Payment performed across all cases;Number of 'Request Payment' activities;10040.0;
+Percentage of Request Payment done after Declaration APPROVED by PRE_APPROVER compared to after Declaration APPROVED by ADMINISTRATION;Percentage of 'Request Payment' out of all 'Declaration APPROVED by PRE_APPROVER';0.99;
+Average number of Request Payment per case (should be ≤1; deviations indicate data anomalies);the average of the number of times `ACTIVITY` == 'Request Payment';0.96
+Percentage of Request Payment that occur in variants with no rejection steps;Percentage of 'Request Payment' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Fraction of Request Payment that are eventually followed by Payment Handled within the same case;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Percentage of Request Payment in variants that include Declaration REJECTED by PRE_APPROVER relative to total Request Payment occurrences;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Number of Request Payment activities grouped by case:BudgetNumber;Number of 'Request Payment' activities;10040.0;
+Percentage of Request Payment that lead directly to Payment Handled without intermediate rejections or resubmissions;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Ratio of Request Payment occurrences in variants with Declaration REJECTED by PRE_APPROVER versus variants with Declaration REJECTED by ADMINISTRATION;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Percentage of Request Payment that occur in cases where the employee had to resubmit after any rejection, with specific focus on pre-approver rejections;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Number of Request Payment made per year (2017 vs 2018);"ERROR: computing metric {'count': activity == 'Request Payment'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average duration of 'Accepted + Wait' before transitioning to 'Accepted + In Progress';The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + In Progress';15.69 days;
+Total duration of 'Accepted + Wait' across all cases;The sum of the duration between activity Accepted + Wait and the end of the case;21444.92 days;
+Average duration of 'Accepted + Wait' followed by 'Completed + In Call';The average of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';6.89 days;
+Difference in average duration between 'Accepted + Wait' and 'Accepted + Wait - User';The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait - User';7.88 days;
+Difference in total duration between 'Accepted + Wait' and 'Accepted + Wait - Vendor';The sum of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait - Vendor';526.75 days;
+Average duration of 'Accepted + Wait' in cases leading to 'Completed + Resolved';The average of the duration between activity 'Accepted + Wait' and activity 'Completed + Resolved';15.69 days;
+Total duration of 'Accepted + Wait' in cases not leading to 'Completed + Resolved';The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + Resolved does not occur;21444.92 days;
+Minimum duration of 'Accepted + Wait' before any subsequent activity;The minimum of the duration between activity Accepted + Wait and the end of the case;12.00 seconds;
+Maximum duration of 'Accepted + Wait' before transitioning to 'Accepted + Assigned';The maximum of the duration between activity 'Accepted + Wait' and activity 'Accepted + Assigned';185.82 days;
+Average duration of 'Accepted + Wait' in cases with 'Completed + In Call' as the final activity;The average of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';6.89 days;
+Total duration of 'Accepted + Wait' in cases with 'Completed + In Call' as the final activity;The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';364.98 days;
+Average duration of 'Accepted + Wait' in cases with more than one occurrence of 'Accepted + In Progress';The average of the duration between activity Accepted + Wait and activity Accepted + In Progress for cases where activity Accepted + In Progress occurs;15.69 days;
+Duration of 'Accepted + Wait' in the shortest path to 'Completed + Closed';The minimum of the duration between activity 'Accepted + Wait' and activity 'Completed + Closed';5.47 minutes;
+Duration of 'Accepted + Wait' in the longest path to 'Completed + Closed';The maximum of the duration between activity 'Accepted + Wait' and activity 'Completed + Closed';439.40 days;
+Average duration of 'Accepted + Wait' in cases that involve 'Queued + Awaiting Assignment' before 'Accepted + In Progress';The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + In Progress';16.14 days;

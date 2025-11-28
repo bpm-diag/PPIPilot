@@ -1,0 +1,26 @@
+Name;Metric;Value;Agrupation
+Percentage of Request Payment that occur after Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Request Payment' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Number of Request Payment events in cases that previously experienced Declaration REJECTED by PRE_APPROVER;Number of 'Request Payment' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;72.0;
+Percentage of Request Payment out of all Request Payment and Payment Handled executions;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Number of Request Payment events preceded by Declaration APPROVED by PRE_APPROVER;Number of 'Request Payment' activities for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;660.0;
+Percentage of Request Payment that are not dismissed (i.e., followed by Payment Handled);Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Percentage of Request Payment from all activities occurring after any approval step (Declaration APPROVED by ADMINISTRATION, Declaration APPROVED by BUDGET OWNER, or Declaration APPROVED by PRE_APPROVER);Percentage of 'Request Payment' out of all 'Declaration APPROVED by ADMINISTRATION';0.99;
+Number of Request Payment with case:Amount above 100 euros;Number of 'Request Payment' activities > 100 where ma is the last value of case:Amount;2303.0;
+Number of Request Payment grouped by case:BudgetNumber;Number of 'Request Payment' activities;10040.0;
+Percentage of Request Payment that originate from variants containing Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Percentage of Declaration FINAL_APPROVED by SUPERVISOR followed by Request Payment;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Request Payment';1.0;
+Percentage of Request Payment that follow a rejection path involving Declaration REJECTED by PRE_APPROVER at any point in the case;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Number of Request Payment in relation to Declaration SUBMITTED by EMPLOYEE;Number of 'Request Payment' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;10039.0;
+Percentage of Request Payment across all activity executions in the log;Percentage of 'Request Payment' out of all cases;0.96;
+Number of times Request Payment is performed;Number of 'Request Payment' activities;10040.0;
+Percentage of Request Payment done after Declaration APPROVED by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Declaration APPROVED by PRE_APPROVER';0.99;
+Average number of Request Payment per completed reimbursement case;the average of the number of times `ACTIVITY` == 'Request Payment' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Payment Handled';1.0;
+Percentage of Request Payment that occur in variants with more than one submission attempt due to prior rejections (including Declaration REJECTED by PRE_APPROVER);Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Ratio of Request Payment over Declaration SUBMITTED by EMPLOYEE;Percentage of 'Request Payment' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Fraction of Request Payment that are eventually followed by Payment Handled;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Percentage of Request Payment originating from cases that never included Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Occasions how often the Request Payment is performed in successful end-to-end reimbursement flows (ending in Payment Handled);Number of 'Request Payment' activities for cases where activity 'Payment Handled' occurs;10037.0;
+The ratio of Request Payment that are not eventually performed after Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all cases where 'Request Payment' does not happen;0.96;
+Percentage of Request Payment executed by SYSTEM resource;Percentage of 'Request Payment' out of all cases;1.0;
+Total Request Payment done by SYSTEM;Number of 'Request Payment' activities == 'SYSTEM' where ma is the last value of org:resource;10036.0;
+Number of Request Payment made per year (2017 vs 2018);"ERROR: computing metric {'count': activity == 'Request Payment'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

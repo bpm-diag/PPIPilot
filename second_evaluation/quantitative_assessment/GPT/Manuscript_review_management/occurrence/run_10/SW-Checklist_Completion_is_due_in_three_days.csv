@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of \SW-Checklist Completion is due in three days\ before \SW-Checklist Completed\;Frequency of activity 'SW-Checklist Completion is due in three days' for cases where activity 'SW-Checklist Completed' occurs;30.0;
+Percentage of \SW-Checklist Completion is due in three days\ out of all checklist-related activities;Percentage of 'SW-Checklist Completion is due in three days' out of all 'SW-Checklist Completed';0.37;
+Number of \SW-Checklist Completion is due in three days\ that are followed by \Manuscript Export Succeeded\;Frequency of activity 'SW-Checklist Completion is due in three days' for cases where activity 'Manuscript Export Succeeded' occurs;30.0;
+Percentage of \SW-Checklist Completion is due in three days\ from all \SW-Awaiting AE Assignment\;Percentage of 'SW-Checklist Completion is due in three days' out of all 'SW-Awaiting AE Assignment';0.25;
+Frequency of \SW-Checklist Completion is due in three days\ in relation to \SW-Reviewer Agreed\;Frequency of activity 'SW-Checklist Completion is due in three days' for cases where activity 'SW-Reviewer Agreed' occurs;17.0;
+Percentage of \SW-Checklist Completion is due in three days\ followed by \SW-AE Assign Reviewers\;Percentage of 'SW-Checklist Completion is due in three days' out of all 'SW-AE Assign Reviewers';0.39;
+Percentage of \SW-Checklist Completion is due in three days\ in manuscripts leading to \SW-EIC Reject\;Percentage of 'SW-Checklist Completion is due in three days' out of all 'SW-EIC Reject';0.26;
+Frequency of \SW-Checklist Completion is due in three days\ in manuscripts leading to \SW-EIC Major Revision\;Frequency of activity 'SW-Checklist Completion is due in three days' for cases where activity 'SW-EIC Major Revision' occurs;6.0;
+Number of \SW-Checklist Completion is due in three days\ followed by any activity within 24 hours;Frequency of activity 'SW-Checklist Completion is due in three days';31.0;
+Percentage of \SW-Checklist Completion is due in three days\ that lead to a manuscript being accepted (\RW-EIC Accept\);Percentage of 'SW-Checklist Completion is due in three days' out of all 'RW-EIC Accept';0.45;
+Frequency of \SW-Checklist Completion is due in three days\ in relation to \SW-Reviewer No Response\;Frequency of activity 'SW-Checklist Completion is due in three days' for cases where activity 'SW-Reviewer No Response' occurs;3.0;
+Percentage of \SW-Checklist Completion is due in three days\ in manuscripts that undergo more than one revision cycle;Percentage of 'SW-Checklist Completion is due in three days' out of all cases;0.33;
+Number of \SW-Checklist Completion is due in three days\ in manuscripts that exceed the average processing time;Frequency of activity 'SW-Checklist Completion is due in three days';31.0;
+Number of times \SW-Checklist Completion is due in three days\ occurs per variant;"ERROR: computing metric {'count': activity == 'SW-Checklist Completion is due in three days'"", 'metric_condition': '> 0', 'aggregation': 'total', 'group_by': 'variant'}""";;
+Percentage of \SW-Checklist Completion is due in three days\ in relation to the total number of activities in the longest variant;"ERROR: computing metric {'count': activity == 'SW-Checklist Completion is due in three days'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'group_by': 'longest_variant'}""";;

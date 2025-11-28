@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Average resolution time for 'Completed + Cancelled';The average of the duration between the start of the case and activity 'Completed + Cancelled';8.66 hours;
+Average time difference between 'Completed + Cancelled' and 'Accepted + In Progress';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + Cancelled';8.66 hours;
+Total resolution time for all 'Completed + Cancelled' activities;The sum of the duration between the start of the case and activity 'Completed + Cancelled';8.66 hours;
+Longest resolution time for 'Completed + Cancelled';the maximum of the duration between the first time instant when <ppinot4py.model.states.RuntimeState object at 0x000001E27CECF040> - AppliesTo.PROCESS and the last time instant when `ACTIVITY` == 'Completed + Cancelled';8.66 hours;
+Shortest resolution time for 'Completed + Cancelled';The minimum of the duration between the start of the case and activity 'Completed + Cancelled';8.66 hours;
+Average time from 'Accepted + In Progress' to 'Completed + Cancelled';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + Cancelled';8.66 hours;
+Total time from 'Accepted + Wait - User' to 'Completed + Cancelled';The sum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Cancelled';8.65 hours;
+Average time from 'Completed + In Call' to 'Completed + Cancelled';The average of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Time from first 'Accepted + In Progress' to 'Completed + Cancelled' in the most frequent variant;The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + Cancelled';8.66 hours;
+Time from 'Completed + In Call' to 'Completed + Cancelled' in variants where both occur;The average of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Average waiting time before 'Completed + Cancelled' is initiated;The average of the duration between the start of the case and activity 'Completed + Cancelled';8.66 hours;
+Total time involved in processes leading to 'Completed + Cancelled';The sum of the duration between the start of the case and activity 'Completed + Cancelled';8.66 hours;
+Average time between 'Completed + Cancelled' and the next activity in the process;The average of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Average time from 'Completed + Cancelled' to case closure;The average of the duration between activity 'Completed + Cancelled' and activity 'Completed + Closed';;
+Time from 'Completed + Cancelled' to 'Completed + Resolved' in cases where both occur;The average of the duration between activity 'Completed + Cancelled' and activity 'Completed + Resolved';;
+Average time from case start to 'Completed + Cancelled';The average of the duration between the start of the case and activity 'Completed + Cancelled';8.66 hours;
+Median resolution time for 'Completed + Cancelled';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + Cancelled';8.66 hours;
+Distribution of resolution times for 'Completed + Cancelled';The sum of the duration between activity 'Accepted + In Progress' and activity 'Completed + Cancelled';8.66 hours;
+Difference in average resolution time between 'Completed + Cancelled' and 'Completed + Closed';The average of the duration between activity 'Completed + Cancelled' and activity 'Completed + Closed';;

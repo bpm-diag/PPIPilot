@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration APPROVED by PRE_APPROVER' followed by 'Declaration FINAL_APPROVED by SUPERVISOR';Frequency of activity 'Declaration APPROVED by PRE_APPROVER' for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;663;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all approval activities;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';1.0;
+Number of 'Declaration APPROVED by PRE_APPROVER' that lead to 'Request Payment';Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Request Payment' occurs;679;
+Frequency of 'Declaration SUBMITTED by EMPLOYEE' preceding 'Declaration APPROVED by PRE_APPROVER';Frequency of activity 'Declaration SUBMITTED by EMPLOYEE' for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;666;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' followed by 'Payment Handled';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Payment Handled';0.07;
+Number of 'Declaration APPROVED by PRE_APPROVER' in relation to 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;69;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' with amounts above 100 euros;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' that are not followed by 'Declaration REJECTED by ADMINISTRATION';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases where 'Declaration REJECTED by ADMINISTRATION' does not happen;0.06;
+Number of 'Declaration APPROVED by PRE_APPROVER' grouped by 'org:resource';Number of 'Declaration APPROVED by PRE_APPROVER' activities grouped by the last value of org:resource;STAFF MEMBER:6;"{""STAFF MEMBER"":6,""SYSTEM"":679}"
+Percentage of 'Declaration APPROVED by PRE_APPROVER' in the total process variants leading to 'Payment Handled';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Payment Handled';0.07;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' in cases with a budget number different than 'budget 86566';Frequency of activity 'Declaration APPROVED by PRE_APPROVER';666;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' followed by any rejection activity;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration REJECTED by EMPLOYEE';0.07;
+Number of 'Declaration APPROVED by PRE_APPROVER' in relation to 'Declaration APPROVED by ADMINISTRATION';Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;1;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' in the total declarations submitted by employees;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.06;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' leading to an increase in case amount;Frequency of activity 'Declaration APPROVED by PRE_APPROVER';660;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' followed by 'Declaration FINAL_APPROVED by SUPERVISOR' out of all final approvals;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.07;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' in cases that were eventually paid;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Payment Handled';0.07;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' by month;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685;
+Number of 'Declaration APPROVED by PRE_APPROVER' per year;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685;

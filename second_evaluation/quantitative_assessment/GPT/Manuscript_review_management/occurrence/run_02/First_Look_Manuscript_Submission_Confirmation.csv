@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of First Look Manuscript Submission Confirmation followed by Manuscript Export Succeeded;Frequency of activity 'First Look Manuscript Submission Confirmation' for cases where activity 'Manuscript Export Succeeded' occurs;25.0;
+Percentage of First Look Manuscript Submission Confirmation out of all manuscript submission activities;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'Original Manuscript Submission Confirmation';0.26;
+Number of First Look Manuscript Submission Confirmation that are preceded by Original Manuscript Submission Confirmation;Number of 'First Look Manuscript Submission Confirmation' activities for cases where activity 'Original Manuscript Submission Confirmation' occurs;24.0;
+Percentage of First Look Manuscript Submission Confirmation that lead to a SW-EIC Accept decision;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'SW-EIC Accept';1.0;
+Frequency of First Look Manuscript Submission Confirmation in relation to Revised Manuscript Submission Confirmation;Frequency of activity 'First Look Manuscript Submission Confirmation' for cases where activity 'Revised Manuscript Submission Confirmation' occurs;22.0;
+Percentage of First Look Manuscript Submission Confirmation followed by Awaiting Assignment to Batch;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'Awaiting Assignment to Batch';0.92;
+Percentage of manuscripts with First Look Manuscript Submission Confirmation that enter the SW-Awaiting EIC Decision stage;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'SW-Awaiting EIC Decision';0.37;
+Frequency of First Look Manuscript Submission Confirmation followed by First Look-Please submit updates;Frequency of activity 'First Look Manuscript Submission Confirmation' for cases where activity 'First Look-Please submit updates' occurs;23.0;
+Percentage of First Look Manuscript Submission Confirmation in manuscripts that exceed the Plagiarism Percent Match Threshold;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'Plagiarism Percent Match Threshold Exceeded';0.27;
+Percentage of First Look Manuscript Submission Confirmation that are followed by Manuscript Export Succeeded within the same variant path;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'Manuscript Export Succeeded';0.28;
+Percentage of First Look Manuscript Submission Confirmation in manuscripts that are eventually accepted (SW-EIC Accept);Percentage of 'First Look Manuscript Submission Confirmation' out of all 'SW-EIC Accept';1.0;
+Number of First Look Manuscript Submission Confirmation that precede any SW-Reviewer Agreed activity;Number of 'First Look Manuscript Submission Confirmation' activities for cases where activity 'SW-Reviewer Agreed' occurs;18.0;
+Number of First Look Manuscript Submission Confirmation made per year;Number of 'First Look Manuscript Submission Confirmation' activities;27.0;
+Number of First Look Manuscript Submission Confirmation grouped by month;Number of 'First Look Manuscript Submission Confirmation' activities;27.0;
+Frequency of First Look Manuscript Submission Confirmation in manuscripts that undergo SW–Major Revision due in 1 month;Number of 'First Look Manuscript Submission Confirmation' activities;27.0;

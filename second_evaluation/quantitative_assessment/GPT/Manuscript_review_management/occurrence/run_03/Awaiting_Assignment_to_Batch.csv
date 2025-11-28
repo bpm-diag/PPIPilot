@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of \Awaiting Assignment to Batch\ compared to \SW-Reviewer Agreed\;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Reviewer Agreed';0.39;
+Percentage of manuscripts that proceed to \Awaiting Assignment to Batch\ after \SW-EIC Accept\;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Accept';1.0;
+Number of times \Awaiting Assignment to Batch\ occurs after \First Look-Your updates are overdue\;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look-Your updates are overdue' occurs;10.0;
+Percentage of \Awaiting Assignment to Batch\ occurrences out of all activities in the review process;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Frequency of \Awaiting Assignment to Batch\ as a concluding activity in the manuscript review process;Number of 'Awaiting Assignment to Batch' activities;26.0;
+Percentage of \Awaiting Assignment to Batch\ followed by \Manuscript Export Succeeded\;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Frequency of \Awaiting Assignment to Batch\ in manuscripts that required major revisions (\SW-EIC Major Revision\) versus minor revisions (\RW-EIC Minor Revision\);Number of 'Awaiting Assignment to Batch' activities for cases where activity 'SW-EIC Major Revision' occurs;13.0;
+Percentage of \Awaiting Assignment to Batch\ in relation to all activities performed by the SYSTEM performer;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.29;
+Number of \Awaiting Assignment to Batch\ occurrences before \First Look Manuscript Submission Confirmation\;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look Manuscript Submission Confirmation' occurs;24.0;
+Percentage of manuscripts that reach \Awaiting Assignment to Batch\ without \Reviewer Invitation Reminder 1\;Percentage of 'Awaiting Assignment to Batch' out of all cases where 'Reviewer Invitation Reminder 1' does not happen;0.28;
+Frequency of \Awaiting Assignment to Batch\ in manuscripts that exceeded the Plagiarism Percent Match Threshold;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Plagiarism Percent Match Threshold Exceeded' occurs;7.0;
+Ratio of \Awaiting Assignment to Batch\ occurrences in manuscripts with \SW-Reviewer No Response\ compared to those with \SW-Reviewer Agreed\;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Reviewer No Response';0.4;
+Percentage of \Awaiting Assignment to Batch\ occurrences in the total event log compared to \Original Manuscript Submission Confirmation\;Percentage of 'Awaiting Assignment to Batch' out of all 'Original Manuscript Submission Confirmation';0.28;
+Number of \Awaiting Assignment to Batch\ occurrences per variant;"ERROR: computing metric {'count': activity == 'Awaiting Assignment to Batch'"", 'aggregation': 'total', 'group_by': 'variant'}""";;
+Ratio of \Awaiting Assignment to Batch\ over \SW-Reviewer Agreed\ in the most frequent process variant;"ERROR: computing metric {'count': activity == 'Awaiting Assignment to Batch'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity == 'SW-Reviewer Agreed'"", 'group_by': 'variant'}""";;

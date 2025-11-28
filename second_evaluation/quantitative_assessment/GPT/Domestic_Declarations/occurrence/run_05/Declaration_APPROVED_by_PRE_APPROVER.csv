@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration APPROVED by PRE_APPROVER' followed by 'Declaration FINAL_APPROVED by SUPERVISOR';Frequency of activity 'Declaration APPROVED by PRE_APPROVER' for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;663.0;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all approval activities;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';1.0;
+Number of 'Declaration APPROVED by PRE_APPROVER' that lead to 'Request Payment';Frequency of activity 'Declaration APPROVED by PRE_APPROVER' for cases where activity 'Request Payment' occurs;660.0;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' followed by 'Payment Handled';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Payment Handled';0.07;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' in cases with amounts above 100 euros;Frequency of activity 'Declaration APPROVED by PRE_APPROVER';130.0;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' by 'STAFF MEMBER';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;;
+Number of 'Declaration APPROVED by PRE_APPROVER' grouped by 'case:BudgetNumber';Number of 'Declaration APPROVED by PRE_APPROVER' activities;685.0;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' in the most common process variant;Frequency of activity 'Declaration APPROVED by PRE_APPROVER';666.0;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' in cases that were not eventually rejected;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.06;
+Number of times 'Declaration REJECTED by PRE_APPROVER' occurs in relation to 'Declaration APPROVED by PRE_APPROVER';Frequency of activity 'Declaration REJECTED by PRE_APPROVER' for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;67.0;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' in relation to total declarations submitted;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.06;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' that are followed by any rejection activity;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.83;
+Number of 'Declaration APPROVED by PRE_APPROVER' in relation to 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;69.0;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' followed by 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Total 'Declaration APPROVED by PRE_APPROVER' done by 'SYSTEM';Number of 'Declaration APPROVED by PRE_APPROVER' activities == 'SYSTEM' where ma is the last value of org:resource;679.0;
+Ratio of 'Declaration APPROVED by PRE_APPROVER' over 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.06;
+Occasions how often 'Declaration APPROVED by PRE_APPROVER' is performed before 'Declaration FINAL_APPROVED by SUPERVISOR';Frequency of activity 'Declaration APPROVED by PRE_APPROVER' for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;663.0;
+Percentage decrease of 'Declaration REJECTED by PRE_APPROVER' after implementing changes based on PPI analysis;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' by year;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Average number of 'Declaration APPROVED by PRE_APPROVER' per month;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by PRE_APPROVER';0.07;

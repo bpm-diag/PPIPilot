@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Resolved' out of all activity executions in the event log;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' occurrences across all cases;Number of 'Completed + Resolved' activities;6108;
+Percentage of process variants that end with 'Completed + Resolved' followed by 'Completed + Closed';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' directly preceded by 'Accepted + In Progress';Number of 'Completed + Resolved' activities for cases where activity 'Accepted + In Progress' occurs;6087;
+Percentage of 'Completed + Resolved' that occur after at least one 'Queued + Awaiting Assignment' activity;Percentage of 'Completed + Resolved' out of all 'Queued + Awaiting Assignment';1.0;
+Frequency of 'Completed + Resolved' appearing in variants that also contain 'Completed + In Call';Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' occurs;154;
+Percentage of 'Completed + Resolved' executions that are part of high-frequency variants (frequency ≥ 100);the average of the function base >= 100 where base is the number of times `ACTIVITY` == 'Completed + Resolved';0.0;
+Frequency of 'Completed + Resolved' in cases where 'Completed + In Call' appears earlier in the trace;Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' occurs;154;
+Percentage of 'Completed + Resolved' that are not immediately followed by any other activity (i.e., terminal in the trace before closure);Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' occurring after 'Accepted + Wait - User', 'Accepted + Wait - Implementation', 'Accepted + Wait - Vendor', or 'Accepted + Wait';Number of 'Completed + Resolved' activities for cases where activity 'Accepted + Wait - User' occurs;2728;
+Percentage of all 'Completed + Resolved' instances that belong to variants containing loops (e.g., repeated 'Accepted + In Progress');Percentage of 'Completed + Resolved' out of all 'Accepted + In Progress';0.75;
+Frequency of 'Completed + Resolved' in traces that never include 'Completed + In Call';Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' does not occur;6108;
+Percentage of variants containing 'Completed + Resolved' that have a total performance duration above the median variant performance;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' directly following 'Accepted + Assigned';Number of 'Completed + Resolved' activities for cases where activity 'Accepted + Assigned' occurs;2101;
+Percentage of 'Completed + Resolved' activities that occur in the same case as at least one 'Completed + In Call' activity;Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Resolved' in variants initiated by 'Queued + Awaiting Assignment' versus those initiated by 'Accepted + In Progress';Number of 'Completed + Resolved' activities for cases where activity 'Queued + Awaiting Assignment' occurs;4908;
+Percentage of 'Completed + Resolved' executions that are part of the top 5 most frequent process variants;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' appearing more than once in the same case;Number of 'Completed + Resolved' activities;6108;
+Percentage of 'Completed + Resolved' that are followed within 24 hours by 'Completed + Closed';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' in cases handled by resources from different countries (leveraging the 'country' column in the event log);Number of 'Completed + Resolved' activities grouped by the last value of resource country;0:5674;"{""0"":5674,""Australia"":0,""Belgium"":39,""Brazil"":10,""Canada"":2,""China"":0,""France"":5,""INDIA"":99,""Japan"":5,""Korea"":1,""MALAYSIA"":0,""POLAND"":150,""RUSSIAN FEDERATION"":0,""Sweden"":109,""THAILAND"":1,""USA"":13,""United Kingdom"":0}"

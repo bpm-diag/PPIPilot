@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Reviewer Invitation Reminder 2' sent after 'SW-AE Assign Reviewers';Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'SW-AE Assign Reviewers' occurs;36;
+Percentage of manuscripts that received a 'Reviewer Invitation Reminder 2' out of all manuscripts;Percentage of 'Reviewer Invitation Reminder 2' out of all cases where '' does not happen;0.44;
+Number of 'Reviewer Invitation Reminder 2' that precede a 'SW-Reviewer Agreed';Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'SW-Reviewer Agreed' occurs;37;
+Percentage of 'Reviewer Invitation Reminder 2' followed by 'SW-Reviewer Agreed' out of all 'Reviewer Invitation Reminder 2' sent;Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-Reviewer Agreed';0.8;
+Frequency of 'Reviewer Invitation Reminder 2' in relation to 'Reviewer Invitation Reminder 1';Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'Reviewer Invitation Reminder 1' occurs;41;
+Percentage of 'Reviewer Invitation Reminder 2' that lead to 'Assign a Different Editor' due to non-response;Percentage of 'Reviewer Invitation Reminder 2' out of all 'Assign a Different Editor';0.64;
+Number of 'Reviewer Invitation Reminder 2' sent per manuscript;Frequency of activity '{}' grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":2,""DRW3"":1,""DSW3"":14,""DSW4"":7,""MSC4"":15,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of 'Reviewer Invitation Reminder 2' in the variant leading to 'SW-EIC Major Revision';Percentage of 'Reviewer Invitation Reminder 2' out of all 'SW-EIC Major Revision';0.8;
+Frequency of 'Reviewer Invitation Reminder 2' in manuscripts that undergo 'RW-EIC Accept';Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'RW-EIC Accept' occurs;16;
+Percentage of 'Reviewer Invitation Reminder 2' in manuscripts that are eventually accepted vs. those that are rejected;Percentage of 'Reviewer Invitation Reminder 2' out of all 'RW-EIC Accept';0.73;
+Number of 'Reviewer Invitation Reminder 2' in relation to the total number of review process activities;Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity '' does not occur;41;
+Frequency of 'Reviewer Invitation Reminder 2' in the most common process variant;Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity '' does not occur;41;
+Percentage of 'Reviewer Invitation Reminder 2' followed by 'Unassign Editor' indicating a change in the review process;Percentage of 'Reviewer Invitation Reminder 2' out of all 'Unassign Editor';0.64;
+Number of 'Reviewer Invitation Reminder 2' followed by 'SW-Reviewer Declined', indicating a negative outcome;Frequency of activity 'Reviewer Invitation Reminder 2' for cases where activity 'SW-Reviewer Declined' occurs;26;
+Percentage of 'Reviewer Invitation Reminder 2' in relation to all communication activities within the review process;Percentage of 'Reviewer Invitation Reminder 2' out of all cases where '' does not happen;0.44;

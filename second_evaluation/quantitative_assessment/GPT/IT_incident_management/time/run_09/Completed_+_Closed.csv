@@ -1,0 +1,25 @@
+Name;Metric;Value;Agrupation
+Average time from 'Accepted + In Progress' to 'Completed + Closed';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + Closed';16.07 days;
+Average time from 'Completed + In Call' to 'Completed + Closed';The average of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';12.45 days;
+Total time from 'Queued + Awaiting Assignment' to 'Completed + Closed';The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + Closed';76520.54 days;
+Minimum time from 'Accepted + Wait - User' to 'Completed + Closed';The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Closed';15.00 seconds;
+Average resolution time for 'Completed + Closed';The average of the duration between the start of the case and activity 'Completed + Closed';16.09 days;
+Total resolution time for 'Completed + Closed';The sum of the duration between the start of the case and activity 'Completed + Closed';89695.10 days;
+Minimum resolution time for 'Completed + Closed';The minimum of the duration between the start of the case and activity 'Completed + Closed';1.58 minutes;
+Average time between 'Accepted + Assigned' and 'Completed + Closed';The average of the duration between activity 'Accepted + Assigned' and activity 'Completed + Closed';19.24 days;
+Total time between 'Accepted + Wait - Implementation' and 'Completed + Closed';The sum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Closed';7091.69 days;
+Minimum time between 'Accepted + Wait - Vendor' and 'Completed + Closed';The minimum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Closed';1.23 minutes;
+Average waiting time to 'Completed + Closed' after 'Accepted + Wait - Customer';The average of the duration between activity 'Accepted + Wait - Customer' and activity 'Completed + Closed';16.58 days;
+Total waiting time to 'Completed + Closed' after 'Accepted + Wait';The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + Closed';20975.19 days;
+Minimum waiting time to 'Completed + Closed' after 'Accepted + Wait - Implementation';The minimum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Closed';3.93 hours;
+Average time it takes 'Completed + Closed' after 'Completed + Resolved';The average of the duration between activity 'Completed + Resolved' and activity 'Completed + Closed';6.21 days;
+Total time it takes 'Completed + Closed' after 'Completed + Resolved';The sum of the duration between activity 'Completed + Resolved' and activity 'Completed + Closed';34641.53 days;
+Minimum time it takes 'Completed + Closed' after 'Completed + Resolved';The minimum of the duration between activity 'Completed + Resolved' and activity 'Completed + Closed';1.00 seconds;
+Average time for 'Completed + Closed' considering all variants leading to it;The average of the duration between the start of the case and activity 'Completed + Closed';16.09 days;
+Total time for 'Completed + Closed' considering all variants leading to it;The sum of the duration between the start of the case and activity 'Completed + Closed';89695.10 days;
+Minimum time for 'Completed + Closed' considering all variants leading to it;The minimum of the duration between the start of the case and activity 'Completed + Closed';1.58 minutes;
+'Completed + Closed' cycle time in the context of VINST incident and problem management system;The average of the duration between the start of the case and activity 'Completed + Closed';16.09 days;
+Average time from 'Completed + In Call' to 'Completed + Closed' to understand its impact on the resolution process;The average of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';12.45 days;
+Difference in average time from 'Accepted + In Progress' to 'Completed + Closed' and from 'Completed + In Call' to 'Completed + Closed';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + Closed';16.07 days;
+Average time from 'Accepted + Wait - Vendor' to 'Completed + Closed' as a measure of external dependencies impact;The average of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Closed';18.08 days;
+Total time from 'Accepted + Wait - Customer' to 'Completed + Closed' to evaluate customer response impact;The sum of the duration between activity 'Accepted + Wait - Customer' and activity 'Completed + Closed';1392.52 days;

@@ -1,0 +1,24 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-Reviewer Agreed' to 'SW-Awaiting EIC Decision';The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Total time from 'SW-Reviewer Agreed' to 'SW-Awaiting EIC Decision';The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';3223.18 days;
+Minimum time from 'SW-Reviewer Agreed' to 'SW-Awaiting EIC Decision';The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';41.78 days;
+Average time from 'SW-Awaiting AE Recommendation' to 'SW-Awaiting EIC Decision';The average of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-Awaiting EIC Decision';3.75 days;
+Total resolution time of 'SW-Awaiting EIC Decision';The sum of the duration between activity SW-Awaiting EIC Decision and the end of the case;5119.61 days;
+Minimum resolution time of 'SW-Awaiting EIC Decision';The minimum of the duration between activity SW-Awaiting EIC Decision and the end of the case;2.25 minutes;
+Average time for 'SW-Awaiting EIC Decision';The average of the duration between activity SW-Awaiting EIC Decision and the end of the case;86.77 days;
+Total time for 'SW-Awaiting EIC Decision';The sum of the duration between activity SW-Awaiting EIC Decision and the end of the case;5119.61 days;
+Minimum time for 'SW-Awaiting EIC Decision';The minimum of the duration between activity SW-Awaiting EIC Decision and the end of the case;2.25 minutes;
+Average waiting time to the 'SW-Awaiting EIC Decision';The average of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';68.65 days;
+Total waiting time to the 'SW-Awaiting EIC Decision';The sum of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';4050.64 days;
+Minimum waiting time to the 'SW-Awaiting EIC Decision';The minimum of the duration between the start of the case and activity 'SW-Awaiting EIC Decision';2.04 days;
+Average time it takes 'SW-Awaiting EIC Decision' after 'SW-AE Assign Reviewers';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting EIC Decision';74.31 days;
+Total time it takes 'SW-Awaiting EIC Decision' after 'SW-AE Assign Reviewers';The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting EIC Decision';3344.01 days;
+Minimum time it takes 'SW-Awaiting EIC Decision' after 'SW-AE Assign Reviewers';The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting EIC Decision';41.79 days;
+Average time between 'SW-AE Assign Reviewers' and 'SW-Awaiting EIC Decision';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting EIC Decision';74.31 days;
+Total time between 'SW-AE Assign Reviewers' and 'SW-Awaiting EIC Decision';The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting EIC Decision';3344.01 days;
+Minimum time between 'SW-AE Assign Reviewers' and 'SW-Awaiting EIC Decision';The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting EIC Decision';41.79 days;
+'SW-Awaiting EIC Decision' Cycle Time;The average of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-Awaiting EIC Decision';2.73 hours;
+Time until 'SW-Awaiting EIC Decision' from 'Original Manuscript Submission Confirmation';The sum of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-Awaiting EIC Decision';3943.61 days;
+Average time from 'SW-Checklist Completed' to 'SW-Awaiting EIC Decision';The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-Awaiting EIC Decision';63.93 days;
+Total time from 'Manuscript Export Succeeded' to 'SW-Awaiting EIC Decision';The sum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Awaiting EIC Decision';3857.75 days;
+Minimum time from 'Plagiarism Originality Report Completed' to 'SW-Awaiting EIC Decision';The minimum of the duration between activity 'Plagiarism Originality Report Completed' and activity 'SW-Awaiting EIC Decision';1.77 days;

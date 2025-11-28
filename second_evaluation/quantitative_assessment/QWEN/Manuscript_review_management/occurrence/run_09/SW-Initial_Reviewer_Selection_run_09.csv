@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Initial Reviewer Selection out of all activity executions in the event log;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Frequency of SW-Initial Reviewer Selection across all cases;Number of 'SW-Initial Reviewer Selection' activities;65.0;
+Percentage of variants that include SW-Initial Reviewer Selection;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Number of times SW-Initial Reviewer Selection is directly followed by SW-Reviewer Selection is due in 1 week;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Reviewer Selection is due in 1 week' occurs;44.0;
+Percentage of SW-Initial Reviewer Selection that occurs before SW-AE Assign Reviewers;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-AE Assign Reviewers';0.98;
+Frequency of SW-Initial Reviewer Selection compared to the frequency of SW-Awaiting AE Assignment;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Awaiting AE Assignment' occurs;39.0;
+Percentage of cases where SW-Initial Reviewer Selection appears but is not followed by any reviewer agreement (e.g., SW-Reviewer Agreed);Percentage of 'SW-Initial Reviewer Selection' out of all cases where 'SW-Reviewer Agreed' does not happen;0.65;
+Number of SW-Initial Reviewer Selection occurrences that lead to a variant ending in SW-EIC Reject;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-EIC Reject' occurs;16.0;
+Percentage of SW-Initial Reviewer Selection activities that are part of variants with performance duration above the median;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Frequency of SW-Initial Reviewer Selection relative to SW-Reviewer Selection is due in 3 days;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Reviewer Selection is due in 3 days' occurs;24.0;
+Percentage of SW-Initial Reviewer Selection that is eventually followed by SW-Reviewer Agreed within the same case;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Agreed';0.98;
+Number of variants in which SW-Initial Reviewer Selection is succeeded by at least one reminder activity (e.g., Reviewer Invitation Reminder 1 or 2);Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'Reviewer Invitation Reminder 1' occurs;42.0;
+Percentage of SW-Initial Reviewer Selection occurring after Plagiarism Originality Report Completed;Percentage of 'SW-Initial Reviewer Selection' out of all 'Plagiarism Originality Report Completed';0.65;
+Frequency of SW-Initial Reviewer Selection in cases that ultimately result in acceptance (e.g., RW-EIC Accept or SW-EIC Accept);Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-EIC Accept' occurs;6.0;
+Ratio of SW-Initial Reviewer Selection to SW-Awaiting Checklist Completion across the entire log;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Awaiting Checklist Completion' occurs;63.0;
+Percentage of SW-Initial Reviewer Selection that precedes any reviewer decline (e.g., SW-Reviewer Declined or SW-Reviewer Unavailable);Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Declined';0.97;
+Number of times SW-Initial Reviewer Selection appears in long-running variants (performance > 1,000,000 seconds);Number of 'SW-Initial Reviewer Selection' activities;65.0;
+Percentage of cases containing SW-Initial Reviewer Selection that also contain SW-Reviewer No Response;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer No Response';1.0;
+Percentage of SW-Initial Reviewer Selection activities that are followed within 7 days by SW-AE Assign Reviewers;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-AE Assign Reviewers';0.98;
+Frequency of SW-Initial Reviewer Selection per month to identify temporal patterns in reviewer assignment initiation;"ERROR: computing metric {'count': activity == 'SW-Initial Reviewer Selection'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

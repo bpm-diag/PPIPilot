@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait' out of all activity executions in the event log;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Frequency of 'Accepted + Wait' occurrences across all cases;Number of 'Accepted + Wait' activities;1461;
+Percentage of process variants containing 'Accepted + Wait' relative to total number of variants;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Frequency of 'Accepted + Wait' followed by 'Completed + Resolved';Number of 'Accepted + Wait' activities for cases where activity 'Completed + Resolved' occurs;1410;
+Percentage of 'Accepted + Wait' that occur before 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Frequency of 'Accepted + Wait' in variants that also include 'Completed + In Call';Number of 'Accepted + Wait' activities for cases where activity 'Completed + In Call' occurs;89;
+Percentage of 'Accepted + Wait' compared to the frequency of 'Accepted + Wait - User';Percentage of 'Accepted + Wait' out of all 'Accepted + Wait - User';0.23;
+Percentage of 'Accepted + Wait' compared to the frequency of 'Accepted + Wait - Implementation';Percentage of 'Accepted + Wait' out of all 'Accepted + Wait - Implementation';0.28;
+Percentage of 'Accepted + Wait' compared to the frequency of 'Accepted + Wait - Vendor';Percentage of 'Accepted + Wait' out of all 'Accepted + Wait - Vendor';0.22;
+Frequency of 'Accepted + Wait' in cases where 'Completed + In Call' does not appear;Number of 'Accepted + Wait' activities for cases where activity 'Completed + In Call' does not occur;1461;
+Percentage of variants where 'Accepted + Wait' directly precedes 'Completed + Resolved' without intermediate activities;Percentage of 'Accepted + Wait' out of all 'Completed + Resolved';0.19;
+Percentage of 'Accepted + Wait' occurrences that are part of high-frequency variants (frequency ≥ 100);Percentage of 'Accepted + Wait' out of all cases;0.15;
+Ratio of 'Accepted + Wait' occurrences to total occurrences of all 'Accepted + Wait -*' activities;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Frequency of 'Accepted + Wait' appearing after 'Queued + Awaiting Assignment';Number of 'Accepted + Wait' activities for cases where activity 'Queued + Awaiting Assignment' occurs;1268;
+Percentage of cases containing 'Accepted + Wait' that eventually reach 'Completed + Closed';Percentage of 'Accepted + Wait' out of all 'Completed + Closed';0.19;
+Frequency of 'Accepted + Wait' in variants with performance duration above the median variant performance;Number of 'Accepted + Wait' activities;1461;
+Percentage of 'Accepted + Wait' that occur in the same case as 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Frequency of 'Accepted + Wait' grouped by country of execution;Number of 'Accepted + Wait' activities grouped by the last value of organization country;0:1;"{""0"":1,""SE"":3,""au"":2,""be"":110,""br"":101,""ca"":3,""cl"":0,""cn"":60,""de"":1,""fr"":55,""gb"":8,""in"":216,""jp"":7,""kr"":9,""my"":1,""nl"":65,""pe"":0,""pl"":362,""ru"":20,""se"":336,""th"":0,""tr"":0,""us"":101}"
+Percentage of 'Accepted + Wait' executed by resource groups other than V30, V5 3rd, C9, or N36;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Frequency of 'Accepted + Wait' per year based on timestamp data;Number of 'Accepted + Wait' activities;1461;

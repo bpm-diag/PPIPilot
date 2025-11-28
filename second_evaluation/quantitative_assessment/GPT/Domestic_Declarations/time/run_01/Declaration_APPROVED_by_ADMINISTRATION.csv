@@ -1,0 +1,13 @@
+Name;Metric;Value;Agrupation
+;ERROR: computing metric {};;
+Average time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration APPROVED by ADMINISTRATION';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration APPROVED by ADMINISTRATION';2.59 days;
+Average time from 'Declaration APPROVED by ADMINISTRATION' to 'Declaration FINAL_APPROVED by SUPERVISOR';The average of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';3.18 days;
+Average time from 'Declaration APPROVED by ADMINISTRATION' to 'Request Payment';The average of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Request Payment';6.02 days;
+Total time for 'Declaration APPROVED by ADMINISTRATION' in cases leading to 'Payment Handled';The sum of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and the end of case where activity 'Payment Handled occurs;75549.25 days;
+Average time for 'Declaration APPROVED by ADMINISTRATION' across all cases;The average of the duration between activity Declaration APPROVED by ADMINISTRATION and the end of the case;9.57 days;
+Total resolution time of 'Declaration APPROVED by ADMINISTRATION' for cases where the next activity is 'Declaration REJECTED by PRE_APPROVER';The sum of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and the end of case where activity 'Declaration REJECTED by PRE_APPROVER occurs;11.61 days;
+Minimun time from 'Declaration APPROVED by ADMINISTRATION' to 'Declaration FINAL_APPROVED by SUPERVISOR';The minimum of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';13.00 seconds;
+Minimun resolution time of 'Declaration APPROVED by ADMINISTRATION' in successful payment cases;The minimum of the duration between activity Declaration APPROVED by ADMINISTRATION and the end of the case;1.06 days;
+Total time from 'Declaration APPROVED by ADMINISTRATION' to 'Payment Handled' in the fastest process variant;The sum of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Payment Handled';75549.25 days;
+Average time from 'Declaration APPROVED by ADMINISTRATION' to 'Declaration APPROVED by BUDGET OWNER';The average of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Declaration APPROVED by BUDGET OWNER';2.20 days;
+Average time from 'Declaration APPROVED by ADMINISTRATION' to 'Declaration REJECTED by PRE_APPROVER' in cases where this occurs;The average of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Declaration REJECTED by PRE_APPROVER';;

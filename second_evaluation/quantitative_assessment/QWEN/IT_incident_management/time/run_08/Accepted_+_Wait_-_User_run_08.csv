@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time for Accepted + Wait - User;The average of the duration between activity Accepted + Wait - User and the end of the case;17.39 days;
+Total time for Accepted + Wait - User;The sum of the duration between activity Accepted + Wait - User and the end of the case;43386.02 days;
+Minimum time for Accepted + Wait - User;The minimum of the duration between activity Accepted + Wait - User and the end of the case;0.00 seconds;
+Time of Accepted + Wait - User;The average of the duration between activity Accepted + Wait - User and the end of the case;17.39 days;
+Accepted + Wait - User Cycle Time;The sum of the duration between activity Accepted + Wait - User and the end of the case;43386.02 days;
+Average time from Accepted + Wait - User to Completed + Resolved;The average of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Resolved';13.27 days;
+Total time from Accepted + Wait - User to Completed + Closed;The sum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Closed';42485.44 days;
+Minimum time between Accepted + Wait - User and Completed + In Call;The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + In Call';1.65 minutes;
+Average time it takes Accepted + Wait - User after the execution of Queued + Awaiting Assignment;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait - User';6.14 days;
+Total waiting time to the Accepted + Wait - User;The sum of the duration between activity Accepted + Wait - User and the end of the case;43386.02 days;
+Average time from Accepted + In Progress to Accepted + Wait - User;The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait - User';5.68 days;
+Total time between Accepted + Wait - User and the subsequent Accepted + In Progress;The sum of the duration between activity 'Accepted + Wait - User' and activity 'Accepted + In Progress';19990.45 days;
+Minimum time it takes Accepted + Wait - User after the execution of Accepted + Assigned;The minimum of the duration between activity 'Accepted + Assigned' and activity 'Accepted + Wait - User';46.00 seconds;
+Average time for Accepted + Wait - User in variants that include Completed + In Call;The average of the duration between activity 'Accepted + Wait - User' and the end of case where activity 'Completed + In Call occurs;11.52 days;
+Total time for Accepted + Wait - User in cases where Completed + In Call occurs later in the trace;The sum of the duration between activity 'Accepted + Wait - User' and the end of case where activity 'Completed + In Call occurs;1290.50 days;
+Minimum duration of Accepted + Wait - User when followed by Completed + In Call versus when followed by Completed + Resolved;The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + In Call';1.65 minutes;
+Average time between Accepted + Wait - User and Completed + In Call across all process variants containing both activities;The average of the duration between activity 'Accepted + Wait - User' and activity 'Completed + In Call';8.15 days;
+Total elapsed time from case start to Accepted + Wait - User in traces that eventually perform Completed + In Call;The sum of the duration between activity 'Accepted + Wait - User' and the end of case where activity 'Completed + In Call occurs;1290.50 days;
+Minimum time from Accepted + Wait - User to case completion (Completed + Closed) in variants involving Completed + In Call;The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Closed';52.33 minutes;
+Average duration of Accepted + Wait - User compared to the duration of Accepted + Wait - Vendor within the same variants;The average of the duration between activity Accepted + Wait - User and the end of the case;17.39 days;

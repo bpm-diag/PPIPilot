@@ -1,0 +1,41 @@
+Name;Metric;Value;Agrupation
+Percentage of Request Payment that are preceded by Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Request Payment' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Number of Request Payment;Number of 'Request Payment' activities;10040;
+Percentage of Request Payment out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Request Payment' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Number of Request Payment that are preceded by Declaration APPROVED by BUDGET OWNER;Number of 'Request Payment' activities for cases where activity 'Declaration APPROVED by BUDGET OWNER' occurs;2796;
+Percentage of Request Payment that are not dismissed;Percentage of 'Request Payment' out of all cases where 'Declaration REJECTED by EMPLOYEE' does not happen;0.96;
+Percentage of Request Payment from all Payment Handled;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Number of Request Payment with amounts above 100 euros;Number of 'Request Payment' activities > 100 where ma is the last value of case:Amount;2303;
+Percentage of Request Payment by STAFF MEMBER;Percentage of 'Request Payment' out of all cases;;
+Number of Request Payment grouped by org:resource;Number of 'Request Payment' activities grouped by the last value of org:resource;STAFF MEMBER:4;"{""STAFF MEMBER"":4,""SYSTEM"":10036}"
+Percentage of Request Payment by worker;Percentage of 'Request Payment' out of all cases;STAFF MEMBER:0.01;"{""STAFF MEMBER"":0.0087527352,""SYSTEM"":0.9993029971}"
+Percentage of Request Payment followed by Payment Handled;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Percentage of Request Payment that are rejected;Percentage of 'Request Payment' out of all 'Declaration REJECTED by EMPLOYEE';0.76;
+Number of Request Payment in relation to Declaration FINAL_APPROVED by SUPERVISOR;Number of 'Request Payment' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;10038;
+Percentage of Request Payment;Percentage of 'Request Payment' out of all cases;0.96;
+Number of times Request Payment is performed;Number of 'Request Payment' activities;10040;
+Percentage of Request Payment done after Declaration APPROVED by ADMINISTRATION;Percentage of 'Request Payment' out of all 'Declaration APPROVED by ADMINISTRATION';0.99;
+Average number of Request Payment;the average of the number of times `ACTIVITY` == 'Request Payment';0.96;
+Percentage of Request Payment with an increment;Percentage of 'Request Payment' out of all cases;1.0;
+Percentage of Request Payment with appeal;Percentage of 'Request Payment' out of all 'Declaration REJECTED by EMPLOYEE';0.76;
+Average number of Request Payment that are followed by Payment Handled;the average of the number of times `ACTIVITY` == 'Request Payment' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Payment Handled';1.0;
+Percentage of Request Payment with penalty;Percentage of 'Request Payment' out of all cases;;
+Total Request Payment done by SYSTEM;Number of 'Request Payment' activities == 'SYSTEM' where ma is the last value of org:resource;10036;
+Fraction of Request Payment that are dismissed;Percentage of 'Request Payment' out of all 'Declaration REJECTED by EMPLOYEE';0.76;
+Total Request Payment performed by STAFF MEMBER;Number of 'Request Payment' activities == 'STAFF MEMBER' where ma is the last value of org:role;;
+Ratio of Request Payment over Payment Handled;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Occasions how often the Request Payment is performed;Number of 'Request Payment' activities;10040;
+The ratio of Request Payment that are not eventually performed;Percentage of 'Request Payment' out of all cases where 'Payment Handled' does not happen;0.96;
+Percentage of variants containing Request Payment that also contain Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Frequency of Request Payment in variants without Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Percentage of Request Payment occurring in variants with Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Number of Request Payment following Declaration REJECTED by PRE_APPROVER;Number of 'Request Payment' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;72;
+Percentage of Request Payment in domestic trip declarations;Percentage of 'Request Payment' out of all cases;0.96;
+Number of Request Payment for travel cost reimbursements;Number of 'Request Payment' activities > 0 where ma is the last value of case:Amount;10040;
+Percentage of Request Payment occurring after budget owner approval;Percentage of 'Request Payment' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Number of Request Payment where budget owner and supervisor are different persons;Number of 'Request Payment' activities != 'SUPERVISOR' where ma is the last value of org:role;10040;
+Percentage of Request Payment in claims filed within two months after the trip;Percentage of 'Request Payment' out of all cases;0.96;
+Frequency of Request Payment in variants with repeated Declaration SUBMITTED by EMPLOYEE;Percentage of 'Request Payment' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Percentage of Request Payment that occur after Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Number of Request Payment made per year;Number of 'Request Payment' activities;10040;
+Average number of Request Payment in a month;the average of the number of times `ACTIVITY` == 'Request Payment';0.96;

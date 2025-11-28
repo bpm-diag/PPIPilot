@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-AE Assign Reviewers' to 'SW-EIC Reject';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Reject';76.11 days;
+Total time from 'Original Manuscript Submission Confirmation' to 'SW-EIC Reject';The sum of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-EIC Reject';917.59 days;
+Average time for 'SW-EIC Reject' to occur after 'SW-Awaiting AE Assignment';The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Reject';19.06 days;
+Total resolution time of 'SW-EIC Reject';The sum of the duration between activity SW-EIC Reject and the end of the case;48.42 minutes;
+Minimum time from 'SW-Reviewer Agreed' to 'SW-EIC Reject';The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';45.69 days;
+Average time it takes 'SW-EIC Reject' after 'SW-Reviewer Declined';The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-EIC Reject';83.39 days;
+Total time for 'SW-EIC Reject' after 'SW-Awaiting EIC Decision';The sum of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Reject';11.61 days;
+Minimum time for 'SW-EIC Reject' after 'SW-Awaiting AE Recommendation';The minimum of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-EIC Reject';38.80 minutes;
+Average time between 'SW-Reviewer Agreed' and 'SW-EIC Reject';The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';73.21 days;
+Total time between 'SW-Checklist Completed' and 'SW-EIC Reject';The sum of the duration between activity 'SW-Checklist Completed' and activity 'SW-EIC Reject';839.35 days;
+Average waiting time to the 'SW-EIC Reject' after 'SW-Reviewer Selection is now due';The average of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-EIC Reject';;
+Minimum resolution time of 'SW-EIC Reject' after 'SW-AE Assign Reviewers';The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Reject';46.52 days;
+Total time for 'SW-EIC Reject' grouped by 'sender';The average of the duration between activity 'SW-EIC Reject' and the end of case grouped by the last value of sender;catarci@diag.uniroma1.it:48.42 minutes;"{""catarci@diag.uniroma1.it"":2905000,""clcabanban@ched.gov.ph"":null,""gleb@intentionalinsights.org"":null,""marrella@diag.uniroma1.it"":null,""onbehalfof@manuscriptcentral.com"":0}"
+Minimum time it takes 'SW-EIC Reject' to be done after 'Reviewer Invitation Reminder 2';The minimum of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-EIC Reject';40.06 days;
+Average time for 'SW-EIC Reject' grouped by 'case:concept:name';The average of the duration between activity SW-EIC Reject and the end of the case;1.42 minutes;

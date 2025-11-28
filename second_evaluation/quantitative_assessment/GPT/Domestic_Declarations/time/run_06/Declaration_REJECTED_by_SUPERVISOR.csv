@@ -1,0 +1,23 @@
+Name;Metric;Value;Agrupation
+Average time from Declaration SUBMITTED by EMPLOYEE to Declaration REJECTED by SUPERVISOR;The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by SUPERVISOR';4.65 days;
+Average time between Declaration REJECTED by SUPERVISOR and Request Payment;The average of the duration between activity 'Declaration REJECTED by SUPERVISOR' and activity 'Request Payment';12.84 days;
+Total time from Declaration APPROVED by ADMINISTRATION to Declaration REJECTED by SUPERVISOR;The sum of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Declaration REJECTED by SUPERVISOR';645.14 days;
+Minimum time from Declaration REJECTED by SUPERVISOR to Declaration SUBMITTED by EMPLOYEE;The minimum of the duration between activity 'Declaration REJECTED by SUPERVISOR' and activity 'Declaration SUBMITTED by EMPLOYEE';11.63 minutes;
+Average resolution time of Declaration REJECTED by SUPERVISOR;The average of the duration between activity Declaration REJECTED by SUPERVISOR and the end of the case;14.90 days;
+Total resolution time of Declaration REJECTED by SUPERVISOR;The sum of the duration between activity Declaration REJECTED by SUPERVISOR and the end of the case;4186.35 days;
+Minimum resolution time of Declaration REJECTED by SUPERVISOR;The minimum of the duration between activity Declaration REJECTED by SUPERVISOR and the end of the case;0.00 seconds;
+Average time it takes Declaration REJECTED by SUPERVISOR after Declaration APPROVED by ADMINISTRATION;The average of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Declaration REJECTED by SUPERVISOR';2.97 days;
+Total time it takes Declaration REJECTED by SUPERVISOR after Declaration APPROVED by ADMINISTRATION;The sum of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Declaration REJECTED by SUPERVISOR';645.14 days;
+Minimum time it takes Declaration REJECTED by SUPERVISOR after Declaration APPROVED by ADMINISTRATION;The minimum of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Declaration REJECTED by SUPERVISOR';2.85 minutes;
+Average waiting time to the Declaration REJECTED by SUPERVISOR;The average of the duration between the start of the case and activity 'Declaration REJECTED by SUPERVISOR';4.65 days;
+Total waiting time to the Declaration REJECTED by SUPERVISOR;The sum of the duration between the start of the case and activity 'Declaration REJECTED by SUPERVISOR';1305.87 days;
+Minimum waiting time to the Declaration REJECTED by SUPERVISOR;The minimum of the duration between the start of the case and activity 'Declaration REJECTED by SUPERVISOR';2.00 seconds;
+Average time from Declaration REJECTED by SUPERVISOR to Declaration APPROVED by PRE_APPROVER;The average of the duration between activity 'Declaration REJECTED by SUPERVISOR' and activity 'Declaration APPROVED by PRE_APPROVER';7.29 days;
+Total time from Declaration REJECTED by SUPERVISOR to Declaration APPROVED by PRE_APPROVER;The sum of the duration between activity 'Declaration REJECTED by SUPERVISOR' and activity 'Declaration APPROVED by PRE_APPROVER';72.93 days;
+Minimum time from Declaration REJECTED by SUPERVISOR to Declaration APPROVED by PRE_APPROVER;The minimum of the duration between activity 'Declaration REJECTED by SUPERVISOR' and activity 'Declaration APPROVED by PRE_APPROVER';35.63 minutes;
+Average time for Declaration REJECTED by SUPERVISOR to be redone;The average of the duration between activity Declaration REJECTED by SUPERVISOR and the end of the case;14.90 days;
+Total time for Declaration REJECTED by SUPERVISOR to be redone;The sum of the duration between activity Declaration REJECTED by SUPERVISOR and the end of the case;4186.35 days;
+Minimum time for Declaration REJECTED by SUPERVISOR to be redone;The minimum of the duration between activity Declaration REJECTED by SUPERVISOR and the end of the case;0.00 seconds;
+Average time from Declaration REJECTED by SUPERVISOR to Declaration FINAL_APPROVED by SUPERVISOR;The average of the duration between activity 'Declaration REJECTED by SUPERVISOR' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';10.26 days;
+Total time from Declaration REJECTED by SUPERVISOR to Declaration FINAL_APPROVED by SUPERVISOR;The sum of the duration between activity 'Declaration REJECTED by SUPERVISOR' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';2093.80 days;
+Minimum time from Declaration REJECTED by SUPERVISOR to Declaration FINAL_APPROVED by SUPERVISOR;The minimum of the duration between activity 'Declaration REJECTED by SUPERVISOR' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';11.67 minutes;

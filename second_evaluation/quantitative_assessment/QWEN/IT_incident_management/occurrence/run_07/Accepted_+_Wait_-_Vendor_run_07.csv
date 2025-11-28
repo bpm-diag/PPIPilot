@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Vendor' out of all activity executions in the event log;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' occurrences across all cases;Number of 'Accepted + Wait - Vendor' activities;299.0;
+Percentage of process variants that include 'Accepted + Wait - Vendor';Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' followed by 'Completed + Resolved';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + Resolved' occurs;299.0;
+Percentage of 'Accepted + Wait - Vendor' that occurs after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Vendor' out of all 'Queued + Awaiting Assignment';0.04;
+Ratio of 'Accepted + Wait - Vendor' to 'Accepted + Wait - User' in the entire log;Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait - User';0.04;
+Number of times 'Accepted + Wait - Vendor' appears in variants with total performance duration above 1,000,000 time units;Number of 'Accepted + Wait - Vendor' activities;299.0;
+Percentage of cases containing 'Accepted + Wait - Vendor' that eventually reach 'Completed + Closed';Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + Closed';0.04;
+Frequency of 'Accepted + Wait - Vendor' compared to the frequency of 'Completed + In Call';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + In Call' occurs;1.0;
+Percentage of 'Accepted + Wait - Vendor' occurrences relative to all 'Accepted + Wait' type activities (including 'Accepted + Wait', 'Accepted + Wait - User', 'Accepted + Wait - Implementation', and 'Accepted + Wait - Customer');Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait';0.05;
+Number of distinct process variants where 'Accepted + Wait - Vendor' is immediately preceded by 'Accepted + In Progress';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Accepted + In Progress' occurs;298.0;
+Percentage of 'Accepted + Wait - Vendor' events that occur in cases also containing 'Completed + In Call';Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + In Call';0.0;
+Frequency of transitions from 'Accepted + Wait - Vendor' directly to 'Completed + Resolved';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + Resolved' occurs;299.0;
+Percentage of all 'Accepted + Wait - Vendor' instances that appear only once per case;the average of the function base == 1 where base is the number of times `ACTIVITY` == 'Accepted + Wait - Vendor';0.03;
+Ratio of cases containing both 'Accepted + Wait - Vendor' and 'Completed + In Call' to cases containing only 'Completed + In Call';Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + In Call';0.0;
+Average position (step number) of 'Accepted + Wait - Vendor' within its process variants;the average of the number of times `ACTIVITY` == 'Accepted + Wait - Vendor';0.04;
+Percentage of 'Accepted + Wait - Vendor' occurrences in high-duration variants (performance > median variant duration);Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Number of times 'Accepted + Wait - Vendor' is part of a rework loop (i.e., followed later by a repeated activity such as 'Accepted + In Progress');Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Accepted + In Progress' occurs;298.0;
+Percentage of 'Accepted + Wait - Vendor' relative to the total count of wait-type activities in the VINST incident management process;Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait';0.05;
+Frequency of 'Accepted + Wait - Vendor' in comparison to the combined frequency of all non-wait terminal activities like 'Completed + Cancelled' and 'Unmatched + Unmatched';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + Cancelled' occurs;0.0;

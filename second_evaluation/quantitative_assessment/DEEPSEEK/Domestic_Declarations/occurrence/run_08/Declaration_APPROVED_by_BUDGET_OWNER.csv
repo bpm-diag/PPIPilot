@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration APPROVED by BUDGET OWNER out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.27;
+Number of Declaration APPROVED by BUDGET OWNER;Number of 'Declaration APPROVED by BUDGET OWNER' activities;2820;
+Percentage of Declaration APPROVED by BUDGET OWNER that are not dismissed;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases where 'Declaration REJECTED by BUDGET OWNER' does not happen;0.27;
+Percentage of Declaration APPROVED by BUDGET OWNER by worker;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;STAFF MEMBER:0.02;"{""STAFF MEMBER"":0.0196936543,""SYSTEM"":0.2786020114}"
+Number of Declaration APPROVED by BUDGET OWNER with amounts above 100 euros;Number of 'Declaration APPROVED by BUDGET OWNER' activities > 100 where ma is the last value of case:Amount;722;
+Percentage of Declaration APPROVED by BUDGET OWNER followed by Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.28;
+Percentage of Declaration APPROVED by BUDGET OWNER that are rejected;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration REJECTED by BUDGET OWNER';0.5;
+Number of Declaration APPROVED by BUDGET OWNER in variants containing Declaration REJECTED by PRE_APPROVER;Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0;
+Percentage of Declaration APPROVED by BUDGET OWNER in variants with budget owner approval step;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Percentage of Declaration APPROVED by BUDGET OWNER from all Declaration APPROVED by ADMINISTRATION;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration APPROVED by ADMINISTRATION';0.35;
+Ratio of Declaration APPROVED by BUDGET OWNER over Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.28;
+Percentage of Declaration APPROVED by BUDGET OWNER before Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.28;
+Number of Declaration APPROVED by BUDGET OWNER that are preceded by Declaration APPROVED by ADMINISTRATION;Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;2820;
+Percentage of Declaration APPROVED by BUDGET OWNER in domestic trip declarations;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.27;
+Percentage of Declaration APPROVED by BUDGET OWNER where budget owner and supervisor are different persons;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;0.27;
+Number of Declaration APPROVED by BUDGET OWNER in payment request variants;Number of 'Declaration APPROVED by BUDGET OWNER' activities for cases where activity 'Request Payment' occurs;2809;
+Percentage of Declaration APPROVED by BUDGET OWNER that require director approval;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all cases;;
+Frequency of Declaration APPROVED by BUDGET OWNER in variants with rework loops;Percentage of 'Declaration APPROVED by BUDGET OWNER' out of all 'Declaration REJECTED by BUDGET OWNER';0.5;
+Number of Declaration APPROVED by BUDGET OWNER per year;Number of 'Declaration APPROVED by BUDGET OWNER' activities;2820;
+Average number of Declaration APPROVED by BUDGET OWNER in a month;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by BUDGET OWNER';0.27;

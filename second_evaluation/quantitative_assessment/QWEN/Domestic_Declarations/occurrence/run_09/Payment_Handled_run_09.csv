@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of cases where 'Payment Handled' occurs after 'Declaration FINAL_APPROVED by SUPERVISOR';Percentage of 'Payment Handled' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Frequency of 'Payment Handled' in variants that include 'Declaration REJECTED by PRE_APPROVER' at any point;Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Percentage of 'Payment Handled' executions out of all activity executions in the event log;Percentage of 'Payment Handled' out of all cases;0.96;
+Number of 'Payment Handled' events that follow a path containing 'Declaration REJECTED by PRE_APPROVER' → 'Declaration REJECTED by EMPLOYEE' → 'Declaration SUBMITTED by EMPLOYEE';Number of 'Payment Handled' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;72.0;
+Percentage of variants ending with 'Payment Handled' that never included 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Payment Handled' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Frequency of 'Payment Handled' in successful reimbursement cases (i.e., variants that reach 'Payment Handled' without any rejection);Percentage of 'Payment Handled' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Percentage of 'Payment Handled' occurrences preceded by 'Request Payment' within the same case;Percentage of 'Payment Handled' out of all 'Request Payment';1.0;
+Ratio of 'Payment Handled' to 'Declaration SUBMITTED by EMPLOYEE' across all cases;Percentage of 'Payment Handled' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Percentage of cases with 'Declaration REJECTED by PRE_APPROVER' that eventually still reach 'Payment Handled';Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Frequency of 'Payment Handled' in variants that include pre-approver involvement (i.e., contain 'Declaration APPROVED by PRE_APPROVER' or 'Declaration REJECTED by PRE_APPROVER');Percentage of 'Payment Handled' out of all 'Declaration APPROVED by PRE_APPROVER';0.99;
+Percentage of all completed reimbursements ('Payment Handled') that originated from declarations initially rejected by any actor, including 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Number of 'Payment Handled' events with case:Amount above 100 euros;Number of 'Payment Handled' activities > 100 where ma is the last value of case:Amount;2304.0;
+Percentage of 'Payment Handled' executions that occur in the minimal variant: 'Declaration SUBMITTED by EMPLOYEE' → 'Declaration FINAL_APPROVED by SUPERVISOR' → 'Request Payment' → 'Payment Handled';Percentage of 'Payment Handled' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Frequency of 'Payment Handled' in variants that bypass pre-approver entirely versus those that involve pre-approver (approved or rejected);Percentage of 'Payment Handled' out of all 'Declaration APPROVED by PRE_APPROVER';0.99;
+Percentage of total activity executions represented by 'Payment Handled';Percentage of 'Payment Handled' out of all cases;0.96;
+Number of times 'Payment Handled' is performed per unique declaration (case), ensuring it occurs only once per case;Number of 'Payment Handled' activities;10044.0;
+Percentage of variants containing 'Declaration REJECTED by PRE_APPROVER' that ultimately result in 'Payment Handled' compared to variants containing 'Declaration REJECTED by ADMINISTRATION';Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Percentage of 'Payment Handled' events that are part of reimbursement cycles involving more than one submission due to prior rejections, including those triggered by 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Number of 'Payment Handled' events grouped by year (2017 vs 2018) to assess temporal trends in reimbursement completion;Number of 'Payment Handled' activities;10044.0;
+Ratio of 'Payment Handled' occurrences in 2018 (university-wide data) versus 2017 (two departments only);Number of 'Payment Handled' activities;10044.0;

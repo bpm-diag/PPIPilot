@@ -1,0 +1,26 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration REJECTED by EMPLOYEE out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Number of Declaration REJECTED by EMPLOYEE;Number of 'Declaration REJECTED by EMPLOYEE' activities;1365;
+Percentage of Declaration REJECTED by EMPLOYEE that are preceded by Declaration REJECTED by ADMINISTRATION;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by ADMINISTRATION';0.99;
+Percentage of Declaration REJECTED by EMPLOYEE that are preceded by Declaration REJECTED by SUPERVISOR;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by SUPERVISOR';0.99;
+Percentage of Declaration REJECTED by EMPLOYEE that are preceded by Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Percentage of Declaration REJECTED by EMPLOYEE that are preceded by Declaration REJECTED by BUDGET OWNER;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by BUDGET OWNER';1.0;
+Percentage of Declaration REJECTED by EMPLOYEE followed by Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Number of Declaration REJECTED by EMPLOYEE grouped by org:resource;Number of 'Declaration REJECTED by EMPLOYEE' activities grouped by the last value of org:resource;STAFF MEMBER:319;"{""STAFF MEMBER"":319,""SYSTEM"":1046}"
+Percentage of Declaration REJECTED by EMPLOYEE by worker;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;STAFF MEMBER:0.63;"{""STAFF MEMBER"":0.6258205689,""SYSTEM"":0.0922035248}"
+Average number of Declaration REJECTED by EMPLOYEE per case;the average of the number of times `ACTIVITY` == 'Declaration REJECTED by EMPLOYEE';0.13;
+Percentage of cases containing Declaration REJECTED by EMPLOYEE;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Percentage of Declaration REJECTED by EMPLOYEE in variants containing Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Ratio of Declaration REJECTED by EMPLOYEE over Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.09;
+Percentage of Declaration REJECTED by EMPLOYEE with amounts above 100 euros;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.16;
+Percentage of Declaration REJECTED by EMPLOYEE that occur after multiple rejections;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration REJECTED by ADMINISTRATION';0.99;
+Frequency of Declaration REJECTED by EMPLOYEE in domestic trip declarations;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Percentage of Declaration REJECTED by EMPLOYEE that eventually lead to Payment Handled;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Payment Handled';0.09;
+Average performance time of cases containing Declaration REJECTED by EMPLOYEE;the average of the number of times `ACTIVITY` == 'Declaration REJECTED by EMPLOYEE';0.13;
+Percentage of Declaration REJECTED by EMPLOYEE that are part of re-submitted declarations;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Number of Declaration REJECTED by EMPLOYEE in relation to Declaration APPROVED by ADMINISTRATION;Number of 'Declaration REJECTED by EMPLOYEE' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;1009;
+Percentage of Declaration REJECTED by EMPLOYEE from all rejection activities;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Frequency of Declaration REJECTED by EMPLOYEE in variants with budget owner approval;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration APPROVED by BUDGET OWNER';0.12;
+Percentage of Declaration REJECTED by EMPLOYEE that occur in claims filed within two months after trip;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Ratio of Declaration REJECTED by EMPLOYEE over Declaration APPROVED by PRE_APPROVER;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration APPROVED by PRE_APPROVER';0.12;
+Number of Declaration REJECTED by EMPLOYEE made per year;Number of 'Declaration REJECTED by EMPLOYEE' activities;1365;

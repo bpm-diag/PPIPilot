@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Average resolution time following 'Accepted + Wait - Vendor';The average of the duration between activity Accepted + Wait - Vendor and the end of the case;17.82 days;
+Average time from 'Accepted + Wait - Vendor' to 'Completed + Resolved';The average of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Resolved';13.14 days;
+Total time spent in 'Accepted + Wait - Vendor' across all cases;The sum of the duration between activity Accepted + Wait - Vendor and the end of the case;4435.95 days;
+Average time between 'Accepted + Wait - Vendor' and the next activity;The average of the duration between activity Accepted + Wait - Vendor and the end of the case;17.82 days;
+Total resolution time of cases involving 'Accepted + Wait - Vendor';The sum of the duration between activity Accepted + Wait - Vendor and the end of the case;4435.95 days;
+Minimum time from 'Accepted + Wait - Vendor' to 'Completed + Closed';The minimum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Closed';1.23 minutes;
+Average time from 'Accepted + In Progress' to 'Accepted + Wait - Vendor';The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait - Vendor';5.42 days;
+Total time from 'Accepted + Wait - Vendor' to 'Completed + Resolved';The sum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Resolved';3270.80 days;
+Minimum time from 'Accepted + Wait - Vendor' to any completion activity;The minimum of the duration between activity Accepted + Wait - Vendor and the end of the case;1.23 minutes;
+Average time from 'Accepted + Wait - Vendor' to 'Accepted + Assigned';The average of the duration between activity 'Accepted + Wait - Vendor' and activity 'Accepted + Assigned';12.19 days;
+Total time from 'Accepted + Wait - Vendor' to 'Accepted + Wait - User';The sum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Accepted + Wait - User';715.92 days;
+Average time from 'Accepted + Wait - Vendor' to 'Accepted + Wait - Implementation';The average of the duration between activity 'Accepted + Wait - Vendor' and activity 'Accepted + Wait - Implementation';8.88 days;
+'Accepted + Wait - Vendor' cycle time in the context of the VINST system;The sum of the duration between activity Accepted + Wait - Vendor and the end of the case;;
+Average time from 'Accepted + Wait - Vendor' to 'Completed + In Call', considering the impact on the process flow;The average of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + In Call';;
+Total time from 'Accepted + Wait - Vendor' to 'Completed + Resolved', considering variants where both activities occur;The sum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Resolved';3270.80 days;
+Minimum resolution time of cases starting with 'Accepted + Wait - Vendor' and ending with 'Completed + Closed';The minimum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + Closed';1.23 minutes;
+Average time from 'Accepted + Wait - Vendor' to the next activity, excluding 'Completed + Cancelled';The average of the duration between activity 'Accepted + Wait - Vendor' and the end of case where activity 'Completed + Cancelled does not occur;17.82 days;
+Total time from 'Accepted + Wait - Vendor' to 'Completed + In Call', highlighting the efficiency of vendor-related resolutions;The sum of the duration between activity 'Accepted + Wait - Vendor' and activity 'Completed + In Call';;

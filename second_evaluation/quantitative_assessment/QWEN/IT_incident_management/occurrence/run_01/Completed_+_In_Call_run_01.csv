@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + In Call' out of all activity executions in the event log;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' occurrences across all cases;Number of 'Completed + In Call' activities;2018.0;
+Percentage of process variants that include 'Completed + In Call' at least once;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of transitions from 'Accepted + In Progress' to 'Completed + In Call';Number of 'Completed + In Call' activities for cases where activity 'Accepted + In Progress' occurs;2018.0;
+Percentage of 'Completed + In Call' activities that occur as the final activity in a case;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' followed by 'Accepted + In Progress' in the same case;Number of 'Completed + In Call' activities for cases where activity 'Accepted + In Progress' occurs;2018.0;
+Percentage of cases where 'Completed + In Call' appears more than once;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Completed + In Call';0.0;
+Ratio of 'Completed + In Call' frequency to the frequency of 'Completed + Resolved';Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Percentage of 'Completed + In Call' activities occurring within variants whose total performance time is below the median variant duration;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' in comparison to the combined frequency of all 'Completed + Closed' and 'Completed + Cancelled' activities;Percentage of 'Completed + In Call' out of all 'Completed + Closed';0.02;
+Percentage of variants starting with 'Accepted + In Progress' that lead directly to 'Completed + In Call' without intermediate waiting states;Percentage of 'Completed + In Call' out of all 'Accepted + In Progress';0.27;
+Frequency of 'Completed + In Call' as the sole completed activity in a case (i.e., not followed by 'Completed + Resolved' or 'Completed + Closed');Number of 'Completed + In Call' activities for cases where activity 'Completed + Resolved' does not occur;2018.0;
+Percentage of 'Completed + In Call' occurrences that are not succeeded by any other activity in the VINST incident management process;Percentage of 'Completed + In Call' out of all cases;0.27;
+Ratio of the number of cases containing 'Completed + In Call' to the number of cases containing 'Completed + Resolved';Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Frequency of 'Completed + In Call' appearing in short-duration variants (performance < 50,000 time units) versus long-duration variants (performance ≥ 50,000 time units);Number of 'Completed + In Call' activities;2018.0;

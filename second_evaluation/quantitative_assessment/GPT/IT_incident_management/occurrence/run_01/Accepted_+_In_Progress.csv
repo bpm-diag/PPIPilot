@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + In Progress' leading directly to 'Completed + In Call';Frequency of activity 'Accepted + In Progress' for cases where activity 'Completed + In Call' occurs;2018;
+Percentage of 'Accepted + In Progress' followed by 'Completed + Resolved';Percentage of 'Accepted + In Progress' out of all 'Completed + Resolved';1.0;
+Number of 'Accepted + In Progress' activities that precede 'Queued + Awaiting Assignment';Number of 'Accepted + In Progress' activities for cases where activity 'Queued + Awaiting Assignment' occurs;19365;
+Percentage of 'Accepted + In Progress' activities out of all activities in the event log;Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Frequency of 'Accepted + In Progress' in the most common variant paths;Frequency of activity 'Accepted + In Progress';7536;
+Percentage of 'Accepted + In Progress' followed by 'Accepted + Wait - User' compared to 'Accepted + In Progress' followed by 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Accepted + Wait - User';1.0;
+Number of 'Accepted + In Progress' activities that are not followed by 'Completed + Cancelled';Number of 'Accepted + In Progress' activities for cases where activity 'Completed + Cancelled' does not occur;22946;
+Percentage of 'Accepted + In Progress' activities by country;Percentage of 'Accepted + In Progress' out of all cases;0:0.96;"{""0"":0.9615384615,""SE"":1.0,""au"":1.0,""be"":0.9979253112,""br"":1.0,""ca"":0.9848484848,""cl"":1.0,""cn"":1.0,""de"":1.0,""fr"":0.996763754,""gb"":1.0,""in"":0.993902439,""jp"":1.0,""kr"":0.9384615385,""my"":1.0,""nl"":1.0,""pe"":1.0,""pl"":0.9988649262,""ru"":1.0,""se"":0.99861783,""th"":1.0,""tr"":1.0,""us"":0.9987179487}"
+Number of 'Accepted + In Progress' activities grouped by impact (Low, Medium, High);Number of 'Accepted + In Progress' activities grouped by the last value of impact;High:907;"{""High"":907,""Low"":9880,""Major"":14,""Medium"":12145}"
+Percentage of 'Accepted + In Progress' activities by organization;Percentage of 'Accepted + In Progress' out of all cases;Org line A2:0.99;"{""Org line A2"":0.9923896499,""Org line B"":1.0,""Org line C"":0.9988304094,""Org line D"":1.0,""Org line E"":1.0,""Org line F"":1.0,""Org line G1"":1.0,""Org line G2"":1.0,""Org line G3"":1.0,""Org line G4"":0.9933333333,""Org line H"":1.0,""Org line V1"":1.0,""Org line V10"":1.0,""Org line V11"":1.0,""Org line V2"":0.984375,""Org line V3"":1.0,""Org line V5"":1.0,""Org line V7"":1.0,""Org line V7n"":1.0,""Org line V8"":1.0,""Org line V9"":1.0,""Other"":1.0}"
+Frequency of 'Accepted + In Progress' in cases with 'High' impact products;Frequency of activity 'Accepted + In Progress';261;
+Percentage of 'Accepted + In Progress' activities that lead to a resolution without 'Accepted + Wait' states;Percentage of 'Accepted + In Progress' out of all cases where 'Accepted + Wait' does not happen;1.0;
+Number of 'Accepted + In Progress' in relation to 'Completed + In Call';Number of 'Accepted + In Progress' activities for cases where activity 'Completed + In Call' occurs;2600;
+Percentage of 'Accepted + In Progress' in the top 5 most frequent process variants;Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Frequency of 'Accepted + In Progress' followed by any activity other than 'Completed + In Call';Frequency of activity 'Accepted + In Progress' for cases where activity 'Completed + In Call' does not occur;7536;
+Percentage of 'Accepted + In Progress' activities in cases involving 'PROD582';Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Average number of 'Accepted + In Progress' activities in cases with 'Medium' impact;the average of the number of times `ACTIVITY` == 'Accepted + In Progress' filtered by the function ma == 'Medium' where ma is the last value of impact;3.0;
+Percentage of 'Accepted + In Progress' activities in cases resolved within the same day;Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Frequency of 'Accepted + In Progress' in cases with international organizations (non-France, non-Brazil, non-USA);Frequency of activity 'Accepted + In Progress';7536;
+Number of 'Accepted + In Progress' activities made per year;Number of 'Accepted + In Progress' activities;22946;

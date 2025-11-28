@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Average time from SW-Reviewer Agreed to SW-Awaiting EIC Decision;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Total time between SW-Reviewer Agreed and SW-Awaiting AE Recommendation;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';1617.84 days;
+Minimum time it takes SW-Reviewer Agreed after the execution of SW-AE Assign Reviewers;The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';44.00 seconds;
+Total waiting time to the SW-Reviewer Agreed following SW-Reviewer Selection is now due;The sum of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-Reviewer Agreed';249.53 days;
+Elapsed time between SW-Reviewer Agreed and the next occurrence of SW-Reviewer Declined in the same case;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Reviewer Declined';15.13 days;
+Average time between SW-Reviewer Agreed and Revised Manuscript Submission Confirmation;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'Revised Manuscript Submission Confirmation';170.36 days;
+Total time it takes SW-Reviewer Agreed after the execution of Reviewer Invitation Reminder 2;The sum of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-Reviewer Agreed';395.45 days;
+Average time from SW-AE Assign Reviewers to SW-Reviewer Agreed in high-duration variants;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Total time between SW-Reviewer Agreed and Manuscript Export Succeeded when followed by First Look-Please submit updates;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'Manuscript Export Succeeded';5249.05 days;
+Minimum time it takes SW-Reviewer Agreed after SW-Reviewer Selection is 3 days late;The minimum of the duration between activity 'SW-Reviewer Selection is 3 days late' and activity 'SW-Reviewer Agreed';1.07 days;
+Cycle Time of SW-Reviewer Agreed in cases that include RW-Initial Reviewer Selection;The average of the duration between activity 'SW-Reviewer Agreed' and the end of case where activity 'RW-Initial Reviewer Selection occurs;303.28 days;
+Average time from SW-Reviewer Agreed to SW-EIC Major Revision compared to time from SW-Reviewer Declined to SW-EIC Major Revision;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Major Revision';84.96 days;
+Total time between SW-Reviewer Agreed and SW-Awaiting EIC Decision in variants with performance above 10,000,000 seconds;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';3223.18 days;
+Time from SW-Reviewer Agreed to the final Manuscript Export Succeeded in accepted manuscripts;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'Manuscript Export Succeeded';;
+Minimum time between SW-Reviewer Agreed and the subsequent SW-Reviewer Agreed in multi-reviewer assignments;The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Reviewer Agreed';0.00 seconds;
+Average time it takes SW-Reviewer Agreed after Unassign Editor in complex reassignment paths;The average of the duration between activity 'Unassign Editor' and activity 'SW-Reviewer Agreed';19.06 days;
+Average time for SW-Reviewer Agreed grouped by case:concept:name;"ERROR: computing metric {'begin': activity == 'SW-Reviewer Agreed'"", 'end': '', 'aggregation': 'average', 'group_by': 'concept:name'}""";;
+Minimum time from SW-Reviewer Agreed to SW–Major Revision due in 1 week;"ERROR: computing metric {'begin': activity == 'SW-Reviewer Agreed'"", 'end': ""activity == 'SW–Major Revision due in 1 week'"", 'aggregation': 'minimum'}""";;
+Time of SW-Reviewer Agreed in variants that lead to SW-EIC Reject & Resubmit;"ERROR: computing metric {'begin': activity == 'SW-Reviewer Agreed'"", 'end': ""activity == 'SW-EIC Reject & Resubmit'"", 'aggregation': 'average'}""";;

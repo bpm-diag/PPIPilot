@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration REJECTED by MISSING out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Number of Declaration REJECTED by MISSING;Number of 'Declaration REJECTED by MISSING' activities;91;
+Percentage of Declaration REJECTED by MISSING that are preceded by Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.01;
+Percentage of Declaration REJECTED by MISSING from all Declaration REJECTED by ADMINISTRATION;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration REJECTED by ADMINISTRATION';0.0;
+Number of Declaration REJECTED by MISSING in relation to Declaration FINAL_APPROVED by SUPERVISOR;Number of 'Declaration REJECTED by MISSING' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;89;
+Percentage of Declaration REJECTED by MISSING by worker;Percentage of 'Declaration REJECTED by MISSING' out of all cases;STAFF MEMBER:0.07;"{""STAFF MEMBER"":0.0656455142,""SYSTEM"":0.0056755949}"
+Number of Declaration REJECTED by MISSING grouped by case:BudgetNumber;Number of 'Declaration REJECTED by MISSING' activities;91;
+Percentage of Declaration REJECTED by MISSING followed by Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Percentage of Declaration REJECTED by MISSING with amounts above 100 euros;Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Ratio of Declaration REJECTED by MISSING over Declaration FINAL_APPROVED by SUPERVISOR;Number of 'Declaration REJECTED by MISSING' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;89;
+Percentage of variants containing Declaration REJECTED by MISSING;Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Percentage of Declaration REJECTED by MISSING that occur in variants with Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration REJECTED by PRE_APPROVER';0.05;
+Number of Declaration REJECTED by MISSING that occur after Declaration APPROVED by PRE_APPROVER;Number of 'Declaration REJECTED by MISSING' activities for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;16;
+Percentage of Declaration REJECTED by MISSING in domestic trip declarations;Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Average number of Declaration REJECTED by MISSING per case;the average of the number of times `ACTIVITY` == 'Declaration REJECTED by MISSING';0.01;
+Percentage of Declaration REJECTED by MISSING that are eventually followed by Payment Handled;Percentage of 'Declaration REJECTED by MISSING' out of all 'Payment Handled';0.01;
+Number of Declaration REJECTED by MISSING by org:resource;Number of 'Declaration REJECTED by MISSING' activities grouped by the last value of org:resource;STAFF MEMBER:31;"{""STAFF MEMBER"":31,""SYSTEM"":60}"
+Percentage of Declaration REJECTED by MISSING in claims filed within two months after the trip;Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Frequency of Declaration REJECTED by MISSING occurring after Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.01;
+Number of Declaration REJECTED by MISSING made per year;Number of 'Declaration REJECTED by MISSING' activities;91;

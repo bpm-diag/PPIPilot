@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' that lead to 'Declaration FINAL_APPROVED by SUPERVISOR';Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Request Payment';Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Request Payment';1.0;
+Number of 'Declaration FINAL_APPROVED by SUPERVISOR' that are preceded by 'Declaration APPROVED by ADMINISTRATION';Number of 'Declaration FINAL_APPROVED by SUPERVISOR' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;7924;
+Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' followed by 'Payment Handled';Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Payment Handled';1.0;
+Frequency of 'Declaration FINAL_APPROVED by SUPERVISOR' in cases with amounts above 100 euros;Number of 'Declaration FINAL_APPROVED by SUPERVISOR' activities > 100 where ma is the last value of case:Amount;2337;
+Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' by 'STAFF MEMBER';Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all cases;STAFF MEMBER:0.06;"{""STAFF MEMBER"":0.0612691466,""SYSTEM"":0.9999004282}"
+Number of 'Declaration FINAL_APPROVED by SUPERVISOR' grouped by 'case:BudgetNumber';Number of 'Declaration FINAL_APPROVED by SUPERVISOR' activities;10131;
+Frequency of 'Declaration FINAL_APPROVED by SUPERVISOR' in relation to 'Declaration REJECTED by PRE_APPROVER';Frequency of activity 'Declaration FINAL_APPROVED by SUPERVISOR' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;73;
+Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' in the process variants leading to 'Payment Handled';Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Payment Handled';1.0;
+Number of 'Declaration FINAL_APPROVED by SUPERVISOR' in cases without 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration FINAL_APPROVED by SUPERVISOR' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' does not occur;10131;
+Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' in cases that required director approval;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Declaration APPROVED by DIRECTOR';;
+Frequency of 'Declaration FINAL_APPROVED by SUPERVISOR' in domestic declarations compared to international travel claims;Frequency of activity 'Declaration FINAL_APPROVED by SUPERVISOR';10070;
+Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' in cases filed within two months after the trip;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all cases;0.96;
+Frequency of 'Declaration FINAL_APPROVED by SUPERVISOR' per month;Number of 'Declaration FINAL_APPROVED by SUPERVISOR' activities;10131;
+Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' by year;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all cases;0.96;

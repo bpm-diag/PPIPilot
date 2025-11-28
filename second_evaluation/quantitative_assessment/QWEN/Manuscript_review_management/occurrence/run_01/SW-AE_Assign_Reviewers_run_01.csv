@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-AE Assign Reviewers out of all activity executions in the event log;Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;
+Frequency of SW-AE Assign Reviewers occurrences across all cases;Number of 'SW-AE Assign Reviewers' activities;143.0;
+Percentage of SW-AE Assign Reviewers that are immediately followed by SW-Reviewer Agreed;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Percentage of SW-AE Assign Reviewers that are followed by SW-Reviewer Declined;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Declined';0.97;
+Frequency of SW-AE Assign Reviewers appearing in variants that eventually lead to SW-EIC Accept;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-EIC Accept' occurs;0.0;
+Frequency of SW-AE Assign Reviewers appearing in variants that eventually lead to SW-EIC Reject;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-EIC Reject' occurs;21.0;
+Percentage of SW-AE Assign Reviewers that occur after SW-Initial Reviewer Selection;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Initial Reviewer Selection';0.75;
+Percentage of SW-AE Assign Reviewers that are repeated more than once within the same case;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'SW-AE Assign Reviewers';0.4;
+Frequency of SW-AE Assign Reviewers in cases where SW-Reviewer No Response occurs;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-Reviewer No Response' occurs;34.0;
+Percentage of SW-AE Assign Reviewers that precede any reviewer-related reminder (e.g., Reviewer Invitation Reminder 1 or 2);Percentage of 'SW-AE Assign Reviewers' out of all 'Reviewer Invitation Reminder 1';0.89;
+Ratio of SW-AE Assign Reviewers to SW-Reviewer Agreed across the entire log;the average of the number of times `ACTIVITY` == 'SW-AE Assign Reviewers' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Reviewer Agreed';3.07;
+Percentage of cases containing SW-AE Assign Reviewers that also contain at least one instance of SW-Reviewer Agreed;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Frequency of SW-AE Assign Reviewers in variants with performance duration above the median variant duration;Number of 'SW-AE Assign Reviewers' activities;143.0;
+Percentage of SW-AE Assign Reviewers occurring before SW-Awaiting AE Recommendation;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Awaiting AE Recommendation';0.64;
+Frequency of SW-AE Assign Reviewers in cases that undergo major revision (i.e., include SW-EIC Major Revision);Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-EIC Major Revision' occurs;51.0;
+Percentage of SW-AE Assign Reviewers that are followed within 7 days by a reviewer response (SW-Reviewer Agreed, Declined, or Unavailable);Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Ratio of SW-AE Assign Reviewers to total reviewer assignment attempts (including RW-AE Assign Reviewers and RSW-AE Assign Reviewers);the average of the number of times `ACTIVITY` == 'SW-AE Assign Reviewers' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'RW-AE Assign Reviewers';3.35;
+Percentage of SW-AE Assign Reviewers that occur in the initial submission phase (before any revision activity such as Revised Manuscript Submission Confirmation);Percentage of 'SW-AE Assign Reviewers' out of all cases where 'Revised Manuscript Submission Confirmation' does not happen;0.49;
+Frequency of SW-AE Assign Reviewers in cases that reach SW-Awaiting EIC Decision without any SW-Reviewer Agreed;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-Awaiting EIC Decision' occurs;141.0;
+Percentage of SW-AE Assign Reviewers that are part of loops involving repeated reviewer assignments due to declinations or unavailability;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'SW-AE Assign Reviewers' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Reviewer Declined';0.86;

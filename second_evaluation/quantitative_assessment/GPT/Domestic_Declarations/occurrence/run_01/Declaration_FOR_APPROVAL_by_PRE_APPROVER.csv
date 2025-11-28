@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' followed by 'Declaration REJECTED by PRE_APPROVER';Frequency of activity 'Declaration FOR_APPROVAL by PRE_APPROVER' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' leading to 'Declaration APPROVED by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';0.0;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' in relation to total declarations submitted;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' followed by 'Declaration FINAL_APPROVED by SUPERVISOR';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' that result in 'Request Payment';Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities for cases where activity 'Request Payment' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' that do not lead to 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' followed by 'Payment Handled';Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities for cases where activity 'Payment Handled' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' in cases with amounts above 100 euros;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities > 100 where ma is the last value of case:Amount;1;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' by 'org:resource';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;STAFF MEMBER:0.0;"{""STAFF MEMBER"":0.0021881838,""SYSTEM"":0.0}"
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' that are eventually followed by 'Payment Handled';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Payment Handled';0.0;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' in successful claims (not rejected and leading to payment);Frequency of activity 'Declaration FOR_APPROVAL by PRE_APPROVER' for cases where activity 'Declaration REJECTED by PRE_APPROVER' does not occur;1;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' in relation to 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' that precede any form of rejection;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' followed by any approval ('Declaration APPROVED by ADMINISTRATION', 'Declaration APPROVED by BUDGET OWNER', 'Declaration FINAL_APPROVED by SUPERVISOR');Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' in claims requiring director approval;Frequency of activity 'Declaration FOR_APPROVAL by PRE_APPROVER';;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' in claims without prior permission (domestic trips);Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' in variants leading to 'Payment Handled' without rejections;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities for cases where activity 'Payment Handled' occurs;0;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' per month;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities;1;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' made per year;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities;1;

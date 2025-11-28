@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Awaiting Assignment to Batch' occurrences in the event log;Frequency of activity 'Awaiting Assignment to Batch';26.0;
+Percentage of manuscripts that reach 'Awaiting Assignment to Batch' stage out of all manuscripts submitted;Percentage of 'Awaiting Assignment to Batch' out of all 'Original Manuscript Submission Confirmation';0.28;
+Number of times 'Manuscript Export Succeeded' precedes 'Awaiting Assignment to Batch';Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'Awaiting Assignment to Batch' occurs;26.0;
+Percentage of 'Awaiting Assignment to Batch' followed by 'First Look Manuscript Submission Confirmation';Percentage of 'Awaiting Assignment to Batch' out of all 'First Look Manuscript Submission Confirmation';0.96;
+Frequency of 'Awaiting Assignment to Batch' for manuscripts that underwent 'SW-Reviewer Agreed';Frequency of activity 'Awaiting Assignment to Batch' for cases where activity 'SW-Reviewer Agreed' occurs;18.0;
+Percentage of manuscripts that reach 'Awaiting Assignment to Batch' without 'SW-Reviewer Declined';Percentage of 'Awaiting Assignment to Batch' out of all cases where 'SW-Reviewer Declined' does not happen;0.28;
+Percentage of 'Awaiting Assignment to Batch' occurrences out of all activities performed by SYSTEM;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.29;
+Frequency of 'Awaiting Assignment to Batch' in manuscripts that required 'SW-EIC Major Revision';Frequency of activity 'Awaiting Assignment to Batch' for cases where activity 'SW-EIC Major Revision' occurs;13.0;
+Percentage of manuscripts that reach 'Awaiting Assignment to Batch' after 'Revised Manuscript Submission Confirmation';Percentage of 'Awaiting Assignment to Batch' out of all 'Revised Manuscript Submission Confirmation';0.88;
+Number of manuscripts that reach 'Awaiting Assignment to Batch' without 'Plagiarism Originality Report Completed';Frequency of activity 'Awaiting Assignment to Batch' for cases where activity 'Plagiarism Originality Report Completed' does not occur;26.0;
+Percentage of 'Awaiting Assignment to Batch' occurrences out of the total number of activities in the longest variant path;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Frequency of 'Awaiting Assignment to Batch' in relation to 'SW-AE Assign Reviewers';Frequency of activity 'Awaiting Assignment to Batch' for cases where activity 'SW-AE Assign Reviewers' occurs;19.0;
+Percentage of manuscripts that reach 'Awaiting Assignment to Batch' after 'SW-Reviewer Agreed' and before 'Manuscript Export Succeeded';Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Reviewer Agreed';0.39;
+Percentage of 'Awaiting Assignment to Batch' occurrences that lead to 'First Look-Please submit updates';Percentage of 'Awaiting Assignment to Batch' out of all 'First Look-Please submit updates';1.0;
+Frequency of 'Awaiting Assignment to Batch' in manuscripts with more than one 'SW-Reviewer Agreed' activity;Frequency of activity 'Awaiting Assignment to Batch' for cases where activity 'SW-Reviewer Agreed' occurs;18.0;
+Percentage of 'Awaiting Assignment to Batch' followed by any activity related to manuscript revision ('SW-EIC Major Revision', 'RW-EIC Minor Revision', etc.);Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Major Revision';0.87;
+Number of 'Awaiting Assignment to Batch' occurrences that are followed by 'Manuscript Export Succeeded';Frequency of activity 'Awaiting Assignment to Batch' for cases where activity 'Manuscript Export Succeeded' occurs;26.0;
+Percentage of 'Awaiting Assignment to Batch' in manuscripts that have undergone 'SW-Reviewer Agreed' more than once;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Reviewer Agreed';0.39;
+Number of 'Awaiting Assignment to Batch' occurrences grouped by month;Number of 'Awaiting Assignment to Batch' activities;26.0;
+Number of 'Awaiting Assignment to Batch' occurrences per year;Number of 'Awaiting Assignment to Batch' activities;26.0;

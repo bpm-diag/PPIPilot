@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - User' out of all activity executions in the event log;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' occurrences across all cases;Number of 'Accepted + Wait - User' activities;3883;
+Percentage of process variants containing 'Accepted + Wait - User' relative to total number of variants;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of transitions from 'Accepted + In Progress' to 'Accepted + Wait - User';Number of 'Accepted + Wait - User' activities for cases where activity 'Accepted + In Progress' occurs;3874;
+Percentage of 'Accepted + Wait - User' activities that are followed by 'Completed + Resolved';Percentage of 'Accepted + Wait - User' out of all 'Completed + Resolved';0.43;
+Frequency of 'Accepted + Wait - User' appearing before 'Completed + Closed';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + Closed' occurs;3759;
+Percentage of cases where 'Accepted + Wait - User' occurs at least once, compared to cases containing 'Completed + In Call';Percentage of 'Accepted + Wait - User' out of all 'Completed + In Call';0.06;
+Frequency of 'Accepted + Wait - User' in variants that also include 'Completed + In Call';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + In Call' occurs;161;
+Percentage of 'Accepted + Wait - User' executions in cases that eventually reach 'Completed + In Call', versus those that do not;Percentage of 'Accepted + Wait - User' out of all 'Completed + In Call';0.06;
+Frequency of 'Accepted + Wait - User' as a precursor to re-entries into 'Accepted + In Progress';Number of 'Accepted + Wait - User' activities for cases where activity 'Accepted + In Progress' occurs;3874;
+Percentage of total waiting time attributable to 'Accepted + Wait - User' compared to other wait-type activities such as 'Accepted + Wait', 'Accepted + Wait - Implementation', 'Accepted + Wait - Vendor', and 'Accepted + Wait - Customer';Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' occurring after a 'Queued + Awaiting Assignment' activity;Number of 'Accepted + Wait - User' activities for cases where activity 'Queued + Awaiting Assignment' occurs;3467;
+Percentage of variants starting with 'Accepted + In Progress' that include 'Accepted + Wait - User' before termination;Percentage of 'Accepted + Wait - User' out of all 'Accepted + In Progress';0.33;
+Frequency of 'Accepted + Wait - User' in high-performance variants (performance < median) versus low-performance variants (performance ≥ median);Number of 'Accepted + Wait - User' activities;3883;
+Percentage of 'Accepted + Wait - User' activities that occur in cases ultimately resolved as 'Completed + Resolved' versus 'Completed + Cancelled' or 'Completed + In Call';Percentage of 'Accepted + Wait - User' out of all 'Completed + Resolved';0.43;
+Frequency of consecutive occurrences of 'Accepted + Wait - User' within the same case;Number of 'Accepted + Wait - User' activities;3883;
+Percentage of 'Accepted + Wait - User' events that are directly followed by another waiting state (e.g., 'Accepted + Wait', 'Accepted + Wait - Implementation', etc.);Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Percentage of total activity executions represented by 'Accepted + Wait - User' in variants that contain more than five distinct activities;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' appearing in the top 5 most frequent variants versus all other variants;Number of 'Accepted + Wait - User' activities;3883;
+Frequency of 'Accepted + Wait - User' in cases handled by resources in France compared to Brazil or USA;Number of 'Accepted + Wait - User' activities grouped by the last value of resource country;0:3434;"{""0"":3434,""Australia"":0,""Belgium"":29,""Brazil"":1,""Canada"":1,""China"":11,""France"":7,""INDIA"":128,""Japan"":22,""Korea"":1,""MALAYSIA"":0,""POLAND"":148,""RUSSIAN FEDERATION"":0,""Sweden"":93,""THAILAND"":0,""USA"":8,""United Kingdom"":0}"

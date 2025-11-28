@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time for Accepted + Assigned;The average of the duration between activity Accepted + Assigned and the end of the case;19.10 days;
+Total time for Accepted + Assigned;The sum of the duration between activity Accepted + Assigned and the end of the case;34941.92 days;
+Minimum time for Accepted + Assigned;The minimum of the duration between activity Accepted + Assigned and the end of the case;30.00 seconds;
+Time of Accepted + Assigned;The average of the duration between activity Accepted + Assigned and the end of the case;19.10 days;
+Accepted + Assigned Cycle Time;The average of the duration between activity Accepted + Assigned and the end of the case;19.10 days;
+Average time from Accepted + Assigned to Completed + Resolved;The average of the duration between activity 'Accepted + Assigned' and activity 'Completed + Resolved';14.66 days;
+Average time between Accepted + Assigned and Completed + Closed;The average of the duration between activity 'Accepted + Assigned' and activity 'Completed + Closed';19.24 days;
+Total time from Accepted + Assigned to Completed + In Call;The sum of the duration between activity 'Accepted + Assigned' and activity 'Completed + In Call';30.00 seconds;
+Minimum time from Accepted + Assigned to Completed + Resolved;The minimum of the duration between activity 'Accepted + Assigned' and activity 'Completed + Resolved';33.00 seconds;
+Elapsed time between Accepted + Assigned and Accepted + In Progress;The average of the duration between activity 'Accepted + Assigned' and activity 'Accepted + In Progress';10.58 days;
+Average time it takes Accepted + Assigned after the execution of Queued + Awaiting Assignment;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Assigned';6.46 days;
+Total waiting time to the Accepted + Assigned;The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Assigned';11039.07 days;
+Time until Accepted + Assigned in variants that include Completed + In Call;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Assigned';4.81 days;
+Average time for Accepted + Assigned in process variants ending with Completed + In Call versus those ending with Completed + Closed;The average of the duration between activity 'Accepted + Assigned' and the end of case where activity 'Completed + In Call occurs;13.46 days;
+Minimum time between Accepted + Assigned and Completed + In Call across all variants containing both activities;The minimum of the duration between activity 'Accepted + Assigned' and activity 'Completed + In Call';30.00 seconds;
+Total time from Accepted + Assigned to Completed + In Call in variants where Completed + In Call appears before final resolution;The sum of the duration between activity 'Accepted + Assigned' and activity 'Completed + In Call';30.00 seconds;
+Elapsed time between Accepted + Assigned and the subsequent Accepted + Wait - User, when followed by Completed + In Call;The average of the duration between activity 'Accepted + Assigned' and activity 'Accepted + Wait - User';4.97 days;
+Average time for Accepted + Assigned in cases that transition directly to Completed + In Call without intermediate wait states;The average of the duration between activity 'Accepted + Assigned' and activity 'Completed + In Call';30.00 seconds;
+Time of Accepted + Assigned in variants that contain multiple occurrences of Accepted + In Progress prior to Accepted + Assigned;The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Assigned';6.53 days;
+Cycle Time of Accepted + Assigned when occurring after a second Queued + Awaiting Assignment in high-frequency variants;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Assigned';6.46 days;

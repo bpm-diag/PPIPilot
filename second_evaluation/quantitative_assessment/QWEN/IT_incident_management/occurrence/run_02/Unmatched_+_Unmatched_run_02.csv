@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Unmatched + Unmatched' out of all activity executions in the event log;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' occurrences across all cases;Number of 'Unmatched + Unmatched' activities;5;
+Percentage of process variants that contain 'Unmatched + Unmatched';Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' appearing before 'Completed + In Call';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0;
+Percentage of 'Unmatched + Unmatched' that are followed by 'Accepted + In Progress';Percentage of 'Unmatched + Unmatched' out of all 'Accepted + In Progress';0.0;
+Frequency of 'Unmatched + Unmatched' in comparison to the frequency of 'Completed + In Call';Number of 'Unmatched + Unmatched' activities;5;
+Percentage of cases where 'Unmatched + Unmatched' is the first activity, among all variants starting with 'Unmatched + Unmatched';Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Ratio of 'Unmatched + Unmatched' occurrences to total activities in variants that include 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Frequency of 'Unmatched + Unmatched' grouped by country;Number of 'Unmatched + Unmatched' activities grouped by the last value of organization country;0:0;"{""0"":0,""SE"":0,""au"":0,""be"":0,""br"":0,""ca"":0,""cl"":0,""cn"":0,""de"":0,""fr"":0,""gb"":0,""in"":0,""jp"":0,""kr"":0,""my"":0,""nl"":0,""pe"":0,""pl"":0,""ru"":0,""se"":5,""th"":0,""tr"":0,""us"":0}"
+Percentage of 'Unmatched + Unmatched' executed by resource group 'V30' compared to other resource groups;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Number of times 'Unmatched + Unmatched' appears in variants that do not lead to 'Completed + Resolved' or 'Completed + Closed';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + Resolved' does not occur;5;
+Percentage of 'Unmatched + Unmatched' that occur in cases eventually reaching 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Frequency of direct transitions from 'Unmatched + Unmatched' to 'Queued + Awaiting Assignment';Number of 'Unmatched + Unmatched' activities for cases where activity 'Queued + Awaiting Assignment' occurs;2;
+Average number of 'Unmatched + Unmatched' occurrences per case in the VINST incident management process;the average of the number of times `ACTIVITY` == 'Unmatched + Unmatched';0.0;
+Percentage of all 'Unmatched + Unmatched' events that happen within the first 24 hours of a case lifecycle;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;

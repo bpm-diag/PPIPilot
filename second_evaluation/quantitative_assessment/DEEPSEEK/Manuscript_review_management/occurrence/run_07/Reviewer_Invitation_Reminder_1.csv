@@ -1,0 +1,41 @@
+Name;Metric;Value;Agrupation
+Percentage of Reviewer Invitation Reminder 1 before SW-Reviewer Agreed;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Agreed';0.93;
+Number of Reviewer Invitation Reminder 1;Number of 'Reviewer Invitation Reminder 1' activities;118;
+Percentage of Reviewer Invitation Reminder 1 out of all SW-AE Assign Reviewers;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-AE Assign Reviewers';0.91;
+Number of Reviewer Invitation Reminder 1 that are preceded by SW-Reviewer Selection is due in 3 days;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-Reviewer Selection is due in 3 days' occurs;54;
+Percentage of Reviewer Invitation Reminder 1 that are not dismissed;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Percentage of Reviewer Invitation Reminder 1 from all Reviewer Invitation Reminder 2;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 2';1.0;
+Number of Reviewer Invitation Reminder 1 with amounts above 100 euros;Number of 'Reviewer Invitation Reminder 1' activities;118;
+Percentage of Reviewer Invitation Reminder 1 by onbehalfof@manuscriptcentral.com;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;catarci@diag.uniroma1.it:0.0;"{""catarci@diag.uniroma1.it"":0.0,""clcabanban@ched.gov.ph"":0.0,""gleb@intentionalinsights.org"":1.0,""marrella@diag.uniroma1.it"":0.75,""onbehalfof@manuscriptcentral.com"":0.5}"
+Percentage of Reviewer Invitation Reminder 1 by worker;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;ADMIN:0.75;"{""ADMIN"":0.75,""AUTHOR"":0.5,""EIC"":0.0,""SYSTEM"":0.5}"
+Percentage of Reviewer Invitation Reminder 1 followed by SW-Reviewer Declined;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Declined';1.0;
+Number of Reviewer Invitation Reminder 1 made per year;Number of 'Reviewer Invitation Reminder 1' activities;118;
+Percentage of Reviewer Invitation Reminder 1 that are rejected;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Number of Reviewer Invitation Reminder 1 in relation to SW-Reviewer Selection is now due;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-Reviewer Selection is now due' occurs;28;
+Percentage of Reviewer Invitation Reminder 1;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Number of times Reviewer Invitation Reminder 1 is performed;Number of 'Reviewer Invitation Reminder 1' activities;118;
+Percentage of Reviewer Invitation Reminder 1 done after SW-Reviewer Selection is 3 days late;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Selection is 3 days late';0.82;
+Average number of Reviewer Invitation Reminder 1;the average of the number of times `ACTIVITY` == 'Reviewer Invitation Reminder 1';1.27;
+Percentage of Reviewer Invitation Reminder 1 with an increment;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Percentage of Reviewer Invitation Reminder 1 with appeal;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Average number of Reviewer Invitation Reminder 1 that are followed by SW-Reviewer Agreed;the average of the number of times `ACTIVITY` == 'Reviewer Invitation Reminder 1' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Reviewer Agreed';2.33;
+Percentage of Reviewer Invitation Reminder 1 with penalty;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Average number of Reviewer Invitation Reminder 1 in a month;the average of the number of times `ACTIVITY` == 'Reviewer Invitation Reminder 1';1.27;
+Total Reviewer Invitation Reminder 1 done by onbehalfof@manuscriptcentral.com;Number of 'Reviewer Invitation Reminder 1' activities grouped by the last value of sender;catarci@diag.uniroma1.it:0;"{""catarci@diag.uniroma1.it"":0,""clcabanban@ched.gov.ph"":0,""gleb@intentionalinsights.org"":1,""marrella@diag.uniroma1.it"":7,""onbehalfof@manuscriptcentral.com"":110}"
+Fraction of Reviewer Invitation Reminder 1 that are dismissed;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Total Reviewer Invitation Reminder 1 performed by onbehalfof@manuscriptcentral.com;Number of 'Reviewer Invitation Reminder 1' activities grouped by the last value of sender;catarci@diag.uniroma1.it:0;"{""catarci@diag.uniroma1.it"":0,""clcabanban@ched.gov.ph"":0,""gleb@intentionalinsights.org"":1,""marrella@diag.uniroma1.it"":7,""onbehalfof@manuscriptcentral.com"":110}"
+Ratio of Reviewer Invitation Reminder 1 over SW-AE Assign Reviewers;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-AE Assign Reviewers';0.91;
+Occasions how often the Reviewer Invitation Reminder 1 is performed;Number of 'Reviewer Invitation Reminder 1' activities;118;
+The ratio of Reviewer Invitation Reminder 1 that are not eventually performed;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Frequency of Reviewer Invitation Reminder 1 in variants containing SW-Reviewer Agreed;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-Reviewer Agreed' occurs;107;
+Percentage of cases with Reviewer Invitation Reminder 1 that eventually reach SW-EIC Accept;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-EIC Accept';0.0;
+Number of Reviewer Invitation Reminder 1 per SW-AE Assign Reviewers occurrence;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-AE Assign Reviewers' occurs;105;
+Percentage of Reviewer Invitation Reminder 1 preceding SW-Reviewer Declined versus SW-Reviewer Agreed;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Declined';1.0;
+Frequency of Reviewer Invitation Reminder 1 in variants with prolonged reviewer selection phase;Number of 'Reviewer Invitation Reminder 1' activities;118;
+Ratio of Reviewer Invitation Reminder 1 to SW-Reviewer Selection is 3 days late;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Selection is 3 days late';0.82;
+Percentage of Reviewer Invitation Reminder 1 in manuscripts that undergo major revision;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-EIC Major Revision';0.87;
+Number of Reviewer Invitation Reminder 1 in variants with multiple SW-AE Assign Reviewers;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-AE Assign Reviewers' occurs;105;
+Percentage of Reviewer Invitation Reminder 1 in cases with SW-Reviewer Unavailable;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Unavailable';1.0;
+Frequency of Reviewer Invitation Reminder 1 in variants with Assign a Different Editor;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'Assign a Different Editor' occurs;22;
+Ratio of Reviewer Invitation Reminder 1 to Reviewer Invitation Reminder 2 in successful review processes;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 2';1.0;
+Number of Reviewer Invitation Reminder 1 grouped by case:concept:name;"ERROR: computing metric {'count': activity == 'Reviewer Invitation Reminder 1'"", 'aggregation': 'total', 'group_by': 'concept:name'}""";;

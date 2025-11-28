@@ -1,0 +1,11 @@
+Name;Metric;Value;Agrupation
+Frequency of \SW-Checklist Completion is due in three days\ preceding \SW-Checklist Completed\;Frequency of activity 'SW-Checklist Completion is due in three days' for cases where activity 'SW-Checklist Completed' occurs;30.0;
+Percentage of manuscripts that have \SW-Checklist Completion is due in three days\ followed by \SW-Awaiting AE Assignment\;Percentage of 'SW-Checklist Completion is due in three days' out of all 'SW-Awaiting AE Assignment';0.25;
+Number of times \SW-Checklist Completion is due in three days\ occurs in the most frequent process variant;Number of 'SW-Checklist Completion is due in three days' activities;31.0;
+Percentage of \SW-Checklist Completion is due in three days\ out of all checklist-related activities;Percentage of 'SW-Checklist Completion is due in three days' out of all 'SW-Checklist Completed';0.37;
+Frequency of \SW-Checklist Completion is due in three days\ in manuscripts that require major revision compared to those that do not;Number of 'SW-Checklist Completion is due in three days' activities for cases where activity 'SW-EIC Major Revision' occurs;6.0;
+Percentage of \SW-Checklist Completion is due in three days\ followed by \SW-Reviewer Agreed\ within the same case;Percentage of 'SW-Checklist Completion is due in three days' out of all 'SW-Reviewer Agreed';0.37;
+Number of \SW-Checklist Completion is due in three days\ activities that lead to \SW-EIC Reject\ decisions;Number of 'SW-Checklist Completion is due in three days' activities for cases where activity 'SW-EIC Reject' occurs;9.0;
+Percentage of \SW-Checklist Completion is due in three days\ in manuscripts that are accepted after the first submission;Percentage of 'SW-Checklist Completion is due in three days' out of all 'SW-EIC Accept';0.67;
+Frequency of \SW-Checklist Completion is due in three days\ in relation to the total number of activities in the longest process variant;Number of 'SW-Checklist Completion is due in three days' activities;31.0;
+Percentage of \SW-Checklist Completion is due in three days\ followed by any reviewer-related activity within two weeks;Percentage of 'SW-Checklist Completion is due in three days' out of all 'SW-AE Assign Reviewers';0.39;

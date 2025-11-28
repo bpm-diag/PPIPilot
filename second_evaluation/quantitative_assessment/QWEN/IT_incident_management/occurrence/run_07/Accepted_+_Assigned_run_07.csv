@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Assigned' out of all activity executions in the event log;Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' occurrences across all cases;Number of 'Accepted + Assigned' activities;3121;
+Percentage of process variants that include 'Accepted + Assigned';Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' followed by 'Completed + Resolved';Number of 'Accepted + Assigned' activities for cases where activity 'Completed + Resolved' occurs;3116;
+Percentage of 'Accepted + Assigned' that occur after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Assigned' out of all 'Queued + Awaiting Assignment';0.38;
+Frequency of 'Accepted + Assigned' in variants that eventually lead to 'Completed + Closed';Number of 'Accepted + Assigned' activities for cases where activity 'Completed + Closed' occurs;3089;
+Percentage of 'Accepted + Assigned' relative to 'Accepted + In Progress';Percentage of 'Accepted + Assigned' out of all 'Accepted + In Progress';0.24;
+Frequency of 'Accepted + Assigned' in variants that also contain 'Completed + In Call';Number of 'Accepted + Assigned' activities for cases where activity 'Completed + In Call' occurs;62;
+Percentage of cases where 'Accepted + Assigned' appears at least once among all cases containing 'Completed + In Call';Percentage of 'Accepted + Assigned' out of all 'Completed + In Call';0.02;
+Frequency of 'Accepted + Assigned' occurring before any 'Accepted + Wait - User' activity;Number of 'Accepted + Assigned' activities for cases where activity 'Accepted + Wait - User' occurs;2045;
+Percentage of 'Accepted + Assigned' executions that are part of high-frequency variants (frequency ≥ 100);the average of the function base >= 100 where base is the number of times `ACTIVITY` == 'Accepted + Assigned';0.0;
+Frequency of 'Accepted + Assigned' in variants with total performance duration above the median;Number of 'Accepted + Assigned' activities;3121;
+Percentage of 'Accepted + Assigned' that directly precede a return to 'Accepted + In Progress';Percentage of 'Accepted + Assigned' out of all 'Accepted + In Progress';0.24;
+Percentage of variants containing both 'Accepted + Assigned' and 'Completed + In Call' out of all variants containing 'Completed + In Call';Percentage of 'Accepted + Assigned' out of all 'Completed + In Call';0.02;
+Percentage of 'Accepted + Assigned' activities that occur in multi-loop variants (i.e., variants with repeated sequences);Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' in variants that include any 'Accepted + Wait' subtype;Number of 'Accepted + Assigned' activities for cases where activity 'Accepted + Wait' occurs;1137;
+Percentage of total 'Accepted + Assigned' occurrences that happen within the first three activities of a case;Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' in cases that do not end with 'Completed + Cancelled';Number of 'Accepted + Assigned' activities for cases where activity 'Completed + Cancelled' does not occur;3121;
+Frequency of 'Accepted + Assigned' in cases originating from France compared to other countries;Percentage of 'Accepted + Assigned' out of all cases;0:0.19;"{""0"":0.1923076923,""SE"":0.0491803279,""au"":0.48,""be"":0.3153526971,""br"":0.2186495177,""ca"":0.5909090909,""cl"":0.6666666667,""cn"":0.3366336634,""de"":1.0,""fr"":0.3398058252,""gb"":0.2272727273,""in"":0.4776422764,""jp"":0.5333333333,""kr"":0.3692307692,""my"":0.0,""nl"":0.5862068966,""pe"":0.0,""pl"":0.3002270148,""ru"":0.3777777778,""se"":0.1472011057,""th"":0.0,""tr"":0.0,""us"":0.1653846154}"
+Frequency of 'Accepted + Assigned' per year to assess temporal trends;"ERROR: computing metric {'count': activity == 'Accepted + Assigned'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

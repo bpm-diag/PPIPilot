@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by SUPERVISOR' compared to 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Declaration APPROVED by ADMINISTRATION';0.03;
+Percentage of 'Declaration REJECTED by SUPERVISOR' out of all rejection activities;Percentage of 'Declaration REJECTED by SUPERVISOR' out of all cases where 'Declaration REJECTED by SUPERVISOR' does not happen;0.03;
+Number of 'Declaration REJECTED by SUPERVISOR' that are followed by 'Declaration SUBMITTED by EMPLOYEE';Number of 'Declaration REJECTED by SUPERVISOR' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;293.0;
+Percentage of 'Declaration REJECTED by SUPERVISOR' from all supervisor-related activities;Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Declaration FOR_APPROVAL by SUPERVISOR';0.0;
+Frequency of 'Declaration REJECTED by SUPERVISOR' in cases with amounts above 100 euros;Number of 'Declaration REJECTED by SUPERVISOR' activities > 100 where ma is the last value of case:Amount;80.0;
+Percentage of 'Declaration REJECTED by SUPERVISOR' by 'STAFF MEMBER';Percentage of 'Declaration REJECTED by SUPERVISOR' out of all cases;;
+Number of 'Declaration REJECTED by SUPERVISOR' grouped by 'case:BudgetNumber';Number of 'Declaration REJECTED by SUPERVISOR' activities;293.0;
+Percentage of 'Declaration REJECTED by SUPERVISOR' by worker compared to 'Declaration FINAL_APPROVED by SUPERVISOR';Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.02;
+Percentage of 'Declaration REJECTED by SUPERVISOR' that lead to a 'Request Payment';Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Request Payment';0.02;
+Total 'Declaration REJECTED by SUPERVISOR' done by 'SYSTEM';Number of 'Declaration REJECTED by SUPERVISOR' activities == 'SYSTEM' where ma is the last value of org:resource;209.0;
+Ratio of 'Declaration REJECTED by SUPERVISOR' over 'Declaration APPROVED by PRE_APPROVER';Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Declaration APPROVED by PRE_APPROVER';0.02;
+Frequency of 'Declaration REJECTED by SUPERVISOR' in relation to the total number of declarations processed;Percentage of 'Declaration REJECTED by SUPERVISOR' out of all cases where 'Declaration REJECTED by SUPERVISOR' does not happen;0.03;
+Number of times 'Declaration REJECTED by SUPERVISOR' is performed before 'Declaration APPROVED by BUDGET OWNER';Number of 'Declaration REJECTED by SUPERVISOR' activities for cases where activity 'Declaration APPROVED by BUDGET OWNER' occurs;89.0;
+Percentage of 'Declaration REJECTED by SUPERVISOR' followed by 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of 'Declaration REJECTED by SUPERVISOR' in cases that were eventually approved after resubmission;Percentage of 'Declaration REJECTED by SUPERVISOR' out of all 'Declaration APPROVED by ADMINISTRATION';0.03;
+Percentage of 'Declaration REJECTED by SUPERVISOR' with an increment in case amount after resubmission;Percentage of 'Declaration REJECTED by SUPERVISOR' out of all cases;0.02;
+Number of 'Declaration REJECTED by SUPERVISOR' made per year;Number of 'Declaration REJECTED by SUPERVISOR' activities;293.0;
+Average number of 'Declaration REJECTED by SUPERVISOR' in a month;the average of the number of times `ACTIVITY` == 'Declaration REJECTED by SUPERVISOR';0.03;

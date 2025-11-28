@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting EIC Decision occurrences out of all activity executions in the event log;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Frequency of SW-Awaiting EIC Decision across all cases;Number of 'SW-Awaiting EIC Decision' activities;60.0;
+Percentage of variants that include SW-Awaiting EIC Decision as a step before SW-EIC Accept;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Percentage of variants that include SW-Awaiting EIC Decision as a step before SW-EIC Reject;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Reject';0.47;
+Percentage of SW-Awaiting EIC Decision occurrences that are directly preceded by SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Awaiting AE Recommendation';0.97;
+Frequency of SW-Awaiting EIC Decision appearing after SW-Reviewer Agreed in the same case;Number of 'SW-Awaiting EIC Decision' activities for cases where activity 'SW-Reviewer Agreed' occurs;45.0;
+Percentage of SW-Awaiting EIC Decision occurrences that eventually lead to a final decision (SW-EIC Accept, SW-EIC Reject, SW-EIC Major Revision, or SW-EIC Minor Revision);Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Ratio of SW-Awaiting EIC Decision occurrences to SW-Awaiting AE Assignment occurrences;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Awaiting AE Assignment';0.61;
+Percentage of cases where SW-Awaiting EIC Decision appears more than once;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'SW-Awaiting EIC Decision';0.01;
+Frequency of SW-Awaiting EIC Decision in variants that originate from a major revision cycle (i.e., contain RW-Initial Reviewer Selection);Number of 'SW-Awaiting EIC Decision' activities for cases where activity 'RW-Initial Reviewer Selection' occurs;22.0;
+Percentage of SW-Awaiting EIC Decision steps that occur within 7 days after the last SW-Reviewer Agreed activity in the same case;the average of the function base < 7 where base is the number of times `ACTIVITY` == 'SW-Awaiting EIC Decision' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Reviewer Agreed';1.0;
+Number of SW-Awaiting EIC Decision occurrences that are not followed by any EIC decision activity within 30 days;Number of 'SW-Awaiting EIC Decision' activities for cases where activity 'SW-EIC Accept' does not occur;60.0;
+Percentage of SW-Awaiting EIC Decision occurrences in cases that started with Immediate Reject Decision from the Checklist versus those that did not;Percentage of 'SW-Awaiting EIC Decision' out of all 'Immediate Reject Decision from the Checklist';0.0;
+Frequency of SW-Awaiting EIC Decision in comparison to other waiting states such as SW-Awaiting AE Assignment and SW-Awaiting Checklist Completion;Number of 'SW-Awaiting EIC Decision' activities for cases where activity 'SW-Awaiting AE Assignment' occurs;35.0;
+Percentage of SW-Awaiting EIC Decision occurrences that are part of the most frequent variant pattern involving reviewer agreement and editorial decision;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Agreed';0.98;
+Ratio of SW-Awaiting EIC Decision to total number of SW-* prefixed activities;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Percentage of cases containing SW-Reviewer Agreed that eventually reach SW-Awaiting EIC Decision;Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Percentage of SW-Awaiting EIC Decision occurrences that follow at least two distinct SW-Reviewer Agreed events in the same case;the average of the function base > 2 where base is the number of times `ACTIVITY` == 'SW-Awaiting EIC Decision' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Reviewer Agreed';0.0;
+Fraction of SW-Awaiting EIC Decision steps that appear in variants with performance duration above the median case duration;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Frequency of SW-Awaiting EIC Decision per month to assess temporal workload distribution for Editors-in-Chief;"ERROR: computing metric {'count': activity == 'SW-Awaiting EIC Decision'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

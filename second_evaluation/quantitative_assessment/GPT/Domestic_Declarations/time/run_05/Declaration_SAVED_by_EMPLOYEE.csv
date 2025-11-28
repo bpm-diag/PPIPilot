@@ -1,0 +1,15 @@
+Name;Metric;Value;Agrupation
+Average time from 'Declaration SAVED by EMPLOYEE' to 'Declaration SUBMITTED by EMPLOYEE';The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration SUBMITTED by EMPLOYEE';;
+Total time for 'Declaration SAVED by EMPLOYEE' in the process;The sum of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;20.09 days;
+Average time between 'Declaration SAVED by EMPLOYEE' and 'Declaration APPROVED by ADMINISTRATION';The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration APPROVED by ADMINISTRATION';;
+Total resolution time of 'Declaration SAVED by EMPLOYEE';The sum of the duration between activity Declaration SAVED by EMPLOYEE and the end of the case;20.09 days;
+Minimun time from 'Declaration SAVED by EMPLOYEE' to 'Declaration FINAL_APPROVED by SUPERVISOR';The minimum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';;
+Average time it takes 'Declaration SAVED by EMPLOYEE' to be followed by any approval activity;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration APPROVED by ADMINISTRATION';;
+Total time it takes from 'Declaration SAVED by EMPLOYEE' to 'Payment Handled';The sum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Payment Handled';20.09 days;
+Minimun time until 'Declaration SAVED by EMPLOYEE' is followed by 'Request Payment';The minimum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Request Payment';17.03 days;
+Average waiting time to the 'Declaration SAVED by EMPLOYEE' from the start of the process;The average of the duration between the start of the case and activity 'Declaration SAVED by EMPLOYEE';0.00 seconds;
+Time from 'Declaration SAVED by EMPLOYEE' to 'Declaration REJECTED by ADMINISTRATION' in cases where re-submission occurs;The sum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration REJECTED by ADMINISTRATION';;
+Average time for 'Declaration SAVED by EMPLOYEE' across different departments (grouped by org:resource);The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and the end of case grouped by the last value of org:resource;STAFF MEMBER:0.00 seconds;"{""STAFF MEMBER"":0,""SYSTEM"":1735613000}"
+Total time from 'Declaration SAVED by EMPLOYEE' to the end of the process in successful claims;The sum of the duration between activity 'Declaration SAVED by EMPLOYEE' and the end of case where activity 'Payment Handled occurs;20.09 days;
+Minimun resolution time of 'Declaration SAVED by EMPLOYEE' in cases leading to 'Payment Handled';The minimum of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Payment Handled';20.09 days;
+Average time from 'Declaration SAVED by EMPLOYEE' to 'Declaration APPROVED by BUDGET OWNER';The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration APPROVED by BUDGET OWNER';;

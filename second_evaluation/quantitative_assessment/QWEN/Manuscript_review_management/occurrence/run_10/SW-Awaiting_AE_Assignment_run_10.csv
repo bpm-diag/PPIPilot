@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Assignment occurrences out of all activity executions in the event log;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment across all cases;Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of variants that include SW-Awaiting AE Assignment immediately after SW-Checklist Completed;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Number of times SW-Awaiting AE Assignment is directly followed by SW-Initial Reviewer Selection;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Initial Reviewer Selection' occurs;36.0;
+Percentage of SW-Awaiting AE Assignment occurrences that eventually lead to SW-EIC Reject;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Reject';0.79;
+Frequency of SW-Awaiting AE Assignment compared to the frequency of SW-Awaiting EIC Decision;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Awaiting EIC Decision' occurs;35.0;
+Percentage of cases where SW-Awaiting AE Assignment appears exactly once per case;the average of the function base == 1 where base is the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment';0.6;
+Number of variants in which SW-Awaiting AE Assignment occurs before any reviewer-related activity (e.g., SW-Reviewer Agreed, SW-Reviewer Declined);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Reviewer Agreed' occurs;24.0;
+Percentage of SW-Awaiting AE Assignment occurrences that are not followed by any AE assignment activity within 7 days;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Ratio of SW-Awaiting AE Assignment occurrences to Original Manuscript Submission Confirmation occurrences;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'Original Manuscript Submission Confirmation' occurs;58.0;
+Percentage of SW-Awaiting AE Assignment events that occur in cases ultimately resulting in acceptance (e.g., followed by RW-EIC Accept or SW-EIC Accept);Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Accept';1.0;
+Frequency of SW-Awaiting AE Assignment in cases that involve at least one instance of SW-Reviewer Agreed;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Reviewer Agreed' occurs;24.0;
+Percentage of variants containing SW-Awaiting AE Assignment that proceed to a revision stage (e.g., SW-EIC Major Revision or SW-EIC Minor Revision);Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Major Revision';0.27;
+Number of times SW-Awaiting AE Assignment appears without being preceded by SW-Checklist Completed;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Checklist Completed' does not occur;58.0;
+Percentage of SW-Awaiting AE Assignment occurrences relative to all \awaiting\ state activities (e.g., SW-Awaiting Checklist Completion, SW-Awaiting AE Recommendation, SW-Awaiting EIC Decision);Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Awaiting Checklist Completion';0.67;

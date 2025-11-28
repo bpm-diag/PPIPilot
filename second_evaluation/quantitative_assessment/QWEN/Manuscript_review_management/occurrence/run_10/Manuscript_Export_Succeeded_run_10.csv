@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of Manuscript Export Succeeded out of all activity executions in the event log;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Frequency of Manuscript Export Succeeded occurrences across all cases;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that occur before SW-Reviewer Agreed;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of Manuscript Export Succeeded activities that are immediately followed by Plagiarism Originality Report Completed;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that appear in variants leading to SW-EIC Accept;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Frequency of Manuscript Export Succeeded in variants that include SW-Reviewer Agreed;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded relative to Original Manuscript Submission Confirmation;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of Manuscript Export Succeeded activities per case (to detect re-submissions or re-exports);the average of the number of times `ACTIVITY` == 'Manuscript Export Succeeded';1.52;
+Percentage of variants containing Manuscript Export Succeeded that also contain at least one instance of SW-Reviewer Agreed;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Frequency of Manuscript Export Succeeded occurring after SW–Major Revision due in 1 week or other revision-related activities;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that are part of the initial submission phase versus resubmission phases (e.g., following Revised Manuscript Submission Confirmation or Resubmission Manuscript Submission Confirmation);Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Ratio of Manuscript Export Succeeded to First Look Manuscript Submission Confirmation in accepted manuscripts;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Percentage of Manuscript Export Succeeded that precede any reviewer assignment activity (e.g., SW-AE Assign Reviewers);Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Frequency of Manuscript Export Succeeded in cases that eventually reach Awaiting Assignment to Batch;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded that occur more than once in the same case, indicating iterative export attempts or multiple manuscript versions;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;

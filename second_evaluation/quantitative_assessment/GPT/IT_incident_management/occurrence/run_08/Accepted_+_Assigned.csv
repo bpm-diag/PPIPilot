@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Assigned' leading to 'Completed + In Call';Frequency of activity 'Accepted + Assigned' for cases where activity 'Completed + In Call' occurs;35.0;
+Percentage of cases involving 'Accepted + Assigned' that also include 'Completed + Resolved';Percentage of 'Accepted + Assigned' out of all 'Completed + Resolved';0.32;
+Number of 'Accepted + Assigned' activities followed by 'Accepted + Wait - User';Number of 'Accepted + Assigned' activities for cases where activity 'Accepted + Wait - User' occurs;2045.0;
+Percentage of 'Accepted + Assigned' out of all 'Accepted + In Progress' activities;Percentage of 'Accepted + Assigned' out of all 'Accepted + In Progress';0.24;
+Frequency of 'Accepted + Assigned' preceding 'Completed + Closed';Frequency of activity 'Accepted + Assigned' for cases where activity 'Completed + Closed' occurs;1807.0;
+Percentage of 'Accepted + Assigned' activities that lead to a change in the case status within the VINST system;Percentage of 'Accepted + Assigned' out of all cases where 'Unmatched + Unmatched' does not happen;0.24;
+Number of 'Accepted + Assigned' activities that occur before 'Queued + Awaiting Assignment';Number of 'Accepted + Assigned' activities for cases where activity 'Queued + Awaiting Assignment' occurs;2981.0;
+Percentage of 'Accepted + Assigned' followed by any activity within the same case;Percentage of 'Accepted + Assigned' out of all cases where 'Unmatched + Unmatched' does not happen;0.24;
+Frequency of 'Accepted + Assigned' in relation to 'Accepted + Wait - Implementation';Frequency of activity 'Accepted + Assigned' for cases where activity 'Accepted + Wait - Implementation' occurs;194.0;
+Percentage of 'Accepted + Assigned' activities that are part of the most frequent process variant;Percentage of 'Accepted + Assigned' out of all cases where 'Unmatched + Unmatched' does not happen;0.24;
+Number of 'Accepted + Assigned' activities that precede 'Completed + In Call', considering their impact on the process performance;Number of 'Accepted + Assigned' activities for cases where activity 'Completed + In Call' occurs;62.0;
+Frequency of 'Accepted + Assigned' in cases that involve international resources, based on the 'country' column;Frequency of activity 'Accepted + Assigned';1829.0;
+Percentage of 'Accepted + Assigned' activities that lead to a resolution without further escalation;Percentage of 'Accepted + Assigned' out of all 'Completed + Resolved';0.32;
+Number of 'Accepted + Assigned' activities that are followed by 'Completed + Resolved' within a specific time frame;Number of 'Accepted + Assigned' activities for cases where activity 'Completed + Resolved' occurs;3116.0;
+Percentage of 'Accepted + Assigned' activities that result in a customer satisfaction increase, inferred from case closure comments;Percentage of 'Accepted + Assigned' out of all 'Completed + Closed';0.32;
+Frequency of 'Accepted + Assigned' as the initial activity in a case;Frequency of activity 'Accepted + Assigned' for cases where activity 'Accepted + Assigned' occurs;1829.0;
+Percentage of 'Accepted + Assigned' activities that are part of cases exceeding the average case duration;Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Number of 'Accepted + Assigned' activities that directly lead to 'Completed + In Call', indicating a swift resolution path;Number of 'Accepted + Assigned' activities for cases where activity 'Completed + In Call' occurs;62.0;
+Percentage of 'Accepted + Assigned' activities that occur after 'Queued + Awaiting Assignment', highlighting process bottlenecks;Percentage of 'Accepted + Assigned' out of all 'Queued + Awaiting Assignment';0.38;
+Percentage of 'Accepted + Assigned' activities within cases that have a performance above the average;Percentage of 'Accepted + Assigned' out of all cases;0.24;

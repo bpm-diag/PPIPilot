@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Wait - Vendor' leading to 'Completed + In Call';Frequency of activity 'Accepted + Wait - Vendor' for cases where activity 'Completed + In Call' occurs;1;
+Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + In Progress' activities;Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + In Progress';0.03;
+Number of 'Accepted + Wait - Vendor' that are preceded by 'Queued + Awaiting Assignment';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Queued + Awaiting Assignment' occurs;242;
+Percentage of 'Accepted + Wait - Vendor' followed by 'Completed + Resolved';Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + Resolved';0.04;
+Frequency of 'Accepted + Wait - Vendor' in relation to 'Completed + Closed';Frequency of activity 'Accepted + Wait - Vendor' for cases where activity 'Completed + Closed' occurs;244;
+Percentage of 'Accepted + Wait - Vendor' from all 'Accepted + Wait - User';Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait - User';0.04;
+Number of 'Accepted + Wait - Vendor' occurrences in the most common process variant;Number of 'Accepted + Wait - Vendor' activities;299;
+Percentage of 'Accepted + Wait - Vendor' activities by country;Percentage of 'Accepted + Wait - Vendor' out of all cases;0:0.0;"{""0"":0.0,""SE"":0.0163934426,""au"":0.04,""be"":0.0477178423,""br"":0.1189710611,""ca"":0.0303030303,""cl"":0.0,""cn"":0.0099009901,""de"":0.0,""fr"":0.0258899676,""gb"":0.0,""in"":0.0386178862,""jp"":0.0,""kr"":0.0153846154,""my"":0.0,""nl"":0.0344827586,""pe"":0.0,""pl"":0.0039727582,""ru"":0.0222222222,""se"":0.0449205252,""th"":0.0,""tr"":0.0,""us"":0.0205128205}"
+Number of 'Accepted + Wait - Vendor' activities grouped by impact level;Number of 'Accepted + Wait - Vendor' activities grouped by the last value of impact;High:25;"{""High"":25,""Low"":98,""Major"":0,""Medium"":176}"
+Percentage of 'Accepted + Wait - Vendor' by organization;Percentage of 'Accepted + Wait - Vendor' out of all cases;Org line A2:0.02;"{""Org line A2"":0.0190258752,""Org line B"":0.0545808967,""Org line C"":0.0356725146,""Org line D"":0.0,""Org line E"":0.0,""Org line F"":0.0,""Org line G1"":0.0,""Org line G2"":0.0,""Org line G3"":0.0,""Org line G4"":0.0066666667,""Org line H"":0.0,""Org line V1"":0.0,""Org line V10"":0.2857142857,""Org line V11"":0.0,""Org line V2"":0.0625,""Org line V3"":0.0,""Org line V5"":0.1,""Org line V7"":0.0,""Org line V7n"":0.0344827586,""Org line V8"":0.0,""Org line V9"":0.0,""Other"":0.0106382979}"
+Frequency of 'Accepted + Wait - Vendor' followed by 'Completed + Resolved' in cases with high impact;Frequency of activity 'Accepted + Wait - Vendor';;
+Percentage of 'Accepted + Wait - Vendor' leading to a resolution without escalation;Percentage of 'Accepted + Wait - Vendor' out of all cases where 'Escalation' does not happen;0.03;
+Number of 'Accepted + Wait - Vendor' in cases that required vendor intervention;Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Vendor Intervention' occurs;;
+Percentage of 'Accepted + Wait - Vendor' in the context of the VINST system's incident and problem management process;Percentage of 'Accepted + Wait - Vendor' out of all cases;;
+Frequency of 'Accepted + Wait - Vendor' as a precursor to 'Completed + In Call', considering the goal to understand the impact of 'Completed + In Call';Frequency of activity 'Accepted + Wait - Vendor' for cases where activity 'Completed + In Call' occurs;1;
+Percentage of 'Accepted + Wait - Vendor' activities that lead to a case being closed without further action;Percentage of 'Accepted + Wait - Vendor' out of all 'Case Closed';;
+Average number of 'Accepted + Wait - Vendor' activities per case;the average of the number of times `ACTIVITY` == 'Accepted + Wait - Vendor';0.04;
+Percentage of 'Accepted + Wait - Vendor' activities that result in a product change;Percentage of 'Accepted + Wait - Vendor' out of all 'Product Change';;
+Frequency of 'Accepted + Wait - Vendor' in high performance variants compared to 'Accepted + In Progress';Frequency of activity 'Accepted + Wait - Vendor' for cases where activity 'Accepted + In Progress' occurs;248;
+Number of 'Accepted + Wait - Vendor' made per year;Number of 'Accepted + Wait - Vendor' activities;299;

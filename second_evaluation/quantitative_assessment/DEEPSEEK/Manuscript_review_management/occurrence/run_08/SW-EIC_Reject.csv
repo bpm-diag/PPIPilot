@@ -1,0 +1,30 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-EIC Reject cases that never reached SW-Reviewer Agreed;Percentage of 'SW-EIC Reject' out of all cases where 'SW-Reviewer Agreed' does not happen;0.37;
+Number of SW-EIC Reject decisions made;Number of 'SW-EIC Reject' activities;34;
+Percentage of SW-EIC Reject out of all final EIC decisions;Percentage of 'SW-EIC Reject' out of all 'SW-EIC Accept';0.0;
+Number of SW-EIC Reject that are preceded by SW-Awaiting AE Assignment;Number of 'SW-EIC Reject' activities for cases where activity 'SW-Awaiting AE Assignment' occurs;27;
+Percentage of SW-EIC Reject that occur without any reviewer assignment;Percentage of 'SW-EIC Reject' out of all cases where 'SW-AE Assign Reviewers' does not happen;0.37;
+Percentage of SW-EIC Reject from all manuscript submissions;Percentage of 'SW-EIC Reject' out of all 'Original Manuscript Submission Confirmation';0.38;
+Frequency of SW-EIC Reject in variants with short cycle times;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Percentage of SW-EIC Reject cases that bypassed the full review process;Percentage of 'SW-EIC Reject' out of all cases where 'SW-Reviewer Agreed' does not happen;0.37;
+Percentage of SW-EIC Reject followed by manuscript resubmission;Percentage of 'SW-EIC Reject' out of all 'Resubmission Manuscript Submission Confirmation';0.0;
+Percentage of SW-EIC Reject decisions that are immediate from checklist;Percentage of 'SW-EIC Reject' out of all 'Immediate Reject Decision from the Checklist';0.0;
+Number of SW-EIC Reject in relation to SW-EIC Accept;Number of 'SW-EIC Reject' activities for cases where activity 'SW-EIC Accept' occurs;0;
+Percentage of manuscripts that receive SW-EIC Reject;Percentage of 'SW-EIC Reject' out of all 'Original Manuscript Submission Confirmation';0.38;
+Percentage of SW-EIC Reject done after Plagiarism Percent Match Threshold Exceeded;Percentage of 'SW-EIC Reject' out of all 'Plagiarism Percent Match Threshold Exceeded';0.36;
+Percentage of SW-EIC Reject cases with plagiarism issues;Percentage of 'SW-EIC Reject' out of all 'Plagiarism Percent Match Threshold Exceeded';0.36;
+Ratio of SW-EIC Reject over SW-EIC Major Revision;Number of 'SW-EIC Reject' activities for cases where activity 'SW-EIC Major Revision' occurs;0;
+Frequency of SW-EIC Reject in variants with checklist completion delays;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Percentage of SW-EIC Reject that occur before any reviewer invitation;Percentage of 'SW-EIC Reject' out of all cases where 'SW-AE Assign Reviewers' does not happen;0.37;
+Number of SW-EIC Reject in variants with minimal activity count;Number of 'SW-EIC Reject' activities;34;
+Percentage of SW-EIC Reject from first-time submissions;Percentage of 'SW-EIC Reject' out of all 'Original Manuscript Submission Confirmation';0.38;
+Ratio of SW-EIC Reject to SW-EIC Minor Revision;Number of 'SW-EIC Reject' activities for cases where activity 'SW-EIC Minor Revision' occurs;0;
+Frequency of SW-EIC Reject in scientific paper review process;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Percentage of SW-EIC Reject that follow immediate checklist rejection criteria;Percentage of 'SW-EIC Reject' out of all 'Immediate Reject Decision from the Checklist';0.0;
+Percentage of SW-EIC Reject decisions made without AE assignment;Percentage of 'SW-EIC Reject' out of all cases where 'SW-Awaiting AE Assignment' does not happen;0.37;
+Number of SW-EIC Reject grouped by manuscript type;Number of 'SW-EIC Reject' activities grouped by the last value of code;AER0:0;"{""AER0"":0,""CHK4"":0,""DRSW4"":0,""DRW3"":0,""DSW3"":0,""DSW4"":33,""MSC4"":0,""RJR3"":0,""SW1"":0,""SW12"":1,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":0}"
+Number of SW-EIC Reject made per quarter;Number of 'SW-EIC Reject' activities;34;
+Number of times SW-EIC Reject is performed in each variant;Number of 'SW-EIC Reject' activities grouped by the last value of performer;ADMIN:0;"{""ADMIN"":0,""AUTHOR"":0,""EIC"":1,""SYSTEM"":33}"
+Average number of SW-EIC Reject per month;the average of the number of times `ACTIVITY` == 'SW-EIC Reject';0.37;
+Number of SW-EIC Reject compared to SW-EIC Reject & Resubmit;Number of 'SW-EIC Reject' activities;34;
+Percentage of SW-EIC Reject by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-EIC Reject'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""sender == 'onbehalfof@manuscriptcentral.com'""}""";;

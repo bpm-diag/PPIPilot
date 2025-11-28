@@ -1,0 +1,18 @@
+Name;Metric;Value;Agrupation
+Percentage of \Request Payment\ activities directly followed by \Payment Handled\ activities.;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Percentage of \Declaration FINAL_APPROVED by SUPERVISOR\ activities that lead to \Payment Handled\ within the same case.;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Payment Handled';1.0;
+Number of \Payment Handled\ activities with amounts above 100 euros.;Number of 'Payment Handled' activities > 100 where ma is the last value of case:Amount;2304;
+Percentage of \Payment Handled\ activities by \SYSTEM\ resource.;Percentage of 'Payment Handled' out of all cases;1.0;
+Ratio of \Payment Handled\ activities over \Declaration SUBMITTED by EMPLOYEE\ activities.;Percentage of 'Payment Handled' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Frequency of \Payment Handled\ activities in cases where \Declaration REJECTED by PRE_APPROVER\ occurred.;Frequency of activity 'Payment Handled' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;72;
+Percentage decrease in \Declaration REJECTED by PRE_APPROVER\ activities before \Payment Handled\ after implementing improvement measures.;the average of the function base < 0 where base is the number of times `ACTIVITY` == 'Declaration REJECTED by PRE_APPROVER' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Payment Handled';0.0;
+Average time from \Declaration FINAL_APPROVED by SUPERVISOR\ to \Payment Handled\.;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Payment Handled';1.0;
+Percentage of \Payment Handled\ activities that conclude a case.;Percentage of 'Payment Handled' out of all 'Payment Handled';1.0;
+Number of \Payment Handled\ activities grouped by \case:BudgetNumber\.;Number of 'Payment Handled' activities grouped by the last value of case:BudgetNumber;budget 86566:10044;"{""budget 86566"":10044}"
+Percentage of \Payment Handled\ activities that follow \Declaration APPROVED by ADMINISTRATION\ without any rejections in between.;Percentage of 'Payment Handled' out of all 'Declaration APPROVED by ADMINISTRATION';0.99;
+Frequency of \Payment Handled\ activities in relation to the total number of activities in the event log.;Percentage of 'Payment Handled' out of all cases where '' does not happen;0.96;
+Ratio of \Payment Handled\ activities in cases with \Declaration APPROVED by BUDGET OWNER\ versus without.;Percentage of 'Payment Handled' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Number of \Payment Handled\ activities that occur after \Declaration REJECTED by PRE_APPROVER\ as a measure of process inefficiency.;Number of 'Payment Handled' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;72;
+Percentage of \Payment Handled\ activities that are followed by any corrective or appeal activities.;Percentage of 'Payment Handled' out of all cases where 'Payment Handled' does not happen;0.96;
+Total \Payment Handled\ performed by \SYSTEM\ resource as a measure of automation efficiency.;Number of 'Payment Handled' activities == 'SYSTEM' where ma is the last value of org:resource;10043;
+Ratio of \Payment Handled\ activities in cases with prior \Declaration REJECTED by ADMINISTRATION\ to identify process bottlenecks.;Percentage of 'Payment Handled' out of all 'Declaration REJECTED by ADMINISTRATION';0.75;

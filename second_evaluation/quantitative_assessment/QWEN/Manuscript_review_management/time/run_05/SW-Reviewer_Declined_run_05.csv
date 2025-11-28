@@ -1,0 +1,15 @@
+Name;Metric;Value;Agrupation
+Average time from SW-Reviewer Declined to SW-AE Assign Reviewers;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-AE Assign Reviewers';17.09 days;
+Total time between SW-Reviewer Declined and the subsequent occurrence of SW-Reviewer Agreed within the same case;The sum of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Agreed';459.28 days;
+Average time it takes to perform SW-AE Assign Reviewers after SW-Reviewer Declined;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-AE Assign Reviewers';17.09 days;
+Minimum time from SW-Reviewer Declined to SW-Reviewer Selection is now due;The minimum of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Selection is now due';2.42 days;
+Average time until SW-Reviewer Declined is followed by Assign a Different Editor;The average of the duration between activity 'SW-Reviewer Declined' and activity 'Assign a Different Editor';165.85 days;
+Average waiting time to SW-Reviewer Declined after SW-AE Assign Reviewers;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Declined';15.42 days;
+Time elapsed between SW-Reviewer Declined and the next Reviewer Invitation Reminder 1;The average of the duration between activity 'SW-Reviewer Declined' and activity 'Reviewer Invitation Reminder 1';86.90 days;
+Average time from SW-Reviewer Declined to SW-Reviewer Selection is 3 days late;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Selection is 3 days late';3.36 days;
+Total resolution time of SW-Reviewer Declined when occurring in variants that include SW-Reviewer Unavailable;The sum of the duration between activity 'SW-Reviewer Declined' and the end of case where activity 'SW-Reviewer Unavailable occurs;3322.19 days;
+Minimum time between SW-Reviewer Declined and Unassign Reviewer;The minimum of the duration between activity 'SW-Reviewer Declined' and activity 'Unassign Reviewer';352.79 days;
+Average time it takes SW-Reviewer Declined to be followed by another SW-Reviewer Declined in the same case;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Declined';9.12 days;
+Time from SW-Reviewer Declined to SW-Awaiting AE Recommendation in variants leading to SW-EIC Major Revision;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Awaiting AE Recommendation';67.36 days;
+Total time from SW-Reviewer Declined to Revised Manuscript Submission Confirmation in multi-round revision variants;The sum of the duration between activity 'SW-Reviewer Declined' and activity 'Revised Manuscript Submission Confirmation';2544.95 days;
+Total time for handling cases from SW-Reviewer Declined to SW-Awaiting EIC Decision, grouped by case:concept:name;"ERROR: computing metric {'begin': activity == 'SW-Reviewer Declined'"", 'end': ""activity == 'SW-Awaiting EIC Decision'"", 'aggregation': 'total', 'group_by': 'concept:name'}""";;

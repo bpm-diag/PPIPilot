@@ -1,0 +1,51 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Initial Reviewer Selection that leads to SW-Reviewer Agreed;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Agreed';0.98;
+Number of SW-Initial Reviewer Selection;Number of 'SW-Initial Reviewer Selection' activities;65;
+Percentage of SW-Initial Reviewer Selection out of all SW-Awaiting AE Assignment;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Awaiting AE Assignment';0.63;
+Number of SW-Initial Reviewer Selection that are preceded by SW-Checklist Completed;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Checklist Completed' occurs;63;
+Percentage of SW-Initial Reviewer Selection that are not dismissed;Percentage of 'SW-Initial Reviewer Selection' out of all cases where 'Manuscript is Withdrawn' does not happen;0.65;
+Percentage of SW-Initial Reviewer Selection from all SW-AE Assign Reviewers;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-AE Assign Reviewers';0.98;
+Number of SW-Initial Reviewer Selection with amounts above 100 euros;Number of 'SW-Initial Reviewer Selection' activities;65;
+Percentage of SW-Initial Reviewer Selection by worker;Percentage of 'SW-Initial Reviewer Selection' out of all cases;ADMIN:0.75;"{""ADMIN"":0.75,""AUTHOR"":0.5,""EIC"":0.0,""SYSTEM"":0.6511627907}"
+Percentage of SW-Initial Reviewer Selection followed by SW-Reviewer Selection is due in 1 week;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Selection is due in 1 week';1.0;
+Percentage of SW-Initial Reviewer Selection that are rejected;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Reject';0.47;
+Number of SW-Initial Reviewer Selection in relation to SW-Reviewer Declined;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Reviewer Declined' occurs;28;
+Percentage of SW-Initial Reviewer Selection;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Number of times SW-Initial Reviewer Selection is performed;Number of 'SW-Initial Reviewer Selection' activities;65;
+Percentage of SW-Initial Reviewer Selection done after SW-Checklist Completed;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Checklist Completed';0.71;
+Average number of SW-Initial Reviewer Selection;the average of the number of times `ACTIVITY` == 'SW-Initial Reviewer Selection';0.7;
+Percentage of SW-Initial Reviewer Selection with an increment;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Percentage of SW-Initial Reviewer Selection with appeal;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Average number of SW-Initial Reviewer Selection that are followed by SW-Reviewer Selection is due in 1 week;the average of the number of times `ACTIVITY` == 'SW-Initial Reviewer Selection' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Reviewer Selection is due in 1 week';1.05;
+Percentage of SW-Initial Reviewer Selection with penalty;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Fraction of SW-Initial Reviewer Selection that are dismissed;Percentage of 'SW-Initial Reviewer Selection' out of all 'Manuscript is Withdrawn';0.5;
+Ratio of SW-Initial Reviewer Selection over SW-Reviewer Agreed;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Agreed';0.98;
+Occasions how often the SW-Initial Reviewer Selection is performed;Number of 'SW-Initial Reviewer Selection' activities;65;
+The ratio of SW-Initial Reviewer Selection that are not eventually performed;Percentage of 'SW-Initial Reviewer Selection' out of all cases where 'SW-Reviewer Agreed' does not happen;0.65;
+Percentage of SW-Initial Reviewer Selection leading to successful manuscript review completion;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Accept';1.0;
+Frequency of SW-Initial Reviewer Selection followed by SW-Reviewer Selection is due in 1 week in variants;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Selection is due in 1 week';1.0;
+Ratio of SW-Initial Reviewer Selection to SW-AE Assign Reviewers in each variant;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-AE Assign Reviewers';0.98;
+Percentage of SW-Initial Reviewer Selection that result in SW-Reviewer Declined;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Declined';0.97;
+Number of SW-Initial Reviewer Selection preceding SW-EIC Major Revision;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-EIC Major Revision' occurs;14;
+Percentage of SW-Initial Reviewer Selection in rigorous assessment procedures;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Frequency of SW-Initial Reviewer Selection in systematic review methodologies;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Percentage of SW-Initial Reviewer Selection impacting quality assurance outcomes;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Number of SW-Initial Reviewer Selection compared to SW-Reviewer Unavailable;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Reviewer Unavailable' occurs;23;
+Percentage of SW-Initial Reviewer Selection relative to Reviewer Invitation Reminder 1;Percentage of 'SW-Initial Reviewer Selection' out of all 'Reviewer Invitation Reminder 1';0.89;
+Frequency of SW-Initial Reviewer Selection followed by SW-Reviewer Selection is due in 3 days;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Selection is due in 3 days';1.0;
+Percentage of SW-Initial Reviewer Selection leading to SW-Awaiting EIC Decision;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Awaiting EIC Decision';0.98;
+Number of SW-Initial Reviewer Selection compared to Revised Manuscript Submission Confirmation;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'Revised Manuscript Submission Confirmation' occurs;21;
+Percentage of SW-Initial Reviewer Selection in variants with SW-EIC Accept outcome;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Accept';1.0;
+Frequency of SW-Initial Reviewer Selection in scientific paper evaluation processes;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Percentage of SW-Initial Reviewer Selection contributing to manuscript assessment completion;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Accept';1.0;
+Number of SW-Initial Reviewer Selection relative to SW-Checklist Completed;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Checklist Completed' occurs;63;
+Percentage of SW-Initial Reviewer Selection in ACM journal review procedures;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Number of SW-Initial Reviewer Selection grouped by case:concept:name;Number of 'SW-Initial Reviewer Selection' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":18,""DSW4"":16,""MSC4"":24,""RJR3"":1,""SW1"":3,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Number of SW-Initial Reviewer Selection made per year;Number of 'SW-Initial Reviewer Selection' activities;65;
+Average number of SW-Initial Reviewer Selection in a month;the average of the number of times `ACTIVITY` == 'SW-Initial Reviewer Selection';0.7;
+Frequency of SW-Initial Reviewer Selection occurring in process variants;Number of 'SW-Initial Reviewer Selection' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":18,""DSW4"":16,""MSC4"":24,""RJR3"":1,""SW1"":3,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of variants containing SW-Initial Reviewer Selection;Percentage of 'SW-Initial Reviewer Selection' out of all cases;AER0:1.0;"{""AER0"":1.0,""CHK4"":0.0,""DRSW4"":0.0,""DRW3"":1.0,""DSW3"":0.8181818182,""DSW4"":0.4848484848,""MSC4"":0.875,""RJR3"":1.0,""SW1"":1.0,""SW12"":0.0,""SYS1"":0.0,""SYS11"":0.0,""SYS2"":0.0,""SYS5"":1.0}"
+Number of SW-Initial Reviewer Selection per process variant;Number of 'SW-Initial Reviewer Selection' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":18,""DSW4"":16,""MSC4"":24,""RJR3"":1,""SW1"":3,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of SW-Initial Reviewer Selection by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Initial Reviewer Selection'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;
+Total SW-Initial Reviewer Selection done by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Initial Reviewer Selection'"", 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;
+Total SW-Initial Reviewer Selection performed by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Initial Reviewer Selection'"", 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;

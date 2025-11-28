@@ -1,0 +1,2 @@
+Name;Metric;Value;Agrupation
+Percentage of cases where 'Request Payment' occurs without any prior rejection (i.e., no occurrence of 'Declaration REJECTED by PRE_APPROVER', 'Declaration REJECTED by ADMINISTRATION', 'Declaration REJECTED by SUPERVISOR', 'Declaration REJECTED by BUDGET OWNER', or 'Declaration REJECTED by MISSING' in the same case);Percentage of 'Request Payment' out of all cases;0.96;

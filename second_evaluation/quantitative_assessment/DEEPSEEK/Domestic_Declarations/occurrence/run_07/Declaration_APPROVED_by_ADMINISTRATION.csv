@@ -1,0 +1,29 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration APPROVED by ADMINISTRATION that are followed by Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.79;
+Percentage of Declaration APPROVED by ADMINISTRATION that are followed by Declaration REJECTED by SUPERVISOR;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by SUPERVISOR';0.78;
+Percentage of Declaration APPROVED by ADMINISTRATION that are followed by Declaration APPROVED by BUDGET OWNER;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Percentage of Declaration APPROVED by ADMINISTRATION that are followed by Declaration REJECTED by BUDGET OWNER;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by BUDGET OWNER';1.0;
+Number of Declaration APPROVED by ADMINISTRATION;Number of 'Declaration APPROVED by ADMINISTRATION' activities;8202;
+Percentage of Declaration APPROVED by ADMINISTRATION out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.77;
+Percentage of Declaration APPROVED by ADMINISTRATION from all Declaration FOR_APPROVAL by ADMINISTRATION;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration FOR_APPROVAL by ADMINISTRATION';1.0;
+Number of Declaration APPROVED by ADMINISTRATION that are preceded by Declaration REJECTED by ADMINISTRATION;Number of 'Declaration APPROVED by ADMINISTRATION' activities for cases where activity 'Declaration REJECTED by ADMINISTRATION' occurs;679;
+Percentage of Declaration APPROVED by ADMINISTRATION by worker;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases;STAFF MEMBER:0.14;"{""STAFF MEMBER"":0.1356673961,""SYSTEM"":0.7887085532}"
+Number of Declaration APPROVED by ADMINISTRATION with amounts above 100 euros;Number of 'Declaration APPROVED by ADMINISTRATION' activities > 100 where ma is the last value of case:Amount;1907;
+Percentage of Declaration APPROVED by ADMINISTRATION in variants containing Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by PRE_APPROVER';0.02;
+Percentage of Declaration APPROVED by ADMINISTRATION in variants containing Declaration REJECTED by ADMINISTRATION;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by ADMINISTRATION';0.77;
+Percentage of Declaration APPROVED by ADMINISTRATION in variants containing Declaration APPROVED by PRE_APPROVER;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration APPROVED by PRE_APPROVER';0.0;
+Percentage of Declaration APPROVED by ADMINISTRATION that eventually lead to Payment Handled;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Payment Handled';0.79;
+Average number of Declaration APPROVED by ADMINISTRATION per case;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by ADMINISTRATION';0.78;
+Percentage of cases with Declaration APPROVED by ADMINISTRATION that contain Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by PRE_APPROVER';0.02;
+Percentage of Declaration APPROVED by ADMINISTRATION that occur after multiple Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.77;
+Number of Declaration APPROVED by ADMINISTRATION grouped by org:resource;Number of 'Declaration APPROVED by ADMINISTRATION' activities grouped by the last value of org:resource;STAFF MEMBER:64;"{""STAFF MEMBER"":64,""SYSTEM"":8138}"
+Percentage of Declaration APPROVED by ADMINISTRATION in domestic travel declarations;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases;0.76;
+Ratio of Declaration APPROVED by ADMINISTRATION over Declaration REJECTED by ADMINISTRATION;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration REJECTED by ADMINISTRATION';0.77;
+Percentage of Declaration APPROVED by ADMINISTRATION that are followed by additional approval steps;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases;0.76;
+Number of Declaration APPROVED by ADMINISTRATION in pre-paid travel cost declarations;Number of 'Declaration APPROVED by ADMINISTRATION' activities;8202;
+Percentage of Declaration APPROVED by ADMINISTRATION in requests for payment;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Request Payment';0.79;
+Average performance time of variants containing Declaration APPROVED by ADMINISTRATION;the average of the number of times `ACTIVITY` == 'Declaration APPROVED by ADMINISTRATION';0.78;
+Frequency of Declaration APPROVED by ADMINISTRATION in variants with budget owner approval;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Percentage of Declaration APPROVED by ADMINISTRATION that bypass budget owner approval;Percentage of 'Declaration APPROVED by ADMINISTRATION' out of all cases where 'Declaration APPROVED by BUDGET OWNER' does not happen;0.76;
+Number of Declaration APPROVED by ADMINISTRATION in cases with supervisor approval only;Number of 'Declaration APPROVED by ADMINISTRATION' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;8138;
+Number of Declaration APPROVED by ADMINISTRATION per year;Number of 'Declaration APPROVED by ADMINISTRATION' activities;8202;

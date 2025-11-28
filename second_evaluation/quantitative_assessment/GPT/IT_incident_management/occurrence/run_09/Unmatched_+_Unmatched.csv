@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Unmatched + Unmatched' compared to 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Percentage of cases involving 'Unmatched + Unmatched' that lead to 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Frequency of 'Unmatched + Unmatched' as a starting activity in the event log;Frequency of activity 'Unmatched + Unmatched';5.0;
+Percentage of 'Unmatched + Unmatched' activities followed by 'Accepted + In Progress';Percentage of 'Unmatched + Unmatched' out of all 'Accepted + In Progress';0.0;
+Number of 'Unmatched + Unmatched' activities that precede 'Completed + Resolved';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + Resolved' occurs;5.0;
+Percentage of 'Unmatched + Unmatched' in relation to all activities in the event log;Percentage of 'Unmatched + Unmatched' out of all cases where '' does not happen;0.0;
+Number of 'Unmatched + Unmatched' activities that occur after 'Queued + Awaiting Assignment';Number of 'Unmatched + Unmatched' activities for cases where activity 'Queued + Awaiting Assignment' occurs;2.0;
+Frequency of 'Unmatched + Unmatched' in cases that involve 'Accepted + Wait - Customer';Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Accepted + Wait - Customer' occurs;0.0;
+Percentage of 'Unmatched + Unmatched' activities that lead to case closure ('Completed + Closed');Percentage of 'Unmatched + Unmatched' out of all 'Completed + Closed';0.0;
+Number of 'Unmatched + Unmatched' activities in relation to 'Accepted + Wait - Vendor';Number of 'Unmatched + Unmatched' activities for cases where activity 'Accepted + Wait - Vendor' occurs;0.0;
+Percentage of 'Unmatched + Unmatched' in cases that also involve 'Accepted + Assigned';Percentage of 'Unmatched + Unmatched' out of all 'Accepted + Assigned';0.0;
+Frequency of 'Unmatched + Unmatched' in the most common process variant;Frequency of activity 'Unmatched + Unmatched';5.0;
+Percentage of 'Unmatched + Unmatched' activities that occur in cases from France;Percentage of 'Unmatched + Unmatched' out of all cases;;
+Number of 'Unmatched + Unmatched' activities that are immediately followed by 'Completed + Cancelled';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + Cancelled' occurs;0.0;
+Frequency of 'Unmatched + Unmatched' in cases that also involve 'Accepted + Wait - Implementation';Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Accepted + Wait - Implementation' occurs;0.0;
+Percentage of 'Unmatched + Unmatched' in the context of the entire VINST system process flow;Percentage of 'Unmatched + Unmatched' out of all cases where '' does not happen;0.0;
+Frequency of 'Unmatched + Unmatched' in cases that exceed the average performance time;Number of 'Unmatched + Unmatched' activities;5.0;
+Percentage of 'Unmatched + Unmatched' followed by any activity within the top 5 most frequent variants;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Percentage of 'Unmatched + Unmatched' activities that are part of cases with performance above the median;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Percentage of 'Unmatched + Unmatched' in cases that are resolved within the shortest quartile of performance times;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;

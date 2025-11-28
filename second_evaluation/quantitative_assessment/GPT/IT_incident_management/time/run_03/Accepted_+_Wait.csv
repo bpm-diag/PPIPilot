@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average duration of 'Accepted + Wait' before transitioning to 'Accepted + In Progress';The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + In Progress';15.69 days;
+Total duration of 'Accepted + Wait' across all cases;The sum of the duration between activity Accepted + Wait and the end of the case;21444.92 days;
+Average duration of 'Accepted + Wait' followed by 'Completed + In Call';The average of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';6.89 days;
+Minimum duration of 'Accepted + Wait' before any subsequent activity;The minimum of the duration between activity Accepted + Wait and the end of the case;12.00 seconds;
+Maximum duration of 'Accepted + Wait' across all variants;the maximum of the duration between the first time instant when `ACTIVITY` == 'Accepted + Wait' and the last time instant when <ppinot4py.model.states.RuntimeState object at 0x000001A843391A90> - AppliesTo.PROCESS;439.40 days;
+Average duration from 'Accepted + Wait' to 'Completed + Resolved';The average of the duration between activity 'Accepted + Wait' and activity 'Completed + Resolved';15.69 days;
+Total duration from 'Accepted + Wait' to 'Completed + Closed' across all cases;The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + Closed';20975.19 days;
+Average duration of 'Accepted + Wait' in cases where 'Completed + In Call' occurs;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + In Call occurs;9.79 days;
+Longest duration of 'Accepted + Wait' before transitioning to any 'Completed' status;The maximum of the duration between activity 'Accepted + Wait' and activity 'Completed + Resolved';432.09 days;
+Shortest duration of 'Accepted + Wait' in cases leading to 'Completed + In Call';The minimum of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';12.00 seconds;
+Total duration of 'Accepted + Wait' in cases with more than one occurrence of 'Accepted + Wait';The sum of the duration between activity 'Accepted + Wait' and the end of case where activity 'Accepted + Wait occurs;21444.92 days;
+Average duration of 'Accepted + Wait' in cases that involve 'Accepted + Wait - Vendor' before or after the activity;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Accepted + Wait - Vendor occurs;24.49 days;
+Duration of 'Accepted + Wait' in the variant with the highest performance involving 'Completed + In Call';The maximum of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';208.01 days;
+Difference in average duration between 'Accepted + Wait' and 'Accepted + In Progress' across all cases;The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + In Progress';15.69 days;
+Average duration of 'Accepted + Wait' during the first occurrence in a case versus subsequent occurrences;The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait';2.44 days;

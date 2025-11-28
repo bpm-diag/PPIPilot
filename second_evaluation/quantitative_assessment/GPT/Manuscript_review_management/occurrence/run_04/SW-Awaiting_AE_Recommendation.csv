@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Awaiting AE Recommendation' leading to 'SW-EIC Major Revision';Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'SW-EIC Major Revision' occurs;6;
+Percentage of manuscripts that proceed from 'SW-Awaiting AE Recommendation' to 'SW-EIC Accept';Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Accept';1.0;
+Number of times 'SW-Awaiting AE Recommendation' occurs after 'SW-Reviewer Agreed';Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer Agreed' occurs;25;
+Percentage of 'SW-Awaiting AE Recommendation' out of all decision-making activities;Percentage of 'SW-Awaiting AE Recommendation' out of all cases where '' does not happen;0.39;
+Frequency of 'SW-Awaiting AE Recommendation' in the most common process variant;Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity '' does not occur;36;
+Percentage of 'SW-Awaiting AE Recommendation' followed by any form of revision ('SW-EIC Major Revision', 'SW-EIC Minor Revision', 'RW-EIC Major Revision', 'RW-EIC Minor Revision');Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Major Revision';0.4;
+Number of 'SW-Awaiting AE Recommendation' occurrences per manuscript;Number of 'SW-Awaiting AE Recommendation' activities grouped by the last value of code;AER0:2;"{""AER0"":2,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":11,""DSW4"":11,""MSC4"":11,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of 'SW-Awaiting AE Recommendation' that lead to 'Manuscript Export Succeeded';Percentage of 'SW-Awaiting AE Recommendation' out of all 'Manuscript Export Succeeded';0.4;
+Frequency of 'SW-Awaiting AE Recommendation' in manuscripts that exceed the Plagiarism Percent Match Threshold;Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'Plagiarism Percent Match Threshold Exceeded' occurs;10;
+Percentage of 'SW-Awaiting AE Recommendation' followed by 'Unassign Editor' or 'Assign a Different Editor';Percentage of 'SW-Awaiting AE Recommendation' out of all 'Unassign Editor';0.18;
+Number of 'SW-Awaiting AE Recommendation' preceding 'Reviewer Invitation Reminder 1';Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'Reviewer Invitation Reminder 1' occurs;23;
+Percentage of 'SW-Awaiting AE Recommendation' in relation to all activities before 'First Look Manuscript Submission Confirmation';Percentage of 'SW-Awaiting AE Recommendation' out of all 'First Look Manuscript Submission Confirmation';0.48;
+Frequency of 'SW-Awaiting AE Recommendation' in manuscripts requiring major revision more than once;Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'SW-EIC Major Revision' occurs;6;
+Percentage of 'SW-Awaiting AE Recommendation' leading to immediate reject decisions ('SW-EIC Reject', 'RSW-EIC Reject');Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Reject';0.32;
+Number of 'SW-Awaiting AE Recommendation' followed by 'SW-Reviewer Selection is now due';Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer Selection is now due' occurs;4;

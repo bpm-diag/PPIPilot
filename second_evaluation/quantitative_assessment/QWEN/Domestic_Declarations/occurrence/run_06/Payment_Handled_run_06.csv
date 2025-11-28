@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Payment Handled' executions that originate from variants containing 'Declaration REJECTED by PRE_APPROVER' at any point in the case;Percentage of 'Payment Handled' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Number of 'Payment Handled' events preceded by 'Declaration REJECTED by PRE_APPROVER' in the same case;Number of 'Payment Handled' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;72.0;
+Frequency of 'Payment Handled' in cases where the total amount is above 100 euros;Percentage of 'Payment Handled' out of all cases;1.0;
+Percentage of 'Payment Handled' activities that occur within two months after the corresponding 'Declaration SUBMITTED by EMPLOYEE' event;Percentage of 'Payment Handled' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Ratio of 'Payment Handled' to 'Request Payment' occurrences (should be close to 1 if process completes normally);Percentage of 'Payment Handled' out of all 'Request Payment';1.0;
+Percentage of 'Payment Handled' that follows a variant including at least one re-submission after rejection;Percentage of 'Payment Handled' out of all 'Declaration SUBMITTED by EMPLOYEE';0.97;
+Percentage of total activity executions accounted for by 'Payment Handled';Percentage of 'Payment Handled' out of all cases;0.96;
+Number of 'Payment Handled' events grouped by 'case:BudgetNumber';Number of 'Payment Handled' activities;10044.0;
+Percentage of cases where 'Payment Handled' is reached without encountering any 'Declaration REJECTED by PRE_APPROVER' activity, compared to the total number of completed payment cases;Percentage of 'Payment Handled' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Percentage of cases where 'Payment Handled' occurs without any prior rejection activity (e.g., 'Declaration REJECTED by PRE_APPROVER', 'Declaration REJECTED by ADMINISTRATION', etc.);Percentage of 'Payment Handled' out of all cases;0.96;
+Frequency of 'Payment Handled' following the direct path 'Declaration SUBMITTED by EMPLOYEE -> Declaration FINAL_APPROVED by SUPERVISOR -> Request Payment -> Payment Handled';Number of 'Payment Handled' activities;10044.0;
+Percentage of all 'Payment Handled' instances that belong to the top three most frequent successful variants (excluding any rejected paths);Percentage of 'Payment Handled' out of all cases;0.96;
+Percentage of cases ending with 'Payment Handled' that never passed through 'Declaration APPROVED by PRE_APPROVER' or 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Payment Handled' out of all cases;0.96;
+Number of 'Payment Handled' events per year, distinguishing between 2017 and 2018 data;Number of 'Payment Handled' activities;10044.0;
+Frequency of 'Payment Handled' in variants that include exactly one approval step (i.e., only 'Declaration FINAL_APPROVED by SUPERVISOR' without intermediate approvers);Number of 'Payment Handled' activities;10044.0;

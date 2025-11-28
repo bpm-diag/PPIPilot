@@ -1,0 +1,41 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Recommendation that are followed by SW-EIC Major Revision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Major Revision';0.4;
+Number of SW-Awaiting AE Recommendation;Number of 'SW-Awaiting AE Recommendation' activities;37;
+Percentage of SW-Awaiting AE Recommendation out of all SW-Awaiting EIC Decision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Awaiting EIC Decision';0.59;
+Number of SW-Awaiting AE Recommendation that are preceded by SW-Reviewer Agreed;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer Agreed' occurs;25;
+Percentage of SW-Awaiting AE Recommendation that are not dismissed;Percentage of 'SW-Awaiting AE Recommendation' out of all cases where 'Manuscript is Withdrawn' does not happen;0.39;
+Percentage of SW-Awaiting AE Recommendation from all SW-Awaiting EIC Decision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Awaiting EIC Decision';0.59;
+Number of SW-Awaiting AE Recommendation with performance time above threshold;Number of 'SW-Awaiting AE Recommendation' activities;37;
+Percentage of SW-Awaiting AE Recommendation by sender;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;catarci@diag.uniroma1.it:0.0;"{""catarci@diag.uniroma1.it"":0.0,""clcabanban@ched.gov.ph"":0.0,""gleb@intentionalinsights.org"":0.0,""marrella@diag.uniroma1.it"":0.5,""onbehalfof@manuscriptcentral.com"":0.3953488372}"
+Percentage of SW-Awaiting AE Recommendation that lead to SW-EIC Accept;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Accept';1.0;
+Percentage of SW-Awaiting AE Recommendation followed by SW-EIC Minor Revision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Minor Revision';0.57;
+Percentage of SW-Awaiting AE Recommendation that are rejected;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Reject';0.32;
+Number of SW-Awaiting AE Recommendation in relation to SW-Initial Reviewer Selection;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Initial Reviewer Selection' occurs;37;
+Percentage of SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Number of times SW-Awaiting AE Recommendation is performed;Number of 'SW-Awaiting AE Recommendation' activities;37;
+Percentage of SW-Awaiting AE Recommendation done after SW-Reviewer Selection is now due;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Selection is now due';0.33;
+Average number of SW-Awaiting AE Recommendation per case;the average of the number of times `ACTIVITY` == 'SW-Awaiting AE Recommendation';0.4;
+Percentage of SW-Awaiting AE Recommendation with multiple reviewer assignments;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-AE Assign Reviewers';0.5;
+Percentage of SW-Awaiting AE Recommendation with reviewer invitation reminders;Percentage of 'SW-Awaiting AE Recommendation' out of all 'Reviewer Invitation Reminder 1';0.47;
+Average number of SW-Awaiting AE Recommendation that are followed by RW-Initial Reviewer Selection;the average of the number of times `ACTIVITY` == 'SW-Awaiting AE Recommendation' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'RW-Initial Reviewer Selection';0.42;
+Percentage of SW-Awaiting AE Recommendation with extended review cycles;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Selection is 1 week late';0.29;
+Fraction of SW-Awaiting AE Recommendation that are dismissed;Percentage of 'SW-Awaiting AE Recommendation' out of all 'Manuscript is Withdrawn';0.0;
+Total SW-Awaiting AE Recommendation done by different editorial resources;Number of 'SW-Awaiting AE Recommendation' activities grouped by the last value of performer;ADMIN:3;"{""ADMIN"":3,""AUTHOR"":0,""EIC"":0,""SYSTEM"":34}"
+Ratio of SW-Awaiting AE Recommendation over SW-Awaiting Checklist Completion;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Awaiting Checklist Completion';0.42;
+Occasions how often the SW-Awaiting AE Recommendation is performed in major revision cases;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-EIC Major Revision' occurs;6;
+The ratio of SW-Awaiting AE Recommendation that are not eventually performed;Percentage of 'SW-Awaiting AE Recommendation' out of all cases where 'SW-EIC Accept' does not happen;0.39;
+Percentage of SW-Awaiting AE Recommendation occurring in variants with SW-Reviewer Agreed;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Frequency of SW-Awaiting AE Recommendation in process variants with multiple SW-AE Assign Reviewers;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-AE Assign Reviewers';0.5;
+Percentage of SW-Awaiting AE Recommendation leading to revised manuscript submissions;Percentage of 'SW-Awaiting AE Recommendation' out of all 'Revised Manuscript Submission Confirmation';0.42;
+Number of SW-Awaiting AE Recommendation in scientific paper review processes;Number of 'SW-Awaiting AE Recommendation' activities;37;
+Percentage of SW-Awaiting AE Recommendation that impact review process quality;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Frequency of SW-Awaiting AE Recommendation in systematic assessment procedures;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Percentage of SW-Awaiting AE Recommendation compared to SW-EIC Reject;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Reject';0.32;
+Number of SW-Awaiting AE Recommendation versus SW-Awaiting Checklist Completion;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Awaiting Checklist Completion' occurs;37;
+Percentage of SW-Awaiting AE Recommendation relative to SW-Reviewer Declined;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Declined';0.59;
+Frequency of SW-Awaiting AE Recommendation in relation to Reviewer Invitation Reminder 1;Percentage of 'SW-Awaiting AE Recommendation' out of all 'Reviewer Invitation Reminder 1';0.47;
+Percentage of SW-Awaiting AE Recommendation compared to SW-Reviewer Selection is due in 1 week;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Selection is due in 1 week';0.52;
+Number of SW-Awaiting AE Recommendation made per month;Number of 'SW-Awaiting AE Recommendation' activities;37;
+Average number of SW-Awaiting AE Recommendation in a quarter;the average of the number of times `ACTIVITY` == 'SW-Awaiting AE Recommendation';0.4;
+Number of SW-Awaiting AE Recommendation grouped by case outcome;Number of 'SW-Awaiting AE Recommendation' activities grouped by the last value of code;AER0:2;"{""AER0"":2,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":11,""DSW4"":11,""MSC4"":11,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Total SW-Awaiting AE Recommendation performed by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;

@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER that are followed by Declaration APPROVED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';0.0;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER that are followed by Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of Declaration FOR_APPROVAL by PRE_APPROVER;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities;1;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER that are not dismissed;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.0;
+Number of Declaration FOR_APPROVAL by PRE_APPROVER that are preceded by Declaration SUBMITTED by EMPLOYEE;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;1;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER from all Declaration FOR_APPROVAL by ADMINISTRATION;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration FOR_APPROVAL by ADMINISTRATION';0.0;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER by STAFF MEMBER;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;;
+Number of Declaration FOR_APPROVAL by PRE_APPROVER grouped by org:resource;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities grouped by the last value of org:resource;STAFF MEMBER:1;"{""STAFF MEMBER"":1,""SYSTEM"":0}"
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER that are rejected;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Ratio of Declaration FOR_APPROVAL by PRE_APPROVER over Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of variants containing Declaration FOR_APPROVAL by PRE_APPROVER that result in Payment Handled;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Payment Handled';0.0;
+Frequency of Declaration FOR_APPROVAL by PRE_APPROVER in variants with Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER in domestic trip declarations;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;0.0;
+Number of Declaration FOR_APPROVAL by PRE_APPROVER with amounts above 100 euros;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities > 100 where ma is the last value of case:Amount;1;
+Average number of Declaration FOR_APPROVAL by PRE_APPROVER per case;the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by PRE_APPROVER';0.0;
+Percentage of cases with Declaration FOR_APPROVAL by PRE_APPROVER that require budget owner approval;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration APPROVED by BUDGET OWNER';0.0;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER that eventually lead to Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.0;
+Frequency of Declaration FOR_APPROVAL by PRE_APPROVER in reimbursement claims vs prepaid travel costs;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;0.0;
+Number of Declaration FOR_APPROVAL by PRE_APPROVER made per year;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities;1;

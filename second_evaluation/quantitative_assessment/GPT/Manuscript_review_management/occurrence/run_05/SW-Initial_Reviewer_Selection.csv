@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Initial Reviewer Selection' followed by 'SW-Reviewer Agreed';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-Reviewer Agreed' occurs;45.0;
+Percentage of manuscripts that proceed to 'SW-Reviewer Agreed' after 'SW-Initial Reviewer Selection';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Agreed';0.98;
+Number of 'SW-Initial Reviewer Selection' activities that lead to 'SW-EIC Major Revision';Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-EIC Major Revision' occurs;14.0;
+Percentage of 'SW-Initial Reviewer Selection' out of all review-related activities;Percentage of 'SW-Initial Reviewer Selection' out of all cases where '' does not happen;0.65;
+Frequency of 'SW-Initial Reviewer Selection' leading to 'Reviewer Invitation Reminder 1';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'Reviewer Invitation Reminder 1' occurs;42.0;
+Number of 'SW-Initial Reviewer Selection' activities followed by 'SW-Reviewer Declined';Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Reviewer Declined' occurs;28.0;
+Percentage of 'SW-Initial Reviewer Selection' followed by 'SW-AE Assign Reviewers';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-AE Assign Reviewers';0.98;
+Percentage of 'SW-Initial Reviewer Selection' in the variant leading to 'SW-EIC Accept';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Accept';1.0;
+Number of 'SW-Initial Reviewer Selection' activities per variant;Number of 'SW-Initial Reviewer Selection' activities;65.0;
+Frequency of 'SW-Initial Reviewer Selection' followed by any activity related to reviewer agreement or decline;Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-Reviewer Agreed' occurs;45.0;
+Percentage of 'SW-Initial Reviewer Selection' activities that do not lead to 'SW-Reviewer Agreed' within the same variant;Percentage of 'SW-Initial Reviewer Selection' out of all cases where 'SW-Reviewer Agreed' does not happen;0.65;
+Number of 'SW-Initial Reviewer Selection' activities that precede 'SW-Awaiting EIC Decision';Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Awaiting EIC Decision' occurs;63.0;
+Percentage of 'SW-Initial Reviewer Selection' in manuscripts that undergo 'SW-EIC Major Revision' compared to those that result in 'SW-EIC Accept';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Major Revision';0.93;
+Frequency of 'SW-Initial Reviewer Selection' in relation to the total number of activities in the most complex variant;Frequency of activity 'SW-Initial Reviewer Selection';60.0;
+Percentage of 'SW-Initial Reviewer Selection' followed by 'SW-Reviewer Selection is due in 1 week';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Selection is due in 1 week';1.0;
+Number of 'SW-Initial Reviewer Selection' activities that are followed by 'SW-Reviewer Unavailable';Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Reviewer Unavailable' occurs;23.0;
+Frequency of 'SW-Initial Reviewer Selection' leading to a change in the manuscript's status;Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-EIC Major Revision' occurs;14.0;
+Percentage of 'SW-Initial Reviewer Selection' activities that result in a successful review process (leading to 'SW-EIC Accept');Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Accept';1.0;
+Number of 'SW-Initial Reviewer Selection' activities that precede 'SW-Awaiting AE Recommendation';Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Awaiting AE Recommendation' occurs;39.0;
+Frequency of 'SW-Initial Reviewer Selection' in manuscripts that require 'SW-EIC Reject & Resubmit';"ERROR: computing metric {'count': activity == 'SW-Initial Reviewer Selection'"", 'aggregation': 'percentage', 'metric_condition': '> 0', 'filter': ""activity == 'SW-EIC Reject & Resubmit'""}""";;

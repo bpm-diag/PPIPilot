@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Implementation' out of all activity executions in the event log;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Frequency of 'Accepted + Wait - Implementation' occurrences across all cases;Number of 'Accepted + Wait - Implementation' activities;473;
+Percentage of process variants that include 'Accepted + Wait - Implementation';Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Frequency of 'Accepted + Wait - Implementation' followed by 'Completed + Resolved';Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Completed + Resolved' occurs;462;
+Percentage of 'Accepted + Wait - Implementation' that occur after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Implementation' out of all 'Queued + Awaiting Assignment';0.08;
+Frequency of 'Accepted + Wait - Implementation' in variants that end with 'Completed + Closed';Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Completed + Closed' occurs;454;
+Percentage of 'Accepted + Wait - Implementation' relative to the frequency of 'Accepted + Wait - User';Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + Wait - User';0.08;
+Frequency of 'Accepted + Wait - Implementation' compared to 'Accepted + Wait - Vendor';Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Accepted + Wait - Vendor' occurs;31;
+Percentage of cases containing 'Accepted + Wait - Implementation' that also contain 'Completed + In Call';Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + In Call';0.01;
+Frequency of 'Accepted + Wait - Implementation' in high-performance variants (performance > 1,000,000);Number of 'Accepted + Wait - Implementation' activities;473;
+Percentage of 'Accepted + Wait - Implementation' that are directly preceded by 'Accepted + In Progress';Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + In Progress';0.05;
+Percentage of variants where 'Accepted + Wait - Implementation' appears only once;the average of the function base == 1 where base is the number of times `ACTIVITY` == 'Accepted + Wait - Implementation';0.05;
+Frequency of transitions from 'Accepted + Wait - Implementation' to 'Completed + Resolved' versus transitions from 'Accepted + Wait - User' to 'Completed + Resolved';Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Completed + Resolved' occurs;462;
+Percentage of total wait-type activities ('Accepted + Wait - Implementation', 'Accepted + Wait - User', 'Accepted + Wait - Vendor', 'Accepted + Wait') accounted for by 'Accepted + Wait - Implementation';Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Frequency of 'Accepted + Wait - Implementation' in cases that do not include 'Completed + In Call';Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Completed + In Call' does not occur;473;
+Percentage of 'Accepted + Wait - Implementation' occurrences in the context of multi-queue variants (those containing more than one 'Queued + Awaiting Assignment');Percentage of 'Accepted + Wait - Implementation' out of all 'Queued + Awaiting Assignment';0.08;
+Frequency of 'Accepted + Wait - Implementation' relative to the most frequent activity 'Accepted + In Progress';Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Accepted + In Progress' occurs;472;
+Percentage of process executions where 'Accepted + Wait - Implementation' delays progression beyond 500,000 time units (based on variant performance);Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Frequency of 'Accepted + Wait - Implementation' grouped by country of execution;Number of 'Accepted + Wait - Implementation' activities grouped by the last value of organization country;0:3;"{""0"":3,""SE"":2,""au"":0,""be"":23,""br"":24,""ca"":3,""cl"":1,""cn"":2,""de"":0,""fr"":30,""gb"":1,""in"":113,""jp"":0,""kr"":1,""my"":0,""nl"":13,""pe"":0,""pl"":118,""ru"":8,""se"":113,""th"":0,""tr"":0,""us"":18}"
+Frequency of 'Accepted + Wait - Implementation' per year based on timestamp;Number of 'Accepted + Wait - Implementation' activities;473;

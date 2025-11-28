@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Reviewer Declined out of all reviewer response activities;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Number of SW-Reviewer Declined per case;Number of 'SW-Reviewer Declined' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":11,""DSW4"":13,""MSC4"":34,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of SW-Reviewer Declined that occur after SW-AE Assign Reviewers;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Frequency of SW-Reviewer Declined followed by additional SW-AE Assign Reviewers;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Ratio of SW-Reviewer Declined to SW-Reviewer Agreed;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Percentage of cases with SW-Reviewer Declined that eventually reach SW-EIC Reject;Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Reject';0.18;
+Average number of SW-Reviewer Declined per manuscript submission;the average of the number of times `ACTIVITY` == 'SW-Reviewer Declined' grouped by the last value of code;AER0:1.0;"{""AER0"":1.0,""CHK4"":0.0,""DRSW4"":0.0,""DRW3"":1.0,""DSW3"":0.5,""DSW4"":0.3939393939,""MSC4"":1.4166666667,""RJR3"":0.0,""SW1"":0.0,""SW12"":0.0,""SYS1"":0.0,""SYS11"":0.0,""SYS2"":0.0,""SYS5"":1.0}"
+Percentage of SW-Reviewer Declined that occur after Reviewer Invitation Reminder 1;Percentage of 'SW-Reviewer Declined' out of all 'Reviewer Invitation Reminder 1';0.62;
+Frequency of SW-Reviewer Declined in variants with prolonged reviewer selection phases;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Selection is 3 days late';0.45;
+Percentage of SW-Reviewer Declined that lead to SW-Reviewer Selection is 3 days late;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Selection is 3 days late';0.45;
+Number of SW-Reviewer Declined per SW-Initial Reviewer Selection;Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-Initial Reviewer Selection' occurs;60;
+Percentage of SW-Reviewer Declined in first-round reviews versus revised manuscript reviews;Percentage of 'SW-Reviewer Declined' out of all 'Original Manuscript Submission Confirmation';0.33;
+Frequency of consecutive SW-Reviewer Declined activities;Number of 'SW-Reviewer Declined' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":11,""DSW4"":13,""MSC4"":34,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of SW-Reviewer Declined that occur before SW-Reviewer Selection is now due;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Selection is now due';0.5;
+Ratio of SW-Reviewer Declined to total reviewer invitation activities;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Percentage of cases with multiple SW-Reviewer Declined that eventually get SW-EIC Accept;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'SW-Reviewer Declined' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-EIC Accept';0.0;
+Number of SW-Reviewer Declined per SW-AE Assign Reviewers instance;Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-AE Assign Reviewers' occurs;59;
+Percentage of SW-Reviewer Declined followed by Assign a Different Editor;Percentage of 'SW-Reviewer Declined' out of all 'Assign a Different Editor';0.27;
+Frequency of SW-Reviewer Declined in variants with successful final acceptance;Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Accept';0.0;
+Percentage of SW-Reviewer Declined that occur after multiple reminder activities;Percentage of 'SW-Reviewer Declined' out of all 'Reviewer Invitation Reminder 2';0.63;

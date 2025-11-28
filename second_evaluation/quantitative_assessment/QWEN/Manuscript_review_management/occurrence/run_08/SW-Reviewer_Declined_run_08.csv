@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of SW-Reviewer Declined occurring after SW-AE Assign Reviewers;Frequency of activity 'SW-Reviewer Declined' for cases where activity 'SW-AE Assign Reviewers' occurs;28.0;
+Percentage of process variants in which SW-Reviewer Declined appears at least once;Percentage of 'SW-Reviewer Declined' out of all cases;0.31;
+Number of times SW-Reviewer Declined is followed by another SW-AE Assign Reviewers within the same case;Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-AE Assign Reviewers' occurs;59.0;
+Percentage of SW-Reviewer Declined that occur before any SW-Reviewer Agreed in a case;Percentage of 'SW-Reviewer Declined' out of all cases where 'SW-Reviewer Agreed' does not happen;0.31;
+Frequency of SW-Reviewer Declined relative to the total number of SW-AE Assign Reviewers executions;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Percentage of cases containing SW-Reviewer Declined that eventually reach SW-Awaiting EIC Decision;Percentage of 'SW-Reviewer Declined' out of all 'SW-Awaiting EIC Decision';0.49;
+Number of SW-Reviewer Declined occurrences per variant type;Number of 'SW-Reviewer Declined' activities;61.0;
+Frequency of SW-Reviewer Declined in cases that result in SW-EIC Reject versus SW-EIC Accept;Frequency of activity 'SW-Reviewer Declined' for cases where activity 'SW-EIC Reject' occurs;6.0;
+Ratio of SW-Reviewer Declined to SW-Reviewer Agreed across the entire event log;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Percentage of cases where SW-Reviewer Declined appears more than once;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'SW-Reviewer Declined';0.15;
+Frequency of SW-Reviewer Declined in the initial reviewer selection phase (i.e., before any SW-Reviewer Agreed occurs);Frequency of activity 'SW-Reviewer Declined' for cases where activity 'SW-Reviewer Agreed' does not occur;29.0;
+Percentage of SW-Reviewer Declined out of all reviewer-related activities (e.g., SW-Reviewer Agreed, SW-Reviewer Unavailable, SW-Reviewer No Response);Percentage of 'SW-Reviewer Declined' out of all cases;0.31;
+Percentage of SW-Reviewer Declined that are immediately followed by Reviewer Invitation Reminder 1 or 2;Percentage of 'SW-Reviewer Declined' out of all cases;0.31;
+Percentage of SW-Reviewer Declined occurring after a reminder (Reviewer Invitation Reminder 1 or 2);Percentage of 'SW-Reviewer Declined' out of all cases;0.31;
+Percentage of SW-Reviewer Declined that lead to Assign a Different Editor or Unassign Editor within the same trace;Percentage of 'SW-Reviewer Declined' out of all cases;0.31;

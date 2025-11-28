@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' followed by 'Declaration APPROVED by PRE_APPROVER';Frequency of activity 'Declaration FOR_APPROVAL by PRE_APPROVER' for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;0;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' followed by 'Declaration REJECTED by PRE_APPROVER';Frequency of activity 'Declaration FOR_APPROVAL by PRE_APPROVER' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' leading to 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration FOR_APPROVAL by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' leading to 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration FOR_APPROVAL by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' that are followed by 'Request Payment';Frequency of activity 'Declaration FOR_APPROVAL by PRE_APPROVER' for cases where activity 'Request Payment' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' in relation to all activities in the event log;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' that precede 'Declaration FINAL_APPROVED by SUPERVISOR';Frequency of activity 'Declaration FOR_APPROVAL by PRE_APPROVER' for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' followed by 'Payment Handled';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Payment Handled';0.0;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' in cases with amounts above 100 euros;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities > 100 where ma is the last value of case:Amount;1;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' that lead to a payment request within two months after the trip;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Request Payment';0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' grouped by 'org:resource';Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities grouped by the last value of org:resource;STAFF MEMBER:1;"{""STAFF MEMBER"":1,""SYSTEM"":0}"
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' by 'STAFF MEMBER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' in successful travel expense claims (not rejected and leading to payment);Frequency of activity 'Declaration FOR_APPROVAL by PRE_APPROVER' for cases where activity 'Payment Handled' occurs;0;
+Percentage reduction in 'Declaration REJECTED by PRE_APPROVER' after implementing changes based on PPI analysis;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' per month;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities;1;

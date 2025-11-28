@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration REJECTED by MISSING out of all activity executions in the event log;Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Number of times Declaration REJECTED by MISSING occurs in cases that eventually lead to Payment Handled;Number of 'Declaration REJECTED by MISSING' activities for cases where activity 'Payment Handled' occurs;60.0;
+Percentage of variants containing Declaration REJECTED by MISSING that are followed by a resubmission (Declaration SUBMITTED by EMPLOYEE);Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Frequency of Declaration REJECTED by MISSING compared to the frequency of Declaration REJECTED by ADMINISTRATION;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration REJECTED by ADMINISTRATION';0.0;
+Percentage of Declaration REJECTED by MISSING that occur after Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.01;
+Number of cases where Declaration REJECTED by MISSING appears more than once in the same case;Number of 'Declaration REJECTED by MISSING' activities;91.0;
+Percentage of variants with Declaration REJECTED by MISSING that do not result in a completed reimbursement (i.e., do not end with Payment Handled);Percentage of 'Declaration REJECTED by MISSING' out of all cases where 'Payment Handled' does not happen;0.01;
+Frequency of Declaration REJECTED by MISSING relative to the total number of rejection activities (including all 'Declaration REJECTED by ...' activities);Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Number of Declaration REJECTED by MISSING events that are immediately preceded by Declaration FINAL_APPROVED by SUPERVISOR;Number of 'Declaration REJECTED by MISSING' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;89.0;
+Percentage of cases containing Declaration REJECTED by MISSING that originate from domestic declarations (inferred via absence of pre-approval steps);Percentage of 'Declaration REJECTED by MISSING' out of all cases where 'Declaration FOR_APPROVAL by PRE_APPROVER' does not happen;0.01;
+Ratio of Declaration REJECTED by MISSING to Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.01;
+Percentage of Declaration REJECTED by MISSING that occur in variants also containing Declaration APPROVED by PRE_APPROVER;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration APPROVED by PRE_APPROVER';0.02;
+Number of Declaration REJECTED by MISSING events associated with claim amounts above 100 euros;Number of 'Declaration REJECTED by MISSING' activities > 100 where ma is the last value of case:Amount;34.0;
+Percentage of all rejection-related activities that are specifically Declaration REJECTED by MISSING;Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Frequency of Declaration REJECTED by MISSING in variants that include rework loops (i.e., repeated submissions after rejection);Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Percentage of Declaration REJECTED by MISSING that are followed within the same case by Declaration REJECTED by EMPLOYEE;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration REJECTED by EMPLOYEE';0.01;
+Number of distinct cases in which Declaration REJECTED by MISSING occurs;Number of 'Declaration REJECTED by MISSING' activities;91.0;
+Percentage of Declaration REJECTED by MISSING relative to the total number of times any activity is performed after Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.01;
+Ratio of variants ending with Declaration REJECTED by MISSING to variants that recover and reach Payment Handled after such rejection;Percentage of 'Declaration REJECTED by MISSING' out of all 'Payment Handled';0.01;
+Percentage of Declaration REJECTED by MISSING occurring in 2018 compared to 2017;Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;

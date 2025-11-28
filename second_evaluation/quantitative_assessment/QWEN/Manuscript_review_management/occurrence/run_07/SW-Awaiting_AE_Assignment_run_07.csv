@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Assignment out of all activity executions in the event log;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment occurrences across all cases;Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of variants that include SW-Awaiting AE Assignment immediately after SW-Checklist Completed;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Number of times SW-Awaiting AE Assignment is followed by SW-Initial Reviewer Selection;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Initial Reviewer Selection' occurs;36.0;
+Percentage of SW-Awaiting AE Assignment occurrences that eventually lead to SW-EIC Reject;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Reject';0.79;
+Frequency of SW-Awaiting AE Assignment compared to the frequency of SW-Awaiting EIC Decision;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Awaiting EIC Decision' occurs;35.0;
+Percentage of cases where SW-Awaiting AE Assignment appears exactly once per case;the average of the function base == 1 where base is the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment';0.6;
+Number of variants in which SW-Awaiting AE Assignment occurs before any reviewer-related activity (e.g., SW-Reviewer Agreed, SW-Reviewer Declined);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Reviewer Agreed' occurs;24.0;
+Percentage of SW-Awaiting AE Assignment occurrences that are not preceded by Immediate Reject Decision from the Checklist;Percentage of 'SW-Awaiting AE Assignment' out of all cases where 'Immediate Reject Decision from the Checklist' does not happen;0.61;
+Frequency of SW-Awaiting AE Assignment in cases that ultimately result in an acceptance (e.g., SW-EIC Accept or RW-EIC Accept);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-EIC Accept' occurs;3.0;
+Percentage of SW-Awaiting AE Assignment occurrences that occur within 24 hours of SW-Checklist Completed;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Ratio of SW-Awaiting AE Assignment to Original Manuscript Submission Confirmation across the entire log;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'Original Manuscript Submission Confirmation' occurs;58.0;
+Number of times SW-Awaiting AE Assignment is directly followed by SW-AE Assign Reviewers;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-AE Assign Reviewers' occurs;23.0;
+Percentage of variants containing SW-Awaiting AE Assignment that proceed to at least one SW-Reviewer Agreed activity;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Agreed';0.52;
+Frequency of SW-Awaiting AE Assignment in comparison to SW-Awaiting AE Recommendation;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Awaiting AE Recommendation' occurs;33.0;
+Percentage of SW-Awaiting AE Assignment occurrences that belong to cases with more than three reviewer assignment attempts (e.g., multiple SW-AE Assign Reviewers);Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-AE Assign Reviewers';0.5;
+Number of SW-Awaiting AE Assignment instances occurring in cases that never reach SW-Reviewer Agreed;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Reviewer Agreed' does not occur;58.0;
+Percentage of SW-Awaiting AE Assignment events that are part of the top 5 most frequent process variants;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Ratio of SW-Awaiting AE Assignment occurrences leading to major revision (SW-EIC Major Revision) versus minor revision (SW-EIC Minor Revision);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-EIC Major Revision' occurs;4.0;
+Frequency of SW-Awaiting AE Assignment per month to assess temporal distribution in the ACM journal review workflow;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Assignment'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

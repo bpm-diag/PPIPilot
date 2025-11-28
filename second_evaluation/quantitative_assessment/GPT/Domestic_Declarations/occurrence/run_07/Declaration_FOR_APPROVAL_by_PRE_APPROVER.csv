@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' followed by 'Declaration APPROVED by PRE_APPROVER';Frequency of activity 'Declaration FOR_APPROVAL by PRE_APPROVER' for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;0.0;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' followed by 'Declaration REJECTED by PRE_APPROVER';Frequency of activity 'Declaration FOR_APPROVAL by PRE_APPROVER' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0.0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' leading to 'Declaration REJECTED by PRE_APPROVER' out of all outcomes of 'Declaration FOR_APPROVAL by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' that are preceded by 'Declaration SUBMITTED by EMPLOYEE';Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;1.0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all approval activities;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases where 'Declaration FOR_APPROVAL by PRE_APPROVER' does not happen;0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' with amounts above 100 euros;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities > 100 where ma is the last value of case:Amount;1.0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' by 'STAFF MEMBER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' that are followed by 'Request Payment';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Request Payment';0.0;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' in each variant where it leads to 'Payment Handled';Frequency of activity 'Declaration FOR_APPROVAL by PRE_APPROVER' for cases where activity 'Payment Handled' occurs;0.0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' followed by 'Declaration APPROVED by PRE_APPROVER' in relation to those followed by 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';0.0;
+Total 'Declaration FOR_APPROVAL by PRE_APPROVER' done by 'SYSTEM';Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities == 'SYSTEM' where ma is the last value of org:resource;0.0;
+Ratio of 'Declaration FOR_APPROVAL by PRE_APPROVER' over 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Occasions how often 'Declaration FOR_APPROVAL by PRE_APPROVER' is performed before 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' made per year;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities;1.0;
+Average number of 'Declaration FOR_APPROVAL by PRE_APPROVER' in a month;the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by PRE_APPROVER';0.0;

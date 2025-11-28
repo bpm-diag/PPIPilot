@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Unmatched + Unmatched' leading to 'Completed + In Call';Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Completed + In Call' occurs;0;
+Percentage of cases involving 'Unmatched + Unmatched' out of all cases;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' followed by 'Accepted + In Progress';Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Accepted + In Progress' occurs;5;
+Percentage of 'Unmatched + Unmatched' in relation to 'Completed + Resolved';Percentage of 'Unmatched + Unmatched' out of all 'Completed + Resolved';0.0;
+Number of 'Unmatched + Unmatched' activities that precede 'Queued + Awaiting Assignment';Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Queued + Awaiting Assignment' occurs;2;
+Percentage of 'Unmatched + Unmatched' activities that lead to a resolution without 'Completed + Closed';Percentage of 'Unmatched + Unmatched' out of all cases where 'Completed + Closed' does not happen;0.0;
+Percentage of 'Unmatched + Unmatched' followed by any activity within the top 5 most frequent variants;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Number of 'Unmatched + Unmatched' activities in cases involving 'Accepted + Wait - User';Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Accepted + Wait - User' occurs;2;
+Percentage of 'Unmatched + Unmatched' followed by 'Completed + In Call' in relation to all occurrences of 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Frequency of 'Unmatched + Unmatched' in cases that are reopened after being marked as 'Completed + Closed';Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Completed + Closed' occurs;5;
+Percentage of 'Unmatched + Unmatched' in cases that involve more than 5 different activities;the average of the function base > 5 where base is the number of times `ACTIVITY` == 'Unmatched + Unmatched';0.0;
+Number of 'Unmatched + Unmatched' activities in cases that result in a penalty or appeal;Frequency of activity 'Unmatched + Unmatched';5;
+Percentage of 'Unmatched + Unmatched' in cases that do not lead to 'Completed + Cancelled';Percentage of 'Unmatched + Unmatched' out of all cases where 'Completed + Cancelled' does not happen;0.0;
+Frequency of 'Unmatched + Unmatched' in cases with amounts above 100 euros;the sum of the function base > 100 where base is the number of times `ACTIVITY` == 'Unmatched + Unmatched';0;
+Percentage of 'Unmatched + Unmatched' in cases that involve 'Accepted + Wait - Vendor' before any resolution activity;Percentage of 'Unmatched + Unmatched' out of all 'Accepted + Wait - Vendor';0.0;
+Frequency of 'Unmatched + Unmatched' in cases with performance above average;Number of 'Unmatched + Unmatched' activities;5;
+Percentage of 'Unmatched + Unmatched' in cases that are resolved within the shortest performance quartile;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' in cases that exceed the average case duration;Number of 'Unmatched + Unmatched' activities;5;
+Number of 'Unmatched + Unmatched' activities that are part of cases involving international resources (e.g., different country of origin);Number of 'Unmatched + Unmatched' activities grouped by the last value of resource country;0:5;"{""0"":5,""Australia"":0,""Belgium"":0,""Brazil"":0,""Canada"":0,""China"":0,""France"":0,""INDIA"":0,""Japan"":0,""Korea"":0,""MALAYSIA"":0,""POLAND"":0,""RUSSIAN FEDERATION"":0,""Sweden"":0,""THAILAND"":0,""USA"":0,""United Kingdom"":0}"
+Percentage of 'Unmatched + Unmatched' in cases that involve a change of resource before completion;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;

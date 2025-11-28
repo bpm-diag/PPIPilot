@@ -1,0 +1,14 @@
+Name;Metric;Value;Agrupation
+Average time from 'Queued + Awaiting Assignment' to 'Accepted + In Progress';The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + In Progress';8.69 days;
+Total time spent in 'Queued + Awaiting Assignment' before moving to any other activity;The sum of the duration between activity Queued + Awaiting Assignment and the end of the case;76982.64 days;
+Average resolution time of incidents starting with 'Queued + Awaiting Assignment';The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + Resolved';12.22 days;
+Minimum time from 'Queued + Awaiting Assignment' to 'Completed + Resolved';The minimum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + Resolved';12.00 seconds;
+Average time it takes from 'Queued + Awaiting Assignment' to 'Completed + Closed' compared to 'Accepted + In Progress' to 'Completed + Closed';The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + Closed';17.18 days;
+Total time incidents spend in 'Queued + Awaiting Assignment' compared to 'Accepted + Wait - User';The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait - User';12762.57 days;
+Minimum time it takes from 'Queued + Awaiting Assignment' to 'Accepted + Assigned';The minimum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Assigned';6.00 seconds;
+Average time incidents are in 'Queued + Awaiting Assignment' before moving to 'Accepted + Wait - Vendor';The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait - Vendor';6.48 days;
+Average time between 'Queued + Awaiting Assignment' and the next occurrence of 'Queued + Awaiting Assignment';The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Queued + Awaiting Assignment';3.61 days;
+Cycle time of incidents that pass through 'Queued + Awaiting Assignment' more than once;The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Queued + Awaiting Assignment';16301.98 days;
+Average time from 'Queued + Awaiting Assignment' to 'Accepted + Wait - Implementation' compared to 'Accepted + In Progress' to 'Accepted + Wait - Implementation';The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait - Implementation';13.63 days;
+Total time for incidents to move from 'Queued + Awaiting Assignment' to 'Completed + Cancelled';The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + Cancelled';;
+Minimum resolution time of incidents starting with 'Queued + Awaiting Assignment' and involving 'Completed + In Call';The minimum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + In Call';;

@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Average time from SW-Reviewer Agreed to SW-Awaiting EIC Decision;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Total time between SW-Reviewer Agreed and SW-Awaiting AE Recommendation;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';1617.84 days;
+Minimum time it takes SW-Reviewer Agreed after the execution of SW-AE Assign Reviewers;The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';44.00 seconds;
+Total waiting time to the SW-Reviewer Agreed following SW-Reviewer Selection is now due;The sum of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-Reviewer Agreed';249.53 days;
+Elapsed time between SW-Reviewer Agreed and the next occurrence of SW-Reviewer Declined in the same case;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Reviewer Declined';332.89 days;
+Average time between SW-Reviewer Agreed and Revised Manuscript Submission Confirmation in revision cycles;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'Revised Manuscript Submission Confirmation';170.36 days;
+Minimum time from SW-Reviewer Agreed to SW-EIC Major Revision;The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Major Revision';45.54 days;
+Total time it takes SW-Reviewer Agreed after the execution of Reviewer Invitation Reminder 2;The sum of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-Reviewer Agreed';395.45 days;
+Average time from SW-AE Assign Reviewers to SW-Reviewer Agreed across all variants;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Total resolution time of SW-Reviewer Agreed in cases where multiple reviewer agreements occur;The sum of the duration between activity SW-Reviewer Agreed and the end of the case;7629.31 days;
+Time until SW-Reviewer Agreed in process variants containing SW-Reviewer Selection is 1 week late;The sum of the duration between activity 'SW-Reviewer Selection is 1 week late' and activity 'SW-Reviewer Agreed';174.15 days;
+Average time between SW-Reviewer Agreed and Manuscript Export Succeeded in acceptance paths;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'Manuscript Export Succeeded';;
+Total time from SW-Reviewer Agreed to First Look Manuscript Submission Confirmation in accepted manuscripts;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'First Look Manuscript Submission Confirmation';;
+Minimum time it takes SW-Reviewer Agreed after SW-Reviewer Selection is due in 3 days;The minimum of the duration between activity 'SW-Reviewer Selection is due in 3 days' and activity 'SW-Reviewer Agreed';2.98 hours;
+Elapsed time between SW-Reviewer Agreed and Assign a Different Editor when editor reassignment occurs;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'Assign a Different Editor';626.19 days;
+Average time for SW-Reviewer Agreed in variants that include Reviewer Invitation Reminder 1 and Reviewer Invitation Reminder 2;The average of the duration between activity 'SW-Reviewer Agreed' and the end of case where activity 'Reviewer Invitation Reminder 2 occurs;161.62 days;
+Average time for SW-Reviewer Agreed grouped by case:concept:name;"ERROR: computing metric {'begin': activity == 'SW-Reviewer Agreed'"", 'end': '', 'aggregation': 'average', 'group_by': 'concept:name'}""";;
+Time of SW-Reviewer Agreed in variants that lead to SW-EIC Reject & Resubmit;"ERROR: computing metric {'begin': activity == 'SW-Reviewer Agreed'"", 'end': ""activity == 'SW-EIC Reject & Resubmit'"", 'aggregation': 'total'}""";;
+Minimum time between SW-Reviewer Agreed and SW–Major Revision due in 1 month;"ERROR: computing metric {'begin': activity == 'SW-Reviewer Agreed'"", 'end': ""activity == 'SW–Major Revision due in 1 month'"", 'aggregation': 'minimum'}""";;

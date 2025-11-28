@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Resolved' out of all activity executions in the event log;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' occurrences across all cases;Number of 'Completed + Resolved' activities;6108;
+Percentage of process variants that include 'Completed + Resolved' as a terminal activity before 'Completed + Closed';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' directly followed by 'Completed + Closed';Number of 'Completed + Resolved' activities for cases where activity 'Completed + Closed' occurs;6014;
+Percentage of 'Completed + Resolved' that occur after 'Completed + In Call' compared to those that occur without any prior 'Completed + In Call';Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Resolved' in variants where 'Completed + In Call' appears earlier in the sequence;Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' occurs;154;
+Percentage of 'Completed + Resolved' that are preceded by 'Accepted + In Progress' versus those preceded by 'Queued + Awaiting Assignment';Percentage of 'Completed + Resolved' out of all 'Accepted + In Progress';0.75;
+Frequency of 'Completed + Resolved' in high-performance variants (performance < 500,000) versus low-performance variants (performance ≥ 500,000);Number of 'Completed + Resolved' activities;6108;
+Percentage of total cases containing 'Completed + Resolved' that also contain at least one occurrence of 'Completed + In Call';Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Resolved' appearing as the penultimate activity before case closure ('Completed + Closed');Number of 'Completed + Resolved' activities for cases where activity 'Completed + Closed' occurs;6014;
+Percentage of 'Completed + Resolved' executions that occur in cases with more than three activity transitions;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' grouped by country of execution;Number of 'Completed + Resolved' activities grouped by the last value of organization country;0:33;"{""0"":33,""SE"":62,""au"":23,""be"":435,""br"":278,""ca"":52,""cl"":3,""cn"":106,""de"":3,""fr"":314,""gb"":21,""in"":541,""jp"":16,""kr"":67,""my"":20,""nl"":66,""pe"":2,""pl"":1104,""ru"":38,""se"":2414,""th"":1,""tr"":1,""us"":508}"
+Percentage of 'Completed + Resolved' that follow a 'Wait'-type activity (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.) compared to those following non-wait activities;Percentage of 'Completed + Resolved' out of all 'Accepted + Wait - User';0.98;
+Ratio of 'Completed + Resolved' to 'Completed + In Call' across the entire log;Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Resolved' in variants that originate with 'Queued + Awaiting Assignment' versus those that start with 'Accepted + In Progress';Number of 'Completed + Resolved' activities for cases where activity 'Queued + Awaiting Assignment' occurs;4908;
+Percentage of 'Completed + Resolved' that occur within 24 hours after 'Completed + In Call' in the same case;Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Resolved' in cases that never include any 'Wait'-type activity;Number of 'Completed + Resolved' activities for cases where activity 'Accepted + Wait - User' does not occur;6108;
+Percentage of 'Completed + Resolved' that are part of the top 5 most frequent process variants;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Percentage of 'Completed + Resolved' that directly succeed 'Accepted + Assigned' compared to those succeeding 'Accepted + In Progress';Percentage of 'Completed + Resolved' out of all 'Accepted + Assigned';1.0;
+Frequency of 'Completed + Resolved' per year to identify temporal trends in resolution behavior;"ERROR: computing metric {'count': activity == 'Completed + Resolved'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time for Accepted + Assigned;The average of the duration between activity Accepted + Assigned and the end of the case;19.10 days;
+Total time for Accepted + Assigned;The sum of the duration between activity Accepted + Assigned and the end of the case;34941.92 days;
+Minimum time for Accepted + Assigned;The minimum of the duration between activity Accepted + Assigned and the end of the case;30.00 seconds;
+Time of Accepted + Assigned;The average of the duration between activity Accepted + Assigned and the end of the case;19.10 days;
+Accepted + Assigned Cycle Time;The average of the duration between activity Accepted + Assigned and the end of the case;19.10 days;
+Average time from Accepted + Assigned to Completed + In Call;The average of the duration between activity 'Accepted + Assigned' and activity 'Completed + In Call';30.00 seconds;
+Total time from Accepted + Assigned to Completed + In Call;The sum of the duration between activity 'Accepted + Assigned' and activity 'Completed + In Call';30.00 seconds;
+Minimum time from Accepted + Assigned to Completed + In Call;The minimum of the duration between activity 'Accepted + Assigned' and activity 'Completed + In Call';30.00 seconds;
+Time from Accepted + Assigned to Completed + In Call;The average of the duration between activity 'Accepted + Assigned' and activity 'Completed + In Call';30.00 seconds;
+Average time between Accepted + Assigned and Completed + Resolved;The average of the duration between activity 'Accepted + Assigned' and activity 'Completed + Resolved';14.66 days;
+Total time between Accepted + Assigned and Completed + Closed;The sum of the duration between activity 'Accepted + Assigned' and activity 'Completed + Closed';34764.42 days;
+Minimum time between Accepted + Assigned and Accepted + In Progress;The minimum of the duration between activity 'Accepted + Assigned' and activity 'Accepted + In Progress';3.00 seconds;
+Average time it takes Accepted + Assigned after the execution of Queued + Awaiting Assignment;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Assigned';6.46 days;
+Total time it takes Accepted + Assigned after the execution of Queued + Awaiting Assignment;The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Assigned';11039.07 days;
+Time of Accepted + Assigned in variants that include Completed + In Call;The average of the duration between activity 'Accepted + Assigned' and the end of case where activity 'Completed + In Call occurs;13.46 days;
+Average time for Accepted + Assigned in cases where Completed + In Call occurs later in the trace;The average of the duration between activity 'Accepted + Assigned' and the end of case where activity 'Completed + In Call occurs;13.46 days;
+Minimum time for Accepted + Assigned in variants ending with Completed + Resolved -> Completed + Closed after a Completed + In Call;The minimum of the duration between activity Accepted + Assigned and the end of the case;30.00 seconds;
+Elapsed time between Accepted + Assigned and the next occurrence of Accepted + In Progress in variants containing Completed + In Call;The average of the duration between activity 'Accepted + Assigned' and activity 'Accepted + In Progress';5.47 days;
+Time from Accepted + Assigned to Completed + In Call grouped by country;The average of the duration between activity 'Accepted + Assigned' and activity 'Completed + In Call';0:NaT;"{""0"":null,""SE"":null,""au"":null,""be"":null,""br"":null,""ca"":null,""cl"":null,""cn"":null,""de"":null,""fr"":null,""gb"":null,""in"":null,""jp"":null,""kr"":null,""my"":null,""nl"":null,""pe"":null,""pl"":30000,""ru"":null,""se"":null,""th"":null,""tr"":null,""us"":null}"
+Accepted + Assigned Cycle Time in traces that do not contain Completed + In Call;The average of the duration between activity 'Accepted + Assigned' and the end of case where activity 'Completed + In Call does not occur;19.10 days;

@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Resolved' out of all activity executions in the event log;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' occurrences across all cases;Number of 'Completed + Resolved' activities;6108;
+Percentage of process variants that contain 'Completed + Resolved';Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' directly following 'Accepted + In Progress';Number of 'Completed + Resolved' activities;6108;
+Percentage of 'Completed + Resolved' that are immediately followed by 'Completed + Closed';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' appearing in variants that also include 'Completed + In Call';Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' occurs;154;
+Percentage of 'Completed + Resolved' occurring in cases where 'Completed + In Call' appears earlier in the trace;Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Resolved' in variants without any 'Wait' activities (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.);Number of 'Completed + Resolved' activities for cases where activity 'Accepted + Wait - User' does not occur;6108;
+Percentage of total 'Completed + Resolved' executions that occur in the most frequent variant;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' grouped by country of execution;Number of 'Completed + Resolved' activities grouped by the last value of organization country;0:33;"{""0"":33,""SE"":62,""au"":23,""be"":435,""br"":278,""ca"":52,""cl"":3,""cn"":106,""de"":3,""fr"":314,""gb"":21,""in"":541,""jp"":16,""kr"":67,""my"":20,""nl"":66,""pe"":2,""pl"":1104,""ru"":38,""se"":2414,""th"":1,""tr"":1,""us"":508}"
+Percentage of 'Completed + Resolved' that are not preceded by any queuing activity (i.e., not preceded by 'Queued + Awaiting Assignment');Percentage of 'Completed + Resolved' out of all cases where 'Queued + Awaiting Assignment' does not happen;0.75;
+Frequency of 'Completed + Resolved' in traces that start with 'Queued + Awaiting Assignment' versus those that start with 'Accepted + In Progress';Number of 'Completed + Resolved' activities;6108;
+Percentage of 'Completed + Resolved' that appear in high-performance variants (performance < 500,000 time units);the average of the function base < 500000 where base is the number of times `ACTIVITY` == 'Completed + Resolved';1.0;
+Frequency of 'Completed + Resolved' in variants where 'Completed + In Call' occurs but is not the final activity;Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' occurs;154;
+Percentage of all 'Completed + Resolved' events that are part of traces ending in 'Completed + Closed';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' executed by resources in the 'V30' group compared to other resource groups;Number of 'Completed + Resolved' activities == 'V30' where ma is the last value of org:group;9;
+Percentage of variants containing both 'Completed + In Call' and 'Completed + Resolved' relative to all variants containing 'Completed + Resolved';Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Percentage of 'Completed + Resolved' that occur after exactly one occurrence of 'Accepted + In Progress';Percentage of 'Completed + Resolved' out of all 'Accepted + In Progress';0.75;
+Frequency of 'Completed + Resolved' in traces that include at least one 'Accepted + Assigned' activity;Number of 'Completed + Resolved' activities for cases where activity 'Accepted + Assigned' occurs;2101;
+Frequency of 'Completed + Resolved' per year to identify temporal trends in resolution behavior;"ERROR: computing metric {'count': activity == 'Completed + Resolved'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

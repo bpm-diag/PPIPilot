@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Checklist Completed' before 'SW-Awaiting AE Assignment';Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-Awaiting AE Assignment' occurs;57;
+Percentage of manuscripts with 'SW-Checklist Completed' out of all manuscripts processed;Percentage of 'SW-Checklist Completed' out of all cases where '' does not happen;0.88;
+Number of 'SW-Checklist Completed' that are followed by 'SW-AE Assign Reviewers';Number of 'SW-Checklist Completed' activities for cases where activity 'SW-AE Assign Reviewers' occurs;47;
+Percentage of 'SW-Checklist Completed' in manuscripts that lead to 'SW-EIC Reject';Percentage of 'SW-Checklist Completed' out of all 'SW-EIC Reject';0.97;
+Frequency of 'SW-Checklist Completed' in the variant leading to 'SW-EIC Major Revision';Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-EIC Major Revision' occurs;14;
+Percentage of 'SW-Checklist Completed' in manuscripts that eventually get 'SW-Reviewer Agreed';Percentage of 'SW-Checklist Completed' out of all 'SW-Reviewer Agreed';0.96;
+Number of 'SW-Checklist Completed' per manuscript;Number of 'SW-Checklist Completed' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":1,""DRSW4"":0,""DRW3"":1,""DSW3"":22,""DSW4"":32,""MSC4"":24,""RJR3"":2,""SW1"":1,""SW12"":2,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of manuscripts with 'SW-Checklist Completed' that do not proceed to 'SW-Awaiting EIC Decision';Percentage of 'SW-Checklist Completed' out of all cases where 'SW-Awaiting EIC Decision' does not happen;0.88;
+Frequency of 'SW-Checklist Completed' followed by 'Plagiarism Originality Report Completed';Frequency of activity 'SW-Checklist Completed' for cases where activity 'Plagiarism Originality Report Completed' occurs;81;
+Percentage of 'SW-Checklist Completed' in manuscripts that undergo 'Revised Manuscript Submission Confirmation';Percentage of 'SW-Checklist Completed' out of all 'Revised Manuscript Submission Confirmation';0.88;
+Number of 'SW-Checklist Completed' in manuscripts that exceed the average processing time;Number of 'SW-Checklist Completed' activities;87;
+Percentage of 'SW-Checklist Completed' in manuscripts that are accepted ('SW-EIC Accept') vs. those that are rejected ('SW-EIC Reject');Percentage of 'SW-Checklist Completed' out of all 'SW-EIC Accept';1.0;
+Frequency of 'SW-Checklist Completed' in manuscripts that require major revisions ('SW-EIC Major Revision') vs. minor revisions ('SW-EIC Minor Revision');Frequency of activity 'SW-Checklist Completed' for cases where activity 'SW-EIC Major Revision' occurs;14;
+Percentage of 'SW-Checklist Completed' in the first submission vs. resubmission;Percentage of 'SW-Checklist Completed' out of all 'Original Manuscript Submission Confirmation';0.95;
+Number of 'SW-Checklist Completed' followed by any reviewer-related activity ('SW-AE Assign Reviewers', 'SW-Reviewer Agreed', 'SW-Reviewer Declined');Number of 'SW-Checklist Completed' activities for cases where activity 'SW-AE Assign Reviewers' occurs;47;
+Percentage of 'SW-Checklist Completed' in manuscripts that lead to 'Manuscript Export Succeeded';Percentage of 'SW-Checklist Completed' out of all 'Manuscript Export Succeeded';0.92;
+Frequency of 'SW-Checklist Completed' in manuscripts that involve 'Co-Author Account Created During Manuscript Submission';Frequency of activity 'SW-Checklist Completed' for cases where activity 'Co-Author Account Created During Manuscript Submission' occurs;49;
+Percentage of 'SW-Checklist Completed' before 'Original Manuscript Submission Confirmation' in the process flow;Percentage of 'SW-Checklist Completed' out of all 'Original Manuscript Submission Confirmation';0.95;
+Number of 'SW-Checklist Completed' in manuscripts that lead to an 'Immediate Reject Decision from the Checklist';Number of 'SW-Checklist Completed' activities for cases where activity 'Immediate Reject Decision from the Checklist' occurs;0;
+Percentage of 'SW-Checklist Completed' in manuscripts that proceed to 'Awaiting Production Checklist';Percentage of 'SW-Checklist Completed' out of all 'Awaiting Production Checklist';0.83;

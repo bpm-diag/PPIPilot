@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + In Progress' leading directly to 'Completed + In Call';Frequency of activity 'Accepted + In Progress' for cases where activity 'Completed + In Call' occurs;2018.0;
+Percentage of 'Accepted + In Progress' followed by 'Completed + Resolved';Percentage of 'Accepted + In Progress' out of all 'Completed + Resolved';1.0;
+Number of 'Accepted + In Progress' activities that precede 'Queued + Awaiting Assignment';Number of 'Accepted + In Progress' activities for cases where activity 'Queued + Awaiting Assignment' occurs;19365.0;
+Percentage of 'Accepted + In Progress' activities out of all 'Completed + Closed' activities;Percentage of 'Accepted + In Progress' out of all 'Completed + Closed';1.0;
+Frequency of 'Accepted + In Progress' in relation to 'Accepted + Wait - User';Frequency of activity 'Accepted + In Progress' for cases where activity 'Accepted + Wait - User' occurs;2486.0;
+Percentage of 'Accepted + In Progress' activities that are not followed by 'Completed + Cancelled';the average of the function base != 'Completed + Cancelled' where base is the number of times `ACTIVITY` == 'Accepted + In Progress';1.0;
+Number of 'Accepted + In Progress' activities that occur before 'Accepted + Assigned';Number of 'Accepted + In Progress' activities for cases where activity 'Accepted + Assigned' occurs;11747.0;
+Percentage of 'Accepted + In Progress' followed by 'Accepted + Wait - Implementation';Percentage of 'Accepted + In Progress' out of all 'Accepted + Wait - Implementation';1.0;
+Frequency of 'Accepted + In Progress' leading to 'Completed + In Call' within the variants;Frequency of activity 'Accepted + In Progress' for cases where activity 'Completed + In Call' occurs;2018.0;
+Percentage of 'Accepted + In Progress' activities in the event log compared to all activities;Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Percentage of 'Accepted + In Progress' activities followed by 'Completed + In Call' out of all occurrences of 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Frequency of 'Accepted + In Progress' as a starting activity in the most frequent variants;Frequency of activity 'Accepted + In Progress';7536.0;
+Percentage of 'Accepted + In Progress' activities that lead to a resolution ('Completed + Resolved' or 'Completed + Closed');Percentage of 'Accepted + In Progress' out of all 'Completed + Resolved';1.0;
+Number of 'Accepted + In Progress' activities that are followed by any activity other than 'Accepted + In Progress' itself;Number of 'Accepted + In Progress' activities for cases where activity 'Accepted + In Progress' does not occur;22945.0;
+Percentage of 'Accepted + In Progress' activities that directly precede 'Accepted + Wait - Vendor';Percentage of 'Accepted + In Progress' out of all 'Accepted + Wait - Vendor';1.0;
+Frequency of 'Accepted + In Progress' in the top 5 most frequent process variants;Frequency of activity 'Accepted + In Progress';7536.0;
+Percentage of 'Accepted + In Progress' activities that are part of a process ending in 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Number of 'Accepted + In Progress' activities that occur after 'Queued + Awaiting Assignment' and lead to 'Completed + Resolved';Number of 'Accepted + In Progress' activities for cases where activity 'Queued + Awaiting Assignment' occurs;19365.0;
+Percentage of 'Accepted + In Progress' activities within all variants that do not lead to 'Completed + Cancelled';the average of the function base != 'Completed + Cancelled' where base is the number of times `ACTIVITY` == 'Accepted + In Progress';1.0;
+Number of times 'Accepted + In Progress' is performed per year in the event log;Number of 'Accepted + In Progress' activities;22946.0;

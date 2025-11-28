@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Resolved' out of all activity executions in the event log;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' occurrences across all cases;Number of 'Completed + Resolved' activities;6108;
+Percentage of process variants that include 'Completed + Resolved' as a terminal activity before 'Completed + Closed';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of transitions from 'Accepted + In Progress' directly to 'Completed + Resolved';Number of 'Completed + Resolved' activities for cases where activity 'Accepted + In Progress' occurs;6087;
+Percentage of 'Completed + Resolved' activities that are immediately followed by 'Completed + Closed';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' appearing after any 'Accepted + Wait' variant (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.);Number of 'Completed + Resolved' activities for cases where activity 'Accepted + Wait' occurs;1224;
+Percentage of 'Completed + Resolved' that occur without any intermediate queuing or waiting states after the initial 'Accepted + In Progress';Percentage of 'Completed + Resolved' out of all 'Accepted + In Progress';0.75;
+Ratio of 'Completed + Resolved' to 'Completed + In Call' across all cases;Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Resolved' in variants where 'Completed + In Call' appears earlier in the same case;Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' occurs;154;
+Percentage of cases containing 'Completed + In Call' that eventually lead to 'Completed + Resolved';Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Average number of activities between 'Completed + In Call' and 'Completed + Resolved' when both occur in the same case;the average of the number of times `ACTIVITY` == 'Completed + Resolved' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Completed + In Call';0.08;
+Percentage of 'Completed + Resolved' that follow a path including at least one reassignment through 'Queued + Awaiting Assignment';Percentage of 'Completed + Resolved' out of all 'Queued + Awaiting Assignment';1.0;
+Frequency of 'Completed + Resolved' in high-performance variants (performance < 500,000 time units) versus low-performance variants;Number of 'Completed + Resolved' activities;6108;
+Percentage of total resolved incidents (i.e., 'Completed + Resolved') that originate from cases starting with 'Queued + Awaiting Assignment';Percentage of 'Completed + Resolved' out of all 'Queued + Awaiting Assignment';1.0;
+Frequency of 'Completed + Resolved' occurring more than once in the same case;Number of 'Completed + Resolved' activities;6108;
+Percentage of 'Completed + Resolved' that are part of the top 5 most frequent process variants;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Ratio of 'Completed + Resolved' to 'Unmatched + Unmatched' to evaluate resolution coverage;Percentage of 'Completed + Resolved' out of all 'Unmatched + Unmatched';1.0;
+Percentage of cases where 'Completed + Resolved' is reached without any 'Accepted + Assigned' step;Percentage of 'Completed + Resolved' out of all cases where 'Accepted + Assigned' does not happen;0.75;
+Percentage of 'Completed + Resolved' executed by resources in France compared to Brazil or USA;Percentage of 'Completed + Resolved' out of all cases;0:1.0;"{""0"":1.0,""Australia"":0.0,""Belgium"":0.3301886792,""Brazil"":0.03930131,""Canada"":0.1176470588,""China"":0.0,""France"":0.2380952381,""INDIA"":0.3622047244,""Japan"":0.1315789474,""Korea"":1.0,""MALAYSIA"":0.0,""POLAND"":0.2818371608,""RUSSIAN FEDERATION"":0.0,""Sweden"":0.1323722149,""THAILAND"":0.1666666667,""USA"":0.0387096774,""United Kingdom"":0.0}"
+Number of times 'Completed + Resolved' is performed per year to assess temporal trends;"ERROR: computing metric {'count': activity == 'Completed + Resolved'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

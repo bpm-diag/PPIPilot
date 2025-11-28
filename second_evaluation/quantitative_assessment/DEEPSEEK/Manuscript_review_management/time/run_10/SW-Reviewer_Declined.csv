@@ -1,0 +1,26 @@
+Name;Metric;Value;Agrupation
+Average time from SW-Reviewer Declined to SW-AE Assign Reviewers;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-AE Assign Reviewers';17.09 days;
+Average time between SW-Reviewer Declined and subsequent SW-Reviewer Agreed;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Agreed';19.14 days;
+Average time until SW-Reviewer Declined is performed after SW-Reviewer Selection is due in 1 week;The average of the duration between activity 'SW-Reviewer Selection is due in 1 week' and activity 'SW-Reviewer Declined';19.09 days;
+Average waiting time to SW-Reviewer Declined after Reviewer Invitation Reminder 1;The average of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Declined';18.38 days;
+Average time it takes SW-Reviewer Declined after the execution of SW-AE Assign Reviewers;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Declined';15.42 days;
+Total time from SW-Reviewer Declined to Assign a Different Editor;The sum of the duration between activity 'SW-Reviewer Declined' and activity 'Assign a Different Editor';331.69 days;
+Total time between SW-Reviewer Declined and Unassign Editor;The sum of the duration between activity 'SW-Reviewer Declined' and activity 'Unassign Editor';331.69 days;
+Total time until SW-Reviewer Declined is performed after SW-Initial Reviewer Selection;The sum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Declined';567.56 days;
+Minimum time between SW-Reviewer Declined and Reviewer Invitation Reminder 2;The minimum of the duration between activity 'SW-Reviewer Declined' and activity 'Reviewer Invitation Reminder 2';4.50 days;
+Minimum time until SW-Reviewer Declined is performed after SW-Reviewer Selection is due in 3 days;The minimum of the duration between activity 'SW-Reviewer Selection is due in 3 days' and activity 'SW-Reviewer Declined';22.26 hours;
+Minimum time for SW-Reviewer Declined in cases with SW-EIC Reject outcome;The minimum of the duration between activity SW-Reviewer Declined and the end of the case;30.37 days;
+Minimum waiting time to SW-Reviewer Declined after SW-AE Assign Reviewers Challenge Paper;The minimum of the duration between activity 'SW-AE Assign Reviewers Challenge Paper' and activity 'SW-Reviewer Declined';2.79 days;
+Percentage of total case time spent in SW-Reviewer Declined;The average of the duration between activity SW-Reviewer Declined and the end of the case;193.60 days;
+Time between SW-Reviewer Declined and SW-Reviewer Selection is 3 days late;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Selection is 3 days late';3.36 days;
+Elapsed time between SW-Reviewer Declined and SW-Reviewer Selection is 1 week late;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Selection is 1 week late';5.97 days;
+Time until SW-Reviewer Declined from manuscript submission;The average of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-Reviewer Declined';24.88 days;
+Time from SW-Reviewer Declined to SW-Awaiting EIC Decision;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Awaiting EIC Decision';72.36 days;
+Time to SW-Reviewer Declined since the Plagiarism Originality Report Completed;The average of the duration between activity 'Plagiarism Originality Report Completed' and activity 'SW-Reviewer Declined';23.68 days;
+SW-Reviewer Declined Cycle Time compared to SW-Reviewer Agreed Cycle Time;The average of the duration between activity SW-Reviewer Declined and the end of the case;193.60 days;
+Average time difference between SW-Reviewer Declined and SW-Reviewer Agreed in same case;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Agreed';19.14 days;
+Total time impact of SW-Reviewer Declined on overall review process duration;The sum of the duration between activity SW-Reviewer Declined and the end of the case;5614.29 days;
+Time variance between first SW-Reviewer Declined and subsequent SW-Reviewer Declined in same case;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Declined';9.12 days;
+Average time from SW-Reviewer Declined to revised reviewer assignment completion;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-AE Assign Reviewers';17.09 days;
+Time correlation between SW-Reviewer Declined and SW-EIC Major Revision decision;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-EIC Major Revision';87.55 days;
+Average time for SW-Reviewer Declined grouped by case outcome;The average of the duration between activity SW-Reviewer Declined and the end of the case;193.60 days;

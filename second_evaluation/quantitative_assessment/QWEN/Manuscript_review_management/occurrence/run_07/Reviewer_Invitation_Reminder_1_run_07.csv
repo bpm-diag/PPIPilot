@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of Reviewer Invitation Reminder 1 out of all activity executions in the event log;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Number of times Reviewer Invitation Reminder 1 occurs in the entire event log;Number of 'Reviewer Invitation Reminder 1' activities;118.0;
+Percentage of cases where Reviewer Invitation Reminder 1 is followed by SW-Reviewer Agreed;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Agreed';0.93;
+Frequency of Reviewer Invitation Reminder 1 occurring before SW-Reviewer Agreed across all variants;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Agreed';0.93;
+Percentage of Reviewer Invitation Reminder 1 that occur in variants leading to SW-EIC Accept versus those leading to SW-EIC Reject or SW-EIC Major Revision;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-EIC Accept';0.0;
+Number of Reviewer Invitation Reminder 1 occurrences that are preceded by SW-AE Assign Reviewers;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-AE Assign Reviewers' occurs;105.0;
+Percentage of Reviewer Invitation Reminder 1 in relation to SW-AE Assign Reviewers executions;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-AE Assign Reviewers';0.91;
+Frequency of Reviewer Invitation Reminder 1 in variants containing multiple reviewer assignment attempts (e.g., repeated SW-AE Assign Reviewers or SW-Reviewer Declined);Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Declined';1.0;
+Percentage of Reviewer Invitation Reminder 1 that appear in variants with at least one occurrence of SW-Reviewer No Response;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer No Response';1.0;
+Percentage of Reviewer Invitation Reminder 1 that are eventually followed by any form of reviewer agreement (SW-Reviewer Agreed, RW-Reviewer Agreed, or RSW-Reviewer Agreed);Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Agreed';0.93;
+Ratio of Reviewer Invitation Reminder 1 over SW-Reviewer Declined to assess reminder effectiveness after declination;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Declined';1.0;
+Frequency of Reviewer Invitation Reminder 1 in comparison to Reviewer Invitation Reminder 2 within the same cases;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 2';1.0;
+Percentage of Reviewer Invitation Reminder 1 that occur after a reviewer selection deadline has passed (e.g., following SW-Reviewer Selection is 3 days late or SW-Reviewer Selection is 1 week late);Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Selection is 3 days late';0.82;
+Percentage of variants containing Reviewer Invitation Reminder 1 that result in prolonged review cycles (e.g., include revision due reminders such as SW–Major Revision due in 1 month);Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Number of Reviewer Invitation Reminder 1 grouped by case:concept:name to identify how many manuscripts required this reminder;"ERROR: computing metric {'count': activity == 'Reviewer Invitation Reminder 1'"", 'aggregation': 'total', 'group_by': 'concept:name'}""";;

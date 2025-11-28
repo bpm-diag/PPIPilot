@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Average time for Unmatched + Unmatched;The average of the duration between activity Unmatched + Unmatched and the end of the case;10.10 days;
+Total time for Unmatched + Unmatched;The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Minimum time for Unmatched + Unmatched;The minimum of the duration between activity Unmatched + Unmatched and the end of the case;7.36 days;
+Time of Unmatched + Unmatched;The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Unmatched + Unmatched Cycle Time;The sum of the duration between activity Unmatched + Unmatched and the end of the case;50.48 days;
+Average time between Unmatched + Unmatched and Accepted + In Progress;The average of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';4.75 hours;
+Total time between Unmatched + Unmatched and Accepted + In Progress;The sum of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';23.76 hours;
+Minimum time between Unmatched + Unmatched and Accepted + In Progress;The minimum of the duration between activity 'Unmatched + Unmatched' and activity 'Accepted + In Progress';47.00 seconds;
+Average time it takes Unmatched + Unmatched after the execution of Queued + Awaiting Assignment;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Unmatched + Unmatched';5.54 days;
+Total time it takes Unmatched + Unmatched after the execution of Queued + Awaiting Assignment;The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Unmatched + Unmatched';11.09 days;
+Minimum time it takes Unmatched + Unmatched after the execution of Queued + Awaiting Assignment;The minimum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Unmatched + Unmatched';4.92 days;
+Total time until Unmatched + Unmatched is performed in variants that include Completed + In Call;The sum of the duration between activity 'Unmatched + Unmatched' and the end of case where activity 'Completed + In Call occurs;;
+Minimum time until Unmatched + Unmatched is performed in variants that include Completed + In Call;The minimum of the duration between activity Unmatched + Unmatched and the end of the case;;
+Average time for Unmatched + Unmatched in cases where Completed + In Call occurs later in the same trace;The average of the duration between activity 'Unmatched + Unmatched' and the end of case where activity 'Completed + In Call occurs;;
+Total time for Unmatched + Unmatched in cases where Completed + In Call occurs later in the same trace;The sum of the duration between activity 'Unmatched + Unmatched' and the end of case where activity 'Completed + In Call occurs;;
+Minimum time for Unmatched + Unmatched in cases where Completed + In Call occurs later in the same trace;The minimum of the duration between activity Unmatched + Unmatched and the end of the case;;

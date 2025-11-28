@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Plagiarism Originality Report Completed' out of all activity executions in the event log;Percentage of 'Plagiarism Originality Report Completed' out of all cases;0.96;
+Number of times 'Plagiarism Originality Report Completed' occurs before 'SW-Reviewer Agreed';Number of 'Plagiarism Originality Report Completed' activities;92.0;
+Percentage of process variants where 'Plagiarism Originality Report Completed' is directly followed by 'SW-Checklist Completed';Percentage of 'Plagiarism Originality Report Completed' out of all cases;0.96;
+Frequency of 'Plagiarism Originality Report Completed' in cases that eventually lead to 'SW-EIC Accept';Number of 'Plagiarism Originality Report Completed' activities;92.0;
+Percentage of 'Plagiarism Originality Report Completed' occurrences that are part of variants containing 'SW-Reviewer Agreed';Percentage of 'Plagiarism Originality Report Completed' out of all cases;0.96;
+Number of 'Plagiarism Originality Report Completed' events that occur after 'Original Manuscript Submission Confirmation' and before any reviewer-related activity (e.g., 'SW-AE Assign Reviewers');Number of 'Plagiarism Originality Report Completed' activities;92.0;
+Ratio of 'Plagiarism Originality Report Completed' to 'Manuscript Export Succeeded' across the entire log;Number of 'Plagiarism Originality Report Completed' activities;92.0;
+Percentage of process variants in which 'Plagiarism Originality Report Completed' appears within the first five activities of the case;Percentage of 'Plagiarism Originality Report Completed' out of all cases;0.96;
+Frequency of 'Plagiarism Originality Report Completed' in cases that include a plagiarism-related alert (e.g., 'Plagiarism Percent Match Threshold Exceeded');Number of 'Plagiarism Originality Report Completed' activities;92.0;
+Percentage of cases where 'Plagiarism Originality Report Completed' is not followed by any checklist-related activity (e.g., 'SW-Checklist Completed') within 7 days;Percentage of 'Plagiarism Originality Report Completed' out of all cases;0.96;
+Number of times 'Plagiarism Originality Report Completed' occurs in variants that ultimately result in a revision decision (e.g., 'SW-EIC Major Revision' or 'SW-EIC Minor Revision');Number of 'Plagiarism Originality Report Completed' activities;92.0;
+Percentage of 'Plagiarism Originality Report Completed' executions that precede at least one occurrence of 'SW-Reviewer Agreed' in the same case;Percentage of 'Plagiarism Originality Report Completed' out of all cases;0.96;
+Frequency of 'Plagiarism Originality Report Completed' in comparison to other system-generated confirmation activities such as 'Original Manuscript Submission Confirmation';Number of 'Plagiarism Originality Report Completed' activities;92.0;
+Percentage of variants containing 'Plagiarism Originality Report Completed' that also contain more than three reviewer assignment or response activities (e.g., 'SW-AE Assign Reviewers', 'SW-Reviewer Agreed', 'SW-Reviewer Declined');Percentage of 'Plagiarism Originality Report Completed' out of all cases;0.96;
+Number of cases where 'Plagiarism Originality Report Completed' is immediately followed by a delay-indicating activity (e.g., 'SW-Checklist Completion is due in three days');Number of 'Plagiarism Originality Report Completed' activities;92.0;

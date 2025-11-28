@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-EIC Reject' compared to 'SW-Reviewer Agreed';Percentage of 'SW-EIC Reject' out of all 'SW-Reviewer Agreed';0.22;
+Percentage of manuscripts leading to 'SW-EIC Reject' after 'SW-Awaiting EIC Decision';Percentage of 'SW-EIC Reject' out of all 'SW-Awaiting EIC Decision';0.27;
+Percentage of 'SW-EIC Reject' out of all decisions made by the EIC;Percentage of 'SW-EIC Reject' out of all cases;1.0;
+Frequency of 'SW-EIC Reject' following 'SW-Awaiting AE Recommendation';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-Awaiting AE Recommendation' occurs;11;
+Ratio of 'SW-EIC Reject' over 'SW-EIC Accept';Percentage of 'SW-EIC Reject' out of all 'SW-EIC Accept';0.0;
+Percentage of 'SW-EIC Reject' in manuscripts with 'Plagiarism Originality Report Completed';Percentage of 'SW-EIC Reject' out of all 'Plagiarism Originality Report Completed';0.37;
+Number of 'SW-EIC Reject' preceded by 'SW-Reviewer No Response';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-Reviewer No Response' occurs;1;
+Frequency of 'SW-EIC Reject' in relation to the total number of reviewed manuscripts;Percentage of 'SW-EIC Reject' out of all 'SW-Reviewer Agreed';0.22;
+Percentage of 'SW-EIC Reject' following 'Reviewer Invitation Reminder 2';Percentage of 'SW-EIC Reject' out of all 'Reviewer Invitation Reminder 2';0.17;
+Ratio of 'SW-EIC Reject' occurrences before and after implementing a specific review process improvement;Percentage of 'SW-EIC Reject' out of all cases;0.37;
+Percentage of 'SW-EIC Reject' in manuscripts with exceeded 'Plagiarism Percent Match Threshold Exceeded';Percentage of 'SW-EIC Reject' out of all 'Plagiarism Percent Match Threshold Exceeded';0.36;
+Frequency of 'SW-EIC Reject' for manuscripts with delayed reviewer selection;Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-Reviewer Selection is 3 days late' occurs;0;
+Ratio of 'SW-EIC Reject' over 'SW-EIC Major Revision';Percentage of 'SW-EIC Reject' out of all 'SW-EIC Major Revision';0.0;
+Percentage of 'SW-EIC Reject' in the first submission compared to revised submissions;Percentage of 'SW-EIC Reject' out of all 'Original Manuscript Submission Confirmation';0.38;
+Number of 'SW-EIC Reject' following 'SW-AE Assign Reviewers';Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-AE Assign Reviewers' occurs;9;
+Frequency of 'SW-EIC Reject' in manuscripts with 'SW-Reviewer Declined' events;Frequency of activity 'SW-EIC Reject' for cases where activity 'SW-Reviewer Declined' occurs;6;
+Percentage of 'SW-EIC Reject' decisions made by different EICs;Percentage of 'SW-EIC Reject' out of all cases;EIC:1.0;"{""EIC"":1.0}"
+Percentage of 'SW-EIC Reject' for manuscripts requiring major revisions;Percentage of 'SW-EIC Reject' out of all 'SW-EIC Major Revision';0.0;
+Number of 'SW-EIC Reject' occurrences per year;Number of 'SW-EIC Reject' activities;34;
+Number of 'SW-EIC Reject' decisions that are followed by a resubmission ('SW-EIC Reject & Resubmit');"ERROR: computing metric {'count': activity == 'SW-EIC Reject & Resubmit'"", 'aggregation': 'total'}""";;

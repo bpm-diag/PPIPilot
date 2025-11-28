@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting Checklist Completion out of all activity executions in the event log;Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Frequency of SW-Awaiting Checklist Completion occurrences across all cases;Number of 'SW-Awaiting Checklist Completion' activities;89.0;
+Percentage of variants that start with SW-Awaiting Checklist Completion;Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Percentage of SW-Awaiting Checklist Completion followed by Original Manuscript Submission Confirmation;Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Frequency of SW-Awaiting Checklist Completion that are eventually followed by SW-Reviewer Agreed;Number of 'SW-Awaiting Checklist Completion' activities;89.0;
+Percentage of SW-Awaiting Checklist Completion that occur before any reviewer-related activity (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, SW-Reviewer No Response);Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Ratio of SW-Awaiting Checklist Completion to SW-Checklist Completed across the entire log;Number of 'SW-Awaiting Checklist Completion' activities;89.0;
+Percentage of cases containing SW-Awaiting Checklist Completion that ultimately lead to SW-EIC Accept;Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Frequency of SW-Awaiting Checklist Completion in cases that include at least one occurrence of SW-Reviewer Agreed;Number of 'SW-Awaiting Checklist Completion' activities;89.0;
+Percentage of SW-Awaiting Checklist Completion that are not immediately followed by a checklist reminder activity (e.g., SW-Checklist Completion is due in three days, SW-Checklist Completion now due);Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Percentage of SW-Awaiting Checklist Completion that appear in variants with performance duration above the median variant performance;Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Percentage of SW-Awaiting Checklist Completion that are part of the top 5 most frequent variants;Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Ratio of SW-Awaiting Checklist Completion to Manuscript Export Succeeded across all traces;Number of 'SW-Awaiting Checklist Completion' activities;89.0;
+Percentage of cases where SW-Awaiting Checklist Completion is followed within 24 hours by Original Manuscript Submission Confirmation;Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Frequency of SW-Awaiting Checklist Completion per month to identify submission seasonality;"ERROR: computing metric {'count': activity == 'SW-Awaiting Checklist Completion'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

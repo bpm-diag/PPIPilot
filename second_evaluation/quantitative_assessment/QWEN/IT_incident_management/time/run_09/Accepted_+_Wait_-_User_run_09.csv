@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time for Accepted + Wait - User across all process variants;The average of the duration between activity Accepted + Wait - User and the end of the case;17.39 days;
+Total time spent in Accepted + Wait - User when followed by Completed + Resolved;The sum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Resolved';32278.15 days;
+Minimum time for Accepted + Wait - User in variants that include Completed + In Call;The minimum of the duration between activity Accepted + Wait - User and the end of the case;2.65 minutes;
+Average time between Accepted + In Progress and Accepted + Wait - User;The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait - User';5.68 days;
+Total time from Accepted + Wait - User to Completed + Closed;The sum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Closed';42485.44 days;
+Average duration of Accepted + Wait - User compared to Accepted + Wait - Vendor;The average of the duration between activity Accepted + Wait - User and the end of the case;17.39 days;
+Average duration of Accepted + Wait - User compared to Accepted + Wait - Implementation;The average of the duration between activity Accepted + Wait - User and the end of the case;17.39 days;
+Average time for Accepted + Wait - User in variants that do not contain Completed + In Call;The average of the duration between activity 'Accepted + Wait - User' and the end of case where activity 'Completed + In Call does not occur;17.39 days;
+Total time between Queued + Awaiting Assignment and Accepted + Wait - User;The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait - User';12762.57 days;
+Minimum time from Accepted + Wait - User to Completed + Resolved;The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Resolved';1.00 seconds;
+Average time for Accepted + Wait - User when preceded by Accepted + Assigned;The average of the duration between activity 'Accepted + Assigned' and activity 'Accepted + Wait - User';5.95 days;
+Total time for Accepted + Wait - User in high-frequency variants (frequency > 100);The sum of the duration between activity Accepted + Wait - User and the end of the case;43386.02 days;
+Average time between consecutive occurrences of Accepted + Wait - User within the same case;The average of the duration between activity 'Accepted + Wait - User' and activity 'Accepted + Wait - User';2.96 days;
+Average time from Accepted + Wait - User to the next occurrence of Accepted + In Progress;The average of the duration between activity 'Accepted + Wait - User' and activity 'Accepted + In Progress';13.66 days;
+Total time for Accepted + Wait - User in variants where Completed + In Call appears before it;The sum of the duration between activity 'Completed + In Call' and activity 'Accepted + Wait - User';451.64 days;
+Minimum time for Accepted + Wait - User in variants that transition directly to Completed + Resolved;The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Resolved';1.00 seconds;
+Average duration of Accepted + Wait - User compared to the overall average activity time in VINST logs;The average of the duration between activity Accepted + Wait - User and the end of the case;17.39 days;
+Total time from case start to Accepted + Wait - User in cases that eventually execute Completed + In Call;The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait - User';234.84 days;
+Average time for Accepted + Wait - User when it occurs after a second Queued + Awaiting Assignment;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait - User';6.14 days;
+Time elapsed between Accepted + Wait - User and the final resolution (Completed + Closed) in complex multi-loop variants;The average of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Closed';17.84 days;

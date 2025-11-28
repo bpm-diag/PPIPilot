@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by PRE_APPROVER' compared to 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Number of 'Declaration REJECTED by PRE_APPROVER' followed by 'Declaration SUBMITTED by EMPLOYEE';Number of 'Declaration REJECTED by PRE_APPROVER' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;86.0;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' that lead to a 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Frequency of 'Declaration REJECTED by PRE_APPROVER' in relation to total activities in the event log;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Percentage of cases with 'Declaration REJECTED by PRE_APPROVER' that have amounts above 100 euros;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' by 'STAFF MEMBER';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;;
+Frequency of 'Declaration REJECTED by PRE_APPROVER' followed by 'Declaration APPROVED by PRE_APPROVER';Number of 'Declaration REJECTED by PRE_APPROVER' activities for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;72.0;
+Ratio of 'Declaration REJECTED by PRE_APPROVER' over 'Declaration FINAL_APPROVED by SUPERVISOR';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.01;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' in the most frequent process variant;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' in cases that exceed the average processing time;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all rejection activities;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Number of 'Declaration REJECTED by PRE_APPROVER' that are eventually approved after being resubmitted;Number of 'Declaration REJECTED by PRE_APPROVER' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;2.0;
+Number of 'Declaration REJECTED by PRE_APPROVER' per month;Number of 'Declaration REJECTED by PRE_APPROVER' activities;86.0;
+Frequency of 'Declaration REJECTED by PRE_APPROVER' in cases with a budget above the median case amount;Number of 'Declaration REJECTED by PRE_APPROVER' activities;86.0;
+Percentage decrease of 'Declaration REJECTED by PRE_APPROVER' over time;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;

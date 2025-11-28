@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Manuscript Export Succeeded activities followed by Plagiarism Originality Report Completed;Percentage of 'Manuscript Export Succeeded' out of all 'Plagiarism Originality Report Completed';0.97;
+Number of Manuscript Export Succeeded activities;Number of 'Manuscript Export Succeeded' activities;141;
+Percentage of Manuscript Export Succeeded out of all activities in the event log;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of Manuscript Export Succeeded activities that are preceded by Original Manuscript Submission Confirmation;Number of 'Manuscript Export Succeeded' activities for cases where activity 'Original Manuscript Submission Confirmation' occurs;135;
+Percentage of Manuscript Export Succeeded activities that lead to a SW-Reviewer Agreed;Percentage of 'Manuscript Export Succeeded' out of all 'SW-Reviewer Agreed';0.98;
+Frequency of Manuscript Export Succeeded leading to a revision cycle (SW-EIC Major Revision or RW-EIC Major Revision);Percentage of 'Manuscript Export Succeeded' out of all 'SW-EIC Major Revision';1.0;
+Number of Manuscript Export Succeeded activities in the most frequent process variant;Number of 'Manuscript Export Succeeded' activities;141;
+Percentage of Manuscript Export Succeeded activities by sender;Percentage of 'Manuscript Export Succeeded' out of all cases;catarci@diag.uniroma1.it:1.0;"{""catarci@diag.uniroma1.it"":1.0,""clcabanban@ched.gov.ph"":1.0,""gleb@intentionalinsights.org"":1.0,""marrella@diag.uniroma1.it"":0.75,""onbehalfof@manuscriptcentral.com"":0.9651162791}"
+Percentage of Manuscript Export Succeeded activities followed by any reviewer assignment activity (SW-AE Assign Reviewers, RW-AE Assign Reviewers);Percentage of 'Manuscript Export Succeeded' out of all 'SW-AE Assign Reviewers';0.98;
+Percentage of Manuscript Export Succeeded activities that are followed by a decision activity (SW-EIC Accept, SW-EIC Reject, RW-EIC Accept, RW-EIC Reject);Percentage of 'Manuscript Export Succeeded' out of all 'SW-EIC Accept';1.0;
+Frequency of Manuscript Export Succeeded followed by First Look-Please submit updates;Percentage of 'Manuscript Export Succeeded' out of all 'First Look-Please submit updates';1.0;
+Percentage of Manuscript Export Succeeded in relation to all export activities (including Manuscript is Withdrawn, Manuscript is Unsubmitted);Percentage of 'Manuscript Export Succeeded' out of all 'Manuscript is Withdrawn';1.0;
+Number of times Manuscript Export Succeeded is performed before SW-Awaiting Checklist Completion;Number of 'Manuscript Export Succeeded' activities for cases where activity 'SW-Awaiting Checklist Completion' occurs;134;
+Percentage of Manuscript Export Succeeded done after Co-Author Account Created During Manuscript Submission;Percentage of 'Manuscript Export Succeeded' out of all 'Co-Author Account Created During Manuscript Submission';1.0;
+Average number of Manuscript Export Succeeded activities in a completed review process;the average of the number of times `ACTIVITY` == 'Manuscript Export Succeeded';1.52;
+Percentage of Manuscript Export Succeeded activities with subsequent reviewer agreement (SW-Reviewer Agreed, RW-Reviewer Agreed);Percentage of 'Manuscript Export Succeeded' out of all 'SW-Reviewer Agreed';0.98;
+Number of Manuscript Export Succeeded activities grouped by case:concept:name;Number of 'Manuscript Export Succeeded' activities;141;
+Frequency of Manuscript Export Succeeded activities per month;"ERROR: computing metric {'count': activity == 'Manuscript Export Succeeded'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;
+Number of Manuscript Export Succeeded activities made per year;"ERROR: computing metric {'count': activity == 'Manuscript Export Succeeded'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;
+Total Manuscript Export Succeeded done by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'Manuscript Export Succeeded'"", 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;

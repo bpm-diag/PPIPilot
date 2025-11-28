@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Wait - User' leading to 'Completed + In Call';Frequency of activity 'Accepted + Wait - User' for cases where activity 'Completed + In Call' occurs;112;
+Percentage of 'Accepted + Wait - User' out of all 'Accepted + In Progress' activities;Percentage of 'Accepted + Wait - User' out of all 'Accepted + In Progress';0.33;
+Number of 'Accepted + Wait - User' activities that are followed by 'Completed + Resolved';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + Resolved' occurs;3816;
+Percentage of 'Accepted + Wait - User' activities that lead to a case closure ('Completed + Closed');Percentage of 'Accepted + Wait - User' out of all 'Completed + Closed';0.43;
+Frequency of 'Accepted + Wait - User' in relation to 'Queued + Awaiting Assignment';Frequency of activity 'Accepted + Wait - User' for cases where activity 'Queued + Awaiting Assignment' occurs;2129;
+Percentage of 'Accepted + Wait - User' followed by 'Accepted + Assigned';Percentage of 'Accepted + Wait - User' out of all 'Accepted + Assigned';0.6;
+Number of 'Accepted + Wait - User' activities within the most frequent process variant;Number of 'Accepted + Wait - User' activities;3883;
+Percentage of 'Accepted + Wait - User' activities that are not dismissed compared to 'Accepted + Wait - Vendor';Percentage of 'Accepted + Wait - User' out of all cases where 'Accepted + Wait - Vendor' does not happen;0.33;
+Frequency of 'Accepted + Wait - User' activities by country;Frequency of activity '{}' grouped by the last value of organization country;0:3;"{""0"":3,""SE"":8,""au"":6,""be"":169,""br"":84,""ca"":12,""cl"":0,""cn"":45,""de"":2,""fr"":110,""gb"":5,""in"":311,""jp"":7,""kr"":35,""my"":4,""nl"":26,""pe"":0,""pl"":640,""ru"":8,""se"":804,""th"":1,""tr"":0,""us"":215}"
+Percentage of 'Accepted + Wait - User' activities by organization;Percentage of 'Accepted + Wait - User' out of all cases;Org line A2:0.41;"{""Org line A2"":0.4063926941,""Org line B"":0.4483430799,""Org line C"":0.3050682261,""Org line D"":0.6666666667,""Org line E"":0.0,""Org line F"":0.0,""Org line G1"":0.0,""Org line G2"":0.4,""Org line G3"":0.0,""Org line G4"":0.08,""Org line H"":0.0,""Org line V1"":1.0,""Org line V10"":0.1428571429,""Org line V11"":0.2727272727,""Org line V2"":0.53125,""Org line V3"":0.5,""Org line V5"":0.4,""Org line V7"":0.0,""Org line V7n"":0.4482758621,""Org line V8"":0.2222222222,""Org line V9"":0.0,""Other"":0.3617021277}"
+Percentage of 'Accepted + Wait - User' activities that result in a high impact case;Percentage of 'Accepted + Wait - User' out of all cases;0.32;
+Frequency of 'Accepted + Wait - User' in cases with 'Medium' product impact;Frequency of activity 'Accepted + Wait - User';;
+Percentage of 'Accepted + Wait - User' activities followed by any activity leading to case resolution;Percentage of 'Accepted + Wait - User' out of all 'Completed + Resolved';0.43;
+Number of 'Accepted + Wait - User' activities that precede 'Completed + In Call', considering the goal to understand the impact of 'Completed + In Call';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + In Call' occurs;161;
+Percentage of 'Accepted + Wait - User' activities in the context of the VINST system's incident and problem management process;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' activities as a precursor to 'Completed + Resolved' in the top 5 most frequent variants;Frequency of activity 'Accepted + Wait - User' for cases where activity 'Completed + Resolved' occurs;2433;
+Percentage of 'Accepted + Wait - User' activities that are part of cases exceeding 100 euros in total case value;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Number of 'Accepted + Wait - User' activities grouped by impact level (Low, Medium, High);Number of 'Accepted + Wait - User' activities grouped by the last value of impact;High:114;"{""High"":114,""Low"":1887,""Major"":0,""Medium"":1882}"
+Percentage of 'Accepted + Wait - User' activities that lead to an appeal or penalty;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Number of 'Accepted + Wait - User' activities made per year;Number of 'Accepted + Wait - User' activities;3883;

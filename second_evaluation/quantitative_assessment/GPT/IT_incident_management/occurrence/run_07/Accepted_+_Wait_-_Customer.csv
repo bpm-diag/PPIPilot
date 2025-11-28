@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Wait - Customer' leading to 'Completed + In Call';Frequency of activity 'Accepted + Wait - Customer' for cases where activity 'Completed + In Call' occurs;1;
+Percentage of 'Accepted + Wait - Customer' out of all 'Accepted + In Progress' activities;Percentage of 'Accepted + Wait - Customer' out of all 'Accepted + In Progress';0.01;
+Number of 'Accepted + Wait - Customer' activities that are followed by 'Completed + Resolved';Frequency of activity 'Accepted + Wait - Customer' for cases where activity 'Completed + Resolved' occurs;86;
+Percentage of 'Accepted + Wait - Customer' from all 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Customer' out of all 'Queued + Awaiting Assignment';0.02;
+Frequency of 'Accepted + Wait - Customer' in relation to 'Accepted + Wait - Vendor';Frequency of activity 'Accepted + Wait - Customer' for cases where activity 'Accepted + Wait - Vendor' occurs;4;
+Percentage of 'Accepted + Wait - Customer' followed by 'Completed + Closed';Percentage of 'Accepted + Wait - Customer' out of all 'Completed + Closed';0.02;
+Percentage of 'Accepted + Wait - Customer' activities that lead to a 'Completed + In Call' within the same case;Percentage of 'Accepted + Wait - Customer' out of all 'Completed + In Call';0.0;
+Frequency of 'Accepted + Wait - Customer' in the most common variant paths;Frequency of activity 'Accepted + Wait - Customer';86;
+Percentage of 'Accepted + Wait - Customer' by country;Percentage of 'Accepted + Wait - Customer' out of all cases;0:0.0;"{""0"":0.0,""SE"":0.0,""au"":0.0,""be"":0.0186721992,""br"":0.0032154341,""ca"":0.0,""cl"":0.0,""cn"":0.0594059406,""de"":0.0,""fr"":0.0,""gb"":0.0454545455,""in"":0.0142276423,""jp"":0.0,""kr"":0.0153846154,""my"":0.0769230769,""nl"":0.0,""pe"":0.0,""pl"":0.0034052213,""ru"":0.0222222222,""se"":0.0134761576,""th"":0.0,""tr"":0.0,""us"":0.0166666667}"
+Percentage of 'Accepted + Wait - Customer' that are not dismissed compared to 'Accepted + Wait - Vendor';Percentage of 'Accepted + Wait - Customer' out of all cases where 'Accepted + Wait - Vendor' does not happen;0.01;
+Frequency of 'Accepted + Wait - Customer' leading to any 'Completed' status compared to 'Accepted + Wait - User';Frequency of activity 'Accepted + Wait - Customer' for cases where activity 'Accepted + Wait - User' occurs;31;
+Percentage of 'Accepted + Wait - Customer' in cases with performance above average;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Number of 'Accepted + Wait - Customer' activities followed by 'Accepted + Assigned';Frequency of activity 'Accepted + Wait - Customer' for cases where activity 'Accepted + Assigned' occurs;38;
+Percentage of 'Accepted + Wait - Customer' in relation to all activities in the log;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Frequency of 'Accepted + Wait - Customer' in cases that involve international resources;Frequency of activity 'Accepted + Wait - Customer';;
+Percentage of 'Accepted + Wait - Customer' followed by 'Completed + Resolved' within 24 hours;Percentage of 'Accepted + Wait - Customer' out of all 'Completed + Resolved';0.02;
+Number of 'Accepted + Wait - Customer' activities that precede 'Completed + Cancelled';Frequency of activity 'Accepted + Wait - Customer' for cases where activity 'Completed + Cancelled' occurs;0;
+Percentage of 'Accepted + Wait - Customer' in the top 5 most frequent variants;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Number of times 'Accepted + Wait - Customer' is performed per year;Number of 'Accepted + Wait - Customer' activities;99;
+Number of 'Accepted + Wait - Customer' activities grouped by month;Number of 'Accepted + Wait - Customer' activities;99;

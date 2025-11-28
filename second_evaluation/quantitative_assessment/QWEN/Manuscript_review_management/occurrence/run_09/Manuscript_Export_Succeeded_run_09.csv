@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of Manuscript Export Succeeded out of all activity executions in the event log;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of times Manuscript Export Succeeded occurs across all cases;Number of 'Manuscript Export Succeeded' activities;141.0;
+Ratio of Manuscript Export Succeeded to SW-Awaiting Checklist Completion across the entire log;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of cases where Manuscript Export Succeeded occurs more than once;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Manuscript Export Succeeded';0.31;
+Frequency of Manuscript Export Succeeded in variants that eventually lead to SW-EIC Accept;Number of 'Manuscript Export Succeeded' activities;141.0;
+Frequency of Manuscript Export Succeeded in cases that include Immediate Reject Decision from the Checklist;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of variants where Manuscript Export Succeeded appears at least twice;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Manuscript Export Succeeded';0.31;
+Ratio of Manuscript Export Succeeded to First Look Manuscript Submission Confirmation in accepted manuscripts;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded activities performed by SYSTEM that are directly followed by plagiarism-related checks (Plagiarism Originality Report Completed or Plagiarism Percent Match Threshold Exceeded);Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Percentage of variants that include Manuscript Export Succeeded immediately after Original Manuscript Submission Confirmation;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Frequency of Manuscript Export Succeeded appearing before Plagiarism Originality Report Completed;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded activities that are followed by SW-Reviewer Agreed within the same case;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Percentage of Manuscript Export Succeeded activities occurring before any reviewer-related activity (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, or SW-Reviewer No Response);Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;
+Number of Manuscript Export Succeeded events that precede a revision cycle (i.e., followed by RW-Initial Reviewer Selection or Revised Manuscript Submission Confirmation);Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded executions that occur in the initial submission phase versus post-revision phases;Percentage of 'Manuscript Export Succeeded' out of all cases;0.96;

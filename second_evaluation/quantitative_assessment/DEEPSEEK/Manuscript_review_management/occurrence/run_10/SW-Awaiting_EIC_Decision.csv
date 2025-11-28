@@ -1,0 +1,41 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting EIC Decision that are preceded by SW-AE Assign Reviewers;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-AE Assign Reviewers';0.98;
+Number of SW-Awaiting EIC Decision;Number of 'SW-Awaiting EIC Decision' activities;60;
+Percentage of SW-Awaiting EIC Decision out of all SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Awaiting AE Recommendation';0.97;
+Number of SW-Awaiting EIC Decision that are preceded by SW-Reviewer Agreed;Number of 'SW-Awaiting EIC Decision' activities for cases where activity 'SW-Reviewer Agreed' occurs;45;
+Percentage of SW-Awaiting EIC Decision that are not dismissed;Percentage of 'SW-Awaiting EIC Decision' out of all cases where 'SW-EIC Reject' does not happen;0.63;
+Percentage of SW-Awaiting EIC Decision from all SW-Awaiting AE Assignment;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Awaiting AE Assignment';0.61;
+Number of SW-Awaiting EIC Decision with amounts above 100 euros;Number of 'SW-Awaiting EIC Decision' activities;60;
+Percentage of SW-Awaiting EIC Decision by worker;Percentage of 'SW-Awaiting EIC Decision' out of all cases;ADMIN:0.75;"{""ADMIN"":0.75,""AUTHOR"":0.5,""EIC"":0.0,""SYSTEM"":0.6395348837}"
+Percentage of SW-Awaiting EIC Decision followed by SW-EIC Major Revision;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Major Revision';1.0;
+Percentage of SW-Awaiting EIC Decision that are rejected;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Reject';0.47;
+Number of SW-Awaiting EIC Decision in relation to SW-Reviewer Agreed;Number of 'SW-Awaiting EIC Decision' activities for cases where activity 'SW-Reviewer Agreed' occurs;45;
+Percentage of SW-Awaiting EIC Decision;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Number of times SW-Awaiting EIC Decision is performed;Number of 'SW-Awaiting EIC Decision' activities;60;
+Percentage of SW-Awaiting EIC Decision done after SW-Reviewer Agreed;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Agreed';0.98;
+Average number of SW-Awaiting EIC Decision;the average of the number of times `ACTIVITY` == 'SW-Awaiting EIC Decision';0.65;
+Percentage of SW-Awaiting EIC Decision with an increment;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Percentage of SW-Awaiting EIC Decision with appeal;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Average number of SW-Awaiting EIC Decision that are followed by SW-EIC Minor Revision;the average of the number of times `ACTIVITY` == 'SW-Awaiting EIC Decision' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-EIC Minor Revision';0.86;
+Percentage of SW-Awaiting EIC Decision with penalty;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Fraction of SW-Awaiting EIC Decision that are dismissed;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Reject';0.47;
+Ratio of SW-Awaiting EIC Decision over SW-Reviewer Agreed;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Agreed';0.98;
+Occasions how often the SW-Awaiting EIC Decision is performed;Number of 'SW-Awaiting EIC Decision' activities;60;
+The ratio of SW-Awaiting EIC Decision that are not eventually performed;Percentage of 'SW-Awaiting EIC Decision' out of all cases where 'SW-EIC Accept' does not happen;0.63;
+Percentage of variants containing SW-Awaiting EIC Decision that result in SW-EIC Accept;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Frequency of SW-Awaiting EIC Decision occurring after multiple SW-AE Assign Reviewers;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-AE Assign Reviewers';0.98;
+Percentage of SW-Awaiting EIC Decision cases that involve SW-Reviewer Declined;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Declined';1.0;
+Ratio of SW-Awaiting EIC Decision to SW-Awaiting AE Assignment across variants;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Awaiting AE Assignment';0.61;
+Frequency of SW-Awaiting EIC Decision preceding manuscript acceptance decisions;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Percentage of SW-Awaiting EIC Decision instances that follow revised manuscript submissions;Percentage of 'SW-Awaiting EIC Decision' out of all 'Revised Manuscript Submission Confirmation';0.88;
+Number of SW-Awaiting EIC Decision occurrences in variants with high reviewer agreement rates;Number of 'SW-Awaiting EIC Decision' activities for cases where activity 'SW-Reviewer Agreed' occurs;45;
+Percentage of SW-Awaiting EIC Decision cases that experience multiple reviewer invitations;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-AE Assign Reviewers';0.98;
+Frequency of SW-Awaiting EIC Decision in variants with timely checklist completion;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Checklist Completed';0.7;
+Ratio of SW-Awaiting EIC Decision to SW-EIC Major Revision in successful review processes;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Major Revision';1.0;
+Percentage of SW-Awaiting EIC Decision instances that lead to final editorial decisions;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Number of SW-Awaiting EIC Decision grouped by case:concept:name;Number of 'SW-Awaiting EIC Decision' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":17,""DSW4"":16,""MSC4"":22,""RJR3"":1,""SW1"":1,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Number of SW-Awaiting EIC Decision made per year;Number of 'SW-Awaiting EIC Decision' activities;60;
+Average number of SW-Awaiting EIC Decision in a month;the average of the number of times `ACTIVITY` == 'SW-Awaiting EIC Decision';0.65;
+Percentage of SW-Awaiting EIC Decision by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting EIC Decision'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;
+Total SW-Awaiting EIC Decision done by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting EIC Decision'"", 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;
+Total SW-Awaiting EIC Decision performed by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting EIC Decision'"", 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;

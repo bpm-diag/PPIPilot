@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - User' out of all activity executions in the event log;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' occurrences across all cases;Number of 'Accepted + Wait - User' activities;3883.0;
+Percentage of process variants containing 'Accepted + Wait - User' relative to the total number of variants;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' appearing immediately after 'Accepted + In Progress';Number of 'Accepted + Wait - User' activities;3883.0;
+Percentage of 'Accepted + Wait - User' that are followed by 'Completed + Resolved';Percentage of 'Accepted + Wait - User' out of all 'Completed + Resolved';0.43;
+Ratio of 'Accepted + Wait - User' occurrences to 'Completed + In Call' occurrences;Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + In Call' occurs;161.0;
+Frequency of 'Accepted + Wait - User' in variants that eventually lead to 'Completed + Closed';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + Closed' occurs;3759.0;
+Percentage of cases where 'Accepted + Wait - User' occurs at least once, compared to cases containing 'Completed + In Call';Percentage of 'Accepted + Wait - User' out of all 'Completed + In Call';0.06;
+Average number of times 'Accepted + Wait - User' appears per case in variants that include it;the average of the number of times `ACTIVITY` == 'Accepted + Wait - User';0.51;
+Frequency of 'Accepted + Wait - User' as a precursor to long-duration variants (performance > 1,000,000 time units);Number of 'Accepted + Wait - User' activities;3883.0;
+Percentage of 'Accepted + Wait - User' activities that occur in cases also containing 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - User' out of all 'Queued + Awaiting Assignment';0.47;
+Number of variants where 'Accepted + Wait - User' appears more than once;Number of 'Accepted + Wait - User' activities;3883.0;
+Percentage of 'Accepted + Wait - User' occurrences that are not directly followed by another waiting activity (e.g., 'Accepted + Wait', 'Accepted + Wait - Vendor', etc.);Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of transitions from 'Accepted + Wait - User' to 'Accepted + In Progress' versus transitions to termination activities like 'Completed + Resolved';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + Resolved' occurs;3816.0;
+Proportion of total waiting-related activities ('Accepted + Wait', 'Accepted + Wait - User', 'Accepted + Wait - Vendor', 'Accepted + Wait - Implementation') accounted for by 'Accepted + Wait - User';Percentage of 'Accepted + Wait - User' out of all cases;0.33;

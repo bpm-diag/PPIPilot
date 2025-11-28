@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Reviewer Declined' compared to 'SW-Reviewer Agreed';Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Percentage of manuscripts that proceed to 'SW-Awaiting EIC Decision' after a 'SW-Reviewer Declined';Percentage of 'SW-Reviewer Declined' out of all 'SW-Awaiting EIC Decision';0.49;
+Number of 'SW-Reviewer Declined' occurrences before 'SW-AE Assign Reviewers';Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-AE Assign Reviewers' occurs;59;
+Percentage of 'SW-Reviewer Declined' out of all review-related activities;Percentage of 'SW-Reviewer Declined' out of all cases where 'SW-Reviewer Declined' does not happen;0.31;
+Frequency of 'SW-Reviewer Declined' in relation to the total number of review rounds;Frequency of activity 'SW-Reviewer Declined' for cases where activity 'Review Round' occurs;;
+Percentage of 'SW-Reviewer Declined' followed by 'Reviewer Invitation Reminder 1';Percentage of 'SW-Reviewer Declined' out of all 'Reviewer Invitation Reminder 1';0.62;
+Number of 'SW-Reviewer Declined' per manuscript submission;Number of 'SW-Reviewer Declined' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":11,""DSW4"":13,""MSC4"":34,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of 'SW-Reviewer Declined' that lead to 'SW-EIC Major Revision' decisions;Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Major Revision';0.8;
+Percentage of 'SW-Reviewer Declined' in the context of the first review round vs subsequent rounds;Percentage of 'SW-Reviewer Declined' out of all 'First Review Round';;
+Number of 'SW-Reviewer Declined' followed by 'Assign a Different Editor';Number of 'SW-Reviewer Declined' activities for cases where activity 'Assign a Different Editor' occurs;4;
+Percentage of 'SW-Reviewer Declined' in manuscripts that eventually get accepted ('RW-EIC Accept');Percentage of 'SW-Reviewer Declined' out of all 'RW-EIC Accept';0.64;
+Frequency of 'SW-Reviewer Declined' in relation to 'SW-Reviewer No Response';Frequency of activity 'SW-Reviewer Declined' for cases where activity 'SW-Reviewer No Response' occurs;4;
+Percentage of 'SW-Reviewer Declined' before 'SW-AE Assign Reviewers' in the review process;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Number of 'SW-Reviewer Declined' occurrences after 'Reviewer Invitation Reminder 2';Number of 'SW-Reviewer Declined' activities for cases where activity 'Reviewer Invitation Reminder 2' occurs;54;
+Percentage of 'SW-Reviewer Declined' leading to a change in manuscript status to 'Awaiting Assignment to Batch';Percentage of 'SW-Reviewer Declined' out of all 'Awaiting Assignment to Batch';0.54;
+Frequency of 'SW-Reviewer Declined' in manuscripts requiring major revisions ('SW-EIC Major Revision');Frequency of activity 'SW-Reviewer Declined' for cases where activity 'SW-EIC Major Revision' occurs;12;
+Percentage of 'SW-Reviewer Declined' followed by 'SW-Reviewer Agreed' in the review cycle;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Number of 'SW-Reviewer Declined' for manuscripts that exceed the plagiarism threshold ('Plagiarism Percent Match Threshold Exceeded');Number of 'SW-Reviewer Declined' activities for cases where activity 'Plagiarism Percent Match Threshold Exceeded' occurs;15;
+Percentage of 'SW-Reviewer Declined' in the total number of reviewer-related decisions;Percentage of 'SW-Reviewer Declined' out of all cases where 'SW-Reviewer Declined' does not happen;0.31;
+Frequency of 'SW-Reviewer Declined' in manuscripts that undergo 'SW-EIC Reject & Resubmit';Percentage of 'SW-Reviewer Declined' out of all cases;0.31;

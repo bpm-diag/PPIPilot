@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Reviewer Selection is due in 1 week out of all activity executions in the event log;Percentage of 'SW-Reviewer Selection is due in 1 week' out of all cases;0.45;
+Frequency of SW-Reviewer Selection is due in 1 week occurring immediately after SW-Initial Reviewer Selection;Frequency of activity 'SW-Reviewer Selection is due in 1 week';42.0;
+Percentage of process variants in which SW-Reviewer Selection is due in 1 week appears at least once;Percentage of 'SW-Reviewer Selection is due in 1 week' out of all cases;0.45;
+Number of times SW-Reviewer Selection is due in 1 week is followed by SW-Reviewer Selection is due in 3 days;Number of 'SW-Reviewer Selection is due in 1 week' activities;43.0;
+Percentage of SW-Reviewer Selection is due in 1 week that eventually leads to SW-Reviewer Agreed within the same case;Percentage of 'SW-Reviewer Selection is due in 1 week' out of all 'SW-Reviewer Agreed';0.72;
+Frequency of SW-Reviewer Selection is due in 1 week compared to the frequency of SW-Reviewer Selection is due in 3 days;Percentage of 'SW-Reviewer Selection is due in 1 week' out of all cases;0.45;
+Percentage of cases containing SW-Reviewer Selection is due in 1 week that result in a final decision of SW-EIC Accept;Percentage of 'SW-Reviewer Selection is due in 1 week' out of all 'SW-EIC Accept';0.0;
+Number of SW-Reviewer Selection is due in 1 week occurrences that are not followed by any reviewer response (e.g., followed only by SW-Reviewer No Response or SW-Reviewer Declined);Number of 'SW-Reviewer Selection is due in 1 week' activities;43.0;
+Percentage of SW-Reviewer Selection is due in 1 week that occurs before any Reviewer Invitation Reminder;Percentage of 'SW-Reviewer Selection is due in 1 week' out of all cases;0.45;
+Ratio of SW-Reviewer Selection is due in 1 week to SW-Initial Reviewer Selection across all cases;Percentage of 'SW-Reviewer Selection is due in 1 week' out of all 'SW-Initial Reviewer Selection';0.7;
+Frequency of SW-Reviewer Selection is due in 1 week in variants that ultimately lead to major revision versus those leading to rejection;Frequency of activity 'SW-Reviewer Selection is due in 1 week';42.0;
+Percentage of SW-Reviewer Selection is due in 1 week that is succeeded within 7 days by SW-Reviewer Agreed;Percentage of 'SW-Reviewer Selection is due in 1 week' out of all 'SW-Reviewer Agreed';0.72;
+Number of process variants where SW-Reviewer Selection is due in 1 week appears but no SW-Reviewer Agreed ever occurs;Number of 'SW-Reviewer Selection is due in 1 week' activities;43.0;
+Percentage of SW-Reviewer Selection is due in 1 week relative to all “due date” notification activities (e.g., SW-Reviewer Selection is due in 3 days, SW-Reviewer Selection is now due, etc.);Percentage of 'SW-Reviewer Selection is due in 1 week' out of all cases;0.45;
+Frequency of SW-Reviewer Selection is due in 1 week in cases that experience editor reassignment (e.g., Assign a Different Editor or Unassign Editor);Frequency of activity 'SW-Reviewer Selection is due in 1 week' for cases where activity 'Assign a Different Editor' occurs;8.0;

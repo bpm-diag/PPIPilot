@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Awaiting EIC Decision' following 'SW-Reviewer Agreed';Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'SW-Reviewer Agreed' occurs;45.0;
+Percentage of manuscripts entering 'SW-Awaiting EIC Decision' after 'SW-Reviewer Agreed' out of all manuscripts reviewed;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Agreed';0.98;
+Number of times 'SW-Awaiting EIC Decision' leads to 'SW-EIC Accept';Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'SW-EIC Accept' occurs;3.0;
+Percentage of 'SW-Awaiting EIC Decision' leading to 'SW-EIC Major Revision' compared to 'SW-EIC Minor Revision';Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Major Revision';1.0;
+Frequency of 'SW-Awaiting EIC Decision' in the most common process variant;Frequency of activity 'SW-Awaiting EIC Decision';59.0;
+Average time from 'SW-Awaiting EIC Decision' to final decision ('SW-EIC Accept', 'SW-EIC Major Revision', 'SW-EIC Minor Revision', 'SW-EIC Reject');Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Percentage of 'SW-Awaiting EIC Decision' followed by 'SW-EIC Reject' out of all decisions made;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Reject';0.47;
+Frequency of 'SW-Awaiting EIC Decision' as a bottleneck point leading to delays in the review process;Frequency of activity 'SW-Awaiting EIC Decision';59.0;
+Ratio of 'SW-Awaiting EIC Decision' followed by 'SW-EIC Major Revision' over 'SW-Awaiting EIC Decision' followed by 'SW-EIC Minor Revision';Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Major Revision';1.0;
+Percentage of 'SW-Awaiting EIC Decision' leading to 'Manuscript Export Succeeded' indicating acceptance and progression to production;Percentage of 'SW-Awaiting EIC Decision' out of all 'Manuscript Export Succeeded';0.65;
+Number of 'SW-Awaiting EIC Decision' that occur after 'Reviewer Invitation Reminder 2', indicating prolonged review cycles;Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'Reviewer Invitation Reminder 2' occurs;36.0;
+Frequency of 'SW-Awaiting EIC Decision' in manuscripts with 'Plagiarism Originality Report Completed' indicating a completed review process;Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'Plagiarism Originality Report Completed' occurs;56.0;
+Percentage of 'SW-Awaiting EIC Decision' occurrences that result in a decision within 30 days;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Percentage of 'SW-Awaiting EIC Decision' leading directly to 'SW-EIC Reject & Resubmit', indicating a chance for resubmission after major revisions;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Number of 'SW-Awaiting EIC Decision' occurrences per month;Number of 'SW-Awaiting EIC Decision' activities;60.0;

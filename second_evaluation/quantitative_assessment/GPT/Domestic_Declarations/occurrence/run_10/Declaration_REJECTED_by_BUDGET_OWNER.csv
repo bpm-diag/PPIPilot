@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by BUDGET OWNER' compared to 'Declaration APPROVED by BUDGET OWNER';Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'Declaration APPROVED by BUDGET OWNER';0.01;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all declarations handled by BUDGET OWNER;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all cases;;
+Number of 'Declaration REJECTED by BUDGET OWNER' that are followed by 'Declaration SUBMITTED by EMPLOYEE';Number of 'Declaration REJECTED by BUDGET OWNER' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;59;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' with amounts above 100 euros;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all cases;0.0;
+Frequency of 'Declaration REJECTED by BUDGET OWNER' in relation to total number of rejections;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all cases where 'Declaration REJECTED by BUDGET OWNER' does not happen;0.01;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' followed by 'Request Payment';Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'Request Payment';0.0;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' by STAFF MEMBER;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all cases;STAFF MEMBER:0.03;"{""STAFF MEMBER"":0.0306345733,""SYSTEM"":0.004381161}"
+Frequency of 'Declaration REJECTED by BUDGET OWNER' leading to 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Ratio of 'Declaration REJECTED by BUDGET OWNER' over 'Declaration FINAL_APPROVED by SUPERVISOR';Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.0;
+Number of 'Declaration REJECTED by BUDGET OWNER' in cases that required director approval;Number of 'Declaration REJECTED by BUDGET OWNER' activities == 'DIRECTOR' where ma is the last value of org:role;;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' in the first submission compared to subsequent submissions;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all cases;;
+Frequency of 'Declaration REJECTED by BUDGET OWNER' in cases with domestic declarations;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all cases;0.01;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' in cases that were eventually paid;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all 'Payment Handled';0.0;
+Number of 'Declaration REJECTED by BUDGET OWNER' per month;Number of 'Declaration REJECTED by BUDGET OWNER' activities;59;
+Percentage of 'Declaration REJECTED by BUDGET OWNER' in cases with a budget above the median case amount;Percentage of 'Declaration REJECTED by BUDGET OWNER' out of all cases;0.01;

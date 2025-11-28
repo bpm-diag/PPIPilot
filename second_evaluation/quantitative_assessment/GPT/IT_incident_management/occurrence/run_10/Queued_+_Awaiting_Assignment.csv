@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Queued + Awaiting Assignment' leading to 'Accepted + In Progress';Frequency of activity 'Queued + Awaiting Assignment' for cases where activity 'Accepted + In Progress' occurs;4505;
+Percentage of cases with 'Queued + Awaiting Assignment' followed by 'Completed + In Call';Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Number of 'Queued + Awaiting Assignment' activities that precede 'Completed + Resolved';Number of 'Queued + Awaiting Assignment' activities for cases where activity 'Completed + Resolved' occurs;10761;
+Percentage of 'Queued + Awaiting Assignment' out of all activities in the VINST system;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;
+Frequency of 'Queued + Awaiting Assignment' in relation to 'Completed + Closed';Frequency of activity 'Queued + Awaiting Assignment' for cases where activity 'Completed + Closed' occurs;4455;
+Percentage of 'Queued + Awaiting Assignment' followed by 'Accepted + Wait - User';Percentage of 'Queued + Awaiting Assignment' out of all 'Accepted + Wait - User';0.85;
+Number of times 'Queued + Awaiting Assignment' occurs before 'Accepted + Assigned';Number of 'Queued + Awaiting Assignment' activities for cases where activity 'Accepted + Assigned' occurs;5657;
+Percentage of 'Queued + Awaiting Assignment' activities that are not dismissed in the process flow;Percentage of 'Queued + Awaiting Assignment' out of all cases where 'Unmatched + Unmatched' does not happen;0.6;
+Frequency of 'Queued + Awaiting Assignment' by country;Frequency of activity '{}' grouped by the last value of organization country;0:26;"{""0"":26,""SE"":61,""au"":17,""be"":341,""br"":212,""ca"":5,""cl"":2,""cn"":92,""de"":2,""fr"":243,""gb"":19,""in"":449,""jp"":14,""kr"":60,""my"":6,""nl"":58,""pe"":0,""pl"":800,""ru"":33,""se"":1711,""th"":1,""tr"":1,""us"":358}"
+Percentage of 'Queued + Awaiting Assignment' followed by 'Completed + In Call' out of all 'Completed + In Call' occurrences;Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Percentage of 'Queued + Awaiting Assignment' leading to a resolution without 'Accepted + Wait - Customer';Percentage of 'Queued + Awaiting Assignment' out of all cases where 'Accepted + Wait - Customer' does not happen;0.6;
+Frequency of 'Queued + Awaiting Assignment' as a starting point of a case;Frequency of activity 'Queued + Awaiting Assignment';4511;
+Percentage of 'Queued + Awaiting Assignment' followed by any activity other than 'Accepted + In Progress';Percentage of 'Queued + Awaiting Assignment' out of all cases where 'Accepted + In Progress' does not happen;0.6;
+Number of 'Queued + Awaiting Assignment' activities that lead to a case closure within the same day;Number of 'Queued + Awaiting Assignment' activities;10767;
+Percentage of 'Queued + Awaiting Assignment' in cases with performance above average;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;
+Frequency of 'Queued + Awaiting Assignment' in high priority cases;Frequency of activity 'Queued + Awaiting Assignment';;
+Percentage of 'Queued + Awaiting Assignment' followed by 'Accepted + In Progress' in cases exceeding expected resolution time;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;
+Number of 'Queued + Awaiting Assignment' activities followed by 'Completed + Resolved' without intermediate steps;Number of 'Queued + Awaiting Assignment' activities for cases where activity 'Completed + Resolved' occurs;10761;
+Percentage of 'Queued + Awaiting Assignment' in cases that required escalation;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;
+Number of 'Queued + Awaiting Assignment' activities grouped by month;Number of 'Queued + Awaiting Assignment' activities;10767;

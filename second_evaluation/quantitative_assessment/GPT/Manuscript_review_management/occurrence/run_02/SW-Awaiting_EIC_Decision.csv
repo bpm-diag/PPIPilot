@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Awaiting EIC Decision' leading to 'SW-EIC Accept';Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'SW-EIC Accept' occurs;3;
+Frequency of 'SW-Awaiting EIC Decision' leading to 'SW-EIC Major Revision';Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'SW-EIC Major Revision' occurs;15;
+Frequency of 'SW-Awaiting EIC Decision' leading to 'SW-EIC Minor Revision';Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'SW-EIC Minor Revision' occurs;6;
+Frequency of 'SW-Awaiting EIC Decision' leading to 'SW-EIC Reject';Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'SW-EIC Reject' occurs;16;
+Percentage of 'SW-Awaiting EIC Decision' followed by 'SW-EIC Accept' out of all decisions;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Percentage of 'SW-Awaiting EIC Decision' followed by 'SW-EIC Major Revision' out of all decisions;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Major Revision';1.0;
+Percentage of 'SW-Awaiting EIC Decision' followed by 'SW-EIC Minor Revision' out of all decisions;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Minor Revision';0.86;
+Percentage of 'SW-Awaiting EIC Decision' followed by 'SW-EIC Reject' out of all decisions;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Reject';0.47;
+Number of 'SW-Awaiting EIC Decision' occurrences per manuscript;Frequency of activity '{}' grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":17,""DSW4"":16,""MSC4"":21,""RJR3"":1,""SW1"":1,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Average time from 'SW-Awaiting EIC Decision' to any decision ('SW-EIC Accept', 'SW-EIC Major Revision', 'SW-EIC Minor Revision', 'SW-EIC Reject');Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Frequency of 'SW-Reviewer Agreed' preceding 'SW-Awaiting EIC Decision';Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-Awaiting EIC Decision' occurs;45;
+Percentage of manuscripts with 'SW-Reviewer Agreed' leading to 'SW-Awaiting EIC Decision';Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Percentage of 'SW-Awaiting EIC Decision' that lead to a revision ('SW-EIC Major Revision', 'SW-EIC Minor Revision') vs. final decisions ('SW-EIC Accept', 'SW-EIC Reject');Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Major Revision';1.0;
+Frequency of 'SW-Awaiting EIC Decision' in manuscripts that required more than one round of review;Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'SW-Reviewer Agreed' occurs;45;
+Percentage of 'SW-Awaiting EIC Decision' following 'Reviewer Invitation Reminder 2';Percentage of 'SW-Awaiting EIC Decision' out of all 'Reviewer Invitation Reminder 2';0.88;
+Number of 'SW-Awaiting EIC Decision' occurrences after 'SW-Reviewer Declined';Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'SW-Reviewer Declined' occurs;29;
+Frequency of 'SW-Awaiting EIC Decision' in manuscripts with 'Plagiarism Originality Report Completed';Frequency of activity 'SW-Awaiting EIC Decision' for cases where activity 'Plagiarism Originality Report Completed' occurs;56;
+Percentage of 'SW-Awaiting EIC Decision' for manuscripts with 'Manuscript Export Succeeded';Percentage of 'SW-Awaiting EIC Decision' out of all 'Manuscript Export Succeeded';0.65;
+Number of 'SW-Awaiting EIC Decision' occurrences grouped by month;Number of 'SW-Awaiting EIC Decision' activities;60;
+Percentage of 'SW-Awaiting EIC Decision' leading to 'SW-EIC Reject & Resubmit';"ERROR: computing metric {'count': activity == 'SW-EIC Reject & Resubmit'"", 'metric_condition': '> 0', 'aggregation': 'percentage'}""";;

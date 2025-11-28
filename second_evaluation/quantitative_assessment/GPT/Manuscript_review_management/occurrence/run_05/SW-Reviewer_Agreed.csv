@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of \SW-Reviewer Agreed\ following \SW-AE Assign Reviewers\;Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-AE Assign Reviewers' occurs;45;
+Percentage of manuscripts that proceed to \SW-Awaiting EIC Decision\ after \SW-Reviewer Agreed\;Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Number of \SW-Reviewer Agreed\ occurrences per case;Number of 'SW-Reviewer Agreed' activities;110;
+Percentage of \SW-Reviewer Agreed\ out of all reviewer-related activities;Percentage of 'SW-Reviewer Agreed' out of all 'SW-Reviewer Agreed';1.0;
+Frequency of \SW-Reviewer Agreed\ leading to a \SW-EIC Major Revision\ decision;Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-EIC Major Revision' occurs;14;
+Percentage of \SW-Reviewer Agreed\ in manuscripts that eventually get accepted (\RW-EIC Accept\);Percentage of 'SW-Reviewer Agreed' out of all 'RW-EIC Accept';0.77;
+Number of \SW-Reviewer Agreed\ in relation to \SW-Reviewer Declined\;Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-Reviewer Declined' occurs;29;
+Percentage of \SW-Reviewer Agreed\ followed by \Reviewer Invitation Reminder 1\;Percentage of 'SW-Reviewer Agreed' out of all 'Reviewer Invitation Reminder 1';0.91;
+Frequency of \SW-Reviewer Agreed\ in the most common process variant;Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'most common process variant' occurs;;
+Percentage of \SW-Reviewer Agreed\ activities by performer;Percentage of 'SW-Reviewer Agreed' out of all cases;ADMIN:0.5;"{""ADMIN"":0.5,""AUTHOR"":0.5,""EIC"":0.0,""SYSTEM"":0.5}"
+Percentage of cases with \SW-Reviewer Agreed\ that require more than one round of review;Percentage of 'SW-Reviewer Agreed' out of all 'more than one round of review';;
+Frequency of \SW-Reviewer Agreed\ before \SW-Awaiting AE Recommendation\;Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-Awaiting AE Recommendation' occurs;24;
+Percentage of \SW-Reviewer Agreed\ in cases that exceed the average review time;Percentage of 'SW-Reviewer Agreed' out of all 'exceed average review time';;
+Percentage of \SW-Reviewer Agreed\ in cases with \Plagiarism Originality Report Completed\;Percentage of 'SW-Reviewer Agreed' out of all 'Plagiarism Originality Report Completed';0.49;
+Frequency of \SW-Reviewer Agreed\ in relation to total activities per case;Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'total activities per case' occurs;;
+Percentage of \SW-Reviewer Agreed\ followed by any activity indicating progress towards manuscript acceptance;Percentage of 'SW-Reviewer Agreed' out of all 'progress towards manuscript acceptance';;
+Number of \SW-Reviewer Agreed\ preceding \SW-AE Assign Reviewers Challenge Paper\;Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-AE Assign Reviewers Challenge Paper' occurs;10;
+Percentage of \SW-Reviewer Agreed\ in the variant leading to the fastest manuscript acceptance;Percentage of 'SW-Reviewer Agreed' out of all 'fastest manuscript acceptance';;
+Number of \SW-Reviewer Agreed\ activities grouped by month;"ERROR: computing metric {'count': activity == 'SW-Reviewer Agreed'"", 'aggregation': 'total', 'group_by': 'month'}""";;
+Number of \SW-Reviewer Agreed\ in cases that ended with \SW-EIC Reject & Resubmit\;"ERROR: computing metric {'count': activity == 'SW-Reviewer Agreed'"", 'aggregation': 'total', 'filter': ""activity == 'SW-EIC Reject & Resubmit'""}""";;

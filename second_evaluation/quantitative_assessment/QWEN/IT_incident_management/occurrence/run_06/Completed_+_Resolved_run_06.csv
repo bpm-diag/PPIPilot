@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Resolved' out of all activity executions in the event log;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' occurrences across all cases;Number of 'Completed + Resolved' activities;6108;
+Percentage of process variants that include 'Completed + Resolved' as a step;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' directly following 'Accepted + In Progress';Number of 'Completed + Resolved' activities;6108;
+Percentage of 'Completed + Resolved' that are immediately followed by 'Completed + Closed';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' appearing in variants that also contain 'Completed + In Call';Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' occurs;154;
+Percentage of 'Completed + Resolved' occurring in variants without any 'Wait' activity (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.);Percentage of 'Completed + Resolved' out of all cases where 'Accepted + Wait - User' does not happen;0.75;
+Frequency of 'Completed + Resolved' in cases where 'Completed + In Call' appears earlier in the trace;Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' occurs;154;
+Percentage of 'Completed + Resolved' executions that occur after at least one occurrence of 'Queued + Awaiting Assignment';Percentage of 'Completed + Resolved' out of all 'Queued + Awaiting Assignment';1.0;
+Frequency of 'Completed + Resolved' in the most frequent variant (variant starting with 'Accepted + In Progress → Accepted + In Progress → Completed + In Call');Number of 'Completed + Resolved' activities;6108;
+Percentage of total 'Completed + Resolved' instances that belong to the top 5 most frequent variants;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' grouped by country of execution;Number of 'Completed + Resolved' activities grouped by the last value of organization country;0:33;"{""0"":33,""SE"":62,""au"":23,""be"":435,""br"":278,""ca"":52,""cl"":3,""cn"":106,""de"":3,""fr"":314,""gb"":21,""in"":541,""jp"":16,""kr"":67,""my"":20,""nl"":66,""pe"":2,""pl"":1104,""ru"":38,""se"":2414,""th"":1,""tr"":1,""us"":508}"
+Percentage of 'Completed + Resolved' activities that are part of traces containing exactly one occurrence of 'Completed + In Call';Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Resolved' in traces where 'Completed + In Call' is the only non-terminal activity before resolution;Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' occurs;154;
+Percentage of 'Completed + Resolved' that occur within 24 hours after a 'Completed + In Call' activity;Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Resolved' preceded by 'Accepted + Assigned';Number of 'Completed + Resolved' activities;6108;
+Percentage of variants ending with 'Completed + Resolved → Completed + Closed' among all variants containing 'Completed + Resolved';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' in traces that never include 'Unmatched + Unmatched';Number of 'Completed + Resolved' activities for cases where activity 'Unmatched + Unmatched' does not occur;6108;
+Percentage of 'Completed + Resolved' executed by resource groups other than V30;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' in traces originating from Brazil, USA, and France respectively;Number of 'Completed + Resolved' activities grouped by the last value of organization country;0:33;"{""0"":33,""SE"":62,""au"":23,""be"":435,""br"":278,""ca"":52,""cl"":3,""cn"":106,""de"":3,""fr"":314,""gb"":21,""in"":541,""jp"":16,""kr"":67,""my"":20,""nl"":66,""pe"":2,""pl"":1104,""ru"":38,""se"":2414,""th"":1,""tr"":1,""us"":508}"

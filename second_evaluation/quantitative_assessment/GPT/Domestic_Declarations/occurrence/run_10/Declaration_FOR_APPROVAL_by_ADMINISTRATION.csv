@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration FOR_APPROVAL by ADMINISTRATION' followed by 'Declaration APPROVED by ADMINISTRATION';Frequency of activity 'Declaration FOR_APPROVAL by ADMINISTRATION' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;1.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' leading to 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' that precede 'Declaration APPROVED by BUDGET OWNER';Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities for cases where activity 'Declaration APPROVED by BUDGET OWNER' occurs;1.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Frequency of 'Declaration FOR_APPROVAL by ADMINISTRATION' in cases with amounts above 100 euros;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities > 100 where ma is the last value of case:Amount;1.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' followed by 'Request Payment';Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Request Payment';0.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' by 'STAFF MEMBER';Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;;
+Frequency of 'Declaration FOR_APPROVAL by ADMINISTRATION' in variants leading to 'Payment Handled';Frequency of activity 'Declaration FOR_APPROVAL by ADMINISTRATION' for cases where activity 'Payment Handled' occurs;1.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' in cases eventually leading to 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' followed by 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;1.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' in relation to 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Frequency of 'Declaration FOR_APPROVAL by ADMINISTRATION' in cases with 'Declaration REJECTED by EMPLOYEE';Frequency of activity 'Declaration FOR_APPROVAL by ADMINISTRATION' for cases where activity 'Declaration REJECTED by EMPLOYEE' occurs;1.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' leading to a dismissal of the case;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Case Dismissal';;
+Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' grouped by 'case:BudgetNumber';Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities;1.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' in cases without 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.0;
+Frequency of 'Declaration FOR_APPROVAL by ADMINISTRATION' in the most common process variant;Frequency of activity 'Declaration FOR_APPROVAL by ADMINISTRATION' for cases where activity 'Most Common Process Variant' occurs;;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' in cases that exceed the average processing time;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;0.0;
+Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' per year;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities;1.0;

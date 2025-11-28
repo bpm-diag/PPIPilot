@@ -1,0 +1,15 @@
+Name;Metric;Value;Agrupation
+Frequency of \SW-Reviewer Agreed\ following \SW-AE Assign Reviewers\;Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'SW-AE Assign Reviewers' occurs;45.0;
+Percentage of manuscripts that proceed to \SW-Awaiting EIC Decision\ after \SW-Reviewer Agreed\;Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Number of \SW-Reviewer Agreed\ occurrences per case;Number of 'SW-Reviewer Agreed' activities;110.0;
+Number of \SW-Reviewer Agreed\ before \Reviewer Invitation Reminder 1\ is sent;Frequency of activity 'SW-Reviewer Agreed' for cases where activity 'Reviewer Invitation Reminder 1' occurs;43.0;
+Percentage of \SW-Reviewer Agreed\ activities that occur after \Reviewer Invitation Reminder 2\;Percentage of 'SW-Reviewer Agreed' out of all 'Reviewer Invitation Reminder 2';0.9;
+Frequency of \SW-Reviewer Agreed\ in the most common process variant;Frequency of activity 'SW-Reviewer Agreed';46.0;
+Percentage of cases with \SW-Reviewer Agreed\ that also have \Plagiarism Originality Report Completed\;Percentage of 'SW-Reviewer Agreed' out of all 'Plagiarism Originality Report Completed';0.49;
+Number of \SW-Reviewer Agreed\ in relation to the total number of activities in the longest process variant;Number of 'SW-Reviewer Agreed' activities;110.0;
+Percentage of \SW-Reviewer Agreed\ followed by \SW-AE Assign Reviewers\ in a loop of reviewer assignment and agreement;Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers';0.98;
+Frequency of \SW-Reviewer Agreed\ in cases that exceed the average performance time from submission to decision;Frequency of activity 'SW-Reviewer Agreed';46.0;
+Percentage of \SW-Reviewer Agreed\ out of all reviewer-related activities;"ERROR: computing metric {'count': activity == 'SW-Reviewer Agreed'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-Reviewer Declined', 'SW-Reviewer No Response', 'SW-Reviewer Unavailable', 'SW-Reviewer Agreed']""}""";;
+Frequency of \SW-Reviewer Agreed\ leading to a decision of \SW-EIC Accept\ or \SW-EIC Reject & Resubmit\;"ERROR: computing metric {'count': activity == 'SW-Reviewer Agreed'"", 'metric_condition': '> 0', 'aggregation': 'total', 'filter': ""activity in ['SW-EIC Accept', 'SW-EIC Reject & Resubmit']""}""";;
+Percentage of \SW-Reviewer Agreed\ in manuscripts that required major revision (\SW-EIC Major Revision\) versus those that were accepted (\SW-EIC Accept\);"ERROR: computing metric {'count': activity == 'SW-Reviewer Agreed'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-EIC Major Revision', 'SW-EIC Accept']""}""";;
+Percentage of \SW-Reviewer Agreed\ in cases that were eventually published versus those that were rejected or required resubmission;"ERROR: computing metric {'count': activity == 'SW-Reviewer Agreed'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-EIC Accept', 'SW-EIC Reject & Resubmit', 'SW-EIC Major Revision']""}""";;

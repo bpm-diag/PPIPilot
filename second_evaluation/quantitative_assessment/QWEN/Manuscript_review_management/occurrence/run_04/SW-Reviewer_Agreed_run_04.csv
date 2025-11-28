@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of SW-Reviewer Agreed in variants that eventually lead to SW-EIC Accept;Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Accept';0.0;
+Percentage of cases where SW-Reviewer Agreed is followed by SW-Awaiting EIC Decision;Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Number of SW-Reviewer Agreed occurrences per case variant;Number of 'SW-Reviewer Agreed' activities;110.0;
+Percentage of SW-Reviewer Agreed relative to the total number of activity executions in the log;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Frequency of SW-Reviewer Agreed compared to SW-Reviewer Declined across all variants;Percentage of 'SW-Reviewer Agreed' out of all 'SW-Reviewer Declined';1.0;
+Percentage of variants containing at least one SW-Reviewer Agreed occurrence;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Frequency of SW-Reviewer Agreed in variants with performance duration below the median cycle time;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Percentage of SW-Reviewer Agreed that are not followed by another reviewer assignment (indicating stable agreement);Percentage of 'SW-Reviewer Agreed' out of all cases where 'SW-AE Assign Reviewers' does not happen;0.49;
+Percentage of SW-Reviewer Agreed relative to all SW-AE Assign Reviewers executions;Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers';0.98;
+Frequency of SW-Reviewer Agreed in the first round of reviewer assignment versus subsequent rounds;Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers';0.98;
+Percentage of cases where SW-Reviewer Agreed appears more than once, indicating multiple reviewers agreeing;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'SW-Reviewer Agreed';0.44;
+Percentage of SW-Reviewer Agreed occurring within 7 days after SW-AE Assign Reviewers;the average of the function base < 7 where base is the number of times `ACTIVITY` == 'SW-Reviewer Agreed' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-AE Assign Reviewers';1.0;
+Percentage of SW-Reviewer Agreed events that belong to cases ultimately accepted (SW-EIC Accept);Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Accept';0.0;
+Frequency of SW-Reviewer Agreed in comparison to RW-Reviewer Agreed in revised manuscript phases;Percentage of 'SW-Reviewer Agreed' out of all 'RW-Reviewer Agreed';0.95;
+Number of SW-Reviewer Agreed events that occur after a Reviewer Invitation Reminder 1 or Reviewer Invitation Reminder 2;Number of 'SW-Reviewer Agreed' activities;110.0;
+Number of variants in which SW-Reviewer Agreed directly precedes SW-Awaiting AE Recommendation or SW-Awaiting EIC Decision;Number of 'SW-Reviewer Agreed' activities;110.0;
+Percentage of SW-Reviewer Agreed out of all reviewer-related activities (e.g., SW-Reviewer Declined, SW-Reviewer Unavailable, SW-Reviewer No Response);"ERROR: computing metric {'count': activity == 'SW-Reviewer Agreed'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-Reviewer Agreed', 'SW-Reviewer Declined', 'SW-Reviewer Unavailable', 'SW-Reviewer No Response']""}""";;
+Percentage of SW-Reviewer Agreed that are part of successful review cycles ending in SW-EIC Accept or SW-EIC Minor/Major Revision;"ERROR: computing metric {'count': activity == 'SW-Reviewer Agreed'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-EIC Accept', 'SW-EIC Minor Revision', 'SW-EIC Major Revision']""}""";;
+Number of SW-Reviewer Agreed occurrences in cases that experienced delays due to reviewer unavailability or non-response;"ERROR: computing metric {'count': activity == 'SW-Reviewer Agreed'"", 'aggregation': 'total', 'filter': ""activity in ['SW-Reviewer Unavailable', 'SW-Reviewer No Response']""}""";;
+Ratio of SW-Reviewer Agreed to total reviewer outcome activities (SW-Reviewer Agreed + SW-Reviewer Declined + SW-Reviewer Unavailable + SW-Reviewer No Response);"ERROR: computing metric {'count': activity == 'SW-Reviewer Agreed'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity in ['SW-Reviewer Agreed', 'SW-Reviewer Declined', 'SW-Reviewer Unavailable', 'SW-Reviewer No Response']""}""";;

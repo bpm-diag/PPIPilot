@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-Awaiting Checklist Completion' to 'SW-Awaiting AE Assignment';The average of the duration between activity 'SW-Awaiting Checklist Completion' and activity 'SW-Awaiting AE Assignment';3.19 days;
+Average time from 'SW-Checklist Completed' to 'SW-Awaiting AE Assignment';The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-Awaiting AE Assignment';8.38 minutes;
+Total time spent in 'SW-Awaiting AE Assignment' across all cases;The sum of the duration between activity SW-Awaiting AE Assignment and the end of the case;3459.59 days;
+Average time between 'SW-Awaiting AE Assignment' and 'SW-EIC Reject';The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Reject';19.06 days;
+Average time between 'SW-Awaiting AE Assignment' and 'SW-EIC Accept';The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Accept';5.50 days;
+Minimum time taken to move from 'SW-Awaiting AE Assignment' to 'SW-AE Assign Reviewers';The minimum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-AE Assign Reviewers';5.44 hours;
+Total resolution time of 'SW-Awaiting AE Assignment' for cases leading to 'SW-Reviewer Agreed';The sum of the duration between activity 'SW-Awaiting AE Assignment' and the end of case where activity 'SW-Reviewer Agreed occurs;2843.17 days;
+Average waiting time to 'SW-AE Assign Reviewers' after 'SW-Awaiting AE Assignment';The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-AE Assign Reviewers';19.94 days;
+Total time from 'SW-Awaiting AE Assignment' to 'SW-AE Assign Reviewers';The sum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-AE Assign Reviewers';458.61 days;
+Average time for 'SW-Awaiting AE Assignment' in cases where 'SW-Reviewer Agreed' follows;The average of the duration between activity 'SW-Awaiting AE Assignment' and the end of case where activity 'SW-Reviewer Agreed occurs;118.47 days;
+Minimum time for 'SW-Awaiting AE Assignment' in variants leading to 'SW-EIC Major Revision';The minimum of the duration between activity SW-Awaiting AE Assignment and the end of the case;166.31 days;
+Average time it takes from 'SW-Awaiting AE Assignment' to the next activity in the process;The average of the duration between activity SW-Awaiting AE Assignment and the end of the case;60.69 days;
+Total time for 'SW-Awaiting AE Assignment' in variants ending with 'RW-EIC Accept';The sum of the duration between activity 'SW-Awaiting AE Assignment' and the end of case where activity 'RW-EIC Accept occurs;1495.38 days;
+Elapsed time between 'SW-Awaiting AE Assignment' and 'SW-AE Assign Reviewers' in the most frequent variant;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-AE Assign Reviewers';;
+Time from 'SW-Awaiting AE Assignment' to 'SW-AE Assign Reviewers' in the variant with the longest performance time;The maximum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-AE Assign Reviewers';74.41 days;

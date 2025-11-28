@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of \Reviewer Invitation Reminder 1\ sent after \SW-AE Assign Reviewers\;Frequency of activity 'Reviewer Invitation Reminder 1' for cases where activity 'SW-AE Assign Reviewers' occurs;42;
+Percentage of \Reviewer Invitation Reminder 1\ followed by \SW-Reviewer Agreed\;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Agreed';0.93;
+Number of \Reviewer Invitation Reminder 1\ compared to \Reviewer Invitation Reminder 2\;Frequency of activity 'Reviewer Invitation Reminder 1' for cases where activity 'Reviewer Invitation Reminder 2' occurs;41;
+Percentage of cases where \Reviewer Invitation Reminder 1\ leads to \SW-Reviewer Declined\;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Declined';1.0;
+Frequency of \Reviewer Invitation Reminder 1\ in the most common process variant;Frequency of activity 'Reviewer Invitation Reminder 1';47;
+Percentage of \Reviewer Invitation Reminder 1\ in relation to all communication activities;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Number of \Reviewer Invitation Reminder 1\ sent per manuscript;Frequency of activity '{}' grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":2,""DRW3"":1,""DSW3"":15,""DSW4"":9,""MSC4"":17,""RJR3"":1,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of \Reviewer Invitation Reminder 1\ that precede any \Unassign Editor\ action;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Unassign Editor';0.73;
+Frequency of \Reviewer Invitation Reminder 1\ in manuscripts that undergo \SW-EIC Major Revision\;Frequency of activity 'Reviewer Invitation Reminder 1' for cases where activity 'SW-EIC Major Revision' occurs;13;
+Percentage of \Reviewer Invitation Reminder 1\ followed by \Reviewer Invitation Reminder 2\ within the same case;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 2';1.0;
+Number of \Reviewer Invitation Reminder 1\ in relation to \SW-Reviewer Selection is due in 1 week\;Frequency of activity 'Reviewer Invitation Reminder 1' for cases where activity 'SW-Reviewer Selection is due in 1 week' occurs;31;
+Percentage of \Reviewer Invitation Reminder 1\ leading to a change in reviewer (\Assign a Different Editor\);Percentage of 'Reviewer Invitation Reminder 1' out of all 'Assign a Different Editor';0.73;
+Frequency of \Reviewer Invitation Reminder 1\ in manuscripts that reach \RW-EIC Accept\ status;Frequency of activity 'Reviewer Invitation Reminder 1' for cases where activity 'RW-EIC Accept' occurs;18;
+Percentage of \Reviewer Invitation Reminder 1\ in cases that result in \Manuscript is Withdrawn\;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Manuscript is Withdrawn';0.5;
+Number of \Reviewer Invitation Reminder 1\ for manuscripts that require \RW–Minor Revision due in 3 days\;"ERROR: computing metric {'count': activity == 'Reviewer Invitation Reminder 1'"", 'metric_condition': '> 0', 'aggregation': 'total', 'filter': ""activity == 'RW–Minor Revision due in 3 days'""}""";;

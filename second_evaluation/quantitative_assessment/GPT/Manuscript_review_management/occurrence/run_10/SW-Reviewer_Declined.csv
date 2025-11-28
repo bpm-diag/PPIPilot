@@ -1,0 +1,18 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Reviewer Declined' compared to 'SW-Reviewer Agreed';Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Percentage of manuscripts that proceed to 'SW-Awaiting EIC Decision' after a 'SW-Reviewer Declined';Percentage of 'SW-Reviewer Declined' out of all 'SW-Awaiting EIC Decision';0.49;
+Number of 'SW-Reviewer Declined' occurrences before 'SW-AE Assign Reviewers';Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-AE Assign Reviewers' occurs;59.0;
+Percentage of 'SW-Reviewer Declined' out of all review-related activities;Percentage of 'SW-Reviewer Declined' out of all cases where 'SW-Reviewer Declined' does not happen;0.31;
+Frequency of 'SW-Reviewer Declined' followed by 'Reviewer Invitation Reminder 1';Frequency of activity 'SW-Reviewer Declined' for cases where activity 'Reviewer Invitation Reminder 1' occurs;29.0;
+Percentage of 'SW-Reviewer Declined' in manuscripts that require major revision versus those that are accepted ('SW-EIC Major Revision' vs 'RW-EIC Accept');Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Major Revision';0.8;
+Number of 'SW-Reviewer Declined' in relation to 'SW-Reviewer No Response';Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-Reviewer No Response' occurs;19.0;
+Percentage of 'SW-Reviewer Declined' activities that lead to assigning a different editor ('Assign a Different Editor');Percentage of 'SW-Reviewer Declined' out of all 'Assign a Different Editor';0.27;
+Frequency of 'SW-Reviewer Declined' in the first round of review versus subsequent rounds;Frequency of activity 'SW-Reviewer Declined' for cases where activity 'SW-Reviewer Declined' does not occur;29.0;
+Percentage of 'SW-Reviewer Declined' followed by 'SW-AE Assign Reviewers' in the process variants;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Number of 'SW-Reviewer Declined' for manuscripts that exceed the Plagiarism Percent Match Threshold ('Plagiarism Percent Match Threshold Exceeded');Number of 'SW-Reviewer Declined' activities for cases where activity 'Plagiarism Percent Match Threshold Exceeded' occurs;15.0;
+Percentage of 'SW-Reviewer Declined' before 'SW-Checklist Completed';Percentage of 'SW-Reviewer Declined' out of all 'SW-Checklist Completed';0.34;
+Frequency of 'SW-Reviewer Declined' in manuscripts that undergo 'Manuscript Export Succeeded' more than once;Frequency of activity 'SW-Reviewer Declined' for cases where activity 'Manuscript Export Succeeded' occurs;29.0;
+Percentage of 'SW-Reviewer Declined' in relation to all activities performed by the SYSTEM performer;Percentage of 'SW-Reviewer Declined' out of all cases;0.31;
+Percentage of 'SW-Reviewer Declined' that are followed by a 'SW-Reviewer Agreed' within the same case;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Frequency of 'SW-Reviewer Declined' in manuscripts that are eventually rejected ('SW-EIC Reject' or 'RSW-EIC Reject');Frequency of activity 'SW-Reviewer Declined' for cases where activity 'SW-EIC Reject' occurs;6.0;
+Number of 'SW-Reviewer Declined' occurrences per year in the event log;Number of 'SW-Reviewer Declined' activities;61.0;

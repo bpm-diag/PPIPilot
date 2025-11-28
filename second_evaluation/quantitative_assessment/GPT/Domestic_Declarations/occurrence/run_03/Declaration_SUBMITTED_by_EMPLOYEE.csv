@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' that lead to 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration APPROVED by ADMINISTRATION';1.0;
+Frequency of 'Declaration SUBMITTED by EMPLOYEE' followed by 'Declaration REJECTED by PRE_APPROVER';Frequency of activity 'Declaration SUBMITTED by EMPLOYEE' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;81.0;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Number of 'Declaration SUBMITTED by EMPLOYEE' that are preceded by 'Declaration REJECTED by EMPLOYEE';Number of 'Declaration SUBMITTED by EMPLOYEE' activities for cases where activity 'Declaration REJECTED by EMPLOYEE' occurs;2322.0;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' that result in 'Request Payment';Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Request Payment';1.0;
+Frequency of 'Declaration SUBMITTED by EMPLOYEE' with amounts above 100 euros;Number of 'Declaration SUBMITTED by EMPLOYEE' activities > 100 where ma is the last value of case:Amount;2777.0;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' by 'STAFF MEMBER';Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases;;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' followed by 'Payment Handled';Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Payment Handled';1.0;
+Number of 'Declaration SUBMITTED by EMPLOYEE' in relation to 'Declaration APPROVED by ADMINISTRATION';Number of 'Declaration SUBMITTED by EMPLOYEE' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;8950.0;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' from all 'Declaration APPROVED by BUDGET OWNER';Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Total 'Declaration SUBMITTED by EMPLOYEE' done by 'SYSTEM';Number of 'Declaration SUBMITTED by EMPLOYEE' activities == 'SYSTEM' where ma is the last value of org:resource;11161.0;
+Ratio of 'Declaration SUBMITTED by EMPLOYEE' over 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Occasions how often the 'Declaration SUBMITTED by EMPLOYEE' is performed before 'Declaration APPROVED by PRE_APPROVER';Number of 'Declaration SUBMITTED by EMPLOYEE' activities for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;762.0;
+The ratio of 'Declaration SUBMITTED by EMPLOYEE' that lead to a payment being requested and paid;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all 'Payment Handled';1.0;
+Percentage of 'Declaration SUBMITTED by EMPLOYEE' that are not dismissed;Percentage of 'Declaration SUBMITTED by EMPLOYEE' out of all cases where 'Declaration REJECTED by EMPLOYEE' does not happen;0.99;
+Frequency of 'Declaration SUBMITTED by EMPLOYEE' leading to any form of 'Declaration REJECTED by...';Number of 'Declaration SUBMITTED by EMPLOYEE' activities for cases where activity 'Declaration REJECTED by ADMINISTRATION' occurs;1638.0;
+Number of 'Declaration SUBMITTED by EMPLOYEE' made per year;Number of 'Declaration SUBMITTED by EMPLOYEE' activities;11531.0;
+Average number of 'Declaration SUBMITTED by EMPLOYEE' in a month;the average of the number of times `ACTIVITY` == 'Declaration SUBMITTED by EMPLOYEE';1.1;

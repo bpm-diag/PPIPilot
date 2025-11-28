@@ -1,0 +1,15 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration APPROVED by PRE_APPROVER' followed by 'Declaration FINAL_APPROVED by SUPERVISOR';Frequency of activity 'Declaration APPROVED by PRE_APPROVER' for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;663.0;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' leading to 'Request Payment';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Request Payment';0.07;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' in cases with amounts above 100 euros;Number of 'Declaration APPROVED by PRE_APPROVER' activities > 100 where ma is the last value of case:Amount;139.0;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all approval activities;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases where '' does not happen;0.06;
+Number of 'Declaration APPROVED by PRE_APPROVER' that are preceded by 'Declaration SUBMITTED by EMPLOYEE';Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;685.0;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' followed by 'Payment Handled';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Payment Handled';0.07;
+Number of 'Declaration APPROVED by PRE_APPROVER' in relation to total declarations submitted;Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;685.0;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' in successful payment requests;Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Payment Handled' occurs;679.0;
+Percentage of 'Declaration APPROVED by PRE_APPROVER' in cases that required director approval;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.07;
+Average number of days from 'Declaration APPROVED by PRE_APPROVER' to 'Payment Handled';the average of the number of times `ACTIVITY` == 'Declaration APPROVED by PRE_APPROVER' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Payment Handled';0.07;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' in cases with travel expenses reimbursed within two months after the trip;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685.0;
+Percentage reduction of 'Declaration REJECTED by PRE_APPROVER' after implementing changes;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Ratio of 'Declaration APPROVED by PRE_APPROVER' over 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.83;
+Frequency of 'Declaration APPROVED by PRE_APPROVER' by month to identify peak periods;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685.0;

@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average duration of 'Accepted + Wait' before transitioning to 'Completed + In Call';The average of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';6.89 days;
+Total duration of 'Accepted + Wait' across all cases;The sum of the duration between activity Accepted + Wait and the end of the case;21444.92 days;
+Average duration from 'Accepted + Wait' to 'Accepted + In Progress';The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + In Progress';15.69 days;
+Total duration from 'Accepted + Wait' to 'Completed + Resolved';The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + Resolved';16689.05 days;
+Minimum duration of 'Accepted + Wait' before any subsequent activity;The minimum of the duration between activity Accepted + Wait and the end of the case;12.00 seconds;
+Average duration from 'Accepted + Wait' to 'Queued + Awaiting Assignment';The average of the duration between activity 'Accepted + Wait' and activity 'Queued + Awaiting Assignment';9.90 days;
+Total duration from 'Accepted + Wait' to 'Accepted + Assigned';The sum of the duration between activity 'Accepted + Wait' and activity 'Accepted + Assigned';3604.10 days;
+Minimum duration from 'Accepted + Wait' to 'Completed + Closed';The minimum of the duration between activity 'Accepted + Wait' and activity 'Completed + Closed';5.47 minutes;
+Average duration of 'Accepted + Wait' in cases involving 'Completed + In Call';The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + In Call occurs;9.79 days;
+Total duration of 'Accepted + Wait' in variants leading to 'Completed + Resolved';The sum of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + Resolved occurs;21079.96 days;
+Minimum duration of 'Accepted + Wait' in variants ending with 'Completed + Closed';The minimum of the duration between activity Accepted + Wait and the end of the case;5.47 minutes;
+Average duration from 'Accepted + Wait' to the next occurrence of 'Accepted + Wait';The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait';2.44 days;
+Total duration of 'Accepted + Wait' before 'Accepted + Wait - User';The sum of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait - User';3843.98 days;
+Minimum duration of 'Accepted + Wait' before 'Accepted + Wait - Vendor';The minimum of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait - Vendor';2.07 minutes;
+Average duration from 'Accepted + Wait' to 'Accepted + Wait - Implementation';The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait - Implementation';14.69 days;

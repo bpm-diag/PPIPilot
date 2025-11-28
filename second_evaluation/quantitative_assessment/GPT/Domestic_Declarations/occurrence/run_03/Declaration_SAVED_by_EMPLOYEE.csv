@@ -1,0 +1,9 @@
+Name;Metric;Value;Agrupation
+Number of 'Declaration SAVED by EMPLOYEE' with amounts above 100 euros;Number of 'Declaration SAVED by EMPLOYEE' activities > 100 where ma is the last value of case:Amount;0;
+Percentage of 'Declaration SAVED by EMPLOYEE' by 'STAFF MEMBER';Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;STAFF MEMBER:0.29;"{""STAFF MEMBER"":0.2932166302,""SYSTEM"":0.0000995718}"
+Number of 'Declaration SAVED by EMPLOYEE' grouped by 'case:BudgetNumber';Number of 'Declaration SAVED by EMPLOYEE' activities;135;
+Number of times 'Declaration SAVED by EMPLOYEE' is performed;Number of 'Declaration SAVED by EMPLOYEE' activities;135;
+Total 'Declaration SAVED by EMPLOYEE' done by 'STAFF MEMBER';Number of 'Declaration SAVED by EMPLOYEE' activities grouped by the last value of org:resource;STAFF MEMBER:134;"{""STAFF MEMBER"":134,""SYSTEM"":1}"
+Total 'Declaration SAVED by EMPLOYEE' performed by 'STAFF MEMBER';Number of 'Declaration SAVED by EMPLOYEE' activities grouped by the last value of org:resource;STAFF MEMBER:134;"{""STAFF MEMBER"":134,""SYSTEM"":1}"
+Number of 'Declaration SAVED by EMPLOYEE' made per year;Number of 'Declaration SAVED by EMPLOYEE' activities;135;
+Average number of 'Declaration SAVED by EMPLOYEE' in a month;the average of the number of times `ACTIVITY` == 'Declaration SAVED by EMPLOYEE';0.01;

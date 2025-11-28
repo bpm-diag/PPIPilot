@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration REJECTED by PRE_APPROVER out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Frequency of Declaration REJECTED by PRE_APPROVER followed by Declaration REJECTED by EMPLOYEE;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration REJECTED by EMPLOYEE';0.07;
+Percentage of process variants containing Declaration REJECTED by PRE_APPROVER relative to all variants that start with Declaration SUBMITTED by EMPLOYEE and involve a PRE_APPROVER;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Percentage of Declaration REJECTED by PRE_APPROVER that are eventually resubmitted and lead to a successful Payment Handled;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Payment Handled';0.01;
+Frequency of Declaration APPROVED by PRE_APPROVER compared to Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.83;
+Percentage of Declaration REJECTED by PRE_APPROVER that occur without a prior Declaration FOR_APPROVAL by PRE_APPROVER;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases where 'Declaration FOR_APPROVAL by PRE_APPROVER' does not happen;0.01;
+Number of cases where Declaration REJECTED by PRE_APPROVER appears more than once in the same case;Number of 'Declaration REJECTED by PRE_APPROVER' activities;86.0;
+Percentage of Declaration REJECTED by PRE_APPROVER among all rejection activities (including Declaration REJECTED by ADMINISTRATION, Declaration REJECTED by SUPERVISOR, etc.);Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Frequency of Declaration REJECTED by PRE_APPROVER in variants that do not include Declaration APPROVED by ADMINISTRATION;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases where 'Declaration APPROVED by ADMINISTRATION' does not happen;0.01;
+Percentage of Declaration REJECTED by PRE_APPROVER followed directly by Declaration SUBMITTED by EMPLOYEE within the same case;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Ratio of Declaration REJECTED by PRE_APPROVER to total activities performed by PRE_APPROVER roles (inferred from activity names);Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Percentage of cases with Declaration REJECTED by PRE_APPROVER that result in a final amount below 100 euros;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Frequency of Declaration REJECTED by PRE_APPROVER in domestic declarations (inferred from context where no prior approval is typically needed);Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Percentage of Declaration REJECTED by PRE_APPROVER that are part of rework loops involving three or more submission cycles;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Number of Declaration REJECTED by PRE_APPROVER events occurring in 2017 versus 2018;"ERROR: computing metric {'count': activity == 'Declaration REJECTED by PRE_APPROVER'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

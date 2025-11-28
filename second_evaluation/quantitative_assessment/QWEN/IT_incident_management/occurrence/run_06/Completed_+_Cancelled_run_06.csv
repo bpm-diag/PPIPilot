@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Cancelled' out of all activity executions in the event log;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Frequency of 'Completed + Cancelled' occurrences across all cases;Number of 'Completed + Cancelled' activities;1;
+Percentage of process variants that end with 'Completed + Cancelled';Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Number of times 'Completed + Cancelled' directly follows 'Accepted + In Progress';Number of 'Completed + Cancelled' activities;1;
+Percentage of 'Completed + Cancelled' that occur without any preceding 'Completed + Resolved' or 'Completed + Closed';Percentage of 'Completed + Cancelled' out of all cases where 'Completed + Resolved' does not happen;0.0;
+Frequency of 'Completed + Cancelled' compared to the frequency of 'Completed + Resolved';Number of 'Completed + Cancelled' activities for cases where activity 'Completed + Resolved' occurs;0;
+Percentage of cases containing 'Completed + Cancelled' relative to total number of cases;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Number of variants where 'Completed + Cancelled' appears as a terminal activity;Number of 'Completed + Cancelled' activities;1;
+Percentage of 'Completed + Cancelled' events occurring in cases that never reach 'Completed + Closed';Percentage of 'Completed + Cancelled' out of all cases where 'Completed + Closed' does not happen;0.0;
+Frequency of 'Completed + Cancelled' following any 'Accepted + Wait*' activity (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.);Number of 'Completed + Cancelled' activities for cases where activity 'Accepted + Wait - User' occurs;1;
+Ratio of 'Completed + Cancelled' to 'Completed + In Call' occurrences;Number of 'Completed + Cancelled' activities for cases where activity 'Completed + In Call' occurs;1;
+Percentage of 'Completed + Cancelled' that appear in variants with performance duration below the median variant duration;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Number of times 'Completed + Cancelled' is the only completion-type activity in a case (i.e., no other 'Completed + *' activity occurs);Number of 'Completed + Cancelled' activities for cases where activity 'Completed + Resolved' does not occur;1;
+Percentage of 'Completed + Cancelled' events grouped by country of origin;Percentage of 'Completed + Cancelled' out of all cases;0:0.0;"{""0"":0.0,""SE"":0.0,""au"":0.0,""be"":0.0,""br"":0.0,""ca"":0.0,""cl"":0.0,""cn"":0.0,""de"":0.0,""fr"":0.0,""gb"":0.0,""in"":0.0,""jp"":0.0,""kr"":0.0,""my"":0.0,""nl"":0.0,""pe"":0.0,""pl"":0.0005675369,""ru"":0.0,""se"":0.0,""th"":0.0,""tr"":0.0,""us"":0.0}"
+Frequency of 'Completed + Cancelled' in comparison to all other 'Completed + *' activities combined;Number of 'Completed + Cancelled' activities for cases where activity 'Completed + Resolved' occurs;0;
+Percentage of process instances where 'Completed + Cancelled' occurs after at least one reassignment (evidenced by repeated 'Queued + Awaiting Assignment');Percentage of 'Completed + Cancelled' out of all 'Queued + Awaiting Assignment';0.0;
+Number of variants containing both 'Completed + In Call' and 'Completed + Cancelled';Number of 'Completed + Cancelled' activities for cases where activity 'Completed + In Call' occurs;1;
+Percentage of 'Completed + Cancelled' that occur in cases shorter than 24 hours from start to end;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Ratio of 'Completed + Cancelled' to total completions ('Completed + Resolved', 'Completed + Closed', 'Completed + In Call', 'Completed + Cancelled');Number of 'Completed + Cancelled' activities for cases where activity 'Completed + Resolved' occurs;0;
+Frequency of 'Completed + Cancelled' per year to identify temporal trends in cancellation behavior;"ERROR: computing metric {'count': activity == 'Completed + Cancelled'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

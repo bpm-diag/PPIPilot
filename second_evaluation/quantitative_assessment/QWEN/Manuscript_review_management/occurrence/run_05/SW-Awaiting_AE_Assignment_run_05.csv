@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Assignment out of all activity executions in the event log;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment occurrences across all cases;Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of process variants that include SW-Awaiting AE Assignment immediately after SW-Checklist Completed;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Number of times SW-Awaiting AE Assignment is followed by SW-Initial Reviewer Selection;Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of SW-Awaiting AE Assignment occurrences that eventually lead to SW-EIC Reject;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment compared to the frequency of SW-Awaiting EIC Decision;Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of cases where SW-Awaiting AE Assignment appears but is never followed by SW-AE Assign Reviewers;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Number of SW-Awaiting AE Assignment events that occur within 24 hours after SW-Checklist Completed;Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of SW-Awaiting AE Assignment occurrences in variants that end with an acceptance (e.g., RW-EIC Accept or SW-EIC Accept);Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment relative to the total number of “awaiting”-type activities (e.g., SW-Awaiting Checklist Completion, SW-Awaiting AE Recommendation, SW-Awaiting EIC Decision);Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of process variants containing SW-Awaiting AE Assignment that proceed to at least one reviewer assignment activity (e.g., SW-AE Assign Reviewers);Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Number of SW-Awaiting AE Assignment instances that are directly preceded by Plagiarism Originality Report Completed;Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of SW-Awaiting AE Assignment occurrences that are part of the shortest top-5 most frequent variants;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment in comparison to SW-Awaiting AE Recommendation;Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of cases where SW-Awaiting AE Assignment is followed by a delay-indicating activity (e.g., SW-Reviewer Selection is due in 1 week) within the same trace;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;

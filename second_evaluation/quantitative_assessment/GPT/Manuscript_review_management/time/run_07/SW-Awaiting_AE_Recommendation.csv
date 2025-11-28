@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-Reviewer Agreed' to 'SW-Awaiting AE Recommendation';The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';67.41 days;
+Total time from 'SW-Reviewer Agreed' to 'SW-Awaiting AE Recommendation';The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';1617.84 days;
+Minimum time from 'SW-Reviewer Agreed' to 'SW-Awaiting AE Recommendation';The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';34.84 days;
+Average time from 'SW-Awaiting AE Recommendation' to 'SW-Awaiting EIC Decision';The average of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-Awaiting EIC Decision';3.75 days;
+Total time for 'SW-Awaiting AE Recommendation';The sum of the duration between activity SW-Awaiting AE Recommendation and the end of the case;2310.65 days;
+Minimum time for 'SW-Awaiting AE Recommendation';The minimum of the duration between activity SW-Awaiting AE Recommendation and the end of the case;38.80 minutes;
+Average time between 'SW-Awaiting AE Recommendation' and 'SW-EIC Major Revision';The average of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-EIC Major Revision';25.99 days;
+Total resolution time of 'SW-Awaiting AE Recommendation';The sum of the duration between activity SW-Awaiting AE Recommendation and the end of the case;2310.65 days;
+Minimum resolution time of 'SW-Awaiting AE Recommendation';The minimum of the duration between activity SW-Awaiting AE Recommendation and the end of the case;38.80 minutes;
+Average time from 'SW-Awaiting AE Recommendation' to 'SW-EIC Accept';The average of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-EIC Accept';5.28 days;
+Minimum time from 'SW-Awaiting AE Recommendation' to 'SW-EIC Reject';The minimum of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-EIC Reject';38.80 minutes;
+Average time it takes 'SW-Awaiting AE Recommendation' after 'SW-Reviewer Agreed';The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';67.41 days;
+Total time it takes 'SW-Awaiting AE Recommendation' after 'SW-Reviewer Agreed';The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';1617.84 days;
+Minimum time it takes 'SW-Awaiting AE Recommendation' after 'SW-Reviewer Agreed';The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';34.84 days;
+Average waiting time to the 'SW-Awaiting AE Recommendation';The average of the duration between activity SW-Awaiting AE Recommendation and the end of the case;64.18 days;
+Total waiting time to the 'SW-Awaiting AE Recommendation';The sum of the duration between activity SW-Awaiting AE Recommendation and the end of the case;2310.65 days;
+Minimum waiting time to the 'SW-Awaiting AE Recommendation';The minimum of the duration between activity SW-Awaiting AE Recommendation and the end of the case;38.80 minutes;
+'SW-Awaiting AE Recommendation' Cycle Time;The sum of the duration between activity SW-Awaiting AE Recommendation and the end of the case;2310.65 days;

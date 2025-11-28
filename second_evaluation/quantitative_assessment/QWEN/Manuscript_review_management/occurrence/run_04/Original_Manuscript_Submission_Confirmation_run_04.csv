@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Original Manuscript Submission Confirmation out of all activity executions in the event log;Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.92;
+Frequency of Original Manuscript Submission Confirmation across all cases;Number of 'Original Manuscript Submission Confirmation' activities;91.0;
+Percentage of variants that start with Original Manuscript Submission Confirmation;Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.92;
+Percentage of Original Manuscript Submission Confirmation followed by SW-Awaiting Checklist Completion;Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.92;
+Percentage of Original Manuscript Submission Confirmation that occur before SW-Reviewer Agreed in the same case;Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.92;
+Frequency of paths from Original Manuscript Submission Confirmation to SW-Reviewer Agreed;Number of 'Original Manuscript Submission Confirmation' activities;91.0;
+Percentage of cases containing Original Manuscript Submission Confirmation that eventually reach SW-Reviewer Agreed;Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.92;
+Ratio of Original Manuscript Submission Confirmation occurrences to SW-Reviewer Agreed occurrences;Number of 'Original Manuscript Submission Confirmation' activities;91.0;
+Percentage of Original Manuscript Submission Confirmation that are not followed by any reviewer-related activity (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, SW-Reviewer No Response);Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.92;
+Frequency of Original Manuscript Submission Confirmation in variants that end with an EIC decision (e.g., SW-EIC Accept, SW-EIC Reject, SW-EIC Major Revision, SW-EIC Minor Revision, SW-EIC Reject & Resubmit);Number of 'Original Manuscript Submission Confirmation' activities;91.0;
+Percentage of Original Manuscript Submission Confirmation that occur in cases where at least one SW-Reviewer Agreed appears later in the trace;Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.92;
+Frequency of Original Manuscript Submission Confirmation appearing before any checklist-related activity (e.g., SW-Awaiting Checklist Completion, SW-Checklist Completed);Number of 'Original Manuscript Submission Confirmation' activities;91.0;
+Percentage of variants containing Original Manuscript Submission Confirmation that include SW-Reviewer Agreed at least once;Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.92;
+Percentage of Original Manuscript Submission Confirmation executed by SYSTEM performer compared to other activities performed by SYSTEM;Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.93;
+Ratio of Original Manuscript Submission Confirmation to Manuscript Export Succeeded in the same case;Number of 'Original Manuscript Submission Confirmation' activities;91.0;
+Percentage of Original Manuscript Submission Confirmation that are directly followed by Manuscript Export Succeeded;Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.92;
+Frequency of Original Manuscript Submission Confirmation in cases that undergo multiple revision cycles (i.e., contain both SW–Major Revision due in X and RW–Major Revision due in X activities);Number of 'Original Manuscript Submission Confirmation' activities;91.0;
+Percentage of Original Manuscript Submission Confirmation occurring in traces that never reach SW-Reviewer Agreed;Percentage of 'Original Manuscript Submission Confirmation' out of all cases;0.92;
+Average number of activities between Original Manuscript Submission Confirmation and the first occurrence of SW-Reviewer Agreed;the average of the number of times `ACTIVITY` == 'Original Manuscript Submission Confirmation';0.98;
+Frequency of Original Manuscript Submission Confirmation grouped by case:concept:name;"ERROR: computing metric {'count': activity == 'Original Manuscript Submission Confirmation'"", 'aggregation': 'total', 'group_by': 'concept:name'}""";;

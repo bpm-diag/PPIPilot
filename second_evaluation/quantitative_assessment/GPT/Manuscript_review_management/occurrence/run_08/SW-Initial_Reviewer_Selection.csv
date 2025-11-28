@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Frequency of 'SW-Initial Reviewer Selection' leading to 'SW-Reviewer Agreed';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-Reviewer Agreed' occurs;45;
+Percentage of manuscripts that proceed to 'SW-Reviewer Agreed' after 'SW-Initial Reviewer Selection';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Agreed';0.98;
+Number of 'SW-Initial Reviewer Selection' activities followed by 'Reviewer Invitation Reminder 1';Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'Reviewer Invitation Reminder 1' occurs;42;
+Percentage of 'SW-Initial Reviewer Selection' out of all selection activities;Percentage of 'SW-Initial Reviewer Selection' out of all cases where '' does not happen;0.65;
+Frequency of 'SW-Initial Reviewer Selection' in the most common variant paths;Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity '' does not occur;60;
+Percentage of 'SW-Initial Reviewer Selection' followed by 'SW-Reviewer Declined';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Declined';0.97;
+Number of 'SW-Initial Reviewer Selection' activities per manuscript;Number of 'SW-Initial Reviewer Selection' activities grouped by the last value of code;AER0:1;"{""AER0"":1,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":18,""DSW4"":16,""MSC4"":24,""RJR3"":1,""SW1"":3,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of 'SW-Initial Reviewer Selection' leading to a major revision decision ('SW-EIC Major Revision');Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Major Revision';0.93;
+Frequency of 'SW-Initial Reviewer Selection' followed by 'SW-AE Assign Reviewers';Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity 'SW-AE Assign Reviewers' occurs;45;
+Percentage of 'SW-Initial Reviewer Selection' that precede any form of manuscript acceptance ('SW-EIC Accept', 'RW-EIC Accept');Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Accept';1.0;
+Number of 'SW-Initial Reviewer Selection' followed by 'SW-Reviewer Unavailable';Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Reviewer Unavailable' occurs;23;
+Percentage of 'SW-Initial Reviewer Selection' in manuscripts that exceed the plagiarism threshold ('Plagiarism Percent Match Threshold Exceeded');Percentage of 'SW-Initial Reviewer Selection' out of all 'Plagiarism Percent Match Threshold Exceeded';0.77;
+Frequency of 'SW-Initial Reviewer Selection' in manuscripts that require multiple rounds of revision;Frequency of activity 'SW-Initial Reviewer Selection' for cases where activity '' does not occur;60;
+Percentage of 'SW-Initial Reviewer Selection' leading to 'SW-Awaiting EIC Decision';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Awaiting EIC Decision';0.98;
+Number of 'SW-Initial Reviewer Selection' activities that are followed by 'SW-Reviewer Selection is now due';Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Reviewer Selection is now due' occurs;12;
+Percentage of 'SW-Initial Reviewer Selection' activities that result in 'SW-Reviewer No Response';Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer No Response';1.0;

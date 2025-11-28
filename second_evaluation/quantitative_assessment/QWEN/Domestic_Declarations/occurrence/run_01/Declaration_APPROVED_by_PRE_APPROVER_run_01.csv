@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration APPROVED by PRE_APPROVER out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.06;
+Frequency of Declaration APPROVED by PRE_APPROVER followed by Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.07;
+Percentage of cases where Declaration APPROVED by PRE_APPROVER occurs in variants that eventually lead to Payment Handled;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Payment Handled';0.07;
+Number of Declaration APPROVED by PRE_APPROVER that are preceded by Declaration SUBMITTED by EMPLOYEE without intermediate rejections;Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;685.0;
+Frequency of Declaration APPROVED by PRE_APPROVER in comparison to Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.83;
+Percentage of Declaration APPROVED by PRE_APPROVER that directly lead to Request Payment within the same case;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Request Payment';0.07;
+Frequency of Declaration APPROVED by PRE_APPROVER in variants where no budget owner approval is required;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases where 'Declaration APPROVED by BUDGET OWNER' does not happen;0.06;
+Ratio of Declaration APPROVED by PRE_APPROVER to Declaration REJECTED by PRE_APPROVER across all cases;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.83;
+Number of Declaration APPROVED by PRE_APPROVER that are part of the shortest successful path to Payment Handled;Number of 'Declaration APPROVED by PRE_APPROVER' activities for cases where activity 'Payment Handled' occurs;679.0;
+Percentage of cases with Declaration APPROVED by PRE_APPROVER that result in total Amount above 100 euros;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Frequency of Declaration APPROVED by PRE_APPROVER in variants that contain exactly one approval step before final supervisor approval;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.07;
+Percentage of Declaration APPROVED by PRE_APPROVER relative to the total number of all approval activities (including Declaration APPROVED by ADMINISTRATION, Declaration APPROVED by BUDGET OWNER, and Declaration APPROVED by PRE_APPROVER);Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Percentage of variants containing Declaration APPROVED by PRE_APPROVER that do not include any rejection step;Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;
+Number of Declaration APPROVED by PRE_APPROVER events that occur in 2018 versus 2017;Number of 'Declaration APPROVED by PRE_APPROVER' activities;685.0;
+Percentage of Declaration APPROVED by PRE_APPROVER out of all activities performed by PRE_APPROVER roles (inferred from activity naming);Percentage of 'Declaration APPROVED by PRE_APPROVER' out of all cases;0.06;

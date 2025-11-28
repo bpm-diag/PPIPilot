@@ -1,0 +1,26 @@
+Name;Metric;Value;Agrupation
+Number of SW-Reviewer Agreed per manuscript case;Number of 'SW-Reviewer Agreed' activities grouped by the last value of code;AER0:2;"{""AER0"":2,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":37,""DSW4"":26,""MSC4"":40,""RJR3"":2,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":2}"
+Percentage of SW-Reviewer Agreed that occur after Reviewer Invitation Reminder 1;Percentage of 'SW-Reviewer Agreed' out of all 'Reviewer Invitation Reminder 1';0.91;
+Number of SW-Reviewer Agreed preceded by SW-AE Assign Reviewers;Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-AE Assign Reviewers' occurs;107;
+Percentage of SW-Reviewer Agreed in variants that eventually reach SW-EIC Accept;Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Accept';0.0;
+Percentage of SW-Reviewer Agreed from all SW-AE Assign Reviewers invitations;Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers';0.98;
+Number of SW-Reviewer Agreed that occur before SW-Reviewer Selection is now due;Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-Reviewer Selection is now due' occurs;23;
+Percentage of SW-Reviewer Agreed in scientific paper review processes;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Number of SW-Reviewer Agreed grouped by variant frequency;Number of 'SW-Reviewer Agreed' activities grouped by the last value of code;AER0:2;"{""AER0"":2,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":37,""DSW4"":26,""MSC4"":40,""RJR3"":2,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":2}"
+Percentage of SW-Reviewer Agreed that lead to SW-Awaiting EIC Decision;Percentage of 'SW-Reviewer Agreed' out of all 'SW-Awaiting EIC Decision';0.76;
+Percentage of SW-Reviewer Agreed followed by Revised Manuscript Submission Confirmation;Percentage of 'SW-Reviewer Agreed' out of all 'Revised Manuscript Submission Confirmation';0.79;
+Number of SW-Reviewer Agreed in relation to SW-Reviewer Declined;Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-Reviewer Declined' occurs;74;
+Percentage of SW-Reviewer Agreed that occur after multiple SW-AE Assign Reviewers;Percentage of 'SW-Reviewer Agreed' out of all 'SW-AE Assign Reviewers';0.98;
+Average number of SW-Reviewer Agreed per manuscript case;the average of the number of times `ACTIVITY` == 'SW-Reviewer Agreed' grouped by the last value of code;AER0:2.0;"{""AER0"":2.0,""CHK4"":0.0,""DRSW4"":0.0,""DRW3"":1.0,""DSW3"":1.6818181818,""DSW4"":0.7878787879,""MSC4"":1.6666666667,""RJR3"":2.0,""SW1"":0.0,""SW12"":0.0,""SYS1"":0.0,""SYS11"":0.0,""SYS2"":0.0,""SYS5"":2.0}"
+Percentage of SW-Reviewer Agreed in rigorous assessment procedures;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Number of times SW-Reviewer Agreed is performed per academic journal review cycle;Number of 'SW-Reviewer Agreed' activities grouped by the last value of code;AER0:2;"{""AER0"":2,""CHK4"":0,""DRSW4"":0,""DRW3"":1,""DSW3"":37,""DSW4"":26,""MSC4"":40,""RJR3"":2,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":2}"
+Percentage of SW-Reviewer Agreed that occur before quality assurance completion;Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Ratio of SW-Reviewer Agreed over SW-Reviewer Declined;Number of 'SW-Reviewer Agreed' activities for cases where activity 'SW-Reviewer Declined' occurs;74;
+Percentage of SW-Reviewer Agreed in variants with major revision outcomes;Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Major Revision';0.93;
+Number of SW-Reviewer Agreed that impact manuscript evaluation methodologies;Number of 'SW-Reviewer Agreed' activities;110;
+Percentage of SW-Reviewer Agreed that occur after Reviewer Invitation Reminder 2;Percentage of 'SW-Reviewer Agreed' out of all 'Reviewer Invitation Reminder 2';0.9;
+Frequency of SW-Reviewer Agreed in systematic assessment procedures;Number of 'SW-Reviewer Agreed' activities;110;
+Percentage of SW-Reviewer Agreed in successful review process completions;Percentage of 'SW-Reviewer Agreed' out of all 'SW-EIC Accept';0.0;
+Percentage of SW-Reviewer Agreed that lead to RW-EIC Accept decisions;Percentage of 'SW-Reviewer Agreed' out of all 'RW-EIC Accept';0.77;
+Percentage of SW-Reviewer Agreed out of all reviewer response activities (SW-Reviewer Agreed, SW-Reviewer Declined, SW-Reviewer Unavailable, SW-Reviewer No Response);Percentage of 'SW-Reviewer Agreed' out of all cases;0.49;
+Number of SW-Reviewer Agreed relative to total reviewer selection activities;Number of 'SW-Reviewer Agreed' activities;110;

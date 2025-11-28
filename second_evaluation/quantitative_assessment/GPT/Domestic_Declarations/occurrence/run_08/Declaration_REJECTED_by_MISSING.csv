@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by MISSING' compared to 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Percentage of 'Declaration REJECTED by MISSING' out of all rejection activities;Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration REJECTED by MISSING';1.0;
+Number of 'Declaration REJECTED by MISSING' that are followed by 'Request Payment';Number of 'Declaration REJECTED by MISSING' activities for cases where activity 'Request Payment' occurs;63.0;
+Percentage of 'Declaration REJECTED by MISSING' with amounts above 100 euros;Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Percentage of 'Declaration REJECTED by MISSING' by 'STAFF MEMBER';Percentage of 'Declaration REJECTED by MISSING' out of all cases;;
+Number of 'Declaration REJECTED by MISSING' in relation to 'Declaration FINAL_APPROVED by SUPERVISOR';Number of 'Declaration REJECTED by MISSING' activities for cases where activity 'Declaration FINAL_APPROVED by SUPERVISOR' occurs;89.0;
+Percentage of 'Declaration REJECTED by MISSING' followed by 'Payment Handled';Percentage of 'Declaration REJECTED by MISSING' out of all 'Payment Handled';0.01;
+Ratio of 'Declaration REJECTED by MISSING' over 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Occasions how often 'Declaration REJECTED by MISSING' is performed compared to 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration REJECTED by MISSING' out of all 'Declaration REJECTED by PRE_APPROVER';0.05;
+Percentage of cases with 'Declaration REJECTED by MISSING' that lead to a 'Payment Handled' without a 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration REJECTED by MISSING' out of all 'Payment Handled';0.01;
+Frequency of 'Declaration REJECTED by MISSING' in variants where 'Declaration SUBMITTED by EMPLOYEE' directly leads to 'Declaration FINAL_APPROVED by SUPERVISOR';Frequency of activity 'Declaration REJECTED by MISSING' for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;87.0;
+Number of 'Declaration REJECTED by MISSING' that occur after 'Declaration APPROVED by BUDGET OWNER';Number of 'Declaration REJECTED by MISSING' activities for cases where activity 'Declaration APPROVED by BUDGET OWNER' occurs;1.0;
+Percentage of 'Declaration REJECTED by MISSING' that are not followed by any 'Declaration APPROVED' activity;Percentage of 'Declaration REJECTED by MISSING' out of all cases where 'Declaration APPROVED by ADMINISTRATION' does not happen;0.01;
+Percentage of 'Declaration REJECTED by MISSING' in the first quarter of the year compared to the rest of the year;Percentage of 'Declaration REJECTED by MISSING' out of all cases;0.01;
+Frequency of 'Declaration REJECTED by MISSING' per month;Number of 'Declaration REJECTED by MISSING' activities;91.0;

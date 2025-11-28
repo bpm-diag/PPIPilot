@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time from Reviewer Invitation Reminder 1 to SW-Reviewer Agreed;The average of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Agreed';13.34 days;
+Average time between Reviewer Invitation Reminder 1 and SW-Reviewer Declined;The average of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Declined';18.38 days;
+Average time until Reviewer Invitation Reminder 1 is performed after SW-Reviewer Selection is due in 1 week;The average of the duration between activity 'SW-Reviewer Selection is due in 1 week' and activity 'Reviewer Invitation Reminder 1';61.66 days;
+Average waiting time to the Reviewer Invitation Reminder 1 after SW-Reviewer Selection is now due;The average of the duration between activity 'SW-Reviewer Selection is now due' and activity 'Reviewer Invitation Reminder 1';116.76 days;
+Total time from Reviewer Invitation Reminder 1 to final decision activity;The sum of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-EIC Accept';;
+Total time between Reviewer Invitation Reminder 1 and subsequent reminder activities;The sum of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'Reviewer Invitation Reminder 2';1451.85 days;
+Minimum time between Reviewer Invitation Reminder 1 and SW-Reviewer Agreed;The minimum of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Agreed';10.03 minutes;
+Minimum time for Reviewer Invitation Reminder 1 in cases with SW-EIC Accept outcome;The minimum of the duration between activity Reviewer Invitation Reminder 1 and the end of the case;34.96 days;
+Time until Reviewer Invitation Reminder 1 since SW-AE Assign Reviewers;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'Reviewer Invitation Reminder 1';65.33 days;
+Time from Reviewer Invitation Reminder 1 to reviewer response activities;The average of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Agreed';13.34 days;
+Reviewer Invitation Reminder 1 Cycle Time;The average of the duration between activity Reviewer Invitation Reminder 1 and the end of the case;153.46 days;
+Average time between Reviewer Invitation Reminder 1 and SW-Reviewer Selection is 3 days late;The average of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Selection is 3 days late';2.40 days;
+Total time from first Reviewer Invitation Reminder 1 to manuscript decision;The sum of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-EIC Accept';;
+Average time from Reviewer Invitation Reminder 1 to SW-Awaiting EIC Decision;The average of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Awaiting EIC Decision';70.80 days;
+Time between Reviewer Invitation Reminder 1 and Assign a Different Editor;The average of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'Assign a Different Editor';93.19 days;
+Average time it takes Reviewer Invitation Reminder 1 after SW-Reviewer Selection is due in 3 days;The average of the duration between activity 'SW-Reviewer Selection is due in 3 days' and activity 'Reviewer Invitation Reminder 1';67.24 days;
+Minimum time from Reviewer Invitation Reminder 1 to Unassign Editor;The minimum of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'Unassign Editor';18.69 days;
+Total time for Reviewer Invitation Reminder 1 in major revision variants;The sum of the duration between activity Reviewer Invitation Reminder 1 and the end of the case;7212.70 days;
+Average time since Reviewer Invitation Reminder 1 and SW-Reviewer Unavailable are performed;The average of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Unavailable';11.74 days;
+Average time for Reviewer Invitation Reminder 1 grouped by case outcome;The average of the duration between activity Reviewer Invitation Reminder 1 and the end of the case;153.46 days;

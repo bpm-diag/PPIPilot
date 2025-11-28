@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER that are followed by Declaration APPROVED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';0.0;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER that are followed by Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of Declaration FOR_APPROVAL by PRE_APPROVER;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities;1;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER out of all Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER that are not dismissed;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.0;
+Number of Declaration FOR_APPROVAL by PRE_APPROVER that are preceded by Declaration SUBMITTED by EMPLOYEE;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;1;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER from all Declaration FOR_APPROVAL by ADMINISTRATION;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration FOR_APPROVAL by ADMINISTRATION';0.0;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER by worker;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;STAFF MEMBER:0.0;"{""STAFF MEMBER"":0.0021881838,""SYSTEM"":0.0}"
+Number of Declaration FOR_APPROVAL by PRE_APPROVER grouped by case:BudgetNumber;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities;1;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER with amounts above 100 euros;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;0.0;
+Ratio of Declaration FOR_APPROVAL by PRE_APPROVER over Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER in variants containing Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of cases with Declaration FOR_APPROVAL by PRE_APPROVER that eventually reach Payment Handled;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Payment Handled';0.0;
+Frequency of Declaration FOR_APPROVAL by PRE_APPROVER in variants with Declaration APPROVED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';0.0;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER that occur in domestic trip declarations;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;;
+Number of Declaration FOR_APPROVAL by PRE_APPROVER performed by STAFF MEMBER;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities == 'STAFF MEMBER' where ma is the last value of org:role;;
+Percentage of Declaration FOR_APPROVAL by PRE_APPROVER that are followed by Declaration APPROVED by ADMINISTRATION;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Average number of Declaration FOR_APPROVAL by PRE_APPROVER that are followed by Declaration FINAL_APPROVED by SUPERVISOR;the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by PRE_APPROVER' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Declaration FINAL_APPROVED by SUPERVISOR';0.0;
+Average number of Declaration FOR_APPROVAL by PRE_APPROVER in a month;the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by PRE_APPROVER';0.0;
+Number of Declaration FOR_APPROVAL by PRE_APPROVER made per year;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities;1;

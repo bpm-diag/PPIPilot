@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from 'SW-AE Assign Reviewers' to 'SW-Reviewer Agreed';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Average time between 'SW-Reviewer Agreed' and 'SW-Awaiting EIC Decision';The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Total time from 'Reviewer Invitation Reminder 1' to 'SW-Reviewer Agreed';The sum of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Agreed';520.43 days;
+Minimum time it takes from 'SW-Reviewer Selection is now due' to 'SW-Reviewer Agreed';The minimum of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-Reviewer Agreed';7.38 hours;
+Average time for 'SW-Reviewer Agreed' to influence the next step in the review process;The average of the duration between activity SW-Reviewer Agreed and the end of the case;165.85 days;
+Total resolution time of 'SW-Reviewer Agreed' in the context of manuscript review cycle;The sum of the duration between activity SW-Reviewer Agreed and the end of the case;7629.31 days;
+Average waiting time to the 'SW-Reviewer Agreed' from the initial reviewer invitation;The average of the duration between the start of the case and activity 'SW-Reviewer Agreed';28.09 days;
+Total time it takes 'SW-Reviewer Agreed' after 'Assign a Different Editor';The sum of the duration between activity 'Assign a Different Editor' and activity 'SW-Reviewer Agreed';76.25 days;
+Minimum time between 'SW-Reviewer Agreed' and 'SW-Awaiting AE Recommendation';The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';34.84 days;
+Time of 'SW-Reviewer Agreed' in relation to the overall review process duration;The sum of the duration between activity SW-Reviewer Agreed and the end of the case;7629.31 days;
+Elapsed time between 'SW-Reviewer Agreed' and 'SW-EIC Major Revision' for manuscripts requiring major revisions;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Major Revision';84.96 days;
+Minimum resolution time of 'SW-Reviewer Agreed' in accelerating the review process;The minimum of the duration between activity SW-Reviewer Agreed and the end of the case;44.39 days;
+Average time from 'SW-Reviewer Agreed' to 'Revised Manuscript Submission Confirmation' for manuscripts undergoing revision;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'Revised Manuscript Submission Confirmation';170.36 days;
+Total time for 'SW-Reviewer Agreed' in the context of achieving a final decision on the manuscript;The sum of the duration between activity SW-Reviewer Agreed and the end of the case;7629.31 days;
+Average time to 'SW-Reviewer Agreed' grouped by 'case:concept:name';The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;

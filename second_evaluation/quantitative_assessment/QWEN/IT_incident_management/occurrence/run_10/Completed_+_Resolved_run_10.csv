@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Resolved' out of all activity executions in the event log;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' occurring immediately after 'Accepted + In Progress';Frequency of activity 'Completed + Resolved';5663;
+Percentage of process variants ending with 'Completed + Resolved' followed by 'Completed + Closed';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' appearing in variants that also contain 'Completed + In Call';Frequency of activity 'Completed + Resolved' for cases where activity 'Completed + In Call' occurs;135;
+Percentage of 'Completed + Resolved' that are preceded by 'Accepted + Wait - User';Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' in comparison to 'Completed + In Call' across all cases;Frequency of activity 'Completed + Resolved' for cases where activity 'Completed + In Call' occurs;135;
+Percentage of variants containing 'Completed + Resolved' that do not include any 'Wait' activity (e.g., 'Accepted + Wait', 'Accepted + Wait - User', etc.);Percentage of 'Completed + Resolved' out of all cases where 'Accepted + Wait' does not happen;0.75;
+Frequency of 'Completed + Resolved' occurring directly after 'Queued + Awaiting Assignment';Frequency of activity 'Completed + Resolved';5663;
+Percentage of total 'Completed + Resolved' events that occur in variants where 'Completed + In Call' appears earlier in the sequence;Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Resolved' grouped by country to assess regional resolution patterns in the VINST incident management system;Frequency of activity '{}' grouped by the last value of organization country;0:26;"{""0"":26,""SE"":61,""au"":22,""be"":411,""br"":261,""ca"":51,""cl"":3,""cn"":99,""de"":2,""fr"":292,""gb"":20,""in"":490,""jp"":15,""kr"":65,""my"":20,""nl"":58,""pe"":2,""pl"":1004,""ru"":38,""se"":2239,""th"":1,""tr"":1,""us"":482}"
+Percentage of 'Completed + Resolved' activities that are part of high-frequency variants (frequency ≥ 100);Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' following 'Accepted + Assigned' versus following 'Accepted + In Progress';Frequency of activity 'Completed + Resolved';5663;
+Percentage of all process executions where 'Completed + Resolved' is the penultimate activity before 'Completed + Closed';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' in variants that start with 'Queued + Awaiting Assignment' compared to those starting with 'Accepted + In Progress';Frequency of activity 'Completed + Resolved';5663;
+Percentage of 'Completed + Resolved' events that occur without any intermediate queuing or waiting states after initial acceptance;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' appearing more than once in the same case;the sum of the function base > 1 where base is the number of times `ACTIVITY` == 'Completed + Resolved';391;
+Percentage of variants containing 'Completed + In Call' that eventually lead to 'Completed + Resolved';Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Frequency of 'Completed + Resolved' in cases that never include 'Unmatched + Unmatched';Frequency of activity 'Completed + Resolved' for cases where activity 'Unmatched + Unmatched' does not occur;5663;
+Percentage of 'Completed + Resolved' executed by resources in France versus Brazil and USA, reflecting resource performance in the VINST system;Percentage of 'Completed + Resolved' out of all cases;0:1.0;"{""0"":1.0,""Australia"":0.0,""Belgium"":0.3301886792,""Brazil"":0.03930131,""Canada"":0.1176470588,""China"":0.0,""France"":0.2380952381,""INDIA"":0.3622047244,""Japan"":0.1315789474,""Korea"":1.0,""MALAYSIA"":0.0,""POLAND"":0.2818371608,""RUSSIAN FEDERATION"":0.0,""Sweden"":0.1323722149,""THAILAND"":0.1666666667,""USA"":0.0387096774,""United Kingdom"":0.0}"
+Frequency of direct transitions from 'Completed + In Call' to 'Completed + Resolved';Frequency of activity 'Completed + In Call' for cases where activity 'Completed + Resolved' occurs;135;

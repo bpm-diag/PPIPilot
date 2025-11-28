@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Frequency of Manuscript Export Succeeded before Plagiarism Originality Report Completed;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'Plagiarism Originality Report Completed' occurs;86.0;
+Number of Manuscript Export Succeeded occurrences;Number of 'Manuscript Export Succeeded' activities;141.0;
+Percentage of Manuscript Export Succeeded out of all Original Manuscript Submission Confirmation;Percentage of 'Manuscript Export Succeeded' out of all 'Original Manuscript Submission Confirmation';1.0;
+Number of Manuscript Export Succeeded that are preceded by SW-Awaiting Checklist Completion;Number of 'Manuscript Export Succeeded' activities for cases where activity 'SW-Awaiting Checklist Completion' occurs;134.0;
+Percentage of Manuscript Export Succeeded that lead to SW-Checklist Completed;Percentage of 'Manuscript Export Succeeded' out of all 'SW-Checklist Completed';1.0;
+Percentage of Manuscript Export Succeeded from all Manuscript Export Succeeded activities;Percentage of 'Manuscript Export Succeeded' out of all 'Manuscript Export Succeeded';1.0;
+Frequency of Manuscript Export Succeeded followed by SW-Awaiting AE Assignment;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'SW-Awaiting AE Assignment' occurs;57.0;
+Average number of Manuscript Export Succeeded per case;the average of the number of times `ACTIVITY` == 'Manuscript Export Succeeded';1.52;
+Percentage of Manuscript Export Succeeded followed by Revised Manuscript Submission Confirmation in the review process;Percentage of 'Manuscript Export Succeeded' out of all 'Revised Manuscript Submission Confirmation';1.0;
+Percentage of Manuscript Export Succeeded that are followed by a SW-EIC Decision (Accept or Reject);Percentage of 'Manuscript Export Succeeded' out of all 'SW-EIC Accept';1.0;
+Frequency of Manuscript Export Succeeded in the most common process variant;Frequency of activity 'Manuscript Export Succeeded';89.0;
+Percentage of Manuscript Export Succeeded in cases that lead to SW-EIC Major Revision;Percentage of 'Manuscript Export Succeeded' out of all 'SW-EIC Major Revision';1.0;
+Number of Manuscript Export Succeeded in relation to SW-AE Assign Reviewers;Number of 'Manuscript Export Succeeded' activities for cases where activity 'SW-AE Assign Reviewers' occurs;84.0;
+Percentage of Manuscript Export Succeeded in cases that result in manuscript acceptance (RW-EIC Accept);Percentage of 'Manuscript Export Succeeded' out of all 'RW-EIC Accept';1.0;
+Ratio of Manuscript Export Succeeded over SW-Reviewer Agreed in the review process;Percentage of 'Manuscript Export Succeeded' out of all 'SW-Reviewer Agreed';0.98;
+Occasions how often Manuscript Export Succeeded is performed before First Look-Please submit updates;Frequency of activity 'Manuscript Export Succeeded' for cases where activity 'First Look-Please submit updates' occurs;23.0;
+Number of Manuscript Export Succeeded made per year;Number of 'Manuscript Export Succeeded' activities;141.0;
+Total Manuscript Export Succeeded performed by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'Manuscript Export Succeeded'"", 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;

@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration SAVED by EMPLOYEE' before 'Declaration SUBMITTED by EMPLOYEE';Frequency of activity 'Declaration SAVED by EMPLOYEE' for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;0.0;
+Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Number of 'Declaration SAVED by EMPLOYEE' that are followed by 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration SAVED by EMPLOYEE' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0.0;
+Percentage of 'Declaration SAVED by EMPLOYEE' from all 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Number of 'Declaration SAVED by EMPLOYEE' with amounts above 100 euros;Number of 'Declaration SAVED by EMPLOYEE' activities > 100 where ma is the last value of case:Amount;0.0;
+Percentage of 'Declaration SAVED by EMPLOYEE' by 'STAFF MEMBER';Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;;
+Number of 'Declaration SAVED by EMPLOYEE' grouped by 'case:BudgetNumber';Number of 'Declaration SAVED by EMPLOYEE' activities;135.0;
+Percentage of 'Declaration SAVED by EMPLOYEE' by worker;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;0.01;
+Percentage of 'Declaration SAVED by EMPLOYEE' that are not dismissed;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases where 'Declaration REJECTED by EMPLOYEE' does not happen;0.01;
+Frequency of 'Declaration SAVED by EMPLOYEE' in relation to the total number of events in the event log;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases where '' does not happen;0.01;
+Percentage of 'Declaration SAVED by EMPLOYEE' followed by 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Total 'Declaration SAVED by EMPLOYEE' done by 'STAFF MEMBER';Number of 'Declaration SAVED by EMPLOYEE' activities == 'STAFF MEMBER' where ma is the last value of org:role;;
+Fraction of 'Declaration SAVED by EMPLOYEE' that are dismissed;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration REJECTED by EMPLOYEE';0.0;
+Ratio of 'Declaration SAVED by EMPLOYEE' over 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Occasions how often the 'Declaration SAVED by EMPLOYEE' is performed before 'Declaration APPROVED by ADMINISTRATION';Frequency of activity 'Declaration SAVED by EMPLOYEE' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;0.0;
+The ratio of 'Declaration SAVED by EMPLOYEE' that are not eventually followed by 'Request Payment';Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases where 'Request Payment' does not happen;0.01;
+Percentage of 'Declaration SAVED by EMPLOYEE' in cases leading to 'Declaration REJECTED by PRE_APPROVER' to identify potential process improvement opportunities.;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of 'Declaration SAVED by EMPLOYEE' made per year;Number of 'Declaration SAVED by EMPLOYEE' activities;135.0;
+Average number of 'Declaration SAVED by EMPLOYEE' in a month;the average of the number of times `ACTIVITY` == 'Declaration SAVED by EMPLOYEE';0.01;

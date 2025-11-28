@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Wait - Implementation' leading to 'Completed + In Call';Frequency of activity 'Accepted + Wait - Implementation' for cases where activity 'Completed + In Call' occurs;16;
+Percentage of cases involving 'Accepted + Wait - Implementation' out of all cases;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Number of 'Accepted + Wait - Implementation' activities followed by 'Completed + Resolved';Frequency of activity 'Accepted + Wait - Implementation' for cases where activity 'Completed + Resolved' occurs;403;
+Percentage of 'Accepted + Wait - Implementation' followed by 'Accepted + In Progress' compared to 'Queued + Awaiting Assignment' followed by 'Accepted + In Progress';Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + In Progress';0.05;
+Frequency of 'Accepted + Wait - Implementation' in the most common variant paths;Frequency of activity 'Accepted + Wait - Implementation';413;
+Percentage of 'Accepted + Wait - Implementation' activities that lead to a case closure ('Completed + Closed');Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + Closed';0.07;
+Number of 'Accepted + Wait - Implementation' activities that occur after 'Accepted + In Progress';Frequency of activity 'Accepted + Wait - Implementation' for cases where activity 'Accepted + In Progress' occurs;412;
+Percentage of 'Accepted + Wait - Implementation' activities by country;Percentage of 'Accepted + Wait - Implementation' out of all cases;0:0.08;"{""0"":0.0769230769,""SE"":0.0327868852,""au"":0.0,""be"":0.0477178423,""br"":0.0707395498,""ca"":0.0454545455,""cl"":0.3333333333,""cn"":0.0198019802,""de"":0.0,""fr"":0.071197411,""gb"":0.0454545455,""in"":0.1829268293,""jp"":0.0,""kr"":0.0153846154,""my"":0.0,""nl"":0.224137931,""pe"":0.0,""pl"":0.0584562997,""ru"":0.1777777778,""se"":0.0355908777,""th"":0.0,""tr"":0.0,""us"":0.0217948718}"
+Percentage of 'Accepted + Wait - Implementation' activities that precede any 'Completed' activity;Percentage of 'Accepted + Wait - Implementation' out of all 'Completed';;
+Number of 'Accepted + Wait - Implementation' activities that are part of cases with performance above average;Frequency of activity 'Accepted + Wait - Implementation';413;
+Percentage of 'Accepted + Wait - Implementation' in cases that involve 'Completed + In Call' activity;Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + In Call';0.01;
+Frequency of 'Accepted + Wait - Implementation' followed by 'Accepted + Wait - Vendor' compared to 'Accepted + Wait - Implementation' followed by 'Accepted + Wait - User';Frequency of activity 'Accepted + Wait - Implementation' for cases where activity 'Accepted + Wait - Vendor' occurs;23;
+Percentage of 'Accepted + Wait - Implementation' activities that are part of the top 5 longest case durations;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Number of 'Accepted + Wait - Implementation' activities that are directly followed by a change in the case status (e.g., from 'In Progress' to 'Resolved');Frequency of activity 'Accepted + Wait - Implementation';413;
+Percentage of 'Accepted + Wait - Implementation' activities that occur in cases with international scope (involving resources or groups from more than one country);Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Frequency of 'Accepted + Wait - Implementation' in cases that were eventually cancelled ('Completed + Cancelled');Frequency of activity 'Accepted + Wait - Implementation' for cases where activity 'Completed + Cancelled' occurs;0;
+Percentage of 'Accepted + Wait - Implementation' activities that lead to a reassignment ('Accepted + Assigned');Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + Assigned';0.11;
+Number of 'Accepted + Wait - Implementation' activities in cases with high urgency levels;Frequency of activity 'Accepted + Wait - Implementation';385;
+Percentage of 'Accepted + Wait - Implementation' activities in the context of the entire VINST process lifecycle;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Frequency of 'Accepted + Wait - Implementation' activities per month;Number of 'Accepted + Wait - Implementation' activities;473;

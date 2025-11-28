@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of cases where 'Completed + Closed' directly follows 'Completed + Resolved';Percentage of 'Completed + Closed' out of all 'Completed + Resolved';0.98;
+Frequency of 'Completed + Closed' as the final activity in process variants;Number of 'Completed + Closed' activities;5704;
+Percentage of 'Completed + Closed' occurrences out of all activity executions in the log;Percentage of 'Completed + Closed' out of all cases;0.74;
+Number of times 'Completed + Closed' appears in variants that include 'Completed + In Call';Number of 'Completed + Closed' activities for cases where activity 'Completed + In Call' occurs;141;
+Percentage of process variants ending with 'Completed + Closed' among all variants;Percentage of 'Completed + Closed' out of all cases;0.74;
+Frequency of 'Completed + Closed' in cases that never executed 'Completed + In Call';Number of 'Completed + Closed' activities for cases where activity 'Completed + In Call' does not occur;5704;
+Percentage of 'Completed + Closed' preceded by 'Completed + In Call' compared to those preceded by 'Completed + Resolved';Percentage of 'Completed + Closed' out of all 'Completed + In Call';0.07;
+Number of 'Completed + Closed' activities grouped by country;Number of 'Completed + Closed' activities grouped by the last value of organization country;0:22;"{""0"":22,""SE"":61,""au"":22,""be"":420,""br"":269,""ca"":49,""cl"":3,""cn"":100,""de"":2,""fr"":297,""gb"":21,""in"":494,""jp"":15,""kr"":62,""my"":20,""nl"":59,""pe"":2,""pl"":1032,""ru"":38,""se"":2228,""th"":1,""tr"":1,""us"":486}"
+Percentage of 'Completed + Closed' executed by resource group 'V30' versus other resource groups;Percentage of 'Completed + Closed' out of all cases;1.0;
+Ratio of variants containing both 'Completed + In Call' and 'Completed + Closed' to total variants containing 'Completed + Closed';Percentage of 'Completed + Closed' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Closed' in high-performance variants (performance < 500,000) versus low-performance variants (performance ≥ 500,000);Number of 'Completed + Closed' activities;5704;
+Percentage of 'Completed + Closed' that occur within 24 hours after 'Completed + In Call';Percentage of 'Completed + Closed' out of all 'Completed + In Call';0.07;
+Percentage of 'Completed + Closed' that are part of the top 5 most frequent variants;Percentage of 'Completed + Closed' out of all cases;0.74;
+Frequency of 'Completed + Closed' following paths that include any 'Accepted + Wait' sub-activity;Number of 'Completed + Closed' activities for cases where activity 'Accepted + Wait' occurs;1104;
+Percentage of total case completions represented by 'Completed + Closed' (i.e., cases ending with this activity);Percentage of 'Completed + Closed' out of all cases;0.74;
+Ratio of 'Completed + Closed' occurrences to 'Completed + Cancelled' occurrences;Percentage of 'Completed + Closed' out of all 'Completed + Cancelled';0.0;
+Average number of activities between 'Completed + In Call' and 'Completed + Closed' in shared traces;the average of the number of times `ACTIVITY` == 'Completed + Closed' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Completed + In Call';0.07;
+Percentage of 'Completed + Closed' executed in Brazil compared to USA and France;Percentage of 'Completed + Closed' out of all cases;;
+Number of variants where 'Completed + Closed' is immediately preceded by an activity other than 'Completed + Resolved';Number of 'Completed + Closed' activities for cases where activity 'Completed + Resolved' does not occur;5704;
+Number of 'Completed + Closed' events per year to identify temporal trends;"ERROR: computing metric {'count': activity == 'Completed + Closed'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

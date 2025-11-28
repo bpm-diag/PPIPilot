@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Average resolution time for 'Completed + Cancelled';The average of the duration between the start of the case and activity 'Completed + Cancelled';8.66 hours;
+Total time spent in 'Completed + Cancelled' across all cases;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Average time from 'Accepted + In Progress' to 'Completed + Cancelled';The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + Cancelled';8.66 hours;
+Earliest occurrence of 'Completed + Cancelled' after 'Accepted + In Progress';The minimum of the duration between activity 'Accepted + In Progress' and activity 'Completed + Cancelled';8.66 hours;
+Latest occurrence of 'Completed + Cancelled' before 'Completed + Closed';The maximum of the duration between activity 'Completed + Cancelled' and activity 'Completed + Closed';;
+Average time from 'Completed + Cancelled' to the start of any subsequent activity;The average of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Average time from 'Completed + Cancelled' to case closure;The average of the duration between activity 'Completed + Cancelled' and activity 'Completed + Closed';;
+Total duration of 'Completed + Cancelled' in the context of the VINST system;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Longest duration of 'Completed + Cancelled' in a single case;the maximum of the duration between the first time instant when `ACTIVITY` == 'Completed + Cancelled' and the last time instant when <ppinot4py.model.states.RuntimeState object at 0x000001E27CECF0A0> - AppliesTo.PROCESS;0.00 seconds;
+Shortest duration of 'Completed + Cancelled' leading to case re-opening;The minimum of the duration between activity Completed + Cancelled and the end of the case;;
+Average duration of 'Completed + Cancelled' in cases with 'Queued + Awaiting Assignment';The average of the duration between activity 'Completed + Cancelled' and the end of case where activity 'Queued + Awaiting Assignment occurs;;
+Time until first occurrence of 'Completed + Cancelled' from case initiation;The minimum of the duration between the start of the case and activity 'Completed + Cancelled';8.66 hours;
+Average elapsed time between 'Completed + Cancelled' and any 'Accepted + Assigned';The average of the duration between activity 'Completed + Cancelled' and activity 'Accepted + Assigned';;
+Total accumulated time of 'Completed + Cancelled' activities in the log;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Median resolution time for 'Completed + Cancelled';The average of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Time variance for 'Completed + Cancelled' across all cases;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Distribution of time intervals from 'Completed + Cancelled' to 'Completed + In Call';The sum of the duration between activity 'Completed + Cancelled' and activity 'Completed + In Call';;
+Comparison of average duration between 'Completed + Cancelled' and 'Accepted + Wait - User';The average of the duration between activity 'Completed + Cancelled' and activity 'Accepted + Wait - User';;
+Standard deviation of time for 'Completed + Cancelled' across all cases;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;

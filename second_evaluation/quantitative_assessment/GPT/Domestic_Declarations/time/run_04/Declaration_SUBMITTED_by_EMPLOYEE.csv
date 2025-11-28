@@ -1,0 +1,14 @@
+Name;Metric;Value;Agrupation
+;ERROR: computing metric {};;
+Average time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration APPROVED by ADMINISTRATION';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration APPROVED by ADMINISTRATION';2.59 days;
+Average time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration REJECTED by PRE_APPROVER';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by PRE_APPROVER';2.90 days;
+Total time for 'Declaration SUBMITTED by EMPLOYEE' to reach 'Payment Handled';The sum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Payment Handled';116674.72 days;
+Minimum time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration FINAL_APPROVED by SUPERVISOR';The minimum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';1.00 seconds;
+Average time it takes from 'Declaration SUBMITTED by EMPLOYEE' to 'Request Payment';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Request Payment';8.00 days;
+Total time it takes 'Declaration SUBMITTED by EMPLOYEE' after the execution of 'Declaration REJECTED by PRE_APPROVER';The sum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by PRE_APPROVER';234.64 days;
+Minimum time for 'Declaration SUBMITTED by EMPLOYEE' to be followed by 'Declaration APPROVED by PRE_APPROVER';The minimum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration APPROVED by PRE_APPROVER';1.00 seconds;
+Average time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration REJECTED by EMPLOYEE' in cases of re-submission;The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration REJECTED by EMPLOYEE';8.80 days;
+Total time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration APPROVED by BUDGET OWNER';The sum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration APPROVED by BUDGET OWNER';12645.83 days;
+Minimum resolution time of 'Declaration SUBMITTED by EMPLOYEE' in successful cases (leading to 'Payment Handled');The minimum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Payment Handled';1.06 days;
+Average time for 'Declaration SUBMITTED by EMPLOYEE' in cases that require director's approval;The average of the duration between activity Declaration SUBMITTED by EMPLOYEE and the end of the case;;
+Total time for 'Declaration SUBMITTED by EMPLOYEE' in cases that were rejected and then approved upon re-submission;The sum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and the end of case where activity 'Declaration REJECTED by ADMINISTRATION occurs;17737.74 days;

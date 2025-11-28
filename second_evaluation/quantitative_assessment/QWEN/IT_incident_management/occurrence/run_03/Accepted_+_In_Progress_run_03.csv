@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + In Progress' that are followed by 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Frequency of 'Accepted + In Progress' occurring before 'Completed + In Call' in all process variants;Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Percentage of 'Accepted + In Progress' out of all activity executions in the event log;Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Number of times 'Accepted + In Progress' appears in variants that eventually lead to 'Completed + In Call';Number of 'Accepted + In Progress' activities for cases where activity 'Completed + In Call' occurs;2600.0;
+Percentage of process variants containing 'Accepted + In Progress' that include at least one occurrence of 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Frequency of 'Accepted + In Progress' compared to the frequency of 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Percentage of 'Accepted + In Progress' that are not followed by any waiting activity (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.);Percentage of 'Accepted + In Progress' out of all cases where 'Accepted + Wait - User' does not happen;1.0;
+Number of 'Accepted + In Progress' activities that directly precede 'Completed + In Call' without intermediate activities;Number of 'Accepted + In Progress' activities for cases where activity 'Completed + In Call' occurs;2600.0;
+Percentage of 'Accepted + In Progress' occurrences that belong to high-frequency variants (frequency ≥ 100) involving 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Frequency of 'Accepted + In Progress' in variants where 'Completed + In Call' is the final resolution step versus variants ending in 'Completed + Closed';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Percentage of total cases where 'Accepted + In Progress' occurs at least once;Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Ratio of 'Accepted + In Progress' executions to 'Queued + Awaiting Assignment' executions across the entire log;Percentage of 'Accepted + In Progress' out of all 'Queued + Awaiting Assignment';1.0;
+Percentage of 'Accepted + In Progress' activities that are repeated within the same case;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Accepted + In Progress';0.59;
+Number of distinct variants starting with 'Accepted + In Progress' that result in 'Completed + In Call';Number of 'Accepted + In Progress' activities for cases where activity 'Completed + In Call' occurs;2600.0;
+Percentage of 'Accepted + In Progress' activities that occur after a re-queuing step (i.e., following a second or later 'Queued + Awaiting Assignment');Percentage of 'Accepted + In Progress' out of all 'Queued + Awaiting Assignment';1.0;
+Frequency of 'Accepted + In Progress' in cases resolved via 'Completed + In Call' versus those resolved via 'Completed + Resolved';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Percentage of 'Accepted + In Progress' that are followed within 24 hours by 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Number of times 'Accepted + In Progress' appears consecutively (i.e., repeated without intervening activities) in variants leading to 'Completed + In Call';Number of 'Accepted + In Progress' activities for cases where activity 'Completed + In Call' occurs;2600.0;
+Percentage of all 'Completed + In Call' instances that are immediately preceded by 'Accepted + In Progress';Percentage of 'Completed + In Call' out of all 'Accepted + In Progress';0.27;
+Frequency of 'Accepted + In Progress' in short-duration variants (performance < 100,000 time units) that end with 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;

@@ -1,0 +1,15 @@
+Name;Metric;Value;Agrupation
+Average time from \SW-Awaiting Checklist Completion\ to \SW-Checklist Completed\;The average of the duration between activity 'SW-Awaiting Checklist Completion' and activity 'SW-Checklist Completed';4.40 days;
+Average time between \SW-Checklist Completed\ and \SW-Awaiting AE Assignment\;The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-Awaiting AE Assignment';8.38 minutes;
+Total time for \SW-Checklist Completed\ across all cases;The sum of the duration between activity SW-Checklist Completed and the end of the case;8900.60 days;
+Average time it takes from \SW-Checklist Completed\ to the first \SW-AE Assign Reviewers\;The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-AE Assign Reviewers';22.83 days;
+Minimum time from \Original Manuscript Submission Confirmation\ to \SW-Checklist Completed\;The minimum of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-Checklist Completed';1.07 hours;
+Average time from \SW-Checklist Completed\ to \SW-Reviewer Agreed\ for manuscripts that undergo major revision;The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-Reviewer Agreed';28.20 days;
+Total time from \SW-Checklist Completed\ to \SW-EIC Decision\ across all variants;The sum of the duration between activity 'SW-Checklist Completed' and activity 'SW-EIC Decision';;
+Minimum time to \SW-Checklist Completed\ grouped by \performer\;The minimum of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-Checklist Completed';ADMIN:12.21 hours;"{""ADMIN"":43956000,""AUTHOR"":2613206000,""EIC"":145274000,""SYSTEM"":3854000}"
+Average time from \Plagiarism Originality Report Completed\ to \SW-Checklist Completed\;The average of the duration between activity 'Plagiarism Originality Report Completed' and activity 'SW-Checklist Completed';3.39 days;
+Total time it takes \SW-Checklist Completed\ to be followed by \Manuscript Export Succeeded\ in the case of resubmission;The sum of the duration between activity 'SW-Checklist Completed' and activity 'Manuscript Export Succeeded';;
+Average time for \SW-Checklist Completed\ in manuscripts that require major revisions versus minor revisions;The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-EIC Decision';;
+Total time from \SW-Checklist Completed\ to \SW-Awaiting EIC Decision\ in the longest process variant;The sum of the duration between activity 'SW-Checklist Completed' and activity 'SW-Awaiting EIC Decision';3643.80 days;
+Minimum resolution time of \SW-Checklist Completed\ in cases leading to acceptance;The minimum of the duration between activity 'SW-Checklist Completed' and activity 'SW-EIC Accept';18.90 minutes;
+Average time from \SW-Checklist Completed\ to \SW-AE Assign Reviewers\ in cases that were eventually accepted;The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-AE Assign Reviewers';;

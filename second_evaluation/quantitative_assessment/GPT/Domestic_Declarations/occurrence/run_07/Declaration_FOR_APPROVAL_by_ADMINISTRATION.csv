@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration FOR_APPROVAL by ADMINISTRATION' followed by 'Declaration APPROVED by ADMINISTRATION';Frequency of activity 'Declaration FOR_APPROVAL by ADMINISTRATION' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;1.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' leading to 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' with amounts above 100 euros;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities > 100 where ma is the last value of case:Amount;1.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' by 'STAFF MEMBER';Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' that are not dismissed;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases where 'Dismissed' does not happen;0.0;
+Ratio of 'Declaration FOR_APPROVAL by ADMINISTRATION' over 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' followed by 'Request Payment';Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities for cases where activity 'Request Payment' occurs;1.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' followed by 'Payment Handled';Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Payment Handled';0.0;
+Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' grouped by 'case:BudgetNumber';Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities;1.0;
+Total 'Declaration FOR_APPROVAL by ADMINISTRATION' performed by 'SYSTEM';Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities == 'SYSTEM' where ma is the last value of org:resource;1.0;
+Frequency of 'Declaration FOR_APPROVAL by ADMINISTRATION' leading to any form of 'Declaration REJECTED by ...';Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities for cases where activity 'Declaration REJECTED by ADMINISTRATION' occurs;1.0;
+Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' in relation to all approval activities;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Fraction of 'Declaration FOR_APPROVAL by ADMINISTRATION' that lead to a payment being requested and paid;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Payment Handled';0.0;
+Frequency of 'Declaration FOR_APPROVAL by ADMINISTRATION' per year;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities;1.0;
+Average number of 'Declaration FOR_APPROVAL by ADMINISTRATION' in a month;the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by ADMINISTRATION';0.0;

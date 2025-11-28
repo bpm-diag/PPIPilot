@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Plagiarism Originality Report Completed' before 'SW-Checklist Completed';Frequency of activity 'Plagiarism Originality Report Completed' for cases where activity 'SW-Checklist Completed' occurs;81.0;
+Percentage of manuscripts with 'Plagiarism Originality Report Completed' out of all manuscripts processed;Percentage of 'Plagiarism Originality Report Completed' out of all cases where '' does not happen;0.96;
+Frequency of 'Plagiarism Originality Report Completed' followed by 'SW-Awaiting AE Assignment';Frequency of activity 'Plagiarism Originality Report Completed' for cases where activity 'SW-Awaiting AE Assignment' occurs;56.0;
+Percentage of 'Plagiarism Originality Report Completed' that lead to 'SW-EIC Reject';Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-EIC Reject';0.97;
+Percentage of 'Plagiarism Originality Report Completed' followed by 'SW-EIC Major Revision';Percentage of 'Plagiarism Originality Report Completed' out of all 'SW-EIC Major Revision';0.93;
+Percentage of 'Plagiarism Originality Report Completed' in relation to 'Original Manuscript Submission Confirmation';Percentage of 'Plagiarism Originality Report Completed' out of all 'Original Manuscript Submission Confirmation';0.98;
+Number of 'Plagiarism Originality Report Completed' activities that precede 'SW-Reviewer Agreed';Frequency of activity 'Plagiarism Originality Report Completed' for cases where activity 'SW-Reviewer Agreed' occurs;44.0;
+Percentage of manuscripts with 'Plagiarism Originality Report Completed' that successfully pass the review process;Percentage of 'Plagiarism Originality Report Completed' out of all 'RW-EIC Accept';0.95;
+Frequency of 'Plagiarism Originality Report Completed' in manuscripts that exceed the Plagiarism Percent Match Threshold;Frequency of activity 'Plagiarism Originality Report Completed' for cases where activity 'Plagiarism Percent Match Threshold Exceeded' occurs;22.0;
+Percentage of 'Plagiarism Originality Report Completed' followed by 'Manuscript Export Succeeded';Percentage of 'Plagiarism Originality Report Completed' out of all 'Manuscript Export Succeeded';0.97;
+Number of 'Plagiarism Originality Report Completed' activities in manuscripts that lead to 'RW-EIC Accept';Frequency of activity 'Plagiarism Originality Report Completed' for cases where activity 'RW-EIC Accept' occurs;21.0;
+Percentage of 'Plagiarism Originality Report Completed' in manuscripts that undergo 'First Look-Please submit updates';Percentage of 'Plagiarism Originality Report Completed' out of all 'First Look-Please submit updates';0.96;
+Frequency of 'Plagiarism Originality Report Completed' in relation to 'Revised Manuscript Submission Confirmation';Frequency of activity 'Plagiarism Originality Report Completed' for cases where activity 'Revised Manuscript Submission Confirmation' occurs;23.0;
+Frequency of 'Plagiarism Originality Report Completed' in manuscripts that required 'SW–Major Revision due in 1 month';Number of 'Plagiarism Originality Report Completed' activities;92.0;
+Number of 'Plagiarism Originality Report Completed' activities per month;Number of 'Plagiarism Originality Report Completed' activities;92.0;

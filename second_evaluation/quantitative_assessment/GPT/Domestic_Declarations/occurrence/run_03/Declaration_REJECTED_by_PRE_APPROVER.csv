@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration REJECTED by PRE_APPROVER' compared to 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all rejection activities;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';1.0;
+Number of 'Declaration REJECTED by PRE_APPROVER' followed by 'Declaration SUBMITTED by EMPLOYEE';Number of 'Declaration REJECTED by PRE_APPROVER' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;86;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' that lead to 'Declaration APPROVED by PRE_APPROVER';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';0.1;
+Frequency of 'Declaration REJECTED by PRE_APPROVER' in relation to total declarations processed;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.01;
+Number of 'Declaration REJECTED by PRE_APPROVER' with amounts above 100 euros;Number of 'Declaration REJECTED by PRE_APPROVER' activities > 100 where ma is the last value of case:Amount;22;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' by 'org:resource' to identify if specific pre-approvers have higher rejection rates;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;STAFF MEMBER:0.02;"{""STAFF MEMBER"":0.0196936543,""SYSTEM"":0.0071691726}"
+Frequency of 'Declaration REJECTED by PRE_APPROVER' followed by 'Declaration APPROVED by ADMINISTRATION';Frequency of activity 'Declaration REJECTED by PRE_APPROVER' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;2;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' that are eventually approved after being resubmitted;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';0.1;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' that result in an appeal;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration REJECTED by EMPLOYEE';0.07;
+Frequency of 'Declaration REJECTED by PRE_APPROVER' in relation to 'Declaration APPROVED by PRE_APPROVER';Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Declaration APPROVED by PRE_APPROVER';0.1;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' that lead to a 'Payment Handled' event, indicating successful resolution;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all 'Payment Handled';0.01;
+Number of 'Declaration REJECTED by PRE_APPROVER' that are followed by 'Declaration REJECTED by EMPLOYEE', indicating a potential process bottleneck;Number of 'Declaration REJECTED by PRE_APPROVER' activities for cases where activity 'Declaration REJECTED by EMPLOYEE' occurs;86;
+Percentage of 'Declaration REJECTED by PRE_APPROVER' by month to identify peak rejection periods;Percentage of 'Declaration REJECTED by PRE_APPROVER' out of all cases;0.01;
+Number of 'Declaration REJECTED by PRE_APPROVER' per year to observe trends over time;Number of 'Declaration REJECTED by PRE_APPROVER' activities;86;

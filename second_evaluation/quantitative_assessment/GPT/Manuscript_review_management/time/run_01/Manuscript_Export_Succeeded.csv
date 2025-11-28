@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from 'Manuscript Export Succeeded' to 'Plagiarism Originality Report Completed';The average of the duration between activity 'Manuscript Export Succeeded' and activity 'Plagiarism Originality Report Completed';1.50 days;
+Total time for all instances of 'Manuscript Export Succeeded' across the event log;The sum of the duration between activity Manuscript Export Succeeded and the end of the case;9239.42 days;
+Minimum time from 'Original Manuscript Submission Confirmation' to 'Manuscript Export Succeeded';The minimum of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'Manuscript Export Succeeded';5.00 seconds;
+Average time between 'Manuscript Export Succeeded' and 'SW-Checklist Completed';The average of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Checklist Completed';4.48 days;
+Total resolution time of 'Manuscript Export Succeeded' for manuscripts that proceed to 'SW-AE Assign Reviewers';The sum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-AE Assign Reviewers';1235.27 days;
+Average waiting time to the 'Manuscript Export Succeeded' from 'Original Manuscript Submission Confirmation';The average of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'Manuscript Export Succeeded';74.66 days;
+Minimum time it takes 'Manuscript Export Succeeded' to be followed by 'Reviewer Invitation Reminder 1';The minimum of the duration between activity 'Manuscript Export Succeeded' and activity 'Reviewer Invitation Reminder 1';5.01 days;
+Average time it takes from 'Manuscript Export Succeeded' to 'SW-Reviewer Agreed' considering the impact on the review process;The average of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Reviewer Agreed';29.26 days;
+Total time from 'Manuscript Export Succeeded' to 'SW-Awaiting EIC Decision';The sum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Awaiting EIC Decision';3857.75 days;
+Minimum resolution time of 'Manuscript Export Succeeded' in the context of manuscripts that require major revisions;The minimum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-EIC Major Revision';54.64 days;
+Total time it takes 'Manuscript Export Succeeded' after 'SW-Awaiting Checklist Completion';The sum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Awaiting Checklist Completion';58.02 days;
+Average time from 'Manuscript Export Succeeded' to the next activity in the process for all variants;The average of the duration between activity Manuscript Export Succeeded and the end of the case;103.81 days;
+Minimum time from 'Manuscript Export Succeeded' to 'SW-EIC Accept' for accepted manuscripts;The minimum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-EIC Accept';2.03 days;
+Cycle Time of 'Manuscript Export Succeeded' in relation to the total manuscript review cycle;The sum of the duration between activity Manuscript Export Succeeded and the end of the case;9239.42 days;
+Average time for 'Manuscript Export Succeeded' grouped by 'case:concept:name';The average of the duration between activity Manuscript Export Succeeded and the end of the case;103.81 days;

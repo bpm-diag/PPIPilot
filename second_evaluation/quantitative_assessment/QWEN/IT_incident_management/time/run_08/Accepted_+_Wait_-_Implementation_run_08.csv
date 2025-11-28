@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time for Accepted + Wait - Implementation;The average of the duration between activity Accepted + Wait - Implementation and the end of the case;17.33 days;
+Total time for Accepted + Wait - Implementation;The sum of the duration between activity Accepted + Wait - Implementation and the end of the case;7158.68 days;
+Minimum time for Accepted + Wait - Implementation;The minimum of the duration between activity Accepted + Wait - Implementation and the end of the case;0.00 seconds;
+Time of Accepted + Wait - Implementation;The average of the duration between activity Accepted + Wait - Implementation and the end of the case;17.33 days;
+Accepted + Wait - Implementation Cycle Time;The average of the duration between activity Accepted + Wait - Implementation and the end of the case;17.33 days;
+Average time from Accepted + In Progress to Accepted + Wait - Implementation;The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait - Implementation';11.98 days;
+Total time from Accepted + In Progress to Accepted + Wait - Implementation;The sum of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait - Implementation';4935.98 days;
+Minimum time from Accepted + In Progress to Accepted + Wait - Implementation;The minimum of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait - Implementation';12.00 seconds;
+Average time between Accepted + Wait - Implementation and Completed + Resolved;The average of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Resolved';14.00 days;
+Total time between Accepted + Wait - Implementation and Completed + Resolved;The sum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Resolved';5640.86 days;
+Minimum time between Accepted + Wait - Implementation and Completed + Resolved;The minimum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Completed + Resolved';6.67 minutes;
+Average duration of Accepted + Wait - Implementation compared to Accepted + Wait - User;The average of the duration between activity 'Accepted + Wait - Implementation' and activity 'Accepted + Wait - User';8.49 days;
+Average duration of Accepted + Wait - Implementation compared to Accepted + Wait - Vendor;The average of the duration between activity 'Accepted + Wait - Implementation' and activity 'Accepted + Wait - Vendor';12.11 days;
+Average duration of Accepted + Wait - Implementation compared to Accepted + Wait;The average of the duration between activity 'Accepted + Wait - Implementation' and activity 'Accepted + Wait';7.48 days;
+Total duration of Accepted + Wait - Implementation in variants that include Completed + In Call versus variants that do not include Completed + In Call;The sum of the duration between activity 'Accepted + Wait - Implementation' and the end of case where activity 'Completed + In Call occurs;111.35 days;
+Minimum duration of Accepted + Wait - Implementation in cases where Completed + In Call occurs after Accepted + Wait - Implementation;The minimum of the duration between activity Accepted + Wait - Implementation and the end of the case;1.29 hours;
+Average time from Accepted + Wait - Implementation to the next occurrence of Accepted + In Progress;The average of the duration between activity 'Accepted + Wait - Implementation' and activity 'Accepted + In Progress';13.94 days;
+Total time from Accepted + Wait - Implementation to the next occurrence of Accepted + In Progress;The sum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Accepted + In Progress';3709.09 days;
+Minimum time from Accepted + Wait - Implementation to the next occurrence of Accepted + In Progress;The minimum of the duration between activity 'Accepted + Wait - Implementation' and activity 'Accepted + In Progress';1.15 minutes;
+Elapsed time between Queued + Awaiting Assignment and Accepted + Wait - Implementation in variants containing Completed + In Call;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait - Implementation';5.67 days;

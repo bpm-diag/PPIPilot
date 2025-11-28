@@ -1,0 +1,11 @@
+Name;Metric;Value;Agrupation
+Average time from 'Declaration FOR_APPROVAL by PRE_APPROVER' to 'Declaration APPROVED by ADMINISTRATION';The average of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Declaration APPROVED by ADMINISTRATION';;
+Average time from 'Declaration SUBMITTED by EMPLOYEE' to 'Declaration FOR_APPROVAL by PRE_APPROVER';The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Declaration FOR_APPROVAL by PRE_APPROVER';2.83 minutes;
+Total time for 'Declaration FOR_APPROVAL by PRE_APPROVER' to reach 'Declaration FINAL_APPROVED by SUPERVISOR';The sum of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Declaration FINAL_APPROVED by SUPERVISOR';;
+Minimum time it takes from 'Declaration FOR_APPROVAL by PRE_APPROVER' to 'Request Payment';The minimum of the duration between activity 'Declaration FOR_APPROVAL by PRE_APPROVER' and activity 'Request Payment';;
+Average waiting time to 'Declaration FOR_APPROVAL by PRE_APPROVER' after 'Declaration APPROVED by BUDGET OWNER';The average of the duration between activity 'Declaration APPROVED by BUDGET OWNER' and activity 'Declaration FOR_APPROVAL by PRE_APPROVER';;
+Total resolution time of 'Declaration FOR_APPROVAL by PRE_APPROVER';The sum of the duration between activity Declaration FOR_APPROVAL by PRE_APPROVER and the end of the case;4.13 days;
+Minimum time for 'Declaration FOR_APPROVAL by PRE_APPROVER' to transition to any subsequent activity;The minimum of the duration between activity Declaration FOR_APPROVAL by PRE_APPROVER and the end of the case;4.13 days;
+Total time for all instances of 'Declaration FOR_APPROVAL by PRE_APPROVER' within the event log;The sum of the duration between activity Declaration FOR_APPROVAL by PRE_APPROVER and the end of the case;4.13 days;
+Time until 'Declaration FOR_APPROVAL by PRE_APPROVER' from the start of the process;The average of the duration between the start of the case and activity 'Declaration FOR_APPROVAL by PRE_APPROVER';2.83 minutes;
+Time from 'Declaration FOR_APPROVAL by PRE_APPROVER' to the end of the process;The average of the duration between activity Declaration FOR_APPROVAL by PRE_APPROVER and the end of the case;4.13 days;

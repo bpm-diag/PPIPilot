@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration FOR_APPROVAL by SUPERVISOR' followed by 'Declaration APPROVED by ADMINISTRATION';Frequency of activity 'Declaration FOR_APPROVAL by SUPERVISOR' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' leading to 'Declaration FINAL_APPROVED by SUPERVISOR';Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.0;
+Number of 'Declaration FOR_APPROVAL by SUPERVISOR' that are preceded by 'Declaration SUBMITTED by EMPLOYEE';Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;1;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all approval activities;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases where '' does not happen;0.0;
+Frequency of 'Declaration FOR_APPROVAL by SUPERVISOR' in cases with amounts above 100 euros;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities > 100 where ma is the last value of case:Amount;0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' by each 'org:resource';Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;STAFF MEMBER:0.0;"{""STAFF MEMBER"":0.0021881838,""SYSTEM"":0.0}"
+Number of 'Declaration FOR_APPROVAL by SUPERVISOR' grouped by 'case:BudgetNumber';Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities;1;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' by worker;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;STAFF MEMBER:0.0;"{""STAFF MEMBER"":0.0021881838,""SYSTEM"":0.0}"
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' that lead to 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Average number of 'Declaration FOR_APPROVAL by SUPERVISOR' that are followed by 'Request Payment';the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by SUPERVISOR' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Request Payment';0.0;
+Total 'Declaration FOR_APPROVAL by SUPERVISOR' done by 'STAFF MEMBER';Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities == 'STAFF MEMBER' where ma is the last value of org:resource;1;
+Ratio of 'Declaration FOR_APPROVAL by SUPERVISOR' over 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Occasions how often 'Declaration FOR_APPROVAL by SUPERVISOR' is performed in relation to total events in the log;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases where '' does not happen;0.0;
+Frequency of 'Declaration FOR_APPROVAL by SUPERVISOR' in cases that end with 'Payment Handled';Frequency of activity 'Declaration FOR_APPROVAL by SUPERVISOR' for cases where activity 'Payment Handled' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' in processes that involve 'Declaration APPROVED by BUDGET OWNER';Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration APPROVED by BUDGET OWNER';0.0;
+Number of 'Declaration FOR_APPROVAL by SUPERVISOR' in relation to 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' in variants leading to 'Payment Handled' without rejections;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Payment Handled';0.0;
+Frequency of 'Declaration FOR_APPROVAL by SUPERVISOR' made per year;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities;1;

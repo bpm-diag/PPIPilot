@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Unmatched + Unmatched' leading to 'Completed + In Call';Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Completed + In Call' occurs;0.0;
+Percentage of 'Unmatched + Unmatched' occurrences in the entire event log;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' followed by 'Accepted + In Progress';Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Accepted + In Progress' occurs;5.0;
+Percentage of 'Unmatched + Unmatched' compared to 'Accepted + Wait - User';Percentage of 'Unmatched + Unmatched' out of all 'Accepted + Wait - User';0.0;
+Number of 'Unmatched + Unmatched' activities that precede 'Completed + Resolved';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + Resolved' occurs;5.0;
+Percentage of 'Unmatched + Unmatched' activities that lead to a resolution without further escalation;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' in cases with high impact as defined in the event log;Frequency of activity 'Unmatched + Unmatched';;
+Percentage of 'Unmatched + Unmatched' activities resolved within the same day;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Number of 'Unmatched + Unmatched' activities followed by 'Completed + Closed';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + Closed' occurs;5.0;
+Percentage of 'Unmatched + Unmatched' activities that are part of the most frequent variant paths;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' in relation to 'Queued + Awaiting Assignment';Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Queued + Awaiting Assignment' occurs;2.0;
+Percentage of 'Unmatched + Unmatched' activities that occur after 'Accepted + Wait - Vendor';Percentage of 'Unmatched + Unmatched' out of all 'Accepted + Wait - Vendor';0.0;
+Number of 'Unmatched + Unmatched' activities that lead to 'Completed + In Call' within the top performance variants;Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0.0;
+Percentage of 'Unmatched + Unmatched' activities that are part of cases with medium to high impact;Percentage of 'Unmatched + Unmatched' out of all cases;;
+Frequency of 'Unmatched + Unmatched' followed by any activity that leads to case closure;Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Completed + Closed' occurs;5.0;
+Percentage of 'Unmatched + Unmatched' activities that occur before 'Accepted + Assigned';Percentage of 'Unmatched + Unmatched' out of all 'Accepted + Assigned';0.0;
+Number of 'Unmatched + Unmatched' activities in cases that exceed the average resolution time;Number of 'Unmatched + Unmatched' activities;5.0;
+Percentage of 'Unmatched + Unmatched' activities in the context of the VINST system's incident and problem management process;Percentage of 'Unmatched + Unmatched' out of all cases;;
+Frequency of 'Unmatched + Unmatched' in relation to all activities performed by the most active resource;Frequency of activity 'Unmatched + Unmatched';;
+Percentage of 'Unmatched + Unmatched' activities that lead to an increase in case resolution time compared to the average;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;

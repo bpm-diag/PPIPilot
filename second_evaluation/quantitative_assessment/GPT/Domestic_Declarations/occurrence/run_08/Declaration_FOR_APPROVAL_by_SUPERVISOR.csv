@@ -1,0 +1,19 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Declaration FOR_APPROVAL by SUPERVISOR' leading to 'Declaration APPROVED by ADMINISTRATION';Frequency of activity 'Declaration FOR_APPROVAL by SUPERVISOR' for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;0.0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' followed by 'Declaration FINAL_APPROVED by SUPERVISOR';Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';0.0;
+Number of 'Declaration FOR_APPROVAL by SUPERVISOR' that result in 'Declaration REJECTED by PRE_APPROVER';Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0.0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Frequency of 'Declaration FOR_APPROVAL by SUPERVISOR' in cases with amounts above 100 euros;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities > 100 where ma is the last value of case:Amount;0.0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' by 'STAFF MEMBER';Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;;
+Number of 'Declaration FOR_APPROVAL by SUPERVISOR' grouped by 'case:BudgetNumber';Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities;1.0;
+Frequency of 'Declaration FOR_APPROVAL by SUPERVISOR' in successful payment requests ('Payment Handled');Frequency of activity 'Declaration FOR_APPROVAL by SUPERVISOR' for cases where activity 'Payment Handled' occurs;0.0;
+Number of 'Declaration FOR_APPROVAL by SUPERVISOR' followed by 'Request Payment';Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities for cases where activity 'Request Payment' occurs;0.0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' in relation to 'Declaration APPROVED by ADMINISTRATION';Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' in cases with 'Declaration REJECTED by PRE_APPROVER' to identify improvement areas;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Frequency of 'Declaration FOR_APPROVAL by SUPERVISOR' followed by 'Declaration REJECTED by PRE_APPROVER' to target reduction strategies;Frequency of activity 'Declaration FOR_APPROVAL by SUPERVISOR' for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0.0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' in the total number of activities to understand its weight in the process;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases where '' does not happen;0.0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' leading to any form of rejection;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by EMPLOYEE';0.0;
+Frequency of 'Declaration FOR_APPROVAL by SUPERVISOR' in cases eventually leading to 'Payment Handled' without prior rejection;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities for cases where activity 'Payment Handled' occurs;0.0;
+Number of 'Declaration FOR_APPROVAL by SUPERVISOR' that are part of the most frequent variants to identify critical paths;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities;1.0;
+Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' by year;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;0.0;
+Number of 'Declaration FOR_APPROVAL by SUPERVISOR' per month to identify peak periods;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities;1.0;

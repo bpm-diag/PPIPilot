@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Unmatched + Unmatched' out of all activity executions in the event log;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' occurrences across all cases;Number of 'Unmatched + Unmatched' activities;5;
+Percentage of process variants that contain 'Unmatched + Unmatched';Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' appearing before 'Completed + In Call';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0;
+Percentage of 'Unmatched + Unmatched' that are followed by 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Ratio of 'Unmatched + Unmatched' occurrences to 'Completed + In Call' occurrences;Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0;
+Percentage of 'Unmatched + Unmatched' in variants where 'Completed + In Call' appears;Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Number of cases where 'Unmatched + Unmatched' directly precedes 'Completed + In Call';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0;
+Percentage of 'Unmatched + Unmatched' that do not lead to any 'Completed + Resolved' or 'Completed + Closed' activity;Percentage of 'Unmatched + Unmatched' out of all cases where 'Completed + Resolved' does not happen;0.0;
+Ratio of variants starting with 'Unmatched + Unmatched' versus those starting with 'Queued + Awaiting Assignment';Number of 'Unmatched + Unmatched' activities for cases where activity 'Queued + Awaiting Assignment' occurs;2;
+Percentage of 'Unmatched + Unmatched' occurring in cases that never reach 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all cases where 'Completed + In Call' does not happen;0.0;
+Frequency of 'Unmatched + Unmatched' in comparison to the most frequent activity 'Accepted + In Progress';Number of 'Unmatched + Unmatched' activities for cases where activity 'Accepted + In Progress' occurs;5;
+Average number of 'Unmatched + Unmatched' occurrences per case containing 'Completed + In Call';the average of the number of times `ACTIVITY` == 'Unmatched + Unmatched' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Completed + In Call';0.0;
+Percentage of 'Unmatched + Unmatched' executed by resource groups in France compared to Brazil and USA;Percentage of 'Unmatched + Unmatched' out of all cases;0:0.0;"{""0"":0.0009496676,""Australia"":0.0,""Belgium"":0.0,""Brazil"":0.0,""Canada"":0.0,""China"":0.0,""France"":0.0,""INDIA"":0.0,""Japan"":0.0,""Korea"":0.0,""MALAYSIA"":0.0,""POLAND"":0.0,""RUSSIAN FEDERATION"":0.0,""Sweden"":0.0,""THAILAND"":0.0,""USA"":0.0,""United Kingdom"":0.0}"
+Frequency of 'Unmatched + Unmatched' per year to assess temporal trends related to incident resolution patterns;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;

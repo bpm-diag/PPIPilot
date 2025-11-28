@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Unmatched + Unmatched' out of all activity executions in the event log;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Number of times 'Unmatched + Unmatched' occurs in the entire event log;Number of 'Unmatched + Unmatched' activities;5.0;
+Percentage of process variants that contain 'Unmatched + Unmatched';Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' compared to the frequency of 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Percentage of 'Unmatched + Unmatched' that appear before 'Accepted + In Progress';Percentage of 'Unmatched + Unmatched' out of all 'Accepted + In Progress';0.0;
+Number of cases where 'Unmatched + Unmatched' is the first activity;Number of 'Unmatched + Unmatched' activities;5.0;
+Percentage of 'Unmatched + Unmatched' relative to 'Queued + Awaiting Assignment';Percentage of 'Unmatched + Unmatched' out of all 'Queued + Awaiting Assignment';0.0;
+Frequency of transitions from 'Unmatched + Unmatched' to 'Accepted + In Progress';Percentage of 'Unmatched + Unmatched' out of all 'Accepted + In Progress';0.0;
+Percentage of all 'Unmatched + Unmatched' occurrences that are not followed by any other activity (i.e., terminal in their trace);Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Ratio of 'Unmatched + Unmatched' occurrences to the total number of cases in the VINST incident management log;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Percentage of process variants containing 'Completed + In Call' that also include 'Unmatched + Unmatched';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Frequency of 'Unmatched + Unmatched' in comparison with high-frequency resolution activities such as 'Completed + Resolved';Percentage of 'Unmatched + Unmatched' out of all 'Completed + Resolved';0.0;
+Percentage of cases starting with 'Unmatched + Unmatched' that eventually reach 'Completed + Closed';Percentage of 'Unmatched + Unmatched' out of all 'Completed + Closed';0.0;
+Average number of 'Unmatched + Unmatched' occurrences per case across all variants;the average of the number of times `ACTIVITY` == 'Unmatched + Unmatched';0.0;
+Number of 'Unmatched + Unmatched' activities per year to assess temporal trends;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'aggregation': 'total', 'group_by': 'time:timestamp'}""";;
