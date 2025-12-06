@@ -38,6 +38,7 @@ conda info --envs.
 
 - **1_prompt_description_goal** contains the files with the prompt to discover PPIs related to time and occurrence. In this prompt it is required a description of the event log and a goal to make a more specific task.
 - **2_prompt** contains the files with the prompt to translate PPIs from natural language to a JSON format.
+- **3_prompt** contains the files with the prompt used for the fallback mechanism.
 - **Appendix.pdf** presents the complete list of results from the quantitative assessment, as only the aggregated average values were included in the paper due to space constraints.
 - **quantitative_assessment** contains all the files produced during the quantitative_assessment experiments.
 
