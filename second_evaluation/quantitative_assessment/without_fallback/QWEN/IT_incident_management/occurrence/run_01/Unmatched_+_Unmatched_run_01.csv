@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Unmatched + Unmatched' that occur before 'Completed + In Call' in the same case;Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Frequency of 'Unmatched + Unmatched' compared to the frequency of 'Completed + In Call';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0.0;
+Percentage of cases containing 'Unmatched + Unmatched' that eventually reach 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Number of variants where 'Unmatched + Unmatched' appears as the first activity;Number of 'Unmatched + Unmatched' activities;5.0;
+Percentage of 'Unmatched + Unmatched' relative to the total occurrences of 'Queued + Awaiting Assignment';Percentage of 'Unmatched + Unmatched' out of all 'Queued + Awaiting Assignment';0.0;
+Frequency of 'Unmatched + Unmatched' in cases with 'High' impact versus 'Low' or 'Medium' impact;Number of 'Unmatched + Unmatched' activities == 'High' where ma is the last value of impact;0.0;
+Percentage of 'Unmatched + Unmatched' activities that are not followed by any other activity (i.e., terminal events);Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Ratio of 'Unmatched + Unmatched' occurrences to the total number of 'Completed + Resolved' activities;Percentage of 'Unmatched + Unmatched' out of all 'Completed + Resolved';0.0;
+Number of times 'Unmatched + Unmatched' appears in the same case as 'Completed + In Call';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0.0;
+Percentage of 'Unmatched + Unmatched' executed by resources from non-France countries;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Percentage of variants starting with 'Unmatched + Unmatched' that end in 'Completed + Closed';Percentage of 'Unmatched + Unmatched' out of all 'Completed + Closed';0.0;
+Number of 'Unmatched + Unmatched' events that occur after 'Accepted + Wait - User' in the same trace;Number of 'Unmatched + Unmatched' activities for cases where activity 'Accepted + Wait - User' occurs;2.0;
+Percentage of 'Unmatched + Unmatched' relative to all wait-type activities (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.);Percentage of 'Unmatched + Unmatched' out of all 'Accepted + Wait - User';0.0;
+Frequency of 'Unmatched + Unmatched' in PROD582 compared to other products;Number of 'Unmatched + Unmatched' activities == 'PROD582' where ma is the last value of product;0.0;
+Ratio of 'Unmatched + Unmatched' to 'Completed + In Call' in variants with performance duration below the median;Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Frequency of 'Unmatched + Unmatched' per year to identify temporal trends in unmatched incidents;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'aggregation': 'total', 'group_by': 'year'}""";;

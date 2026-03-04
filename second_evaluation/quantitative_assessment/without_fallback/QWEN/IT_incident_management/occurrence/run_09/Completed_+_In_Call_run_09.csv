@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + In Call' that occur without being followed by any other activity (i.e., terminal occurrences);Percentage of 'Completed + In Call' out of all cases;0.27;
+Ratio of 'Completed + In Call' to 'Completed + Resolved' in the entire event log;Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Frequency of variants containing 'Completed + In Call' compared to variants ending in 'Completed + Closed';Number of 'Completed + In Call' activities for cases where activity 'Completed + Closed' occurs;134.0;
+Percentage of cases where 'Completed + In Call' appears more than once;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Completed + In Call';0.0;
+Frequency of 'Completed + In Call' in high-impact incidents (impact = 'High') versus low-impact incidents (impact = 'Low');Number of 'Completed + In Call' activities == 'High' where ma is the last value of impact;8.0;
+Percentage of 'Completed + In Call' executed by resources from the 'Org line C' organization group;Percentage of 'Completed + In Call' out of all cases;;
+Frequency of the direct transition from 'Accepted + In Progress' to 'Completed + In Call' relative to all transitions starting with 'Accepted + In Progress';Number of 'Completed + In Call' activities for cases where activity 'Accepted + In Progress' occurs;2018.0;
+Percentage of total case duration attributable to traces ending in 'Completed + In Call' versus those continuing to 'Completed + Resolved';Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Frequency of 'Completed + In Call' occurring as the final activity in a case, compared to 'Completed + Closed' and 'Completed + Cancelled';Number of 'Completed + In Call' activities for cases where activity 'Completed + Closed' occurs;134.0;
+Percentage of 'Completed + In Call' events associated with product PROD582 versus other products;Percentage of 'Completed + In Call' out of all cases;0.25;
+Ratio of the number of 'Completed + In Call' events to the total number of 'Completed + *' activities (i.e., all completed-type activities);Percentage of 'Completed + In Call' out of all cases;0.27;

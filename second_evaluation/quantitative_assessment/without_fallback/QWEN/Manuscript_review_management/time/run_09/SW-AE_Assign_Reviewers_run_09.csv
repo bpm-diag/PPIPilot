@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time from SW-AE Assign Reviewers to SW-Reviewer Agreed;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Total time between SW-AE Assign Reviewers and SW-Reviewer Declined;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Declined';431.76 days;
+Minimum time it takes SW-Reviewer Agreed after the execution of SW-AE Assign Reviewers;The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';44.00 seconds;
+Total resolution time of SW-AE Assign Reviewers in variants that lead to SW-EIC Accept;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Accept';;
+Time from SW-AE Assign Reviewers to SW-Reviewer No Response;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer No Response';258.27 days;
+Average waiting time to the SW-Reviewer Agreed following SW-AE Assign Reviewers;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Elapsed time between SW-AE Assign Reviewers and the subsequent occurrence of Reviewer Invitation Reminder 1;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'Reviewer Invitation Reminder 1';2743.88 days;
+Minimum time between SW-AE Assign Reviewers and SW-Reviewer Unavailable;The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Unavailable';1.46 hours;
+Total time it takes SW-AE Assign Reviewers to be followed by SW-Awaiting EIC Decision in high-performance variants;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting EIC Decision';3344.01 days;
+Average time from SW-AE Assign Reviewers to SW-AE Recommendation overdue;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-AE Recommendation overdue';71.80 days;
+Time of SW-AE Assign Reviewers when occurring after SW-Reviewer Selection is now due;The sum of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-AE Assign Reviewers';261.36 days;
+Average time between SW-AE Assign Reviewers and Assign a Different Editor;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'Assign a Different Editor';126.53 days;
+Total time from SW-AE Assign Reviewers to SW-Reviewer Agreed in cases where multiple reviewer invitations were sent;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';783.82 days;
+Minimum time it takes SW-AE Assign Reviewers after the execution of SW-Initial Reviewer Selection;The minimum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-AE Assign Reviewers';30.88 minutes;
+Elapsed time between SW-AE Assign Reviewers and Unassign Reviewer;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'Unassign Reviewer';412.83 days;
+Average time for SW-AE Assign Reviewers in variants that include SW-EIC Major Revision;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Major Revision';87.60 days;
+Time from SW-AE Assign Reviewers to SW-Awaiting AE Recommendation;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting AE Recommendation';1626.58 days;
+Total resolution time of SW-AE Assign Reviewers compared to the duration of SW-Initial Reviewer Selection within the same case;The sum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-AE Assign Reviewers';992.65 days;
+Minimum time between SW-AE Assign Reviewers and the next occurrence of SW-AE Assign Reviewers in repeated assignment scenarios;The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-AE Assign Reviewers';0.00 seconds;
+Average time for SW-AE Assign Reviewers grouped by case:concept:name;"ERROR: computing metric {'begin': activity == 'SW-AE Assign Reviewers'"", 'end': '', 'aggregation': 'average', 'group_by': 'concept:name'}""";;

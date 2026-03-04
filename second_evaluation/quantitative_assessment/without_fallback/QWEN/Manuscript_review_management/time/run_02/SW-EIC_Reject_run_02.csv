@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from SW-Reviewer Agreed to SW-EIC Reject;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';73.21 days;
+Total time between SW-Awaiting EIC Decision and SW-EIC Reject;The sum of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Reject';11.61 days;
+Minimum time it takes SW-EIC Reject to be performed after SW-Awaiting AE Recommendation;The minimum of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-EIC Reject';38.80 minutes;
+Average time for SW-EIC Reject across all process variants ending with this activity;The average of the duration between activity SW-EIC Reject and the end of the case;1.42 minutes;
+Time from SW-Reviewer Agreed to SW-EIC Reject in variants where reviewer agreement was followed by rejection;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';732.15 days;
+Elapsed time between SW-AE Assign Reviewers and SW-EIC Reject in cases where at least one reviewer agreed;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Reject';684.97 days;
+Total resolution time of SW-EIC Reject following a completed review cycle initiated by SW-Reviewer Agreed;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';732.15 days;
+Minimum time between Plagiarism Originality Report Completed and SW-EIC Reject in variants that also contain SW-Reviewer Agreed;The minimum of the duration between activity 'Plagiarism Originality Report Completed' and activity 'SW-EIC Reject';57.92 days;
+Time of SW-EIC Reject measured from the moment the first reviewer agreed (SW-Reviewer Agreed) until the final rejection decision;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';732.15 days;
+Average waiting time to the SW-EIC Reject after the last occurrence of SW-Reviewer Agreed in the same case;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';73.21 days;
+Total time from Manuscript Export Succeeded to SW-EIC Reject in variants that include both SW-Reviewer Agreed and SW-EIC Reject;The sum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-EIC Reject';791.92 days;
+Minimum time it takes SW-EIC Reject to be executed after the completion of all assigned reviews (i.e., after the last SW-Reviewer Agreed);The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';45.69 days;
+Time between SW-Awaiting EIC Decision and SW-EIC Reject specifically in variants where SW-Reviewer Agreed occurred earlier in the trace;The sum of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Reject';9.21 days;
+Average time for SW-EIC Reject compared to the duration of SW-EIC Accept in structurally similar variants that diverge only at the final decision point;The average of the duration between activity SW-EIC Reject and the end of the case;1.42 minutes;
+Average time to SW-EIC Reject grouped by case:concept:name in variants that include SW-Reviewer Agreed;"ERROR: computing metric {'begin': activity == 'SW-EIC Reject'"", 'end': '', 'aggregation': 'average', 'group_by': 'case:concept:name', 'filter': ""activity == 'SW-Reviewer Agreed'""}""";;

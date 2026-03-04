@@ -1,0 +1,13 @@
+Name;Metric;Value;Agrupation
+Number of times 'Completed + Cancelled' directly follows 'Accepted + In Progress';Number of 'Completed + Cancelled' activities;1.0;
+Percentage of 'Completed + Cancelled' compared to the frequency of 'Completed + Resolved';Percentage of 'Completed + Cancelled' out of all 'Completed + Resolved';0.0;
+Number of cases where 'Completed + Cancelled' appears without a preceding 'Queued + Awaiting Assignment';Number of 'Completed + Cancelled' activities for cases where activity 'Queued + Awaiting Assignment' does not occur;1.0;
+Percentage of 'Completed + Cancelled' activities that occur in variants with total performance below the median variant performance;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Frequency of 'Completed + Cancelled' in high-impact incidents (impact = 'High');Number of 'Completed + Cancelled' activities == 'High' where ma is the last value of impact;1.0;
+Percentage of 'Completed + Cancelled' relative to all terminal activities ('Completed + Resolved', 'Completed + Closed', 'Completed + In Call', 'Completed + Cancelled');Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Number of variants containing 'Completed + Cancelled' and their cumulative frequency;Number of 'Completed + Cancelled' activities;1.0;
+Percentage of 'Completed + Cancelled' executed by resources from the 'Org line C' organization group;Percentage of 'Completed + Cancelled' out of all cases;;
+Frequency of 'Completed + Cancelled' following any 'Accepted + Wait' state (including subtypes like 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.);Number of 'Completed + Cancelled' activities;1.0;
+Percentage of 'Completed + Cancelled' among all activities performed on product PROD582;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Ratio of 'Completed + Cancelled' to 'Completed + In Call' occurrences, given the goal of understanding the impact of 'Completed + In Call';Percentage of 'Completed + Cancelled' out of all 'Completed + In Call';0.0;
+Number of cases where 'Completed + Cancelled' is the only completion-type activity recorded;Number of 'Completed + Cancelled' activities;1.0;

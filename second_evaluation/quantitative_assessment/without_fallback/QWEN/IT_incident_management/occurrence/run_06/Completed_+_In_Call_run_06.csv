@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + In Call' that directly follows 'Accepted + In Progress';Percentage of 'Completed + In Call' out of all 'Accepted + In Progress';0.27;
+Frequency of the variant pattern 'Accepted + In Progress → Accepted + In Progress → Completed + In Call';Number of 'Completed + In Call' activities for cases where activity 'Accepted + In Progress' occurs;2018;
+Percentage of 'Completed + In Call' occurrences relative to 'Completed + Resolved';Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Frequency of cases where 'Completed + In Call' appears more than once;Number of 'Completed + In Call' activities;2018;
+Percentage of 'Completed + In Call' activities occurring in cases that do not contain 'Completed + Closed';Percentage of 'Completed + In Call' out of all cases where 'Completed + Closed' does not happen;0.27;
+Frequency of 'Completed + In Call' grouped by country;Number of 'Completed + In Call' activities grouped by the last value of organization country;0:1;"{""0"":1,""SE"":1,""au"":3,""be"":78,""br"":54,""ca"":16,""cl"":0,""cn"":2,""de"":0,""fr"":16,""gb"":2,""in"":12,""jp"":0,""kr"":0,""my"":6,""nl"":0,""pe"":0,""pl"":838,""ru"":7,""se"":669,""th"":5,""tr"":0,""us"":308}"
+Percentage of 'Completed + In Call' that is not followed by any other activity;Percentage of 'Completed + In Call' out of all cases;0.27;
+Percentage of process variants containing 'Completed + In Call' that have a total performance duration below the median;Percentage of 'Completed + In Call' out of all cases;0.27;
+Percentage of 'Completed + In Call' that occurs without any preceding 'Queued + Awaiting Assignment' activity;Percentage of 'Completed + In Call' out of all cases where 'Queued + Awaiting Assignment' does not happen;0.27;
+Frequency of transitions from 'Completed + In Call' to 'Accepted + In Progress' in recurring resolution patterns;Number of 'Completed + In Call' activities for cases where activity 'Accepted + In Progress' occurs;2018;
+Percentage of all 'Completed + In Call' events that belong to the top 5 most frequent variants;Percentage of 'Completed + In Call' out of all cases;0.27;
+Percentage of cases containing 'Completed + In Call' that are resolved within 24 hours of the first event;Percentage of 'Completed + In Call' out of all cases;0.27;
+Ratio of 'Completed + In Call' to 'Completed + Closed' across all completed cases;Percentage of 'Completed + In Call' out of all 'Completed + Closed';0.02;
+Frequency of 'Completed + In Call' in high-impact versus low-impact cases;"ERROR: computing metric {'count': activity == 'Completed + In Call'"", 'aggregation': 'total', 'filter': 'impact == high'}""";;
+Frequency of 'Completed + In Call' executed by resources from Brazil compared to other countries;"ERROR: computing metric {'count': activity == 'Completed + In Call'"", 'aggregation': 'total', 'filter': 'resource country == Brazil'}""";;
+Frequency of 'Completed + In Call' per year to identify temporal trends;"ERROR: computing metric {'count': activity == 'Completed + In Call'"", 'aggregation': 'total', 'group_by': 'year'}""";;

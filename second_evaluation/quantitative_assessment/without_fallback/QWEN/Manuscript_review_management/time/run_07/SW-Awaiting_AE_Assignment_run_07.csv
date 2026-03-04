@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Average time from SW-Awaiting AE Assignment to SW-AE Assign Reviewers;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-AE Assign Reviewers';19.94 days;
+Total time between SW-Awaiting AE Assignment and SW-Initial Reviewer Selection;The sum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-Initial Reviewer Selection';28.83 days;
+Minimum time it takes SW-AE Assign Reviewers after the execution of SW-Awaiting AE Assignment;The minimum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-AE Assign Reviewers';5.44 hours;
+Average waiting time to the SW-AE Assign Reviewers following SW-Awaiting AE Assignment;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-AE Assign Reviewers';19.94 days;
+Time from SW-Awaiting AE Assignment to SW-EIC Reject in variants ending with rejection;The sum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Reject';514.66 days;
+Elapsed time between SW-Awaiting AE Assignment and SW-Awaiting EIC Decision in variants that proceed to editorial decision;The sum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-Awaiting EIC Decision';1898.04 days;
+Average time until SW-Initial Reviewer Selection is performed after SW-Awaiting AE Assignment;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-Initial Reviewer Selection';19.22 hours;
+Total resolution time of SW-Awaiting AE Assignment when followed by reviewer invitation reminders;The sum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'Reviewer Invitation Reminder 1';991.35 days;
+Minimum time from SW-Awaiting AE Assignment to SW-Reviewer Agreed across all process variants;The minimum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-Reviewer Agreed';3.14 days;
+Time of SW-Awaiting AE Assignment in variants that include SW-Reviewer Declined or SW-Reviewer No Response;The sum of the duration between activity 'SW-Awaiting AE Assignment' and the end of case where activity 'SW-Reviewer Declined occurs;2094.03 days;
+Average time between SW-Awaiting AE Assignment and the first occurrence of SW-Reviewer Agreed;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-Reviewer Agreed';22.24 days;
+Total time from SW-Awaiting AE Assignment to SW-Awaiting AE Recommendation in complex revision cycles;The sum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-Awaiting AE Recommendation';1609.34 days;
+Minimum waiting time to SW-AE Assign Reviewers after SW-Awaiting AE Assignment in high-frequency variants;The minimum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-AE Assign Reviewers';5.44 hours;
+Elapsed time between SW-Awaiting AE Assignment and SW-EIC Major Revision in multi-round revision variants;The sum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Major Revision';442.42 days;
+Time from SW-Awaiting AE Assignment to Manuscript Export Succeeded in variants that loop back to submission after revision;The sum of the duration between activity 'SW-Awaiting AE Assignment' and activity 'Manuscript Export Succeeded';1695.36 days;

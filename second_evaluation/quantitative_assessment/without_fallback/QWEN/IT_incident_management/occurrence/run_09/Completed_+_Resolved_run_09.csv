@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Resolved' executions that are followed by 'Completed + Closed' within the same case;Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' in cases where 'Completed + In Call' never occurs;Frequency of activity 'Completed + Resolved' for cases where activity 'Completed + In Call' does not occur;5663.0;
+Percentage of total variants ending with 'Completed + Resolved' → 'Completed + Closed' compared to variants ending with 'Completed + In Call';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Number of 'Completed + Resolved' activities that occur after at least one 'Queued + Awaiting Assignment' in the same case;Number of 'Completed + Resolved' activities for cases where activity 'Queued + Awaiting Assignment' occurs;4908.0;
+Percentage of 'Completed + Resolved' events that are part of high-frequency variants (frequency ≥ 100);Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' relative to the frequency of 'Completed + In Call' across all cases;Frequency of activity 'Completed + Resolved' for cases where activity 'Completed + In Call' occurs;135.0;
+Percentage of cases containing 'Completed + Resolved' that also contain 'Completed + In Call' earlier in the trace;Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Number of variants where 'Completed + Resolved' is directly preceded by 'Accepted + Wait - User';Number of 'Completed + Resolved' activities for cases where activity 'Accepted + Wait - User' occurs;2728.0;
+Percentage of 'Completed + Resolved' occurrences that lead to case closure ('Completed + Closed') within 24 hours;Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' in cases originating from the VINST incident management system with impact level 'High';Frequency of activity 'Completed + Resolved';251.0;
+Ratio of 'Completed + Resolved' to 'Accepted + In Progress' across all process instances;Percentage of 'Completed + Resolved' out of all 'Accepted + In Progress';0.75;
+Percentage of 'Completed + Resolved' activities that appear in variants with performance duration below the median variant performance;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Number of 'Completed + Resolved' activities that occur without any prior 'Completed + In Call' in the same case;Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' does not occur;6108.0;
+Percentage of 'Completed + Resolved' that follows a wait-state activity (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', 'Accepted + Wait - Implementation', or 'Accepted + Wait');Percentage of 'Completed + Resolved' out of all 'Accepted + Wait - User';0.98;
+Frequency of 'Completed + Resolved' in variants that start with 'Queued + Awaiting Assignment' versus those that start with 'Accepted + In Progress';Frequency of activity 'Completed + Resolved' for cases where activity 'Queued + Awaiting Assignment' occurs;4508.0;
+Percentage of all 'Completed + Resolved' events that belong to the top 5 most frequent process variants;Percentage of 'Completed + Resolved' out of all cases;0.75;

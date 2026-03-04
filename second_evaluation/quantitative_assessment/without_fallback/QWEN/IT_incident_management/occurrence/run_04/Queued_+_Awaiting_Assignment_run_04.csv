@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of Queued + Awaiting Assignment activities that appear in variants ending with Completed + In Call;Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Frequency of Queued + Awaiting Assignment in cases where Completed + In Call is present;Frequency of activity 'Queued + Awaiting Assignment' for cases where activity 'Completed + In Call' occurs;64.0;
+Percentage of Queued + Awaiting Assignment relative to the total occurrences of Completed + In Call;Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Frequency of Queued + Awaiting Assignment appearing more than once in the same case;the sum of the function base > 1 where base is the number of times `ACTIVITY` == 'Queued + Awaiting Assignment';2445.0;
+Percentage of variants starting with Queued + Awaiting Assignment among all variants;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;
+Percentage of Queued + Awaiting Assignment that are eventually followed by Completed + Resolved;Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + Resolved';0.8;
+Frequency of Queued + Awaiting Assignment occurring before any Accepted + Wait - User activity;Frequency of activity 'Queued + Awaiting Assignment';4511.0;
+Percentage of Queued + Awaiting Assignment in variants that do not contain Completed + In Call;Percentage of 'Queued + Awaiting Assignment' out of all cases where 'Completed + In Call' does not happen;0.6;
+Percentage of Queued + Awaiting Assignment that directly precede a second Queued + Awaiting Assignment;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;
+Frequency of Queued + Awaiting Assignment in the top 5 most frequent process variants;Frequency of activity 'Queued + Awaiting Assignment';4511.0;
+Percentage of Queued + Awaiting Assignment relative to Accepted + In Progress occurrences;Percentage of 'Queued + Awaiting Assignment' out of all 'Accepted + In Progress';0.6;
+Frequency of Queued + Awaiting Assignment in variants with performance duration below the median;Frequency of activity 'Queued + Awaiting Assignment';4511.0;
+Frequency of Queued + Awaiting Assignment in high-impact incidents (impact = High);"ERROR: computing metric {'count': activity == 'Queued + Awaiting Assignment'"", 'metric_condition': '> 0', 'aggregation': 'total', 'filter': 'impact == High'}""";;
+Frequency of Queued + Awaiting Assignment per year based on time:timestamp;"ERROR: computing metric {'count': activity == 'Queued + Awaiting Assignment'"", 'metric_condition': '> 0', 'aggregation': 'total', 'group_by': 'year'}""";;
+Percentage of Queued + Awaiting Assignment executed by resources from France compared to other countries;"ERROR: computing metric {'count': activity == 'Queued + Awaiting Assignment'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'resource country == France'}""";;
+Frequency of Queued + Awaiting Assignment in cases involving product PROD582;"ERROR: computing metric {'count': activity == 'Queued + Awaiting Assignment'"", 'metric_condition': '> 0', 'aggregation': 'total', 'filter': 'product == PROD582'}""";;

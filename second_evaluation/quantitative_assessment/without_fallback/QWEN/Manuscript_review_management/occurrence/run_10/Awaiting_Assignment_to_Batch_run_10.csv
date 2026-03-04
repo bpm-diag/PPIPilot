@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Awaiting Assignment to Batch' out of all activity executions in the event log;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Frequency of 'Awaiting Assignment to Batch' occurrences across all cases;Number of 'Awaiting Assignment to Batch' activities;26.0;
+Percentage of process variants that include 'Awaiting Assignment to Batch';Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Number of times 'Awaiting Assignment to Batch' is directly preceded by 'First Look Manuscript Submission Confirmation';Number of 'Awaiting Assignment to Batch' activities;26.0;
+Percentage of 'Awaiting Assignment to Batch' that occurs after 'SW-EIC Accept';Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Accept';1.0;
+Percentage of 'Awaiting Assignment to Batch' relative to the frequency of 'Manuscript Export Succeeded';Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Number of process instances where 'Awaiting Assignment to Batch' appears exactly once;the sum of the function base == 1 where base is the number of times `ACTIVITY` == 'Awaiting Assignment to Batch';26.0;
+Percentage of cases containing 'Awaiting Assignment to Batch' that ultimately conclude with a final manuscript export (i.e., end with 'Manuscript Export Succeeded');Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Frequency of 'Awaiting Assignment to Batch' compared to other post-acceptance activities such as 'First Look-Please submit updates';Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look-Please submit updates' occurs;23.0;
+Percentage of variants in which 'Awaiting Assignment to Batch' follows a sequence starting with 'Original Manuscript Submission Confirmation' and including at least one 'SW-Reviewer Agreed';Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Reviewer Agreed';0.39;
+Number of times 'Awaiting Assignment to Batch' occurs in cases that also include the activity 'SW-Reviewer Agreed';Number of 'Awaiting Assignment to Batch' activities for cases where activity 'SW-Reviewer Agreed' occurs;18.0;
+Ratio of 'Awaiting Assignment to Batch' occurrences to total number of accepted manuscripts (proxied by occurrences of 'SW-EIC Accept' or 'RW-EIC Accept');Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Accept';1.0;
+Percentage of 'Awaiting Assignment to Batch' events that are part of the final phase of the review process (i.e., appear after any 'EIC Decision' activity);Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Awaiting EIC Decision';0.39;
+Frequency of 'Awaiting Assignment to Batch' in variants with performance duration above the median case duration;Number of 'Awaiting Assignment to Batch' activities;26.0;
+Frequency of 'Awaiting Assignment to Batch' in variants that originate from a major revision cycle (i.e., contain 'SW–Major Revision due in 1 month' or similar);"ERROR: computing metric {'count': activity == 'Awaiting Assignment to Batch'"", 'aggregation': 'total', 'filter': ""activity == 'SW–Major Revision due in 1 month'""}""";;

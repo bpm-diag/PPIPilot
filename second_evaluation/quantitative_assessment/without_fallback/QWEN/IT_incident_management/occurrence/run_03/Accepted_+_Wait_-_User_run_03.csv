@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Wait - User' appearing in variants that eventually lead to 'Completed + Closed';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + Closed' occurs;3759.0;
+Percentage of 'Accepted + Wait - User' relative to the frequency of 'Accepted + In Progress';Percentage of 'Accepted + Wait - User' out of all 'Accepted + In Progress';0.33;
+Frequency of cases where 'Accepted + Wait - User' appears more than once;Number of 'Accepted + Wait - User' activities;3883.0;
+Percentage of 'Accepted + Wait - User' activities occurring in variants with total performance duration above the median;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' preceding a return to 'Accepted + In Progress';Number of 'Accepted + Wait - User' activities for cases where activity 'Accepted + In Progress' occurs;3874.0;
+Percentage of 'Accepted + Wait - User' in comparison to 'Accepted + Wait - Vendor';Percentage of 'Accepted + Wait - User' out of all 'Accepted + Wait - Vendor';0.43;
+Percentage of process variants containing 'Accepted + Wait - User' that also contain 'Completed + In Call';Percentage of 'Accepted + Wait - User' out of all 'Completed + In Call';0.06;
+Frequency of 'Accepted + Wait - User' occurring before any occurrence of 'Completed + In Call' in the same case;Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + In Call' occurs;161.0;
+Frequency of 'Accepted + Wait - User' in variants that do not include 'Completed + In Call';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + In Call' does not occur;3883.0;
+Percentage of all 'Accepted + Wait - User' events that are part of the top 5 most frequent variants;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of transition from 'Accepted + In Progress' to 'Accepted + Wait - User' across the entire log;Number of 'Accepted + Wait - User' activities for cases where activity 'Accepted + In Progress' occurs;3874.0;
+Percentage of cases containing 'Accepted + Wait - User' that have a product type among the top 3 most common products;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' appearing immediately after another waiting state (e.g., 'Accepted + Wait');Number of 'Accepted + Wait - User' activities for cases where activity 'Accepted + Wait' occurs;1135.0;
+Frequency of 'Accepted + Wait - User' in high-impact (High or Medium) incidents;"ERROR: computing metric {'count': activity == 'Accepted + Wait - User'"", 'aggregation': 'total', 'filter': 'impact == High'}""";;
+Percentage of 'Accepted + Wait - User' executed by resources from France versus other countries;"ERROR: computing metric {'count': activity == 'Accepted + Wait - User'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'resource country == France'}""";;

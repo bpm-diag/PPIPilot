@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Closed' activities that follow a path containing at least one 'Queued + Awaiting Assignment' activity;Percentage of 'Completed + Closed' out of all 'Queued + Awaiting Assignment';0.99;
+Frequency of 'Completed + Closed' in high-impact incidents (impact = 'High') versus low-impact incidents (impact = 'Low');Percentage of 'Completed + Closed' out of all cases;0.94;
+Percentage of variants where 'Completed + Closed' is preceded directly by 'Completed + Resolved', relative to all occurrences of 'Completed + Closed';Percentage of 'Completed + Closed' out of all 'Completed + Resolved';0.98;
+Percentage of 'Completed + Closed' activities that occur in variants with total performance duration above the median variant performance;Percentage of 'Completed + Closed' out of all cases;0.74;
+Frequency of 'Completed + Closed' compared to the frequency of 'Completed + In Call' across all cases;Percentage of 'Completed + Closed' out of all 'Completed + In Call';0.07;
+Percentage of cases where 'Completed + Closed' occurs without any intermediate waiting states (e.g., 'Accepted + Wait - Customer', 'Accepted + Wait - Vendor', etc.);Percentage of 'Completed + Closed' out of all cases where 'Accepted + Wait - Customer' does not happen;0.74;
+Ratio of 'Completed + Closed' to 'Accepted + In Progress' as a measure of process completion efficiency;Percentage of 'Completed + Closed' out of all 'Accepted + In Progress';0.74;
+Percentage of 'Completed + Closed' executed by resources from non-France countries (e.g., Brazil, USA) versus France-based resources;Percentage of 'Completed + Closed' out of all cases;0.74;
+Number of distinct case variants that include 'Completed + Closed' and contain more than three activity transitions before closure;Number of 'Completed + Closed' activities;5704.0;
+Percentage of 'Completed + Closed' that are part of the top 5 most frequent process variants in the log;Percentage of 'Completed + Closed' out of all cases;0.74;
+Number of 'Completed + Closed' events per year, highlighting temporal trends in resolution closure;"ERROR: computing metric {'count': activity == 'Completed + Closed'"", 'aggregation': 'total', 'group_by': 'year'}""";;

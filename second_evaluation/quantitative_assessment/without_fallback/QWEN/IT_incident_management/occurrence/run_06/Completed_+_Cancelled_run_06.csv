@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Frequency of Completed + Cancelled in comparison to the frequency of Completed + In Call;Percentage of 'Completed + Cancelled' out of all 'Completed + In Call';0.0;
+Percentage of cases containing Completed + Cancelled relative to total number of cases in the VINST incident management log;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Number of Completed + Cancelled events grouped by country;Number of 'Completed + Cancelled' activities grouped by the last value of organization country;0:0;"{""0"":0,""SE"":0,""au"":0,""be"":0,""br"":0,""ca"":0,""cl"":0,""cn"":0,""de"":0,""fr"":0,""gb"":0,""in"":0,""jp"":0,""kr"":0,""my"":0,""nl"":0,""pe"":0,""pl"":1,""ru"":0,""se"":0,""th"":0,""tr"":0,""us"":0}"
+Percentage of Completed + Cancelled that appear as the final activity in a case variant;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Ratio of Completed + Cancelled to Completed + Resolved across all process variants;Percentage of 'Completed + Cancelled' out of all 'Completed + Resolved';0.0;
+Frequency of Completed + Cancelled occurring after any 'Accepted + Wait' type activity (e.g., Accepted + Wait - User, Accepted + Wait - Vendor);Number of 'Completed + Cancelled' activities;1;
+Percentage of Completed + Cancelled activities executed by resource 'Lierson' compared to other resources;Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Number of variants in which Completed + Cancelled appears at least once;Number of 'Completed + Cancelled' activities;1;
+Percentage of Completed + Cancelled out of all terminal activities (i.e., activities that end a case);Percentage of 'Completed + Cancelled' out of all cases;0.0;
+Frequency of Completed + Cancelled in high-impact incidents (impact = 'High') versus low-impact incidents (impact = 'Low');Number of 'Completed + Cancelled' activities == 'High' where ma is the last value of impact;1;
+Ratio of Completed + Cancelled to Unmatched + Unmatched occurrences;Percentage of 'Completed + Cancelled' out of all 'Unmatched + Unmatched';0.0;
+Percentage of Completed + Cancelled that occur in cases also containing Completed + In Call;Percentage of 'Completed + Cancelled' out of all 'Completed + In Call';0.0;
+Percentage of variants that end with Completed + Cancelled compared to variants ending with Completed + Resolved or Completed + Closed;"ERROR: computing metric {'count': activity == 'Completed + Cancelled'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity == 'Completed + Resolved' or activity == 'Completed + Closed'""}""";;
+Percentage of Completed + Cancelled that are not preceded by any Completed + Resolved or Completed + Closed activity;"ERROR: computing metric {'count': activity == 'Completed + Cancelled'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity != 'Completed + Resolved' and activity != 'Completed + Closed'""}""";;
+Number of Completed + Cancelled events per year to assess temporal trends in cancellation behavior;"ERROR: computing metric {'count': activity == 'Completed + Cancelled'"", 'aggregation': 'total', 'group_by': 'year'}""";;
+Frequency of Completed + Cancelled as the sole completion activity in a case (i.e., no other Completed-type activity present);"ERROR: computing metric {'count': activity == 'Completed + Cancelled'"", 'aggregation': 'total', 'filter': ""activity != 'Completed + Resolved' and activity != 'Completed + Closed' and activity != 'Completed + In Call'""}""";;

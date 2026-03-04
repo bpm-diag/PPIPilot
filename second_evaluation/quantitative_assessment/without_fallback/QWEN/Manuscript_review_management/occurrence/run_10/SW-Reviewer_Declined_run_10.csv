@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Reviewer Declined occurring in the first reviewer assignment attempt versus later attempts;Percentage of 'SW-Reviewer Declined' out of all cases;0.31;
+Percentage of SW-Reviewer Declined that occur after SW-Reviewer Selection is now due;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Selection is now due';0.5;
+Frequency of SW-Reviewer Declined in relation to SW-AE Assign Reviewers within the same case;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Number of SW-Reviewer Declined events per month to identify temporal patterns in reviewer availability;"ERROR: computing metric {'count': activity == 'SW-Reviewer Declined'"", 'aggregation': 'total', 'group_by': 'month'}""";;
+Number of times SW-Reviewer Declined appears before SW-Awaiting AE Recommendation;Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-Awaiting AE Recommendation' occurs;37.0;
+Frequency of SW-Reviewer Declined in variants that eventually lead to SW-EIC Reject;Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Reject';0.18;
+Percentage of SW-Reviewer Declined that are followed by Assign a Different Editor;Percentage of 'SW-Reviewer Declined' out of all 'Assign a Different Editor';0.27;
+Frequency of SW-Reviewer Declined in comparison with RW-Reviewer Declined in revised manuscript phases;Percentage of 'SW-Reviewer Declined' out of all 'RW-Reviewer Declined';1.0;
+Percentage of SW-Reviewer Declined in cases that ultimately reach SW-EIC Accept;Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Accept';0.0;
+Number of SW-Reviewer Declined events per case;Number of 'SW-Reviewer Declined' activities;61.0;
+Percentage of cases containing SW-Reviewer Declined that result in a Major Revision decision by the EIC;Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Major Revision';0.8;
+Number of SW-Reviewer Declined events that trigger Unassign Reviewer or Unassign Editor actions;"ERROR: computing metric {'count': activity == 'SW-Reviewer Declined'"", 'aggregation': 'total', 'filter': ""activity == 'Unassign Reviewer' or activity == 'Unassign Editor'""}""";;
+Percentage of SW-Reviewer Declined out of all reviewer-related activities (e.g., SW-Reviewer Agreed, SW-Reviewer Unavailable, SW-Reviewer No Response);"ERROR: computing metric {'count': activity == 'SW-Reviewer Declined'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity == 'SW-Reviewer Agreed' or activity == 'SW-Reviewer Unavailable' or activity == 'SW-Reviewer No Response'""}""";;
+Percentage of SW-Reviewer Declined that occur within three days of SW-Reviewer Selection is due in 3 days;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Selection is due in 3 days';0.54;
+Percentage of SW-Reviewer Declined relative to the total number of SW-AE Assign Reviewers executions;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Number of SW-Reviewer Declined occurrences in variants with performance duration above the median;Number of 'SW-Reviewer Declined' activities;61.0;

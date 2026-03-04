@@ -1,0 +1,18 @@
+Name;Metric;Value;Agrupation
+Number of times 'Accepted + Wait' appears in variants that do not include 'Completed + Resolved';Number of 'Accepted + Wait' activities for cases where activity 'Completed + Resolved' does not occur;1461.0;
+Percentage of 'Accepted + Wait' occurrences relative to the total occurrences of 'Accepted + In Progress';Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Frequency of 'Accepted + Wait' followed directly by 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Percentage of cases where 'Accepted + Wait' is present and the case duration exceeds the median case duration of variants ending in 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Number of variants in which 'Accepted + Wait' occurs before 'Completed + In Call';Number of 'Accepted + Wait' activities for cases where activity 'Completed + In Call' occurs;89.0;
+Frequency of 'Accepted + Wait' in variants that also contain 'Accepted + Wait - User';Percentage of 'Accepted + Wait' out of all 'Accepted + Wait - User';0.23;
+Percentage of 'Accepted + Wait' occurrences compared to the sum of all 'Accepted + Wait - *' subtypes;Percentage of 'Accepted + Wait' out of all 'Accepted + Wait - User';0.23;
+Number of times 'Accepted + Wait' appears without being followed by any further activity within the same case;Number of 'Accepted + Wait' activities;1461.0;
+Percentage of cases containing 'Accepted + Wait' that end in 'Completed + Closed' versus those ending in 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + Closed';0.19;
+Frequency of 'Accepted + Wait' in variants with performance (total duration) above 1,000,000 time units;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Number of distinct cases in which 'Accepted + Wait' occurs more than once;Number of 'Accepted + Wait' activities;1461.0;
+Percentage of 'Accepted + Wait' activities that occur after at least two repetitions of 'Accepted + In Progress';Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Frequency of direct transitions from 'Accepted + Wait' to 'Accepted + In Progress';Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Percentage of all 'Completed + In Call' instances that are preceded at any point in the trace by 'Accepted + Wait';Percentage of 'Completed + In Call' out of all 'Accepted + Wait';0.07;
+Ratio of variants containing 'Accepted + Wait' to total number of unique variants in the log;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Percentage of 'Accepted + Wait' activities that are part of high-impact (High or Medium) incidents;"ERROR: computing metric {'count': activity == 'Accepted + Wait'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'impact == High'}""";;
+Percentage of 'Accepted + Wait' executed by resources from non-France countries;"ERROR: computing metric {'count': activity == 'Accepted + Wait'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'resource country != France'}""";;

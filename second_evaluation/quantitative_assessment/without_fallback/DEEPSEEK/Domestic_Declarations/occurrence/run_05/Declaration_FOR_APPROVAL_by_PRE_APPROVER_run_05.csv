@@ -1,0 +1,25 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' from all 'Declaration FOR_APPROVAL by SUPERVISOR';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration FOR_APPROVAL by SUPERVISOR';0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' with amounts above 100 euros;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities > 100 where ma is the last value of case:Amount;1;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' by 'STAFF MEMBER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' grouped by 'org:resource';Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities grouped by the last value of org:resource;STAFF MEMBER:1;"{""STAFF MEMBER"":1,""SYSTEM"":0}"
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' by worker;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;STAFF MEMBER:0.0;"{""STAFF MEMBER"":0.0021881838,""SYSTEM"":0.0}"
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' that are rejected;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' in relation to 'Declaration FOR_APPROVAL by ADMINISTRATION';Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities for cases where activity 'Declaration FOR_APPROVAL by ADMINISTRATION' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;0.0;
+Number of times 'Declaration FOR_APPROVAL by PRE_APPROVER' is performed;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities;1;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' done after 'Declaration SUBMITTED by EMPLOYEE';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Average number of 'Declaration FOR_APPROVAL by PRE_APPROVER' per case;the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by PRE_APPROVER';0.0;
+Fraction of 'Declaration FOR_APPROVAL by PRE_APPROVER' that are dismissed;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by MISSING';0.01;
+Total 'Declaration FOR_APPROVAL by PRE_APPROVER' performed by 'SYSTEM';Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities == 'SYSTEM' where ma is the last value of org:resource;0;
+Ratio of 'Declaration FOR_APPROVAL by PRE_APPROVER' over 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Occasions how often the 'Declaration FOR_APPROVAL by PRE_APPROVER' is performed per variant;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities;1;
+The ratio of 'Declaration FOR_APPROVAL by PRE_APPROVER' that are not eventually performed;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases where 'Declaration APPROVED by PRE_APPROVER' does not happen;0.0;
+Percentage of variants containing 'Declaration FOR_APPROVAL by PRE_APPROVER' that also contain 'Declaration REJECTED by PRE_APPROVER';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' in variants leading to 'Payment Handled';Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all 'Payment Handled';0.0;
+Percentage of cases where 'Declaration FOR_APPROVAL by PRE_APPROVER' occurs but 'Declaration APPROVED by PRE_APPROVER' does not;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases where 'Declaration APPROVED by PRE_APPROVER' does not happen;0.0;
+Average performance time of variants containing 'Declaration FOR_APPROVAL by PRE_APPROVER';the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by PRE_APPROVER';0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities in variants with a 'Declaration REJECTED by EMPLOYEE' loop;Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities for cases where activity 'Declaration REJECTED by EMPLOYEE' occurs;0;
+Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' activities that occur in domestic declaration pathways;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;0.0;
+Frequency of 'Declaration FOR_APPROVAL by PRE_APPROVER' in cases with budget owner and supervisor as the same person;Percentage of 'Declaration FOR_APPROVAL by PRE_APPROVER' out of all cases;0.0;
+Number of 'Declaration FOR_APPROVAL by PRE_APPROVER' made per year;"ERROR: computing metric {'count': activity == 'Declaration FOR_APPROVAL by PRE_APPROVER'"", 'aggregation': 'total', 'group_by': 'year'}""";;

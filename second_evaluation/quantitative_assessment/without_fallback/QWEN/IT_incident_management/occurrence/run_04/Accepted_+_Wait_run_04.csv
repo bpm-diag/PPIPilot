@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait' occurrences that are followed by 'Accepted + In Progress' within the same case;Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Frequency of 'Accepted + Wait' compared to the frequency of 'Accepted + Wait - User';Percentage of 'Accepted + Wait' out of all 'Accepted + Wait - User';0.23;
+Percentage of cases where 'Accepted + Wait' occurs before 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Number of distinct cases containing at least one 'Accepted + Wait' activity;Number of 'Accepted + Wait' activities;1461.0;
+Percentage of 'Accepted + Wait' activities that occur in variants also containing 'Completed + Resolved' and 'Completed + Closed';Percentage of 'Accepted + Wait' out of all 'Completed + Resolved';0.19;
+Frequency of 'Accepted + Wait' relative to the total number of wait-type activities (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', 'Accepted + Wait - Customer', 'Accepted + Wait - Implementation');Percentage of 'Accepted + Wait' out of all 'Accepted + Wait - User';0.23;
+Percentage of variants starting with 'Accepted + In Progress' that include 'Accepted + Wait' before reaching 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Number of 'Accepted + Wait' events that occur in cases with impact level 'High';Number of 'Accepted + Wait' activities == 'High' where ma is the last value of impact;40.0;
+Percentage of 'Accepted + Wait' that is not followed by any other wait-related activity before case completion;Percentage of 'Accepted + Wait' out of all cases where 'Accepted + Wait - User' does not happen;0.15;
+Frequency of 'Accepted + Wait' in comparison to the most frequent activity 'Accepted + In Progress';Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Percentage of process instances where 'Accepted + Wait' directly precedes 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;

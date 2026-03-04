@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Recommendation in the entire event log;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Frequency of SW-Awaiting AE Recommendation occurrences across all cases;Number of 'SW-Awaiting AE Recommendation' activities;37.0;
+Percentage of variants that include SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Number of times SW-Awaiting AE Recommendation is directly preceded by SW-Reviewer Agreed;Number of 'SW-Awaiting AE Recommendation' activities;37.0;
+Percentage of SW-Awaiting AE Recommendation that is followed by SW-Awaiting EIC Decision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Awaiting EIC Decision';0.59;
+Frequency of SW-Awaiting AE Recommendation relative to SW-Reviewer Agreed;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer Agreed' occurs;25.0;
+Percentage of SW-Awaiting AE Recommendation out of all activities occurring after SW-Reviewer Agreed;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Number of variants where SW-Reviewer Agreed leads to SW-Awaiting AE Recommendation;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer Agreed' occurs;25.0;
+Percentage of cases containing SW-Reviewer Agreed that eventually reach SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Frequency of SW-Awaiting AE Recommendation compared to SW-Awaiting Checklist Completion;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Awaiting Checklist Completion' occurs;37.0;
+Percentage of SW-Awaiting AE Recommendation that occurs without any prior SW-Reviewer Declined;Percentage of 'SW-Awaiting AE Recommendation' out of all cases where 'SW-Reviewer Declined' does not happen;0.39;
+Number of SW-Awaiting AE Recommendation events per manuscript submission variant path;Number of 'SW-Awaiting AE Recommendation' activities;37.0;
+Frequency of SW-Awaiting AE Recommendation in comparison to SW-AE Assign Reviewers;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-AE Assign Reviewers' occurs;24.0;
+Percentage of SW-Awaiting AE Recommendation that appears in variants ending with an EIC decision (Accept, Reject, or Revision);"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity == 'SW-EIC Accept' or activity == 'SW-EIC Reject' or activity == 'SW-EIC Major Revision' or activity == 'SW-EIC Minor Revision' or activity == 'SW-EIC Reject & Resubmit'""}""";;
+Percentage of SW-Awaiting AE Recommendation that is not followed by any reviewer-related reminders (e.g., Reviewer Invitation Reminder 1 or 2);"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity != 'Reviewer Invitation Reminder 1' and activity != 'Reviewer Invitation Reminder 2'""}""";;

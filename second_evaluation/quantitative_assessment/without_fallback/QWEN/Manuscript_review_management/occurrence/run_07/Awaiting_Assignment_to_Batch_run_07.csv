@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of cases where 'Awaiting Assignment to Batch' occurs after 'First Look Manuscript Submission Confirmation';Percentage of 'Awaiting Assignment to Batch' out of all 'First Look Manuscript Submission Confirmation';0.96;
+Frequency of 'Awaiting Assignment to Batch' in the entire event log;Number of 'Awaiting Assignment to Batch' activities;26.0;
+Percentage of 'Awaiting Assignment to Batch' out of all activities related to manuscript handover to production;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Number of variants that include 'Awaiting Assignment to Batch' as a terminal or near-terminal activity;Number of 'Awaiting Assignment to Batch' activities;26.0;
+Percentage of 'Awaiting Assignment to Batch' occurrences that are immediately preceded by 'First Look Manuscript Submission Confirmation';Percentage of 'Awaiting Assignment to Batch' out of all 'First Look Manuscript Submission Confirmation';0.96;
+Frequency of 'Awaiting Assignment to Batch' compared to the frequency of 'Manuscript Export Succeeded';Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Manuscript Export Succeeded' occurs;26.0;
+Percentage of cases ending with 'Awaiting Assignment to Batch' relative to all completed review cycles;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Accept';1.0;
+Number of times 'Awaiting Assignment to Batch' appears in variants that originated from an 'SW-EIC Accept' decision;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'SW-EIC Accept' occurs;3.0;
+Percentage of 'Awaiting Assignment to Batch' events that occur within 7 days after 'First Look Manuscript Submission Confirmation';Percentage of 'Awaiting Assignment to Batch' out of all 'First Look Manuscript Submission Confirmation';0.96;
+Ratio of 'Awaiting Assignment to Batch' occurrences to the total number of 'First Look-Your updates are overdue' events;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look-Your updates are overdue' occurs;10.0;
+Frequency of 'Awaiting Assignment to Batch' in variants that passed through at least one major revision cycle;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'SW-EIC Major Revision' occurs;13.0;
+Percentage of all accepted manuscripts (ending in 'EIC Accept') that eventually reach 'Awaiting Assignment to Batch';Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Accept';1.0;
+Number of 'Awaiting Assignment to Batch' events that follow a 'First Look-Your updates are due in one week' reminder;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look-Your updates are due in one week' occurs;19.0;
+Percentage of 'Awaiting Assignment to Batch' occurrences that are part of the shortest variant paths from submission to acceptance;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Accept';1.0;
+Frequency of 'Awaiting Assignment to Batch' relative to other post-acceptance administrative activities such as 'Manuscript Export Succeeded';Number of 'Awaiting Assignment to Batch' activities for cases where activity 'Manuscript Export Succeeded' occurs;26.0;

@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting Checklist Completion out of all activity executions in the event log;Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Number of times SW-Awaiting Checklist Completion is performed;Number of 'SW-Awaiting Checklist Completion' activities;89.0;
+Percentage of cases where SW-Awaiting Checklist Completion is immediately followed by Original Manuscript Submission Confirmation;Percentage of 'SW-Awaiting Checklist Completion' out of all 'Original Manuscript Submission Confirmation';0.99;
+Frequency of SW-Awaiting Checklist Completion appearing as the first activity in a case variant;Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Percentage of SW-Awaiting Checklist Completion occurrences that are not followed by SW-Checklist Completed within the same case;Percentage of 'SW-Awaiting Checklist Completion' out of all cases where 'SW-Checklist Completed' does not happen;0.91;
+Ratio of SW-Awaiting Checklist Completion to SW-Checklist Completed across all cases;Percentage of 'SW-Awaiting Checklist Completion' out of all 'SW-Checklist Completed';1.0;
+Percentage of variants that include SW-Awaiting Checklist Completion relative to the total number of unique variants;Percentage of 'SW-Awaiting Checklist Completion' out of all cases;0.91;
+Number of SW-Awaiting Checklist Completion events that occur before any plagiarism-related activity (e.g., Plagiarism Originality Report Completed or Plagiarism Percent Match Threshold Exceeded);Number of 'SW-Awaiting Checklist Completion' activities for cases where activity 'Plagiarism Originality Report Completed' occurs;86.0;
+Percentage of SW-Awaiting Checklist Completion instances that lead to eventual rejection outcomes (e.g., SW-EIC Reject, SW-EIC Reject & Resubmit);Percentage of 'SW-Awaiting Checklist Completion' out of all 'SW-EIC Reject';0.97;
+Frequency of SW-Awaiting Checklist Completion in cases that undergo multiple revision cycles (e.g., involving RW-Initial Reviewer Selection or RSW-Initial Reviewer Selection);Percentage of 'SW-Awaiting Checklist Completion' out of all 'RW-Initial Reviewer Selection';0.88;
+Percentage of SW-Awaiting Checklist Completion events that are followed by a checklist reminder activity (e.g., SW-Checklist Completion is due in three days or SW-Checklist Completion now due);Percentage of 'SW-Awaiting Checklist Completion' out of all 'SW-Checklist Completion is due in three days';0.97;
+Ratio of SW-Awaiting Checklist Completion to Manuscript Export Succeeded in the initial submission phase;Percentage of 'SW-Awaiting Checklist Completion' out of all 'Manuscript Export Succeeded';0.96;
+Number of cases where SW-Awaiting Checklist Completion appears more than once;Number of 'SW-Awaiting Checklist Completion' activities;89.0;
+Percentage of SW-Awaiting Checklist Completion occurrences that precede reviewer assignment activities (e.g., SW-AE Assign Reviewers or SW-Initial Reviewer Selection);Percentage of 'SW-Awaiting Checklist Completion' out of all 'SW-AE Assign Reviewers';0.96;
+Frequency of SW-Awaiting Checklist Completion in cases that ultimately reach acceptance (e.g., SW-EIC Accept or RW-EIC Accept);Percentage of 'SW-Awaiting Checklist Completion' out of all 'SW-EIC Accept';1.0;

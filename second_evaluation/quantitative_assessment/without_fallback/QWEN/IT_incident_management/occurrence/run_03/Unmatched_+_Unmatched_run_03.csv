@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Unmatched + Unmatched' compared to the frequency of 'Completed + In Call';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0;
+Percentage of cases containing 'Unmatched + Unmatched' that eventually reach 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Number of variants where 'Unmatched + Unmatched' occurs immediately after 'Queued + Awaiting Assignment';Number of 'Unmatched + Unmatched' activities for cases where activity 'Queued + Awaiting Assignment' occurs;2;
+Percentage of 'Unmatched + Unmatched' executions relative to the total number of 'Accepted + In Progress' executions;Percentage of 'Unmatched + Unmatched' out of all 'Accepted + In Progress';0.0;
+Frequency of 'Unmatched + Unmatched' grouped by country;Number of 'Unmatched + Unmatched' activities grouped by the last value of organization country;0:0;"{""0"":0,""SE"":0,""au"":0,""be"":0,""br"":0,""ca"":0,""cl"":0,""cn"":0,""de"":0,""fr"":0,""gb"":0,""in"":0,""jp"":0,""kr"":0,""my"":0,""nl"":0,""pe"":0,""pl"":0,""ru"":0,""se"":5,""th"":0,""tr"":0,""us"":0}"
+Percentage of 'Unmatched + Unmatched' events that are not followed by any other activity (i.e., terminal events);Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Ratio of 'Unmatched + Unmatched' to 'Completed + Resolved' across the entire log;Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + Resolved' occurs;5;
+Number of times 'Unmatched + Unmatched' appears in variants with performance duration below the median variant performance;Number of 'Unmatched + Unmatched' activities;5;
+Percentage of 'Unmatched + Unmatched' executed by resources also involved in 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Percentage of 'Unmatched + Unmatched' occurring in the first position of a variant;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Percentage of 'Unmatched + Unmatched' that occur in variants also containing 'Accepted + Wait - User';Percentage of 'Unmatched + Unmatched' out of all 'Accepted + Wait - User';0.0;
+Ratio of variants containing 'Unmatched + Unmatched' to total number of distinct variants;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' compared to the average frequency of all activities in the log;Number of 'Unmatched + Unmatched' activities;5;
+Frequency of 'Unmatched + Unmatched' in cases that never reach a 'Completed + ...' activity;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'aggregation': 'total', 'filter': ""activity != 'Completed + Resolved' and activity != 'Completed + Closed' and activity != 'Completed + In Call' and activity != 'Completed + Cancelled'""}""";;
+Number of 'Unmatched + Unmatched' events per year based on time:timestamp;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'aggregation': 'total', 'group_by': 'year'}""";;

@@ -1,0 +1,2 @@
+Name;Metric;Value;Agrupation
+Percentage of Original Manuscript Submission Confirmation that is the first event in a case;"ERROR: computing metric {'count': activity == 'Original Manuscript Submission Confirmation'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity == 'Original Manuscript Submission Confirmation'"", 'group_by': 'case:concept:name'}""";;

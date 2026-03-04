@@ -1,0 +1,13 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Queued + Awaiting Assignment' followed by 'Accepted + In Progress' across all cases;Frequency of activity 'Queued + Awaiting Assignment';4511.0;
+Percentage of 'Queued + Awaiting Assignment' occurrences that are part of variants ending in 'Completed + In Call';Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Frequency of 'Queued + Awaiting Assignment' in variants that do not lead to 'Completed + Resolved' or 'Completed + Closed';Frequency of activity 'Queued + Awaiting Assignment' for cases where activity 'Completed + Resolved' does not occur;4511.0;
+Percentage of 'Queued + Awaiting Assignment' relative to the frequency of 'Accepted + In Progress';Percentage of 'Queued + Awaiting Assignment' out of all 'Accepted + In Progress';0.6;
+Frequency of cases where 'Queued + Awaiting Assignment' appears more than once;the sum of the function base > 1 where base is the number of times `ACTIVITY` == 'Queued + Awaiting Assignment';2445.0;
+Percentage of 'Queued + Awaiting Assignment' events that occur before any 'Completed + In Call' activity in the same case;Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Frequency of 'Queued + Awaiting Assignment' in high-impact incidents (impact = 'High');Frequency of activity 'Queued + Awaiting Assignment';209.0;
+Percentage of variants starting with 'Queued + Awaiting Assignment' compared to all variants;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;
+Frequency of 'Queued + Awaiting Assignment' followed by a waiting state (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', 'Accepted + Wait - Implementation', 'Accepted + Wait - Customer', or 'Accepted + Wait');Frequency of activity 'Queued + Awaiting Assignment';4511.0;
+Percentage of 'Queued + Awaiting Assignment' that is eventually followed by 'Completed + In Call' within the same case;Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Frequency of 'Queued + Awaiting Assignment' occurring in cases that never reach 'Completed + In Call';Frequency of activity 'Queued + Awaiting Assignment' for cases where activity 'Completed + In Call' does not occur;4511.0;
+Ratio of 'Queued + Awaiting Assignment' to 'Completed + In Call' across the entire event log;Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;

@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Closed' that occur after exactly one 'Completed + Resolved' without intermediate waiting states;Percentage of 'Completed + Closed' out of all 'Completed + Resolved';0.98;
+Frequency of 'Completed + Closed' in variants that include any 'Accepted + Wait' activity (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.);Number of 'Completed + Closed' activities for cases where activity 'Accepted + Wait' occurs;1104.0;
+Percentage of 'Completed + Closed' among all terminal activities (i.e., compared to 'Completed + In Call', 'Completed + Cancelled');Percentage of 'Completed + Closed' out of all cases;0.74;
+Frequency of 'Completed + Closed' in high-impact incidents (impact = 'High');Number of 'Completed + Closed' activities == 'High' where ma is the last value of impact;249.0;
+Percentage of variants containing 'Completed + Closed' that also contain 'Queued + Awaiting Assignment' at least once;Percentage of 'Completed + Closed' out of all 'Queued + Awaiting Assignment';0.99;
+Frequency of 'Completed + Closed' executed by resources from the 'Org line C' organizational line;Number of 'Completed + Closed' activities == 'Org line C' where ma is the last value of org:group;;
+Percentage of 'Completed + Closed' that are preceded by 'Accepted + In Progress' within the same case;Percentage of 'Completed + Closed' out of all 'Accepted + In Progress';0.74;
+Frequency of 'Completed + Closed' in cases that started with 'Queued + Awaiting Assignment';Number of 'Completed + Closed' activities for cases where activity 'Queued + Awaiting Assignment' occurs;4583.0;
+Percentage of 'Completed + Closed' relative to the total number of 'Completed + Resolved' executions;Percentage of 'Completed + Closed' out of all 'Completed + Resolved';0.98;
+Frequency of 'Completed + Closed' in variants with performance duration below the median variant performance;Number of 'Completed + Closed' activities;5704.0;
+Percentage of 'Completed + Closed' occurring in cases involving product PROD582;Percentage of 'Completed + Closed' out of all cases;0.75;
+Frequency of direct transitions from 'Completed + Resolved' to 'Completed + Closed' without intervening activities;Number of 'Completed + Closed' activities for cases where activity 'Completed + Resolved' occurs;5704.0;
+Percentage of 'Completed + Closed' in variants that do not contain any 'Accepted + Wait - Customer' activity;Percentage of 'Completed + Closed' out of all cases where 'Accepted + Wait - Customer' does not happen;0.74;
+Percentage of 'Completed + Closed' executed by resource 'Lierson';Percentage of 'Completed + Closed' out of all cases;0.0;
+Ratio of 'Completed + Closed' to 'Completed + In Call' across all cases;Percentage of 'Completed + Closed' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Closed' per year based on timestamp;"ERROR: computing metric {'count': activity == 'Completed + Closed'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'group_by': 'year'}""";;

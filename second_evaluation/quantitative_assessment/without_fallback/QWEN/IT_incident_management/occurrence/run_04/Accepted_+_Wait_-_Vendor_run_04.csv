@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Vendor' that occur after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Vendor' out of all 'Queued + Awaiting Assignment';0.04;
+Frequency of 'Accepted + Wait - Vendor' in variants that end with 'Completed + Closed';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + Closed' occurs;294.0;
+Percentage of 'Accepted + Wait - Vendor' relative to the frequency of 'Accepted + Wait - User';Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait - User';0.04;
+Frequency of 'Accepted + Wait - Vendor' compared to 'Accepted + Wait - Implementation';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Accepted + Wait - Implementation' occurs;32.0;
+Percentage of cases containing 'Accepted + Wait - Vendor' that have a total duration above the median case duration;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' in high-impact incidents (impact = 'High');Number of 'Accepted + Wait - Vendor' activities == 'High' where ma is the last value of impact;25.0;
+Percentage of 'Accepted + Wait - Vendor' that are directly preceded by 'Accepted + In Progress';Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + In Progress';0.03;
+Frequency of variants where 'Accepted + Wait - Vendor' appears exactly once;Number of 'Accepted + Wait - Vendor' activities;299.0;
+Percentage of 'Accepted + Wait - Vendor' activities occurring in cases that also contain 'Completed + In Call';Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + In Call';0.0;
+Frequency of 'Accepted + Wait - Vendor' in cases handled by resources from non-France countries;Number of 'Accepted + Wait - Vendor' activities != 'France' where ma is the last value of resource country;299.0;
+Percentage of all 'Accepted + Wait - Vendor' instances that belong to the top 10 most frequent process variants;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of transitions from 'Accepted + Wait - Vendor' to 'Completed + Resolved' versus transitions from 'Accepted + Wait - User' to 'Completed + Resolved';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + Resolved' occurs;299.0;
+Percentage of cases with 'Accepted + Wait - Vendor' that do not include any re-queuing (i.e., no repeated 'Queued + Awaiting Assignment');Percentage of 'Accepted + Wait - Vendor' out of all cases where 'Queued + Awaiting Assignment' does not happen;0.03;
+Percentage of 'Accepted + Wait - Vendor' occurring in PROD582 product cases versus other products;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.0;
+Ratio of 'Accepted + Wait - Vendor' to total wait-type activities ('Accepted + Wait', 'Accepted + Wait - User', 'Accepted + Wait - Implementation', 'Accepted + Wait - Customer');Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' per year to identify temporal trends;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Vendor'"", 'metric_condition': '> 0', 'aggregation': 'total', 'group_by': 'year'}""";;

@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time for Accepted + Wait across all process variants;The average of the duration between activity Accepted + Wait and the end of the case;19.23 days;
+Total time spent in Accepted + Wait per case;The sum of the duration between activity Accepted + Wait and the end of the case;21444.92 days;
+Minimum time required to complete Accepted + Wait;The minimum of the duration between activity Accepted + Wait and the end of the case;12.00 seconds;
+Elapsed time between the start of Accepted + In Progress and the end of Accepted + Wait;The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait';7.99 days;
+Time from Queued + Awaiting Assignment to the completion of Accepted + Wait;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait';9.81 days;
+Average duration of Accepted + Wait when followed by Completed + Resolved;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + Resolved occurs;19.81 days;
+Total time for Accepted + Wait in variants that include Completed + In Call;The sum of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + In Call occurs;773.45 days;
+Minimum time between Accepted + Wait and Completed + In Call;The minimum of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';12.00 seconds;
+Average time for Accepted + Wait in cases where Completed + In Call occurs later in the trace;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + In Call occurs;9.79 days;
+Elapsed time from Accepted + Wait to Completed + In Call;The average of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';6.89 days;
+Time it takes to perform Accepted + Wait after Accepted + In Progress in variants containing Completed + In Call;The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait';2.94 days;
+Total duration of Accepted + Wait compared to the duration of Accepted + Wait - User within the same variant;The sum of the duration between activity Accepted + Wait and the end of the case;21444.92 days;
+Average time for Accepted + Wait versus Accepted + Wait - Implementation in traces leading to Completed + Resolved;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + Resolved occurs;19.81 days;
+Minimum time for Accepted + Wait relative to Accepted + Wait - Vendor in high-impact cases;The minimum of the duration between activity Accepted + Wait and the end of the case;;
+Time between the end of Accepted + Wait and the start of Completed + In Call in recurring process patterns;The average of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';6.89 days;
+Cycle time of Accepted + Wait when it appears immediately before Completed + Resolved;The average of the duration between activity 'Accepted + Wait' and activity 'Completed + Resolved';15.69 days;
+Total time for Accepted + Wait in variants that transition directly to Completed + Closed without intermediate waits;The sum of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + Closed occurs;20975.19 days;
+Elapsed time from case start to the completion of Accepted + Wait in traces that eventually execute Completed + In Call;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait';4.11 days;
+Average duration of Accepted + Wait in variants with multiple re-entries into Accepted + In Progress before Completed + In Call;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + In Call occurs;9.79 days;
+Time from the last occurrence of Accepted + In Progress to the end of Accepted + Wait when Completed + In Call follows;The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait';2.94 days;

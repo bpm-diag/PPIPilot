@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Customer' that occurs after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Customer' out of all 'Queued + Awaiting Assignment';0.02;
+Frequency of 'Accepted + Wait - Customer' in variants that eventually lead to 'Completed + In Call';Percentage of 'Accepted + Wait - Customer' out of all 'Completed + In Call';0.0;
+Percentage of cases containing 'Accepted + Wait - Customer' that do not contain 'Completed + In Call';Percentage of 'Accepted + Wait - Customer' out of all cases where 'Completed + In Call' does not happen;0.01;
+Ratio of 'Accepted + Wait - Customer' occurrences to 'Accepted + Wait - User' occurrences;Percentage of 'Accepted + Wait - Customer' out of all 'Accepted + Wait - User';0.01;
+Number of variants where 'Accepted + Wait - Customer' appears before 'Completed + Closed';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Completed + Closed' occurs;97.0;
+Percentage of total process duration attributable to waiting in 'Accepted + Wait - Customer' state across all variants containing it;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Number of times 'Accepted + Wait - Customer' is preceded by 'Accepted + In Progress';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Accepted + In Progress' occurs;99.0;
+Percentage of cases with 'Accepted + Wait - Customer' that also include at least one re-queuing (i.e., multiple 'Queued + Awaiting Assignment' events);Percentage of 'Accepted + Wait - Customer' out of all 'Queued + Awaiting Assignment';0.02;
+Ratio of variants containing 'Accepted + Wait - Customer' to variants containing 'Completed + In Call';Percentage of 'Accepted + Wait - Customer' out of all 'Completed + In Call';0.0;
+Percentage of 'Accepted + Wait - Customer' activities that are part of high-impact (High or Medium) incidents;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Customer'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'impact == High'}""";;
+Frequency of 'Accepted + Wait - Customer' per year based on time:timestamp;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Customer'"", 'metric_condition': '> 0', 'aggregation': 'total', 'group_by': 'year'}""";;

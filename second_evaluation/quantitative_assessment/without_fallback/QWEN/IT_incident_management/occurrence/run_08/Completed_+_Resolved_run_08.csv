@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Resolved' events that occur in variants also containing 'Completed + In Call';Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Frequency of 'Completed + Resolved' in cases where 'Completed + In Call' appears earlier in the trace;Frequency of activity 'Completed + Resolved' for cases where activity 'Completed + In Call' occurs;135.0;
+Percentage of 'Completed + Resolved' relative to the frequency of 'Completed + In Call';Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Number of process variants where 'Completed + Resolved' appears without any preceding 'Queued + Awaiting Assignment';Number of 'Completed + Resolved' activities for cases where activity 'Queued + Awaiting Assignment' does not occur;6108.0;
+Percentage of 'Completed + Resolved' events that are part of high-frequency variants (frequency > 100);Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' in traces that never include 'Completed + In Call';Frequency of activity 'Completed + Resolved' for cases where activity 'Completed + In Call' does not occur;5663.0;
+Percentage of 'Completed + Resolved' that directly follow 'Accepted + Wait - User';Percentage of 'Completed + Resolved' out of all 'Accepted + Wait - User';0.98;
+Ratio of 'Completed + Resolved' to total occurrences of resolution-related activities ('Completed + Resolved', 'Completed + Closed', 'Completed + In Call', 'Completed + Cancelled');Percentage of 'Completed + Resolved' out of all cases;0.75;
+Number of times 'Completed + Resolved' occurs in the same case as at least one 'Completed + In Call';Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' occurs;154.0;
+Percentage of variants ending with 'Completed + Resolved → Completed + Closed' among all variants containing 'Completed + Resolved';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Percentage of 'Completed + Resolved' events that are preceded by any 'Accepted + Wait' state (including 'Accepted + Wait - User', 'Accepted + Wait - Implementation', etc.);Percentage of 'Completed + Resolved' out of all 'Accepted + Wait';0.95;
+Number of 'Completed + Resolved' occurrences in variants that start with 'Queued + Awaiting Assignment';Number of 'Completed + Resolved' activities for cases where activity 'Queued + Awaiting Assignment' occurs;4908.0;
+Percentage of 'Completed + Resolved' that appear in the top 5 most frequent variants;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of direct transitions from 'Completed + In Call' to 'Completed + Resolved';Frequency of activity 'Completed + Resolved' for cases where activity 'Completed + In Call' occurs;135.0;
+Percentage of 'Completed + Resolved' events that occur in cases with more than three activity repetitions;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' per year to assess temporal trends in resolution activity;"ERROR: computing metric {'count': activity == 'Completed + Resolved'"", 'metric_condition': '> 0', 'aggregation': 'total', 'group_by': 'year'}""";;

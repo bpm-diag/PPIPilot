@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Assigned' activities that occur before 'Completed + In Call' in the same case;Percentage of 'Accepted + Assigned' out of all 'Completed + In Call';0.02;
+Frequency of 'Accepted + Assigned' in variants that eventually lead to 'Completed + In Call';Percentage of 'Accepted + Assigned' out of all 'Completed + In Call';0.02;
+Percentage of 'Accepted + Assigned' relative to the frequency of 'Accepted + In Progress';Percentage of 'Accepted + Assigned' out of all 'Accepted + In Progress';0.24;
+Number of process variants where 'Accepted + Assigned' appears more than once;Number of 'Accepted + Assigned' activities;3121.0;
+Percentage of cases containing 'Accepted + Assigned' that do not end with 'Completed + Closed';Percentage of 'Accepted + Assigned' out of all cases where 'Completed + Closed' does not happen;0.24;
+Frequency of 'Accepted + Assigned' in high-impact incidents (impact = 'High');Number of 'Accepted + Assigned' activities == 'High' where ma is the last value of impact;128.0;
+Percentage of 'Accepted + Assigned' activities performed by resources also involved in 'Completed + In Call';Percentage of 'Accepted + Assigned' out of all 'Completed + In Call';0.02;
+Ratio of 'Accepted + Assigned' to 'Queued + Awaiting Assignment' across the entire log;Percentage of 'Accepted + Assigned' out of all 'Queued + Awaiting Assignment';0.38;
+Number of times 'Accepted + Assigned' occurs without being preceded by 'Queued + Awaiting Assignment';Number of 'Accepted + Assigned' activities for cases where activity 'Queued + Awaiting Assignment' does not occur;3121.0;
+Percentage of 'Accepted + Assigned' that are part of variants with total performance duration above the median;Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' in cases that include at least one 'Completed + In Call' activity;Percentage of 'Accepted + Assigned' out of all 'Completed + In Call';0.02;

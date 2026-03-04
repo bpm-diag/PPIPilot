@@ -1,0 +1,33 @@
+Name;Metric;Value;Agrupation
+Average time for Completed + Cancelled;The average of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Total time for Completed + Cancelled;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Minimum time for Completed + Cancelled;The minimum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Time of Completed + Cancelled;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Completed + Cancelled Cycle Time;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Average time from Completed + Cancelled to Completed + Closed;The average of the duration between activity 'Completed + Cancelled' and activity 'Completed + Closed';;
+Total time from Completed + Cancelled to Completed + Closed;The sum of the duration between activity 'Completed + Cancelled' and activity 'Completed + Closed';;
+Minimum time from Completed + Cancelled to Completed + Closed;The minimum of the duration between activity 'Completed + Cancelled' and activity 'Completed + Closed';;
+Average time between Completed + Cancelled and Accepted + In Progress;The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + Cancelled';8.66 hours;
+Total time between Completed + Cancelled and Accepted + In Progress;The sum of the duration between activity 'Accepted + In Progress' and activity 'Completed + Cancelled';8.66 hours;
+Minimum time between Completed + Cancelled and Accepted + In Progress;The minimum of the duration between activity 'Accepted + In Progress' and activity 'Completed + Cancelled';8.66 hours;
+Average time it takes Completed + Cancelled after the execution of Accepted + Wait - User;The average of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Cancelled';8.65 hours;
+Total time it takes Completed + Cancelled after the execution of Accepted + Wait - User;The sum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Cancelled';8.65 hours;
+Minimum time it takes Completed + Cancelled after the execution of Accepted + Wait - User;The minimum of the duration between activity 'Accepted + Wait - User' and activity 'Completed + Cancelled';8.65 hours;
+Average waiting time to the Completed + Cancelled;The average of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Total waiting time to the Completed + Cancelled;The sum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Minimum waiting time to the Completed + Cancelled;The minimum of the duration between activity Completed + Cancelled and the end of the case;0.00 seconds;
+Average time until Completed + Cancelled is performed in variants that include Completed + In Call;The average of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Total time until Completed + Cancelled is performed in variants that include Completed + In Call;The sum of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Minimum time until Completed + Cancelled is performed in variants that include Completed + In Call;The minimum of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Average time for Completed + Cancelled grouped by impact;The average of the duration between activity 'Completed + Cancelled' and the end of case grouped by the last value of impact;High:0.00 seconds;"{""High"":0,""Low"":null,""Major"":null,""Medium"":null}"
+Total time for Completed + Cancelled grouped by impact;The average of the duration between activity 'Completed + Cancelled' and the end of case grouped by the last value of impact;High:0.00 seconds;"{""High"":0,""Low"":null,""Major"":null,""Medium"":null}"
+Minimum time for Completed + Cancelled grouped by impact;The average of the duration between activity 'Completed + Cancelled' and the end of case grouped by the last value of impact;High:0.00 seconds;"{""High"":0,""Low"":null,""Major"":null,""Medium"":null}"
+Average time from Queued + Awaiting Assignment to Completed + Cancelled;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + Cancelled';;
+Total time from Queued + Awaiting Assignment to Completed + Cancelled;The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + Cancelled';;
+Minimum time from Queued + Awaiting Assignment to Completed + Cancelled;The minimum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + Cancelled';;
+Average time between Completed + In Call and Completed + Cancelled;The average of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Total time between Completed + In Call and Completed + Cancelled;The sum of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Minimum time between Completed + In Call and Completed + Cancelled;The minimum of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Average time it takes Completed + Cancelled after the execution of Completed + In Call;The average of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Total time it takes Completed + Cancelled after the execution of Completed + In Call;The sum of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;
+Minimum time it takes Completed + Cancelled after the execution of Completed + In Call;The minimum of the duration between activity 'Completed + In Call' and activity 'Completed + Cancelled';7.05 hours;

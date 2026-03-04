@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Elapsed time between consecutive SW-AE Assign Reviewers events within a case;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-AE Assign Reviewers';16.20 days;
+Time until SW-Reviewer Agreed since the first SW-AE Assign Reviewers;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Time of the SW-AE Assign Reviewers activity block (from first to last assignment event in a phase);The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-AE Assign Reviewers';745.36 days;
+SW-AE Assign Reviewers Phase Cycle Time (from start of assignment phase to completion of reviewer responses);The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Average duration of SW-AE Assign Reviewers compared to the average duration of SW-Initial Reviewer Selection;The average of the duration between activity SW-AE Assign Reviewers and the end of the case;171.57 days;
+Ratio of the average time for SW-AE Assign Reviewers to the average time for SW-Awaiting EIC Decision;The average of the duration between activity SW-AE Assign Reviewers and the end of the case;171.57 days;
+Difference in average time for SW-AE Assign Reviewers between variants with and without SW-Reviewer Unavailable events;The average of the duration between activity 'SW-AE Assign Reviewers' and the end of case where activity 'SW-Reviewer Unavailable occurs;168.60 days;
+Average time from SW-AE Assign Reviewers to SW-Reviewer Selection is now due;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Selection is now due';4.74 days;
+Average time between SW-AE Assign Reviewers and Reviewer Invitation Reminder 1;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'Reviewer Invitation Reminder 1';65.33 days;
+Time from SW-AE Assign Reviewers to the subsequent Assign a Different Editor activity;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'Assign a Different Editor';126.53 days;
+Average time for SW-AE Assign Reviewers in the scientific paper review process before a major revision decision;The average of the duration between activity SW-AE Assign Reviewers and the end of the case;171.57 days;
+Impact of SW-AE Assign Reviewers duration on the total time until SW-EIC Accept;The sum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Accept';;
+Comparison of SW-AE Assign Reviewers duration in the original review round (SW) versus the revised manuscript round (RW);The average of the duration between activity SW-AE Assign Reviewers and the end of the case;171.57 days;
+Average time from SW-AE Assign Reviewers to the end of the reviewer invitation phase (first response or reminder);The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'Reviewer Invitation Reminder 1';65.33 days;
+Average time for SW-AE Assign Reviewers grouped by case outcome (e.g., SW-EIC Accept, SW-EIC Reject);"ERROR: computing metric {'begin': activity == 'SW-AE Assign Reviewers'"", 'end': '', 'aggregation': 'average', 'group_by': 'concept:name'}""";;

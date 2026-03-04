@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + In Progress' activities that eventually lead to 'Completed + In Call' (directly or indirectly);Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Frequency of 'Accepted + In Progress' in variants that end with 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Percentage of 'Accepted + In Progress' relative to 'Queued + Awaiting Assignment' across the entire log;Percentage of 'Accepted + In Progress' out of all 'Queued + Awaiting Assignment';1.0;
+Number of cases where 'Accepted + In Progress' occurs more than once before reaching 'Completed + In Call';Number of 'Accepted + In Progress' activities for cases where activity 'Completed + In Call' occurs;2600.0;
+Percentage of variants containing 'Accepted + In Progress' that do not include any 'Accepted + Wait' type activity before 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all cases where 'Accepted + Wait' does not happen;1.0;
+Frequency of 'Accepted + In Progress' as the first activity in a case;Number of 'Accepted + In Progress' activities;22946.0;
+Percentage of 'Accepted + In Progress' executions that are part of high-frequency variants ending in 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Ratio of 'Accepted + In Progress' to 'Completed + Resolved' across all traces;Percentage of 'Accepted + In Progress' out of all 'Completed + Resolved';1.0;
+Number of 'Accepted + In Progress' events occurring in cases that never reach 'Completed + In Call';Number of 'Accepted + In Progress' activities for cases where activity 'Completed + In Call' does not occur;22946.0;
+Percentage of 'Accepted + In Progress' activities followed directly by another 'Accepted + In Progress';Percentage of 'Accepted + In Progress' out of all 'Accepted + In Progress';1.0;
+Frequency of 'Accepted + In Progress' in cases with impact level 'High' that result in 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Percentage of all 'Completed + In Call' instances that are immediately preceded by 'Accepted + In Progress';Percentage of 'Completed + In Call' out of all 'Accepted + In Progress';0.27;
+Average number of 'Accepted + In Progress' occurrences per case in variants that include 'Completed + In Call';the average of the number of times `ACTIVITY` == 'Accepted + In Progress' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Completed + In Call';1.29;
+Percentage of 'Accepted + In Progress' activities that occur after 'Queued + Awaiting Assignment' and before 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Queued + Awaiting Assignment';1.0;
+Number of distinct variants where 'Accepted + In Progress' appears at least twice before 'Completed + In Call';Number of 'Accepted + In Progress' activities for cases where activity 'Completed + In Call' occurs;2600.0;
+Percentage of total activity executions represented by 'Accepted + In Progress' in cases that end with 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;

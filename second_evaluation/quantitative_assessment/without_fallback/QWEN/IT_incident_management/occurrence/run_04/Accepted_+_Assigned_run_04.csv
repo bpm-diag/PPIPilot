@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Assigned' that are followed by 'Accepted + In Progress';Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Percentage of 'Accepted + Assigned' occurring in cases that include the activity 'Completed + In Call';Percentage of 'Accepted + Assigned' out of all 'Completed + In Call';0.02;
+Frequency of 'Accepted + Assigned' compared to the frequency of 'Accepted + Wait - User';Frequency of activity 'Accepted + Assigned';1829.0;
+Percentage of variants where 'Accepted + Assigned' appears more than once;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Accepted + Assigned';0.09;
+Percentage of 'Accepted + Assigned' executed by resources also involved in executing 'Completed + In Call';Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Frequency of 'Accepted + Assigned' in variants that do not contain any 'Accepted + Wait' type activities;Frequency of activity 'Accepted + Assigned' for cases where activity 'Accepted + Wait' does not occur;1829.0;
+Percentage of 'Accepted + Assigned' that occur before the first occurrence of 'Completed + In Call' in the same case;Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Percentage of 'Accepted + Assigned' within variants whose total performance exceeds 1,000,000 time units;the average of the function base > 1000000 where base is the number of times `ACTIVITY` == 'Accepted + Assigned';0.0;
+Frequency of 'Accepted + Assigned' in variants with performance duration below the median variant performance;"ERROR: computing metric {'count': activity == 'Accepted + Assigned'"", 'metric_condition': '< median', 'aggregation': 'total'}""";;
+Frequency of 'Accepted + Assigned' in high-impact (High or Medium) cases versus low-impact cases;"ERROR: computing metric {'count': activity == 'Accepted + Assigned'"", 'metric_condition': '> 0', 'aggregation': 'total', 'filter': 'impact == High'}""";;
+Frequency of 'Accepted + Assigned' per year, highlighting trends over time;"ERROR: computing metric {'count': activity == 'Accepted + Assigned'"", 'metric_condition': '> 0', 'aggregation': 'total', 'group_by': 'year'}""";;

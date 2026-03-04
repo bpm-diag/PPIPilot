@@ -1,0 +1,2 @@
+Name;Metric;Value;Agrupation
+Average time from Declaration SAVED by EMPLOYEE to Declaration SUBMITTED by EMPLOYEE;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Declaration SUBMITTED by EMPLOYEE';;

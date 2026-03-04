@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Declaration REJECTED by EMPLOYEE' out of all activity executions in the event log;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Frequency of 'Declaration REJECTED by EMPLOYEE' occurring immediately after 'Declaration REJECTED by ADMINISTRATION';Frequency of activity 'Declaration REJECTED by EMPLOYEE';1212.0;
+Percentage of process variants containing 'Declaration REJECTED by EMPLOYEE' that eventually lead to a successful 'Payment Handled';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Payment Handled';0.09;
+Frequency of 'Declaration REJECTED by EMPLOYEE' following 'Declaration REJECTED by PRE_APPROVER';Frequency of activity 'Declaration REJECTED by EMPLOYEE';1212.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' cases that are resubmitted within the same declaration number cycle;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Frequency of 'Declaration REJECTED by EMPLOYEE' in variants where the prior rejection was issued by 'ADMINISTRATION' versus 'PRE_APPROVER' versus 'SUPERVISOR';Frequency of activity 'Declaration REJECTED by EMPLOYEE';1212.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' that occur in declarations with total amount above 100 euros;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.16;
+Percentage of 'Declaration REJECTED by EMPLOYEE' that are followed by 'Declaration SUBMITTED by EMPLOYEE' within the same case;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Ratio of 'Declaration REJECTED by EMPLOYEE' to 'Declaration SUBMITTED by EMPLOYEE' across all cases;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Percentage of process variants starting with 'Declaration SUBMITTED by EMPLOYEE' and containing at least one 'Declaration REJECTED by EMPLOYEE';Percentage of 'Declaration REJECTED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.12;
+Frequency of 'Declaration REJECTED by EMPLOYEE' in variants that include a 'Declaration REJECTED by MISSING' step;Frequency of activity 'Declaration REJECTED by EMPLOYEE' for cases where activity 'Declaration REJECTED by MISSING' occurs;7.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' that occur after exactly two consecutive rejections from other roles;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Frequency of 'Declaration REJECTED by EMPLOYEE' in cases where the budget owner and supervisor are the same person (implied by shorter approval paths);Frequency of activity 'Declaration REJECTED by EMPLOYEE';1212.0;
+Percentage of 'Declaration REJECTED by EMPLOYEE' that appear in the top 5 most frequent process variants involving rejections;Percentage of 'Declaration REJECTED by EMPLOYEE' out of all cases;0.12;
+Frequency of 'Declaration REJECTED by EMPLOYEE' per year, comparing 2017 and 2018 data;"ERROR: computing metric {'count': activity == 'Declaration REJECTED by EMPLOYEE'"", 'metric_condition': '> 0', 'aggregation': 'total', 'group_by': 'year'}""";;

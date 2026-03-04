@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Assignment out of all activity executions in the event log;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment occurrences across all cases;Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of variants that include SW-Awaiting AE Assignment immediately after SW-Checklist Completed;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Number of times SW-Awaiting AE Assignment is followed by SW-Initial Reviewer Selection;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Initial Reviewer Selection' occurs;36.0;
+Percentage of SW-Awaiting AE Assignment occurrences that lead to a reviewer assignment phase (e.g., SW-AE Assign Reviewers);Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-AE Assign Reviewers';0.5;
+Frequency of SW-Awaiting AE Assignment in variants that ultimately result in SW-EIC Reject;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-EIC Reject' occurs;28.0;
+Percentage of SW-Awaiting AE Assignment occurrences relative to Original Manuscript Submission Confirmation;Percentage of 'SW-Awaiting AE Assignment' out of all 'Original Manuscript Submission Confirmation';0.66;
+Number of SW-Awaiting AE Assignment events that occur without any preceding SW-Checklist Completed activity;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Checklist Completed' does not occur;58.0;
+Percentage of variants containing SW-Awaiting AE Assignment that proceed to at least one instance of SW-Reviewer Agreed;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Agreed';0.52;
+Frequency of SW-Awaiting AE Assignment in cases that experience delays (e.g., include activities like SW-Reviewer Selection is due in 1 week or later reminders);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Reviewer Selection is due in 1 week' occurs;24.0;
+Percentage of SW-Awaiting AE Assignment occurrences that are part of the most frequent variant pattern;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Ratio of SW-Awaiting AE Assignment to SW-Awaiting EIC Decision across the entire log;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Awaiting EIC Decision';0.59;
+Number of SW-Awaiting AE Assignment instances that are followed by editor reassignment (e.g., Assign a Different Editor or Unassign Editor);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'Assign a Different Editor' occurs;2.0;
+Percentage of SW-Awaiting AE Assignment events occurring in cases that eventually reach SW-EIC Accept;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-EIC Accept';1.0;
+Frequency of SW-Awaiting AE Assignment in comparison to SW-Awaiting AE Recommendation;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Awaiting AE Recommendation' occurs;33.0;
+Percentage of SW-Awaiting AE Assignment that appears more than once in the same case;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment';0.01;
+Number of variants where SW-Awaiting AE Assignment directly precedes any reviewer-related activity (e.g., SW-Initial Reviewer Selection, SW-AE Assign Reviewers);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Initial Reviewer Selection' occurs;36.0;
+Percentage of SW-Awaiting AE Assignment occurrences in cases that include at least one instance of SW-Reviewer Agreed;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Agreed';0.52;
+Frequency of SW-Awaiting AE Assignment in cases that undergo major revision (i.e., contain SW-EIC Major Revision);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-EIC Major Revision' occurs;4.0;
+Ratio of SW-Awaiting AE Assignment to Manuscript Export Succeeded across all cases;Percentage of 'SW-Awaiting AE Assignment' out of all 'Manuscript Export Succeeded';0.64;

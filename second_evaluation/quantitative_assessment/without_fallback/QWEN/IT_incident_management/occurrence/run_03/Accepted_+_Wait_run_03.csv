@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Wait' followed directly by 'Accepted + In Progress';Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Percentage of cases where 'Accepted + Wait' is present and the case ends with 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Ratio of variants containing 'Accepted + Wait' to variants containing 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Number of 'Accepted + Wait' events in cases that also include 'Completed + In Call';Number of 'Accepted + Wait' activities for cases where activity 'Completed + In Call' occurs;89.0;
+Percentage of 'Accepted + Wait' in high-impact incidents (impact = 'High') compared to its overall frequency;Percentage of 'Accepted + Wait' out of all cases;0.13;
+Frequency of 'Accepted + Wait' occurring between two 'Accepted + In Progress' activities;Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Percentage of 'Accepted + Wait' that appears before any occurrence of 'Completed + In Call' in the same case;Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Number of distinct process variants that include both 'Accepted + Wait' and 'Completed + In Call';Number of 'Accepted + Wait' activities for cases where activity 'Completed + In Call' occurs;89.0;
+Percentage of 'Accepted + Wait' events that are part of variants with performance duration above the median variant performance;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Frequency of 'Accepted + Wait' in comparison to 'Accepted + Wait - User', 'Accepted + Wait - Vendor', and 'Accepted + Wait - Customer';Percentage of 'Accepted + Wait' out of all cases;0.15;
+Percentage of cases starting with 'Queued + Awaiting Assignment' that later include 'Accepted + Wait' and end in 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Number of times 'Accepted + Wait' occurs without being followed by any 'Completed + Resolved' or 'Completed + Closed' activity;Number of 'Accepted + Wait' activities for cases where activity 'Completed + Resolved' does not occur;1461.0;
+Percentage of 'Accepted + Wait' executed by resources from Brazil versus other countries;Percentage of 'Accepted + Wait' out of all cases;0.02;
+Frequency of 'Accepted + Wait' in variants that have a cycle involving repeated 'Accepted + In Progress' activities;Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Ratio of 'Accepted + Wait' occurrences in PROD582 product cases versus all other products;Percentage of 'Accepted + Wait' out of all cases;0.0;

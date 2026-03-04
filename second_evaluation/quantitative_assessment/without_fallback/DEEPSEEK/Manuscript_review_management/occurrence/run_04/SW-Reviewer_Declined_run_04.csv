@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Reviewer Declined out of all SW-AE Assign Reviewers;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Number of SW-Reviewer Declined;Number of 'SW-Reviewer Declined' activities;61.0;
+Percentage of SW-Reviewer Declined before SW-Reviewer Agreed;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Number of SW-Reviewer Declined that are preceded by Reviewer Invitation Reminder 1;Number of 'SW-Reviewer Declined' activities for cases where activity 'Reviewer Invitation Reminder 1' occurs;61.0;
+Percentage of SW-Reviewer Declined from all SW-Reviewer Selection is due in 1 week;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Selection is due in 1 week';0.45;
+Percentage of SW-Reviewer Declined followed by SW-AE Assign Reviewers;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Number of SW-Reviewer Declined in relation to SW-Reviewer Agreed;Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-Reviewer Agreed' occurs;61.0;
+Percentage of SW-Reviewer Declined done after SW-Reviewer Selection is now due;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Selection is now due';0.5;
+Average number of SW-Reviewer Declined per case in variants ending with SW-EIC Reject;the average of the number of times `ACTIVITY` == 'SW-Reviewer Declined' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-EIC Reject';0.38;
+Ratio of SW-Reviewer Declined over SW-Reviewer Unavailable;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Unavailable';0.75;
+Percentage of SW-Reviewer Declined in variants containing SW-EIC Major Revision;Percentage of 'SW-Reviewer Declined' out of all 'SW-EIC Major Revision';0.8;
+Number of times SW-Reviewer Declined is performed after the third SW-AE Assign Reviewers in a case;Number of 'SW-Reviewer Declined' activities for cases where activity 'SW-AE Assign Reviewers' occurs;59.0;
+Percentage of SW-Reviewer Declined that occur before the first SW-Reviewer Agreed in a case;Percentage of 'SW-Reviewer Declined' out of all 'SW-Reviewer Agreed';0.63;
+Average number of SW-Reviewer Declined in variants with performance time above 30 million seconds;the average of the number of times `ACTIVITY` == 'SW-Reviewer Declined';0.66;
+Percentage of SW-Reviewer Declined in the initial review phase (before first SW-Awaiting EIC Decision);Percentage of 'SW-Reviewer Declined' out of all 'SW-Awaiting EIC Decision';0.49;
+Percentage of SW-Reviewer Declined followed by Reviewer Invitation Reminder 2;Percentage of 'SW-Reviewer Declined' out of all 'Reviewer Invitation Reminder 2';0.63;
+Ratio of SW-Reviewer Declined to SW-Initial Reviewer Selection;Percentage of 'SW-Reviewer Declined' out of all 'SW-Initial Reviewer Selection';0.47;
+Percentage of cases with more than two SW-Reviewer Declined that eventually result in SW-EIC Major Revision;the average of the function base > 2 where base is the number of times `ACTIVITY` == 'SW-Reviewer Declined' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-EIC Major Revision';0.2;
+Frequency of the path SW-AE Assign Reviewers -> SW-Reviewer Declined;Percentage of 'SW-Reviewer Declined' out of all 'SW-AE Assign Reviewers';0.61;
+Number of SW-Reviewer Declined grouped by case outcome (e.g., SW-EIC Reject, SW-EIC Major Revision, RW-EIC Accept);"ERROR: computing metric {'count': activity == 'SW-Reviewer Declined'"", 'aggregation': 'total', 'filter': '', 'group_by': 'concept:name', 'metric_condition': ''}""";;

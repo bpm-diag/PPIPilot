@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait' occurrences that are followed by 'Accepted + In Progress' within the same case;Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Frequency of 'Accepted + Wait' compared to the frequency of 'Accepted + Wait - User';Number of 'Accepted + Wait' activities;1461.0;
+Percentage of cases where 'Accepted + Wait' occurs but 'Completed + In Call' never follows;Percentage of 'Accepted + Wait' out of all cases where 'Completed + In Call' does not happen;0.15;
+Number of variants in which 'Accepted + Wait' directly precedes 'Completed + Resolved';Number of 'Accepted + Wait' activities;1461.0;
+Percentage of 'Accepted + Wait' activities that occur in cases also containing 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Frequency of 'Accepted + Wait' in variants that do not include any 'Completed + In Call' activity;Number of 'Accepted + Wait' activities for cases where activity 'Completed + In Call' does not occur;1461.0;
+Percentage of 'Accepted + Wait' relative to the total occurrences of all wait-type activities (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Implementation', 'Accepted + Wait - Vendor', 'Accepted + Wait - Customer');Percentage of 'Accepted + Wait' out of all cases;0.15;
+Percentage of process instances containing 'Accepted + Wait' that result in a 'Completed + In Call' as the final or penultimate activity;Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Frequency of 'Accepted + Wait' appearing in the top 5 most frequent variants versus its frequency in low-frequency variants (frequency < 50);Number of 'Accepted + Wait' activities;1461.0;
+Ratio of 'Accepted + Wait' occurrences to 'Completed + In Call' occurrences across the entire event log;Number of 'Accepted + Wait' activities;1461.0;
+Number of times 'Accepted + Wait' is performed per year, based on the timestamp of its occurrence;"ERROR: computing metric {'count': activity == 'Accepted + Wait'"", 'aggregation': 'total', 'group_by': 'year'}""";;

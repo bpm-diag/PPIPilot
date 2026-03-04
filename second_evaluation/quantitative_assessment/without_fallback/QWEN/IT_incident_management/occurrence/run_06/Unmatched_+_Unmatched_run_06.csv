@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Unmatched + Unmatched' that occur before 'Completed + In Call' in the same case;Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Number of cases where 'Unmatched + Unmatched' appears and eventually leads to 'Completed + In Call';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0.0;
+Ratio of 'Unmatched + Unmatched' occurrences to 'Completed + In Call' occurrences across the log;Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Percentage of 'Unmatched + Unmatched' activities that are not followed by any other activity (i.e., terminal events);Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' as the first activity in a case variant;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Percentage of 'Unmatched + Unmatched' relative to the total occurrences of 'Accepted + In Progress';Percentage of 'Unmatched + Unmatched' out of all 'Accepted + In Progress';0.0;
+Number of distinct process variants containing 'Unmatched + Unmatched';Number of 'Unmatched + Unmatched' activities;5.0;
+Percentage of cases containing 'Unmatched + Unmatched' that do not reach 'Completed + Resolved' or 'Completed + Closed';Percentage of 'Unmatched + Unmatched' out of all cases where 'Completed + Resolved' does not happen;0.0;
+Frequency of direct transitions from 'Unmatched + Unmatched' to 'Queued + Awaiting Assignment';Percentage of 'Unmatched + Unmatched' out of all 'Queued + Awaiting Assignment';0.0;
+Percentage of 'Unmatched + Unmatched' occurring in cases that also contain 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Average number of 'Unmatched + Unmatched' occurrences per case;the average of the number of times `ACTIVITY` == 'Unmatched + Unmatched';0.0;
+Ratio of cases starting with 'Unmatched + Unmatched' versus those starting with 'Queued + Awaiting Assignment';Percentage of 'Unmatched + Unmatched' out of all 'Queued + Awaiting Assignment';0.0;
+Percentage of 'Unmatched + Unmatched' executed by resources associated with high-impact incidents (impact = 'High');Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Number of 'Unmatched + Unmatched' events that occur after 'Completed + In Call' in the same case;Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0.0;
+Fraction of all 'Unmatched + Unmatched' events that appear in variants with performance duration below the median;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Percentage of 'Unmatched + Unmatched' that are isolated (i.e., no repeated occurrence in the same case);Percentage of 'Unmatched + Unmatched' out of all cases;0.0;

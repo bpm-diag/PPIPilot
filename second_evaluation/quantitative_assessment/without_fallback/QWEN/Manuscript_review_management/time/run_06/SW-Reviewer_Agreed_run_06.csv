@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time from SW-Reviewer Agreed to SW-Awaiting EIC Decision;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting EIC Decision';71.63 days;
+Total time between SW-Reviewer Agreed and SW-Awaiting AE Recommendation;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';1617.84 days;
+Minimum time it takes SW-Reviewer Agreed after the execution of SW-AE Assign Reviewers;The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';44.00 seconds;
+Average waiting time to the SW-Reviewer Agreed following SW-Reviewer Selection is now due;The average of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-Reviewer Agreed';24.95 days;
+Total resolution time of SW-Reviewer Agreed in cases that end with SW-EIC Accept;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Accept';;
+Time from SW-Reviewer Agreed to SW-EIC Major Revision;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Major Revision';1189.41 days;
+Average time for SW-Reviewer Agreed when preceded by Reviewer Invitation Reminder 2;The average of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-Reviewer Agreed';15.82 days;
+Minimum time between SW-Reviewer Agreed and the next occurrence of SW-Reviewer Agreed in the same case;The minimum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Reviewer Agreed';0.00 seconds;
+Total time it takes SW-Reviewer Agreed after the execution of SW-Reviewer Selection is 3 days late;The sum of the duration between activity 'SW-Reviewer Selection is 3 days late' and activity 'SW-Reviewer Agreed';284.08 days;
+Elapsed time between SW-Reviewer Agreed and Manuscript Export Succeeded in revised submission phases;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'Manuscript Export Succeeded';5442.75 days;
+Time of SW-Reviewer Agreed in variants that include multiple reviewer agreements before reaching a decision;The sum of the duration between activity SW-Reviewer Agreed and the end of the case;7629.31 days;
+Total time between SW-Reviewer Agreed and SW-AE Recommendation overdue;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-AE Recommendation overdue';285.03 days;
+Minimum time it takes SW-Reviewer Agreed after Unassign Reviewer;The minimum of the duration between activity 'Unassign Reviewer' and activity 'SW-Reviewer Agreed';5.37 minutes;
+Average time from SW-Reviewer Agreed to the final EIC decision activity (e.g., SW-EIC Accept, SW-EIC Reject, SW-EIC Major Revision, or SW-EIC Minor Revision);The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Accept';80.17 days;
+Time from SW-Reviewer Agreed to the subsequent Revised Manuscript Submission Confirmation;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'Revised Manuscript Submission Confirmation';3236.82 days;
+Total waiting time to the SW-Reviewer Agreed following SW-Reviewer Declined;The sum of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Agreed';459.28 days;
+Average time for SW-Reviewer Agreed in cases where the variant includes SW-Reviewer No Response prior to agreement;The average of the duration between activity 'SW-Reviewer No Response' and activity 'SW-Reviewer Agreed';6.36 days;
+Elapsed time between SW-Reviewer Agreed and the next AE-related activity (e.g., SW-Awaiting AE Recommendation or SW-AE Assign Reviewers);The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-Awaiting AE Recommendation';1832.23 days;
+Time from SW-Reviewer Agreed to First Look Manuscript Submission Confirmation in accepted manuscripts;The sum of the duration between activity 'SW-Reviewer Agreed' and activity 'First Look Manuscript Submission Confirmation';;
+Average time from SW-Reviewer Agreed to SW-EIC Reject & Resubmit;"ERROR: computing metric {'begin': activity == 'SW-Reviewer Agreed'"", 'end': ""activity == 'SW-EIC Reject & Resubmit'"", 'aggregation': 'average'}""";;

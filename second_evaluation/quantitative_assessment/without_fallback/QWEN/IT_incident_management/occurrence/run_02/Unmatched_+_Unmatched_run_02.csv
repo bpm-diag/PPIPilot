@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Unmatched + Unmatched' that are followed by 'Completed + Cancelled';Percentage of 'Unmatched + Unmatched' out of all 'Completed + Cancelled';0.0;
+Ratio of 'Unmatched + Unmatched' occurrences to 'Accepted + In Progress' occurrences;Percentage of 'Unmatched + Unmatched' out of all 'Accepted + In Progress';0.0;
+Percentage of cases containing 'Unmatched + Unmatched' that never reach 'Completed + Resolved' or 'Completed + Closed';Percentage of 'Unmatched + Unmatched' out of all cases where 'Completed + Resolved' does not happen;0.0;
+Frequency of 'Unmatched + Unmatched' in variants with total performance duration below the median variant performance;Number of 'Unmatched + Unmatched' activities;5.0;
+Percentage of 'Unmatched + Unmatched' activities occurring as the first event in a case;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of direct transitions from 'Unmatched + Unmatched' to 'Completed + Cancelled' versus transitions to any 'Accepted + ...' activity;Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + Cancelled' occurs;0.0;
+Percentage of variants starting with 'Unmatched + Unmatched' that terminate without resolution (i.e., end in 'Completed + Cancelled' or remain open);Percentage of 'Unmatched + Unmatched' out of all 'Completed + Cancelled';0.0;
+Percentage of 'Unmatched + Unmatched' events assigned to resources who also perform 'Completed + In Call', to explore cross-role handling patterns;Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Number of 'Unmatched + Unmatched' events per year to assess temporal trends in unmatched incidents;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'aggregation': 'total', 'group_by': 'year'}""";;
+Percentage of 'Unmatched + Unmatched' compared to 'Queued + Awaiting Assignment' in high-impact (High/Medium) cases;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'impact == High || impact == Medium'}""";;
+Ratio of 'Unmatched + Unmatched' occurrences in PROD582 versus other products to identify product-specific matching issues;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'product == PROD582'}""";;

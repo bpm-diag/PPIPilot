@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Time between SW-Awaiting AE Assignment and SW-EIC Reject;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Reject';19.06 days;
+Elapsed time between SW-Awaiting AE Assignment and SW-EIC Reject;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Reject';19.06 days;
+Time until SW-EIC Reject from case start;The average of the duration between the start of the case and activity 'SW-EIC Reject';28.46 days;
+Time from SW-Awaiting AE Assignment to SW-EIC Reject;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Reject';19.06 days;
+SW-EIC Reject Cycle Time;The average of the duration between the start of the case and activity 'SW-EIC Reject';28.46 days;
+Average time from SW-Checklist Completed to SW-EIC Reject compared to SW-Checklist Completed to SW-EIC Accept;The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-EIC Reject';;
+Average time between SW-Awaiting AE Assignment and SW-EIC Reject compared to SW-Awaiting AE Assignment and SW-EIC Major Revision;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Reject';;
+Average time until SW-EIC Reject is performed compared to SW-EIC Major Revision;The average of the duration between the start of the case and activity 'SW-EIC Reject';;
+Average duration of the SW-EIC Reject pathway variant compared to the SW-EIC Accept pathway variant;The average of the duration between the start of the case and activity 'SW-EIC Reject';;
+Time from Original Manuscript Submission Confirmation to SW-EIC Reject in the fast-reject variant;The average of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-EIC Reject';27.81 days;
+Impact of SW-Reviewer Agreed absence on the time to SW-EIC Reject;The average of the duration between the start of the case and activity 'SW-EIC Reject';28.46 days;
+Average time from the last reviewer response (SW-Reviewer Agreed/Declined) to SW-EIC Reject;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';78.98 days;
+Time from SW-Awaiting Checklist Completion to SW-EIC Reject in the plagiarism-check variant;The average of the duration between activity 'SW-Awaiting Checklist Completion' and activity 'SW-EIC Reject';27.69 days;
+Time from SW-Awaiting AE Assignment to SW-EIC Reject in the immediate checklist-reject variant;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Reject';19.06 days;
+Average editorial processing time (SW-Awaiting AE Assignment to SW-EIC Reject) for rejected manuscripts;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-EIC Reject';19.06 days;
+Minimum time from manuscript submission (Original Manuscript Submission Confirmation) to SW-EIC Reject;The minimum of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-EIC Reject';3.47 hours;
+Time from the final reviewer assignment activity to SW-EIC Reject;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Reject';76.11 days;
+Average time SW-EIC Reject is reached after all checklist activities are completed;The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-EIC Reject';25.43 days;
+Time from Plagiarism Originality Report Completed to SW-EIC Reject in cases with Plagiarism Percent Match Threshold Exceeded;The average of the duration between activity 'Plagiarism Originality Report Completed' and activity 'SW-EIC Reject';31.32 days;
+Elapsed time from the first SW-AE Assign Reviewers to SW-EIC Reject when no reviewer agrees;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Reject';76.11 days;

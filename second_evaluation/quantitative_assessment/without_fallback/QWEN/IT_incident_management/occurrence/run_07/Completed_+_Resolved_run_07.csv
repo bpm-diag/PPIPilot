@@ -1,0 +1,13 @@
+Name;Metric;Value;Agrupation
+Number of times 'Completed + Resolved' appears in variants that do not contain 'Completed + In Call';Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' does not occur;6108.0;
+Percentage of 'Completed + Resolved' activities that are part of variants ending with 'Completed + Closed' versus those ending with 'Completed + In Call';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' in variants where 'Queued + Awaiting Assignment' occurs at least once before it;Percentage of 'Completed + Resolved' out of all 'Queued + Awaiting Assignment';1.0;
+Percentage of 'Completed + Resolved' executions that are preceded by any 'Accepted + Wait' sub-activity (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.);Percentage of 'Completed + Resolved' out of all 'Accepted + Wait';0.95;
+Ratio of 'Completed + Resolved' to 'Completed + In Call' across all cases in the VINST incident management log;Percentage of 'Completed + Resolved' out of all 'Completed + In Call';0.07;
+Number of variants in which 'Completed + Resolved' is directly followed by 'Completed + Closed' without intermediate waiting states;Number of 'Completed + Resolved' activities for cases where activity 'Completed + Closed' occurs;6014.0;
+Percentage of total 'Completed + Resolved' occurrences that appear in the top 5 most frequent process variants;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' in cases that never include the activity 'Completed + In Call';Percentage of 'Completed + Resolved' out of all cases where 'Completed + In Call' does not happen;0.75;
+Percentage of 'Completed + Resolved' activities that occur after exactly two consecutive 'Accepted + In Progress' events;Percentage of 'Completed + Resolved' out of all 'Accepted + In Progress';0.75;
+Number of times 'Completed + Resolved' is performed following an 'Accepted + Assigned' activity;Number of 'Completed + Resolved' activities for cases where activity 'Accepted + Assigned' occurs;2101.0;
+Percentage of variants containing 'Completed + Resolved' that have a total performance duration above the median variant duration;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Ratio of variants ending with 'Completed + Resolved → Completed + Closed' to variants ending with 'Completed + In Call';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;

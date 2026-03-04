@@ -1,0 +1,18 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-AE Assign Reviewers by sender onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""sender == 'onbehalfof@manuscriptcentral.com'"", 'group_by': ''}""";;
+Percentage of SW-AE Assign Reviewers in the entire event log;Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;
+Total SW-AE Assign Reviewers performed in variants containing SW-AE Assign Reviewers Challenge Paper;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-AE Assign Reviewers Challenge Paper' occurs;3.0;
+Occasions how often the SW-AE Assign Reviewers is performed before the first SW-Reviewer Agreed in a case;"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'aggregation': 'total', 'filter': ""activity == 'SW-Reviewer Agreed'"", 'group_by': 'concept:name', 'metric_condition': ''}""";;
+Ratio of SW-AE Assign Reviewers over SW-Reviewer Agreed in the same case;"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity == 'SW-Reviewer Agreed'"", 'group_by': 'concept:name'}""";;
+Percentage of SW-AE Assign Reviewers that are followed by SW-Reviewer Declined;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Declined';0.97;
+Number of SW-AE Assign Reviewers in relation to SW-Reviewer Agreed;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-Reviewer Agreed' occurs;141.0;
+Number of SW-AE Assign Reviewers in variants ending with SW-EIC Reject;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-EIC Reject' occurs;21.0;
+Average number of SW-AE Assign Reviewers per variant;the average of the number of times `ACTIVITY` == 'SW-AE Assign Reviewers';1.54;
+Average number of SW-AE Assign Reviewers in a case for manuscripts that eventually get RW-EIC Accept;"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'aggregation': 'average', 'filter': ""activity == 'RW-EIC Accept'"", 'group_by': 'concept:name', 'metric_condition': ''}""";;
+Percentage of SW-AE Assign Reviewers from all SW-Initial Reviewer Selection;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Initial Reviewer Selection';0.75;
+Percentage of SW-AE Assign Reviewers that are followed by Reviewer Invitation Reminder 1;Percentage of 'SW-AE Assign Reviewers' out of all 'Reviewer Invitation Reminder 1';0.89;
+Average number of SW-AE Assign Reviewers that are followed by SW-Reviewer Declined per case;"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'aggregation': 'average', 'filter': ""activity == 'SW-Reviewer Declined'"", 'group_by': 'concept:name', 'metric_condition': ''}""";;
+Percentage of SW-AE Assign Reviewers done after SW-Reviewer Selection is 3 days late;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Selection is 3 days late';0.91;
+Percentage of SW-AE Assign Reviewers that are followed by SW-Reviewer Unavailable;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Unavailable';1.0;
+The ratio of SW-AE Assign Reviewers that are not eventually followed by any reviewer response (Agreed/Declined/Unavailable);Percentage of 'SW-AE Assign Reviewers' out of all cases where 'SW-Reviewer Agreed' does not happen;0.49;
+Total SW-AE Assign Reviewers done in cases with SW-EIC Major Revision;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-EIC Major Revision' occurs;51.0;

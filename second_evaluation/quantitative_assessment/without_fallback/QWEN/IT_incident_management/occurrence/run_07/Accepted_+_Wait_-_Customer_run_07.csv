@@ -1,0 +1,13 @@
+Name;Metric;Value;Agrupation
+Frequency of 'Accepted + Wait - Customer' followed by 'Completed + Resolved';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Completed + Resolved' occurs;99.0;
+Percentage of 'Accepted + Wait - Customer' that occur after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Customer' out of all 'Queued + Awaiting Assignment';0.02;
+Frequency of 'Accepted + Wait - Customer' in variants that eventually lead to 'Completed + In Call';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Completed + In Call' occurs;2.0;
+Percentage of 'Accepted + Wait - Customer' relative to the frequency of 'Accepted + Wait - User';Percentage of 'Accepted + Wait - Customer' out of all 'Accepted + Wait - User';0.01;
+Frequency of 'Accepted + Wait - Customer' compared to 'Accepted + Wait - Vendor' and 'Accepted + Wait - Implementation';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Accepted + Wait - Vendor' occurs;5.0;
+Percentage of cases containing 'Accepted + Wait - Customer' that do not reach 'Completed + In Call';Percentage of 'Accepted + Wait - Customer' out of all cases where 'Completed + In Call' does not happen;0.01;
+Frequency of 'Accepted + Wait - Customer' in high-impact incidents (impact = 'High');Number of 'Accepted + Wait - Customer' activities == 'High' where ma is the last value of impact;10.0;
+Percentage of 'Accepted + Wait - Customer' occurring in variants with total performance duration above the median;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Percentage of 'Accepted + Wait - Customer' that are directly preceded by 'Accepted + In Progress';Percentage of 'Accepted + Wait - Customer' out of all 'Accepted + In Progress';0.01;
+Frequency of 'Accepted + Wait - Customer' in cases handled by resources from non-France countries;Number of 'Accepted + Wait - Customer' activities != 'France' where ma is the last value of resource country;99.0;
+Percentage of all 'Accepted + Wait - Customer' events that appear in the top 10 most frequent variants;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Frequency of 'Accepted + Wait - Customer' per year based on time:timestamp;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Customer'"", 'aggregation': 'total', 'group_by': 'year'}""";;

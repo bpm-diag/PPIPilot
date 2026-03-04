@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Ratio of 'Accepted + Wait - Implementation' to 'Accepted + Wait - User' in the entire log;Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + Wait - User';0.08;
+Number of times 'Accepted + Wait - Implementation' appears in variants with total performance above 1,000,000;Number of 'Accepted + Wait - Implementation' activities;473.0;
+Percentage of 'Accepted + Wait - Implementation' within variants that end with 'Completed + Closed';Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + Closed';0.07;
+Frequency of 'Accepted + Wait - Implementation' compared to 'Accepted + Wait - Vendor';Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + Wait - Vendor';0.09;
+Percentage of cases containing 'Accepted + Wait - Implementation' that also contain 'Completed + In Call';Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + In Call';0.01;
+Number of variants where 'Accepted + Wait - Implementation' directly precedes 'Completed + Resolved';Frequency of activity 'Accepted + Wait - Implementation' for cases where activity 'Completed + Resolved' occurs;403.0;
+Percentage of 'Accepted + Wait - Implementation' occurrences relative to all 'Accepted + Wait' type activities;Percentage of 'Accepted + Wait - Implementation' out of all 'Accepted + Wait';0.1;
+Ratio of variants containing 'Accepted + Wait - Implementation' to variants containing 'Completed + In Call';Percentage of 'Accepted + Wait - Implementation' out of all 'Completed + In Call';0.01;
+Average position of 'Accepted + Wait - Implementation' in the sequence of activities within its variants;the average of the number of times `ACTIVITY` == 'Accepted + Wait - Implementation';0.06;
+Percentage of 'Accepted + Wait - Implementation' that is not followed by any further wait-type activity;Percentage of 'Accepted + Wait - Implementation' out of all cases;0.05;
+Frequency of 'Accepted + Wait - Implementation' in cases that include at least one re-queuing (multiple 'Queued + Awaiting Assignment');Number of 'Accepted + Wait - Implementation' activities for cases where activity 'Queued + Awaiting Assignment' occurs;415.0;
+Number of distinct case IDs that include the activity 'Accepted + Wait - Implementation';Number of 'Accepted + Wait - Implementation' activities;473.0;
+Frequency of 'Accepted + Wait - Implementation' in high-impact (High or Medium) incidents;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Implementation'"", 'aggregation': 'total', 'filter': 'impact == High'}""";;
+Percentage of 'Accepted + Wait - Implementation' executed by resources from non-France countries;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Implementation'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'resource country != France'}""";;
+Percentage of all 'Accepted + Wait - Implementation' events occurring in the year 2011 or later;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Implementation'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'group_by': 'year'}""";;

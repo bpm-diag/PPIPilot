@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Checklist Completed out of all activity executions in the event log;Percentage of 'SW-Checklist Completed' out of all cases;0.88;
+Number of times SW-Checklist Completed occurs in the entire event log;Number of 'SW-Checklist Completed' activities;87.0;
+Percentage of SW-Checklist Completed that are immediately followed by SW-Awaiting AE Assignment;Percentage of 'SW-Checklist Completed' out of all 'SW-Awaiting AE Assignment';1.0;
+Number of SW-Checklist Completed events that occur after Plagiarism Originality Report Completed;Number of 'SW-Checklist Completed' activities for cases where activity 'Plagiarism Originality Report Completed' occurs;86.0;
+Percentage of process variants where SW-Checklist Completed appears before any reviewer assignment activity (e.g., SW-AE Assign Reviewers);Percentage of 'SW-Checklist Completed' out of all 'SW-AE Assign Reviewers';0.96;
+Frequency of SW-Checklist Completed in variants that eventually lead to SW-EIC Reject;Percentage of 'SW-Checklist Completed' out of all 'SW-EIC Reject';0.97;
+Percentage of SW-Checklist Completed occurrences relative to SW-Awaiting Checklist Completion;Percentage of 'SW-Checklist Completed' out of all 'SW-Awaiting Checklist Completion';0.96;
+Number of SW-Checklist Completed events that are preceded by a checklist reminder (e.g., SW-Checklist Completion is due in three days or SW-Checklist Completion now due);Number of 'SW-Checklist Completed' activities for cases where activity 'SW-Checklist Completion is due in three days' occurs;31.0;
+Percentage of SW-Checklist Completed activities that occur within 24 hours of Original Manuscript Submission Confirmation;Percentage of 'SW-Checklist Completed' out of all 'Original Manuscript Submission Confirmation';0.95;
+Frequency of SW-Checklist Completed in variants that include Co-Author Account Created During Manuscript Submission;Percentage of 'SW-Checklist Completed' out of all 'Co-Author Account Created During Manuscript Submission';0.98;
+Number of SW-Checklist Completed events per case, averaged across all cases;the average of the number of times `ACTIVITY` == 'SW-Checklist Completed';0.94;
+Percentage of SW-Checklist Completed activities that directly enable progression to the editorial assignment phase (i.e., followed by SW-Awaiting AE Assignment or SW-Initial Reviewer Selection);Percentage of 'SW-Checklist Completed' out of all 'SW-Awaiting AE Assignment';1.0;
+Ratio of SW-Checklist Completed to Manuscript Export Succeeded across all traces;Percentage of 'SW-Checklist Completed' out of all 'Manuscript Export Succeeded';0.92;
+Percentage of SW-Checklist Completed occurring in cases that ultimately result in an acceptance decision (e.g., RW-EIC Accept or SW-EIC Accept);Percentage of 'SW-Checklist Completed' out of all 'SW-EIC Accept';1.0;
+Frequency of SW-Checklist Completed in variants with performance duration below the median trace duration;Percentage of 'SW-Checklist Completed' out of all cases;0.88;
+Percentage of SW-Checklist Completed that occur without any prior checklist reminder activity;Percentage of 'SW-Checklist Completed' out of all cases where 'SW-Checklist Completion is due in three days' does not happen;0.88;
+Number of SW-Checklist Completed events that appear more than once in the same case;Number of 'SW-Checklist Completed' activities;87.0;
+Percentage of SW-Checklist Completed relative to all checklist-related activities (including reminders and overdue notices);Percentage of 'SW-Checklist Completed' out of all 'SW-Checklist Completion is due in three days';0.97;
+Occasions how often the SW-Checklist Completed is performed as the fifth or sixth activity in a trace;Number of 'SW-Checklist Completed' activities;87.0;
+Percentage of SW-Checklist Completed that are not followed by any revision-related activity (e.g., SW–Major Revision due in 1 week);"ERROR: computing metric {'count': activity == 'SW-Checklist Completed'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity != 'SW–Major Revision due in 1 week'""}""";;

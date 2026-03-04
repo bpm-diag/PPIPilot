@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration SAVED by EMPLOYEE out of all activity executions in the event log;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;0.01;
+Number of Declaration SAVED by EMPLOYEE occurrences that are not followed by any submission or approval activity;Number of 'Declaration SAVED by EMPLOYEE' activities;135.0;
+Percentage of cases containing Declaration SAVED by EMPLOYEE that never reach Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases where 'Declaration SUBMITTED by EMPLOYEE' does not happen;0.01;
+Frequency of Declaration SAVED by EMPLOYEE compared to the frequency of Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Percentage of Declaration SAVED by EMPLOYEE occurring in variants that do not lead to Request Payment or Payment Handled;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases where 'Request Payment' does not happen;0.01;
+Number of Declaration SAVED by EMPLOYEE events that appear as the only activity in a case variant;Number of 'Declaration SAVED by EMPLOYEE' activities;135.0;
+Percentage of Declaration SAVED by EMPLOYEE relative to the total number of employee-initiated activities (including Declaration SUBMITTED by EMPLOYEE, Declaration REJECTED by EMPLOYEE);Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;0.01;
+Frequency of Declaration SAVED by EMPLOYEE in cases with case:Amount equal to 0.000;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;0.3;
+Percentage of Declaration SAVED by EMPLOYEE that occur without any subsequent activity in the same case;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;0.01;
+Ratio of Declaration SAVED by EMPLOYEE to Declaration SUBMITTED by EMPLOYEE across all process variants;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration SUBMITTED by EMPLOYEE';0.0;
+Number of variants where Declaration SAVED by EMPLOYEE appears without being followed by Declaration SUBMITTED by EMPLOYEE;Number of 'Declaration SAVED by EMPLOYEE' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' does not occur;135.0;
+Percentage of Declaration SAVED by EMPLOYEE events that belong to incomplete or abandoned process instances;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;0.01;
+Frequency of Declaration SAVED by EMPLOYEE in comparison with rejection-related activities such as Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Percentage of cases starting with Declaration SAVED by EMPLOYEE that eventually result in a rejection by any role;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;0.01;
+Number of Declaration SAVED by EMPLOYEE occurrences per year to assess temporal trends related to abandonment or incomplete submissions;"ERROR: computing metric {'count': activity == 'Declaration SAVED by EMPLOYEE'"", 'aggregation': 'total', 'group_by': 'year'}""";;

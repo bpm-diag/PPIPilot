@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Queued + Awaiting Assignment' that occur before 'Completed + In Call' in the same case;Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Frequency of cases where 'Queued + Awaiting Assignment' appears more than once;the sum of the function base > 1 where base is the number of times `ACTIVITY` == 'Queued + Awaiting Assignment';2445.0;
+Percentage of 'Queued + Awaiting Assignment' occurrences in variants that eventually lead to 'Completed + In Call';Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Frequency of 'Queued + Awaiting Assignment' in variants with performance (duration) below the median variant performance;Number of 'Queued + Awaiting Assignment' activities;10767.0;
+Percentage of 'Queued + Awaiting Assignment' that are not followed by any 'Completed + In Call' in the same case;Percentage of 'Queued + Awaiting Assignment' out of all cases where 'Completed + In Call' does not happen;0.6;
+Frequency of 'Queued + Awaiting Assignment' occurring after another 'Queued + Awaiting Assignment' in the same case;the sum of the function base > 1 where base is the number of times `ACTIVITY` == 'Queued + Awaiting Assignment';2445.0;
+Percentage of all 'Completed + In Call' instances that are preceded by at least one 'Queued + Awaiting Assignment' in their case;Percentage of 'Completed + In Call' out of all 'Queued + Awaiting Assignment';0.01;
+Frequency of 'Queued + Awaiting Assignment' in cases that end with 'Completed + In Call' versus those that end with 'Completed + Closed';Number of 'Queued + Awaiting Assignment' activities for cases where activity 'Completed + In Call' occurs;182.0;
+Percentage of variants containing 'Queued + Awaiting Assignment' that also contain 'Completed + In Call';Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Frequency of 'Queued + Awaiting Assignment' as the first activity in a case;Number of 'Queued + Awaiting Assignment' activities;10767.0;
+Percentage of 'Queued + Awaiting Assignment' occurrences relative to the total number of 'Accepted + In Progress' occurrences;Percentage of 'Queued + Awaiting Assignment' out of all 'Accepted + In Progress';0.6;
+Frequency of transitions from 'Accepted + In Progress' to 'Queued + Awaiting Assignment';Number of 'Accepted + In Progress' activities for cases where activity 'Queued + Awaiting Assignment' occurs;19365.0;
+Percentage of cases starting with 'Queued + Awaiting Assignment' that eventually reach 'Completed + In Call';Percentage of 'Queued + Awaiting Assignment' out of all 'Completed + In Call';0.03;
+Percentage of 'Queued + Awaiting Assignment' events that occur in variants whose total frequency is in the top 10% of all variant frequencies;Percentage of 'Queued + Awaiting Assignment' out of all cases;0.6;
+Frequency of 'Queued + Awaiting Assignment' in high-impact (High or Medium) cases versus low-impact cases;"ERROR: computing metric {'count': activity == 'Queued + Awaiting Assignment'"", 'aggregation': 'total', 'filter': 'impact == High'}""";;
+Frequency of 'Queued + Awaiting Assignment' per year, highlighting trends over time in relation to 'Completed + In Call' occurrences;"ERROR: computing metric {'count': activity == 'Queued + Awaiting Assignment'"", 'aggregation': 'total', 'group_by': 'year', 'filter': ""activity == 'Completed + In Call'""}""";;

@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of Reviewer Invitation Reminder 1 occurrences out of all activity executions in the event log;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Frequency of Reviewer Invitation Reminder 1 across all cases;Number of 'Reviewer Invitation Reminder 1' activities;118.0;
+Percentage of variants that contain at least one occurrence of Reviewer Invitation Reminder 1;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Percentage of Reviewer Invitation Reminder 1 that are followed by SW-Reviewer Agreed;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Agreed';0.93;
+Percentage of Reviewer Invitation Reminder 1 that are followed by SW-Reviewer Declined;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Declined';1.0;
+Percentage of Reviewer Invitation Reminder 1 that are followed by SW-Reviewer No Response;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer No Response';1.0;
+Frequency of Reviewer Invitation Reminder 1 occurring before SW-Reviewer Agreed in the same case;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-Reviewer Agreed' occurs;107.0;
+Ratio of Reviewer Invitation Reminder 1 to SW-AE Assign Reviewers occurrences;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-AE Assign Reviewers';0.91;
+Percentage of cases where Reviewer Invitation Reminder 1 appears more than once;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Reviewer Invitation Reminder 1';0.37;
+Frequency of Reviewer Invitation Reminder 1 in variants that eventually lead to SW-EIC Accept;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-EIC Accept' occurs;0.0;
+Frequency of Reviewer Invitation Reminder 1 in variants that eventually lead to SW-EIC Reject;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-EIC Reject' occurs;20.0;
+Percentage of Reviewer Invitation Reminder 1 that occur after SW-Reviewer Selection is due in 1 week;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Selection is due in 1 week';0.74;
+Percentage of Reviewer Invitation Reminder 1 that occur after SW-Reviewer Selection is due in 3 days;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Selection is due in 3 days';0.88;
+Frequency of Reviewer Invitation Reminder 1 compared to Reviewer Invitation Reminder 2;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 2';1.0;
+Average number of Reviewer Invitation Reminder 1 per case in variants involving multiple reviewer assignment attempts;the average of the number of times `ACTIVITY` == 'Reviewer Invitation Reminder 1' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-AE Assign Reviewers';2.28;
+Percentage of Reviewer Invitation Reminder 1 occurring in cases that experience editor reassignment (e.g., Assign a Different Editor or Unassign Editor);Percentage of 'Reviewer Invitation Reminder 1' out of all 'Assign a Different Editor';0.73;
+Frequency of Reviewer Invitation Reminder 1 in cases with prolonged reviewer selection phases (e.g., containing SW-Reviewer Selection is 1 week late or SW-Reviewer Selection is 3 days late);Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-Reviewer Selection is 1 week late' occurs;15.0;
+Ratio of Reviewer Invitation Reminder 1 occurrences to total reminder activities (including Reviewer Invitation Reminder 2);Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 2';1.0;
+Percentage of Reviewer Invitation Reminder 1 that precede a change in editor assignment;Percentage of 'Reviewer Invitation Reminder 1' out of all 'Unassign Editor';0.73;
+Percentage of Reviewer Invitation Reminder 1 that are not followed by any reviewer response (i.e., no SW-Reviewer Agreed, Declined, or Unavailable afterward);"ERROR: computing metric {'count': activity == 'Reviewer Invitation Reminder 1'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity != 'SW-Reviewer Agreed' and activity != 'SW-Reviewer Declined' and activity != 'SW-Reviewer Unavailable'""}""";;

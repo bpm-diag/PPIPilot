@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - User' that occur after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - User' out of all 'Queued + Awaiting Assignment';0.47;
+Frequency of 'Accepted + Wait - User' in variants that end with 'Completed + Closed';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + Closed' occurs;3759.0;
+Percentage of 'Accepted + Wait - User' relative to the frequency of 'Accepted + In Progress';Percentage of 'Accepted + Wait - User' out of all 'Accepted + In Progress';0.33;
+Frequency of cases where 'Accepted + Wait - User' appears more than once;the sum of the function base > 1 where base is the number of times `ACTIVITY` == 'Accepted + Wait - User';776.0;
+Percentage of 'Accepted + Wait - User' activities that are part of high-impact incidents (impact = 'High');Percentage of 'Accepted + Wait - User' out of all cases;0.32;
+Frequency of 'Accepted + Wait - User' preceding 'Completed + In Call';Number of 'Accepted + Wait - User' activities for cases where activity 'Completed + In Call' occurs;161.0;
+Percentage of variants containing 'Accepted + Wait - User' that have a performance duration above the median variant duration;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' executed by resources from France;Number of 'Accepted + Wait - User' activities == 'France' where ma is the last value of resource country;7.0;
+Percentage of 'Accepted + Wait - User' among all wait-type activities (e.g., compared to 'Accepted + Wait', 'Accepted + Wait - Implementation', 'Accepted + Wait - Vendor', 'Accepted + Wait - Customer');Percentage of 'Accepted + Wait - User' out of all 'Accepted + Wait';0.51;
+Frequency of direct transitions from 'Accepted + In Progress' to 'Accepted + Wait - User';Number of 'Accepted + Wait - User' activities for cases where activity 'Accepted + In Progress' occurs;3874.0;
+Percentage of cases that include both 'Accepted + Wait - User' and 'Completed + In Call';Percentage of 'Accepted + Wait - User' out of all 'Completed + In Call';0.06;
+Frequency of 'Accepted + Wait - User' in PROD582 product-related cases;Number of 'Accepted + Wait - User' activities == 'PROD582' where ma is the last value of product;0.0;
+Percentage of 'Accepted + Wait - User' activities that are not followed by any further activity within 24 hours;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' occurring in the first half of the process lifecycle versus the second half;Number of 'Accepted + Wait - User' activities;3883.0;
+Percentage of 'Accepted + Wait - User' in variants with more than five activity steps;Percentage of 'Accepted + Wait - User' out of all cases;0.33;
+Frequency of 'Accepted + Wait - User' grouped by case duration quartile;Number of 'Accepted + Wait - User' activities;3883.0;

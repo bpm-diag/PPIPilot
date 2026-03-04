@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Customer' that occurs after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Customer' out of all 'Queued + Awaiting Assignment';0.02;
+Frequency of 'Accepted + Wait - Customer' compared to the frequency of 'Accepted + Wait - User';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Accepted + Wait - User' occurs;41.0;
+Percentage of 'Accepted + Wait - Customer' among all 'Accepted + Wait'–type activities (e.g., 'Accepted + Wait', 'Accepted + Wait - User', 'Accepted + Wait - Implementation', 'Accepted + Wait - Vendor');Percentage of 'Accepted + Wait - Customer' out of all 'Accepted + Wait';0.02;
+Number of process variants where 'Accepted + Wait - Customer' appears before 'Completed + Closed';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Completed + Closed' occurs;97.0;
+Percentage of cases containing 'Accepted + Wait - Customer' that eventually reach 'Completed + In Call';Percentage of 'Accepted + Wait - Customer' out of all 'Completed + In Call';0.0;
+Frequency of 'Accepted + Wait - Customer' relative to the total number of wait-related activities in VINST incident management logs;Number of 'Accepted + Wait - Customer' activities for cases where activity 'Accepted + Wait' occurs;28.0;
+Percentage of 'Accepted + Wait - Customer' occurrences that are preceded by 'Accepted + In Progress';Percentage of 'Accepted + Wait - Customer' out of all 'Accepted + In Progress';0.01;
+Number of variants in which 'Accepted + Wait - Customer' leads directly to case resolution without intermediate re-queuing;Number of 'Accepted + Wait - Customer' activities for cases where activity 'Completed + Resolved' occurs;99.0;
+Percentage of 'Accepted + Wait - Customer' events occurring in high-impact incidents (impact = 'High');Percentage of 'Accepted + Wait - Customer' out of all cases;0.03;
+Ratio of 'Accepted + Wait - Customer' to 'Accepted + Wait - Vendor' as an indicator of external dependency distribution in the incident resolution process;Number of 'Accepted + Wait - Customer' activities for cases where activity 'Accepted + Wait - Vendor' occurs;5.0;
+Frequency of 'Accepted + Wait - Customer' per year to assess temporal trends in customer-related waiting;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Customer'"", 'metric_condition': '> 0', 'aggregation': 'total', 'group_by': 'year'}""";;

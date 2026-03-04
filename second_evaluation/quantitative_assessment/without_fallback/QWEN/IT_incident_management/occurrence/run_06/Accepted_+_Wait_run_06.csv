@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait' occurrences relative to the total occurrences of 'Accepted + In Progress';Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Frequency of 'Accepted + Wait' followed directly by 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Percentage of cases where 'Accepted + Wait' is performed but 'Completed + In Call' never occurs afterward;Percentage of 'Accepted + Wait' out of all cases where 'Completed + In Call' does not happen;0.15;
+Ratio of variants containing 'Accepted + Wait' to total number of variants;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Number of 'Accepted + Wait' events in cases that later include 'Completed + In Call';Number of 'Accepted + Wait' activities for cases where activity 'Completed + In Call' occurs;89;
+Percentage of 'Accepted + Wait' that occurs before any instance of 'Completed + In Call' in the same case;Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Frequency of 'Accepted + Wait' in variants whose performance duration exceeds the median variant duration;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Percentage of 'Accepted + Wait' grouped by country compared to overall distribution;Percentage of 'Accepted + Wait' out of all cases;0:0.04;"{""0"":0.0384615385,""SE"":0.0491803279,""au"":0.08,""be"":0.1825726141,""br"":0.2893890675,""ca"":0.0454545455,""cl"":0.0,""cn"":0.3069306931,""de"":0.5,""fr"":0.1391585761,""gb"":0.3636363636,""in"":0.2987804878,""jp"":0.4,""kr"":0.1230769231,""my"":0.0384615385,""nl"":0.6724137931,""pe"":0.0,""pl"":0.1589103292,""ru"":0.4222222222,""se"":0.0919143055,""th"":0.0,""tr"":0.0,""us"":0.1012820513}"
+Number of variants where 'Accepted + Wait' appears more than once before reaching 'Completed + In Call';Number of 'Accepted + Wait' activities for cases where activity 'Completed + In Call' occurs;89;
+Frequency of 'Accepted + Wait' as a direct predecessor to 'Accepted + In Progress' in paths ending with 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Percentage of 'Accepted + Wait' events that are part of high-impact (High or Medium) cases leading to 'Completed + In Call';"ERROR: computing metric {'count': activity == 'Accepted + Wait'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'impact == High'}""";;

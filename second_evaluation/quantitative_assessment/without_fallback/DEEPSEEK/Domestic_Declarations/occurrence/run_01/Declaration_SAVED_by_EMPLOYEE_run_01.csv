@@ -1,0 +1,20 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration SAVED by EMPLOYEE performed by workers who also perform Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Number of Declaration SAVED by EMPLOYEE in domestic declaration processes (inferred from description);Number of 'Declaration SAVED by EMPLOYEE' activities;135;
+Percentage of Declaration SAVED by EMPLOYEE with case:Amount greater than the average claim amount;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;0.0;
+Fraction of Declaration SAVED by EMPLOYEE that are dismissed (i.e., case does not reach Payment Handled);Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases where 'Payment Handled' does not happen;0.01;
+The ratio of Declaration SAVED by EMPLOYEE that are not eventually followed by a Declaration SUBMITTED by EMPLOYEE;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases where 'Declaration SUBMITTED by EMPLOYEE' does not happen;0.01;
+Percentage of Declaration SAVED by EMPLOYEE in 2017 vs 2018 (from event log description);"ERROR: computing metric {'count': activity == 'Declaration SAVED by EMPLOYEE'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': '', 'group_by': 'year'}""";;
+Number of times Declaration SAVED by EMPLOYEE is performed per org:resource;Number of 'Declaration SAVED by EMPLOYEE' activities grouped by the last value of org:resource;STAFF MEMBER:134;"{""STAFF MEMBER"":134,""SYSTEM"":1}"
+Percentage of Declaration SAVED by EMPLOYEE that are followed by a payment request (Request Payment) within the same case;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Request Payment';0.0;
+Number of Declaration SAVED by EMPLOYEE made per year;"ERROR: computing metric {'count': activity == 'Declaration SAVED by EMPLOYEE'"", 'metric_condition': '', 'aggregation': 'total', 'filter': '', 'group_by': 'year'}""";;
+Number of Declaration SAVED by EMPLOYEE that precede a Declaration REJECTED by PRE_APPROVER in the same case;Number of 'Declaration SAVED by EMPLOYEE' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;0;
+Ratio of Declaration SAVED by EMPLOYEE to Declaration REJECTED by PRE_APPROVER in cases handled by the same org:resource;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;STAFF MEMBER:0.0;"{""STAFF MEMBER"":0.0,""SYSTEM"":0.0}"
+Occasions how often the Declaration SAVED by EMPLOYEE is performed in cases with pre-paid travel costs;Number of 'Declaration SAVED by EMPLOYEE' activities;135;
+Percentage of Declaration SAVED by EMPLOYEE by STAFF MEMBER;Percentage of 'Declaration SAVED by EMPLOYEE' out of all cases;;
+Number of Declaration SAVED by EMPLOYEE that are the only activity in a case;Number of 'Declaration SAVED by EMPLOYEE' activities for cases where activity 'Declaration SAVED by EMPLOYEE' occurs;135;
+Percentage of Declaration SAVED by EMPLOYEE that are part of a variant ending with Payment Handled;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Payment Handled';0.0;
+Ratio of Declaration SAVED by EMPLOYEE to Declaration APPROVED by PRE_APPROVER;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration APPROVED by PRE_APPROVER';0.0;
+Frequency of Declaration SAVED by EMPLOYEE compared to Declaration FOR_APPROVAL by ADMINISTRATION;Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration FOR_APPROVAL by ADMINISTRATION';0.0;
+Percentage of Declaration SAVED by EMPLOYEE that are eventually rejected (e.g., followed by any REJECTED activity);Percentage of 'Declaration SAVED by EMPLOYEE' out of all 'Declaration REJECTED by EMPLOYEE';0.0;
+Total Declaration SAVED by EMPLOYEE performed by SYSTEM;Number of 'Declaration SAVED by EMPLOYEE' activities == 'SYSTEM' where ma is the last value of org:resource;1;

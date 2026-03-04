@@ -1,0 +1,25 @@
+Name;Metric;Value;Agrupation
+Time to SW-Reviewer Agreed since the SW-Checklist Completed;The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-Reviewer Agreed';23.60 days;
+Minimum time for SW-Reviewer Agreed (shortest recorded instance);The minimum of the duration between activity SW-Reviewer Agreed and the end of the case;44.39 days;
+Minimum time from Reviewer Invitation Reminder 1 to SW-Reviewer Agreed;The minimum of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Agreed';10.03 minutes;
+Time from SW-Reviewer Agreed to the start of the revision phase (SW-EIC Major Revision);The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Major Revision';84.96 days;
+Time from SW-Reviewer Agreed to case completion in accepted manuscripts vs. rejected manuscripts;"ERROR: computing metric {'begin': activity == 'SW-Reviewer Agreed'"", 'end': '', 'aggregation': 'average', 'group_by': 'activity'}""";;
+Total time to SW-Reviewer Agreed grouped by preceding activity (SW-AE Assign Reviewers vs. Reviewer Invitation Reminder 2);"ERROR: computing metric {'begin': '', 'end': activity == 'SW-Reviewer Agreed'"", 'aggregation': 'total', 'group_by': 'activity'}""";;
+Ratio of average time to SW-Reviewer Agreed vs. average time to SW-Reviewer Declined;The average of the duration between the start of the case and activity 'SW-Reviewer Agreed';28.09 days;
+Impact of SW-Reviewer Agreed timing on total review process duration (correlation measure);The average of the duration between activity SW-Reviewer Agreed and the end of the case;165.85 days;
+Comparison of SW-Reviewer Agreed duration between variants with and without SW-Reviewer Unavailable events;"ERROR: computing metric {'begin': activity == 'SW-Reviewer Agreed'"", 'end': '', 'aggregation': 'average', 'group_by': 'activity'}""";;
+Percentage of total case time spent in the SW-Reviewer Agreed activity state;The average of the duration between activity SW-Reviewer Agreed and the end of the case;165.85 days;
+Average time from SW-AE Assign Reviewers to SW-Reviewer Agreed;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Time between SW-Reviewer Agreed and the next major milestone (e.g., SW-EIC Major Revision, RW-Initial Reviewer Selection);The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Major Revision';84.96 days;
+Minimum time from Original Manuscript Submission Confirmation to SW-Reviewer Agreed;The minimum of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-Reviewer Agreed';5.20 days;
+Total waiting time to the SW-Reviewer Agreed in the longest process variant;"ERROR: computing metric {'begin': '', 'end': activity == 'SW-Reviewer Agreed'"", 'aggregation': 'total', 'group_by': 'case:variant'}""";;
+Time to SW-Reviewer Agreed since the SW-Awaiting Checklist Completion;The average of the duration between activity 'SW-Awaiting Checklist Completion' and activity 'SW-Reviewer Agreed';28.75 days;
+Minimum time it takes the SW-Reviewer Agreed to be done compared to the minimum time for RSW-Reviewer Agreed;The minimum of the duration between the start of the case and activity 'SW-Reviewer Agreed';5.20 days;
+Minimum time it takes SW-Reviewer Agreed after the execution of SW-Reviewer Selection is 1 week late;The minimum of the duration between activity 'SW-Reviewer Selection is 1 week late' and activity 'SW-Reviewer Agreed';37.69 days;
+Total time since the SW-AE Assign Reviewers Challenge Paper and SW-Reviewer Agreed are performed;The sum of the duration between activity 'SW-AE Assign Reviewers Challenge Paper' and activity 'SW-Reviewer Agreed';24.09 days;
+Ratio of average time for SW-Reviewer Agreed to average time for RW-Reviewer Agreed;The average of the duration between the start of the case and activity 'SW-Reviewer Agreed';28.09 days;
+Percentage of total case time spent waiting for SW-Reviewer Agreed;The average of the duration between the start of the case and activity 'SW-Reviewer Agreed';28.09 days;
+Minimum time for SW-Reviewer Agreed in cases that were eventually accepted (RW-EIC Accept);The minimum of the duration between the start of the case and activity 'SW-Reviewer Agreed';5.20 days;
+Minimum time to SW-Reviewer Agreed grouped by the presence of a Co-Author Account Created During Manuscript Submission event;"ERROR: computing metric {'begin': '', 'end': activity == 'SW-Reviewer Agreed'"", 'aggregation': 'minimum', 'group_by': 'case:has_CoAuthor_Account'}""";;
+Minimum waiting time to the SW-Reviewer Agreed after the manuscript passes the SW-Checklist Completed;The minimum of the duration between activity 'SW-Checklist Completed' and activity 'SW-Reviewer Agreed';14.41 hours;
+The time between the last SW-AE Assign Reviewers and the first SW-Reviewer Agreed in a case;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;

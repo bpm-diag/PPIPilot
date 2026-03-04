@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait' activities that are followed by 'Accepted + In Progress' within the same case;Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Frequency of 'Accepted + Wait' compared to the frequency of 'Accepted + Wait - User';Frequency of activity 'Accepted + Wait' for cases where activity 'Accepted + Wait - User' occurs;564.0;
+Percentage of cases where 'Accepted + Wait' occurs at least once and ends with 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Number of variants in which 'Accepted + Wait' directly precedes 'Completed + Resolved';Number of 'Accepted + Wait' activities for cases where activity 'Completed + Resolved' occurs;1410.0;
+Percentage of 'Accepted + Wait' occurrences relative to the total occurrences of all 'Accepted + Wait*' activities (including 'Accepted + Wait - User', 'Accepted + Wait - Implementation', etc.);Percentage of 'Accepted + Wait' out of all cases;0.15;
+Frequency of 'Accepted + Wait' in cases with impact level 'High' versus 'Medium' or 'Low';Frequency of activity 'Accepted + Wait';35.0;
+Percentage of process instances containing 'Accepted + Wait' that have a total duration above the median variant performance;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Number of times 'Accepted + Wait' is performed by resources from Brazil compared to other countries;Number of 'Accepted + Wait' activities == 'Brazil' where ma is the last value of resource country;6.0;
+Percentage of variants starting with 'Queued + Awaiting Assignment' that include 'Accepted + Wait' before reaching 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Frequency of 'Accepted + Wait' in the context of product PROD582 versus other products;Frequency of activity 'Accepted + Wait';0.0;
+Percentage of 'Accepted + Wait' events that occur more than once within the same case;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Accepted + Wait';0.03;

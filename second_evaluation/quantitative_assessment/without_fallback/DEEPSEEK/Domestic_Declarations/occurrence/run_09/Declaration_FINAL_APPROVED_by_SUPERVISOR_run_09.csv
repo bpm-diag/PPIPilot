@@ -1,0 +1,25 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration FINAL_APPROVED by SUPERVISOR by STAFF MEMBER;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all cases;;
+Percentage of Declaration FINAL_APPROVED by SUPERVISOR followed by Request Payment;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Request Payment';1.0;
+Percentage of Declaration FINAL_APPROVED by SUPERVISOR that are rejected;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Declaration REJECTED by SUPERVISOR';0.73;
+Number of Declaration FINAL_APPROVED by SUPERVISOR in relation to Declaration APPROVED by ADMINISTRATION;Number of 'Declaration FINAL_APPROVED by SUPERVISOR' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;7924.0;
+Percentage of Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all cases;0.96;
+Number of times Declaration FINAL_APPROVED by SUPERVISOR is performed;Number of 'Declaration FINAL_APPROVED by SUPERVISOR' activities;10131.0;
+Percentage of Declaration FINAL_APPROVED by SUPERVISOR done after Declaration APPROVED by BUDGET OWNER;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Average number of Declaration FINAL_APPROVED by SUPERVISOR;the average of the number of times `ACTIVITY` == 'Declaration FINAL_APPROVED by SUPERVISOR';0.96;
+Total Declaration FINAL_APPROVED by SUPERVISOR done by SYSTEM;Number of 'Declaration FINAL_APPROVED by SUPERVISOR' activities == 'SYSTEM' where ma is the last value of org:resource;10102.0;
+Fraction of Declaration FINAL_APPROVED by SUPERVISOR that are dismissed;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Declaration REJECTED by SUPERVISOR';0.73;
+Total Declaration FINAL_APPROVED by SUPERVISOR performed by STAFF MEMBER;Number of 'Declaration FINAL_APPROVED by SUPERVISOR' activities == 'STAFF MEMBER' where ma is the last value of org:role;;
+Ratio of Declaration FINAL_APPROVED by SUPERVISOR over Declaration APPROVED by ADMINISTRATION;Number of 'Declaration FINAL_APPROVED by SUPERVISOR' activities for cases where activity 'Declaration APPROVED by ADMINISTRATION' occurs;7924.0;
+Occasions how often the Declaration FINAL_APPROVED by SUPERVISOR is performed;Number of 'Declaration FINAL_APPROVED by SUPERVISOR' activities;10131.0;
+The ratio of Declaration FINAL_APPROVED by SUPERVISOR that are not eventually performed;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all cases where 'Payment Handled' does not happen;0.96;
+Frequency of variants containing Declaration FINAL_APPROVED by SUPERVISOR and Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Declaration REJECTED by PRE_APPROVER';0.9;
+Percentage of cases where Declaration FINAL_APPROVED by SUPERVISOR occurs in a variant without any rejection activity;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all cases where 'Declaration REJECTED by EMPLOYEE' does not happen;0.96;
+Frequency of Declaration FINAL_APPROVED by SUPERVISOR preceding Payment Handled;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Payment Handled';1.0;
+Percentage of Declaration FINAL_APPROVED by SUPERVISOR occurring in variants where Declaration APPROVED by BUDGET OWNER is also present;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Average performance time of variants containing Declaration FINAL_APPROVED by SUPERVISOR;the average of the number of times `ACTIVITY` == 'Declaration FINAL_APPROVED by SUPERVISOR';0.96;
+Frequency of Declaration FINAL_APPROVED by SUPERVISOR in variants where Declaration REJECTED by ADMINISTRATION occurred earlier in the case;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Declaration REJECTED by ADMINISTRATION';0.75;
+Percentage of Declaration FINAL_APPROVED by SUPERVISOR in domestic travel declaration cases;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all cases;0.96;
+Frequency of Declaration FINAL_APPROVED by SUPERVISOR in cases where a prior 'Declaration REJECTED by PRE_APPROVER' occurred;Percentage of 'Declaration FINAL_APPROVED by SUPERVISOR' out of all 'Declaration REJECTED by PRE_APPROVER';0.9;
+Number of Declaration FINAL_APPROVED by SUPERVISOR made per year;"ERROR: computing metric {'count': activity == 'Declaration FINAL_APPROVED by SUPERVISOR'"", 'metric_condition': '', 'aggregation': 'total', 'filter': '', 'group_by': 'year'}""";;
+Number of Declaration FINAL_APPROVED by SUPERVISOR where the supervisor and budget owner are the same person;"ERROR: computing metric {'count': activity == 'Declaration FINAL_APPROVED by SUPERVISOR'"", 'metric_condition': '', 'aggregation': 'total', 'filter': 'org:resource == org:resource', 'group_by': ''}""";;

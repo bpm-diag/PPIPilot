@@ -1,0 +1,15 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + Resolved' that are preceded by at least one occurrence of 'Queued + Awaiting Assignment';Percentage of 'Completed + Resolved' out of all 'Queued + Awaiting Assignment';1.0;
+Frequency of 'Completed + Resolved' in variants with total performance duration above the median variant performance;Number of 'Completed + Resolved' activities;6108.0;
+Percentage of 'Completed + Resolved' that directly follow 'Accepted + Wait - User';Percentage of 'Completed + Resolved' out of all 'Accepted + Wait - User';0.98;
+Frequency of 'Completed + Resolved' in cases where 'Completed + In Call' also appears earlier in the trace;Number of 'Completed + Resolved' activities for cases where activity 'Completed + In Call' occurs;154.0;
+Percentage of variants ending with 'Completed + Resolved -> Completed + Closed' relative to all variants containing 'Completed + Resolved';Percentage of 'Completed + Resolved' out of all 'Completed + Closed';1.0;
+Frequency of 'Completed + Resolved' executed by resources from the 'Org line C' organizational unit;Number of 'Completed + Resolved' activities == 'Org line C' where ma is the last value of org:group;;
+Percentage of 'Completed + Resolved' events that occur in high-impact cases (impact = 'High');Percentage of 'Completed + Resolved' out of all cases;0.96;
+Frequency of 'Completed + Resolved' appearing more than once in the same case;Number of 'Completed + Resolved' activities;6108.0;
+Percentage of 'Completed + Resolved' that are not immediately preceded by another 'Completed + Resolved';Percentage of 'Completed + Resolved' out of all cases where 'Completed + Resolved' does not happen;0.75;
+Frequency of 'Completed + Resolved' in variants that include at least one re-queuing (i.e., multiple occurrences of 'Queued + Awaiting Assignment');Number of 'Completed + Resolved' activities for cases where activity 'Queued + Awaiting Assignment' occurs;4908.0;
+Percentage of 'Completed + Resolved' that occur within 24 hours of the first 'Accepted + In Progress' in the case;Percentage of 'Completed + Resolved' out of all 'Accepted + In Progress';0.75;
+Frequency of 'Completed + Resolved' in cases originating from Brazil compared to other countries;Number of 'Completed + Resolved' activities == 'Brazil' where ma is the last value of organization country;;
+Percentage of 'Completed + Resolved' that are part of the top 5 most frequent process variants;Percentage of 'Completed + Resolved' out of all cases;0.75;
+Frequency of 'Completed + Resolved' following 'Accepted + Assigned' without any intervening wait states;Number of 'Completed + Resolved' activities for cases where activity 'Accepted + Assigned' occurs;2101.0;

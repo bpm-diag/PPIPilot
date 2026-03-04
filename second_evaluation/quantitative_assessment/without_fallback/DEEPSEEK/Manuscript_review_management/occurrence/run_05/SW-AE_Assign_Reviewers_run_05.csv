@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Number of SW-AE Assign Reviewers grouped by case:concept:name;"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'aggregation': 'total', 'group_by': 'concept:name', 'filter': '', 'metric_condition': ''}""";;
+Percentage of SW-AE Assign Reviewers before SW-Awaiting EIC Decision;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Awaiting EIC Decision';0.76;
+Percentage of SW-AE Assign Reviewers in variants with high performance time (e.g., > 30 million seconds);Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;
+Fraction of SW-AE Assign Reviewers that are followed by Unassign Editor;Percentage of 'SW-AE Assign Reviewers' out of all 'Unassign Editor';0.64;
+Number of SW-AE Assign Reviewers per case;"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'aggregation': 'total', 'group_by': 'concept:name', 'filter': '', 'metric_condition': ''}""";;
+Percentage of SW-AE Assign Reviewers that are followed by Assign a Different Editor;Percentage of 'SW-AE Assign Reviewers' out of all 'Assign a Different Editor';0.64;
+Percentage of SW-AE Assign Reviewers in the review process for scientific papers;Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;
+Percentage of SW-AE Assign Reviewers that are followed by SW-Reviewer Agreed;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-Reviewer Agreed';0.98;
+Percentage of SW-AE Assign Reviewers in variants with frequency greater than 1;Percentage of 'SW-AE Assign Reviewers' out of all cases;0.49;
+Number of SW-AE Assign Reviewers that are preceded by SW-Reviewer Selection is due in 3 days;Number of 'SW-AE Assign Reviewers' activities for cases where activity 'SW-Reviewer Selection is due in 3 days' occurs;73.0;
+Number of SW-AE Assign Reviewers made per month;"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'aggregation': 'total', 'group_by': 'month'}""";;
+Percentage of SW-AE Assign Reviewers by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;
+Percentage of SW-AE Assign Reviewers in cases that result in SW-EIC Major Revision;Percentage of 'SW-AE Assign Reviewers' out of all 'SW-EIC Major Revision';1.0;
+Total SW-AE Assign Reviewers performed by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'""}""";;
+Average number of SW-AE Assign Reviewers in a month;"ERROR: computing metric {'count': activity == 'SW-AE Assign Reviewers'"", 'aggregation': 'average', 'group_by': 'month'}""";;

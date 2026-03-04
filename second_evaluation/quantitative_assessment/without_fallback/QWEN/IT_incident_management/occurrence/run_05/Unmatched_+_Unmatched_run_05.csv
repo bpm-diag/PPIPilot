@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Unmatched + Unmatched' that appears before 'Completed + In Call' in the same case;Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Number of cases where 'Unmatched + Unmatched' is immediately followed by 'Completed + In Call';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0.0;
+Percentage of 'Unmatched + Unmatched' relative to the total occurrences of 'Accepted + In Progress';Percentage of 'Unmatched + Unmatched' out of all 'Accepted + In Progress';0.0;
+Frequency of 'Unmatched + Unmatched' in variants that do not include 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all cases where 'Completed + In Call' does not happen;0.0;
+Percentage of 'Unmatched + Unmatched' among all non-terminal activities in the log;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Number of variants in which 'Unmatched + Unmatched' occurs without any subsequent 'Completed + In Call';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' does not occur;5.0;
+Ratio of 'Unmatched + Unmatched' occurrences to 'Completed + Resolved' occurrences;Percentage of 'Unmatched + Unmatched' out of all 'Completed + Resolved';0.0;
+Percentage of cases containing 'Unmatched + Unmatched' that eventually reach 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Average number of 'Unmatched + Unmatched' events per case across all variants;the average of the number of times `ACTIVITY` == 'Unmatched + Unmatched';0.0;
+Percentage of 'Unmatched + Unmatched' executed by resources who also perform 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Frequency of 'Unmatched + Unmatched' in high-impact incidents (impact = 'High') compared to its overall frequency;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;

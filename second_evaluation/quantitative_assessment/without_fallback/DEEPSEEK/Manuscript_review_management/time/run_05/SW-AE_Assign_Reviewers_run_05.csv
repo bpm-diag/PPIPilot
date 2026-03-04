@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of total case time spent in the SW-AE Assign Reviewers loop (from first to last assignment);The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-AE Assign Reviewers';16.20 days;
+The time between the first SW-AE Assign Reviewers and the SW-Awaiting EIC Decision;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Awaiting EIC Decision';74.31 days;
+Elapsed time between SW-AE Assign Reviewers and the subsequent reviewer response (Agreed/Declined/Unavailable);The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Time until a reviewer is agreed upon since the manuscript entered SW-Awaiting AE Assignment;The average of the duration between activity 'SW-Awaiting AE Assignment' and activity 'SW-Reviewer Agreed';22.24 days;
+Time from SW-AE Assign Reviewers to SW-Reviewer Selection is now due;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Selection is now due';4.74 days;
+Time to secure two SW-Reviewer Agreed events since the initial SW-AE Assign Reviewers;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-Reviewer Agreed';17.42 days;
+Average duration of SW-AE Assign Reviewers compared to RW-AE Assign Reviewers;The average of the duration between activity SW-AE Assign Reviewers and the end of the case;171.57 days;
+Ratio of time spent in SW-AE Assign Reviewers to time spent in SW-Initial Reviewer Selection;The average of the duration between activity SW-AE Assign Reviewers and the end of the case;171.57 days;
+Difference in SW-AE Assign Reviewers duration between cases with and without SW-Reviewer Unavailable events;The average of the duration between activity 'SW-AE Assign Reviewers' and the end of case where activity 'SW-Reviewer Unavailable occurs;168.60 days;
+Time from SW-AE Assign Reviewers to SW-AE Recommendation overdue;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-AE Recommendation overdue';71.80 days;
+Average time for SW-AE Assign Reviewers in variants containing Reviewer Invitation Reminder 1;The average of the duration between activity 'SW-AE Assign Reviewers' and the end of case where activity 'Reviewer Invitation Reminder 1 occurs;169.60 days;
+Total time invested in SW-AE Assign Reviewers before manuscript rejection (SW-EIC Reject);The sum of the duration between activity SW-AE Assign Reviewers and the end of the case;7892.24 days;
+Time from SW-AE Assign Reviewers Challenge Paper to SW-Reviewer Agreed;The average of the duration between activity 'SW-AE Assign Reviewers Challenge Paper' and activity 'SW-Reviewer Agreed';8.03 days;
+Average time for SW-AE Assign Reviewers grouped by case outcome (e.g., SW-EIC Accept, SW-EIC Reject);"ERROR: computing metric {'begin': activity == 'SW-AE Assign Reviewers'"", 'end': '', 'aggregation': 'average', 'group_by': 'concept:name'}""";;
+SW-AE Assign Reviewers Cycle Time per manuscript revision round (SW vs. RW);"ERROR: computing metric {'begin': activity == 'SW-AE Assign Reviewers'"", 'end': '', 'aggregation': 'average', 'group_by': 'concept:name'}""";;

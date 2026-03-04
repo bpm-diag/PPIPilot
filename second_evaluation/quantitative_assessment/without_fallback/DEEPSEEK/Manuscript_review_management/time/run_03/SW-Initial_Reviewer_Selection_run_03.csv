@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Elapsed time between SW-Initial Reviewer Selection and SW-AE Assign Reviewers Challenge Paper;The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-AE Assign Reviewers Challenge Paper';6.82 days;
+Time until SW-Initial Reviewer Selection from Original Manuscript Submission Confirmation;The average of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-Initial Reviewer Selection';9.26 days;
+Time from SW-Initial Reviewer Selection to SW-Reviewer Selection is now due;The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Reviewer Selection is now due';12.07 days;
+Time of SW-Initial Reviewer Selection relative to the total case duration;The average of the duration between activity SW-Initial Reviewer Selection and the end of the case;148.97 days;
+SW-Initial Reviewer Selection Cycle Time within the manuscript evaluation procedure;The average of the duration between activity SW-Initial Reviewer Selection and the end of the case;148.97 days;
+Average time difference between SW-Initial Reviewer Selection duration and SW-Checklist Completed duration;The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Checklist Completed';4.53 hours;
+Average time difference between SW-Initial Reviewer Selection duration and SW-AE Assign Reviewers duration;The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-AE Assign Reviewers';22.06 days;
+Total time difference between SW-Initial Reviewer Selection duration and Manuscript Export Succeeded duration per case;The sum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'Manuscript Export Succeeded';6212.24 days;
+Minimum time difference between SW-Initial Reviewer Selection duration and Plagiarism Originality Report Completed duration;The minimum of the duration between activity 'SW-Initial Reviewer Selection' and activity 'Plagiarism Originality Report Completed';;
+The ratio of time spent in SW-Initial Reviewer Selection to time spent in SW-Awaiting AE Assignment;The average of the duration between activity 'SW-Initial Reviewer Selection' and activity 'SW-Awaiting AE Assignment';;
+Average time for SW-Initial Reviewer Selection grouped by case outcome (e.g., SW-EIC Reject, SW-EIC Major Revision);"ERROR: computing metric {'begin': activity == 'SW-Initial Reviewer Selection'"", 'end': '', 'aggregation': 'average', 'group_by': 'concept:name'}""";;

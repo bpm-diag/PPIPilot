@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + In Progress' activities that are not followed by any waiting state (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.);Percentage of 'Accepted + In Progress' out of all cases where 'Accepted + Wait - User' does not happen;1.0;
+Frequency of 'Accepted + In Progress' occurring after 'Queued + Awaiting Assignment';Percentage of 'Accepted + In Progress' out of all 'Queued + Awaiting Assignment';1.0;
+Percentage of 'Accepted + In Progress' within the top 5 most frequent process variants;Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Ratio of 'Accepted + In Progress' to 'Completed + In Call' across all cases;Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Number of distinct cases containing at least one 'Accepted + In Progress' activity;Number of 'Accepted + In Progress' activities;22946.0;
+Percentage of 'Accepted + In Progress' activities that occur more than once in the same case;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Accepted + In Progress';0.59;
+Frequency of 'Accepted + In Progress' appearing in variants with performance duration below the median variant duration;Percentage of 'Accepted + In Progress' out of all cases;1.0;
+Percentage of 'Accepted + In Progress' that directly precedes a terminal activity (e.g., 'Completed + In Call', 'Completed + Resolved', 'Completed + Closed', or 'Completed + Cancelled');Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Number of 'Accepted + In Progress' events that are part of variants including 'Completed + In Call';Number of 'Accepted + In Progress' activities for cases where activity 'Completed + In Call' occurs;2600.0;
+Percentage of total 'Accepted + In Progress' occurrences that belong to variants ending in 'Completed + In Call' versus those ending in 'Completed + Closed';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Frequency of consecutive repetitions of 'Accepted + In Progress' (i.e., two or more in a row) in the same case;the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Accepted + In Progress';0.59;
+Percentage of 'Accepted + In Progress' activities that are followed within 24 hours by 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Ratio of variants starting with 'Accepted + In Progress' versus those starting with 'Queued + Awaiting Assignment';Percentage of 'Accepted + In Progress' out of all 'Queued + Awaiting Assignment';1.0;
+Percentage of 'Accepted + In Progress' activities that occur without any intermediate queuing or waiting states before reaching 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Frequency of 'Accepted + In Progress' as the first non-queued activity in cases that eventually reach 'Completed + In Call';Percentage of 'Accepted + In Progress' out of all 'Completed + In Call';1.0;
+Number of 'Accepted + In Progress' events per year, highlighting trends related to incident resolution efficiency;"ERROR: computing metric {'count': activity == 'Accepted + In Progress'"", 'aggregation': 'total', 'group_by': 'year'}""";;

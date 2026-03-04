@@ -1,0 +1,37 @@
+Name;Metric;Value;Agrupation
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR that are not dismissed;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases where 'Declaration REJECTED by MISSING' does not happen;0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR from all Declaration FOR_APPROVAL by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration FOR_APPROVAL by PRE_APPROVER';0.0;
+Number of Declaration FOR_APPROVAL by SUPERVISOR with amounts above 100 euros;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities > 100 where ma is the last value of case:Amount;0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR by STAFF MEMBER;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;;
+Number of Declaration FOR_APPROVAL by SUPERVISOR grouped by org:resource;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities grouped by the last value of org:resource;STAFF MEMBER:1;"{""STAFF MEMBER"":1,""SYSTEM"":0}"
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR by worker;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR followed by Declaration REJECTED by SUPERVISOR;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by SUPERVISOR';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR that are rejected;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by SUPERVISOR';0.0;
+Number of Declaration FOR_APPROVAL by SUPERVISOR in relation to Declaration FOR_APPROVAL by PRE_APPROVER;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities for cases where activity 'Declaration FOR_APPROVAL by PRE_APPROVER' occurs;0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;0.0;
+Number of times Declaration FOR_APPROVAL by SUPERVISOR is performed;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities;1;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR done after Declaration FOR_APPROVAL by ADMINISTRATION;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration FOR_APPROVAL by ADMINISTRATION';0.0;
+Average number of Declaration FOR_APPROVAL by SUPERVISOR per case;the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by SUPERVISOR';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR with an increment;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR with appeal;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by EMPLOYEE';0.0;
+Average number of Declaration FOR_APPROVAL by SUPERVISOR that are followed by Declaration REJECTED by SUPERVISOR;the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by SUPERVISOR' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Declaration REJECTED by SUPERVISOR';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR with penalty;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;;
+Total Declaration FOR_APPROVAL by SUPERVISOR done by STAFF MEMBER;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities == 'STAFF MEMBER' where ma is the last value of org:role;;
+Fraction of Declaration FOR_APPROVAL by SUPERVISOR that are dismissed;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by MISSING';0.01;
+Total Declaration FOR_APPROVAL by SUPERVISOR performed by SYSTEM;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities == 'SYSTEM' where ma is the last value of org:resource;0;
+Ratio of Declaration FOR_APPROVAL by SUPERVISOR over Declaration FOR_APPROVAL by ADMINISTRATION;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration FOR_APPROVAL by ADMINISTRATION';0.0;
+Occasions how often the Declaration FOR_APPROVAL by SUPERVISOR is performed;Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities;1;
+The ratio of Declaration FOR_APPROVAL by SUPERVISOR that are not eventually performed;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases where 'Declaration FINAL_APPROVED by SUPERVISOR' does not happen;0.0;
+Frequency of variants containing Declaration FOR_APPROVAL by SUPERVISOR;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;0.0;
+Percentage of cases where Declaration FOR_APPROVAL by SUPERVISOR is skipped (i.e., variant contains Declaration APPROVED by ADMINISTRATION directly followed by Declaration APPROVED by BUDGET OWNER or Declaration FINAL_APPROVED by SUPERVISOR);Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR occurring in variants that also contain Declaration REJECTED by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by PRE_APPROVER';0.0;
+Average performance (duration) of cases containing Declaration FOR_APPROVAL by SUPERVISOR;the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by SUPERVISOR';0.0;
+Frequency of Declaration FOR_APPROVAL by SUPERVISOR preceding Declaration REJECTED by BUDGET OWNER;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by BUDGET OWNER';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR in domestic declaration cases (based on event log description);Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all cases;0.0;
+Number of Declaration FOR_APPROVAL by SUPERVISOR where the budget owner and supervisor are the same person (implied by description);Number of 'Declaration FOR_APPROVAL by SUPERVISOR' activities == 'BUDGET OWNER' where ma is the last value of org:role;;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR that occur after a Declaration REJECTED by EMPLOYEE and resubmission;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by EMPLOYEE';0.0;
+Frequency of Declaration FOR_APPROVAL by SUPERVISOR in cases that eventually result in Payment Handled;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Payment Handled';0.0;
+Ratio of Declaration FOR_APPROVAL by SUPERVISOR to Declaration REJECTED by SUPERVISOR within the same case;Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration REJECTED by SUPERVISOR';0.0;
+Percentage of Declaration FOR_APPROVAL by SUPERVISOR that are followed by a director approval (if data permits);Percentage of 'Declaration FOR_APPROVAL by SUPERVISOR' out of all 'Declaration APPROVED by BUDGET OWNER';0.0;
+Number of Declaration FOR_APPROVAL by SUPERVISOR made per year;"ERROR: computing metric {'count': activity == 'Declaration FOR_APPROVAL by SUPERVISOR'"", 'aggregation': 'total', 'group_by': 'year'}""";;
+Average number of Declaration FOR_APPROVAL by SUPERVISOR in a month;"ERROR: computing metric {'count': activity == 'Declaration FOR_APPROVAL by SUPERVISOR'"", 'aggregation': 'average', 'group_by': 'month'}""";;

@@ -1,0 +1,2 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Reviewer Declined out of all reviewer response activities (including SW-Reviewer Agreed, SW-Reviewer No Response, and SW-Reviewer Unavailable);"ERROR: computing metric {'count': activity == 'SW-Reviewer Declined'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity == 'SW-Reviewer Agreed' or activity == 'SW-Reviewer No Response' or activity == 'SW-Reviewer Unavailable'""}""";;

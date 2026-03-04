@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of cases where 'Awaiting Assignment to Batch' occurs out of all cases in the event log;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Frequency of 'Awaiting Assignment to Batch' executions relative to the total number of activity executions;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Percentage of variants that include 'Awaiting Assignment to Batch' as a terminal activity;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Number of times 'Awaiting Assignment to Batch' is directly preceded by 'First Look Manuscript Submission Confirmation';Number of 'Awaiting Assignment to Batch' activities;26.0;
+Percentage of 'Awaiting Assignment to Batch' occurrences that follow a successful 'Manuscript Export Succeeded' after an EIC acceptance decision (e.g., 'RW-EIC Accept');Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Frequency of 'Awaiting Assignment to Batch' compared to the frequency of 'SW-Awaiting EIC Decision';Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Awaiting EIC Decision';0.39;
+Percentage of cases where 'Awaiting Assignment to Batch' appears only after at least one revision cycle (i.e., after any 'Revised Manuscript Submission Confirmation');Percentage of 'Awaiting Assignment to Batch' out of all 'Revised Manuscript Submission Confirmation';0.88;
+Number of variants in which 'Awaiting Assignment to Batch' occurs exactly once and marks the end of the editorial workflow;Number of 'Awaiting Assignment to Batch' activities;26.0;
+Percentage of 'Awaiting Assignment to Batch' events that are part of variants ending with a final manuscript export for production;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Frequency of 'Awaiting Assignment to Batch' relative to the total number of checklist- or review-related activities such as 'SW-Checklist Completed' or 'SW-Reviewer Agreed';Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Checklist Completed';0.28;
+Percentage of cases where 'Awaiting Assignment to Batch' follows an EIC acceptance decision ('SW-EIC Accept' or 'RW-EIC Accept') without any subsequent rejection or revision activity;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Accept';1.0;
+Percentage of 'Awaiting Assignment to Batch' occurrences that are immediately followed by no further activities (i.e., terminal state in the case);Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Frequency of 'Awaiting Assignment to Batch' in comparison to other terminal-like activities such as 'Manuscript is Withdrawn' or 'Immediate Reject Decision from the Checklist';Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript is Withdrawn';0.0;
+Percentage of variants containing 'Awaiting Assignment to Batch' that also include at least one occurrence of 'SW-Reviewer Agreed' during the review phase;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Reviewer Agreed';0.39;
+Number of times 'Awaiting Assignment to Batch' occurs in variants that originated from a 'SW-EIC Reject & Resubmit' decision;"ERROR: computing metric {'count': activity == 'Awaiting Assignment to Batch'"", 'aggregation': 'total', 'filter': ""activity == 'SW-EIC Reject & Resubmit'""}""";;

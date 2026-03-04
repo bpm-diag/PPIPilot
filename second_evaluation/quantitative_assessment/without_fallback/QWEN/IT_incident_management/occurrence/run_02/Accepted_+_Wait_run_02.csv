@@ -1,0 +1,10 @@
+Name;Metric;Value;Agrupation
+Number of times 'Accepted + Wait' appears in variants whose total performance exceeds 900,000;Number of 'Accepted + Wait' activities;1461.0;
+Percentage of 'Accepted + Wait' that are directly followed by another 'Accepted + Wait' (e.g., consecutive waits);Percentage of 'Accepted + Wait' out of all 'Accepted + Wait';1.0;
+Frequency of 'Accepted + Wait' in cases that eventually reach 'Completed + Closed';Number of 'Accepted + Wait' activities for cases where activity 'Completed + Closed' occurs;1394.0;
+Percentage of 'Accepted + Wait' relative to the combined frequency of all wait-type activities ('Accepted + Wait - User', 'Accepted + Wait - Implementation', 'Accepted + Wait - Vendor', 'Accepted + Wait - Customer');Percentage of 'Accepted + Wait' out of all 'Accepted + Wait - User';0.23;
+Number of process variants where 'Accepted + Wait' immediately precedes 'Completed + Resolved';Number of 'Accepted + Wait' activities for cases where activity 'Completed + Resolved' occurs;1410.0;
+Percentage of cases containing 'Accepted + Wait' that originate from the VINST incident management system with impact level 'Medium' or 'High';Percentage of 'Accepted + Wait' out of all cases;0.13;
+Frequency of 'Accepted + Wait' occurring between two 'Accepted + In Progress' activities;Number of 'Accepted + Wait' activities for cases where activity 'Accepted + In Progress' occurs;1458.0;
+Percentage of 'Accepted + Wait' events that belong to cases also containing 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Ratio of variants containing 'Accepted + Wait' to variants containing 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;

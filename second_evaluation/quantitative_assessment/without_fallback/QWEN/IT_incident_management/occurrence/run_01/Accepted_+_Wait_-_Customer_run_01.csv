@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Customer' occurrences that appear after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Customer' out of all 'Queued + Awaiting Assignment';0.02;
+Frequency of 'Accepted + Wait - Customer' in variants that eventually lead to 'Completed + Closed';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Completed + Closed' occurs;97.0;
+Percentage of 'Accepted + Wait - Customer' relative to the frequency of 'Accepted + Wait - User';Percentage of 'Accepted + Wait - Customer' out of all 'Accepted + Wait - User';0.01;
+Number of process instances where 'Accepted + Wait - Customer' occurs at least once;Number of 'Accepted + Wait - Customer' activities;99.0;
+Percentage of 'Accepted + Wait - Customer' compared to the total occurrences of all 'Accepted + Wait - *' activities;Percentage of 'Accepted + Wait - Customer' out of all 'Accepted + Wait';0.02;
+Frequency of 'Accepted + Wait - Customer' in cases that also contain 'Completed + In Call';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Completed + In Call' occurs;2.0;
+Percentage of variants containing 'Accepted + Wait - Customer' that have a performance value above the median variant performance;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Number of times 'Accepted + Wait - Customer' is directly preceded by 'Accepted + In Progress';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Accepted + In Progress' occurs;99.0;
+Percentage of 'Accepted + Wait - Customer' among all wait-type activities (i.e., all activities starting with 'Accepted + Wait');Percentage of 'Accepted + Wait - Customer' out of all 'Accepted + Wait';0.02;
+Frequency of 'Accepted + Wait - Customer' in high-impact cases (impact = 'High');Number of 'Accepted + Wait - Customer' activities == 'High' where ma is the last value of impact;10.0;
+Percentage of cases containing 'Completed + In Call' that also include 'Accepted + Wait - Customer';Percentage of 'Accepted + Wait - Customer' out of all 'Completed + In Call';0.0;

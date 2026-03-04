@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Unmatched + Unmatched' that occur before 'Completed + In Call' in the same case;Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Frequency of 'Unmatched + Unmatched' in variants that eventually lead to 'Completed + In Call';Number of 'Unmatched + Unmatched' activities for cases where activity 'Completed + In Call' occurs;0;
+Ratio of 'Unmatched + Unmatched' occurrences to 'Completed + In Call' occurrences in the entire log;Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Percentage of cases containing 'Unmatched + Unmatched' that do not contain 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all cases where 'Completed + In Call' does not happen;0.0;
+Number of variants where 'Unmatched + Unmatched' appears as the first activity;Number of 'Unmatched + Unmatched' activities;5;
+Percentage of 'Unmatched + Unmatched' relative to the total number of 'Queued + Awaiting Assignment' events;Percentage of 'Unmatched + Unmatched' out of all 'Queued + Awaiting Assignment';0.0;
+Frequency of 'Unmatched + Unmatched' grouped by country;Number of 'Unmatched + Unmatched' activities grouped by the last value of organization country;0:0;"{""0"":0,""SE"":0,""au"":0,""be"":0,""br"":0,""ca"":0,""cl"":0,""cn"":0,""de"":0,""fr"":0,""gb"":0,""in"":0,""jp"":0,""kr"":0,""my"":0,""nl"":0,""pe"":0,""pl"":0,""ru"":0,""se"":5,""th"":0,""tr"":0,""us"":0}"
+Number of cases where 'Unmatched + Unmatched' occurs more than once;Number of 'Unmatched + Unmatched' activities;5;
+Percentage of 'Unmatched + Unmatched' events that are not followed by any other activity (i.e., terminal events);Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Ratio of variants containing 'Unmatched + Unmatched' to the total number of distinct variants;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Percentage of 'Unmatched + Unmatched' that appear after 'Completed + In Call' in the same trace;Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Percentage of 'Unmatched + Unmatched' relative to 'Completed + Resolved' occurrences;Percentage of 'Unmatched + Unmatched' out of all 'Completed + Resolved';0.0;
+Percentage of 'Unmatched + Unmatched' executed by resource 'Frederic' compared to all resources;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'org:resource == Frederic'}""";;
+Frequency of 'Unmatched + Unmatched' in high-impact cases (impact = 'High');"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'aggregation': 'total', 'filter': 'impact == High'}""";;
+Number of 'Unmatched + Unmatched' events per year to identify temporal trends;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'aggregation': 'total', 'group_by': 'year'}""";;
+Occasions how often the 'Unmatched + Unmatched' is performed in cases involving product PROD582;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'aggregation': 'total', 'filter': 'product == PROD582'}""";;

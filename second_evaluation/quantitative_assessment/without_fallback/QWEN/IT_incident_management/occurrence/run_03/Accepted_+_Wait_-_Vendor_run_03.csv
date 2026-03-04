@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Ratio of 'Accepted + Wait - Vendor' to 'Accepted + Wait - User' in the entire log;Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait - User';0.04;
+Frequency of 'Accepted + Wait - Vendor' in variants that end with 'Completed + Closed';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + Closed' occurs;294;
+Percentage of cases containing 'Accepted + Wait - Vendor' that have a total duration above the median case duration;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Percentage of 'Accepted + Wait - Vendor' that is preceded by 'Accepted + In Progress';Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + In Progress';0.03;
+Frequency of the path 'Accepted + In Progress → Queued + Awaiting Assignment → Accepted + In Progress → Accepted + Wait - Vendor';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Accepted + In Progress' occurs;298;
+Percentage of 'Accepted + Wait - Vendor' relative to all 'Accepted + Wait - *' activities;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Number of process variants where 'Accepted + Wait - Vendor' appears exactly once;Number of 'Accepted + Wait - Vendor' activities;299;
+Percentage of cases with 'Accepted + Wait - Vendor' that do not contain 'Completed + In Call';Percentage of 'Accepted + Wait - Vendor' out of all cases where 'Completed + In Call' does not happen;0.03;
+Ratio of variants containing 'Accepted + Wait - Vendor' to variants containing 'Completed + In Call';Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + In Call';0.0;
+Average number of 'Accepted + Wait - Vendor' occurrences per case in which it appears;the average of the number of times `ACTIVITY` == 'Accepted + Wait - Vendor';0.04;
+Frequency of 'Accepted + Wait - Vendor' grouped by country;Number of 'Accepted + Wait - Vendor' activities grouped by the last value of organization country;0:0;"{""0"":0,""SE"":1,""au"":3,""be"":26,""br"":41,""ca"":2,""cl"":0,""cn"":1,""de"":0,""fr"":8,""gb"":0,""in"":25,""jp"":0,""kr"":1,""my"":0,""nl"":2,""pe"":0,""pl"":16,""ru"":1,""se"":154,""th"":0,""tr"":0,""us"":18}"
+Percentage of 'Accepted + Wait - Vendor' that occurs before any occurrence of 'Completed + In Call' in the same case;Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + In Call';0.0;
+Number of times 'Accepted + Wait - Vendor' appears in the top 5 most frequent variants;Number of 'Accepted + Wait - Vendor' activities;299;
+Number of 'Accepted + Wait - Vendor' events per year based on time:timestamp;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Vendor'"", 'aggregation': 'total', 'group_by': 'year'}""";;
+Percentage of 'Accepted + Wait - Vendor' events associated with High or Medium impact incidents;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Vendor'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'impact == High'}""";;

@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait' occurrences that are directly followed by 'Accepted + In Progress';Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Frequency of 'Accepted + Wait' compared to the frequency of 'Accepted + Wait - User';Percentage of 'Accepted + Wait' out of all 'Accepted + Wait - User';0.23;
+Percentage of cases where 'Accepted + Wait' occurs at least once before 'Completed + In Call';Percentage of 'Accepted + Wait' out of all 'Completed + In Call';0.04;
+Number of distinct process variants that include the activity 'Accepted + Wait';Number of 'Accepted + Wait' activities;1461.0;
+Percentage of 'Accepted + Wait' executions relative to the total number of 'Accepted + In Progress' executions;Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Frequency of 'Accepted + Wait' in variants that do not contain any 'Completed + In Call' activity;Percentage of 'Accepted + Wait' out of all cases where 'Completed + In Call' does not happen;0.15;
+Percentage of process instances containing 'Accepted + Wait' that have a longer-than-average cycle time compared to all variants;Percentage of 'Accepted + Wait' out of all cases;0.15;
+Frequency of 'Accepted + Wait' occurring between two 'Accepted + In Progress' activities;Percentage of 'Accepted + Wait' out of all 'Accepted + In Progress';0.15;
+Percentage of 'Accepted + Wait' relative to all wait-type activities (including 'Accepted + Wait - User', 'Accepted + Wait - Implementation', 'Accepted + Wait - Vendor', and 'Accepted + Wait - Customer');Percentage of 'Accepted + Wait' out of all 'Accepted + Wait - User';0.23;
+Percentage of 'Accepted + Wait' that appears in high-impact (High or Medium) incidents as recorded in the VINST system;"ERROR: computing metric {'count': activity == 'Accepted + Wait'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'impact == High'}""";;
+Number of times 'Accepted + Wait' is performed per year according to the event log timestamps;"ERROR: computing metric {'count': activity == 'Accepted + Wait'"", 'aggregation': 'total', 'group_by': 'year'}""";;

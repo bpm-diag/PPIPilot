@@ -1,0 +1,11 @@
+Name;Metric;Value;Agrupation
+Time until 'SW-Reviewer Declined' since the 'Original Manuscript Submission Confirmation';The average of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-Reviewer Declined';24.88 days;
+Time from 'SW-Reviewer Declined' to 'Assign a Different Editor';The average of the duration between activity 'SW-Reviewer Declined' and activity 'Assign a Different Editor';165.85 days;
+Average time it takes 'SW-Reviewer Declined' after the execution of 'SW-Reviewer Selection is now due';The average of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-Reviewer Declined';14.37 days;
+Total time spent in 'SW-Reviewer Declined' activities before the first 'SW-Reviewer Agreed' in a case;The sum of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Agreed';459.28 days;
+Minimum resolution time of 'SW-Reviewer Declined' in cases that eventually reach 'RW-EIC Accept';The minimum of the duration between activity 'SW-Reviewer Declined' and activity 'RW-EIC Accept';83.78 days;
+Elapsed time between 'SW-Reviewer Declined' and 'SW-AE Assign Reviewers Challenge Paper' in challenge paper variants;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-AE Assign Reviewers Challenge Paper';7.71 days;
+Average time to 'SW-Reviewer Declined' grouped by the number of preceding 'Reviewer Invitation Reminder' events;The average of the duration between activity 'Reviewer Invitation Reminder 1' and activity 'SW-Reviewer Declined';ADMIN:3.85 minutes;"{""ADMIN"":231000,""AUTHOR"":null,""EIC"":null,""SYSTEM"":1671804052}"
+Total time since the 'SW-Reviewer Declined' and 'SW-Reviewer Agreed' are performed in the same reviewer selection cycle;The sum of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Agreed';459.28 days;
+'SW-Reviewer Declined' Cycle Time within the scientific paper review process;The average of the duration between activity SW-Reviewer Declined and the end of the case;193.60 days;
+Average time for 'SW-Reviewer Declined' in variants containing 'Plagiarism Percent Match Threshold Exceeded' compared to variants without it;The average of the duration between activity 'Plagiarism Percent Match Threshold Exceeded' and activity 'SW-Reviewer Declined';22.25 days;

@@ -1,0 +1,11 @@
+Name;Metric;Value;Agrupation
+The time between a 'SW-Reviewer Declined' and the assignment of a different editor ('Assign a Different Editor');The average of the duration between activity 'SW-Reviewer Declined' and activity 'Assign a Different Editor';165.85 days;
+Time until 'SW-Reviewer Declined' after a 'Reviewer Invitation Reminder 2';The average of the duration between activity 'Reviewer Invitation Reminder 2' and activity 'SW-Reviewer Declined';21.48 days;
+Time from 'SW-Reviewer Declined' to 'Unassign Editor' in challenge paper handling variants;The average of the duration between activity 'SW-Reviewer Declined' and activity 'Unassign Editor';165.85 days;
+'SW-Reviewer Declined' Cycle Time within the initial reviewer selection phase;The average of the duration between activity SW-Reviewer Declined and the end of the case;193.60 days;
+Average time it takes 'SW-Reviewer Declined' after the execution of 'SW-Reviewer Selection is now due';The average of the duration between activity 'SW-Reviewer Selection is now due' and activity 'SW-Reviewer Declined';14.37 days;
+Total resolution time of the reviewer decline event for a specific manuscript;The sum of the duration between activity SW-Reviewer Declined and the end of the case;5614.29 days;
+Elapsed time between consecutive 'SW-Reviewer Declined' events in the same case;The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Declined';9.12 days;
+Time to 'Revised Manuscript Submission Confirmation' since the last 'SW-Reviewer Declined' in a major revision variant;The average of the duration between activity 'SW-Reviewer Declined' and activity 'Revised Manuscript Submission Confirmation';169.66 days;
+Average time from 'SW-Reviewer Declined' to 'SW-Reviewer Selection is 1 week late';The average of the duration between activity 'SW-Reviewer Declined' and activity 'SW-Reviewer Selection is 1 week late';5.97 days;
+Difference in average time for 'SW-Reviewer Declined' between variants ending in 'SW-EIC Reject' and variants ending in 'SW-EIC Major Revision';"ERROR: computing metric {'begin': activity == 'SW-Reviewer Declined'"", 'end': '', 'aggregation': 'average', 'group_by': 'concept:name'}""";;

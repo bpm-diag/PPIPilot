@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Initial Reviewer Selection out of all activity executions in the event log;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Frequency of SW-Initial Reviewer Selection occurrences across all cases;Number of 'SW-Initial Reviewer Selection' activities;65.0;
+Percentage of variants that include SW-Initial Reviewer Selection;Percentage of 'SW-Initial Reviewer Selection' out of all cases;0.65;
+Number of times SW-Initial Reviewer Selection is directly followed by SW-AE Assign Reviewers;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-AE Assign Reviewers' occurs;45.0;
+Percentage of SW-Initial Reviewer Selection activities that are followed by at least one SW-Reviewer Agreed within the same case;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Agreed';0.98;
+Frequency of SW-Initial Reviewer Selection occurring before any reviewer-related reminder (e.g., Reviewer Invitation Reminder 1 or 2);Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'Reviewer Invitation Reminder 1' occurs;42.0;
+Percentage of SW-Initial Reviewer Selection that leads to a final decision (e.g., SW-EIC Accept, SW-EIC Reject, SW-EIC Major Revision, or SW-EIC Minor Revision) within the same variant;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-EIC Accept';1.0;
+Number of variants where SW-Initial Reviewer Selection appears more than once;Number of 'SW-Initial Reviewer Selection' activities;65.0;
+Percentage of SW-Initial Reviewer Selection occurrences that are followed by SW-Reviewer Declined before any SW-Reviewer Agreed;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Declined';0.97;
+Frequency of SW-Initial Reviewer Selection in cases that eventually result in SW-Reviewer Agreed;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'SW-Reviewer Agreed' occurs;45.0;
+Percentage of SW-Initial Reviewer Selection relative to the total number of SW-AE Assign Reviewers executions;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-AE Assign Reviewers';0.98;
+Number of SW-Initial Reviewer Selection activities that occur after Plagiarism Originality Report Completed but before any reviewer assignment action;Number of 'SW-Initial Reviewer Selection' activities for cases where activity 'Plagiarism Originality Report Completed' occurs;63.0;
+Percentage of cases containing SW-Initial Reviewer Selection that also contain SW-Reviewer No Response;Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer No Response';1.0;
+Frequency of SW-Initial Reviewer Selection in variants with performance duration above the median variant duration;Number of 'SW-Initial Reviewer Selection' activities;65.0;
+Percentage of SW-Initial Reviewer Selection that is followed within 7 days by a reviewer status update (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, or SW-Reviewer Unavailable);Percentage of 'SW-Initial Reviewer Selection' out of all 'SW-Reviewer Agreed';0.98;

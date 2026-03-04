@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Customer' that are followed by 'Completed + Resolved';Percentage of 'Accepted + Wait - Customer' out of all 'Completed + Resolved';0.02;
+Frequency of 'Accepted + Wait - Customer' compared to the frequency of 'Accepted + Wait - User';Number of 'Accepted + Wait - Customer' activities;99;
+Percentage of cases where 'Accepted + Wait - Customer' occurs at least once;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Frequency of 'Accepted + Wait - Customer' in variants that eventually lead to 'Completed + Closed';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Completed + Closed' occurs;97;
+Percentage of 'Accepted + Wait - Customer' relative to the total occurrences of all 'Accepted + Wait - *' activities;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Frequency of 'Accepted + Wait - Customer' in high-impact cases (impact = 'High');Number of 'Accepted + Wait - Customer' activities == 'High' where ma is the last value of impact;10;
+Percentage of process variants containing 'Accepted + Wait - Customer' that have a performance duration above the median;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Frequency of 'Accepted + Wait - Customer' occurring after 'Accepted + In Progress' and before 'Completed + Resolved';Number of 'Accepted + Wait - Customer' activities;99;
+Percentage of 'Accepted + Wait - Customer' events that occur in cases also containing 'Completed + In Call';Percentage of 'Accepted + Wait - Customer' out of all 'Completed + In Call';0.0;
+Frequency of 'Accepted + Wait - Customer' grouped by country of origin;Number of 'Accepted + Wait - Customer' activities grouped by the last value of organization country;0:0;"{""0"":0,""SE"":0,""au"":0,""be"":13,""br"":1,""ca"":0,""cl"":0,""cn"":7,""de"":0,""fr"":0,""gb"":1,""in"":7,""jp"":0,""kr"":1,""my"":2,""nl"":0,""pe"":0,""pl"":7,""ru"":1,""se"":45,""th"":0,""tr"":0,""us"":14}"
+Percentage of 'Accepted + Wait - Customer' executed by resources from Brazil versus France or USA;Percentage of 'Accepted + Wait - Customer' out of all cases;0.0;
+Ratio of 'Accepted + Wait - Customer' to 'Accepted + Wait - Vendor' in the entire log;Number of 'Accepted + Wait - Customer' activities;99;
+Frequency of 'Accepted + Wait - Customer' in variants that do not contain any 'Completed + In Call' activity;Number of 'Accepted + Wait - Customer' activities for cases where activity 'Completed + In Call' does not occur;99;
+Percentage of 'Accepted + Wait - Customer' that appear in the longest 10% of process variants by activity count;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Percentage of cases with 'Accepted + Wait - Customer' that ultimately result in 'Completed + Cancelled';Percentage of 'Accepted + Wait - Customer' out of all 'Completed + Cancelled';0.0;
+Frequency of 'Accepted + Wait - Customer' per year to assess temporal trends;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Customer'"", 'metric_condition': '> 0', 'aggregation': 'total', 'group_by': 'year'}""";;

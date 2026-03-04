@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time for Completed + In Call;The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Total time for Completed + In Call;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Minimum time for Completed + In Call;The minimum of the duration between activity Completed + In Call and the end of the case;0.00 seconds;
+Time of Completed + In Call;The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Completed + In Call Cycle Time;The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Average time from Accepted + In Progress to Completed + In Call;The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';8.65 hours;
+Total time from Accepted + In Progress to Completed + In Call;The sum of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';726.71 days;
+Minimum time from Accepted + In Progress to Completed + In Call;The minimum of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';4.00 seconds;
+Average time between Completed + In Call and the next activity in each variant;The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Total duration of cases where Completed + In Call appears, measured from case start to case end;The sum of the duration between activity Completed + In Call and the end of the case;1673.97 days;
+Average time from Completed + In Call to Completed + Resolved in variants where both occur;The average of the duration between activity 'Completed + In Call' and activity 'Completed + Resolved';9.07 days;
+Minimum time from Completed + In Call to Completed + Closed in variants that include both activities;The minimum of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';15.00 seconds;
+Total time elapsed between Queued + Awaiting Assignment and Completed + In Call in relevant variants;The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Completed + In Call';;
+Average duration of Completed + In Call when it directly follows Accepted + In Progress;The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Total time for Completed + In Call grouped by country;The average of the duration between activity 'Completed + In Call' and the end of case grouped by the last value of organization country;0:8.46 days;"{""0"":730980000,""SE"":656483000,""au"":0,""be"":2320899000,""br"":4401500000,""ca"":619330000,""cl"":null,""cn"":10426828000,""de"":null,""fr"":4903990000,""gb"":0,""in"":12076891000,""jp"":null,""kr"":null,""my"":0,""nl"":null,""pe"":null,""pl"":74175693000,""ru"":0,""se"":23059073000,""th"":0,""tr"":null,""us"":11259757000}"
+Average time it takes Completed + In Call after the execution of Accepted + Wait - User;The average of the duration between activity 'Accepted + Wait - User' and activity 'Completed + In Call';8.15 days;
+Time from Completed + In Call to the final resolution (Completed + Closed) in multi-step variants containing Completed + In Call;The average of the duration between activity 'Completed + In Call' and activity 'Completed + Closed';12.45 days;
+Elapsed time between the first occurrence of Accepted + In Progress and Completed + In Call in variants where they are consecutive;The average of the duration between activity 'Accepted + In Progress' and activity 'Completed + In Call';8.65 hours;
+Average time for Completed + In Call compared to the average time for Completed + Resolved in the same case variants;The average of the duration between activity Completed + In Call and the end of the case;19.91 hours;
+Minimum time for Completed + In Call in cases with impact level High;"ERROR: computing metric {'begin': activity == 'Completed + In Call'"", 'end': '', 'aggregation': 'minimum', 'filter': 'impact == High'}""";;

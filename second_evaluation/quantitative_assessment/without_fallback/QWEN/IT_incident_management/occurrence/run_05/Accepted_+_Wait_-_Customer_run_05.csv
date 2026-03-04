@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Customer' that occur after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Customer' out of all 'Queued + Awaiting Assignment';0.02;
+Frequency of 'Accepted + Wait - Customer' in variants that eventually lead to 'Completed + Closed';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Completed + Closed' occurs;97.0;
+Percentage of 'Accepted + Wait - Customer' relative to the frequency of 'Accepted + Wait - User';Percentage of 'Accepted + Wait - Customer' out of all 'Accepted + Wait - User';0.01;
+Frequency of 'Accepted + Wait - Customer' compared to 'Accepted + Wait - Vendor' and 'Accepted + Wait - Implementation';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Accepted + Wait - Vendor' occurs;5.0;
+Percentage of cases containing 'Accepted + Wait - Customer' that also contain 'Completed + In Call';Percentage of 'Accepted + Wait - Customer' out of all 'Completed + In Call';0.0;
+Frequency of 'Accepted + Wait - Customer' in high-impact incidents (impact = 'High');Number of 'Accepted + Wait - Customer' activities == 'High' where ma is the last value of impact;10.0;
+Percentage of 'Accepted + Wait - Customer' that are not followed by any further waiting activities;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Percentage of process variants where 'Accepted + Wait - Customer' appears before 'Completed + In Call';Percentage of 'Accepted + Wait - Customer' out of all 'Completed + In Call';0.0;
+Frequency of 'Accepted + Wait - Customer' in cases that have more than one occurrence of 'Accepted + In Progress';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Accepted + In Progress' occurs;99.0;
+Percentage of 'Accepted + Wait - Customer' executed by resources from non-France countries;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Frequency of transitions from 'Accepted + In Progress' to 'Accepted + Wait - Customer';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Accepted + In Progress' occurs;99.0;
+Percentage of all waiting-type activities (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', etc.) that are specifically 'Accepted + Wait - Customer';Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Frequency of 'Accepted + Wait - Customer' in variants with total performance duration above the median;Number of 'Accepted + Wait - Customer' activities;99.0;
+Percentage of cases where 'Accepted + Wait - Customer' is the only waiting activity before resolution;Percentage of 'Accepted + Wait - Customer' out of all cases;0.01;
+Frequency of 'Accepted + Wait - Customer' appearing in variants that do not include 'Completed + In Call';Number of 'Accepted + Wait - Customer' activities for cases where activity 'Completed + In Call' does not occur;99.0;
+Frequency of 'Accepted + Wait - Customer' per year based on time:timestamp;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Customer'"", 'aggregation': 'total', 'group_by': 'year'}""";;

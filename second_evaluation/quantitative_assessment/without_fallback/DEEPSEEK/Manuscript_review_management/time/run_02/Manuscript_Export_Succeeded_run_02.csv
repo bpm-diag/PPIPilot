@@ -1,0 +1,28 @@
+Name;Metric;Value;Agrupation
+Minimum time since the Manuscript Export Succeeded and SW-Checklist Completed are performed;The minimum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Checklist Completed';1.02 hours;
+Manuscript Export Succeeded duration in the scientific paper quality assurance stage versus the production stage;"ERROR: computing metric {'begin': activity == 'Manuscript Export Succeeded'"", 'end': '', 'aggregation': 'average', 'group_by': 'concept:name'}""";;
+Minimum time for Manuscript Export Succeeded (shortest duration);The minimum of the duration between activity Manuscript Export Succeeded and the end of the case;3.24 hours;
+Time until Manuscript Export Succeeded from the start of the ACM journal review process;The average of the duration between the start of the case and activity 'Manuscript Export Succeeded';76.68 days;
+Minimum time between Manuscript Export Succeeded and Plagiarism Originality Report Completed;The minimum of the duration between activity 'Manuscript Export Succeeded' and activity 'Plagiarism Originality Report Completed';9.03 minutes;
+Minimum time it takes the Manuscript Export Succeeded to be done in variants ending with SW-EIC Reject;The minimum of the duration between activity Manuscript Export Succeeded and the end of the case;3.24 hours;
+Minimum time for Manuscript Export Succeeded in the initial submission stage;The minimum of the duration between activity Manuscript Export Succeeded and the end of the case;3.24 hours;
+Minimum time from Manuscript Export Succeeded to SW-Checklist Completion is due in three days;The minimum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Checklist Completion is due in three days';3.22 days;
+Time from Manuscript Export Succeeded to SW-Reviewer Agreed in the most frequent variant;The average of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Reviewer Agreed';29.26 days;
+Minimum time it takes Manuscript Export Succeeded after the execution of RW-EIC Accept;The minimum of the duration between activity 'RW-EIC Accept' and activity 'Manuscript Export Succeeded';17.36 days;
+Minimum time for Manuscript Export Succeeded in the scientific paper review process;The minimum of the duration between activity Manuscript Export Succeeded and the end of the case;3.24 hours;
+Minimum time for Manuscript Export Succeeded in the review process;The minimum of the duration between activity Manuscript Export Succeeded and the end of the case;3.24 hours;
+Time until Manuscript Export Succeeded from the first author action;The average of the duration between the start of the case and activity 'Manuscript Export Succeeded';76.68 days;
+Minimum time since the Manuscript Export Succeeded and SW-Awaiting AE Assignment are performed;The minimum of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-Awaiting AE Assignment';1.12 hours;
+Time to Manuscript Export Succeeded since the SW-EIC Accept decision;The average of the duration between activity 'SW-EIC Accept' and activity 'Manuscript Export Succeeded';61.83 days;
+Minimum time until Manuscript Export Succeeded is performed in cases with a single export;The minimum of the duration between the start of the case and activity 'Manuscript Export Succeeded';9.00 seconds;
+Total time for Manuscript Export Succeeded across all cases;The sum of the duration between activity Manuscript Export Succeeded and the end of the case;9239.42 days;
+Minimum time it takes the Manuscript Export Succeeded to be done after a major revision decision;The minimum of the duration between activity 'SW-EIC Major Revision' and activity 'Manuscript Export Succeeded';79.60 days;
+Percentage of total case time spent in Manuscript Export Succeeded;The average of the duration between activity Manuscript Export Succeeded and the end of the case;103.81 days;
+Total waiting time to the Manuscript Export Succeeded after a checklist reminder (SW-Checklist Completion is due in three days);The sum of the duration between activity 'SW-Checklist Completion is due in three days' and activity 'Manuscript Export Succeeded';3329.27 days;
+Time of Manuscript Export Succeeded compared to the time of Manuscript is Withdrawn;The average of the duration between activity 'Manuscript Export Succeeded' and activity 'Manuscript is Withdrawn';123.66 days;
+Manuscript Export Succeeded delay after a plagiarism threshold exceedance event;The average of the duration between activity 'Plagiarism Percent Match Threshold Exceeded' and activity 'Manuscript Export Succeeded';268.45 days;
+Manuscript Export Succeeded time in the critical path of the peer-review workflow;The average of the duration between activity Manuscript Export Succeeded and the end of the case;103.81 days;
+Manuscript Export Succeeded time correlation with the number of Co-Author Account Created During Manuscript Submission events;The average of the duration between activity Manuscript Export Succeeded and the end of the case;103.81 days;
+Minimum time between Manuscript Export Succeeded and Plagiarism Originality Report Completed in accepted papers;The minimum of the duration between activity 'Manuscript Export Succeeded' and activity 'Plagiarism Originality Report Completed';9.03 minutes;
+Elapsed time between Manuscript Export Succeeded events in multi-export cases;The average of the duration between activity 'Manuscript Export Succeeded' and activity 'Manuscript Export Succeeded';71.36 days;
+Total time it takes Manuscript Export Succeeded after the execution of Immediate Reject Decision from the Checklist;The sum of the duration between activity 'Immediate Reject Decision from the Checklist' and activity 'Manuscript Export Succeeded';;

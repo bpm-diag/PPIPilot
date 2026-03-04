@@ -1,0 +1,16 @@
+Name;Metric;Value;Agrupation
+Percentage of First Look Manuscript Submission Confirmation out of all activity executions in the event log;Percentage of 'First Look Manuscript Submission Confirmation' out of all cases;0.27;
+Frequency of First Look Manuscript Submission Confirmation occurring after SW-EIC Accept;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'SW-EIC Accept';1.0;
+Percentage of process variants that include First Look Manuscript Submission Confirmation;Percentage of 'First Look Manuscript Submission Confirmation' out of all cases;0.27;
+Number of times First Look Manuscript Submission Confirmation is immediately followed by Awaiting Assignment to Batch;Number of 'First Look Manuscript Submission Confirmation' activities for cases where activity 'Awaiting Assignment to Batch' occurs;26.0;
+Percentage of First Look Manuscript Submission Confirmation occurrences that are part of variants ending with Manuscript Export Succeeded;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'Manuscript Export Succeeded';0.28;
+Frequency of First Look Manuscript Submission Confirmation relative to Original Manuscript Submission Confirmation;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'Original Manuscript Submission Confirmation';0.26;
+Percentage of cases where First Look Manuscript Submission Confirmation appears at least once;Percentage of 'First Look Manuscript Submission Confirmation' out of all cases;0.27;
+Number of First Look Manuscript Submission Confirmation events that occur after a revision cycle (i.e., after RW-EIC Accept);Number of 'First Look Manuscript Submission Confirmation' activities for cases where activity 'RW-EIC Accept' occurs;24.0;
+Percentage of First Look Manuscript Submission Confirmation that is preceded by First Look-Your updates are overdue;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'First Look-Your updates are overdue';0.82;
+Ratio of First Look Manuscript Submission Confirmation to First Look-Please submit updates;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'First Look-Please submit updates';1.0;
+Frequency of First Look Manuscript Submission Confirmation in variants that originate from SW-EIC Major Revision or SW-EIC Minor Revision paths;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'SW-EIC Major Revision';0.87;
+Percentage of First Look Manuscript Submission Confirmation events that lead to Awaiting Assignment to Batch within 7 days;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'Awaiting Assignment to Batch';0.92;
+Number of distinct cases containing First Look Manuscript Submission Confirmation;Number of 'First Look Manuscript Submission Confirmation' activities;27.0;
+Percentage of First Look Manuscript Submission Confirmation occurrences that are part of the final stage of accepted manuscripts;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'Manuscript Export Succeeded';0.28;
+Frequency of First Look Manuscript Submission Confirmation compared to Revised Manuscript Submission Confirmation;Percentage of 'First Look Manuscript Submission Confirmation' out of all 'Revised Manuscript Submission Confirmation';0.92;

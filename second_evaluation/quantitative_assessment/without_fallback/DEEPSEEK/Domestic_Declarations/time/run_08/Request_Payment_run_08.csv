@@ -1,0 +1,37 @@
+Name;Metric;Value;Agrupation
+Average time it takes Request Payment after the execution of Declaration FINAL_APPROVED by SUPERVISOR;The average of the duration between activity 'Declaration FINAL_APPROVED by SUPERVISOR' and activity 'Request Payment';3.29 days;
+Average time from Declaration SAVED by EMPLOYEE to Request Payment;The average of the duration between activity 'Declaration SAVED by EMPLOYEE' and activity 'Request Payment';17.03 days;
+Average waiting time to the Request Payment after Declaration FINAL_APPROVED by SUPERVISOR;The average of the duration between activity 'Declaration FINAL_APPROVED by SUPERVISOR' and activity 'Request Payment';3.29 days;
+Total time until Request Payment is performed;The sum of the duration between the start of the case and activity 'Request Payment';80303.87 days;
+Average time from Declaration REJECTED by BUDGET OWNER to Request Payment;The average of the duration between activity 'Declaration REJECTED by BUDGET OWNER' and activity 'Request Payment';14.87 days;
+Minimum time to Request Payment grouped by org:resource;The minimum of the duration between the start of the case and activity 'Request Payment';STAFF MEMBER:3.11 days;"{""STAFF MEMBER"":268770000,""SYSTEM"":86000}"
+Time until Request Payment;The average of the duration between the start of the case and activity 'Request Payment';8.00 days;
+Average time from Declaration FOR_APPROVAL by ADMINISTRATION to Request Payment;The average of the duration between activity 'Declaration FOR_APPROVAL by ADMINISTRATION' and activity 'Request Payment';8.98 days;
+Total time since the Declaration APPROVED by ADMINISTRATION and Declaration APPROVED by BUDGET OWNER are performed until Request Payment;The sum of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Request Payment';23209.43 days;
+Minimum time for Request Payment;The minimum of the duration between activity Request Payment and the end of the case;2.32 hours;
+Average time from Declaration APPROVED by ADMINISTRATION to Request Payment;The average of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Request Payment';6.02 days;
+Minimum time until Request Payment is performed;The minimum of the duration between the start of the case and activity 'Request Payment';1.43 minutes;
+Minimum time since the Declaration APPROVED by ADMINISTRATION and Declaration APPROVED by BUDGET OWNER are performed until Request Payment;The minimum of the duration between activity 'Declaration APPROVED by ADMINISTRATION' and activity 'Request Payment';15.73 minutes;
+Total waiting time to the Request Payment after Declaration FINAL_APPROVED by SUPERVISOR;The sum of the duration between activity 'Declaration FINAL_APPROVED by SUPERVISOR' and activity 'Request Payment';33061.12 days;
+Average time for Request Payment in variants containing Declaration REJECTED by PRE_APPROVER;The average of the duration between activity 'Request Payment' and the end of case where activity 'Declaration REJECTED by PRE_APPROVER occurs;3.85 days;
+Average time for Request Payment in variants not containing Declaration REJECTED by PRE_APPROVER;The average of the duration between activity 'Request Payment' and the end of case where activity 'Declaration REJECTED by PRE_APPROVER does not occur;3.58 days;
+Total resolution time of Request Payment;The sum of the duration between activity Request Payment and the end of the case;35936.77 days;
+Average time for Request Payment in variants where Declaration APPROVED by BUDGET OWNER is present;The average of the duration between activity 'Request Payment' and the end of case where activity 'Declaration APPROVED by BUDGET OWNER occurs;3.47 days;
+Total time for Request Payment;The sum of the duration between activity Request Payment and the end of the case;35936.77 days;
+Request Payment Cycle Time;The average of the duration between activity Request Payment and the end of the case;3.58 days;
+Total time from Declaration REJECTED by PRE_APPROVER to Request Payment;The sum of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Request Payment';1248.05 days;
+Time from Declaration SUBMITTED by EMPLOYEE to Request Payment;The average of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Request Payment';8.00 days;
+Minimum resolution time of Request Payment;The minimum of the duration between activity Request Payment and the end of the case;2.32 hours;
+Total time between Declaration REJECTED by PRE_APPROVER and Request Payment;The sum of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Request Payment';1248.05 days;
+Difference in total time for Request Payment and total time for Declaration APPROVED by ADMINISTRATION;The sum of the duration between activity Request Payment and the end of the case;35936.77 days;
+Minimum time between Declaration REJECTED by PRE_APPROVER and Request Payment;The minimum of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Request Payment';2.36 hours;
+Minimum time from Declaration REJECTED by PRE_APPROVER to Request Payment;The minimum of the duration between activity 'Declaration REJECTED by PRE_APPROVER' and activity 'Request Payment';2.36 hours;
+Total time between Declaration FINAL_APPROVED by SUPERVISOR and Request Payment;The sum of the duration between activity 'Declaration FINAL_APPROVED by SUPERVISOR' and activity 'Request Payment';33061.12 days;
+Total time from Declaration SUBMITTED by EMPLOYEE to Request Payment;The sum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Request Payment';80286.84 days;
+Total time it takes Request Payment after the execution of Declaration FINAL_APPROVED by SUPERVISOR;The sum of the duration between activity 'Declaration FINAL_APPROVED by SUPERVISOR' and activity 'Request Payment';33061.12 days;
+Minimum time from Declaration SUBMITTED by EMPLOYEE to Request Payment;The minimum of the duration between activity 'Declaration SUBMITTED by EMPLOYEE' and activity 'Request Payment';1.43 minutes;
+Elapsed time between Declaration FINAL_APPROVED by SUPERVISOR and Request Payment;The average of the duration between activity 'Declaration FINAL_APPROVED by SUPERVISOR' and activity 'Request Payment';3.29 days;
+Minimum time it takes the Request Payment to be done;The minimum of the duration between activity Request Payment and the end of the case;2.32 hours;
+The time between the Declaration FINAL_APPROVED by SUPERVISOR and the Request Payment;The average of the duration between activity 'Declaration FINAL_APPROVED by SUPERVISOR' and activity 'Request Payment';3.29 days;
+Average time it takes the Request Payment to be done;The average of the duration between activity Request Payment and the end of the case;3.58 days;
+Average time for Request Payment compared to average time for Payment Handled;The average of the duration between activity Request Payment and the end of the case;3.58 days;

@@ -1,0 +1,25 @@
+Name;Metric;Value;Agrupation
+The ratio of Declaration FOR_APPROVAL by ADMINISTRATION that are not eventually performed;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases where 'Declaration APPROVED by ADMINISTRATION' does not happen;0.0;
+Number of Declaration FOR_APPROVAL by ADMINISTRATION made per year;"ERROR: computing metric {'count': activity == 'Declaration FOR_APPROVAL by ADMINISTRATION'"", 'metric_condition': '', 'aggregation': 'total', 'filter': '', 'group_by': 'year'}""";;
+Total Declaration FOR_APPROVAL by ADMINISTRATION performed by STAFF MEMBER;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities == 'STAFF MEMBER' where ma is the last value of org:role;;
+Percentage of Declaration FOR_APPROVAL by ADMINISTRATION that occur in variants ending with Payment Handled;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Payment Handled';0.0;
+Number of Declaration FOR_APPROVAL by ADMINISTRATION for claims filed within two months after the trip;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities;1.0;
+Total Declaration FOR_APPROVAL by ADMINISTRATION done by SYSTEM;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities == 'SYSTEM' where ma is the last value of org:resource;1.0;
+Percentage of Declaration FOR_APPROVAL by ADMINISTRATION that are rejected;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration REJECTED by ADMINISTRATION';0.0;
+Ratio of Declaration FOR_APPROVAL by ADMINISTRATION over Declaration FOR_APPROVAL by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration FOR_APPROVAL by PRE_APPROVER';0.0;
+Percentage of cases where Declaration FOR_APPROVAL by ADMINISTRATION leads to Declaration REJECTED by ADMINISTRATION;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration REJECTED by ADMINISTRATION';0.0;
+Percentage of Declaration FOR_APPROVAL by ADMINISTRATION with appeal;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;0.0;
+Frequency of process variants containing Declaration FOR_APPROVAL by ADMINISTRATION;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;0.0;
+Number of Declaration FOR_APPROVAL by ADMINISTRATION in relation to Declaration FOR_APPROVAL by SUPERVISOR;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities for cases where activity 'Declaration FOR_APPROVAL by SUPERVISOR' occurs;0.0;
+Average performance (duration) of variants containing Declaration FOR_APPROVAL by ADMINISTRATION;the average of the number of times `ACTIVITY` == 'Declaration FOR_APPROVAL by ADMINISTRATION';0.0;
+Percentage of Declaration FOR_APPROVAL by ADMINISTRATION with penalty;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;0.0;
+Percentage of Declaration FOR_APPROVAL by ADMINISTRATION by SYSTEM;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;0.0;
+Percentage of Declaration FOR_APPROVAL by ADMINISTRATION in domestic trip declarations;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;0.0;
+Average number of Declaration FOR_APPROVAL by ADMINISTRATION in a month;"ERROR: computing metric {'count': activity == 'Declaration FOR_APPROVAL by ADMINISTRATION'"", 'metric_condition': '', 'aggregation': 'average', 'filter': '', 'group_by': 'month'}""";;
+Percentage of Declaration FOR_APPROVAL by ADMINISTRATION followed by Declaration APPROVED by ADMINISTRATION;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration APPROVED by ADMINISTRATION';0.0;
+Occasions how often the Declaration FOR_APPROVAL by ADMINISTRATION is performed;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities;1.0;
+Fraction of Declaration FOR_APPROVAL by ADMINISTRATION that are dismissed;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration REJECTED by ADMINISTRATION';0.0;
+Frequency of Declaration FOR_APPROVAL by ADMINISTRATION in variants where budget owner and supervisor are the same person;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;0.0;
+Percentage of Declaration FOR_APPROVAL by ADMINISTRATION that precede a director approval;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all cases;0.0;
+Percentage of Declaration FOR_APPROVAL by ADMINISTRATION from all Declaration FOR_APPROVAL by PRE_APPROVER;Percentage of 'Declaration FOR_APPROVAL by ADMINISTRATION' out of all 'Declaration FOR_APPROVAL by PRE_APPROVER';0.0;
+Number of times Declaration FOR_APPROVAL by ADMINISTRATION is performed;Number of 'Declaration FOR_APPROVAL by ADMINISTRATION' activities;1.0;

@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time for Accepted + Wait across all process variants;The average of the duration between activity Accepted + Wait and the end of the case;19.23 days;
+Total time spent in Accepted + Wait per case;The sum of the duration between activity Accepted + Wait and the end of the case;21444.92 days;
+Minimum time required to complete Accepted + Wait after its initiation;The minimum of the duration between activity Accepted + Wait and the end of the case;12.00 seconds;
+Time from Accepted + In Progress to Accepted + Wait;The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait';7.99 days;
+Time from Accepted + Wait to Completed + Resolved;The average of the duration between activity 'Accepted + Wait' and activity 'Completed + Resolved';15.69 days;
+Duration of Accepted + Wait compared to the duration of Accepted + Wait - User;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Accepted + Wait - User occurs;22.45 days;
+Duration of Accepted + Wait compared to the duration of Accepted + Wait - Implementation;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Accepted + Wait - Implementation occurs;30.40 days;
+Duration of Accepted + Wait compared to the duration of Accepted + Wait - Vendor;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Accepted + Wait - Vendor occurs;24.49 days;
+Duration of Accepted + Wait compared to the duration of Accepted + Wait - Customer;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Accepted + Wait - Customer occurs;27.41 days;
+Time between Queued + Awaiting Assignment and Accepted + Wait;The average of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait';9.81 days;
+Time from Accepted + Assigned to Accepted + Wait;The average of the duration between activity 'Accepted + Assigned' and activity 'Accepted + Wait';10.27 days;
+Elapsed time between Accepted + Wait and the next occurrence of Accepted + In Progress;The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + In Progress';15.69 days;
+Cycle time of Accepted + Wait when followed by Completed + Resolved;The average of the duration between activity 'Accepted + Wait' and activity 'Completed + Resolved';15.69 days;
+Time until Accepted + Wait is performed after case start;The average of the duration between activity Accepted + Wait and the end of the case;19.23 days;
+Duration of Accepted + Wait in variants that include Completed + In Call versus variants that do not;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + In Call occurs;9.79 days;
+Time from Accepted + Wait to Completed + In Call;The average of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';6.89 days;
+Impact of Accepted + Wait duration on the total resolution time of cases ending with Completed + In Call;The average of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';High:5.10 days;"{""High"":441025666,""Low"":247958536,""Major"":null,""Medium"":2227193222}"
+Time between consecutive occurrences of Accepted + Wait within the same case;The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait';2.44 days;
+Duration of Accepted + Wait in high-impact versus low-impact incidents;The average of the duration between activity 'Accepted + Wait' and the end of case grouped by the last value of impact;High:22.39 days;"{""High"":1934485171,""Low"":1249715693,""Major"":664855000,""Medium"":2098014846}"
+Time from Accepted + Wait to case closure (Completed + Closed);The average of the duration between activity 'Accepted + Wait' and activity 'Completed + Closed';19.98 days;

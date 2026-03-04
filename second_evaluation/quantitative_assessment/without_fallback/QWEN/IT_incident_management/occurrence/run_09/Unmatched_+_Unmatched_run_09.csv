@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Unmatched + Unmatched' relative to the frequency of 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Frequency of cases where 'Unmatched + Unmatched' appears and eventually leads to 'Completed + In Call';Frequency of activity 'Unmatched + Unmatched' for cases where activity 'Completed + In Call' occurs;0;
+Percentage of 'Unmatched + Unmatched' activities that occur in variants with total performance below the median variant performance;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Number of distinct cases containing 'Unmatched + Unmatched';Number of 'Unmatched + Unmatched' activities;5;
+Percentage of 'Unmatched + Unmatched' compared to the most frequent activity ('Accepted + In Progress');Percentage of 'Unmatched + Unmatched' out of all 'Accepted + In Progress';0.0;
+Frequency of 'Unmatched + Unmatched' appearing after 'Queued + Awaiting Assignment';Number of 'Unmatched + Unmatched' activities;5;
+Percentage of variants starting with 'Unmatched + Unmatched' that end in 'Completed + Resolved' or 'Completed + Closed';Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Ratio of 'Unmatched + Unmatched' occurrences to the total number of 'Completed + In Call' occurrences;Percentage of 'Unmatched + Unmatched' out of all 'Completed + In Call';0.0;
+Number of times 'Unmatched + Unmatched' is the only occurrence of its kind in a case;Number of 'Unmatched + Unmatched' activities;5;
+Percentage of 'Unmatched + Unmatched' activities that are not followed by any other activity (i.e., terminal events);Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Percentage of cases containing 'Unmatched + Unmatched' that do not contain 'Completed + In Call';Percentage of 'Unmatched + Unmatched' out of all cases where 'Completed + In Call' does not happen;0.0;
+Average position (step index) of 'Unmatched + Unmatched' within its process variant;the average of the number of times `ACTIVITY` == 'Unmatched + Unmatched';0.0;
+Number of variants where 'Unmatched + Unmatched' immediately precedes 'Completed + In Call';Number of 'Unmatched + Unmatched' activities;5;
+Percentage of all 'Unmatched + Unmatched' events that belong to the top 10% longest-running cases;Percentage of 'Unmatched + Unmatched' out of all cases;0.0;
+Frequency of 'Unmatched + Unmatched' grouped by country (e.g., France, Brazil, USA);Number of 'Unmatched + Unmatched' activities grouped by the last value of organization country;0:0;"{""0"":0,""SE"":0,""au"":0,""be"":0,""br"":0,""ca"":0,""cl"":0,""cn"":0,""de"":0,""fr"":0,""gb"":0,""in"":0,""jp"":0,""kr"":0,""my"":0,""nl"":0,""pe"":0,""pl"":0,""ru"":0,""se"":5,""th"":0,""tr"":0,""us"":0}"
+Frequency of 'Unmatched + Unmatched' in high-impact (High or Medium) incidents versus low-impact incidents;"ERROR: computing metric {'count': activity == 'Unmatched + Unmatched'"", 'aggregation': 'total', 'filter': 'impact == High'}""";;

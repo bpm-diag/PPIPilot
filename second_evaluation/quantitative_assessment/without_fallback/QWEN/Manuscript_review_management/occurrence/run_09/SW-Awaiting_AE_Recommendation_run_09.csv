@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Recommendation in the entire event log;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Frequency of SW-Awaiting AE Recommendation occurrences across all cases;Number of 'SW-Awaiting AE Recommendation' activities;37.0;
+Percentage of variants that include SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Frequency of SW-Awaiting AE Recommendation followed by SW-Awaiting EIC Decision;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Awaiting EIC Decision' occurs;36.0;
+Percentage of SW-Awaiting AE Recommendation that occur after SW-Reviewer Agreed;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Frequency of SW-Awaiting AE Recommendation preceded by SW-Reviewer No Response;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer No Response' occurs;4.0;
+Percentage of SW-Awaiting AE Recommendation out of all activities occurring after reviewer assignment (e.g., SW-AE Assign Reviewers);Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-AE Assign Reviewers';0.5;
+Frequency of SW-Awaiting AE Recommendation in cases where at least one SW-Reviewer Agreed is present;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer Agreed' occurs;25.0;
+Percentage of SW-Awaiting AE Recommendation in variants that eventually lead to SW-EIC Accept;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Accept';1.0;
+Frequency of SW-Awaiting AE Recommendation compared to SW-Awaiting Checklist Completion;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Awaiting Checklist Completion' occurs;37.0;
+Percentage of SW-Awaiting AE Recommendation that are not followed by any AE recommendation activity within 30 days;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Frequency of SW-Awaiting AE Recommendation in cases involving multiple reviewer invitations (e.g., Reviewer Invitation Reminder 1 or 2);Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'Reviewer Invitation Reminder 1' occurs;23.0;
+Percentage of SW-Awaiting AE Recommendation occurring in cases that experienced at least one SW-Reviewer Declined;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Declined';0.59;
+Frequency of SW-Awaiting AE Recommendation relative to the total number of SW-Reviewer Agreed events;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Reviewer Agreed' occurs;25.0;
+Percentage of variants containing SW-Awaiting AE Recommendation that also contain SW-Reviewer Agreed but not SW-Reviewer Declined;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Frequency of SW-Awaiting AE Recommendation in high-duration cases (e.g., performance > 1,000,000 seconds);Number of 'SW-Awaiting AE Recommendation' activities;37.0;
+Percentage of SW-Awaiting AE Recommendation that directly follow a sequence ending with SW-Reviewer Agreed without intervening reviewer changes;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Frequency of SW-Awaiting AE Recommendation in cases that started with Original Manuscript Submission Confirmation and passed through Plagiarism Originality Report Completed;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'Plagiarism Originality Report Completed' occurs;36.0;
+Percentage of SW-Awaiting AE Recommendation occurring after exactly three distinct reviewer-related activities (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, SW-Reviewer No Response);Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Frequency of SW-Awaiting AE Recommendation in cases that never reach SW-Awaiting EIC Decision;Number of 'SW-Awaiting AE Recommendation' activities for cases where activity 'SW-Awaiting EIC Decision' does not occur;37.0;

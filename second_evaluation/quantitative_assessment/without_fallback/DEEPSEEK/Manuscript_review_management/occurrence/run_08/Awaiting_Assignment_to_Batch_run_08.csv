@@ -1,0 +1,26 @@
+Name;Metric;Value;Agrupation
+Percentage of cases that eventually reach Awaiting Assignment to Batch;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Frequency of Awaiting Assignment to Batch per case;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Percentage of Awaiting Assignment to Batch out of all Manuscript Export Succeeded activities;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Number of Awaiting Assignment to Batch that are preceded by First Look Manuscript Submission Confirmation;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'First Look Manuscript Submission Confirmation' occurs;24;
+Percentage of Awaiting Assignment to Batch that are not followed by Manuscript Export Succeeded;Percentage of 'Awaiting Assignment to Batch' out of all cases where 'Manuscript Export Succeeded' does not happen;0.28;
+Percentage of Awaiting Assignment to Batch from all First Look-Please submit updates;Percentage of 'Awaiting Assignment to Batch' out of all 'First Look-Please submit updates';1.0;
+Number of Awaiting Assignment to Batch grouped by case variant;Number of 'Awaiting Assignment to Batch' activities grouped by the last value of code;AER0:0;"{""AER0"":0,""CHK4"":0,""DRSW4"":0,""DRW3"":0,""DSW3"":1,""DSW4"":1,""MSC4"":23,""RJR3"":0,""SW1"":0,""SW12"":0,""SYS1"":0,""SYS11"":0,""SYS2"":0,""SYS5"":1}"
+Percentage of Awaiting Assignment to Batch by sender;Percentage of 'Awaiting Assignment to Batch' out of all cases;catarci@diag.uniroma1.it:0.0;"{""catarci@diag.uniroma1.it"":0.0,""clcabanban@ched.gov.ph"":0.0,""gleb@intentionalinsights.org"":0.0,""marrella@diag.uniroma1.it"":0.25,""onbehalfof@manuscriptcentral.com"":0.2906976744}"
+Percentage of Awaiting Assignment to Batch followed by Manuscript Export Succeeded;Percentage of 'Awaiting Assignment to Batch' out of all 'Manuscript Export Succeeded';0.29;
+Percentage of Awaiting Assignment to Batch done after RW-EIC Accept;Percentage of 'Awaiting Assignment to Batch' out of all 'RW-EIC Accept';0.95;
+Average number of Awaiting Assignment to Batch per case that reaches it;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Ratio of Awaiting Assignment to Batch over First Look Manuscript Submission Confirmation;Percentage of 'Awaiting Assignment to Batch' out of all 'First Look Manuscript Submission Confirmation';0.96;
+Frequency of Awaiting Assignment to Batch in variants containing SW-Reviewer Agreed;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Reviewer Agreed';0.39;
+Percentage of cases with SW-Reviewer Agreed that reach Awaiting Assignment to Batch;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-Reviewer Agreed';0.39;
+Average performance time from SW-Reviewer Agreed to Awaiting Assignment to Batch;the average of the number of times `ACTIVITY` == 'Awaiting Assignment to Batch' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Reviewer Agreed';0.39;
+Percentage of Awaiting Assignment to Batch occurring in variants with RW-EIC Accept;Percentage of 'Awaiting Assignment to Batch' out of all 'RW-EIC Accept';0.95;
+Frequency of Awaiting Assignment to Batch in the scientific paper review process;Percentage of 'Awaiting Assignment to Batch' out of all cases;0.28;
+Ratio of Awaiting Assignment to Batch in accepted cases versus rejected cases;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Accept';1.0;
+Percentage of Awaiting Assignment to Batch that occur after a Major Revision decision;Percentage of 'Awaiting Assignment to Batch' out of all 'SW-EIC Major Revision';0.87;
+Number of Awaiting Assignment to Batch in relation to SW-EIC Reject;Number of 'Awaiting Assignment to Batch' activities for cases where activity 'SW-EIC Reject' occurs;1;
+Percentage of Awaiting Assignment to Batch in variants with immediate checklist rejection;Percentage of 'Awaiting Assignment to Batch' out of all 'Immediate Reject Decision from the Checklist';0.0;
+Average number of activities between Revised Manuscript Submission Confirmation and Awaiting Assignment to Batch;the average of the number of times `ACTIVITY` == 'Awaiting Assignment to Batch' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'Revised Manuscript Submission Confirmation';0.88;
+Number of Awaiting Assignment to Batch per month;"ERROR: computing metric {'count': activity == 'Awaiting Assignment to Batch'"", 'aggregation': 'total', 'filter': '', 'metric_condition': '', 'group_by': 'month'}""";;
+Number of times Awaiting Assignment to Batch is performed per year;"ERROR: computing metric {'count': activity == 'Awaiting Assignment to Batch'"", 'aggregation': 'total', 'filter': '', 'metric_condition': '', 'group_by': 'year'}""";;
+Total Awaiting Assignment to Batch performed by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'Awaiting Assignment to Batch'"", 'aggregation': 'total', 'filter': ""sender == 'onbehalfof@manuscriptcentral.com'"", 'metric_condition': '', 'group_by': ''}""";;

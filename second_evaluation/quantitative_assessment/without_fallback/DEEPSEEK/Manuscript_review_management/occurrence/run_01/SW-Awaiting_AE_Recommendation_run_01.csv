@@ -1,0 +1,37 @@
+Name;Metric;Value;Agrupation
+Average number of SW-Awaiting AE Recommendation per case;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'metric_condition': '> 0', 'aggregation': 'average', 'filter': '', 'group_by': 'case'}""";;
+Frequency of the path from SW-Awaiting AE Recommendation to SW-Awaiting EIC Decision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Awaiting EIC Decision';0.59;
+Number of SW-Awaiting AE Recommendation grouped by case outcome (e.g., SW-EIC Major Revision, SW-EIC Accept);"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'metric_condition': '> 0', 'aggregation': 'total', 'filter': '', 'group_by': 'case'}""";;
+Number of times SW-Awaiting AE Recommendation is performed;Frequency of activity 'SW-Awaiting AE Recommendation';36;
+Percentage of SW-Awaiting AE Recommendation done after SW-Reviewer Selection is 1 week late;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Selection is 1 week late';0.29;
+Percentage of SW-Awaiting AE Recommendation by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'"", 'group_by': ''}""";;
+Average number of SW-Awaiting AE Recommendation in a month;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'metric_condition': '> 0', 'aggregation': 'average', 'filter': '', 'group_by': 'month'}""";;
+Percentage of SW-Awaiting AE Recommendation in cases that underwent a Revised Manuscript Submission Confirmation;Percentage of 'SW-Awaiting AE Recommendation' out of all 'Revised Manuscript Submission Confirmation';0.42;
+Percentage of SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Fraction of SW-Awaiting AE Recommendation that are dismissed;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Reject';0.32;
+Number of SW-Awaiting AE Recommendation that are preceded by SW-Reviewer Agreed;Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'SW-Reviewer Agreed' occurs;24;
+Percentage of SW-Awaiting AE Recommendation by worker;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;ADMIN:0.5;"{""ADMIN"":0.5,""AUTHOR"":0.0,""EIC"":0.0,""SYSTEM"":0.3953488372}"
+Ratio of SW-Awaiting AE Recommendation over SW-Reviewer Agreed;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Percentage of SW-Awaiting AE Recommendation that are rejected;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Reject';0.32;
+Average number of SW-Awaiting AE Recommendation that are followed by SW-EIC Accept;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Accept';1.0;
+Percentage of SW-Awaiting AE Recommendation that are followed by SW-EIC Major Revision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Major Revision';0.4;
+Percentage of SW-Awaiting AE Recommendation from all SW-Awaiting AE Assignment;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Awaiting AE Assignment';0.58;
+Number of SW-Awaiting AE Recommendation in variants that eventually result in First Look Manuscript Submission Confirmation;Frequency of activity 'SW-Awaiting AE Recommendation' for cases where activity 'First Look Manuscript Submission Confirmation' occurs;12;
+Ratio of SW-Awaiting AE Recommendation occurrences to total reviewer response activities (SW-Reviewer Agreed + SW-Reviewer Declined + SW-Reviewer Unavailable + SW-Reviewer No Response) in the same case;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Reviewer Agreed';0.52;
+Percentage of SW-Awaiting AE Recommendation with penalty;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Frequency of SW-Awaiting AE Recommendation occurring in the longest variant (performance-wise);Frequency of activity 'SW-Awaiting AE Recommendation';36;
+Percentage of SW-Awaiting AE Recommendation that occur in variants with a high frequency of SW-AE Assign Reviewers;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-AE Assign Reviewers';0.5;
+Percentage of SW-Awaiting AE Recommendation that are not dismissed;Percentage of 'SW-Awaiting AE Recommendation' out of all cases where 'SW-EIC Reject' does not happen;0.39;
+Number of SW-Awaiting AE Recommendation occurrences per case;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'metric_condition': '> 0', 'aggregation': 'total', 'filter': '', 'group_by': 'case'}""";;
+Percentage of cases where SW-Awaiting AE Recommendation leads to a Major Revision decision versus an Accept decision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Major Revision';0.4;
+Frequency of SW-Awaiting AE Recommendation in the scientific paper review process;Frequency of activity 'SW-Awaiting AE Recommendation';36;
+Percentage of SW-Awaiting AE Recommendation out of all SW-Awaiting EIC Decision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-Awaiting EIC Decision';0.59;
+Total SW-Awaiting AE Recommendation done by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'metric_condition': '> 0', 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'"", 'group_by': ''}""";;
+Percentage of SW-Awaiting AE Recommendation with an increment;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Occasions how often the SW-Awaiting AE Recommendation is performed;Frequency of activity 'SW-Awaiting AE Recommendation';36;
+Number of SW-Reviewer Declined activities before SW-Awaiting AE Recommendation;Frequency of activity 'SW-Reviewer Declined' for cases where activity 'SW-Awaiting AE Recommendation' occurs;17;
+Percentage of SW-Awaiting AE Recommendation with appeal;Percentage of 'SW-Awaiting AE Recommendation' out of all cases;0.39;
+Number of SW-Awaiting AE Recommendation made per year;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'metric_condition': '> 0', 'aggregation': 'total', 'filter': '', 'group_by': 'year'}""";;
+Total SW-Awaiting AE Recommendation performed by onbehalfof@manuscriptcentral.com;"ERROR: computing metric {'count': activity == 'SW-Awaiting AE Recommendation'"", 'metric_condition': '> 0', 'aggregation': 'total', 'filter': ""performer == 'onbehalfof@manuscriptcentral.com'"", 'group_by': ''}""";;
+Ratio of SW-Awaiting AE Recommendation to SW-EIC Reject in the overall log;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Reject';0.32;
+Percentage of SW-Awaiting AE Recommendation followed by SW-EIC Minor Revision;Percentage of 'SW-Awaiting AE Recommendation' out of all 'SW-EIC Minor Revision';0.57;

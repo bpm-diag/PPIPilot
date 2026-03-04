@@ -1,0 +1,26 @@
+Name;Metric;Value;Agrupation
+Percentage of Request Payment that occurs after Declaration FINAL_APPROVED by SUPERVISOR;Percentage of 'Request Payment' out of all 'Declaration FINAL_APPROVED by SUPERVISOR';1.0;
+Number of Request Payment activities that are part of variants containing Declaration REJECTED by PRE_APPROVER;Number of 'Request Payment' activities for cases where activity 'Declaration REJECTED by PRE_APPROVER' occurs;72;
+Percentage of Request Payment out of all Request Payment and Payment Handled executions;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Number of Request Payment events preceded by Declaration APPROVED by PRE_APPROVER;Number of 'Request Payment' activities for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;660;
+Percentage of Request Payment that eventually leads to Payment Handled (i.e., not dismissed);Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Percentage of Request Payment from all activities in cases that originally included Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Number of Request Payment with case:Amount above 100 euros;Number of 'Request Payment' activities > 100 where ma is the last value of case:Amount;2303;
+Number of Request Payment grouped by case:BudgetNumber;Number of 'Request Payment' activities grouped by the last value of case:BudgetNumber;budget 86566:10040;"{""budget 86566"":10040}"
+Percentage of Request Payment that follows a re-submission path involving Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Percentage of Request Payment followed by Payment Handled;Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Percentage of Request Payment that occurs in variants without any rejection activity;Percentage of 'Request Payment' out of all cases where 'Declaration REJECTED by PRE_APPROVER' does not happen;0.96;
+Number of Request Payment in relation to Declaration SUBMITTED by EMPLOYEE;Number of 'Request Payment' activities for cases where activity 'Declaration SUBMITTED by EMPLOYEE' occurs;10039;
+Percentage of Request Payment across all activity executions in the event log;Percentage of 'Request Payment' out of all cases;0.96;
+Number of times Request Payment is performed in successful end-to-end reimbursement paths;Number of 'Request Payment' activities for cases where activity 'Payment Handled' occurs;10037;
+Percentage of Request Payment done after Declaration APPROVED by BUDGET OWNER;Percentage of 'Request Payment' out of all 'Declaration APPROVED by BUDGET OWNER';1.0;
+Average number of Request Payment per completed case;the average of the number of times `ACTIVITY` == 'Request Payment';0.96;
+Percentage of Request Payment that appears in variants with repeated submissions due to prior rejections;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Ratio of Request Payment occurrences in variants with Declaration REJECTED by PRE_APPROVER versus variants without any rejection;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Percentage of Request Payment that is part of the most frequent variant (Declaration SUBMITTED by EMPLOYEE → Declaration APPROVED by ADMINISTRATION → Declaration FINAL_APPROVED by SUPERVISOR → Request Payment → Payment Handled);Percentage of 'Request Payment' out of all 'Payment Handled';1.0;
+Fraction of Request Payment that is not eventually followed by Payment Handled;Percentage of 'Request Payment' out of all cases where 'Payment Handled' does not happen;0.96;
+Percentage of Request Payment occurring in domestic declaration reimbursement paths (as described in the log description);Percentage of 'Request Payment' out of all cases;0.96;
+Number of Request Payment activities in cases that passed through Declaration APPROVED by PRE_APPROVER without subsequent rejection;Number of 'Request Payment' activities for cases where activity 'Declaration APPROVED by PRE_APPROVER' occurs;660;
+Percentage of Request Payment that contributes to total performance amount in variants originating from Declaration REJECTED by PRE_APPROVER;Percentage of 'Request Payment' out of all 'Declaration REJECTED by PRE_APPROVER';0.89;
+Percentage of Request Payment executed by SYSTEM resource;"ERROR: computing metric {'count': activity == 'Request Payment'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'org:resource == SYSTEM'}""";;
+Number of Request Payment made per year (2017 vs 2018);"ERROR: computing metric {'count': activity == 'Request Payment'"", 'aggregation': 'total', 'group_by': 'year'}""";;

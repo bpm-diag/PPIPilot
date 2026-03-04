@@ -1,0 +1,17 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Completed + In Call' that occur without being followed by any other activity (i.e., terminal occurrences);Percentage of 'Completed + In Call' out of all cases;0.27;
+Ratio of 'Completed + In Call' to 'Completed + Resolved' in the entire log;Percentage of 'Completed + In Call' out of all 'Completed + Resolved';0.02;
+Percentage of cases containing 'Completed + In Call' that do not proceed to 'Completed + Closed';Percentage of 'Completed + In Call' out of all cases where 'Completed + Closed' does not happen;0.27;
+Frequency of 'Completed + In Call' appearing more than once in the same case;Number of 'Completed + In Call' activities;2018.0;
+Percentage of 'Completed + In Call' occurring in variants with total performance below the median variant duration;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' as the final activity in a case, compared to 'Completed + Closed' and 'Completed + Cancelled';Number of 'Completed + In Call' activities;2018.0;
+Percentage of 'Completed + In Call' preceded by exactly two consecutive 'Accepted + In Progress' activities;Percentage of 'Completed + In Call' out of all 'Accepted + In Progress';0.27;
+Ratio of variants containing 'Completed + In Call' to total number of distinct variants;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of 'Completed + In Call' in high-impact cases (impact = 'High') versus low-impact cases (impact = 'Low');Number of 'Completed + In Call' activities == 'High' where ma is the last value of impact;8.0;
+Percentage of 'Completed + In Call' executed by resources from non-France countries;Percentage of 'Completed + In Call' out of all cases;0.27;
+Frequency of transitions from 'Completed + In Call' back to 'Accepted + In Progress' in looping behavior;Number of 'Completed + In Call' activities for cases where activity 'Accepted + In Progress' occurs;2018.0;
+Percentage of all 'Completed + In Call' events that belong to the top 5 most frequent variants;Percentage of 'Completed + In Call' out of all cases;0.27;
+Ratio of 'Completed + In Call' occurrences in PROD582 versus all other products;Percentage of 'Completed + In Call' out of all cases;0.25;
+Frequency of 'Completed + In Call' occurring within 1 hour of a preceding 'Accepted + In Progress' event;Number of 'Completed + In Call' activities for cases where activity 'Accepted + In Progress' occurs;2018.0;
+Percentage of cases where 'Completed + In Call' is the only completion-type activity (i.e., no 'Completed + Resolved' or 'Completed + Closed' follows);Percentage of 'Completed + In Call' out of all cases where 'Completed + Resolved' does not happen;0.27;
+Frequency of 'Completed + In Call' in variants that include any 'Accepted + Wait' sub-type activity versus those that do not;Number of 'Completed + In Call' activities for cases where activity 'Accepted + Wait' occurs;79.0;

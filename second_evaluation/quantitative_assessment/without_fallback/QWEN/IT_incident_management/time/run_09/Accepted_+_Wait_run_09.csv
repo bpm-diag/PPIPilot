@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Average time for Accepted + Wait across all process variants;The average of the duration between activity Accepted + Wait and the end of the case;19.23 days;
+Total time spent in Accepted + Wait when followed by Completed + Resolved;The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + Resolved';16689.05 days;
+Minimum time for Accepted + Wait in variants that include Completed + In Call;The minimum of the duration between activity Accepted + Wait and the end of the case;12.00 seconds;
+Average duration of Accepted + Wait compared to Accepted + Wait - User;The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait - User';7.88 days;
+Average time from Accepted + In Progress to Accepted + Wait;The average of the duration between activity 'Accepted + In Progress' and activity 'Accepted + Wait';7.99 days;
+Total time between Queued + Awaiting Assignment and Accepted + Wait;The sum of the duration between activity 'Queued + Awaiting Assignment' and activity 'Accepted + Wait';8315.11 days;
+Average time it takes Accepted + Wait to be followed by Completed + Resolved;The average of the duration between activity 'Accepted + Wait' and activity 'Completed + Resolved';15.69 days;
+Minimum time for Accepted + Wait in variants that transition directly to Completed + Closed;The minimum of the duration between activity 'Accepted + Wait' and activity 'Completed + Closed';5.47 minutes;
+Average duration of Accepted + Wait when occurring after Accepted + Assigned;The average of the duration between activity 'Accepted + Assigned' and activity 'Accepted + Wait';10.27 days;
+Total time from Accepted + Wait to Completed + In Call in variants where both activities appear;The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + In Call';364.98 days;
+Average time for Accepted + Wait in cases that also contain Completed + In Call;The average of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + In Call occurs;9.79 days;
+Minimum time between Accepted + Wait and the next occurrence of Accepted + In Progress;The minimum of the duration between activity 'Accepted + Wait' and activity 'Accepted + In Progress';8.00 seconds;
+Average cycle time of Accepted + Wait when it appears in multi-loop variants;The average of the duration between activity Accepted + Wait and the end of the case;19.23 days;
+Total elapsed time from case start to Accepted + Wait in variants containing Completed + In Call;The sum of the duration between activity 'Accepted + Wait' and the end of case where activity 'Completed + In Call occurs;773.45 days;
+Average time for Accepted + Wait compared to Accepted + Wait - Implementation;The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait - Implementation';14.69 days;
+Average time for Accepted + Wait compared to Accepted + Wait - Vendor;The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait - Vendor';11.45 days;
+Average time for Accepted + Wait compared to Accepted + Wait - Customer;The average of the duration between activity 'Accepted + Wait' and activity 'Accepted + Wait - Customer';18.45 days;
+Total time from Accepted + Wait to Completed + Closed in end-to-end resolution paths;The sum of the duration between activity 'Accepted + Wait' and activity 'Completed + Closed';20975.19 days;
+Minimum time for Accepted + Wait in high-impact cases (impact = 'High');The minimum of the duration between activity Accepted + Wait and the end of the case;7.40 hours;
+Average duration of Accepted + Wait grouped by country;The average of the duration between activity 'Accepted + Wait' and the end of case grouped by the last value of organization country;0:47.42 days;"{""0"":4097334000,""SE"":1369167666,""au"":5513536500,""be"":1689235284,""br"":722265933,""ca"":750344666,""cl"":null,""cn"":549380548,""de"":13862071000,""fr"":1686414069,""gb"":1775220375,""in"":1200619775,""jp"":2178798333,""kr"":1614754500,""my"":850498000,""nl"":8261096538,""pe"":null,""pl"":931468160,""ru"":1492488631,""se"":2250532740,""th"":null,""tr"":null,""us"":1098297987}"

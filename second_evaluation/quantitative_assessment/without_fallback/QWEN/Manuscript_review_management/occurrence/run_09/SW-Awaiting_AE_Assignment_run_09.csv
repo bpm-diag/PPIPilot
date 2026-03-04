@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting AE Assignment out of all activity executions in the event log;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment across all cases;Number of 'SW-Awaiting AE Assignment' activities;58.0;
+Percentage of variants that include SW-Awaiting AE Assignment;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Percentage of SW-Awaiting AE Assignment followed by SW-Initial Reviewer Selection;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Initial Reviewer Selection';0.6;
+Percentage of SW-Awaiting AE Assignment that occurs after SW-Checklist Completed;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Checklist Completed';0.7;
+Frequency of SW-Awaiting AE Assignment compared to SW-Awaiting EIC Decision;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Awaiting EIC Decision' occurs;35.0;
+Percentage of SW-Awaiting AE Assignment that is not followed by any reviewer assignment activity (e.g., SW-AE Assign Reviewers);Percentage of 'SW-Awaiting AE Assignment' out of all cases where 'SW-AE Assign Reviewers' does not happen;0.61;
+Frequency of SW-Awaiting AE Assignment in variants that end with SW-EIC Reject;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-EIC Reject' occurs;28.0;
+Percentage of SW-Awaiting AE Assignment occurring before any plagiarism-related activity (e.g., Plagiarism Originality Report Completed);Percentage of 'SW-Awaiting AE Assignment' out of all 'Plagiarism Originality Report Completed';0.63;
+Frequency of SW-Awaiting AE Assignment relative to SW-Awaiting Checklist Completion;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Awaiting Checklist Completion' occurs;58.0;
+Percentage of cases where SW-Awaiting AE Assignment appears exactly once;the average of the function base == 1 where base is the number of times `ACTIVITY` == 'SW-Awaiting AE Assignment';0.6;
+Frequency of SW-Awaiting AE Assignment in variants leading to acceptance (e.g., ending with RW-EIC Accept or SW-EIC Accept);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-EIC Accept' occurs;3.0;
+Percentage of SW-Awaiting AE Assignment that is immediately preceded by Original Manuscript Submission Confirmation;Percentage of 'SW-Awaiting AE Assignment' out of all 'Original Manuscript Submission Confirmation';0.66;
+Frequency of SW-Awaiting AE Assignment compared to SW-Awaiting AE Recommendation;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-Awaiting AE Recommendation' occurs;33.0;
+Percentage of SW-Awaiting AE Assignment that occurs in the first 24 hours after manuscript submission;Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;
+Frequency of SW-Awaiting AE Assignment in cases involving Co-Author Account Created During Manuscript Submission;Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'Co-Author Account Created During Manuscript Submission' occurs;32.0;
+Percentage of SW-Awaiting AE Assignment followed within three days by SW-Reviewer Selection is due in 1 week;Percentage of 'SW-Awaiting AE Assignment' out of all 'SW-Reviewer Selection is due in 1 week';0.57;
+Frequency of SW-Awaiting AE Assignment across different case types (e.g., challenge papers vs. regular submissions, inferred from activity patterns like SW-AE Assign Reviewers Challenge Paper);Number of 'SW-Awaiting AE Assignment' activities for cases where activity 'SW-AE Assign Reviewers Challenge Paper' occurs;2.0;
+Percentage of SW-Awaiting AE Assignment that is never succeeded by any reviewer response (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, or SW-Reviewer No Response);Percentage of 'SW-Awaiting AE Assignment' out of all cases where 'SW-Reviewer Agreed' does not happen;0.61;
+Ratio of SW-Awaiting AE Assignment to total number of “awaiting”-type activities (e.g., SW-Awaiting Checklist Completion, SW-Awaiting EIC Decision, etc.);Percentage of 'SW-Awaiting AE Assignment' out of all cases;0.61;

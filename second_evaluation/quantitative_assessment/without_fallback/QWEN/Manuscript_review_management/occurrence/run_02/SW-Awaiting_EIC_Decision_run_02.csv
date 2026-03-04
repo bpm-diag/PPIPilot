@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of SW-Awaiting EIC Decision out of all activity executions in the event log;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Number of times SW-Awaiting EIC Decision occurs in the entire event log;Number of 'SW-Awaiting EIC Decision' activities;60.0;
+Percentage of variants that include SW-Awaiting EIC Decision as a step in the review process;Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Frequency of SW-Awaiting EIC Decision being directly preceded by SW-Awaiting AE Recommendation;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Awaiting AE Recommendation';0.97;
+Percentage of SW-Awaiting EIC Decision occurrences that are followed by SW-EIC Accept;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Percentage of SW-Awaiting EIC Decision occurrences that are followed by SW-EIC Reject;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Reject';0.47;
+Frequency of SW-Awaiting EIC Decision appearing in variants that eventually lead to manuscript acceptance (e.g., followed by SW-EIC Accept or RW-EIC Accept);Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-EIC Accept';1.0;
+Percentage of SW-Awaiting EIC Decision occurrences relative to the total number of SW-Awaiting AE Recommendation executions;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Awaiting AE Recommendation';0.97;
+Number of distinct case IDs (manuscripts) that reach the SW-Awaiting EIC Decision stage;Number of 'SW-Awaiting EIC Decision' activities;60.0;
+Percentage of SW-Awaiting EIC Decision occurrences that appear after at least one instance of SW-Reviewer Agreed in the same case;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Agreed';0.98;
+Frequency of SW-Awaiting EIC Decision occurring in variants with more than three reviewer-related activities (e.g., SW-Reviewer Agreed, SW-Reviewer Declined, SW-Reviewer No Response);Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Agreed';0.98;
+Percentage of SW-Awaiting EIC Decision steps that occur within 30 days of the original manuscript submission;the average of the function base < 30 where base is the number of times `ACTIVITY` == 'SW-Awaiting EIC Decision';1.0;
+Ratio of SW-Awaiting EIC Decision to SW-Awaiting AE Assignment across all cases;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Awaiting AE Assignment';0.61;
+Percentage of SW-Awaiting EIC Decision occurrences that are not followed by any further EIC decision activity (indicating potential stagnation);Percentage of 'SW-Awaiting EIC Decision' out of all cases where 'SW-EIC Accept' does not happen;0.63;
+Percentage of SW-Awaiting EIC Decision occurrences that occur after exactly two or more SW-Reviewer Agreed activities in the same case;Percentage of 'SW-Awaiting EIC Decision' out of all 'SW-Reviewer Agreed';0.98;
+Number of SW-Awaiting EIC Decision instances that are part of the longest-running variants (top 10% by duration);Number of 'SW-Awaiting EIC Decision' activities;60.0;
+Percentage of SW-Awaiting EIC Decision occurrences that follow a path including Immediate Reject Decision from the Checklist;Percentage of 'SW-Awaiting EIC Decision' out of all 'Immediate Reject Decision from the Checklist';0.0;
+Frequency of SW-Awaiting EIC Decision being the last recorded activity in a case (i.e., no subsequent events logged);Percentage of 'SW-Awaiting EIC Decision' out of all cases;0.63;
+Percentage of SW-Awaiting EIC Decision steps that occur in cases where the initial checklist was completed without reminders (i.e., no “SW-Checklist Completion is due” activities);Percentage of 'SW-Awaiting EIC Decision' out of all cases where 'SW-Checklist Completion is due in three days' does not happen;0.63;
+Frequency of SW-Awaiting EIC Decision appearing in variants that include multiple revision cycles (e.g., contain both SW–Major Revision due in... and RW–Major Revision due in...);"ERROR: computing metric {'count': activity == 'SW-Awaiting EIC Decision'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': ""activity == 'SW–Major Revision due in 1 week'""}""";;

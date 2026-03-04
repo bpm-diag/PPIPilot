@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Time until SW-EIC Reject;The average of the duration between the start of the case and activity 'SW-EIC Reject';28.46 days;
+SW-EIC Reject Cycle Time;The average of the duration between the start of the case and activity 'SW-EIC Reject';28.46 days;
+Average time from SW-Checklist Completed to SW-EIC Reject compared to the average time from SW-Checklist Completed to SW-EIC Accept;The average of the duration between activity 'SW-Checklist Completed' and activity 'SW-EIC Reject';25.43 days;
+Average time until SW-EIC Reject compared to the average time until SW-EIC Major Revision;The average of the duration between the start of the case and activity 'SW-EIC Reject';28.46 days;
+Average duration of the SW-EIC Reject activity compared to the average duration of the SW-EIC Accept activity;The average of the duration between activity SW-EIC Reject and the end of the case;1.42 minutes;
+Average time from SW-Awaiting AE Assignment to SW-EIC Reject in the variant ending with SW-EIC Reject versus variants ending with other EIC decisions;The average of the duration between activity SW-Awaiting AE Assignment and activity SW-EIC Reject for cases where activity SW-EIC Reject occurs;19.06 days;
+Total time from manuscript submission (Original Manuscript Submission Confirmation) to SW-EIC Reject;The sum of the duration between activity 'Original Manuscript Submission Confirmation' and activity 'SW-EIC Reject';917.59 days;
+Average time from the start of the review process (SW-Awaiting Checklist Completion) to SW-EIC Reject;The average of the duration between activity 'SW-Awaiting Checklist Completion' and activity 'SW-EIC Reject';27.69 days;
+Time between the final reviewer agreement (SW-Reviewer Agreed) and the SW-EIC Reject decision;The average of the duration between activity 'SW-Reviewer Agreed' and activity 'SW-EIC Reject';73.21 days;
+Average time from the last reviewer activity (SW-Reviewer Agreed/Declined/Unavailable) to SW-EIC Reject;The average of the duration between the start of the case and activity 'SW-EIC Reject';28.46 days;
+Elapsed time between the completion of the initial review phase (SW-Awaiting EIC Decision) and the SW-EIC Reject decision;The average of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Reject';17.41 hours;
+Average time for the SW-EIC Reject decision phase compared to the average time for the SW-EIC Major Revision decision phase;The average of the duration between activity SW-EIC Reject and the end of the case;1.42 minutes;
+Minimum time from the first reviewer invitation (SW-AE Assign Reviewers) to SW-EIC Reject;The minimum of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Reject';46.52 days;
+Total time spent in activities preceding SW-EIC Reject compared to the total time spent in activities preceding SW-EIC Accept;The sum of the duration between the start of the case and activity 'SW-EIC Reject';967.56 days;
+Average time from SW-Awaiting AE Recommendation to SW-EIC Reject;The average of the duration between activity 'SW-Awaiting AE Recommendation' and activity 'SW-EIC Reject';4.82 days;
+Time from the last editor assignment (SW-AE Assign Reviewers) to SW-EIC Reject;The average of the duration between activity 'SW-AE Assign Reviewers' and activity 'SW-EIC Reject';76.11 days;
+Average time between the completion of plagiarism check (Plagiarism Originality Report Completed) and SW-EIC Reject;The average of the duration between activity 'Plagiarism Originality Report Completed' and activity 'SW-EIC Reject';27.06 days;
+Time to SW-EIC Reject since the manuscript export (Manuscript Export Succeeded);The average of the duration between activity 'Manuscript Export Succeeded' and activity 'SW-EIC Reject';27.80 days;
+Average resolution time of the SW-EIC Reject decision activity;The average of the duration between activity SW-EIC Reject and the end of the case;1.42 minutes;
+Average time it takes SW-EIC Reject after the execution of SW-Awaiting EIC Decision;The average of the duration between activity 'SW-Awaiting EIC Decision' and activity 'SW-EIC Reject';17.41 hours;

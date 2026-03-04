@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Wait - Vendor' that occur after 'Queued + Awaiting Assignment';Percentage of 'Accepted + Wait - Vendor' out of all 'Queued + Awaiting Assignment';0.04;
+Frequency of 'Accepted + Wait - Vendor' in variants that end with 'Completed + Closed';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Completed + Closed' occurs;294.0;
+Percentage of 'Accepted + Wait - Vendor' relative to the frequency of 'Accepted + Wait - User';Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + Wait - User';0.04;
+Frequency of 'Accepted + Wait - Vendor' compared to 'Accepted + Wait - Implementation';Number of 'Accepted + Wait - Vendor' activities for cases where activity 'Accepted + Wait - Implementation' occurs;32.0;
+Percentage of cases containing 'Accepted + Wait - Vendor' that also contain 'Completed + In Call';Percentage of 'Accepted + Wait - Vendor' out of all 'Completed + In Call';0.0;
+Frequency of 'Accepted + Wait - Vendor' in high-impact incidents (impact = 'High');Number of 'Accepted + Wait - Vendor' activities == 'High' where ma is the last value of impact;25.0;
+Percentage of 'Accepted + Wait - Vendor' occurrences in variants with total performance duration above the median;Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Percentage of 'Accepted + Wait - Vendor' that are directly preceded by 'Accepted + In Progress';Percentage of 'Accepted + Wait - Vendor' out of all 'Accepted + In Progress';0.03;
+Frequency of 'Accepted + Wait - Vendor' in cases handled by resources from non-France countries;Number of 'Accepted + Wait - Vendor' activities != 'France' where ma is the last value of resource country;299.0;
+Percentage of 'Accepted + Wait - Vendor' within the top 5 most frequent waiting-type activities ('Accepted + Wait - User', 'Accepted + Wait - Implementation', 'Accepted + Wait - Vendor', 'Accepted + Wait - Customer', 'Accepted + Wait');Percentage of 'Accepted + Wait - Vendor' out of all cases;0.03;
+Frequency of 'Accepted + Wait - Vendor' per year based on time:timestamp;"ERROR: computing metric {'count': activity == 'Accepted + Wait - Vendor'"", 'aggregation': 'total', 'group_by': 'year'}""";;

@@ -1,0 +1,12 @@
+Name;Metric;Value;Agrupation
+Percentage of 'Accepted + Assigned' occurrences that are followed by 'Accepted + In Progress';Percentage of 'Accepted + Assigned' out of all 'Accepted + In Progress';0.24;
+Frequency of 'Accepted + Assigned' in variants with performance duration below the median variant performance;Percentage of 'Accepted + Assigned' out of all cases;0.24;
+Percentage of 'Accepted + Assigned' executions that occur before any 'Completed + In Call' within the same case;Percentage of 'Accepted + Assigned' out of all 'Completed + In Call';0.02;
+Number of variants where 'Accepted + Assigned' appears more than once;Number of 'Accepted + Assigned' activities;3121.0;
+Percentage of cases containing 'Accepted + Assigned' that do not contain 'Completed + In Call';Percentage of 'Accepted + Assigned' out of all cases where 'Completed + In Call' does not happen;0.24;
+Frequency of 'Accepted + Assigned' compared to the frequency of 'Completed + In Call';Percentage of 'Accepted + Assigned' out of all 'Completed + In Call';0.02;
+Percentage of 'Accepted + Assigned' activities that are part of variants ending in 'Completed + Resolved' and 'Completed + Closed';Percentage of 'Accepted + Assigned' out of all 'Completed + Resolved';0.32;
+Number of times 'Accepted + Assigned' is directly followed by a waiting state (e.g., 'Accepted + Wait - User', 'Accepted + Wait - Vendor', 'Accepted + Wait - Implementation', or 'Accepted + Wait');Number of 'Accepted + Assigned' activities for cases where activity 'Accepted + Wait - User' occurs;2045.0;
+Percentage of 'Accepted + Assigned' occurrences that happen after at least one re-queuing (i.e., after a second 'Queued + Awaiting Assignment' in the same case);Percentage of 'Accepted + Assigned' out of all 'Queued + Awaiting Assignment';0.38;
+Percentage of variants containing 'Accepted + Assigned' that also include 'Completed + In Call' as a subsequent activity;Percentage of 'Accepted + Assigned' out of all 'Completed + In Call';0.02;
+Frequency of 'Accepted + Assigned' in high-impact (High or Medium) cases versus low-impact cases;"ERROR: computing metric {'count': activity == 'Accepted + Assigned'"", 'metric_condition': '> 0', 'aggregation': 'percentage', 'filter': 'impact == High'}""";;

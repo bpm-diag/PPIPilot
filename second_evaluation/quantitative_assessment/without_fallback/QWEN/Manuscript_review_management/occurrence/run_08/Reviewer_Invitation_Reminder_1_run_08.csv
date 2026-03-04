@@ -1,0 +1,21 @@
+Name;Metric;Value;Agrupation
+Percentage of cases where 'Reviewer Invitation Reminder 1' occurs before 'SW-Reviewer Agreed';Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Agreed';0.93;
+Number of occurrences of 'Reviewer Invitation Reminder 1' in the entire event log;Number of 'Reviewer Invitation Reminder 1' activities;118.0;
+Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-AE Assign Reviewers' executions;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-AE Assign Reviewers';0.91;
+Number of 'Reviewer Invitation Reminder 1' events that are preceded by 'SW-Reviewer Selection is 3 days late';Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-Reviewer Selection is 3 days late' occurs;32.0;
+Percentage of 'Reviewer Invitation Reminder 1' that are not followed by 'SW-Reviewer Agreed' within 7 days;Percentage of 'Reviewer Invitation Reminder 1' out of all cases where 'SW-Reviewer Agreed' does not happen;0.51;
+Percentage of 'Reviewer Invitation Reminder 1' from all reminder-related activities (e.g., 'Reviewer Invitation Reminder 2');Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 2';1.0;
+Number of variants in which 'Reviewer Invitation Reminder 1' appears at least once;Number of 'Reviewer Invitation Reminder 1' activities;118.0;
+Percentage of 'Reviewer Invitation Reminder 1' occurring in variants that eventually lead to 'SW-EIC Accept';Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-EIC Accept';0.0;
+Number of times 'Reviewer Invitation Reminder 1' is performed per case;the average of the number of times `ACTIVITY` == 'Reviewer Invitation Reminder 1';1.27;
+Percentage of 'Reviewer Invitation Reminder 1' that directly precedes 'SW-Reviewer Agreed' in the same trace;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Agreed';0.93;
+Ratio of 'Reviewer Invitation Reminder 1' over 'SW-Reviewer No Response' across all traces;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer No Response';1.0;
+Percentage of cases where 'Reviewer Invitation Reminder 1' appears more than once before any 'SW-Reviewer Agreed';the average of the function base > 1 where base is the number of times `ACTIVITY` == 'Reviewer Invitation Reminder 1' filtered by the function ma > 0 where ma is the number of times `ACTIVITY` == 'SW-Reviewer Agreed';0.65;
+Number of 'Reviewer Invitation Reminder 1' events occurring after 'SW-Reviewer Selection is 1 week late';Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-Reviewer Selection is 1 week late' occurs;15.0;
+Percentage of 'Reviewer Invitation Reminder 1' in traces that include 'Assign a Different Editor';Percentage of 'Reviewer Invitation Reminder 1' out of all 'Assign a Different Editor';0.73;
+Frequency of 'Reviewer Invitation Reminder 1' compared to the frequency of 'SW-Reviewer Declined' in the same process stage;Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Declined';1.0;
+Percentage of 'Reviewer Invitation Reminder 1' that occur in traces ultimately resulting in rejection ('SW-EIC Reject' or 'SW-EIC Reject & Resubmit');Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-EIC Reject';0.26;
+Number of distinct cases containing 'Reviewer Invitation Reminder 1' followed by no reviewer agreement within 14 days;Number of 'Reviewer Invitation Reminder 1' activities for cases where activity 'SW-Reviewer Agreed' does not occur;118.0;
+Percentage of 'Reviewer Invitation Reminder 1' appearing in the top three most frequent process variants;Percentage of 'Reviewer Invitation Reminder 1' out of all cases;0.51;
+Ratio of 'Reviewer Invitation Reminder 1' to total reviewer-related activities (e.g., 'SW-Reviewer Agreed', 'SW-Reviewer Declined', 'SW-Reviewer Unavailable', 'SW-Reviewer No Response');Percentage of 'Reviewer Invitation Reminder 1' out of all 'SW-Reviewer Agreed';0.93;
+Percentage of 'Reviewer Invitation Reminder 1' that are succeeded by a second reminder ('Reviewer Invitation Reminder 2') without an intervening 'SW-Reviewer Agreed';Percentage of 'Reviewer Invitation Reminder 1' out of all 'Reviewer Invitation Reminder 2';1.0;
